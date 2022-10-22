@@ -108,8 +108,25 @@ hugo new site myblog
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><h1 id="1-安装hugo">1. 安装Hugo</h1>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-安装hugo">1. 安装Hugo</a></li>
+    <li><a href="#2-新建站点">2. 新建站点</a></li>
+    <li><a href="#3-下载主题">3. 下载主题</a></li>
+    <li><a href="#4-启动博客">4. 启动博客</a></li>
+    <li><a href="#5-创建文章">5. 创建文章</a></li>
+    <li><a href="#6-部署到github-page">6. 部署到Github page</a>
+      <ul>
+        <li><a href="#初始化仓库">初始化仓库</a></li>
+        <li><a href="#将所有内容添加到git">将所有内容添加到git</a></li>
+        <li><a href="#提交到git-本地">提交到git 本地</a></li>
+        <li><a href="#关联到远程git">关联到远程git</a></li>
+        <li><a href="#推送到远程git">推送到远程git</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="1-安装hugo">1. 安装Hugo</h2>
 <ul>
 <li>Windows：</li>
 </ul>
@@ -132,7 +149,7 @@ SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 <p><code>snap install hugo</code></p>
 <p>检查是否安装成功：</p>
 <p>输入: <code>hugo version</code>，若出现版本信息则表示安装成功</p>
-<h1 id="2-新建站点">2. 新建站点</h1>
+<h2 id="2-新建站点">2. 新建站点</h2>
 <p>执行以下命令创建新站点：</p>
 <p><code>hugo new site myblog</code></p>
 <p>这个命令会创建一个名为myblog的文件夹，这就是博客的根目录。站点目录结构如下：</p>
@@ -172,7 +189,7 @@ SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 <li><strong>themes</strong></li>
 </ul>
 <p>你使用的hugo主题。</p>
-<h1 id="3-下载主题">3. 下载主题</h1>
+<h2 id="3-下载主题">3. 下载主题</h2>
 <p>Hugo如果没有theme是无法启动的。</p>
 <p>新建完站点后可以在<a href="https://themes.gohugo.io/" target="_blank" rel="noopener noreffer">官方商店</a>选择自己喜欢的主题，点击下载主题会跳转到主题对应的github。</p>
 <p>先把终端路径调整到myblog文件夹的themes目录下，再通过git clone命令添加主题（这里以PaperMod主题为例）：</p>
@@ -180,11 +197,11 @@ SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 git clone https://github.com/adityatelange/hugo-PaperMod.git
 </code></pre><p>将主题添加到配置文件：</p>
 <p><code>$ echo theme = &quot;PaperMod&quot; &gt;&gt; config.toml</code></p>
-<h1 id="4-启动博客">4. 启动博客</h1>
+<h2 id="4-启动博客">4. 启动博客</h2>
 <p>在终端输入：<code>hugo server -D</code>，服务默认会在占用1313 端口。</p>
 <p>执行成功后，会生成一个public 目录，这个目录中的内容就是我们所创建的静态网站的所有内容。</p>
 <p>然后在浏览器中打开 <code>http://localhost:1313</code>就可以看到你的网站了。</p>
-<h1 id="5-创建文章">5. 创建文章</h1>
+<h2 id="5-创建文章">5. 创建文章</h2>
 <p>通过以下命令新建文章：</p>
 <p><code>hugo new posts/helloworld.md</code></p>
 <p>然后会在content目录下生成 名为“helloworld.md” 的文件。</p>
@@ -196,18 +213,19 @@ date: 2022-10-19T21:02:01+08:00
 draft: true
 ---
 </code></pre><p>draft 即 “草稿”，默认值为true，代表此篇内容编译时将被忽略；改为 false，该篇博客才会被编译使用。</p>
-<h1 id="6-部署到github-page">6. 部署到Github page</h1>
+<h2 id="6-部署到github-page">6. 部署到Github page</h2>
 <p>①在Github中添加一个空白repository，仓库名为<code>Github用户名.github.io</code>，不包含任何内容，如 <code>readme.md</code>文件等。由此得到Github中该repository的网址</p>
 <p>②在public 目录下，依次执行下面的命令：</p>
-<p>`# 初始化仓库
-git init</p>
-<h1 id="将所有内容添加到git">将所有内容添加到git</h1>
+<h3 id="初始化仓库">初始化仓库</h3>
+<p>git init</p>
+<h3 id="将所有内容添加到git">将所有内容添加到git</h3>
 <p>git add .</p>
-<h1 id="提交到git-本地">提交到git 本地</h1>
+<h3 id="提交到git-本地">提交到git 本地</h3>
 <p>git commit -m &ldquo;第一次提交&rdquo;</p>
-<h1 id="关联到远程git注意这里需要写你自己的git-地址">关联到远程git，注意这里需要写你自己的git 地址</h1>
+<h3 id="关联到远程git">关联到远程git</h3>
+<p>注意这里需要写你自己的git 地址</p>
 <p>git remote add origin <a href="https://github.com/Github" target="_blank" rel="noopener noreffer">https://github.com/Github</a>用户名/Github用户名.github.io.git</p>
-<h1 id="推送到远程git">推送到远程git</h1>
+<h3 id="推送到远程git">推送到远程git</h3>
 <p>git push origin master`</p>
 <p>③至此就将博客内容托管在了Github上了，通过以下地址即可访问博客：</p>
 <p><code>https://Github用户名.github.io</code></p>
