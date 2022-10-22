@@ -1,16 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Dimple Ads</title>
-        <link>http://example.org/</link>
+        <link>https://chloeekk.github.io/</link>
         <description>Dimple Ads</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Jan 2022 17:45:41 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</lastBuildDate>
+            <atom:link href="https://chloeekk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>如何用Hugo搭建博客并部署到Github page</title>
+    <link>https://chloeekk.github.io/posts/newpost/</link>
+    <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloeekk.github.io/posts/newpost/</guid>
+    <description><![CDATA[1. 安装Hugo  Windows：  先安装choco包管理器，在管理员权限下运行cmd，执行如下命令：
+powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))&quot; # 设置环境变量 SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin 再使用choco 安装 hugo：
+choco install hugo -confirm
+ MacOs：  使用brew 命令安装：
+brew install hugo
+ Linux：  使用snap 命令安装：
+snap install hugo
+检查是否安装成功：
+输入: hugo version，若出现版本信息则表示安装成功
+2. 新建站点 执行以下命令创建新站点：
+hugo new site myblog
+这个命令会创建一个名为myblog的文件夹，这就是博客的根目录。站点目录结构如下：
+├── archetypes │ └── default.md ├── config.toml # 博客站点配置文件 ├── content # 博客文章所在目录 ├── data ├── layouts # 网站布局 ├── static # 静态内容 └── themes # 博客主题  archetypes  内容模板文件，其中包含预配置的首选项（日期、标题、草稿等）。可以用自定义的预配置前端字段创建新的原型。]]></description>
+</item><item>
     <title>Step by Step Guide to Create a Google Ads Campaign</title>
-    <link>http://example.org/posts/first_post/</link>
+    <link>https://chloeekk.github.io/posts/first_post/</link>
     <pubDate>Sun, 23 Jan 2022 17:45:41 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/first_post/</guid>
+    <guid>https://chloeekk.github.io/posts/first_post/</guid>
     <description><![CDATA[For many Google Ads’s beginners, it will be confusing to create a new Google Ads campaign when they hope to start their digital marketing strategy. Here I would like to offer the most detailed step by step guide to create your own first campaign.
 Before follow the steps bellow, please make sure that you have already own a valid Google Ads account. If you do not have such qualified account, please refer to the official guide and create one.]]></description>
 </item></channel>
