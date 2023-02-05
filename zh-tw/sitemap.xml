@@ -2,42 +2,42 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloeekk.github.io/zh-cn/categories/</loc><xhtml:link
+            <loc>https://chloeekk.github.io/zh-tw/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloeekk.github.io/categories/"
                         /><xhtml:link
                         rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloeekk.github.io/zh-tw/categories/"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/categories/"
                         /><xhtml:link
                     rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloeekk.github.io/zh-cn/categories/"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/categories/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/zh-cn/tags/</loc><xhtml:link
+            <loc>https://chloeekk.github.io/zh-tw/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloeekk.github.io/tags/"
                         /><xhtml:link
                         rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloeekk.github.io/zh-tw/tags/"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/tags/"
                         /><xhtml:link
                     rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloeekk.github.io/zh-cn/tags/"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/tags/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/zh-cn/</loc><xhtml:link
+            <loc>https://chloeekk.github.io/zh-tw/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloeekk.github.io/"
                         /><xhtml:link
                         rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloeekk.github.io/zh-tw/"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/"
                         /><xhtml:link
                     rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloeekk.github.io/zh-cn/"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/"
                     /></url></urlset>

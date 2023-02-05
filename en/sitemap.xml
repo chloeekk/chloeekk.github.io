@@ -7,6 +7,10 @@
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/"
                         /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloeekk.github.io/zh-tw/"
+                        /><xhtml:link
                     rel="alternate"
                     hreflang="en"
                     href="https://chloeekk.github.io/"
@@ -20,6 +24,10 @@
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/categories/"
                         /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloeekk.github.io/zh-tw/categories/"
+                        /><xhtml:link
                     rel="alternate"
                     hreflang="en"
                     href="https://chloeekk.github.io/categories/"
@@ -28,6 +36,10 @@
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloeekk.github.io/zh-tw/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
