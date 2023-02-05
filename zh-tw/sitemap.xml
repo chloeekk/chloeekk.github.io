@@ -2,6 +2,54 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://chloeekk.github.io/zh-tw/posts/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloeekk.github.io/posts/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/posts/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/zh-tw/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloeekk.github.io/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/zh-tw/posts/what-does-a-google-ads-specialist-do/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloeekk.github.io/posts/what-does-a-google-ads-specialist-do/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/what-does-a-google-ads-specialist-do/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/posts/what-does-a-google-ads-specialist-do/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/zh-tw/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/"
+                    /></url><url>
             <loc>https://chloeekk.github.io/zh-tw/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -27,17 +75,4 @@
                     rel="alternate"
                     hreflang="zh-tw"
                     href="https://chloeekk.github.io/zh-tw/tags/"
-                    /></url><url>
-            <loc>https://chloeekk.github.io/zh-tw/</loc><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloeekk.github.io/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloeekk.github.io/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-tw"
-                    href="https://chloeekk.github.io/zh-tw/"
                     /></url></urlset>
