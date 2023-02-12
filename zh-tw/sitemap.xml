@@ -43,6 +43,10 @@
                     /></url><url>
             <loc>https://chloeekk.github.io/zh-tw/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
+                        hreflang="en"
+                        href="https://chloeekk.github.io/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/"
+                        /><xhtml:link
+                        rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/"
                         /><xhtml:link
