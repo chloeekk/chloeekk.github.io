@@ -2,19 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloeekk.github.io/zh-tw/posts/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloeekk.github.io/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloeekk.github.io/zh-cn/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-tw"
-                    href="https://chloeekk.github.io/zh-tw/posts/"
-                    /></url><url>
             <loc>https://chloeekk.github.io/zh-tw/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -27,6 +14,19 @@
                     rel="alternate"
                     hreflang="zh-tw"
                     href="https://chloeekk.github.io/zh-tw/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/zh-tw/posts/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloeekk.github.io/posts/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloeekk.github.io/zh-tw/posts/"
                     /></url><url>
             <loc>https://chloeekk.github.io/zh-tw/posts/what-does-a-google-ads-specialist-do/</loc><lastmod>2023-01-26T17:39:15&#43;08:00</lastmod><xhtml:link
                         rel="alternate"

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
+        <title>Chloevolution</title>
         <link>https://chloeekk.github.io/</link>
-        <description>My New Hugo Site</description>
+        <description>Chloevolution</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</lastBuildDate>
             <atom:link href="https://chloeekk.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
@@ -54,10 +54,10 @@ hugo new site myblog
 ├── archetypes │ └── default.md ├── config.toml # 博客站点配置文件 ├── content # 博客文章所在目录 ├── data ├── layouts # 网站布局 ├── static # 静态内容 └── themes # 博客主题  archetypes  内容模板文件，其中包含预配置的首选项（日期、标题、草稿等）。可以用自定义的预配置前端字段创建新的原型。]]></description>
 </item><item>
     <title>Step by Step Guide to Create a Google Ads Campaign</title>
-    <link>https://chloeekk.github.io/posts/first_post/</link>
+    <link>https://chloeekk.github.io/posts/step-by-step-guide-to-create-a-google-ads-campaign/</link>
     <pubDate>Sun, 23 Jan 2022 17:45:41 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://chloeekk.github.io/posts/first_post/</guid>
+    <guid>https://chloeekk.github.io/posts/step-by-step-guide-to-create-a-google-ads-campaign/</guid>
     <description><![CDATA[For many Google Ads’s beginners, it will be confusing to create a new Google Ads campaign when they hope to start their digital marketing strategy. Here I would like to offer the most detailed step by step guide to create your own first campaign.
 Before follow the steps bellow, please make sure that you have already own a valid Google Ads account. If you do not have such qualified account, please refer to the official guide and create one.]]></description>
 </item></channel>

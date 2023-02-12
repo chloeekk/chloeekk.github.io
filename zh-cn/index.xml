@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
+        <title>Chloevolution</title>
         <link>https://chloeekk.github.io/zh-cn/</link>
-        <description>我的全新 Hugo 网站</description>
+        <description>Chloevolution</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</lastBuildDate>
             <atom:link href="https://chloeekk.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>

@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - 我的全新 Hugo 網站</title>
+        <title>Tags - Tag - Chloevolution</title>
         <link>https://chloeekk.github.io/zh-tw/tags/</link>
-        <description>Tags - Tag - 我的全新 Hugo 網站</description>
+        <description>Tags - Tag - Chloevolution</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><atom:link href="https://chloeekk.github.io/zh-tw/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
