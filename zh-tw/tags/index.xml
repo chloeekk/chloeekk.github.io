@@ -1,35 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Chloevolution</title>
-        <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/</link>
+        <link>https://chloeekk.github.io/zh-tw/tags/</link>
         <description>Tags - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 26 Feb 2023 17:50:41 &#43;0800</lastBuildDate><atom:link href="https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 26 Feb 2023 17:50:41 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/zh-tw/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/hugo/</link>
+    <link>https://chloeekk.github.io/zh-tw/tags/hugo/</link>
     <pubDate>Sun, 26 Feb 2023 17:50:41 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/hugo/</guid>
+    <guid>https://chloeekk.github.io/zh-tw/tags/hugo/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>SEM</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/sem/</link>
+    <link>https://chloeekk.github.io/zh-tw/tags/sem/</link>
     <pubDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/sem/</guid>
+    <guid>https://chloeekk.github.io/zh-tw/tags/sem/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>谷歌廣告</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/%E8%B0%B7%E6%AD%8C%E5%BB%A3%E5%91%8A/</link>
+    <link>https://chloeekk.github.io/zh-tw/tags/%E8%B0%B7%E6%AD%8C%E5%BB%A3%E5%91%8A/</link>
     <pubDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/%E8%B0%B7%E6%AD%8C%E5%BB%A3%E5%91%8A/</guid>
+    <guid>https://chloeekk.github.io/zh-tw/tags/%E8%B0%B7%E6%AD%8C%E5%BB%A3%E5%91%8A/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Github</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/github/</link>
+    <link>https://chloeekk.github.io/zh-tw/tags/github/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-tw/tags/github/</guid>
+    <guid>https://chloeekk.github.io/zh-tw/tags/github/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

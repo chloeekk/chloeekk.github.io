@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Website - Category - Chloevolution</title>
-        <link>https://github.com/chloeekk/chloeekk.github.io/categories/website/</link>
+        <link>https://chloeekk.github.io/categories/website/</link>
         <description>Website - Category - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</lastBuildDate><atom:link href="https://github.com/chloeekk/chloeekk.github.io/categories/website/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/categories/website/" rel="self" type="application/rss+xml" /><item>
     <title>What is a Sitemap?</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/posts/what-is-a-sitemap/</link>
+    <link>https://chloeekk.github.io/posts/what-is-a-sitemap/</link>
     <pubDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/posts/what-is-a-sitemap/</guid>
+    <guid>https://chloeekk.github.io/posts/what-is-a-sitemap/</guid>
     <description><![CDATA[Definition and role of sitemap A sitemap is a file that you can use to provide information about the pages, videos or other files on your website, and also to illustrate the relationships between these contents.
 Search engines such as Google will read the sitemap to crawl the pages on your site more efficiently. The sitemap will tell search engines which pages and files on your site you think are important and will also provide important information about those files.]]></description>
 </item><item>
     <title>Create A Static Website with Hugo and Host it with Github Pages</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</link>
+    <link>https://chloeekk.github.io/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</guid>
+    <guid>https://chloeekk.github.io/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</guid>
     <description><![CDATA[1. Install Hugo  Windows：  First install choco package manager, run cmd under administrator privileges and execute the following command:
 powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))&quot; # Set environment variables SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin Then use choco to install hugo:
 choco install hugo -confirm

@@ -1,21 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Hugo - 标签 - Chloevolution</title>
-        <link>https://github.com/chloeekk/chloeekk.github.io/zh-cn/tags/hugo/</link>
+        <link>https://chloeekk.github.io/zh-cn/tags/hugo/</link>
         <description>Hugo - 标签 - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Feb 2023 17:29:42 &#43;0800</lastBuildDate><atom:link href="https://github.com/chloeekk/chloeekk.github.io/zh-cn/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Feb 2023 17:29:42 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/zh-cn/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>什么是站点地图？</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/zh-cn/posts/what-is-a-sitemap/</link>
+    <link>https://chloeekk.github.io/zh-cn/posts/what-is-a-sitemap/</link>
     <pubDate>Sun, 26 Feb 2023 17:29:42 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-cn/posts/what-is-a-sitemap/</guid>
+    <guid>https://chloeekk.github.io/zh-cn/posts/what-is-a-sitemap/</guid>
     <description><![CDATA[站点地图的定义和作用 站点地图（sitemap）是一种文件，你可以该文件提供和你的网站中的网页、视频或其他文件有关的信息，还可以说明这些内容之]]></description>
 </item><item>
     <title>如何用Hugo搭建博客并部署到Github page</title>
-    <link>https://github.com/chloeekk/chloeekk.github.io/zh-cn/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</link>
+    <link>https://chloeekk.github.io/zh-cn/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-cn/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</guid>
+    <guid>https://chloeekk.github.io/zh-cn/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</guid>
     <description><![CDATA[1. 安装Hugo Windows： 先安装choco包管理器，在管理员权限下运行cmd，执行如下命令： powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))&quot; # 设置环境变量 SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin 再使用ch]]></description>
 </item></channel>
 </rss>
