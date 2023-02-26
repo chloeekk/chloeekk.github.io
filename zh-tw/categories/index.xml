@@ -1,7 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - Chloevolution</title>
-        <link>https://chloeekk.github.io/zh-tw/categories/</link>
+        <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/categories/</link>
         <description>Categories - Category - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><atom:link href="https://chloeekk.github.io/zh-tw/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sun, 26 Feb 2023 17:50:41 &#43;0800</lastBuildDate><atom:link href="https://github.com/chloeekk/chloeekk.github.io/zh-tw/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>建站</title>
+    <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/categories/%E5%BB%BA%E7%AB%99/</link>
+    <pubDate>Sun, 26 Feb 2023 17:50:41 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-tw/categories/%E5%BB%BA%E7%AB%99/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>SEM</title>
+    <link>https://github.com/chloeekk/chloeekk.github.io/zh-tw/categories/sem/</link>
+    <pubDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://github.com/chloeekk/chloeekk.github.io/zh-tw/categories/sem/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
