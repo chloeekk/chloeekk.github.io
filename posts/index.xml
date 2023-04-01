@@ -3,7 +3,23 @@
         <title>All Posts - Chloevolution</title>
         <link>https://chloeekk.github.io/posts/</link>
         <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Apr 2023 10:08:04 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>What Are Backlinks？</title>
+    <link>https://chloeekk.github.io/posts/what-are-backlinks/</link>
+    <pubDate>Sat, 01 Apr 2023 10:08:04 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloeekk.github.io/posts/what-are-backlinks/</guid>
+    <description><![CDATA[Backlinks are a fundamental aspect of search engine optimization (SEO). They are links from other websites that direct traffic to your website. In this article, we will explore what backlinks are, why they are important, what makes a good backlink, how to check backlinks, and how to get more backlinks.
+What is a backlink? A backlink, also known as an inbound link or incoming link, is a hyperlink on one website that points to another website.]]></description>
+</item><item>
+    <title>Understanding the Basics of HTTPS and How to Implement It for SEO</title>
+    <link>https://chloeekk.github.io/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
+    <pubDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloeekk.github.io/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
+    <description><![CDATA[HTTP vs HTTPS: Understanding the Basics HTTP (Hypertext Transfer Protocol) is a protocol that enables the transmission of data between a web server and a client. This protocol is widely used on the internet for accessing websites, but it is not secure. Any data transmitted through HTTP is in plain text, which means that it can be intercepted and read by anyone with the necessary tools.
+HTTPS (Hypertext Transfer Protocol Secure), on the other hand, is an extension of HTTP that adds an extra layer of security through encryption.]]></description>
+</item><item>
     <title>What is a Sitemap?</title>
     <link>https://chloeekk.github.io/posts/what-is-a-sitemap/</link>
     <pubDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</pubDate>

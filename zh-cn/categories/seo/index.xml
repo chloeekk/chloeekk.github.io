@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>SEO - 分类 - Chloevolution</title>
+        <link>https://chloeekk.github.io/zh-cn/categories/seo/</link>
+        <description>SEO - 分类 - Chloevolution</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 01 Apr 2023 10:52:01 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/zh-cn/categories/seo/" rel="self" type="application/rss+xml" /><item>
+    <title>什么是反向链接？</title>
+    <link>https://chloeekk.github.io/zh-cn/posts/what-are-backlinks/</link>
+    <pubDate>Sat, 01 Apr 2023 10:52:01 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://chloeekk.github.io/zh-cn/posts/what-are-backlinks/</guid>
+    <description><![CDATA[反向链接是搜索引擎优化（SEO）的一个基本方面。它们是来自其他网站的链接，将流量导向你的网站。在这篇文章中，我们将介绍什么是反向链接，为什么]]></description>
+</item></channel>
+</rss>

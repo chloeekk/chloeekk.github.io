@@ -3,9 +3,23 @@
         <title>Chloevolution</title>
         <link>https://chloeekk.github.io/zh-cn/</link>
         <description>Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 26 Feb 2023 17:29:42 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 01 Apr 2023 10:52:01 &#43;0800</lastBuildDate>
             <atom:link href="https://chloeekk.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>什么是反向链接？</title>
+    <link>https://chloeekk.github.io/zh-cn/posts/what-are-backlinks/</link>
+    <pubDate>Sat, 01 Apr 2023 10:52:01 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://chloeekk.github.io/zh-cn/posts/what-are-backlinks/</guid>
+    <description><![CDATA[反向链接是搜索引擎优化（SEO）的一个基本方面。它们是来自其他网站的链接，将流量导向你的网站。在这篇文章中，我们将介绍什么是反向链接，为什么]]></description>
+</item><item>
+    <title>了解HTTPS的基础知识以及如何利用HTTPS优化SEO效果</title>
+    <link>https://chloeekk.github.io/zh-cn/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
+    <pubDate>Sat, 01 Apr 2023 09:43:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://chloeekk.github.io/zh-cn/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
+    <description><![CDATA[HTTP与HTTPS：了解基础知识 HTTP（超文本传输协议）是一个使网络服务器和客户端之间传输数据的协议。该协议在互联网上被广泛用于访问网站]]></description>
+</item><item>
     <title>什么是站点地图？</title>
     <link>https://chloeekk.github.io/zh-cn/posts/what-is-a-sitemap/</link>
     <pubDate>Sun, 26 Feb 2023 17:29:42 &#43;0800</pubDate>
@@ -13,7 +27,7 @@
     <guid>https://chloeekk.github.io/zh-cn/posts/what-is-a-sitemap/</guid>
     <description><![CDATA[站点地图的定义和作用 站点地图（sitemap）是一种文件，你可以该文件提供和你的网站中的网页、视频或其他文件有关的信息，还可以说明这些内容之]]></description>
 </item><item>
-    <title>谷歌广告优化师是做什么的</title>
+    <title>谷歌广告优化师是做什么的？</title>
     <link>https://chloeekk.github.io/zh-cn/posts/what-does-a-google-ads-specialist-do/</link>
     <pubDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</pubDate>
     <author>作者</author>
