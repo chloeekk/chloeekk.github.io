@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloeekk.github.io/categories/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloeekk.github.io/categories/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/categories/"
@@ -15,7 +15,7 @@
                     hreflang="en"
                     href="https://chloeekk.github.io/categories/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloeekk.github.io/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/"
@@ -28,7 +28,20 @@
                     hreflang="en"
                     href="https://chloeekk.github.io/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/posts/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloeekk.github.io/posts/free-seo-tools/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/free-seo-tools/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloeekk.github.io/zh-tw/posts/free-seo-tools/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloeekk.github.io/posts/free-seo-tools/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/posts/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/posts/"
@@ -41,7 +54,7 @@
                     hreflang="en"
                     href="https://chloeekk.github.io/posts/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/tags/seo/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloeekk.github.io/tags/seo/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/tags/seo/"
@@ -54,7 +67,7 @@
                     hreflang="en"
                     href="https://chloeekk.github.io/tags/seo/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/categories/seo/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloeekk.github.io/categories/seo/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/categories/seo/"
@@ -67,7 +80,7 @@
                     hreflang="en"
                     href="https://chloeekk.github.io/categories/seo/"
                     /></url><url>
-            <loc>https://chloeekk.github.io/tags/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloeekk.github.io/tags/</loc><lastmod>2023-04-05T15:36:28&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloeekk.github.io/zh-cn/tags/"
@@ -79,6 +92,32 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloeekk.github.io/tags/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/posts/beginners-guide-to-seo/</loc><lastmod>2023-04-05T15:05:11&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/beginners-guide-to-seo/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloeekk.github.io/zh-tw/posts/beginners-guide-to-seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloeekk.github.io/posts/beginners-guide-to-seo/"
+                    /></url><url>
+            <loc>https://chloeekk.github.io/posts/low-competition-keywords/</loc><lastmod>2023-04-05T14:29:57&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloeekk.github.io/zh-cn/posts/low-competition-keywords/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloeekk.github.io/zh-tw/posts/low-competition-keywords/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloeekk.github.io/posts/low-competition-keywords/"
                     /></url><url>
             <loc>https://chloeekk.github.io/posts/what-are-backlinks/</loc><lastmod>2023-04-01T10:08:04&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
