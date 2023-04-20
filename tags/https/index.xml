@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>HTTPS - Tag - Chloevolution</title>
-        <link>https://chloeekk.github.io/tags/https/</link>
+        <link>http://chloevolution.com/tags/https/</link>
         <description>HTTPS - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/tags/https/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</lastBuildDate><atom:link href="http://chloevolution.com/tags/https/" rel="self" type="application/rss+xml" /><item>
     <title>Understanding the Basics of HTTPS and How to Implement It for SEO</title>
-    <link>https://chloeekk.github.io/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
+    <link>http://chloevolution.com/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
     <pubDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://chloeekk.github.io/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
+    <guid>http://chloevolution.com/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
     <description><![CDATA[HTTP vs HTTPS: Understanding the Basics HTTP (Hypertext Transfer Protocol) is a protocol that enables the transmission of data between a web server and a client. This protocol is widely used on the internet for accessing websites, but it is not secure. Any data transmitted through HTTP is in plain text, which means that it can be intercepted and read by anyone with the necessary tools.
 HTTPS (Hypertext Transfer Protocol Secure), on the other hand, is an extension of HTTP that adds an extra layer of security through encryption.]]></description>
 </item></channel>
