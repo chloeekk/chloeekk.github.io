@@ -2,20 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://chloevolution.com/zh-cn/categories/</loc><lastmod>2023-04-08T11:49:53&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://chloevolution.com/categories/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-tw"
-                        href="http://chloevolution.com/zh-tw/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://chloevolution.com/zh-cn/categories/"
-                    /></url><url>
-            <loc>http://chloevolution.com/zh-cn/</loc><lastmod>2023-04-08T11:49:53&#43;08:00</lastmod><xhtml:link
+            <loc>http://chloevolution.com/zh-cn/posts/how-to-create-an-apple-id-without-a-payment-method/</loc><lastmod>2023-04-27T10:26:19&#43;08:00</lastmod></url><url>
+            <loc>http://chloevolution.com/zh-cn/</loc><lastmod>2023-04-27T10:26:19&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://chloevolution.com/"
@@ -28,7 +16,7 @@
                     hreflang="zh-cn"
                     href="http://chloevolution.com/zh-cn/"
                     /></url><url>
-            <loc>http://chloevolution.com/zh-cn/posts/</loc><lastmod>2023-04-08T11:49:53&#43;08:00</lastmod><xhtml:link
+            <loc>http://chloevolution.com/zh-cn/posts/</loc><lastmod>2023-04-27T10:26:19&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="http://chloevolution.com/posts/"
@@ -40,6 +28,19 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="http://chloevolution.com/zh-cn/posts/"
+                    /></url><url>
+            <loc>http://chloevolution.com/zh-cn/categories/</loc><lastmod>2023-04-08T11:49:53&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://chloevolution.com/categories/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="http://chloevolution.com/zh-tw/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://chloevolution.com/zh-cn/categories/"
                     /></url><url>
             <loc>http://chloevolution.com/zh-cn/tags/seo/</loc><lastmod>2023-04-08T11:49:53&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
