@@ -1,30 +1,30 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Website - Category - Chloevolution</title>
-        <link>http://chloevolution.com/categories/website/</link>
+        <link>https://chloevolution.com/categories/website/</link>
         <description>Website - Category - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</lastBuildDate><atom:link href="http://chloevolution.com/categories/website/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/website/" rel="self" type="application/rss+xml" /><item>
     <title>Understanding the Basics of HTTPS and How to Implement It for SEO</title>
-    <link>http://chloevolution.com/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
+    <link>https://chloevolution.com/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
     <pubDate>Sat, 01 Apr 2023 09:15:02 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://chloevolution.com/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
+    <guid>https://chloevolution.com/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
     <description><![CDATA[HTTP vs HTTPS: Understanding the Basics HTTP (Hypertext Transfer Protocol) is a protocol that enables the transmission of data between a web server and a client. This protocol is widely used on the internet for accessing websites, but it is not secure. Any data transmitted through HTTP is in plain text, which means that it can be intercepted and read by anyone with the necessary tools.
 HTTPS (Hypertext Transfer Protocol Secure), on the other hand, is an extension of HTTP that adds an extra layer of security through encryption.]]></description>
 </item><item>
     <title>What is a Sitemap?</title>
-    <link>http://chloevolution.com/posts/what-is-a-sitemap/</link>
+    <link>https://chloevolution.com/posts/what-is-a-sitemap/</link>
     <pubDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://chloevolution.com/posts/what-is-a-sitemap/</guid>
+    <guid>https://chloevolution.com/posts/what-is-a-sitemap/</guid>
     <description><![CDATA[Definition and role of sitemap A sitemap is a file that you can use to provide information about the pages, videos or other files on your website, and also to illustrate the relationships between these contents.
 Search engines such as Google will read the sitemap to crawl the pages on your site more efficiently. The sitemap will tell search engines which pages and files on your site you think are important and will also provide important information about those files.]]></description>
 </item><item>
     <title>Create A Static Website with Hugo and Host it with Github Pages</title>
-    <link>http://chloevolution.com/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</link>
+    <link>https://chloevolution.com/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://chloevolution.com/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</guid>
+    <guid>https://chloevolution.com/posts/create-a-static-website-with-hugo-and-host-it-with-github-pages/</guid>
     <description><![CDATA[1. Install Hugo  Windows：  First install choco package manager, run cmd under administrator privileges and execute the following command:
 powershell -NoProfile -ExecutionPolicy unrestricted -Command &quot;iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))&quot; # Set environment variables SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin Then use choco to install hugo:
 choco install hugo -confirm
