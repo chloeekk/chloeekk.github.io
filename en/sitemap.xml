@@ -2,34 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/"
-                    /></url><url>
-            <loc>https://chloevolution.com/posts/complete-guide-to-dimensions-and-metrics-in-google-analytics/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/posts/"
-                    /></url><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -42,48 +15,33 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/seo/"
+                        href="https://chloevolution.com/zh-cn/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/tags/seo/"
+                        href="https://chloevolution.com/zh-tw/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/tags/seo/"
+                    href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/seo/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/seo/"
+                        href="https://chloevolution.com/zh-cn/posts/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/categories/seo/"
+                        href="https://chloevolution.com/zh-tw/posts/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/categories/seo/"
+                    href="https://chloevolution.com/posts/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/"
-                    /></url><url>
-            <loc>https://chloevolution.com/posts/the-ultimate-beginners-guide-to-google-analytics/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/categories/website/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/tags/sem/</loc><lastmod>2023-05-10T22:09:42&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/tags/sem/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/tags/sem/"
@@ -96,7 +54,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/tags/sem/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/sem/</loc><lastmod>2023-05-10T22:09:42&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/categories/sem/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/sem/"
@@ -109,6 +67,52 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/sem/"
                     /></url><url>
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloevolution.com/zh-tw/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/what-is-google-ads/</loc><lastmod>2023-05-13T11:31:40&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/how-to-find-remote-digital-marketing-jobs/</loc><lastmod>2023-05-13T11:31:17&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2023-05-13T11:31:17&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/seo/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloevolution.com/zh-tw/tags/seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/seo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/seo/</loc><lastmod>2023-05-13T11:31:17&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/seo/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloevolution.com/zh-tw/categories/seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/seo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/how-to-find-a-digital-marketing-job/</loc><lastmod>2023-05-13T11:30:50&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/how-to-become-a-digital-marketer/</loc><lastmod>2023-05-13T11:26:26&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/complete-guide-to-dimensions-and-metrics-in-google-analytics/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/categories/website/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/the-ultimate-beginners-guide-to-google-analytics/</loc><lastmod>2023-05-11T08:05:23&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/what-is-digital-marketing/</loc><lastmod>2023-05-10T22:09:42&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/what-is-black-hat-seo/</loc><lastmod>2023-04-08T11:49:49&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
