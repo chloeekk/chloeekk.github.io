@@ -2,6 +2,37 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://chloevolution.com/</loc><lastmod>2023-07-08T16:00:02&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloevolution.com/zh-tw/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/marketing-automation-tools/</loc><lastmod>2023-07-08T16:00:02&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-07-08T16:00:02&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-tw"
+                        href="https://chloevolution.com/zh-tw/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/account-based-marketing/</loc><lastmod>2023-07-08T15:59:46&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/data-analytics-platform/</loc><lastmod>2023-07-08T15:59:22&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/customer-relationship-management-software/</loc><lastmod>2023-07-08T15:59:06&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/offline-conversion-tracking/</loc><lastmod>2023-07-08T15:58:15&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/categories/</loc><lastmod>2023-06-27T22:09:22&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -15,33 +46,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2023-06-27T22:09:22&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/"
-                    /></url><url>
             <loc>https://chloevolution.com/posts/b2b-digital-marketing/</loc><lastmod>2023-06-27T22:09:22&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-06-27T22:09:22&#43;08:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-tw"
-                        href="https://chloevolution.com/zh-tw/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/posts/"
-                    /></url><url>
             <loc>https://chloevolution.com/tags/sem/</loc><lastmod>2023-06-27T22:09:22&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
