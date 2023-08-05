@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2023-08-04T21:43:52&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2023-08-05T21:19:11&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -15,7 +15,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-08-04T21:43:52&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-08-05T21:19:11&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/"
@@ -28,6 +28,8 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/"
                     /></url><url>
+            <loc>https://chloevolution.com/posts/what-is-b2b-saas/</loc><lastmod>2023-08-05T21:19:11&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/how-to-build-a-saas-product/</loc><lastmod>2023-08-05T21:19:00&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/what-is-a-saas-company/</loc><lastmod>2023-08-04T21:43:52&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/what-is-a-white-paper/</loc><lastmod>2023-07-22T15:16:48&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/cold-email/</loc><lastmod>2023-07-22T15:16:30&#43;08:00</lastmod></url><url>
