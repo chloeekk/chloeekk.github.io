@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Chloevolution</title>
-        <link>https://chloevolution.com/posts/</link>
-        <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 26 Aug 2023 15:39:29 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>entry level - Category - Chloevolution</title>
+        <link>https://chloevolution.com/categories/entry-level/</link>
+        <description>entry level - Category - Chloevolution</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 26 Aug 2023 15:39:29 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/entry-level/" rel="self" type="application/rss+xml" /><item>
     <title>Entry Level Java Software Engineer Interview Questions</title>
     <link>https://chloevolution.com/posts/entry-level-java-software-engineer-interview-questions/</link>
     <pubDate>Sat, 26 Aug 2023 15:39:29 &#43;0800</pubDate>
@@ -52,37 +52,5 @@ Here&rsquo;s a glimpse of the categories we&rsquo;ll be covering and their signi
     <description><![CDATA[Introduction As technology advances, the demand for cybersecurity professionals is rapidly increasing. Organizations recognize the importance of protecting systems and sensitive information due to the growing threat of cyber-attacks and data breaches.
 Cybersecurity professionals play a crucial role in safeguarding digital assets by identifying vulnerabilities, implementing security measures, and responding to incidents. Their expertise is vital in preventing unauthorized access, detecting threats, and maintaining data integrity.
 The need for cybersecurity professionals will continue to rise as technology evolves and threats become more sophisticated.]]></description>
-</item><item>
-    <title>What is B2B SaaS</title>
-    <link>https://chloevolution.com/posts/what-is-b2b-saas/</link>
-    <pubDate>Sat, 05 Aug 2023 21:19:11 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/posts/what-is-b2b-saas/</guid>
-    <description><![CDATA[B2B SaaS stands for &ldquo;Business-to-Business Software as a Service.&rdquo; It refers to a specific type of software delivery model where a company provides software applications and services over the internet to other businesses. In this model, the software is hosted and maintained by the SaaS provider on their servers, and customers can access the software through web browsers, eliminating the need for on-premises installation.
-What is a B2B SaaS Company? A B2B SaaS (Business-to-Business Software as a Service) company is an organization that provides software solutions and services to other businesses through a subscription-based model.]]></description>
-</item><item>
-    <title>How to Build a SaaS Product</title>
-    <link>https://chloevolution.com/posts/how-to-build-a-saas-product/</link>
-    <pubDate>Sat, 05 Aug 2023 21:19:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/posts/how-to-build-a-saas-product/</guid>
-    <description><![CDATA[Categories of SaaS Products SaaS (Software as a Service) products come in various categories, each catering to specific business needs and industries. Here are some common categories of SaaS products:
-Collaboration and Communication These SaaS products focus on improving team collaboration and communication. Examples include project management tools, team messaging platforms, video conferencing software, and file sharing applications.
-Examples: Slack (team messaging), Asana (project management), Trello (visual task management), Google Workspace (formerly G Suite - includes Google Docs, Sheets, etc.]]></description>
-</item><item>
-    <title>What is a SaaS Company</title>
-    <link>https://chloevolution.com/posts/what-is-a-saas-company/</link>
-    <pubDate>Fri, 04 Aug 2023 21:43:52 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/posts/what-is-a-saas-company/</guid>
-    <description><![CDATA[In the rapidly evolving landscape of technology and digital transformation, a new paradigm has emerged, transforming the way software is accessed, used, and deployed. Welcome to the world of SaaS (Software as a Service) companies - a disruptive force that has revolutionized the software industry.
-What is SaaS? SaaS, which stands for Software as a Service, is a software delivery model that has gained immense popularity in recent years. It is a cloud-based solution that allows users to access software applications over the internet without the need for installation or maintenance on their local devices.]]></description>
-</item><item>
-    <title>How to Create a Compelling White Paper</title>
-    <link>https://chloevolution.com/posts/what-is-a-white-paper/</link>
-    <pubDate>Sat, 22 Jul 2023 15:16:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/posts/what-is-a-white-paper/</guid>
-    <description><![CDATA[What is a white paper? a white paper is an authoritative, in-depth report on a specific topic that presents a problem and provides a solution. It is typically issued by a company or not-for-profit organization to highlight the features of a product or solution. White papers are often used to educate readers about a complex issue and present the issuing body&rsquo;s philosophy on the matter. They are usually research-based and offer a focused description of a complex topic, presenting the point of view of the author or the organization.]]></description>
 </item></channel>
 </rss>
