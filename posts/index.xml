@@ -3,7 +3,15 @@
         <title>All Posts - Chloevolution</title>
         <link>https://chloevolution.com/posts/</link>
         <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 10 Sep 2023 11:31:47 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 18 Oct 2023 13:08:14 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Slack Data Analysis Report Mixpanel Template</title>
+    <link>https://chloevolution.com/posts/slack-data-analysis-report-mixpanel-template/</link>
+    <pubDate>Wed, 18 Oct 2023 13:08:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/slack-data-analysis-report-mixpanel-template/</guid>
+    <description><![CDATA[In the domain of B2B/SaaS, the importance of a comprehensive and real-time data dashboard cannot be overstated. This article serves as a step-by-step guide to constructing a dynamic dashboard for monitoring critical company KPIs. This article offers a template customized to analyze user activities within communication products similar to Slack.
+User data New User Accounts Determining the influx of new users is a critical component in assessing the growth of a SaaS platform.]]></description>
+</item><item>
     <title>ChatGPT Prompts for Instagram Content Creation</title>
     <link>https://chloevolution.com/posts/chatgpt-prompts-for-instagram/</link>
     <pubDate>Sun, 10 Sep 2023 11:31:47 &#43;0800</pubDate>
@@ -75,13 +83,5 @@ Here&rsquo;s a glimpse of the categories we&rsquo;ll be covering and their signi
     <description><![CDATA[Introduction As technology advances, the demand for cybersecurity professionals is rapidly increasing. Organizations recognize the importance of protecting systems and sensitive information due to the growing threat of cyber-attacks and data breaches.
 Cybersecurity professionals play a crucial role in safeguarding digital assets by identifying vulnerabilities, implementing security measures, and responding to incidents. Their expertise is vital in preventing unauthorized access, detecting threats, and maintaining data integrity.
 The need for cybersecurity professionals will continue to rise as technology evolves and threats become more sophisticated.]]></description>
-</item><item>
-    <title>What is B2B SaaS</title>
-    <link>https://chloevolution.com/posts/what-is-b2b-saas/</link>
-    <pubDate>Sat, 05 Aug 2023 21:19:11 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/posts/what-is-b2b-saas/</guid>
-    <description><![CDATA[B2B SaaS stands for &ldquo;Business-to-Business Software as a Service.&rdquo; It refers to a specific type of software delivery model where a company provides software applications and services over the internet to other businesses. In this model, the software is hosted and maintained by the SaaS provider on their servers, and customers can access the software through web browsers, eliminating the need for on-premises installation.
-What is a B2B SaaS Company? A B2B SaaS (Business-to-Business Software as a Service) company is an organization that provides software solutions and services to other businesses through a subscription-based model.]]></description>
 </item></channel>
 </rss>
