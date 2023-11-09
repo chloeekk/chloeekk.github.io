@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J96VH8CX0X');
+</script>
+  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Configure Google Analytics 4 in Google Tag Manager - Chloevolution</title><meta name="Description" content=""><meta property="og:title" content="Configure Google Analytics 4 in Google Tag Manager" />
+<meta property="og:description" content="Google Tag Manager simplifies the process of configuring and overseeing GA4 events within a single platform. To transmit event information from Google Tag Manager to GA4, you must employ a pair of complementary tags:
+  Google Tag The Google Tag facilitates the transfer of data from your website to Google Analytics and any other designated destinations. For each domain, generate a unique Google Tag and embed it on all the websites you wish to track." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-09T11:52:50+08:00" />
+<meta property="article:modified_time" content="2023-11-09T11:52:50+08:00" /><meta property="og:site_name" content="Chloevolution" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Configure Google Analytics 4 in Google Tag Manager"/>
+<meta name="twitter:description" content="Google Tag Manager simplifies the process of configuring and overseeing GA4 events within a single platform. To transmit event information from Google Tag Manager to GA4, you must employ a pair of complementary tags:
+  Google Tag The Google Tag facilitates the transfer of data from your website to Google Analytics and any other designated destinations. For each domain, generate a unique Google Tag and embed it on all the websites you wish to track."/>
+<meta name="application-name" content="Chloevolution">
+<meta name="apple-mobile-web-app-title" content="Chloevolution"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager/" /><link rel="prev" href="https://chloevolution.com/posts/how-to-set-up-google-analytics/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Configure Google Analytics 4 in Google Tag Manager",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chloevolution.com\/posts\/configure-google-analytics-in-google-tag-manager\/"
+        },"genre": "posts","keywords": "Google Analytics","wordcount":  474 ,
+        "url": "https:\/\/chloevolution.com\/posts\/configure-google-analytics-in-google-tag-manager\/","datePublished": "2023-11-09T11:52:50+08:00","dateModified": "2023-11-09T11:52:50+08:00","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Chloevolution">Chloevolution</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/configure-google-analytics-in-google-tag-manager/" selected>English</option></select>
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Chloevolution">Chloevolution</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/configure-google-analytics-in-google-tag-manager/" selected>English</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Configure Google Analytics 4 in Google Tag Manager</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/google-analytics/"><i class="far fa-folder fa-fw"></i>Google Analytics</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-11-09">2023-11-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;474 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#before-you-begin">Before you begin</a></li>
+    <li><a href="#step-1-create-a-google-tag">Step 1: Create a Google tag</a></li>
+    <li><a href="#step-2-create-a-trigger">Step 2: Create a trigger</a></li>
+    <li><a href="#step-3-verify-your-tag-works">Step 3: Verify your tag works</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Google Tag Manager simplifies the process of configuring and overseeing GA4 events within a single platform. To transmit event information from Google Tag Manager to GA4, you must employ a pair of complementary tags:</p>
+<ul>
+<li>
+<p>Google Tag
+The Google Tag facilitates the transfer of data from your website to Google Analytics and any other designated destinations. For each domain, generate a unique Google Tag and embed it on all the websites you wish to track.</p>
+</li>
+<li>
+<p>Google Analytics: GA4 Event
+The GA4 Event tag empowers you to establish website events without the necessity of coding. The event data subsequently appears within your GA4 reports.
+Feel free to generate as many event tags as required to monitor your recommended or customized events effectively.</p>
+</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/google-tag-manager-and-google-analytics.png"
+        data-srcset="/assets/google-tag-manager-and-google-analytics.png, /assets/google-tag-manager-and-google-analytics.png 1.5x, /assets/google-tag-manager-and-google-analytics.png 2x"
+        data-sizes="auto"
+        alt="/assets/google-tag-manager-and-google-analytics.png"
+        title="/assets/google-tag-manager-and-google-analytics.png" /></p>
+<h2 id="before-you-begin">Before you begin</h2>
+<p>This guide takes into consideration that you have completed the following steps:</p>
+<ol>
+<li><a href="https://chloevolution.com/posts/how-to-set-up-google-analytics" target="_blank" rel="noopener noreffer">Established a Google Analytics 4 account and property</a>.</li>
+<li><a href="https://chloevolution.com/posts/how-to-set-up-google-analytics" target="_blank" rel="noopener noreffer">Created a web data stream for your website</a>.</li>
+<li>Configured and implemented Tag Manager.</li>
+</ol>
+<p>Furthermore, it presumes that you possess the following:</p>
+<ol>
+<li>Access to the Tag Manager container associated with the website.</li>
+<li>A role of <strong>Editor</strong> or higher in the Google Analytics account.</li>
+</ol>
+<h2 id="step-1-create-a-google-tag">Step 1: Create a Google tag</h2>
+<p>To initiate the process, begin by establishing a Google tag to transmit data to your Analytics property.</p>
+<ol>
+<li>Launch <a href="https://tagmanager.google.com/" target="_blank" rel="noopener noreffer">Google Tag Manager</a>.</li>
+<li>Choose the container you wish to customize and navigate to the Tags section.</li>
+<li>Create a new tag, and provide it with a name at the top (e.g., &ldquo;Google Tag Configuration - example.com&rdquo;).
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/create-new-google-tag.png"
+        data-srcset="/assets/create-new-google-tag.png, /assets/create-new-google-tag.png 1.5x, /assets/create-new-google-tag.png 2x"
+        data-sizes="auto"
+        alt="/assets/create-new-google-tag.png"
+        title="/assets/create-new-google-tag.png" /></li>
+<li>In the Tag Configuration panel, opt for the Google tag option.</li>
+<li>Proceed to configure your tag. Input your Google tag ID in the Tag ID field.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/select-google-tag.png"
+        data-srcset="/assets/select-google-tag.png, /assets/select-google-tag.png 1.5x, /assets/select-google-tag.png 2x"
+        data-sizes="auto"
+        alt="/assets/select-google-tag.png"
+        title="/assets/select-google-tag.png" />
+Optional: You have the flexibility to set up additional configuration preferences to govern how your Google tag communicates with its designated destinations. If you&rsquo;ve configured the Google tag and intend to retain all default settings, you can now proceed to Step 2: Create a Trigger.</li>
+</ol>
+<h2 id="step-2-create-a-trigger">Step 2: Create a trigger</h2>
+<p>Subsequently, configure a trigger that activates the Google tag when a user visits your website.</p>
+<p>To prioritize the firing of the Google tag over other triggers, click on &ldquo;Triggering&rdquo; and select the &ldquo;Initialization - All Pages&rdquo; trigger. You can find additional information about Page triggers here.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/set-trigger-as-all-pages.png"
+        data-srcset="/assets/set-trigger-as-all-pages.png, /assets/set-trigger-as-all-pages.png 1.5x, /assets/set-trigger-as-all-pages.png 2x"
+        data-sizes="auto"
+        alt="/assets/set-trigger-as-all-pages.png"
+        title="/assets/set-trigger-as-all-pages.png" /></p>
+<p>Assign a name to the tag and save the tag configuration.</p>
+<p>Your tag configuration should resemble the following:
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/trigger-settings-result.png"
+        data-srcset="/assets/trigger-settings-result.png, /assets/trigger-settings-result.png 1.5x, /assets/trigger-settings-result.png 2x"
+        data-sizes="auto"
+        alt="/assets/trigger-settings-result.png"
+        title="/assets/trigger-settings-result.png" /></p>
+<h2 id="step-3-verify-your-tag-works">Step 3: Verify your tag works</h2>
+<p>To confirm the proper functionality of your tag:</p>
+<ol>
+<li>
+<p>Within your Workspace, access the Preview mode. This will open the Tag Assistant.</p>
+</li>
+<li>
+<p>Input your website&rsquo;s URL.</p>
+</li>
+<li>
+<p>Verify if the Google Analytics: GA4 Configuration tag activated upon page loading.</p>
+<p>✅ If your tag successfully fired, the Tag Assistant UI will resemble the following:
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/tag-fired-successfully.png"
+        data-srcset="/assets/tag-fired-successfully.png, /assets/tag-fired-successfully.png 1.5x, /assets/tag-fired-successfully.png 2x"
+        data-sizes="auto"
+        alt="/assets/tag-fired-successfully.png"
+        title="/assets/tag-fired-successfully.png" /></p>
+<p>❌ If your tag failed to activate, review your tag&rsquo;s trigger settings.</p>
+</li>
+<li>
+<p>Once you&rsquo;ve completed the debugging process, exit Preview mode.</p>
+</li>
+<li>
+<p>Back in your Workspace, select the &ldquo;Submit&rdquo; option to publish your modifications.</p>
+</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-11-09</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/google-analytics/">Google Analytics</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/how-to-set-up-google-analytics/" class="prev" rel="prev" title="How to Set Up Google Analytics 4"><i class="fas fa-angle-left fa-fw"></i>How to Set Up Google Analytics 4</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

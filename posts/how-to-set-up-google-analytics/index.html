@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J96VH8CX0X');
+</script>
+  
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>How to Set Up Google Analytics 4 - Chloevolution</title><meta name="Description" content=""><meta property="og:title" content="How to Set Up Google Analytics 4" />
+<meta property="og:description" content="Learn the steps to initialize Google Analytics for your digital platforms by establishing a Google Analytics 4 property, integrating a data stream, and embedding the Google Analytics code into your site or application.
+Create an Analytics account Let&rsquo;s get started with setting up your tracking tools. If you don&rsquo;t already have a tracker account, you&rsquo;ll need to create one. If you do, you might consider whether this new website or app should have its own separate account, especially if it&rsquo;s for a different business." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chloevolution.com/posts/how-to-set-up-google-analytics/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-09T10:56:57+08:00" />
+<meta property="article:modified_time" content="2023-11-09T10:56:57+08:00" /><meta property="og:site_name" content="Chloevolution" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to Set Up Google Analytics 4"/>
+<meta name="twitter:description" content="Learn the steps to initialize Google Analytics for your digital platforms by establishing a Google Analytics 4 property, integrating a data stream, and embedding the Google Analytics code into your site or application.
+Create an Analytics account Let&rsquo;s get started with setting up your tracking tools. If you don&rsquo;t already have a tracker account, you&rsquo;ll need to create one. If you do, you might consider whether this new website or app should have its own separate account, especially if it&rsquo;s for a different business."/>
+<meta name="application-name" content="Chloevolution">
+<meta name="apple-mobile-web-app-title" content="Chloevolution"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/posts/how-to-set-up-google-analytics/" /><link rel="prev" href="https://chloevolution.com/posts/slack-data-analysis-report-mixpanel-template/" /><link rel="next" href="https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to Set Up Google Analytics 4",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chloevolution.com\/posts\/how-to-set-up-google-analytics\/"
+        },"genre": "posts","keywords": "Google Analytics","wordcount":  918 ,
+        "url": "https:\/\/chloevolution.com\/posts\/how-to-set-up-google-analytics\/","datePublished": "2023-11-09T10:56:57+08:00","dateModified": "2023-11-09T10:56:57+08:00","publisher": {
+            "@type": "Organization",
+            "name": "Author"},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Chloevolution">Chloevolution</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/how-to-set-up-google-analytics/" selected>English</option></select>
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Chloevolution">Chloevolution</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/how-to-set-up-google-analytics/" selected>English</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">How to Set Up Google Analytics 4</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/google-analytics/"><i class="far fa-folder fa-fw"></i>Google Analytics</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-11-09">2023-11-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;918 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#create-an-analytics-account">Create an Analytics account</a></li>
+    <li><a href="#create-a-new-google-analytics-4-property">Create a new Google Analytics 4 property</a></li>
+    <li><a href="#add-a-data-stream">Add a data stream</a>
+      <ul>
+        <li><a href="#ios-app-or-android-app">iOS app or Android app</a></li>
+        <li><a href="#web">Web</a></li>
+      </ul>
+    </li>
+    <li><a href="#set-up-data-collection-for-websites">Set up data collection for websites</a>
+      <ul>
+        <li><a href="#add-the-google-tag-directly-to-your-web-pages">Add the Google tag directly to your web pages</a></li>
+        <li><a href="#add-your-tag-using-google-tag-manager">Add your tag using Google Tag Manager</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/google-analytics-4.png"
+        data-srcset="/assets/google-analytics-4.png, /assets/google-analytics-4.png 1.5x, /assets/google-analytics-4.png 2x"
+        data-sizes="auto"
+        alt="/assets/google-analytics-4.png"
+        title="/assets/google-analytics-4.png" />
+Learn the steps to initialize Google Analytics for your digital platforms by establishing a Google Analytics 4 property, integrating a data stream, and embedding the Google Analytics code into your site or application.</p>
+<h2 id="create-an-analytics-account">Create an Analytics account</h2>
+<p>Let&rsquo;s get started with setting up your tracking tools. If you don&rsquo;t already have a tracker account, you&rsquo;ll need to create one. If you do, you might consider whether this new website or app should have its own separate account, especially if it&rsquo;s for a different business.</p>
+<p>Here&rsquo;s how you do it:</p>
+<ol>
+<li>Head over to the <a href="https://analytics.google.com" target="_blank" rel="noopener noreffer">analytics website</a>.</li>
+<li>Once you&rsquo;re in the Admin section, just click on &lsquo;Create&rsquo;, and then choose &lsquo;Account&rsquo;.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/create-google-analytics-account.png"
+        data-srcset="/assets/create-google-analytics-account.png, /assets/create-google-analytics-account.png 1.5x, /assets/create-google-analytics-account.png 2x"
+        data-sizes="auto"
+        alt="/assets/create-google-analytics-account.png"
+        title="/assets/create-google-analytics-account.png" /></li>
+<li>You&rsquo;ll be asked to name your account. After that, decide how much of your data you&rsquo;re comfortable sharing with the service provider.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/google-analytics-account-name.png"
+        data-srcset="/assets/google-analytics-account-name.png, /assets/google-analytics-account-name.png 1.5x, /assets/google-analytics-account-name.png 2x"
+        data-sizes="auto"
+        alt="/assets/google-analytics-account-name.png"
+        title="/assets/google-analytics-account-name.png" /></li>
+<li>Then, simply click &lsquo;Next&rsquo; to start adding your new website or app to this account.</li>
+</ol>
+<h2 id="create-a-new-google-analytics-4-property">Create a new Google Analytics 4 property</h2>
+<p>To add properties to a Google Analytics account, having the <strong>Editor</strong> role is essential. If you&rsquo;re the one who set up the account, you&rsquo;re already equipped with the Editor role by default.</p>
+<ol>
+<li>Begin in the Admin area by selecting &lsquo;Create&rsquo;, then pick &lsquo;Property&rsquo;.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/create-google-analytics-property.png"
+        data-srcset="/assets/create-google-analytics-property.png, /assets/create-google-analytics-property.png 1.5x, /assets/create-google-analytics-property.png 2x"
+        data-sizes="auto"
+        alt="/assets/create-google-analytics-property.png"
+        title="/assets/create-google-analytics-property.png" /></li>
+<li>Next, give your property a name—something like &ldquo;My Business, Inc website&rdquo;—and set the reporting time zone and currency. Remember, if someone visits your site on their Tuesday, but it&rsquo;s still Monday in your time zone, the visit counts as Monday&rsquo;s activity.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/google-analytics-property-configuration.png"
+        data-srcset="/assets/google-analytics-property-configuration.png, /assets/google-analytics-property-configuration.png 1.5x, /assets/google-analytics-property-configuration.png 2x"
+        data-sizes="auto"
+        alt="/assets/google-analytics-property-configuration.png"
+        title="/assets/google-analytics-property-configuration.png" /></li>
+</ol>
+<ul>
+<li>
+<p>Choose a time zone that shifts with Daylight Savings Time if needed, and Analytics will adapt accordingly. If you prefer not to deal with Daylight Savings, go with Greenwich Mean Time.</p>
+</li>
+<li>
+<p>Be mindful that time zone adjustments don&rsquo;t rewrite history; they only apply from the moment you make the change. Shifting time zones on an existing property can lead to discrepancies in your data—like unexpected flat lines or spikes—due to the time change. Also, it might take a short while for the reports to reflect the new time zone after you&rsquo;ve made updates.</p>
+</li>
+<li>
+<p>It&rsquo;s best to limit time zone changes to once a day so that Analytics can properly process the updates.</p>
+</li>
+</ul>
+<ol start="3">
+<li>
+<p>After setting the time zone, click &lsquo;Next&rsquo;. Here you&rsquo;ll select your industry category and business size.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/google-analytics-property-industry-category.png"
+        data-srcset="/assets/google-analytics-property-industry-category.png, /assets/google-analytics-property-industry-category.png 1.5x, /assets/google-analytics-property-industry-category.png 2x"
+        data-sizes="auto"
+        alt="/assets/google-analytics-property-industry-category.png"
+        title="/assets/google-analytics-property-industry-category.png" /></p>
+</li>
+<li>
+<p>Click &lsquo;Next&rsquo; again to specify how you plan to use Google Analytics. The platform customizes your default reports to fit your stated needs. For instance, if your goal is &ldquo;Generate more leads&rdquo;, you&rsquo;ll get a set of reports designed to track lead generation.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/choose-business-objectives.png"
+        data-srcset="/assets/choose-business-objectives.png, /assets/choose-business-objectives.png 1.5x, /assets/choose-business-objectives.png 2x"
+        data-sizes="auto"
+        alt="/assets/choose-business-objectives.png"
+        title="/assets/choose-business-objectives.png" /></p>
+</li>
+<li>
+<p>Finally, click &lsquo;Create&rsquo;. If this is a new account setup, you&rsquo;ll need to agree to the Analytics Terms of Service and the Data Processing Amendment.</p>
+</li>
+<li>
+<p>Your last step is to add a data stream, which allows you to start gathering data.</p>
+</li>
+</ol>
+<h2 id="add-a-data-stream">Add a data stream</h2>
+<ol>
+<li>In the Admin section, navigate to the &ldquo;Data collection and modification&rdquo; area and select &ldquo;Data Streams&rdquo;.</li>
+<li>Choose &ldquo;Add stream&rdquo;.</li>
+<li>Select the type of stream you need: iOS app, Android app, or Web.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/google-analytics-add-data-stream.png"
+        data-srcset="/assets/google-analytics-add-data-stream.png, /assets/google-analytics-add-data-stream.png 1.5x, /assets/google-analytics-add-data-stream.png 2x"
+        data-sizes="auto"
+        alt="/assets/google-analytics-add-data-stream.png"
+        title="/assets/google-analytics-add-data-stream.png" /></li>
+</ol>
+<h3 id="ios-app-or-android-app">iOS app or Android app</h3>
+<p>Adding an app data stream in Analytics automatically generates a related Firebase project and app data stream. If your project and property are not previously linked, this process will also create a link between your Firebase project and your Analytics property.</p>
+<ol>
+<li>Input the iOS bundle ID or Android package name, along with the app&rsquo;s name. For iOS, also provide the App Store ID, and then select &lsquo;Register app&rsquo;.</li>
+<li>Proceed to the next step and follow the directions to obtain your app&rsquo;s configuration file.</li>
+<li>Move to the subsequent step and implement the Google Analytics for Firebase SDK into your app as per the given instructions.</li>
+<li>Continue to the following step.</li>
+<li>Launch your app to confirm the SDK installation and ensure it&rsquo;s connecting with Google servers.</li>
+<li>To conclude, click &lsquo;Finish&rsquo;. If you prefer to finalize the app setup later, opt for &lsquo;Skip this step&rsquo;.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/add-ios-app-data-stream.png"
+        data-srcset="/assets/add-ios-app-data-stream.png, /assets/add-ios-app-data-stream.png 1.5x, /assets/add-ios-app-data-stream.png 2x"
+        data-sizes="auto"
+        alt="/assets/add-ios-app-data-stream.png"
+        title="/assets/add-ios-app-data-stream.png" /></li>
+</ol>
+<h3 id="web">Web</h3>
+<ol>
+<li>Type in the URL of your main website, for instance, &ldquo;example.com&rdquo;, and provide a Stream name, such as &ldquo;Example, Inc. (web stream)&rdquo;.</li>
+<li>You can choose to activate enhanced measurement, which automatically tracks page views and additional events. After the data stream is set up, you can modify settings to turn off specific enhanced measurement events if you don&rsquo;t want to gather them. Therefore, it&rsquo;s advisable to turn on enhanced measurement at this stage.</li>
+<li>To finalize, select &lsquo;Create stream&rsquo;.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/add-web-data-stream.png"
+        data-srcset="/assets/add-web-data-stream.png, /assets/add-web-data-stream.png 1.5x, /assets/add-web-data-stream.png 2x"
+        data-sizes="auto"
+        alt="/assets/add-web-data-stream.png"
+        title="/assets/add-web-data-stream.png" /></li>
+</ol>
+<h2 id="set-up-data-collection-for-websites">Set up data collection for websites</h2>
+<h3 id="add-the-google-tag-directly-to-your-web-pages">Add the Google tag directly to your web pages</h3>
+<p>To modify your website&rsquo;s HTML, you&rsquo;ll need access to it. If you cannot do this yourself, request your web developer to follow these steps:</p>
+<ol>
+<li>
+<p>Log into your Google Analytics account.</p>
+</li>
+<li>
+<p>Click on &lsquo;Admin&rsquo;.</p>
+</li>
+<li>
+<p>At the top of the Property column, make sure the correct property is selected.</p>
+</li>
+<li>
+<p>Within the Property column, navigate to &lsquo;Data streams&rsquo; and then &lsquo;Web&rsquo;.</p>
+</li>
+<li>
+<p>Select the data stream that corresponds to your website.</p>
+</li>
+<li>
+<p>Under &lsquo;Google tag&rsquo;, choose &lsquo;View tag instructions&rsquo;.</p>
+</li>
+<li>
+<p>On the &lsquo;Installation instructions&rsquo; page, opt for &lsquo;Install manually&rsquo;.</p>
+</li>
+<li>
+<p>You will see a JavaScript snippet, which is your account&rsquo;s Google tag. Copy the entire code block that starts with:</p>
+<p><code>&lt;!-- Google tag (gtag.js) --&gt;</code></p>
+<p>and ends with:</p>
+<p><code>&lt;/script&gt;</code></p>
+</li>
+<li>
+<p>Insert your Google tag right after the <code>&lt;head&gt;</code> tag on every webpage you wish to track.
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/assets/install-google-analytics-code-manually.png"
+        data-srcset="/assets/install-google-analytics-code-manually.png, /assets/install-google-analytics-code-manually.png 1.5x, /assets/install-google-analytics-code-manually.png 2x"
+        data-sizes="auto"
+        alt="/assets/install-google-analytics-code-manually.png"
+        title="/assets/install-google-analytics-code-manually.png" /></p>
+</li>
+</ol>
+<p>Be aware that it might take <strong>up to 30 minutes</strong> for data collection to commence. Afterwards, you can check the Realtime report to ensure data is being collected.</p>
+<h3 id="add-your-tag-using-google-tag-manager">Add your tag using Google Tag Manager</h3>
+<p>To initiate fundamental data gathering, adhere to the guidelines provided in the guide <a href="https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager" target="_blank" rel="noopener noreffer">Configure Google Analytics 4 in Google Tag Manager</a> for implementing the Google Analytics: GA4 Configuration tag.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-11-09</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/google-analytics/">Google Analytics</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/slack-data-analysis-report-mixpanel-template/" class="prev" rel="prev" title="Slack Data Analysis Report Mixpanel Template"><i class="fas fa-angle-left fa-fw"></i>Slack Data Analysis Report Mixpanel Template</a>
+            <a href="/posts/configure-google-analytics-in-google-tag-manager/" class="next" rel="next" title="Configure Google Analytics 4 in Google Tag Manager">Configure Google Analytics 4 in Google Tag Manager<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

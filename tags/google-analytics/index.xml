@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Google Analytics - Tag - Chloevolution</title>
+        <link>https://chloevolution.com/tags/google-analytics/</link>
+        <description>Google Analytics - Tag - Chloevolution</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 09 Nov 2023 11:52:50 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/google-analytics/" rel="self" type="application/rss+xml" /><item>
+    <title>Configure Google Analytics 4 in Google Tag Manager</title>
+    <link>https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager/</link>
+    <pubDate>Thu, 09 Nov 2023 11:52:50 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager/</guid>
+    <description><![CDATA[Google Tag Manager simplifies the process of configuring and overseeing GA4 events within a single platform. To transmit event information from Google Tag Manager to GA4, you must employ a pair of complementary tags:
+  Google Tag The Google Tag facilitates the transfer of data from your website to Google Analytics and any other designated destinations. For each domain, generate a unique Google Tag and embed it on all the websites you wish to track.]]></description>
+</item><item>
+    <title>How to Set Up Google Analytics 4</title>
+    <link>https://chloevolution.com/posts/how-to-set-up-google-analytics/</link>
+    <pubDate>Thu, 09 Nov 2023 10:56:57 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/how-to-set-up-google-analytics/</guid>
+    <description><![CDATA[Learn the steps to initialize Google Analytics for your digital platforms by establishing a Google Analytics 4 property, integrating a data stream, and embedding the Google Analytics code into your site or application.
+Create an Analytics account Let&rsquo;s get started with setting up your tracking tools. If you don&rsquo;t already have a tracker account, you&rsquo;ll need to create one. If you do, you might consider whether this new website or app should have its own separate account, especially if it&rsquo;s for a different business.]]></description>
+</item></channel>
+</rss>
