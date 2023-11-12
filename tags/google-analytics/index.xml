@@ -3,7 +3,40 @@
         <title>Google Analytics - Tag - Chloevolution</title>
         <link>https://chloevolution.com/tags/google-analytics/</link>
         <description>Google Analytics - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 09 Nov 2023 11:52:50 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/google-analytics/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 13 Nov 2023 03:34:55 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/google-analytics/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Use Google Analytics 4 Audiences?</title>
+    <link>https://chloevolution.com/posts/google-analytics-4-audiences/</link>
+    <pubDate>Mon, 13 Nov 2023 03:34:55 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/google-analytics-4-audiences/</guid>
+    <description><![CDATA[When delving into Google Analytics 4, users often encounter features such as segments, audiences, and comparisons. This can be a source of confusion for those new to GA4, as these features, while similar, have distinct differences.
+This blog post will focus on the concept of audiences in Google Analytics 4, explaining their nature and the scenarios in which they prove to be beneficial.
+What are audiences in Google Analytics 4? Audiences refer to specific groups or subsets of users that are not only useful for analytical purposes but can also be targeted for advertising.]]></description>
+</item><item>
+    <title>Cross-domain tracking in Google Analytics 4</title>
+    <link>https://chloevolution.com/posts/ga4-cross-domain-tracking/</link>
+    <pubDate>Mon, 13 Nov 2023 03:08:24 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/ga4-cross-domain-tracking/</guid>
+    <description><![CDATA[In this tutorial, I&rsquo;ll demonstrate how to set up cross-domain tracking in Google Analytics 4. We&rsquo;ll begin by discussing the issue that cross-domain tracking addresses, followed by a step-by-step guide to the configuration process.
+What is cross-domain tracking in Google Analytics 4? Cross-domain tracking in Google Analytics 4 is a technique enabling webmasters, marketers, and analysts to transfer user or visitor identifiers from one domain (Domain A) to another (Domain B), while maintaining session information.]]></description>
+</item><item>
+    <title>How to Check if Google Analytics is Installed on a Website</title>
+    <link>https://chloevolution.com/posts/google-analytics-checker/</link>
+    <pubDate>Mon, 13 Nov 2023 02:21:06 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/google-analytics-checker/</guid>
+    <description><![CDATA[Suppose you&rsquo;re a freelancer or part of an agency, and you&rsquo;ve recently acquired a new client. You&rsquo;re interested in determining whether their website has Google Analytics. There are several approaches to do this, and in this blog post, I&rsquo;ll be sharing various methods to ascertain if Google Analytics is present.
+Remember, it&rsquo;s not necessary to apply all these methods to the same website. If even one method indicates that Google Analytics is active, that&rsquo;s sufficient confirmation of its installation.]]></description>
+</item><item>
+    <title>How to Exclude Internal Traffic in Google Analytics 4 by IP address</title>
+    <link>https://chloevolution.com/posts/exclude-internal-traffic-google-analytics-4/</link>
+    <pubDate>Mon, 13 Nov 2023 01:36:56 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/exclude-internal-traffic-google-analytics-4/</guid>
+    <description><![CDATA[Implementing Google Analytics 4 also tracks user interactions, including those of the implementing team, which is the standard setup. This becomes particularly challenging for larger organizations with more employees, as each internal interaction can distort the analytics data. Fortunately, Google Analytics 4 offers a solution to filter out this internal traffic.
+However, this process has its complexities. For instance, if you exclude your own interactions, they won&rsquo;t appear in DebugView when testing with Google Tag Manager (GTM).]]></description>
+</item><item>
     <title>Configure Google Analytics 4 in Google Tag Manager</title>
     <link>https://chloevolution.com/posts/configure-google-analytics-in-google-tag-manager/</link>
     <pubDate>Thu, 09 Nov 2023 11:52:50 &#43;0800</pubDate>
