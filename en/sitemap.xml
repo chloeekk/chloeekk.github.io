@@ -2,7 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -15,7 +17,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -28,10 +30,8 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/google-analytics/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/categories/google-analytics/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/posts/google-analytics-4-audiences/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/posts/how-to-create-custom-gpts/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/"
@@ -44,7 +44,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2023-11-16T11:06:41&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/tags/"
@@ -57,6 +57,9 @@
                     hreflang="en"
                     href="https://chloevolution.com/tags/"
                     /></url><url>
+            <loc>https://chloevolution.com/tags/google-analytics/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/categories/google-analytics/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/posts/google-analytics-4-audiences/</loc><lastmod>2023-11-13T03:34:55&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/ga4-cross-domain-tracking/</loc><lastmod>2023-11-13T03:08:24&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/google-analytics-checker/</loc><lastmod>2023-11-13T02:21:06&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/exclude-internal-traffic-google-analytics-4/</loc><lastmod>2023-11-13T01:36:56&#43;08:00</lastmod></url><url>
@@ -67,7 +70,6 @@
             <loc>https://chloevolution.com/categories/mixpanel/</loc><lastmod>2023-10-18T13:08:14&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/slack-data-analysis-report-mixpanel-template/</loc><lastmod>2023-10-18T13:08:14&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/tags/template/</loc><lastmod>2023-10-18T13:08:14&#43;08:00</lastmod></url><url>
-            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2023-09-10T11:31:47&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/tags/chatgpt/</loc><lastmod>2023-09-10T11:31:47&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/categories/chatgpt/</loc><lastmod>2023-09-10T11:31:47&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/chatgpt-prompts-for-instagram/</loc><lastmod>2023-09-10T11:31:47&#43;08:00</lastmod></url><url>
@@ -151,7 +153,6 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/seo/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2023-05-18T18:27:03&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/chatgpt-prompts-for-marketing/</loc><lastmod>2023-05-18T18:27:03&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/how-does-chatgpt-work/</loc><lastmod>2023-05-18T18:26:47&#43;08:00</lastmod></url><url>
             <loc>https://chloevolution.com/posts/chatgpt-mirror-sites/</loc><lastmod>2023-05-18T18:26:26&#43;08:00</lastmod></url><url>
