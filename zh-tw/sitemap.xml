@@ -2,7 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/zh-tw/categories/</loc><lastmod>2023-04-08T11:49:58&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/zh-tw/posts/2023-summary/</loc><lastmod>2023-12-27T00:12:35&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/2023-summary/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloevolution.com/zh-tw/posts/2023-summary/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-tw/categories/</loc><lastmod>2023-12-27T00:12:35&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/categories/"
@@ -15,7 +24,7 @@
                     hreflang="zh-tw"
                     href="https://chloevolution.com/zh-tw/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-tw/</loc><lastmod>2023-04-08T11:49:58&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/zh-tw/</loc><lastmod>2023-12-27T00:12:35&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/"
@@ -28,7 +37,7 @@
                     hreflang="zh-tw"
                     href="https://chloevolution.com/zh-tw/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-tw/posts/</loc><lastmod>2023-04-08T11:49:58&#43;08:00</lastmod><xhtml:link
+            <loc>https://chloevolution.com/zh-tw/posts/</loc><lastmod>2023-12-27T00:12:35&#43;08:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/"
@@ -40,6 +49,20 @@
                     rel="alternate"
                     hreflang="zh-tw"
                     href="https://chloevolution.com/zh-tw/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-tw/categories/%E7%94%9F%E6%B4%BB/</loc><lastmod>2023-12-27T00:12:35&#43;08:00</lastmod></url><url>
+            <loc>https://chloevolution.com/zh-tw/posts/my-shopify-store-experience/</loc><lastmod>2023-12-27T00:10:06&#43;08:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/my-shopify-store-experience/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/my-shopify-store-experience/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-tw"
+                    href="https://chloevolution.com/zh-tw/posts/my-shopify-store-experience/"
                     /></url><url>
             <loc>https://chloevolution.com/zh-tw/tags/seo/</loc><lastmod>2023-04-08T11:49:58&#43;08:00</lastmod><xhtml:link
                         rel="alternate"

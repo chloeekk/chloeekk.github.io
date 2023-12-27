@@ -3,7 +3,14 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 27 Apr 2023 10:26:19 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Dec 2023 00:10:01 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>记录我411天的独立站之旅</title>
+    <link>https://chloevolution.com/zh-cn/posts/my-shopify-store-experience/</link>
+    <pubDate>Wed, 27 Dec 2023 00:10:01 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://chloevolution.com/zh-cn/posts/my-shopify-store-experience/</guid>
+    <description><![CDATA[故事的开始 2022年年中终于下定决心离职，换一个环境。在确定下一家公司的入职时间之后，想着尝试再给自己找一条可能的退路，于是想到了开一个独立]]></description>
+</item><item>
     <title>5分钟即可注册海外苹果ID</title>
     <link>https://chloevolution.com/zh-cn/posts/how-to-create-an-apple-id-without-a-payment-method/</link>
     <pubDate>Thu, 27 Apr 2023 10:26:19 &#43;0800</pubDate>
@@ -66,12 +73,5 @@
     <author>作者</author>
     <guid>https://chloevolution.com/zh-cn/posts/what-are-backlinks/</guid>
     <description><![CDATA[反向链接是搜索引擎优化（SEO）的一个基本方面。它们是来自其他网站的链接，将流量导向你的网站。在这篇文章中，我们将介绍什么是反向链接，为什么]]></description>
-</item><item>
-    <title>了解HTTPS的基础知识以及如何利用HTTPS优化SEO效果</title>
-    <link>https://chloevolution.com/zh-cn/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
-    <pubDate>Sat, 01 Apr 2023 09:43:05 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://chloevolution.com/zh-cn/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
-    <description><![CDATA[HTTP与HTTPS：了解基础知识 HTTP（超文本传输协议）是一个使网络服务器和客户端之间传输数据的协议。该协议在互联网上被广泛用于访问网站]]></description>
 </item></channel>
 </rss>

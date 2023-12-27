@@ -3,9 +3,23 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-tw/</link>
         <description>Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Sat, 08 Apr 2023 11:49:58 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-TW</language><lastBuildDate>Wed, 27 Dec 2023 00:12:35 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-tw/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>2023碎片</title>
+    <link>https://chloevolution.com/zh-tw/posts/2023-summary/</link>
+    <pubDate>Wed, 27 Dec 2023 00:12:35 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/zh-tw/posts/2023-summary/</guid>
+    <description><![CDATA[一月 突然開始對手機攝影有興趣。 去完圖書館回家的路上，看到有個女生拿著一個很大的花朵氣球，於是拍了一張她的背影： 忘了哪天在公司附近吃的番茄口味]]></description>
+</item><item>
+    <title>記錄我411天的獨立站之旅</title>
+    <link>https://chloevolution.com/zh-tw/posts/my-shopify-store-experience/</link>
+    <pubDate>Wed, 27 Dec 2023 00:10:06 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/zh-tw/posts/my-shopify-store-experience/</guid>
+    <description><![CDATA[故事的開始 2022年中終於下定決心離職，換一個環境。 在確定下一家公司的入職時間之後，想著嘗試再為自己找一條可能的退路，於是想到了開一個獨立站]]></description>
+</item><item>
     <title>什麼是黑帽SEO？</title>
     <link>https://chloevolution.com/zh-tw/posts/what-is-black-hat-seo/</link>
     <pubDate>Sat, 08 Apr 2023 11:49:58 &#43;0800</pubDate>
@@ -61,19 +75,5 @@
     <author>Author</author>
     <guid>https://chloevolution.com/zh-tw/posts/what-are-backlinks/</guid>
     <description><![CDATA[反向鏈接是搜索引擎優化（SEO）的一個基本方面。它們是來自其他網站的鏈接，將流量導向你的網站。在這篇文章中，我們將介紹什麼是反向鏈接，為什麼]]></description>
-</item><item>
-    <title>了解HTTPS的基礎知識以及如何利用HTTPS優化SEO效果</title>
-    <link>https://chloevolution.com/zh-tw/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</link>
-    <pubDate>Sat, 01 Apr 2023 09:43:11 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/zh-tw/posts/understanding-the-basics-of-https-and-how-to-implement-it-for-seo/</guid>
-    <description><![CDATA[HTTP與HTTPS：了解基礎知識 HTTP（超文本傳輸協議）是一個使網絡服務器和客戶端之間傳輸數據的協議。該協議在互聯網上被廣泛用於訪問網站]]></description>
-</item><item>
-    <title>什麼是站點地圖？</title>
-    <link>https://chloevolution.com/zh-tw/posts/what-is-a-sitemap/</link>
-    <pubDate>Sun, 26 Feb 2023 17:50:41 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/zh-tw/posts/what-is-a-sitemap/</guid>
-    <description><![CDATA[站點地圖的定義和作用 站點地圖（sitemap）是一種文件，你可以該文件提供和你的網站中的網頁、視頻或其他文件有關的信息，還可以說明這些內容之]]></description>
 </item></channel>
 </rss>
