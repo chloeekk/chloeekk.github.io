@@ -3,7 +3,15 @@
         <title>Hugo - Tag - Chloevolution</title>
         <link>https://chloevolution.com/tags/hugo/</link>
         <description>Hugo - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 05 Jan 2024 05:14:19 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Update a Hugo Blog and Host on Github Pages</title>
+    <link>https://chloevolution.com/posts/update-a-hugo-blog-and-host-on-github-pages/</link>
+    <pubDate>Fri, 05 Jan 2024 05:14:19 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/update-a-hugo-blog-and-host-on-github-pages/</guid>
+    <description><![CDATA[If you&rsquo;ve already read my previous article on creating a blog using Hugo and deploying it on GitHub Pages, you&rsquo;re well on your way to becoming a proficient blogger with a knack for tech-savvy solutions. This article will guide you through the nuances of updating your Hugo blog and seamlessly hosting these fresh changes on GitHub Pages.
+ Update Content in Hugo Add New Posts Creating new content is at the heart of keeping your blog vibrant.]]></description>
+</item><item>
     <title>What is a Sitemap?</title>
     <link>https://chloevolution.com/posts/what-is-a-sitemap/</link>
     <pubDate>Sun, 26 Feb 2023 17:52:14 &#43;0800</pubDate>

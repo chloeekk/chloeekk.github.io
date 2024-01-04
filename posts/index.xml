@@ -3,7 +3,15 @@
         <title>All Posts - Chloevolution</title>
         <link>https://chloevolution.com/posts/</link>
         <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 27 Dec 2023 00:12:23 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 05 Jan 2024 05:14:19 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Update a Hugo Blog and Host on Github Pages</title>
+    <link>https://chloevolution.com/posts/update-a-hugo-blog-and-host-on-github-pages/</link>
+    <pubDate>Fri, 05 Jan 2024 05:14:19 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://chloevolution.com/posts/update-a-hugo-blog-and-host-on-github-pages/</guid>
+    <description><![CDATA[If you&rsquo;ve already read my previous article on creating a blog using Hugo and deploying it on GitHub Pages, you&rsquo;re well on your way to becoming a proficient blogger with a knack for tech-savvy solutions. This article will guide you through the nuances of updating your Hugo blog and seamlessly hosting these fresh changes on GitHub Pages.
+ Update Content in Hugo Add New Posts Creating new content is at the heart of keeping your blog vibrant.]]></description>
+</item><item>
     <title>2023 Fragments</title>
     <link>https://chloevolution.com/posts/2023-summary/</link>
     <pubDate>Wed, 27 Dec 2023 00:12:23 &#43;0800</pubDate>
@@ -77,13 +85,5 @@ What are audiences in Google Analytics 4? Audiences refer to specific groups or 
     <guid>https://chloevolution.com/posts/ga4-cross-domain-tracking/</guid>
     <description><![CDATA[In this tutorial, I&rsquo;ll demonstrate how to set up cross-domain tracking in Google Analytics 4. We&rsquo;ll begin by discussing the issue that cross-domain tracking addresses, followed by a step-by-step guide to the configuration process.
 What is cross-domain tracking in Google Analytics 4? Cross-domain tracking in Google Analytics 4 is a technique enabling webmasters, marketers, and analysts to transfer user or visitor identifiers from one domain (Domain A) to another (Domain B), while maintaining session information.]]></description>
-</item><item>
-    <title>How to Check if Google Analytics is Installed on a Website</title>
-    <link>https://chloevolution.com/posts/google-analytics-checker/</link>
-    <pubDate>Mon, 13 Nov 2023 02:21:06 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://chloevolution.com/posts/google-analytics-checker/</guid>
-    <description><![CDATA[Suppose you&rsquo;re a freelancer or part of an agency, and you&rsquo;ve recently acquired a new client. You&rsquo;re interested in determining whether their website has Google Analytics. There are several approaches to do this, and in this blog post, I&rsquo;ll be sharing various methods to ascertain if Google Analytics is present.
-Remember, it&rsquo;s not necessary to apply all these methods to the same website. If even one method indicates that Google Analytics is active, that&rsquo;s sufficient confirmation of its installation.]]></description>
 </item></channel>
 </rss>
