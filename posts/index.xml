@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - LoveIt</title>
-        <link>https://chloeekk.github.io/posts/</link>
+        <link>https://chloevolution.com/posts/</link>
         <description>All Posts | LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</lastBuildDate><atom:link href="https://chloeekk.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Create A Static Website with Hugo and Host it with Github Pages</title>
-    <link>https://chloeekk.github.io/hugo-github-pages/</link>
+    <link>https://chloevolution.com/hugo-github-pages/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://chloeekk.github.io/hugo-github-pages/</guid>
+    <guid>https://chloevolution.com/hugo-github-pages/</guid>
     <description><![CDATA[1. Install Hugo  Windows：  First install choco package manager, run cmd under administrator privileges and execute the following command:
 1 2 3 4  powershell -NoProfile -ExecutionPolicy unrestricted -Command &#34;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&#34; # Set environment variables SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin   Then use choco to install hugo:
 choco install hugo -confirm
