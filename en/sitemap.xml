@@ -2,7 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/best-read-it-later-app/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -11,7 +12,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -20,7 +21,10 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/tags/productivity/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/categories/productivity/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2024-03-30T21:55:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/tags/"
@@ -28,4 +32,12 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/tags/"
-                    /></url></urlset>
+                    /></url><url>
+            <loc>https://chloevolution.com/habit-tracker-app/</loc><lastmod>2024-03-29T21:49:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/text-expansion-tool/</loc><lastmod>2024-03-28T21:49:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/best-calendar-sharing-app/</loc><lastmod>2024-03-27T21:07:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/best-note-taking-app-for-mac/</loc><lastmod>2024-03-26T20:00:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/timeboxing-app/</loc><lastmod>2024-03-24T21:22:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/hugo-github-pages/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://chloevolution.com/tags/hugo/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://chloevolution.com/categories/hugo/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
