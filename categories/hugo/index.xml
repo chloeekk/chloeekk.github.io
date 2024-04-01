@@ -4,17 +4,17 @@
         <link>https://chloevolution.com/categories/hugo/</link>
         <description>Hugo - Category - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/hugo/" rel="self" type="application/rss+xml" /><item>
-    <title>Create A Static Website with Hugo and Host it with Github Pages</title>
+    <title>How to use Hugo to Build a Blog and Deploy it to Github Page</title>
     <link>https://chloevolution.com/hugo-github-pages/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
     <author>Chloe</author>
     <guid>https://chloevolution.com/hugo-github-pages/</guid>
-    <description><![CDATA[1. Install Hugo  Windows：  First install choco package manager, run cmd under administrator privileges and execute the following command:
+    <description><![CDATA[1. Install Hugo  Windows:  First install the choco package manager, run cmd under administrator rights, and execute the following command:
 1 2 3 4  powershell -NoProfile -ExecutionPolicy unrestricted -Command &#34;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&#34; # Set environment variables SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin   Then use choco to install hugo:
 choco install hugo -confirm
- MacOs：  Use the brew command to install:
+ MacOs:  Install using brew command:
 brew install hugo
- Linux：  Install using the snap command:]]></description>
+ Linux:  Install using snap command:]]></description>
 </item>
 </channel>
 </rss>
