@@ -2,17 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2024-04-05T21:22:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/"
-                    /></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-04-05T21:22:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/posts/test/</loc><lastmod>2024-04-05T21:22:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/posts/best-mind-mapping-software-for-mac/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/categories/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -23,6 +12,16 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
+            <loc>https://chloevolution.com/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/tags/productivity/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/categories/productivity/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/tags/</loc><lastmod>2024-03-31T21:49:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
