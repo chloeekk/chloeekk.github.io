@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo - Category - LoveIt</title>
+        <title>Hugo - Category - Chloevolution</title>
         <link>https://chloevolution.com/categories/hugo/</link>
-        <description>Hugo - Category - LoveIt</description>
+        <description>Hugo - Category - Chloevolution</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>How to use Hugo to Build a Blog and Deploy it to Github Page</title>
     <link>https://chloevolution.com/hugo-github-pages/</link>
