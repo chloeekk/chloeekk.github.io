@@ -3,9 +3,20 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 31 Mar 2024 21:49:46 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>A Guide to Customer Profiling and Segmentation Using Python (Source code)</title>
+    <link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link>
+    <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/customer-profiling-and-segmentation/</guid>
+    <description><![CDATA[The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from original author, there are slight differences in the analysis part.
+The specific analysis process includes:
+ Data Preparation Data Cleaning Data Visualization Data Processing Cluster Analysis Customer Profiling and Segmentation  1. Data Preparation Use the KMeans clustering algorithm to divide the data into K clusters:
+1 2 3 4 5 6 7 8 9 10 11  import numpy as np import pandas as pd import seaborn as sns import matplotlib.]]></description>
+</item>
+<item>
     <title>14 Best Mind Mapping Software for Mac in 2024 (Features, Pros, Cons, Pricing)</title>
     <link>https://chloevolution.com/posts/best-mind-mapping-software-for-mac/</link>
     <pubDate>Sun, 31 Mar 2024 21:49:46 &#43;0800</pubDate>
@@ -67,17 +78,21 @@ This post seeks to assist you in choosing the ideal app that fits your lifestyle
 A methodical approach to addressing the day&rsquo;s work is provided by timeboxing, which is the practice of assigning a predetermined amount of time to a particular task or activity before beginning.]]></description>
 </item>
 <item>
-    <title>How to use Hugo to Build a Blog and Deploy it to Github Page</title>
-    <link>https://chloevolution.com/posts/hugo-github-pages/</link>
-    <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
+    <title>The Silent Game Changer: An In-depth Look at Offline Conversion Tracking</title>
+    <link>https://chloevolution.com/posts/offline-conversion-tracking/</link>
+    <pubDate>Sat, 08 Jul 2023 15:58:15 &#43;0800</pubDate>
     <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/hugo-github-pages/</guid>
-    <description><![CDATA[1. Install Hugo  Windows:  First install the choco package manager, run cmd under administrator rights, and execute the following command:
-1 2 3 4  powershell -NoProfile -ExecutionPolicy unrestricted -Command &#34;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&#34; # Set environment variables SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin   Then use choco to install hugo:
-choco install hugo -confirm
- MacOs:  Install using brew command:
-brew install hugo
- Linux:  Install using snap command:]]></description>
+    <guid>https://chloevolution.com/posts/offline-conversion-tracking/</guid>
+    <description><![CDATA[What is offline conversion tracking Offline conversion tracking is a method used by marketers to measure and attribute customer actions that occur outside of the digital space, directly to their online advertising efforts. These actions could include activities such as purchases made in a physical store, phone calls to a business, or in-person transactions.
+The process generally begins with a unique identifier, like a Google Click ID (GCLID) or a Facebook Pixel, being assigned to each visitor who clicks on an online ad.]]></description>
+</item>
+<item>
+    <title>Expanding Horizons: ChatGPT Mirror Sites Empowering Seamless Conversations and Accessibility</title>
+    <link>https://chloevolution.com/posts/chatgpt-mirror-sites/</link>
+    <pubDate>Thu, 18 May 2023 18:26:26 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/chatgpt-mirror-sites/</guid>
+    <description><![CDATA[In the realm of conversational AI, ChatGPT has emerged as a trailblazer, captivating users with its remarkable language understanding and generation capabilities. As the popularity of ChatGPT soared, it became clear that meeting the ever-increasing demand required a robust infrastructure. Enter ChatGPT mirror sites, a game-changing solution that not only accommodates user traffic but also enhances the overall user experience. In this article, we will delve into the intricacies of ChatGPT mirror sites, exploring their purpose, setup process, challenges, popular options, and future implications.]]></description>
 </item>
 </channel>
 </rss>

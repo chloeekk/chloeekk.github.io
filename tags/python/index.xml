@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Python - Tag - Chloevolution</title>
+        <link>https://chloevolution.com/tags/python/</link>
+        <description>Python - Tag - Chloevolution</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>A Guide to Customer Profiling and Segmentation Using Python (Source code)</title>
+    <link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link>
+    <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/customer-profiling-and-segmentation/</guid>
+    <description><![CDATA[The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from original author, there are slight differences in the analysis part.
+The specific analysis process includes:
+ Data Preparation Data Cleaning Data Visualization Data Processing Cluster Analysis Customer Profiling and Segmentation  1. Data Preparation Use the KMeans clustering algorithm to divide the data into K clusters:
+1 2 3 4 5 6 7 8 9 10 11  import numpy as np import pandas as pd import seaborn as sns import matplotlib.]]></description>
+</item>
+</channel>
+</rss>

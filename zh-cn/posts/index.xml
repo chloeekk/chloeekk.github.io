@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - Chloevolution</title>
+        <link>https://chloevolution.com/zh-cn/posts/</link>
+        <description>所有文章 | Chloevolution</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>用Python进行顾客用户分析和细分（含源码）</title>
+    <link>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</link>
+    <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</guid>
+    <description><![CDATA[本文使用的示例数据和分析代码来自Kaggle。但因为实际的运行结果与原作者不同，故在分析部分略有差异。 具体的分析流程包括： 数据准备 数据清洗 数]]></description>
+</item>
+<item>
+    <title>谷歌广告优化师是做什么的？</title>
+    <link>https://chloevolution.com/zh-cn/posts/what-does-a-google-ads-specialist-do/</link>
+    <pubDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/what-does-a-google-ads-specialist-do/</guid>
+    <description><![CDATA[背景介绍 毕业之后我误打误撞进入了一家互联网公司负责海外推广，一年后转行做海外广告优化师，从此开启我的谷歌广告之路。推过新品、负责过高净额的产]]></description>
+</item>
+</channel>
+</rss>
