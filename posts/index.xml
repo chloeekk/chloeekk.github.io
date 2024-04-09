@@ -3,7 +3,17 @@
         <title>All Posts - Chloevolution</title>
         <link>https://chloevolution.com/posts/</link>
         <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 09 Apr 2024 22:00:01 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Read a ZST File via Python</title>
+    <link>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</link>
+    <pubDate>Tue, 09 Apr 2024 22:00:01 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</guid>
+    <description><![CDATA[Prerequisites To run this code, you need the pandas, zstandard (zstd), and json libraries. If not already installed, you can install pandas and zstandard using pip:
+1  pip install pandas zstandard   json is part of Python&rsquo;s standard library, so no additional installation is needed for it.
+Note: The above below assumes the data inside the .zst file is the newline-delimited JSON (NDJSON) format. If your data is in another format (e.]]></description>
+</item>
+<item>
     <title>A Guide to Customer Profiling and Segmentation Using Python (Source code)</title>
     <link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link>
     <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
@@ -83,14 +93,6 @@ A methodical approach to addressing the day&rsquo;s work is provided by timeboxi
     <guid>https://chloevolution.com/posts/offline-conversion-tracking/</guid>
     <description><![CDATA[What is offline conversion tracking Offline conversion tracking is a method used by marketers to measure and attribute customer actions that occur outside of the digital space, directly to their online advertising efforts. These actions could include activities such as purchases made in a physical store, phone calls to a business, or in-person transactions.
 The process generally begins with a unique identifier, like a Google Click ID (GCLID) or a Facebook Pixel, being assigned to each visitor who clicks on an online ad.]]></description>
-</item>
-<item>
-    <title>Expanding Horizons: ChatGPT Mirror Sites Empowering Seamless Conversations and Accessibility</title>
-    <link>https://chloevolution.com/posts/chatgpt-mirror-sites/</link>
-    <pubDate>Thu, 18 May 2023 18:26:26 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/chatgpt-mirror-sites/</guid>
-    <description><![CDATA[In the realm of conversational AI, ChatGPT has emerged as a trailblazer, captivating users with its remarkable language understanding and generation capabilities. As the popularity of ChatGPT soared, it became clear that meeting the ever-increasing demand required a robust infrastructure. Enter ChatGPT mirror sites, a game-changing solution that not only accommodates user traffic but also enhances the overall user experience. In this article, we will delve into the intricacies of ChatGPT mirror sites, exploring their purpose, setup process, challenges, popular options, and future implications.]]></description>
 </item>
 </channel>
 </rss>
