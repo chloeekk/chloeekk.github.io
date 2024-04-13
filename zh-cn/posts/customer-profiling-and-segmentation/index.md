@@ -33,7 +33,7 @@ warnings.filterwarnings('ignore')
 
 ### ModuleNotFoundError: No module named ‘yellowbrick’
 
-![](yellowbrick-error.png)
+![yellowbrick-error](yellowbrick-error.png)
 
 出现这个错误的原因是我本地没有安装Yellowbrick这个库。
 
@@ -56,7 +56,7 @@ df_dataset = pd.read_csv('marketing_campaign.csv', sep='\t', skipinitialspace = 
 df_dataset.head()
 ```
 
-![](dataset-head.png)
+![dataset-head](dataset-head.png)
 
 查看各列的数值类型及空值情况：
 
@@ -65,7 +65,7 @@ df_dataset.head()
 df_dataset.info()
 ```
 
-![](dataset-info.png)
+![dataset-info](dataset-info.png)
 
 ## 2. 数据清洗
 
@@ -82,15 +82,15 @@ print("The oldest record on customer's enrollment:", min(df_dataset['Dt_Customer
 print("The newest record on customer's enrollment:", max(df_dataset['Dt_Customer']).date())
 ```
 
-![](dataset-record-span.png)
+![dataset-record-span](dataset-record-span.png)
 
 ### ValueError: time data doesn’t match
 
 to_datetime()的默认日期解析顺序是月日年，而数据集中的日期格式是日月年，故需要指定dayfirst的值：
 
-![](time-data-error.png)
+![time-data-error](time-data-error.png)
 
-![](dayfirst-set-true.png)
+![dayfirst-set-true](dayfirst-set-true.png)
 
 对一些属性进行优化以便于后续的分析：
 
@@ -155,7 +155,7 @@ df = df.drop(2233)
 df = df[df['Age'] < 80]
 ```
 
-![](income-age-sort.png)
+![income-age-sort](income-age-sort.png)
 
 ## 3. 数据可视化
 
@@ -176,7 +176,7 @@ plot = sns.pairplot(df[data], hue='Is_Parent', palette='Blues')
 plot.fig.suptitle('Feature Relationship', y=1.05, weight='bold', fontsize=16)
 ```
 
-![](feature-relationship-pairplot.png)
+![feature-relationship-pairplot](feature-relationship-pairplot.png)
 
 从图表中可以看出：
 
@@ -190,7 +190,7 @@ plot.fig.suptitle('Feature Relationship', y=1.05, weight='bold', fontsize=16)
 
 作用是在Notebook内显示图像，而不需要显式地调用plt.show()，具体原理可参考[Stackoverflow](https://stackoverflow.com/questions/21176731/automatically-run-matplotlib-inline-in-ipython-notebook)
 
-![](matplotlib-inline.png)
+![matplotlib-inline](matplotlib-inline.png)
 
 通过条形图观察顾客注册为会员的时间分布：
 
@@ -214,7 +214,7 @@ sns.countplot(df['Month'], palette='Blues', ax=axes[2])
 sns.countplot(df['Year'], palette='Blues', ax=axes[3])
 ```
 
-![](register-time-bar-chart.png)
+![register-time-bar-chart](register-time-bar-chart.png)
 
 从图表中可以看出：
 
@@ -233,7 +233,7 @@ group = pd.cut(df['Age'], [10, 20, 30, 40, 50, 60, 70, 80])
 group.value_counts()
 ```
 
-![](age-span.png)
+![age-span](age-span.png)
 
 复制一个新的数据表，在此基础上将“年龄”替换为处理后的区间数据：
 
@@ -271,7 +271,7 @@ for i,v in enumerate(mean_group['Total_Spent']):
     axes[1].text(v-130, i, '$ {}'.format(round(v,2)), horizontalalignment='center', verticalalignment='center', weight='bold', color='white', fontsize=12)
 ```
 
-![](spent-age-group.png)
+![spent-age-group](spent-age-group.png)
 
 从图表中可以看出：
 
@@ -327,7 +327,7 @@ for i, (name, value) in enumerate(zip(data.index, data)):
 axd[7].axis('off')
 ```
 
-![](products-spent-age-group.png)
+![products-spent-age-group](products-spent-age-group.png)
 
 从图表中可知：
 
@@ -387,7 +387,7 @@ for i, (name, value) in enumerate(zip(data.index, data)):
 axd[4].axis('off')
 ```
 
-![](purchase-methods-age-group.png)
+![purchase-methods-age-group](purchase-methods-age-group.png)
 
 从图中可知：
 
@@ -419,7 +419,7 @@ for i,v in enumerate(percent):
     plt.text(i, v+1.2, '{:.2f}%'.format(v), horizontalalignment='center', weight='bold', color='Black', fontsize=10)
 ```
 
-![](customer-accepted-offer.png)
+![customer-accepted-offer](customer-accepted-offer.png)
 
 从图中可知：
 
@@ -436,7 +436,7 @@ plt.title('Average Number of Purchases Made with a Discount\nby Age Groups', wei
 sns.barplot(data=df, x=group, y='NumDealsPurchases', hue='Is_Parent', ci=None, palette='Blues')
 ```
 
-![](discount-age-group.png)
+![discount-age-group](discount-age-group.png)
 
 从图中可以看出：
 
@@ -455,7 +455,7 @@ plt.title('Feature correlation', weight='bold', fontsize=16, y=1.05)
 sns.heatmap(df[data].corr(), cmap='Blues')
 ```
 
-![](feature-correlation.png)
+![feature-correlation](feature-correlation.png)
 
 从图中可以看出：
 
@@ -498,7 +498,7 @@ df_final_scaled = pd.DataFrame(scaled, columns=df_final.columns)
 df_final_scaled.head()
 ```
 
-![](scaled-dataset.png)
+![scaled-dataset](scaled-dataset.png)
 
 进行标准化处理后，数据点的值表示原始值相对于均值的偏离程度，以标准差为单位。例如，一个处理后的值为2表示该数据点的原始值比均值高出了两个标准差
 
@@ -547,7 +547,7 @@ elbow.show()
 
 运行结果是一个关于不同k值（聚类数量）与对应的SSE（误差平方和）的图表。肘部图的目的是帮助我们直观地看到随着k值增加，SSE如何变化。理想情况下，SSE随k值增加而降低，但下降速度会在某一点明显放缓，这个点就是所谓的“肘点”，被认为是最佳的聚类数量
 
-![](elbow-point-result.png)
+![elbow-point-result](elbow-point-result.png)
 
 从图中可以看出，“肘点”为k=5
 
@@ -567,7 +567,7 @@ df['Cluster'] = yhat
 sns.countplot(data=df, x='Cluster', palette='Blues')
 ```
 
-![](cluster-distribution.png)
+![cluster-distribution](cluster-distribution.png)
 
 ## 6. 用户画像分析
 
@@ -583,7 +583,7 @@ sns.violinplot(data=df, x='Cluster', y='Total_Spent', palette='Blues', ax=axd[1]
 sns.violinplot(data=df, x='Cluster', y='Income', palette='Blues', ax=axd[2])
 ```
 
-![](cluster-scatterplot-violinplot.png)
+![cluster-scatterplot-violinplot](cluster-scatterplot-violinplot.png)
 
 从图中可知：
 
@@ -609,7 +609,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Age', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](age-spent-kdeplot.png)
+![age-spent-kdeplot](age-spent-kdeplot.png)
 
 ### 核密度估计图怎么看
 
@@ -631,7 +631,7 @@ g.map(sns.kdeplot, 'Is_Parent', 'Total_Spent', color='#95C8D8', fill=True)
 plt.text(0.6,3900, '0: Non Parent\n1: Parent', weight='bold', fontsize=12)
 ```
 
-![](isparent-spent-kdeplot.png)
+![isparent-spent-kdeplot](isparent-spent-kdeplot.png)
 
 绘制“儿童数量”和“总花费”的核密度估计图：
 
@@ -640,7 +640,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Kidhome', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](kidhome-spent-kdeplot.png)
+![kidhome-spent-kdeplot](kidhome-spent-kdeplot.png)
 
 绘制“青少年数量”和“总花费”的核密度估计图：
 
@@ -649,7 +649,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Teenhome', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](teenhome-spent-kdeplot.png)
+![teenhome-spent-kdeplot](teenhome-spent-kdeplot.png)
 
 绘制“孩子总量”和“总花费”的核密度估计图：
 
@@ -658,7 +658,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Total_Children', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](totalchildren-spent-kdeplot.png)
+![totalchildren-spent-kdeplot](totalchildren-spent-kdeplot.png)
 
 绘制“婚恋状况”和“总花费”的核密度估计图：
 
@@ -669,7 +669,7 @@ g.map(sns.kdeplot, 'Living_With', 'Total_Spent', color='#95C8D8', fill=True)
 plt.text(0.7,3900, '0: Alone\n1: Partner', weight='bold', fontsize=12)
 ```
 
-![](livingwith-spent-kdeplot.png)
+![livingwith-spent-kdeplot](livingwith-spent-kdeplot.png)
 
 绘制“学历情况”和“总花费”的散点图：
 
@@ -680,7 +680,7 @@ g.map(sns.scatterplot, 'Education', 'Total_Spent', color='#95C8D8')
 plt.text(0.6,3400, '0: Graduate\n1: Postgraduate\n2: Undergraduate', weight='bold', fontsize=12)
 ```
 
-![](education-spent-scatterplot.png)
+![education-spent-scatterplot](education-spent-scatterplot.png)
 
 ### 散点图怎么看？
 
@@ -714,7 +714,7 @@ plt.title("Average Number of Days Since Customer's Last Purchase\nby Clusters", 
 sns.barplot(data=df, x='Cluster', y='Recency', palette='Blues', ci=None)
 ```
 
-![](cluster-recency-barplot.png)
+![cluster-recency-barplot](cluster-recency-barplot.png)
 
 观察不同顾客群体（Cluster）在不同产品类别（如葡萄酒、水果、肉类等）中的平均消费额：
 
@@ -740,7 +740,7 @@ axes[5].set_title('Gold', weight='bold')
 plt.tight_layout()
 ```
 
-![](cluster-products-barplot.png)
+![cluster-products-barplot](cluster-products-barplot.png)
 
 观察不同顾客群体在不同销售渠道中的平均消费次数：
 
@@ -763,7 +763,7 @@ axes[2].set_title('Store', weight='bold')
 plt.tight_layout()
 ```
 
-![](cluster-methods-barplot.png)
+![cluster-methods-barplot](cluster-methods-barplot.png)
 
 观察不同顾客群体在不同营销campaign中的平均消费次数：
 
@@ -788,7 +788,7 @@ axes[5].set_title('Campaign 6', weight='bold')
 plt.tight_layout()
 ```
 
-![](cluster-campaigns-barplot.png)
+![cluster-campaigns-barplot](cluster-campaigns-barplot.png)
 
 观察不同顾客群体使用折扣进行消费的情况：
 
@@ -798,7 +798,7 @@ plt.title('Average Number of Purchases Made with a Discount\nby Clusters', weigh
 sns.barplot(data=df, x='Cluster', y='NumDealsPurchases', ci=None, palette='Blues')
 ```
 
-![](cluster-discounts-barplot.png)
+![cluster-discounts-barplot](cluster-discounts-barplot.png)
 
 综合以上多个图表，我们可以总结出以下5类用户画像：
 

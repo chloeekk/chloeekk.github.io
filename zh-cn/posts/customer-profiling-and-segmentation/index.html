@@ -34,7 +34,12 @@
         },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Python","wordcount":  10163 ,
         "url": "https:\/\/chloevolution.com\/zh-cn\/posts\/customer-profiling-and-segmentation\/","datePublished": "2024-04-07T11:49:14+08:00","dateModified": "2024-04-07T11:49:14+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
-            "name": "xxxx","logo": "https:\/\/chloevolution.com\/images\/avatar.png"},"author": {
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
+                    "width":  4032 ,
+                    "height":  3024 
+                }},"author": {
                 "@type": "Person",
                 "name": "Chloe"
             },"description": "本文介绍了如何使用 Python 进行客户分析和细分。"
@@ -209,7 +214,7 @@
 </div>
 </div><h3 id="modulenotfounderror-no-module-named-yellowbrick">ModuleNotFoundError: No module named ‘yellowbrick’</h3>
 <p>
-<img src="yellowbrick-error.png" alt=""  width="1290" height="40%"  /></p>
+<img src="yellowbrick-error.png" alt="yellowbrick-error"  width="1290" height="40%"  /></p>
 <p>出现这个错误的原因是我本地没有安装Yellowbrick这个库。</p>
 <p>Yellowbrick是一个机器学习可视化库，主要依赖于sklearn机器学习库，能够提供多种机器学习算法的可视化。</p>
 <p>Yellowbrick有两个主要依赖：scikit-learn和matplotlib。Yellowbrick是Python 3软件包，可与3.4或更高版本一起使用。</p>
@@ -242,7 +247,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="dataset-head.png" alt=""  width="1976" height="40%"  /></p>
+<img src="dataset-head.png" alt="dataset-head"  width="1976" height="40%"  /></p>
 <p>查看各列的数值类型及空值情况：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -255,7 +260,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="dataset-info.png" alt=""  width="798" height="40%"  /></p>
+<img src="dataset-info.png" alt="dataset-info"  width="798" height="40%"  /></p>
 <h2 id="2-数据清洗">2. 数据清洗</h2>
 <p>已知顾客注册时间（Dt_Customer）的类型为Object。为便于后续拆分为年、月、日，需将其转换为日期时间的格式。</p>
 <p>同时通过<code>date()</code>查看数据的时间跨度。由此可知数据集中customer注册时间为2012-2014年：</p>
@@ -278,13 +283,13 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="dataset-record-span.png" alt=""  width="1558" height="40%"  /></p>
+<img src="dataset-record-span.png" alt="dataset-record-span"  width="1558" height="40%"  /></p>
 <h3 id="valueerror-time-data-doesnt-match">ValueError: time data doesn’t match</h3>
 <p>to_datetime()的默认日期解析顺序是月日年，而数据集中的日期格式是日月年，故需要指定dayfirst的值：</p>
 <p>
-<img src="time-data-error.png" alt=""  width="1976" height="40%"  /></p>
+<img src="time-data-error.png" alt="time-data-error"  width="1976" height="40%"  /></p>
 <p>
-<img src="dayfirst-set-true.png" alt=""  width="1556" height="40%"  /></p>
+<img src="dayfirst-set-true.png" alt="dayfirst-set-true"  width="1556" height="40%"  /></p>
 <p>对一些属性进行优化以便于后续的分析：</p>
 <ul>
 <li>年龄（Age）：顾客记录的最近时间为2014年，以此为锚点，减去顾客的出生日期</li>
@@ -395,7 +400,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="income-age-sort.png" alt=""  width="428" height="40%"  /></p>
+<img src="income-age-sort.png" alt="income-age-sort"  width="428" height="40%"  /></p>
 <h2 id="3-数据可视化">3. 数据可视化</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -429,7 +434,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="feature-relationship-pairplot.png" alt=""  width="1076" height="40%"  /></p>
+<img src="feature-relationship-pairplot.png" alt="feature-relationship-pairplot"  width="1076" height="40%"  /></p>
 <p>从图表中可以看出：</p>
 <ul>
 <li>非父母人群的收入、消费金额、消费频次明显高于已为父母的人群</li>
@@ -440,7 +445,7 @@
 <code>%matplotlib inline</code></p>
 <p>作用是在Notebook内显示图像，而不需要显式地调用plt.show()，具体原理可参考<a href="https://stackoverflow.com/questions/21176731/automatically-run-matplotlib-inline-in-ipython-notebook" target="_blank" rel="noopener noreffer ">Stackoverflow</a></p>
 <p>
-<img src="matplotlib-inline.png" alt=""  width="768" height="40%"  /></p>
+<img src="matplotlib-inline.png" alt="matplotlib-inline"  width="768" height="40%"  /></p>
 <p>通过条形图观察顾客注册为会员的时间分布：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -483,7 +488,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="register-time-bar-chart.png" alt=""  width="1235" height="40%"  /></p>
+<img src="register-time-bar-chart.png" alt="register-time-bar-chart"  width="1235" height="40%"  /></p>
 <p>从图表中可以看出：</p>
 <ul>
 <li>多数消费者在周一、周三注册成为会员</li>
@@ -509,7 +514,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="age-span.png" alt=""  width="360" height="40%"  /></p>
+<img src="age-span.png" alt="age-span"  width="360" height="40%"  /></p>
 <p>复制一个新的数据表，在此基础上将“年龄”替换为处理后的区间数据：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -580,7 +585,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="spent-age-group.png" alt=""  width="1181" height="40%"  /></p>
+<img src="spent-age-group.png" alt="spent-age-group"  width="1181" height="40%"  /></p>
 <p>从图表中可以看出：</p>
 <ul>
 <li>消费分布两极分化明显。两端年龄区间的人数加起来不超过20人，导致总消费金额差距明显</li>
@@ -682,7 +687,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="products-spent-age-group.png" alt=""  width="1811" height="40%"  /></p>
+<img src="products-spent-age-group.png" alt="products-spent-age-group"  width="1811" height="40%"  /></p>
 <p>从图表中可知：</p>
 <ul>
 <li>除了水果、糖果、金子外，其余品类都是70岁以上人群的消费金额最高，其中他们在酒类商品的平均消费金额超过600美金</li>
@@ -775,7 +780,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="purchase-methods-age-group.png" alt=""  width="1811" height="40%"  /></p>
+<img src="purchase-methods-age-group.png" alt="purchase-methods-age-group"  width="1811" height="40%"  /></p>
 <p>从图中可知：</p>
 <ul>
 <li>在三种不同购买渠道中，70岁以上人群的消费金额都是最高的，尽管这个群组只有8人。再次反映他们的消费金额要明显高于其它年龄段的人群</li>
@@ -832,7 +837,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="customer-accepted-offer.png" alt=""  width="742" height="40%"  /></p>
+<img src="customer-accepted-offer.png" alt="customer-accepted-offer"  width="742" height="40%"  /></p>
 <p>从图中可知：</p>
 <ul>
 <li>愿意接受第一次campaign的人只有6.42%，第二次甚至暴跌到1.36%</li>
@@ -856,7 +861,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="discount-age-group.png" alt=""  width="766" height="40%"  /></p>
+<img src="discount-age-group.png" alt="discount-age-group"  width="766" height="40%"  /></p>
 <p>从图中可以看出：</p>
 <p>已成为父母的人群明显更容易被折扣吸引，进而进行购买</p>
 <p>通过热力图观察“数值”类型的属性之间的关联关系，颜色越深，关联性越强：</p>
@@ -883,7 +888,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="feature-correlation.png" alt=""  width="1026" height="40%"  /></p>
+<img src="feature-correlation.png" alt="feature-correlation"  width="1026" height="40%"  /></p>
 <p>从图中可以看出：</p>
 <ul>
 <li>“月度官网访问次数”、“孩子总数”、“是否为父母”与顾客消费金额的相关性较小</li>
@@ -950,7 +955,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="scaled-dataset.png" alt=""  width="1582" height="40%"  /></p>
+<img src="scaled-dataset.png" alt="scaled-dataset"  width="1582" height="40%"  /></p>
 <p>进行标准化处理后，数据点的值表示原始值相对于均值的偏离程度，以标准差为单位。例如，一个处理后的值为2表示该数据点的原始值比均值高出了两个标准差</p>
 <p>使用<code>LabelEncoder</code>对DataFrame (<code>df</code>) 中的非数值特征进行编码转换，以便于之后的数据可视化：</p>
 <div class="highlight"><div class="chroma">
@@ -1011,7 +1016,7 @@
 </div>
 </div><p>运行结果是一个关于不同k值（聚类数量）与对应的SSE（误差平方和）的图表。肘部图的目的是帮助我们直观地看到随着k值增加，SSE如何变化。理想情况下，SSE随k值增加而降低，但下降速度会在某一点明显放缓，这个点就是所谓的“肘点”，被认为是最佳的聚类数量</p>
 <p>
-<img src="elbow-point-result.png" alt=""  width="772" height="40%"  /></p>
+<img src="elbow-point-result.png" alt="elbow-point-result"  width="772" height="40%"  /></p>
 <p>从图中可以看出，“肘点”为k=5</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1046,7 +1051,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-distribution.png" alt=""  width="700" height="40%"  /></p>
+<img src="cluster-distribution.png" alt="cluster-distribution"  width="700" height="40%"  /></p>
 <h2 id="6-用户画像分析">6. 用户画像分析</h2>
 <p>分析收入与总消费之间的关系，并按照聚类结果进行区分，绘制散点图和小提琴图：</p>
 <div class="highlight"><div class="chroma">
@@ -1070,7 +1075,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-scatterplot-violinplot.png" alt=""  width="1411" height="40%"  /></p>
+<img src="cluster-scatterplot-violinplot.png" alt="cluster-scatterplot-violinplot"  width="1411" height="40%"  /></p>
 <p>从图中可知：</p>
 <p>类0：高消费 &amp; 高收入</p>
 <p>类1：低消费 &amp; 低收入</p>
@@ -1094,7 +1099,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="age-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="age-spent-kdeplot.png" alt="age-spent-kdeplot"  width="1484" height="40%"  /></p>
 <h3 id="核密度估计图怎么看">核密度估计图怎么看</h3>
 <p>核密度估计图（KDE图），是一种用于展示变量分布的图形，它可以看作是直方图的平滑版本。通过KDE图，我们可以直观地了解数据的分布情况，包括数据的集中趋势、分散程度和偏态情况。以下是如何解读核密度估计图的几个要点：</p>
 <ol>
@@ -1121,7 +1126,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="isparent-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="isparent-spent-kdeplot.png" alt="isparent-spent-kdeplot"  width="1484" height="40%"  /></p>
 <p>绘制“儿童数量”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1134,7 +1139,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="kidhome-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="kidhome-spent-kdeplot.png" alt="kidhome-spent-kdeplot"  width="1484" height="40%"  /></p>
 <p>绘制“青少年数量”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1147,7 +1152,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="teenhome-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="teenhome-spent-kdeplot.png" alt="teenhome-spent-kdeplot"  width="1484" height="40%"  /></p>
 <p>绘制“孩子总量”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1160,7 +1165,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="totalchildren-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="totalchildren-spent-kdeplot.png" alt="totalchildren-spent-kdeplot"  width="1484" height="40%"  /></p>
 <p>绘制“婚恋状况”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1177,7 +1182,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="livingwith-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="livingwith-spent-kdeplot.png" alt="livingwith-spent-kdeplot"  width="1484" height="40%"  /></p>
 <p>绘制“学历情况”和“总花费”的散点图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1194,7 +1199,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="education-spent-scatterplot.png" alt=""  width="1484" height="40%"  /></p>
+<img src="education-spent-scatterplot.png" alt="education-spent-scatterplot"  width="1484" height="40%"  /></p>
 <h3 id="散点图怎么看">散点图怎么看？</h3>
 <ol>
 <li>相关性（Correlation）</li>
@@ -1232,7 +1237,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-recency-barplot.png" alt=""  width="762" height="40%"  /></p>
+<img src="cluster-recency-barplot.png" alt="cluster-recency-barplot"  width="762" height="40%"  /></p>
 <p>观察不同顾客群体（Cluster）在不同产品类别（如葡萄酒、水果、肉类等）中的平均消费额：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1279,7 +1284,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-products-barplot.png" alt=""  width="1584" height="40%"  /></p>
+<img src="cluster-products-barplot.png" alt="cluster-products-barplot"  width="1584" height="40%"  /></p>
 <p>观察不同顾客群体在不同销售渠道中的平均消费次数：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1320,7 +1325,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-methods-barplot.png" alt=""  width="1584" height="40%"  /></p>
+<img src="cluster-methods-barplot.png" alt="cluster-methods-barplot"  width="1584" height="40%"  /></p>
 <p>观察不同顾客群体在不同营销campaign中的平均消费次数：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1365,7 +1370,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-campaigns-barplot.png" alt=""  width="1584" height="40%"  /></p>
+<img src="cluster-campaigns-barplot.png" alt="cluster-campaigns-barplot"  width="1584" height="40%"  /></p>
 <p>观察不同顾客群体使用折扣进行消费的情况：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1380,7 +1385,7 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>
-<img src="cluster-discounts-barplot.png" alt=""  width="766" height="40%"  /></p>
+<img src="cluster-discounts-barplot.png" alt="cluster-discounts-barplot"  width="766" height="40%"  /></p>
 <p>综合以上多个图表，我们可以总结出以下5类用户画像：</p>
 <p>类0：</p>
 <ul>

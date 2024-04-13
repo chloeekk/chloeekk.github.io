@@ -14,7 +14,7 @@
 Note: The above below assumes the data inside the .zst file is the newline-delimited JSON (NDJSON) format. If your data is in another format (e.]]></description>
 </item>
 <item>
-    <title>A Guide to Customer Profiling and Segmentation Using Python (Source code)</title>
+    <title>Customer Profiling &amp; Segmentation with Python (Source code)</title>
     <link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link>
     <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
     <author>Chloe</author>

@@ -1,4 +1,4 @@
-# A Guide to Customer Profiling and Segmentation Using Python (Source code)
+# Customer Profiling & Segmentation with Python (Source code)
 
 
 The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from [original author](https://www.kaggle.com/code/mfaaris/customer-segmentation-insights-profiling), there are slight differences in the analysis part.
@@ -32,7 +32,7 @@ warnings.filterwarnings('ignore')
 
 ### ModuleNotFoundError: No module named ‘yellowbrick’
 
-![](yellowbrick-error.png)
+![yellowbrick-error](yellowbrick-error.png)
 
 The reason for this error is that the Yellowbrick library is not installed locally.
 
@@ -55,7 +55,7 @@ df_dataset = pd.read_csv('marketing_campaign.csv', sep='\t', skipinitialspace = 
 df_dataset.head()
 ```
 
-![](dataset-head.png)
+![dataset-head](dataset-head.png)
 
 Check the numerical type and null value of each column:
 
@@ -64,7 +64,7 @@ Check the numerical type and null value of each column:
 df_dataset.info()
 ```
 
-![](dataset-info.png)
+![dataset-info](dataset-info.png)
 
 ## 2. Data Cleaning
 
@@ -81,15 +81,15 @@ print("The oldest record on customer's enrollment:", min(df_dataset['Dt_Customer
 print("The newest record on customer's enrollment:", max(df_dataset['Dt_Customer']).date())
 ```
 
-![](dataset-record-span.png)
+![dataset-record-span](dataset-record-span.png)
 
 ### ValueError: time data doesn’t match
 
 The default date parsing order of to_datetime() is month, day, and year, and the date format in the data set is day, month, and year, so the value of dayfirst needs to be specified:
 
-![](time-data-error.png)
+![time-data-error](time-data-error.png)
 
-![](dayfirst-set-true.png)
+![dayfirst-set-true](dayfirst-set-true.png)
 
 Optimize some attributes to facilitate subsequent analysis:
 
@@ -154,7 +154,7 @@ df = df.drop(2233)
 df = df[df['Age'] < 80]
 ```
 
-![](income-age-sort.png)
+![income-age-sort](income-age-sort.png)
 
 ## 3. Data Visualization
 
@@ -175,7 +175,7 @@ plot = sns.pairplot(df[data], hue='Is_Parent', palette='Blues')
 plot.fig.suptitle('Feature Relationship', y=1.05, weight='bold', fontsize=16)
 ```
 
-![](feature-relationship-pairplot.png)
+![feature-relationship-pairplot](feature-relationship-pairplot.png)
 
 As can be seen from the chart:
 
@@ -189,7 +189,7 @@ If you use Jupyter Notebook, you need to add it at the beginning of the code
 
 The function is to display images in Notebook without explicitly calling plt.show(). For specific principles, please refer to [Stackoverflow](https://stackoverflow.com/questions/21176731/automatically-run-matplotlib-inline-in -ipython-notebook)
 
-![](matplotlib-inline.png)
+![matplotlib-inline](matplotlib-inline.png)
 
 Observe the time distribution of customers registering as members through a bar chart:
 
@@ -213,7 +213,7 @@ sns.countplot(df['Month'], palette='Blues', ax=axes[2])
 sns.countplot(df['Year'], palette='Blues', ax=axes[3])
 ```
 
-![](register-time-bar-chart.png)
+![register-time-bar-chart](register-time-bar-chart.png)
 
 As can be seen from the chart:
 
@@ -232,7 +232,7 @@ group = pd.cut(df['Age'], [10, 20, 30, 40, 50, 60, 70, 80])
 group.value_counts()
 ```
 
-![](age-span.png)
+![age-span](age-span.png)
 
 Copy a new data table and replace "age" with the processed interval data:
 
@@ -270,7 +270,7 @@ for i,v in enumerate(mean_group['Total_Spent']):
     axes[1].text(v-130, i, '$ {}'.format(round(v,2)), horizontalalignment='center', verticalalignment='center', weight='bold', color='white', fontsize=12)
 ```
 
-![](spent-age-group.png)
+![spent-age-group](spent-age-group.png)
 
 As can be seen from the chart:
 
@@ -325,7 +325,7 @@ for i, (name, value) in enumerate(zip(data.index, data)):
 axd[7].axis('off')
 ```
 
-![](products-spent-age-group.png)
+![products-spent-age-group](products-spent-age-group.png)
 
 It can be seen from the chart:
 
@@ -385,7 +385,7 @@ for i, (name, value) in enumerate(zip(data.index, data)):
 axd[4].axis('off')
 ```
 
-![](purchase-methods-age-group.png)
+![purchase-methods-age-group](purchase-methods-age-group.png)
 
 It can be seen from the figure:
 
@@ -418,7 +418,7 @@ for i,v in enumerate(percent):
     plt.text(i, v+1.2, '{:.2f}%'.format(v), horizontalalignment='center', weight='bold', color='Black', fontsize=10)
 ```
 
-![](customer-accepted-offer.png)
+![customer-accepted-offer](customer-accepted-offer.png)
 
 It can be seen from the figure:
 
@@ -435,7 +435,7 @@ plt.title('Average Number of Purchases Made with a Discount\nby Age Groups', wei
 sns.barplot(data=df, x=group, y='NumDealsPurchases', hue='Is_Parent', ci=None, palette='Blues')
 ```
 
-![](discount-age-group.png)
+![discount-age-group](discount-age-group.png)
 
 It can be seen from the figure:
 
@@ -454,7 +454,7 @@ plt.title('Feature correlation', weight='bold', fontsize=16, y=1.05)
 sns.heatmap(df[data].corr(), cmap='Blues')
 ```
 
-![](feature-correlation.png)
+![feature-correlation](feature-correlation.png)
 
 It can be seen from the figure:
 
@@ -496,7 +496,7 @@ df_final_scaled = pd.DataFrame(scaled, columns=df_final.columns)
 df_final_scaled.head()
 ```
 
-![](scaled-dataset.png)
+![scaled-dataset](scaled-dataset.png)
 
 After normalization, the value of a data point represents the deviation of the original value from the mean, in units of standard deviation. For example, a processed value of 2 means that the original value of the data point is two standard deviations above the mean.
 
@@ -545,7 +545,7 @@ elbow.show()
 
 The result of the run is a graph of different k values (number of clusters) and the corresponding SSE (sum of squared errors). The purpose of the elbow plot is to help us visually see how the SSE changes as the value of k increases. Ideally, SSE decreases as the k value increases, but the rate of decrease will slow down significantly at a certain point. This point is the so-called "elbow point" and is considered the optimal number of clusters.
 
-![](elbow-point-result.png)
+![elbow-point-result](elbow-point-result.png)
 
 As can be seen from the figure, the "elbow point" is k=5
 
@@ -565,7 +565,7 @@ df['Cluster'] = yhat
 sns.countplot(data=df, x='Cluster', palette='Blues')
 ```
 
-![](cluster-distribution.png)
+![cluster-distribution](cluster-distribution.png)
 
 ## 6. Customer Profiling and Segmentation
 
@@ -581,7 +581,7 @@ sns.violinplot(data=df, x='Cluster', y='Total_Spent', palette='Blues', ax=axd[1]
 sns.violinplot(data=df, x='Cluster', y='Income', palette='Blues', ax=axd[2])
 ```
 
-![](cluster-scatterplot-violinplot.png)
+![cluster-scatterplot-violinplot](cluster-scatterplot-violinplot.png)
 
 It can be seen from the figure:
 
@@ -607,7 +607,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Age', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](age-spent-kdeplot.png)
+![age-spent-kdeplot](age-spent-kdeplot.png)
 
 ### How to analyze the kernel density estimation chart
 
@@ -629,7 +629,7 @@ g.map(sns.kdeplot, 'Is_Parent', 'Total_Spent', color='#95C8D8', fill=True)
 plt.text(0.6,3900, '0: Non Parent\n1: Parent', weight='bold', fontsize=12)
 ```
 
-![](isparent-spent-kdeplot.png)
+![isparent-spent-kdeplot](isparent-spent-kdeplot.png)
 
 Plot the kernel density estimates of "number of children" and "total spent":
 
@@ -638,7 +638,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Kidhome', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](kidhome-spent-kdeplot.png)
+![kidhome-spent-kdeplot](kidhome-spent-kdeplot.png)
 
 Plot the kernel density estimates of "number of teenagers" and "total spent":
 
@@ -647,7 +647,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Teenhome', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](teenhome-spent-kdeplot.png)
+![teenhome-spent-kdeplot](teenhome-spent-kdeplot.png)
 
 Plot the kernel density estimates of "total children" and "total spent":
 
@@ -656,7 +656,7 @@ g = sns.FacetGrid(data=df, col='Cluster')
 g.map(sns.kdeplot, 'Total_Children', 'Total_Spent', color='#95C8D8', fill=True)
 ```
 
-![](totalchildren-spent-kdeplot.png)
+![totalchildren-spent-kdeplot](totalchildren-spent-kdeplot.png)
 
 Plot the kernel density estimates of "relationship status" and "total spent":
 
@@ -667,7 +667,7 @@ g.map(sns.kdeplot, 'Living_With', 'Total_Spent', color='#95C8D8', fill=True)
 plt.text(0.7,3900, '0: Alone\n1: Partner', weight='bold', fontsize=12)
 ```
 
-![](livingwith-spent-kdeplot.png)
+![livingwith-spent-kdeplot](livingwith-spent-kdeplot.png)
 
 Draw a scatter plot of "education status" and "total spent":
 
@@ -678,7 +678,7 @@ g.map(sns.scatterplot, 'Education', 'Total_Spent', color='#95C8D8')
 plt.text(0.6,3400, '0: Graduate\n1: Postgraduate\n2: Undergraduate', weight='bold', fontsize=12)
 ```
 
-![](education-spent-scatterplot.png)
+![education-spent-scatterplot](education-spent-scatterplot.png)
 
 ### How to analyze a scatter plot?
 
@@ -712,7 +712,7 @@ plt.title("Average Number of Days Since Customer's Last Purchase\nby Clusters", 
 sns.barplot(data=df, x='Cluster', y='Recency', palette='Blues', ci=None)
 ```
 
-![](cluster-recency-barplot.png)
+![cluster-recency-barplot](cluster-recency-barplot.png)
 
 Observe the average consumption of different customer groups (Cluster) in different product categories (such as wine, fruit, meat, etc.):
 
@@ -738,7 +738,7 @@ axes[5].set_title('Gold', weight='bold')
 plt.tight_layout()
 ```
 
-![](cluster-products-barplot.png)
+![cluster-products-barplot](cluster-products-barplot.png)
 
 Observe the average number of purchases by different customer groups in different sales channels:
 
@@ -761,7 +761,7 @@ axes[2].set_title('Store', weight='bold')
 plt.tight_layout()
 ```
 
-![](cluster-methods-barplot.png)
+![cluster-methods-barplot](cluster-methods-barplot.png)
 
 Observe the average number of purchases by different customer groups in different marketing campaigns:
 
@@ -786,7 +786,7 @@ axes[5].set_title('Campaign 6', weight='bold')
 plt.tight_layout()
 ```
 
-![](cluster-campaigns-barplot.png)
+![cluster-campaigns-barplot](cluster-campaigns-barplot.png)
 
 Observe how different customer groups use discounts for consumption:
 
@@ -796,7 +796,7 @@ plt.title('Average Number of Purchases Made with a Discount\nby Clusters', weigh
 sns.barplot(data=df, x='Cluster', y='NumDealsPurchases', ci=None, palette='Blues')
 ```
 
-![](cluster-discounts-barplot.png)
+![cluster-discounts-barplot](cluster-discounts-barplot.png)
 
 Based on the above charts, we can summarize the following five types of user portraits:
 

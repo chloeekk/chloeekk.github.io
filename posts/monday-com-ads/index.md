@@ -17,11 +17,11 @@ Note: The data used in this article is only for the desktop side of Google Ads i
 
 Monday.com began advertising in September 2017, with an expansionary trend, peaking in June 2019. After that, it slowly reduced its investment in advertising and paid traffic leveled off relatively. Paid keywords for both September 2017 and June 2019 time points are analyzed separately next:
 
-![](monday.com-paid-traffic-trend.png)
+![monday.com-paid-traffic-trend](monday.com-paid-traffic-trend.png)
 
 ### 2017.9 Paid Keywords Text Cloud
 
-![](2017-9-monday.com-text-cloud.png)
+![2017-9-monday.com-text-cloud](2017-9-monday.com-text-cloud.png)
 
 We can see that most of the paid keywords at this time are related to "Monday", hoping to increase brand exposure as soon as possible. However, there are two problems with this:
 
@@ -30,7 +30,7 @@ We can see that most of the paid keywords at this time are related to "Monday", 
 
 ### 2019.6 Paid Keywords Text Cloud
 
-![](2019-6-monday.com-text-cloud.png)
+![2019-6-monday.com-text-cloud](2019-6-monday.com-text-cloud.png)
 
 At this time, the keywords are much richer, the most frequent is "project management", but also use some keywords directly related to the function of the product, such as gantt chart, kanban, project plan and so on. In addition, it is not difficult to find a number of competitors' brand words, such as slack, salesforce, google calendar, etc..
 
@@ -40,7 +40,7 @@ Now take a look at Monday.com's paid advertising strategy for March 2024:
 
 ### Paid Keywords Text Cloud
 
-![](2024-3-monday.com-text-cloud.png)
+![2024-3-monday.com-text-cloud](2024-3-monday.com-text-cloud.png)
 
 As the ad traffic tends to stabilize, the paid keywords basically revolve around the brand name "Monday" and the product positioning "project management". At the same time, it is easy to see that Monday.com is not limited to a specific industry project management products, but wants to cover CRM, construction, real estate and other project management scenarios.
 
@@ -48,13 +48,13 @@ As the ad traffic tends to stabilize, the paid keywords basically revolve around
 
 Take a look at Monday.com's current top 10 paid keywords by "relevance":
 
-![](monday.com-top-10-paid-keywords.png)
+![monday.com-top-10-paid-keywords](monday.com-top-10-paid-keywords.png)
 
 It can be found that Monday.com's current main product positioning is Project Management + CRM, through the "free" to attract more users to try the product.
 
 ### Competitor’s Bubble Chart
 
-![](monday.com-competitor-bubble-chart.png)
+![monday.com-competitor-bubble-chart](monday.com-competitor-bubble-chart.png)
 
 Monday.com is still the leader in terms of the number of paid keywords and the size of paid traffic, with Smartsheet and Hubspot as its main competitors in terms of paid traffic, Asana, ClickUp, and Wrike are much smaller in terms of paid traffic.
 
@@ -66,11 +66,11 @@ Monday.com is still the leader in terms of the number of paid keywords and the s
 2. directly state the product positioning, such as CRM, marketing tool, project management program, etc.
 3. Provide out-of-the-box services, such as templates.
 
-![](monday.com-text-ad-examples.png)
+![monday.com-text-ad-examples](monday.com-text-ad-examples.png)
 
 Video ads are diverse and include streamlining of workflows, an all-in-one data tracking platform, and successful customer examples (NASDAQ, Nissan, etc.):
 
-![](monday.com-video-ad-examples.png)
+![monday.com-video-ad-examples](monday.com-video-ad-examples.png)
 
 ### Ad Landing Page Analysis
 
@@ -78,7 +78,7 @@ Monday.com's main advertising landing pages include the official homepage ([http
 
 Let's look at the content logic of the home page:
 
-![](monday.com-first-screen.png)
+![monday.com-first-screen](monday.com-first-screen.png)
 
 The top navigation bar has the four main sections of the site (Products, Teams, Platform, Resources) on the left side, and the right side includes Pricing and the registration and login portals.
 
@@ -86,30 +86,30 @@ The first screen is a left-right layout. On the left side is the brand slogan, a
 
 The lower part of the image reveals successful customer cases, which attracts users to continue browsing down the page instead of leaving directly.
 
-![](monday.com-second-screen.png)
+![monday.com-second-screen](monday.com-second-screen.png)
 
 The second screen emphasizes that Monday.com is an all-in-one work platform covering various roles and functions such as projects, tasks, sales pipeline, customer onboarding and so on. Users can click on the icon to view specific product interfaces and features.
 
-![](monday.com-third-screen.png)
+![monday.com-third-screen](monday.com-third-screen.png)
 
 The third screen showcases Monday.com's database capabilities, enabling it to support workflow automation and AI functionality as an integrated, code-free platform.
 
-![](monday.com-fourth-screen.png)
+![monday.com-fourth-screen](monday.com-fourth-screen.png)
 
 Next is a separate product module that includes products that are already online and those that will be online soon. Users can learn more details about the product in question by clicking on the button under the product name.
 
-![](monday.com-fifth-screen.png)
+![monday.com-fifth-screen](monday.com-fifth-screen.png)
 
 The scrolling playback interaction allows users to more intuitively understand how different roles and teams work and collaborate on the same product.
 
-![](monday.com-sixth-screen.png)
+![monday.com-sixth-screen](monday.com-sixth-screen.png)
 
 List the reasons why large enterprise customers choose Monday.com: flexibility provided by mondayDB, industry-grade data security system, rapid deployment, and smooth product usage experience.
 
-![](monday.com-seventh-screen.png)
+![monday.com-seventh-screen](monday.com-seventh-screen.png)
 
 As an added note, Monday.com also puts up specific customer examples on their homepage, while signaling how their products have contributed to their customers' productivity as well as revenue enhancement.
 
-![](monday.com-eighth-screen.png)
+![monday.com-eighth-screen](monday.com-eighth-screen.png)
 
 Finally, Monday.com showcased its awards and certifications from various authoritative rating sites and reports, further proving that its products are loved by a wide range of users.
