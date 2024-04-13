@@ -208,14 +208,8 @@
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="modulenotfounderror-no-module-named-yellowbrick">ModuleNotFoundError: No module named ‘yellowbrick’</h3>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/yellowbrick-error.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/yellowbrick-error.png, /zh-cn/posts/customer-profiling-and-segmentation/yellowbrick-error.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/yellowbrick-error.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/yellowbrick-error.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/yellowbrick-error.png" width="1290" height="358" /></p>
+<p>
+<img src="yellowbrick-error.png" alt=""  width="1290" height="40%"  /></p>
 <p>出现这个错误的原因是我本地没有安装Yellowbrick这个库。</p>
 <p>Yellowbrick是一个机器学习可视化库，主要依赖于sklearn机器学习库，能够提供多种机器学习算法的可视化。</p>
 <p>Yellowbrick有两个主要依赖：scikit-learn和matplotlib。Yellowbrick是Python 3软件包，可与3.4或更高版本一起使用。</p>
@@ -247,14 +241,8 @@
 <span class="n">df_dataset</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/dataset-head.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/dataset-head.png, /zh-cn/posts/customer-profiling-and-segmentation/dataset-head.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/dataset-head.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/dataset-head.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/dataset-head.png" width="1976" height="392" /></p>
+</div><p>
+<img src="dataset-head.png" alt=""  width="1976" height="40%"  /></p>
 <p>查看各列的数值类型及空值情况：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -266,14 +254,8 @@
 <span class="n">df_dataset</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/dataset-info.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/dataset-info.png, /zh-cn/posts/customer-profiling-and-segmentation/dataset-info.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/dataset-info.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/dataset-info.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/dataset-info.png" width="798" height="1050" /></p>
+</div><p>
+<img src="dataset-info.png" alt=""  width="798" height="40%"  /></p>
 <h2 id="2-数据清洗">2. 数据清洗</h2>
 <p>已知顾客注册时间（Dt_Customer）的类型为Object。为便于后续拆分为年、月、日，需将其转换为日期时间的格式。</p>
 <p>同时通过<code>date()</code>查看数据的时间跨度。由此可知数据集中customer注册时间为2012-2014年：</p>
@@ -295,32 +277,14 @@
 <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;The newest record on customer&#39;s enrollment:&#34;</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">df_dataset</span><span class="p">[</span><span class="s1">&#39;Dt_Customer&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">date</span><span class="p">())</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/dataset-record-span.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/dataset-record-span.png, /zh-cn/posts/customer-profiling-and-segmentation/dataset-record-span.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/dataset-record-span.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/dataset-record-span.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/dataset-record-span.png" width="1558" height="256" /></p>
+</div><p>
+<img src="dataset-record-span.png" alt=""  width="1558" height="40%"  /></p>
 <h3 id="valueerror-time-data-doesnt-match">ValueError: time data doesn’t match</h3>
 <p>to_datetime()的默认日期解析顺序是月日年，而数据集中的日期格式是日月年，故需要指定dayfirst的值：</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/time-data-error.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/time-data-error.png, /zh-cn/posts/customer-profiling-and-segmentation/time-data-error.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/time-data-error.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/time-data-error.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/time-data-error.png" width="1976" height="196" /></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/dayfirst-set-true.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/dayfirst-set-true.png, /zh-cn/posts/customer-profiling-and-segmentation/dayfirst-set-true.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/dayfirst-set-true.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/dayfirst-set-true.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/dayfirst-set-true.png" width="1556" height="158" /></p>
+<p>
+<img src="time-data-error.png" alt=""  width="1976" height="40%"  /></p>
+<p>
+<img src="dayfirst-set-true.png" alt=""  width="1556" height="40%"  /></p>
 <p>对一些属性进行优化以便于后续的分析：</p>
 <ul>
 <li>年龄（Age）：顾客记录的最近时间为2014年，以此为锚点，减去顾客的出生日期</li>
@@ -430,14 +394,8 @@
 <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">80</span><span class="p">]</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/income-age-sort.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/income-age-sort.png, /zh-cn/posts/customer-profiling-and-segmentation/income-age-sort.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/income-age-sort.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/income-age-sort.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/income-age-sort.png" width="428" height="424" /></p>
+</div><p>
+<img src="income-age-sort.png" alt=""  width="428" height="40%"  /></p>
 <h2 id="3-数据可视化">3. 数据可视化</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -470,14 +428,8 @@
 <span class="n">plot</span><span class="o">.</span><span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Feature Relationship&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">1.05</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/feature-relationship-pairplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/feature-relationship-pairplot.png, /zh-cn/posts/customer-profiling-and-segmentation/feature-relationship-pairplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/feature-relationship-pairplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/feature-relationship-pairplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/feature-relationship-pairplot.png" width="1076" height="1051" /></p>
+</div><p>
+<img src="feature-relationship-pairplot.png" alt=""  width="1076" height="40%"  /></p>
 <p>从图表中可以看出：</p>
 <ul>
 <li>非父母人群的收入、消费金额、消费频次明显高于已为父母的人群</li>
@@ -487,14 +439,8 @@
 <p>如果使用的Jupyter Notebook，需要在代码最前面加上
 <code>%matplotlib inline</code></p>
 <p>作用是在Notebook内显示图像，而不需要显式地调用plt.show()，具体原理可参考<a href="https://stackoverflow.com/questions/21176731/automatically-run-matplotlib-inline-in-ipython-notebook" target="_blank" rel="noopener noreffer ">Stackoverflow</a></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/matplotlib-inline.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/matplotlib-inline.png, /zh-cn/posts/customer-profiling-and-segmentation/matplotlib-inline.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/matplotlib-inline.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/matplotlib-inline.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/matplotlib-inline.png" width="768" height="295" /></p>
+<p>
+<img src="matplotlib-inline.png" alt=""  width="768" height="40%"  /></p>
 <p>通过条形图观察顾客注册为会员的时间分布：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -536,14 +482,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Year&#39;</span><span class="p">],</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/register-time-bar-chart.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/register-time-bar-chart.png, /zh-cn/posts/customer-profiling-and-segmentation/register-time-bar-chart.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/register-time-bar-chart.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/register-time-bar-chart.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/register-time-bar-chart.png" width="1235" height="757" /></p>
+</div><p>
+<img src="register-time-bar-chart.png" alt=""  width="1235" height="40%"  /></p>
 <p>从图表中可以看出：</p>
 <ul>
 <li>多数消费者在周一、周三注册成为会员</li>
@@ -568,14 +508,8 @@
 <span class="n">group</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/age-span.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/age-span.png, /zh-cn/posts/customer-profiling-and-segmentation/age-span.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/age-span.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/age-span.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/age-span.png" width="360" height="258" /></p>
+</div><p>
+<img src="age-span.png" alt=""  width="360" height="40%"  /></p>
 <p>复制一个新的数据表，在此基础上将“年龄”替换为处理后的区间数据：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -645,14 +579,8 @@
     <span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">v</span><span class="o">-</span><span class="mi">130</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s1">&#39;$ </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="mi">2</span><span class="p">)),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">verticalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/spent-age-group.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/spent-age-group.png, /zh-cn/posts/customer-profiling-and-segmentation/spent-age-group.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/spent-age-group.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/spent-age-group.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/spent-age-group.png" width="1181" height="725" /></p>
+</div><p>
+<img src="spent-age-group.png" alt=""  width="1181" height="40%"  /></p>
 <p>从图表中可以看出：</p>
 <ul>
 <li>消费分布两极分化明显。两端年龄区间的人数加起来不超过20人，导致总消费金额差距明显</li>
@@ -753,14 +681,8 @@
 <span class="n">axd</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/products-spent-age-group.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/products-spent-age-group.png, /zh-cn/posts/customer-profiling-and-segmentation/products-spent-age-group.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/products-spent-age-group.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/products-spent-age-group.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/products-spent-age-group.png" width="1811" height="1011" /></p>
+</div><p>
+<img src="products-spent-age-group.png" alt=""  width="1811" height="40%"  /></p>
 <p>从图表中可知：</p>
 <ul>
 <li>除了水果、糖果、金子外，其余品类都是70岁以上人群的消费金额最高，其中他们在酒类商品的平均消费金额超过600美金</li>
@@ -852,14 +774,8 @@
 <span class="n">axd</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/purchase-methods-age-group.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/purchase-methods-age-group.png, /zh-cn/posts/customer-profiling-and-segmentation/purchase-methods-age-group.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/purchase-methods-age-group.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/purchase-methods-age-group.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/purchase-methods-age-group.png" width="1811" height="811" /></p>
+</div><p>
+<img src="purchase-methods-age-group.png" alt=""  width="1811" height="40%"  /></p>
 <p>从图中可知：</p>
 <ul>
 <li>在三种不同购买渠道中，70岁以上人群的消费金额都是最高的，尽管这个群组只有8人。再次反映他们的消费金额要明显高于其它年龄段的人群</li>
@@ -915,14 +831,8 @@
     <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">v</span><span class="o">+</span><span class="mf">1.2</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{:.2f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">v</span><span class="p">),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;Black&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/customer-accepted-offer.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/customer-accepted-offer.png, /zh-cn/posts/customer-profiling-and-segmentation/customer-accepted-offer.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/customer-accepted-offer.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/customer-accepted-offer.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/customer-accepted-offer.png" width="742" height="374" /></p>
+</div><p>
+<img src="customer-accepted-offer.png" alt=""  width="742" height="40%"  /></p>
 <p>从图中可知：</p>
 <ul>
 <li>愿意接受第一次campaign的人只有6.42%，第二次甚至暴跌到1.36%</li>
@@ -945,14 +855,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">group</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;NumDealsPurchases&#39;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">&#39;Is_Parent&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/discount-age-group.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/discount-age-group.png, /zh-cn/posts/customer-profiling-and-segmentation/discount-age-group.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/discount-age-group.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/discount-age-group.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/discount-age-group.png" width="766" height="416" /></p>
+</div><p>
+<img src="discount-age-group.png" alt=""  width="766" height="40%"  /></p>
 <p>从图中可以看出：</p>
 <p>已成为父母的人群明显更容易被折扣吸引，进而进行购买</p>
 <p>通过热力图观察“数值”类型的属性之间的关联关系，颜色越深，关联性越强：</p>
@@ -978,14 +882,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">data</span><span class="p">]</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/feature-correlation.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/feature-correlation.png, /zh-cn/posts/customer-profiling-and-segmentation/feature-correlation.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/feature-correlation.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/feature-correlation.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/feature-correlation.png" width="1026" height="993" /></p>
+</div><p>
+<img src="feature-correlation.png" alt=""  width="1026" height="40%"  /></p>
 <p>从图中可以看出：</p>
 <ul>
 <li>“月度官网访问次数”、“孩子总数”、“是否为父母”与顾客消费金额的相关性较小</li>
@@ -1051,14 +949,8 @@
 <span class="n">df_final_scaled</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/scaled-dataset.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/scaled-dataset.png, /zh-cn/posts/customer-profiling-and-segmentation/scaled-dataset.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/scaled-dataset.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/scaled-dataset.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/scaled-dataset.png" width="1582" height="328" /></p>
+</div><p>
+<img src="scaled-dataset.png" alt=""  width="1582" height="40%"  /></p>
 <p>进行标准化处理后，数据点的值表示原始值相对于均值的偏离程度，以标准差为单位。例如，一个处理后的值为2表示该数据点的原始值比均值高出了两个标准差</p>
 <p>使用<code>LabelEncoder</code>对DataFrame (<code>df</code>) 中的非数值特征进行编码转换，以便于之后的数据可视化：</p>
 <div class="highlight"><div class="chroma">
@@ -1118,14 +1010,8 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>运行结果是一个关于不同k值（聚类数量）与对应的SSE（误差平方和）的图表。肘部图的目的是帮助我们直观地看到随着k值增加，SSE如何变化。理想情况下，SSE随k值增加而降低，但下降速度会在某一点明显放缓，这个点就是所谓的“肘点”，被认为是最佳的聚类数量</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/elbow-point-result.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/elbow-point-result.png, /zh-cn/posts/customer-profiling-and-segmentation/elbow-point-result.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/elbow-point-result.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/elbow-point-result.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/elbow-point-result.png" width="772" height="505" /></p>
+<p>
+<img src="elbow-point-result.png" alt=""  width="772" height="40%"  /></p>
 <p>从图中可以看出，“肘点”为k=5</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1159,14 +1045,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-distribution.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-distribution.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-distribution.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-distribution.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-distribution.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-distribution.png" width="700" height="484" /></p>
+</div><p>
+<img src="cluster-distribution.png" alt=""  width="700" height="40%"  /></p>
 <h2 id="6-用户画像分析">6. 用户画像分析</h2>
 <p>分析收入与总消费之间的关系，并按照聚类结果进行区分，绘制散点图和小提琴图：</p>
 <div class="highlight"><div class="chroma">
@@ -1189,14 +1069,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">violinplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Income&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axd</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot.png" width="1411" height="811" /></p>
+</div><p>
+<img src="cluster-scatterplot-violinplot.png" alt=""  width="1411" height="40%"  /></p>
 <p>从图中可知：</p>
 <p>类0：高消费 &amp; 高收入</p>
 <p>类1：低消费 &amp; 低收入</p>
@@ -1219,14 +1093,8 @@
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/age-spent-kdeplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/age-spent-kdeplot.png, /zh-cn/posts/customer-profiling-and-segmentation/age-spent-kdeplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/age-spent-kdeplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/age-spent-kdeplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/age-spent-kdeplot.png" width="1484" height="284" /></p>
+</div><p>
+<img src="age-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
 <h3 id="核密度估计图怎么看">核密度估计图怎么看</h3>
 <p>核密度估计图（KDE图），是一种用于展示变量分布的图形，它可以看作是直方图的平滑版本。通过KDE图，我们可以直观地了解数据的分布情况，包括数据的集中趋势、分散程度和偏态情况。以下是如何解读核密度估计图的几个要点：</p>
 <ol>
@@ -1252,14 +1120,8 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.6</span><span class="p">,</span><span class="mi">3900</span><span class="p">,</span> <span class="s1">&#39;0: Non Parent</span><span class="se">\n</span><span class="s1">1: Parent&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot.png, /zh-cn/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot.png" width="1484" height="347" /></p>
+</div><p>
+<img src="isparent-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
 <p>绘制“儿童数量”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1271,14 +1133,8 @@
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Kidhome&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot.png, /zh-cn/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot.png" width="1484" height="284" /></p>
+</div><p>
+<img src="kidhome-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
 <p>绘制“青少年数量”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1290,14 +1146,8 @@
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Teenhome&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot.png, /zh-cn/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot.png" width="1484" height="284" /></p>
+</div><p>
+<img src="teenhome-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
 <p>绘制“孩子总量”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1309,14 +1159,8 @@
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Total_Children&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot.png, /zh-cn/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot.png" width="1484" height="284" /></p>
+</div><p>
+<img src="totalchildren-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
 <p>绘制“婚恋状况”和“总花费”的核密度估计图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1332,14 +1176,8 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.7</span><span class="p">,</span><span class="mi">3900</span><span class="p">,</span> <span class="s1">&#39;0: Alone</span><span class="se">\n</span><span class="s1">1: Partner&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot.png, /zh-cn/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot.png" width="1484" height="347" /></p>
+</div><p>
+<img src="livingwith-spent-kdeplot.png" alt=""  width="1484" height="40%"  /></p>
 <p>绘制“学历情况”和“总花费”的散点图：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1355,14 +1193,8 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.6</span><span class="p">,</span><span class="mi">3400</span><span class="p">,</span> <span class="s1">&#39;0: Graduate</span><span class="se">\n</span><span class="s1">1: Postgraduate</span><span class="se">\n</span><span class="s1">2: Undergraduate&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/education-spent-scatterplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/education-spent-scatterplot.png, /zh-cn/posts/customer-profiling-and-segmentation/education-spent-scatterplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/education-spent-scatterplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/education-spent-scatterplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/education-spent-scatterplot.png" width="1484" height="366" /></p>
+</div><p>
+<img src="education-spent-scatterplot.png" alt=""  width="1484" height="40%"  /></p>
 <h3 id="散点图怎么看">散点图怎么看？</h3>
 <ol>
 <li>相关性（Correlation）</li>
@@ -1399,14 +1231,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Recency&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-recency-barplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-recency-barplot.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-recency-barplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-recency-barplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-recency-barplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-recency-barplot.png" width="762" height="417" /></p>
+</div><p>
+<img src="cluster-recency-barplot.png" alt=""  width="762" height="40%"  /></p>
 <p>观察不同顾客群体（Cluster）在不同产品类别（如葡萄酒、水果、肉类等）中的平均消费额：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1452,14 +1278,8 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-products-barplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-products-barplot.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-products-barplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-products-barplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-products-barplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-products-barplot.png" width="1584" height="786" /></p>
+</div><p>
+<img src="cluster-products-barplot.png" alt=""  width="1584" height="40%"  /></p>
 <p>观察不同顾客群体在不同销售渠道中的平均消费次数：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1499,14 +1319,8 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-methods-barplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-methods-barplot.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-methods-barplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-methods-barplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-methods-barplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-methods-barplot.png" width="1584" height="492" /></p>
+</div><p>
+<img src="cluster-methods-barplot.png" alt=""  width="1584" height="40%"  /></p>
 <p>观察不同顾客群体在不同营销campaign中的平均消费次数：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1550,14 +1364,8 @@
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot.png" width="1584" height="786" /></p>
+</div><p>
+<img src="cluster-campaigns-barplot.png" alt=""  width="1584" height="40%"  /></p>
 <p>观察不同顾客群体使用折扣进行消费的情况：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1571,14 +1379,8 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;NumDealsPurchases&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/zh-cn/posts/customer-profiling-and-segmentation/cluster-discounts-barplot.png"
-        data-srcset="/zh-cn/posts/customer-profiling-and-segmentation/cluster-discounts-barplot.png, /zh-cn/posts/customer-profiling-and-segmentation/cluster-discounts-barplot.png 1.5x, /zh-cn/posts/customer-profiling-and-segmentation/cluster-discounts-barplot.png 2x"
-        data-sizes="auto"
-        alt="/zh-cn/posts/customer-profiling-and-segmentation/cluster-discounts-barplot.png"
-        title="/zh-cn/posts/customer-profiling-and-segmentation/cluster-discounts-barplot.png" width="766" height="417" /></p>
+</div><p>
+<img src="cluster-discounts-barplot.png" alt=""  width="766" height="40%"  /></p>
 <p>综合以上多个图表，我们可以总结出以下5类用户画像：</p>
 <p>类0：</p>
 <ul>
