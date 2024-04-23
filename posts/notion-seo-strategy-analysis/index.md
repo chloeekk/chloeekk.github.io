@@ -1,7 +1,7 @@
 # Notion SEO Strategy Analysis (2024)
 
 
-A concise analysis of Notion's SEO strategy, highlighting key trends and effective tactics from 2012 to 2024. Learn how targeted keyword focus and homepage traffic have driven their SEO success.
+
 
 
 ## Takeaways:
