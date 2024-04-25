@@ -31,7 +31,7 @@ The analysis of traffic trends for Notion's "Paid Traffic" over the specified ph
 - **Phase 2 (2023-01 to 2023-09)**: This period shows a sharp decrease in traffic despite previously high averages, which could suggest changes in ad spend, strategy, or decreased ad effectiveness.
 - **Phase 3 (2023-09 to 2024-03)**: The decreasing trend continues, though at a lesser rate than in Phase 2, which might indicate stabilizing factors or adjustments in Notion’s paid traffic strategy.
 
-
+See more about [Notion's SEO strategy](https://chloevolution.com/posts/notion-seo-strategy-analysis).
 ## Notion's SEM Strategy in January 2023
 
 ### Paid Keyword Distribution
@@ -52,7 +52,7 @@ Classification Rules:
 
 - **Product-Related**: This category includes keywords that directly mention "Notion," focusing specifically on the brand. This grouping is crucial for targeting users specifically searching for Notion or its direct services, enhancing brand visibility and direct traffic.
   
-- **Competitor Brand**: Keywords in this category include those related to known competitors such as Asana, Coda, Jira, Trello, [Monday](https://chloevolution.com/posts/monday-com-ads), Confluence, Airtable, [ClickUp](https://chloevolution.com/posts/clickup-sem-strategy-analysis), Wrike, and Atlassian. This classification helps analyze the strategy aimed at capturing traffic from competitor searches, a common practice in competitive SEO and SEM to attract users who may be comparing services or looking for alternatives.
+- **Competitor Brand**: Keywords in this category include those related to known competitors such as [Asana](https://chloevolution.com/posts/asana-sem-strategy-analysis), Coda, [Jira](https://chloevolution.com/posts/atlassian-sem-strategy-analysis), Trello, [Monday.com](https://chloevolution.com/posts/monday-com-ads), Airtable, [ClickUp](https://chloevolution.com/posts/clickup-sem-strategy-analysis), and [Wrike](https://chloevolution.com/posts/wrike-sem-strategy-analysis). This classification helps analyze the strategy aimed at capturing traffic from competitor searches, a common practice in competitive SEO and SEM to attract users who may be comparing services or looking for alternatives.
 
 - **Templates**: Keywords that involve specific tools or templates provided by Notion or generally sought within the industry. This categorization targets users looking for specific functionalities within project management and documentation platforms.
 

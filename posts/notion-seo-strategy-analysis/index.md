@@ -31,6 +31,8 @@ Analysis of traffic trends for Notion's "Organic Traffic" over the specified pha
 - **Phase 3 (2024-01 to 2024-03)**, although very short, shows a decreasing trend, indicating a drop in traffic in the early months of 2024.
 
 
+See more about [Notion's SEM strategy](https://chloevolution.com/posts/notion-sem-strategy-analysis).
+
 ## Notion's SEO Strategy in December 2019
 
 ### Organic Keyword Distribution

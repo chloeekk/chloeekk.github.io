@@ -35,7 +35,7 @@ The analysis of traffic trends for ClickUp's "Paid Traffic" over the specified p
 - **2023.1 to 2023.5**: Traffic increases again, likely indicating a resurgence in effective paid marketing tactics or changes in the competitive landscape.
 - **2023.5 to 2023.12**: The decreasing trend returns, potentially due to seasonal variations, budget cuts, or other strategic adjustments.
 
-
+See more about [ClickUp's SEO strategy](https://chloevolution.com/posts/clickup-seo-strategy-analysis).
 ## ClickUp's SEM Strategy in November 2020
 
 
@@ -53,7 +53,7 @@ Here is a summary of the traffic distribution across different keyword topics:
 
 **Classification Rule Explanation:**
 - **ClickUp Brand**: Keywords explicitly mentioning "ClickUp."
-- **Competitor Brand**: Keywords mentioning direct competitors like Asana, [Monday](https://chloevolution.com/posts/monday-com-ads), Wrike, [Notion](https://chloevolution.com/posts/notion-sem-strategy-analysis), or Trello.
+- **Competitor Brand**: Keywords mentioning direct competitors like Asana, [Monday](https://chloevolution.com/posts/monday-com-ads), [Wrike](https://chloevolution.com/posts/wrike-sem-strategy-analysis), [Notion](https://chloevolution.com/posts/notion-sem-strategy-analysis), or [Trello](https://chloevolution.com/posts/atlassian-sem-strategy-analysis).
 - **Product Related**: Keywords related to generic product features or types, e.g., software or tools.
 - **Free Offering**: Keywords including terms like 'free,' indicating a focus on free versions or trials.
 - **Other**: Keywords that do not fit into the above categories.

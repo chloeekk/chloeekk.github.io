@@ -32,7 +32,7 @@ Details:
 - **Phase 2** covers from January 2022 to November 2023, also showing an increasing trend.
 - **Phase 3** runs from November 2023 to March 2024, where the trend shifts to decreasing, indicating a drop in organic traffic during this recent period.
 
-
+See more about [Monday.com's SEM strategy](https://chloevolution.com/posts/monday-com-ads).
 
 ## Monday.com's SEO Strategy at January 2022
 
@@ -50,7 +50,7 @@ Details:
 
 **Rule of Classification:**
 - **Product-related:** Keywords that directly mention the product name "monday" or variations thereof, capturing searches specifically looking for the brand.
-- **Competitor-related:** Keywords including names of competing brands or products, like [Notion](https://chloevolution.com/posts/notion-seo-strategy-analysis), [ClickUp](https://chloevolution.com/posts/clickup-seo-strategy-analysis), [Wrike](https://chloevolution.com/posts/wrike-seo-strategy-analysis), Asana, to attract users considering alternatives.
+- **Competitor-related:** Keywords including names of competing brands or products, like [Notion](https://chloevolution.com/posts/notion-seo-strategy-analysis), [ClickUp](https://chloevolution.com/posts/clickup-seo-strategy-analysis), [Wrike](https://chloevolution.com/posts/wrike-seo-strategy-analysis), [Asana](https://chloevolution.com/posts/asana-seo-strategy-analysis), [Atlassian](https://chloevolution.com/posts/atlassian-seo-strategy-analysis) to attract users considering alternatives.
 - **Tool-related:** Keywords that describe the type of tools or functionalities, such as "crm", "project", "management", "gantt", "chart", "plan", targeting users interested in specific features or use cases.
 - **Educational:** Keywords that involve instructional content, like "how to" or "guide", appealing to users seeking knowledge or how-to information.
 - **Other:** Keywords that do not neatly fit into the above categories but still bring traffic to the site.
