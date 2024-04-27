@@ -60,7 +60,7 @@ Classification Rules:
 - **Project Management**: Keywords directly related to "Asana."
 - **Cloud Storage**: Keywords involving 'google drive'.
 - **Team Communication**: Keywords like 'slack'.
-- **Other**: Keywords that don't fit into the above categories like competitor brands, e.g. [ClickUp](https://chloevolution.com/posts/clickup-seo-strategy-analysis), [Notion](https://chloevolution.com/posts/notion-seo-strategy-analysis), [Wrike](https://chloevolution.com/posts/wrike-seo-strategy-analysis), [Jira](https://chloevolution.com/posts/atlassian-seo-strategy-analysis), [Monday.com](https://chloevolution.com/posts/monday-com-seo-strategy-analysis), and etc.
+- **Other**: Keywords that don't fit into the above categories like competitor brands, e.g. [ClickUp](https://chloevolution.com/posts/clickup-seo-strategy-analysis), [Notion](https://chloevolution.com/posts/notion-seo-strategy-analysis), [Wrike](https://chloevolution.com/posts/wrike-seo-strategy-analysis), [Jira](https://chloevolution.com/posts/atlassian-seo-strategy-analysis), [Smartsheet](https://chloevolution.com/posts/smartsheet-seo-strategy-analysis), [Monday.com](https://chloevolution.com/posts/monday-com-seo-strategy-analysis), and etc.
 
 
 ### URL Traffic Distribution

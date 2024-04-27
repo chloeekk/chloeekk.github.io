@@ -132,7 +132,7 @@ See more about [Monday.com's SEM strategy](https://chloevolution.com/posts/monda
 | Competitor-related   | trello vs notion            | 50       | 0.004%      |
 
 **Classification Rule:**
-- **Product-related:** Keywords directly referring to the brand or product, such as "monday", showcasing a primary focus on brand identity.
+- **Product-related:** Keywords directly referring to the brand or product, such as "monday","[smartsheet](https://chloevolution.com/posts/smartsheet-seo-strategy-analysis)", showcasing a primary focus on brand identity.
 - **Competitor-related:** Keywords that mention competitors, indicating strategic monitoring and positioning against competitors.
 - **Tool-related:** Keywords about specific functionalities or tools that Monday.com offers, which are targeted to attract users interested in specific software capabilities.
 - **Educational:** Keywords aimed at providing instructional content, likely to engage users seeking knowledge or solutions.

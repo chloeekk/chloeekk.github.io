@@ -95,7 +95,7 @@ Here's the summary table for keyword topics:
 
 The keywords have been classified into several topics:
 - **Product-Related**: Directly associated with Asana's own brand (e.g., "asana").
-- **Competitor Brand**: Related to competing brands (e.g., "trello", "monday").
+- **Competitor Brand**: Related to competing brands (e.g., "trello", "monday", "[smartsheet](https://chloevolution.com/posts/smartsheet-sem-strategy-analysis)").
 - **Feature-Based**: Focused on specific features that Asana offers (e.g., "project management").
 - **Other**: Keywords that do not fit into the above categories or general terms related to project management tools.
 

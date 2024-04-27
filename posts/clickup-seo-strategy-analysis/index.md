@@ -139,7 +139,7 @@ Classification Rules:
 
 
 - **Product Name**: Directly associated with "ClickUp" and its variations.
-- **Competitor Brand**: Relating to direct competitors such as Monday, Asana, Trello, Notion.
+- **Competitor Brand**: Relating to direct competitors such as Monday, Asana, Trello, [Smartsheet](https://chloevolution.com/posts/smartsheet-seo-strategy-analysis).
 - **Features**: Pertaining to specific features or functionalities of ClickUp.
 - **Educational**: Involving tutorial or educational content.
 - **Other**: Keywords that do not fit into the above categories.

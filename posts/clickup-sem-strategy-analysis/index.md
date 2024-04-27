@@ -94,7 +94,7 @@ Here is the traffic distribution across the top 5 URLs:
 
 **Classification Rule Explanation:**
 - **ClickUp Brand**: Keywords specifically including the brand name "ClickUp."
-- **Competitor Brand**: Keywords related to known competitors like Trello, Asana, Monday, and Jira.
+- **Competitor Brand**: Keywords related to known competitors like Trello, Asana, Monday, and [Smartsheet](https://chloevolution.com/posts/smartsheet-sem-strategy-analysis).
 - **Product-Related**: Keywords associated with product features or descriptions (e.g., project management, task management).
 - **Free Offering**: Keywords that explicitly mention "free" offerings.
 - **Other**: Keywords that do not fit the other categories, typically broader or less directly related to the product.

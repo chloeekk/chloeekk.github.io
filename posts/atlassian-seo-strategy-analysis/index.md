@@ -102,7 +102,7 @@ See more about [Atlassian's SEM strategy](https://chloevolution.com/posts/atlass
 **Classification Rules:**
 - **Brand-related**: Includes direct mentions of "atlassian" and terms closely associated with the company's brand identity.
 - **Product-related**: Keywords directly linked to specific products like Jira, Confluence, etc.
-- **Competitor brand**: Pertains to competitors' brands or products.
+- **Competitor brand**: Pertains to competitors' brands or products, "monday meme", "[smartsheet](https://chloevolution.com/posts/smartsheet-seo-strategy-analysis)", etc.
 - **Feature-related**: Related to specific features or functionalities within Atlassian’s product lineup.
 - **Industry-specific**: Keywords related to the broader software and technology industry.
 - **Help & Support**: Terms related to support and guides for users.

@@ -185,7 +185,7 @@ Traffic is focused on specific product pages. Here are the top 5 URLs by traffic
 ### Summary of Atlassian's SEM Strategy:
 - **High Traffic Concentration on Few Keywords**: The "Other" category still dominates the traffic, which might suggest a broad targeting strategy, potentially leveraging high-traffic, generic terms like "pdf editor."
 - **Strategic Product Placement**: Significant traffic is directed towards product-specific URLs, particularly for Jira and Confluence, showing a clear focus on promoting key products.
-- **High Traffic and High CPC for Competitor Brands**: Investing in competitor-related keywords such as "project management software monday" despite low traffic shows strategic intent to capture searches related to competitors, even at higher costs.
+- **High Traffic and High CPC for Competitor Brands**: Investing in competitor-related keywords such as "project management software monday", "[smartsheet](https://chloevolution.com/posts/smartsheet-sem-strategy-analysis)" despite low traffic shows strategic intent to capture searches related to competitors, even at higher costs.
 - **Focused CPC Management**: Average CPC varies based on the strategic value of keywords, with higher costs for competitor brand and industry terms, indicating a calculated investment based on keyword competitiveness and potential return.
 
 

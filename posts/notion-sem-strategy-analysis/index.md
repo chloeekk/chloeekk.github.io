@@ -151,7 +151,7 @@ I've updated the classification and recalculated the data for Notion's paid keyw
 
 **Classification Rule Explanation:**
 - **Product-Related**: Keywords including 'notion' or directly related to Notion's products.
-- **Competitor Brand**: Keywords involving direct competitors like Monday, Asana, Trello, and Confluence, aimed at capturing traffic from users interested in competitive products.
+- **Competitor Brand**: Keywords involving direct competitors like Monday, Asana, Trello, and [Smartsheet](https://chloevolution.com/posts/smartsheet-sem-strategy-analysis), aimed at capturing traffic from users interested in competitive products.
 - **Other**: Keywords that do not fit into the primary categories but still contribute to paid traffic.
 
 ### URL Traffic Distribution in March 2024
