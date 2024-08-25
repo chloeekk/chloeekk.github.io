@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 25 Aug 2024 14:49:00 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>时隔四个月重新更新博客</title>
+    <link>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</link>
+    <pubDate>Sun, 25 Aug 2024 14:49:00 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</guid>
+    <description><![CDATA[看了眼之前最后一篇博文的时间，距今天刚好四个月。磕磕绊绊地翻出教程新建了这个文档。 这个博客的起源 之前翻箱倒柜找出了近几年的日记，在欣赏自己过]]></description>
+</item>
+<item>
     <title>用Python进行顾客用户分析和细分（含源码）</title>
     <link>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</link>
     <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
