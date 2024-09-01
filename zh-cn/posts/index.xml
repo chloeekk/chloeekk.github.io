@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 25 Aug 2024 14:49:00 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>【手把手教学】Coze怎么创建bot？</title>
+    <link>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</link>
+    <pubDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</guid>
+    <description><![CDATA[什么是Coze？ Coze是由字节跳动推出的AI聊天机器人和应用程序编辑开发平台。通过集成多款插件，Coze的Bot能力得到极大扩展，可适用于]]></description>
+</item>
+<item>
     <title>时隔四个月重新更新博客</title>
     <link>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</link>
     <pubDate>Sun, 25 Aug 2024 14:49:00 &#43;0800</pubDate>

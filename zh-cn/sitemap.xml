@@ -2,26 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2024-08-25T14:49:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/tags/ai/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://chloevolution.com/"
+                        href="https://chloevolution.com/tags/ai/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/"
+                    href="https://chloevolution.com/zh-cn/tags/ai/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/</loc><lastmod>2024-08-25T14:49:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/categories/ai/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://chloevolution.com/posts/"
+                        href="https://chloevolution.com/categories/ai/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/posts/"
+                    href="https://chloevolution.com/zh-cn/categories/ai/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</loc><lastmod>2024-08-25T14:49:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2024-04-07T11:49:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/categories/"
@@ -30,6 +29,52 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/categories/"
                     /></url><url>
+            <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/coze/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/tags/coze/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/tags/coze/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/tags/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/how-to-create-bot-on-coze/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</loc><lastmod>2024-08-25T14:49:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/zh-cn/tags/python/</loc><lastmod>2024-04-07T11:49:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -47,15 +92,6 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/categories/python/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2024-04-07T11:49:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/tags/"
                     /></url><url>
             <loc>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</loc><lastmod>2024-04-07T11:49:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

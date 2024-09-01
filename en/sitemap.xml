@@ -2,7 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/ai/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/ai/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/ai/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/ai/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -11,7 +29,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -20,8 +38,16 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/coze/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/coze/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/coze/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/"
@@ -30,6 +56,25 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/"
                     /></url><url>
+            <loc>https://chloevolution.com/posts/how-to-create-bot-on-coze/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/how-to-create-bot-on-coze/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2024-09-01T08:03:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/tags/python/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -47,15 +92,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/categories/python/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2024-04-09T22:00:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/"
                     /></url><url>
             <loc>https://chloevolution.com/posts/customer-profiling-and-segmentation/</loc><lastmod>2024-04-07T11:49:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -76,8 +112,6 @@
             <loc>https://chloevolution.com/posts/best-note-taking-app-for-mac/</loc><lastmod>2024-03-26T20:00:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/posts/timeboxing-app/</loc><lastmod>2024-03-24T21:22:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/posts/offline-conversion-tracking/</loc><lastmod>2023-07-08T15:58:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2023-05-18T18:26:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2023-05-18T18:26:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/posts/chatgpt-mirror-sites/</loc><lastmod>2023-05-18T18:26:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/posts/complete-guide-to-dimensions-and-metrics-in-google-analytics/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2023-05-12T21:44:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
