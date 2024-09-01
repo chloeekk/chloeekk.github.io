@@ -3,9 +3,17 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>如何使用Midjourney SREF控制风格一致性</title>
+    <link>https://chloevolution.com/zh-cn/posts/midjourney-sref/</link>
+    <pubDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/midjourney-sref/</guid>
+    <description><![CDATA[&mdash;sref指令全称为“风格参考”（Style References），旨在帮助用户复刻和保持图片风格的一致性。其主要作用是允许用户]]></description>
+</item>
+<item>
     <title>【手把手教学】Coze怎么创建bot？</title>
     <link>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</link>
     <pubDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</pubDate>

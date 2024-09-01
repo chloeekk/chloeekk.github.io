@@ -3,7 +3,15 @@
         <title>AI - Category - Chloevolution</title>
         <link>https://chloevolution.com/categories/ai/</link>
         <description>AI - Category - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/ai/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/ai/" rel="self" type="application/rss+xml" /><item>
+    <title>How to Use Midjourney SREF to Control Style Consistency</title>
+    <link>https://chloevolution.com/posts/midjourney-sref/</link>
+    <pubDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/midjourney-sref/</guid>
+    <description><![CDATA[The full name of the &mdash;sref command is &ldquo;Style References,&rdquo; which aims to help users replicate and maintain consistency in the style of images.Its main function is to allow users to upload one or more images as style references to guide Midjourney in generating images that are consistent in style with these reference images.This instruction is particularly useful when you come across an image you really like and want to try generating similar or identical styles, but you don&rsquo;t know what that style is.]]></description>
+</item>
+<item>
     <title>Step by step guide - How to Create Bot on Coze</title>
     <link>https://chloevolution.com/posts/how-to-create-bot-on-coze/</link>
     <pubDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</pubDate>
