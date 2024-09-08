@@ -3,7 +3,16 @@
         <title>Midjourney - Tag - Chloevolution</title>
         <link>https://chloevolution.com/tags/midjourney/</link>
         <description>Midjourney - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/midjourney/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/midjourney/" rel="self" type="application/rss+xml" /><item>
+    <title>How to use Midjourney CREF</title>
+    <link>https://chloevolution.com/posts/midjourney-cref/</link>
+    <pubDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/midjourney-cref/</guid>
+    <description><![CDATA[&mdash;cref command stands for &ldquo;Character Reference&rdquo;. It is mainly used to extract character features from reference images and apply them to new images to achieve coherence and consistency in character design. It allows users to specify one or more images as content references. Midjourney will use these reference images to help generate images with similar content. This feature is more suitable for anime or games.
+Applicable version Midjourney V6 and Niji V6]]></description>
+</item>
+<item>
     <title>How to Use Midjourney SREF to Control Style Consistency</title>
     <link>https://chloevolution.com/posts/midjourney-sref/</link>
     <pubDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</pubDate>

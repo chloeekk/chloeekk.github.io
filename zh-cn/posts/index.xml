@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 07 Sep 2024 09:34:36 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>如何使用Midjourney CREF控制角色一致性</title>
+    <link>https://chloevolution.com/zh-cn/posts/midjourney-cref/</link>
+    <pubDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/midjourney-cref/</guid>
+    <description><![CDATA[&mdash;cref指令全称为“角色参考”（Character Reference），主要用于从参考图片中抽取人物特性，并将其应用至新图像中]]></description>
+</item>
+<item>
     <title>【手把手教学】Coze如何创建工作流</title>
     <link>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</link>
     <pubDate>Sat, 07 Sep 2024 09:34:36 &#43;0800</pubDate>
@@ -34,6 +42,14 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</guid>
     <description><![CDATA[看了眼之前最后一篇博文的时间，距今天刚好四个月。磕磕绊绊地翻出教程新建了这个文档。 这个博客的起源 之前翻箱倒柜找出了近几年的日记，在欣赏自己过]]></description>
+</item>
+<item>
+    <title>如何通过 Python 读取 ZST 文件</title>
+    <link>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</link>
+    <pubDate>Tue, 09 Apr 2024 22:00:01 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</guid>
+    <description><![CDATA[前提条件 要运行此代码，你需要 pandas、zstandard（zstd）和 json 库。如果尚未安装，你可以使用 pip 安装 pandas 和 zstandard： 1 pip install]]></description>
 </item>
 <item>
     <title>用Python进行顾客用户分析和细分（含源码）</title>

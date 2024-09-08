@@ -3,7 +3,16 @@
         <title>All Posts - Chloevolution</title>
         <link>https://chloevolution.com/posts/</link>
         <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Sep 2024 09:34:36 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How to use Midjourney CREF</title>
+    <link>https://chloevolution.com/posts/midjourney-cref/</link>
+    <pubDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/midjourney-cref/</guid>
+    <description><![CDATA[&mdash;cref command stands for &ldquo;Character Reference&rdquo;. It is mainly used to extract character features from reference images and apply them to new images to achieve coherence and consistency in character design. It allows users to specify one or more images as content references. Midjourney will use these reference images to help generate images with similar content. This feature is more suitable for anime or games.
+Applicable version Midjourney V6 and Niji V6]]></description>
+</item>
+<item>
     <title>How to Create a Workflow in Coze</title>
     <link>https://chloevolution.com/posts/how-to-create-a-workflow-in-coze/</link>
     <pubDate>Sun, 08 Sep 2024 09:34:36 &#43;0800</pubDate>
@@ -84,15 +93,6 @@ This is where apps that let you read anything later come in handy, providing a l
     <guid>https://chloevolution.com/posts/text-expansion-tool/</guid>
     <description><![CDATA[In the quest for peak productivity, text expansion tools are the unsung heroes for professionals across the board. By turning shortcuts into fully formed text, these tools save time and reduce tedium, no matter your field. This article dives into the top text expansion tools, customized for various roles, to help you work smarter, not harder.
 The best text expansion tools for 2024 at a glance    Free trial time Pricing Supported platform Integration AI feature   TextExpander 30 days Start from $3.]]></description>
-</item>
-<item>
-    <title>15 Best Calendar Sharing App in 2024 (Features, Pros, Cons, Pricing)</title>
-    <link>https://chloevolution.com/posts/best-calendar-sharing-app/</link>
-    <pubDate>Wed, 27 Mar 2024 21:07:03 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/best-calendar-sharing-app/</guid>
-    <description><![CDATA[Time management and organization are more important than ever in the fast-paced world we live in today. Choosing the correct calendar sharing tool may greatly simplify your scheduling demands, whether you&rsquo;re a busy professional arranging meetings, a student juggling classes and assignments, a project manager managing teams, or a mom organizing family events.
-This post seeks to assist you in choosing the ideal app that fits your lifestyle and increases productivity out of the plethora of possibilities accessible, each meeting distinct functions and needs.]]></description>
 </item>
 </channel>
 </rss>
