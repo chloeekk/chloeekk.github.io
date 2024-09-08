@@ -3,9 +3,25 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 07 Sep 2024 09:34:51 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>How to Create a Twitter Bot in Coze</title>
+    <link>https://chloevolution.com/zh-cn/posts/how-to-create-a-twitter-bot-in-coze/</link>
+    <pubDate>Sat, 07 Sep 2024 09:34:51 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/how-to-create-a-twitter-bot-in-coze/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>【手把手教学】Coze如何创建工作流</title>
+    <link>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</link>
+    <pubDate>Sat, 07 Sep 2024 09:34:36 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</guid>
+    <description><![CDATA[什么是工作流？ 工作流指的是一组预定义的、标准化的步骤，可以用来完成特定的任务。一个工作流中包含多个节点，每个节点完成一个固定的任务。 举个不太]]></description>
+</item>
+<item>
     <title>如何使用Midjourney SREF控制风格一致性</title>
     <link>https://chloevolution.com/zh-cn/posts/midjourney-sref/</link>
     <pubDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</pubDate>
