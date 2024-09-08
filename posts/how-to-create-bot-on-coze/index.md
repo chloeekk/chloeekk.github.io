@@ -26,7 +26,7 @@ Bot, or robot, usually refers to a software program that can perform automated t
 You can see official and other user released plugins, such as GPT4V, Google Web Search, DALLE 3, etc. You can sort them by "Most Popular" or "Most Recent".
 
 - Workflow Store:
-A "workflow" is an organized series of steps to accomplish a task. For a complex task, we need to disassemble it into individual steps, and then connect each step according to a preset process and action, so as to automate the task and reduce the repetitive operations of manual labor. In the Workflow Store, you can view and copy workflows that others have already created.
+A "workflow" is an organized series of steps to accomplish a task. For a complex task, we need to disassemble it into individual steps, and then connect each step according to a preset process and action, so as to automate the task and reduce the repetitive operations of manual labor. In the Workflow Store, you can view and copy workflows that others have already created. You can also choose to [create a workflow](https://chloevolution.com/posts/how-to-create-a-workflow-in-coze/) yourself and apply it in your Bot.
 
 
 ## How to create a Bot with Coze
