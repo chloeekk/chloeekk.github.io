@@ -42,7 +42,7 @@ brew install hugo
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/chloevolution.com\/posts\/hugo-github-pages\/"
-        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo","wordcount":  993 ,
+        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo","wordcount":  1775 ,
         "url": "https:\/\/chloevolution.com\/posts\/hugo-github-pages\/","datePublished": "2022-10-20T07:57:53+08:00","dateModified": "2022-10-20T07:57:53+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -79,7 +79,7 @@ brew install hugo
                     <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
                 </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
                     <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/hugo-github-pages/" selected>English</option></select>
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/hugo-github-pages/" selected>English</option><option value="/zh-cn/posts/hugo-github-pages/">简体中文</option></select>
                 </a></div>
         </div>
     </div>
@@ -113,7 +113,7 @@ brew install hugo
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
                     <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/posts/hugo-github-pages/" selected>English</option></select>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/hugo-github-pages/" selected>English</option><option value="/zh-cn/posts/hugo-github-pages/">简体中文</option></select>
                 </a></div>
     </div>
 </header><div class="search-dropdown desktop">
@@ -127,8 +127,8 @@ brew install hugo
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">How to use Hugo to Build a Blog and Deploy it to Github Page</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chloe</a></span>&nbsp;<span class="post-category">included in <a href="/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-20">2022-10-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;993 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;<span id="/posts/hugo-github-pages/" class="leancloud_visitors" data-flag-title="How to use Hugo to Build a Blog and Deploy it to Github Page">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-10-20">2022-10-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1775 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;9 minutes&nbsp;<span id="/posts/hugo-github-pages/" class="leancloud_visitors" data-flag-title="How to use Hugo to Build a Blog and Deploy it to Github Page">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;
     
@@ -163,6 +163,18 @@ brew install hugo
     <li><a href="#6-deploy-to-github-page">6. Deploy to GitHub page</a>
       <ul>
         <li><a href="#solution-to-fatal-origin-does-not-appear-to-be-a-git-repository">Solution to &ldquo;fatal: &lsquo;origin&rsquo; does not appear to be a git repository&hellip;&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#understand-hugos-folder-structure">Understand Hugo&rsquo;s folder structure</a>
+      <ul>
+        <li><a href="#basic-folders">Basic folders</a></li>
+        <li><a href="#folders-automatically-generated-after-running-hugo">Folders automatically generated after running Hugo</a></li>
+      </ul>
+    </li>
+    <li><a href="#examples-of-folders-involved-in-hugo-runtime">Examples of folders involved in Hugo runtime</a>
+      <ul>
+        <li><a href="#create-a-site-with-hugo">Create a site with Hugo</a></li>
+        <li><a href="#create-a-new-article-using-hugo">Create a new article using Hugo</a></li>
       </ul>
     </li>
   </ul>
@@ -397,6 +409,72 @@ git push -u origin master
 <p><code>git remote remove origin</code>: Delete the origin warehouse (if you spell origin as origin, delete the wrong name warehouse)</p>
 <p><code>git remote add origin warehouse address</code>: re-add the remote warehouse address</p>
 <p><code>gti push -u origin master</code>: Submit to the master trunk of the remote warehouse</p>
+<h2 id="understand-hugos-folder-structure">Understand Hugo&rsquo;s folder structure</h2>
+<p>After the theme is downloaded locally, you will see many folders, which can be divided into Hugo&rsquo;s basic folders (i.e., folders added when the project is created or manually by the user) and folders automatically generated after Hugo generates a static website:</p>
+<h3 id="basic-folders">Basic folders</h3>
+<p>These folders already exist when you create a Hugo project or install a theme. They are the main directories you use to organize website content, configuration, styles, etc.</p>
+<ul>
+<li><strong>archetypes</strong>: Define article templates to help quickly create new content.</li>
+<li><strong>content</strong>: The website&rsquo;s article and page content storage directory, such as blog posts, pages, etc.</li>
+<li><strong>data</strong>: Used to store structured data files that can be called by templates.</li>
+<li><strong>layouts</strong>: Define page layout and template logic to control the presentation of the website.</li>
+<li><strong>static</strong>: Used to store static resources, such as images, CSS, JavaScript, etc. These files will be copied directly to the generated website.</li>
+<li><strong>config.toml</strong>: The website&rsquo;s configuration file controls the basic settings of the website.
+themes: Used to store the website&rsquo;s theme files. The LoveIt theme is in this folder.</li>
+</ul>
+<p>In addition, the LoveIt theme has some specific folders:</p>
+<ul>
+<li><strong>en / zh-cn</strong>: for multi-language support, separate content for different languages.</li>
+<li><strong>js</strong>: for custom JavaScript files.</li>
+<li><strong>lib</strong>: for front-end libraries or plug-ins (such as jQuery, FontAwesome, etc.).</li>
+<li><strong>page</strong>: for specific page files, such as &ldquo;About Me&rdquo;, &ldquo;Contact&rdquo;, etc.</li>
+<li><strong>posts</strong>: for blog posts.</li>
+<li><strong>svg</strong>: for vector icons or images in SVG format.</li>
+<li><strong>tags</strong>: for generating specific tag pages to help organize content by tags.</li>
+</ul>
+<h3 id="folders-automatically-generated-after-running-hugo">Folders automatically generated after running Hugo</h3>
+<p>These folders are created by Hugo when generating static websites. They store the output content or intermediate files processed by Hugo. You do not need to create or modify these folders manually.</p>
+<ul>
+<li><strong>public</strong>: The website files generated by Hugo after executing the hugo command will be stored here. It contains the final HTML, CSS, JS, images and other resources, ready to be deployed to the server.</li>
+<li><strong>resources</strong>: Stores resource files processed by Hugo Pipes, such as compressed CSS, optimized images, etc. These files are used to improve performance.</li>
+</ul>
+<h2 id="examples-of-folders-involved-in-hugo-runtime">Examples of folders involved in Hugo runtime</h2>
+<h3 id="create-a-site-with-hugo">Create a site with Hugo</h3>
+<p>Creating a Hugo site is the process of project initialization. Hugo will generate some basic folders and files to manage the content, style and functions of the website.</p>
+<p>Operation command:
+<code>hugo new site mysite</code></p>
+<p>Running process and folders involved:</p>
+<ul>
+<li><strong>archetypes</strong>: Hugo will generate an archetypes/default.md file, which is a template for creating a new article, defining the default format and metadata of the article (such as title, date, tags, etc.).</li>
+<li><strong>content</strong>: This folder is empty at first. It is a directory for storing website articles and pages. You can create subfolders (such as posts) to organize different types of content.</li>
+<li><strong>data</strong>: Empty, for you to store structured data (such as JSON, YAML, TOML) for template use.</li>
+<li><strong>layouts</strong>: Empty, used to store custom page layout template files. You can create your own page layouts here, or modify the templates provided by the theme.</li>
+<li><strong>static</strong>: Empty, store static files (such as images, CSS, JS, etc.), which will be copied directly to the generated site.</li>
+<li><strong>config.toml</strong>: Generate a default configuration file containing basic website configuration options (such as website name, language, theme, etc.).</li>
+</ul>
+<p>In addition, if you install a theme (such as LoveIt), Hugo will put the theme file in the themes folder, including the theme&rsquo;s style, layout, static resources, etc.
+After creating a site, you can modify the config.toml file to set the basic information of the site, such as baseURL, languageCode, title, and choose the theme to use.</p>
+<h3 id="create-a-new-article-using-hugo">Create a new article using Hugo</h3>
+<p>Creating a new article (post) is based on the existing site structure, using the defined content template to generate specific article files.</p>
+<p>Operation command: <code>hugo new posts/my-first-post.md</code></p>
+<p>Running process and folders involved:</p>
+<ul>
+<li>
+<p><strong>archetypes</strong>: When creating a new article, Hugo will read the article template from archetypes/default.md and automatically generate the article&rsquo;s header metadata (Front Matter), such as title, date, draft, etc. This ensures that each article has a consistent infrastructure structure.</p>
+</li>
+<li>
+<p><strong>content/posts</strong>: The new article will be created in the content/posts/ folder. The posts folder stores all blog posts, and my-first-post.md is the new article file just created. You can edit this file to write the content of the article.</p>
+</li>
+</ul>
+<p>Article files are usually in markdown format, containing Front Matter information such as article title, release time, tags, categories, and body content.</p>
+<ul>
+<li>
+<p><strong>static</strong>: If images or other static resources are referenced in the article, these resources need to be placed in the static folder, and Hugo will copy them to the final generated site.</p>
+</li>
+<li>
+<p><strong>config.toml</strong>: Some global configurations (such as the website language, default theme, menu, etc.) may affect the display of new articles.</p>
+</li>
+</ul>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

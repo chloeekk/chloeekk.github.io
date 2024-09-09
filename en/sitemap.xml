@@ -189,6 +189,30 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/what-does-a-google-ads-specialist-do/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/hugo-github-pages/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://chloevolution.com/tags/hugo/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://chloevolution.com/categories/hugo/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://chloevolution.com/posts/hugo-github-pages/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/hugo-github-pages/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/hugo-github-pages/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/hugo/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/hugo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/hugo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/hugo/</loc><lastmod>2022-10-20T07:57:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/hugo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/hugo/"
+                    /></url></urlset>
