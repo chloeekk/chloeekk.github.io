@@ -3,7 +3,31 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Sep 2024 08:44:36 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 04 Oct 2024 09:10:48 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>一文读懂暗知识</title>
+    <link>https://chloevolution.com/zh-cn/posts/tacit-knowledge/</link>
+    <pubDate>Fri, 04 Oct 2024 09:10:48 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/tacit-knowledge/</guid>
+    <description><![CDATA[什么是暗知识？ 暗知识，也称为隐性知识，是一种难以形式化的、个人化的知识，通常基于经验、直觉和感知。与显性知识不同，暗知识很难通过文字、数据或]]></description>
+</item>
+<item>
+    <title>最佳AdWords报告：提升广告表现的终极指南</title>
+    <link>https://chloevolution.com/zh-cn/posts/best-adwords-reports/</link>
+    <pubDate>Thu, 03 Oct 2024 09:11:07 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/best-adwords-reports/</guid>
+    <description><![CDATA[什么是AdWords报告？ 广告优化的核心在于数据驱动的决策，而Google AdWords（现称为Google Ads）报告正是实现这一目标的关]]></description>
+</item>
+<item>
+    <title>搜索引擎定位软件指南</title>
+    <link>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</link>
+    <pubDate>Wed, 02 Oct 2024 09:11:24 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</guid>
+    <description><![CDATA[什么是搜索引擎定位软件 搜索引擎定位软件是一种帮助网站管理者、营销人员和SEO专家跟踪和优化网站在搜索引擎结果页面（SERP）上排名的工具。它]]></description>
+</item>
+<item>
     <title>提升点击率与转化率：掌握SEM文案的必备技巧</title>
     <link>https://chloevolution.com/zh-cn/posts/create-sem-copy/</link>
     <pubDate>Sat, 28 Sep 2024 08:44:36 &#43;0800</pubDate>
@@ -58,30 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</guid>
     <description><![CDATA[前提条件 要运行此代码，你需要 pandas、zstandard（zstd）和 json 库。如果尚未安装，你可以使用 pip 安装 pandas 和 zstandard： 1 pip install]]></description>
-</item>
-<item>
-    <title>用Python进行顾客用户分析和细分（含源码）</title>
-    <link>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</link>
-    <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</guid>
-    <description><![CDATA[本文使用的示例数据和分析代码来自Kaggle。但因为实际的运行结果与原作者不同，故在分析部分略有差异。 具体的分析流程包括： 数据准备 数据清洗 数]]></description>
-</item>
-<item>
-    <title>谷歌广告优化师是做什么的？</title>
-    <link>https://chloevolution.com/zh-cn/posts/what-does-a-google-ads-specialist-do/</link>
-    <pubDate>Thu, 26 Jan 2023 17:39:15 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/what-does-a-google-ads-specialist-do/</guid>
-    <description><![CDATA[背景介绍 毕业之后我误打误撞进入了一家互联网公司负责海外推广，一年后转行做海外广告优化师，从此开启我的谷歌广告之路。推过新品、负责过高净额的产]]></description>
-</item>
-<item>
-    <title>如何使用Hugo搭建博客并部署到Github</title>
-    <link>https://chloevolution.com/zh-cn/posts/hugo-github-pages/</link>
-    <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/hugo-github-pages/</guid>
-    <description><![CDATA[1. 安装Hugo Windows: 首先安装choco包管理器，在管理员权限下运行cmd，执行以下命令： 1 2 3 4 5 markup powershell -NoProfile -ExecutionPolicy unrestricted -Command &#34;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&#34; # 设置环境变量 SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin 然后使用c]]></description>
 </item>
 </channel>
 </rss>

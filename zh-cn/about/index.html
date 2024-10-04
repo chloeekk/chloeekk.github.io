@@ -130,6 +130,42 @@
 
   var dataMap = new Map();
   
+    var key = "2024-10-04";
+    var value = dataMap.get(key);
+    var wordCount =  5672 ;
+    var link = "/zh-cn/posts/tacit-knowledge/";
+    var title = "一文读懂暗知识";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2024-10-03";
+    var value = dataMap.get(key);
+    var wordCount =  7452 ;
+    var link = "/zh-cn/posts/best-adwords-reports/";
+    var title = "最佳AdWords报告：提升广告表现的终极指南";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2024-10-02";
+    var value = dataMap.get(key);
+    var wordCount =  5210 ;
+    var link = "/zh-cn/posts/search-engine-positioning-software/";
+    var title = "搜索引擎定位软件指南";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-09-28";
     var value = dataMap.get(key);
     var wordCount =  6065 ;
