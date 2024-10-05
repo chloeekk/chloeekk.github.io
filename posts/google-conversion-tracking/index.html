@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>A Comprehensive Guide to Google Conversion Tracking - Chloevolution</title><meta name="Description" content="Learn how to effectively set up and optimize Google conversion tracking to improve advertising results. This article will introduce the conversion tracking methods, data analysis techniques and solutions to common problems of Google Ads, Google Analytics and Google Tag Manager in detail."><meta property="og:title" content="A Comprehensive Guide to Google Conversion Tracking" />
+<meta property="og:description" content="Learn how to effectively set up and optimize Google conversion tracking to improve advertising results. This article will introduce the conversion tracking methods, data analysis techniques and solutions to common problems of Google Ads, Google Analytics and Google Tag Manager in detail." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chloevolution.com/posts/google-conversion-tracking/" /><meta property="og:image" content="https://chloevolution.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-05T08:44:22+08:00" />
+<meta property="article:modified_time" content="2024-10-05T08:44:22+08:00" /><meta property="og:site_name" content="Chloevolution" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://chloevolution.com/logo.png"/>
+
+<meta name="twitter:title" content="A Comprehensive Guide to Google Conversion Tracking"/>
+<meta name="twitter:description" content="Learn how to effectively set up and optimize Google conversion tracking to improve advertising results. This article will introduce the conversion tracking methods, data analysis techniques and solutions to common problems of Google Ads, Google Analytics and Google Tag Manager in detail."/>
+<meta name="application-name" content="Chloevolution">
+<meta name="apple-mobile-web-app-title" content="Chloevolution"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/posts/google-conversion-tracking/" /><link rel="prev" href="https://chloevolution.com/posts/tacit-knowledge/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "A Comprehensive Guide to Google Conversion Tracking",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chloevolution.com\/posts\/google-conversion-tracking\/"
+        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "SEM, SEO","wordcount":  4856 ,
+        "url": "https:\/\/chloevolution.com\/posts\/google-conversion-tracking\/","datePublished": "2024-10-05T08:44:22+08:00","dateModified": "2024-10-05T08:44:22+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
+                    "width":  4032 ,
+                    "height":  3024 
+                }},"author": {
+                "@type": "Person",
+                "name": "Chloe"
+            },"description": "Learn how to effectively set up and optimize Google conversion tracking to improve advertising results. This article will introduce the conversion tracking methods, data analysis techniques and solutions to common problems of Google Ads, Google Analytics and Google Tag Manager in detail."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/google-conversion-tracking/" selected>English</option><option value="/zh-cn/posts/google-conversion-tracking/">简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/google-conversion-tracking/" selected>English</option><option value="/zh-cn/posts/google-conversion-tracking/">简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">A Comprehensive Guide to Google Conversion Tracking</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chloe</a></span>&nbsp;<span class="post-category">included in <a href="/categories/sem/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>SEM</a>&nbsp;<a href="/categories/seo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>SEO</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-10-05">2024-10-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4856 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;23 minutes&nbsp;<span id="/posts/google-conversion-tracking/" class="leancloud_visitors" data-flag-title="A Comprehensive Guide to Google Conversion Tracking">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+                    </span>&nbsp;
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;views</span>
+        
+    
+</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#multiple-ways-to-track-google-conversions">Multiple ways to track Google conversions</a>
+      <ul>
+        <li><a href="#google-ads-conversion-tracking">Google Ads conversion tracking</a></li>
+        <li><a href="#google-analytics-conversion-tracking">Google Analytics Conversion Tracking</a></li>
+        <li><a href="#conversion-tracking-in-google-tag-manager">Conversion Tracking in Google Tag Manager</a></li>
+        <li><a href="#comparison-of-three-google-conversion-tracking-methods">Comparison of three Google conversion tracking methods</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-google-conversion-tracking-works">How Google Conversion Tracking Works</a>
+      <ul>
+        <li><a href="#basic-process-of-conversion-tracking">Basic process of conversion tracking</a></li>
+        <li><a href="#how-conversion-tags-capture-user-behavior">How Conversion Tags Capture User Behavior</a></li>
+        <li><a href="#how-google-ads-and-google-analytics-process-and-match-conversion-data">How Google Ads and Google Analytics process and match conversion data</a></li>
+        <li><a href="#data-collection-and-analysis-delay-and-processing-mechanism">Data collection and analysis delay and processing mechanism</a></li>
+        <li><a href="#the-role-of-conversion-attribution-model">The role of conversion attribution model</a></li>
+      </ul>
+    </li>
+    <li><a href="#setup-steps-for-google-conversion-tracking">Setup steps for Google conversion tracking</a>
+      <ul>
+        <li><a href="#google-ads-conversion-tracking-setup">Google Ads conversion tracking setup</a></li>
+        <li><a href="#google-analytics-conversion-tracking-settings">Google Analytics Conversion Tracking Settings</a></li>
+        <li><a href="#conversion-tracking-setup-in-google-tag-manager">Conversion Tracking Setup in Google Tag Manager</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-confirm-that-google-conversion-tracking-is-working-properly">How to confirm that Google conversion tracking is working properly</a>
+      <ul>
+        <li><a href="#how-to-check-whether-the-conversion-tag-is-installed-and-activated-correctly">How to check whether the conversion tag is installed and activated correctly</a></li>
+        <li><a href="#view-conversion-data-in-google-ads-or-google-analytics">View conversion data in Google Ads or Google Analytics</a></li>
+        <li><a href="#common-conversion-tracking-errors-and-troubleshooting-methods">Common conversion tracking errors and troubleshooting methods</a></li>
+        <li><a href="#analysis-of-delays-or-missing-data-in-conversion-tracking">Analysis of delays or missing data in conversion tracking</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-fix-common-google-conversion-tracking-issues">How to fix common Google conversion tracking issues</a>
+      <ul>
+        <li><a href="#conversion-tag-not-firing-or-incorrectly-installed">Conversion tag not firing or incorrectly installed</a></li>
+        <li><a href="#conversion-data-is-not-displayed-in-google-adsanalytics">Conversion data is not displayed in Google Ads/Analytics</a></li>
+        <li><a href="#troubleshoot-javascript-or-browser-compatibility-issues">Troubleshoot JavaScript or browser compatibility issues</a></li>
+        <li><a href="#check-tag-activation-status-using-google-tag-manager">Check tag activation status using Google Tag Manager</a></li>
+        <li><a href="#fix-cross-domain-tracking-issues">Fix cross-domain tracking issues</a></li>
+        <li><a href="#verify-and-adjust-attribution-model-settings">Verify and adjust attribution model settings</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Google conversion tracking is a feature provided by Google that tracks key actions taken by users after interacting with ads. Whether it is a purchase after clicking an ad, filling out a form, making a phone call, or downloading an app, Google can capture these user behaviors and quantify them into data. This data can not only help you determine whether your ads are effective, but also clearly know which advertising campaigns are driving business growth.</p>
+<p>So, what is a conversion? In marketing, a conversion refers to a specific expected behavior completed by a user after interacting with an ad or website. These behaviors may include:</p>
+<ul>
+<li><strong>Buy a product</strong>: A user successfully completes a transaction after clicking on an ad.</li>
+<li><strong>Submit a form</strong>: Fill out a registration, inquiry, or subscription form.</li>
+<li><strong>Call a phone</strong>: Contact a business by clicking a phone link in an ad.</li>
+<li><strong>Download an app or file</strong>: Such as downloading an e-book, app, or coupon.</li>
+</ul>
+<p>The definition of a conversion varies depending on the business goal, but what remains unchanged is that conversion is always closely related to actual business results because it directly reflects the user&rsquo;s transition from browsing to action.</p>
+<p>Suppose you are running Google Ads ads for an e-commerce website and attracting a lot of clicks, but if the clicks do not convert into actual sales, these clicks are meaningless. With Google conversion tracking, you can clearly identify which advertising campaigns, keywords, and user groups are most likely to bring conversions, thereby optimizing your budget and focusing resources on the most effective areas.</p>
+<h2 id="multiple-ways-to-track-google-conversions">Multiple ways to track Google conversions</h2>
+<p>Google provides a variety of tools to help advertisers and webmasters track conversion behavior on different platforms and environments, including Google Ads, Google Analytics, and Google Tag Manager (GTM).</p>
+<h3 id="google-ads-conversion-tracking">Google Ads conversion tracking</h3>
+<p><strong>Google Ads conversion tracking</strong> is the most direct way to track conversions, especially for companies that focus on advertising performance. Its core function is to help advertisers understand whether users have completed the expected actions after clicking on an ad. With Google Ads conversion tracking, you can track the following common conversion types:</p>
+<ul>
+<li><strong>Purchase</strong>: Track successful orders on e-commerce websites.</li>
+<li><strong>Form submission</strong>: Record the registration or consultation form that users fill out and submit.</li>
+<li><strong>Phone conversion</strong>: Users make calls by clicking on the phone link in the ad.</li>
+<li><strong>App install</strong>: If you are promoting a mobile app, Google Ads can track whether users have installed your app through the ad.</li>
+</ul>
+<p><strong>Functions and Uses</strong>:</p>
+<ul>
+<li><strong>Optimize Ad Performance</strong>: Google Ads allows you to optimize ad bids based on conversion data. For example, you can set Smart Bidding to automatically adjust bids for each click to maximize conversion rates.</li>
+<li><strong>Conversion Value Tracking</strong>: You can set different values ​​for different conversion behaviors to help you calculate the return on investment (ROI) of your ads.</li>
+<li><strong>Cross-device tracking</strong>: Google Ads can track user behavior on different devices, such as when a user clicks on an ad on a mobile phone and then completes a purchase on a computer.</li>
+</ul>
+<p>Google Ads conversion tracking is ideal for businesses that want to get accurate conversion data from their advertising campaigns and optimize advertising based on this data in real time.</p>
+<h3 id="google-analytics-conversion-tracking">Google Analytics Conversion Tracking</h3>
+<p>If Google Ads conversion tracking focuses on the direct effects of advertising, then <strong>Google Analytics conversion tracking</strong> provides a broader perspective. Google Analytics allows you to track not only ad conversions, but also various user behaviors across the entire website.</p>
+<p>In Google Analytics, conversion tracking is divided into two main forms:</p>
+<ul>
+<li><strong>Goals</strong>: This is the basic conversion tracking function in Analytics. You can set different goals, such as &ldquo;purchase completion page&rdquo; or &ldquo;form submission page&rdquo;, and when users visit these pages, Google Analytics will record a conversion.</li>
+<li><strong>Event Tracking (Events)</strong>: Event tracking is a more advanced feature that allows you to capture more subtle user behaviors. For example, behaviors such as clicking a button, downloading a file, or watching a video can all be defined as events and included in conversion analysis.</li>
+</ul>
+<p><strong>Differences and integration with conversion tracking with Google Ads</strong>:</p>
+<ul>
+<li><strong>Wide data sources</strong>: Google Analytics not only tracks conversions from ads, but also monitors conversions from multiple channels such as social media, SEO, and email, helping you to fully understand the performance of the entire website.</li>
+<li><strong>User Journey Analysis</strong>: The power of Google Analytics lies in its ability to help you analyze the entire user journey, from the initial visit to the final conversion. You can see how different channels work together and understand the user&rsquo;s behavioral path on the website.</li>
+<li><strong>Integration with Google Ads</strong>: You can integrate the data of Google Ads and Google Analytics together and deeply analyze the performance of ads through Google Analytics. This way, you can not only see the conversions directly brought about by ads, but also understand the impact of ads on long-term user behavior.</li>
+</ul>
+<p>Google Analytics conversion tracking is an all-around tool that not only provides ad conversion data, but also provides you with insights about the entire website to help you optimize your overall marketing strategy.</p>
+<h3 id="conversion-tracking-in-google-tag-manager">Conversion Tracking in Google Tag Manager</h3>
+<p><strong>Google Tag Manager</strong> is a tag management tool launched by Google that is specifically designed to simplify code management. For marketers who do not have programming knowledge, GTM is a very practical tool that allows you to flexibly manage and install conversion tags without modifying the website code.</p>
+<p><strong>How ​​to manage conversion tags more flexibly through GTM</strong>:</p>
+<ul>
+<li>
+<p><strong>No need to modify the code</strong>: With GTM, you can easily add, update and manage conversion tags without frequently requesting changes to the website code from the development team. Just set the trigger conditions in GTM, such as when a user clicks a button or visits a page, GTM will automatically trigger the conversion tag.</p>
+</li>
+<li>
+<p><strong>One-stop solution for tag management</strong>: GTM can not only manage conversion tags for Google Ads and Google Analytics, but can also be used to manage tracking codes for third-party tools. For example, the codes of Facebook Pixel or Hotjar can be deployed and managed through GTM.</p>
+</li>
+<li>
+<p><strong>Real-time debugging and preview</strong>: GTM provides a debugging mode where you can test the working of tags without affecting users to ensure that they are triggered correctly.</p>
+</li>
+<li>
+<p><strong>Multi-channel unified management</strong>: With GTM, all tags such as advertising, analytics, and remarketing can be centrally managed on one platform, reducing the risk of tag loading errors and increasing the loading speed of the website.</p>
+</li>
+</ul>
+<p>Google Tag Manager not only simplifies the management process of conversion tracking tags, but also makes the entire conversion tracking process more flexible and efficient. For companies that need to frequently adjust conversion tags on their websites, GTM is an indispensable tool.</p>
+<h3 id="comparison-of-three-google-conversion-tracking-methods">Comparison of three Google conversion tracking methods</h3>
+<p>Of course! The following is a table comparing the differences, advantages and disadvantages of <strong>Google Ads</strong>, <strong>Google Analytics</strong> and <strong>Google Tag Manager</strong> in <strong>conversion tracking</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Function/Features</th>
+<th><strong>Google Ads Conversion Tracking</strong></th>
+<th><strong>Google Analytics Conversion Tracking</strong></th>
+<th><strong>Google Tag Manager Conversion Tracking</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Main Purpose</strong></td>
+<td>Focus on direct conversions after advertising, such as purchases, registrations, phone calls, etc.</td>
+<td>Provide omni-channel user behavior analysis, covering the conversion behavior of all visitors on the website</td>
+<td>Centrally manage conversion tags, flexibly deploy and manage codes</td>
+</tr>
+<tr>
+<td><strong>Data Source</strong></td>
+<td>Only track conversion behaviors from Google Ads ads</td>
+<td>Comprehensively monitor conversions from all channels (SEO, social, advertising, direct traffic, etc.)</td>
+<td>Manage data by integrating various tags (such as Google Ads, Analytics, Facebook Pixel, etc.)</td>
+</tr>
+<tr>
+<td><strong>Conversion Type</strong></td>
+<td>Purchases, form submissions, phone calls, app installations, etc. after clicking on ads</td>
+<td>Website goals (such as purchases, form submissions), event tracking (such as button clicks, video viewing)</td>
+<td>Trigger management of multiple conversion types (such as page loads, button clicks, form submissions, etc.)</td>
+</tr>
+<tr>
+<td><strong>Advantages</strong></td>
+<td>- Directly optimize ad bids (smart bidding) <br> - Cross-device conversion tracking <br> - Directly link ad return on investment (ROI)</td>
+<td>- Track omnichannel user behavior <br> - In-depth user journey analysis <br> - Multi-dimensional attribution model</td>
+<td>- No need to modify code <br> - Real-time debugging and preview <br> - Centralized management of all conversion tags</td>
+</tr>
+<tr>
+<td><strong>Disadvantages</strong></td>
+<td>Limited to conversion behavior of Google Ads, lack of tracking of other traffic channels</td>
+<td>Need to manually set goals or event tracking, the setting process is relatively complicated</td>
+<td>Only as a tag management tool, no data or reports are generated, and it needs to be used in conjunction with Ads or Analytics</td>
+</tr>
+<tr>
+<td><strong>Data analysis</strong></td>
+<td>Conversion data after ad clicks, conversion effect analysis of ad groups and keywords</td>
+<td>Conversion paths, traffic sources and detailed reports of user omnichannel behavior</td>
+<td>Does not generate reports by itself, relies on other tools (such as Google Analytics)</td>
+</tr>
+<tr>
+<td><strong>Cross-channel tracking capabilities</strong></td>
+<td>Limited to cross-device conversion tracking for Google Ads ads</td>
+<td>Supports cross-channel (such as social, SEO, email, etc.) and cross-device user behavior analysis</td>
+<td>Can integrate multiple tools, but cross-channel tags need to be managed manually</td>
+</tr>
+<tr>
+<td><strong>Usage scenarios</strong></td>
+<td>Advertisers who need to optimize advertising effects and increase conversion rates</td>
+<td>Marketers who need to fully understand website user behavior and multi-channel performance</td>
+<td>Technical or marketing teams who need to flexibly manage and deploy multiple tags (advertising, analysis, remarketing)</td>
+</tr>
+</tbody>
+</table>
+<p>In general:</p>
+<ul>
+<li><strong>Google Ads conversion tracking</strong> is most suitable for focusing on optimizing advertising effects, especially for scenarios that require immediate adjustment and optimization of conversions after ad clicks.</li>
+<li><strong>Google Analytics conversion tracking</strong> provides omni-channel, multi-device user behavior data, which is more suitable for marketers who want to understand the entire website traffic and conversion path.</li>
+<li><strong>Google Tag Manager</strong> provides flexible tag management capabilities, which is suitable for situations where multiple conversion tags need to be quickly managed and deployed.</li>
+</ul>
+<h2 id="how-google-conversion-tracking-works">How Google Conversion Tracking Works</h2>
+<p>To understand how to make the most of <strong>Google Conversion Tracking</strong>, you first need to understand how it works. It uses specific tags and codes to link key user behaviors on the website with ad interactions. This process involves multiple links from user behavior capture to data processing to conversion attribution.</p>
+<h3 id="basic-process-of-conversion-tracking">Basic process of conversion tracking</h3>
+<p><strong>Google Conversion Tracking</strong> can be roughly divided into four key steps:</p>
+<ol>
+<li>
+<p><strong>Ad interaction</strong>: The user sees or clicks on a Google Ads ad.</p>
+</li>
+<li>
+<p><strong>User behavior</strong>: The user is directed to the target website and completes the expected action (such as purchasing a product, filling out a form).</p>
+</li>
+<li>
+<p><strong>Capture conversion behavior</strong>: The pre-set conversion tag records these behaviors and sends the data to Google&rsquo;s servers.</p>
+</li>
+<li>
+<p><strong>Data processing and reporting</strong>: Google processes this data through algorithms and generates detailed conversion reports in tools such as Google Ads or Google Analytics.</p>
+</li>
+</ol>
+<h3 id="how-conversion-tags-capture-user-behavior">How Conversion Tags Capture User Behavior</h3>
+<p><strong>Conversion Tag</strong> is the core component of Google Conversion Tracking. It is a small JavaScript code that is usually embedded on the page you want to track. A typical scenario is to add a conversion tag on the &ldquo;thank you page&rdquo; or &ldquo;order confirmation page&rdquo; to ensure that only users who complete the expected behavior will trigger it.</p>
+<p>When a user clicks on an ad and enters your web page, the conversion tag will do two things:</p>
+<ol>
+<li>
+<p><strong>Capture user behavior</strong>: Once a user visits a page with a conversion tag, the tag will automatically record the user&rsquo;s visit data and associate it with the previous ad click behavior.</p>
+</li>
+<li>
+<p><strong>Send data</strong>: This data is sent to Google&rsquo;s server to identify whether the user has completed the conversion behavior you defined (such as purchase, registration, etc.).</p>
+</li>
+</ol>
+<p>In addition, the <strong>cookie</strong> or <strong>local storage</strong> technology used by Google can help the tag identify the behavior of the same user at different times or devices, thereby achieving <strong>cross-device conversion tracking</strong>.</p>
+<h3 id="how-google-ads-and-google-analytics-process-and-match-conversion-data">How Google Ads and Google Analytics process and match conversion data</h3>
+<p>Although both <strong>Google Ads</strong> and <strong>Google Analytics</strong> can track conversions, they process and match data differently.</p>
+<ul>
+<li>
+<p><strong>Google Ads</strong>: It focuses on tracking direct conversion behavior after ad clicks. After an ad is clicked, Google saves a specific ad click ID (GCLID) on the user&rsquo;s device. This ID is used together with the conversion tag to help advertisers determine which clicks have generated conversions. When the user completes the expected behavior, the conversion data is immediately captured by the Google Ads system and updated to the ad report.</p>
+</li>
+<li>
+<p><strong>Google Analytics</strong>: It is not limited to ad conversions, but can also track user behavior across all channels (such as natural search, social media, etc.). Google Analytics matches the user&rsquo;s complete access path through <strong>Session ID</strong> and <strong>User ID</strong>, and attributes the behavior of multiple channels to a single conversion. It can more comprehensively show the user&rsquo;s entire journey from the first visit to the final conversion.</p>
+</li>
+</ul>
+<p>When used together, these two can provide you with a more comprehensive perspective, allowing you to see both the direct effects of advertising and the user&rsquo;s cross-channel behavior patterns.</p>
+<h3 id="data-collection-and-analysis-delay-and-processing-mechanism">Data collection and analysis delay and processing mechanism</h3>
+<p>During the conversion tracking process, data collection and reporting are not completed in real time, and there is usually a certain delay. Google Ads and Google Analytics systems take time to process data for the following reasons:</p>
+<ul>
+<li><strong>User behavior recording and matching</strong>: When a user clicks an ad and triggers a conversion, the conversion tag sends the data to Google&rsquo;s servers, which need to match and classify the data. This process may cause delays of several minutes to several hours.</li>
+<li><strong>Cross-device conversion processing</strong>: For cross-device conversion tracking, Google Ads and Analytics need additional time to confirm the association between multiple visits by the same user. This will also cause conversion delays in reports.</li>
+</ul>
+<p>Typically, Google Ads conversion data will be reflected within <strong>24 hours</strong>, while Google Analytics reports may take <strong>24 to 48 hours</strong> to fully present. Understanding this delay process will help you better evaluate advertising effectiveness and avoid premature conclusions.</p>
+<h3 id="the-role-of-conversion-attribution-model">The role of conversion attribution model</h3>
+<p><strong>Conversion attribution model</strong> is an important concept in Google conversion tracking, which defines how to attribute conversion behavior to different user touch points. Attribution model helps you understand the role of different marketing channels and advertising activities in the conversion process.</p>
+<p>Common attribution models include:</p>
+<ul>
+<li><strong>Last Click Attribution</strong>: The conversion is completely attributed to the last clicked channel or ad.</li>
+<li><strong>Linear Attribution</strong>: The conversion is evenly distributed to each touch point, reflecting the multiple influencing factors in the user&rsquo;s entire conversion journey.</li>
+<li><strong>Time Decay Attribution</strong>: The touch points closer to the conversion are given higher weights, reflecting the close influence.</li>
+<li><strong>Position-Based Attribution</strong>: The first touch point and the last touch point have the main weight, while the middle touch points have the secondary weight.</li>
+</ul>
+<p>By choosing the right attribution model, you can more accurately evaluate the contribution of different advertising channels, optimize marketing strategies, and improve return on investment (ROI).</p>
+<h2 id="setup-steps-for-google-conversion-tracking">Setup steps for Google conversion tracking</h2>
+<h3 id="google-ads-conversion-tracking-setup">Google Ads conversion tracking setup</h3>
+<p><strong>Google Ads</strong>&rsquo;s conversion tracking feature is mainly used to track conversion behavior after ad clicks, which is suitable for advertisers to directly track ad performance. Here are the setup steps:</p>
+<ol>
+<li>
+<p><strong>Log in to your Google Ads account</strong>
+Open <a href="https://ads.google.com" target="_blank" rel="noopener noreffer ">Google Ads</a> and log in with your ad account.</p>
+</li>
+<li>
+<p><strong>Go to the &ldquo;Conversions&rdquo; page</strong>
+On the account homepage, click the tool icon in the upper right corner, and then select &ldquo;Conversions&rdquo; in the &ldquo;Measurement&rdquo; section.</p>
+</li>
+<li>
+<p><strong>Create a new conversion action</strong>
+Click &ldquo;+ Add a new conversion action&rdquo; on the page, and you will see several different conversion types to choose from, including the following common ones:</p>
+<ul>
+<li>
+<p><strong>Website</strong>: such as purchases, registrations, etc.</p>
+</li>
+<li>
+<p><strong>App</strong>: Install a mobile app or complete an in-app action.</p>
+</li>
+<li>
+<p><strong>Phone</strong>: Make a phone call through an ad.</p>
+</li>
+<li>
+<p><strong>Import</strong>: Conversion data imported from external systems such as CRM.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Configure Conversion Details</strong>
+Depending on the conversion type you selected, fill in the relevant information, such as:</p>
+<ul>
+<li><strong>Conversion Name</strong>: Give the conversion a concise name.</li>
+<li><strong>Conversion Value</strong>: Assign a monetary value to each conversion to calculate ROI (optional).</li>
+<li><strong>Conversion Count</strong>: Choose whether to count each user action as a conversion, or just once.</li>
+</ul>
+</li>
+<li>
+<p><strong>Generate Conversion Tag</strong>
+Once you have filled in the basic information for the conversion action, the system will generate a JavaScript code, which is the <strong>Conversion Tag</strong>. Paste this code into the HTML of the target web page, usually the &ldquo;Thank You Page&rdquo; or &ldquo;Order Confirmation Page&rdquo; after the user completes the conversion.</p>
+</li>
+<li>
+<p><strong>Verify Tag Works</strong>
+After the code is embedded, you can check whether the conversion tracking is working properly through the status bar in the &ldquo;Conversion Action&rdquo; page of Google Ads.</p>
+</li>
+</ol>
+<h3 id="google-analytics-conversion-tracking-settings">Google Analytics Conversion Tracking Settings</h3>
+<p>In <strong>Google Analytics</strong>, conversion tracking can be achieved through &ldquo;Goals&rdquo; and &ldquo;Events&rdquo;, which is suitable for businesses that want to understand user behavior in a comprehensive way.</p>
+<ol>
+<li>
+<p><strong>Log in to Google Analytics</strong>
+Open <a href="https://analytics.google.com" target="_blank" rel="noopener noreffer ">Google Analytics</a> and log in to your analytics account.</p>
+</li>
+<li>
+<p><strong>Create a &ldquo;Goal&rdquo;</strong>
+In the left menu bar, click &ldquo;Admin&rdquo; &gt; &ldquo;View&rdquo; &gt; &ldquo;Goals&rdquo;.</p>
+</li>
+<li>
+<p><strong>Add a new goal</strong>
+Click &ldquo;+ New Goal&rdquo; and select a predefined goal type, or customize a goal as needed. Common goal types include:</p>
+<ul>
+<li>
+<p><strong>Destination</strong>: For example, a user visited a certain page (such as the &ldquo;Order Confirmation Page&rdquo;).</p>
+</li>
+<li>
+<p><strong>Event</strong>: A user clicked a button or played a video.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Set Goal Details</strong></p>
+<ul>
+<li>
+<p>For a destination goal, fill in the destination URL (the page address that the user visited after completing the conversion).</p>
+</li>
+<li>
+<p>For an event goal, fill in the category, action, and label of the triggering event (such as the behavior of clicking a button).</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Save the goal and verify</strong>
+After setting, click &ldquo;Save&rdquo;. You can use the &ldquo;Real-time&rdquo; report or &ldquo;Conversion&rdquo; report in Analytics to check whether the goal is triggered correctly.</p>
+</li>
+</ol>
+<h3 id="conversion-tracking-setup-in-google-tag-manager">Conversion Tracking Setup in Google Tag Manager</h3>
+<p>Google Tag Manager (GTM) makes it easy to add and manage conversion tags for Google Ads or Google Analytics without having to modify your website code directly.</p>
+<ol>
+<li>
+<p><strong>Log in to your Google Tag Manager account</strong>
+Visit <a href="https://tagmanager.google.com" target="_blank" rel="noopener noreffer ">Google Tag Manager</a> and log in to your account.</p>
+</li>
+<li>
+<p><strong>Create a new tag</strong>
+In the Tag Manager workspace, click the &ldquo;Add&rdquo; tab, then select &ldquo;Tag Configuration&rdquo;.</p>
+</li>
+<li>
+<p><strong>Select a tag type</strong>
+Depending on the source of the conversions you need to track, select the appropriate tag type:</p>
+<ul>
+<li>
+<p><strong>Google Ads Conversion Tracking</strong>: Select &ldquo;Google Ads Conversion Tracking&rdquo; and enter your conversion ID and tag ID (these can be found on the &ldquo;Conversions&rdquo; page in Google Ads).</p>
+</li>
+<li>
+<p><strong>Google Analytics</strong>: Select &ldquo;Google Analytics - Universal Analytics&rdquo; and set up event tracking or page view tracking.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Set trigger conditions</strong>
+Once the tag is created, click &ldquo;Trigger conditions&rdquo; to select when to trigger the conversion tag. For example:</p>
+<ul>
+<li>Trigger the tag when a user visits the &ldquo;Thank you page&rdquo;.</li>
+<li>Trigger a tag when a user clicks a specific button.</li>
+</ul>
+</li>
+<li>
+<p><strong>Publish the tag</strong>
+Once you have set it up, click the &ldquo;Submit&rdquo; button in the upper right corner to publish your new tag. You can use the &ldquo;Preview&rdquo; feature to test whether the tag is working correctly without affecting the user experience.</p>
+</li>
+<li>
+<p><strong>Verify conversion data</strong>
+After publishing the tag, you can use the debug mode of Google Tag Manager or view the conversion report in Google Ads and Analytics to ensure that the tag is triggered correctly.</p>
+</li>
+</ol>
+<h2 id="how-to-confirm-that-google-conversion-tracking-is-working-properly">How to confirm that Google conversion tracking is working properly</h2>
+<p>After setting up Google conversion tracking, the next most important thing is to ensure that it can correctly capture and report conversion data.</p>
+<h3 id="how-to-check-whether-the-conversion-tag-is-installed-and-activated-correctly">How to check whether the conversion tag is installed and activated correctly</h3>
+<p>To ensure that the conversion tag is installed and activated correctly, the most direct way is to use browser plug-ins such as <strong>Tag Assistant</strong> and other tools. These tools can help you detect the tracking code on the page in real time to ensure that it is working properly.</p>
+<ol>
+<li>
+<p><strong>Install Tag Assistant plug-in</strong>
+Tag Assistant is a free Chrome browser plug-in launched by Google that can help check whether Google tags (including Google Ads, Google Analytics, etc.) are installed correctly. You can search and install <a href="https://chrome.google.com/webstore/detail/tag-assistant-legacy-by-goo/jnkmfdileelhofjcijamephohjechhna" target="_blank" rel="noopener noreffer ">Tag Assistant</a> through the Chrome Web Store.</p>
+</li>
+<li>
+<p><strong>Activate Tag Assistant and detect tags</strong>
+After installing the plugin, open your website page and click the Tag Assistant icon in the upper right corner of the browser. Click &ldquo;Enable&rdquo; to activate tag detection, then refresh the page.</p>
+</li>
+<li>
+<p><strong>Check conversion tag status</strong>
+Tag Assistant scans the Google tags on the web page and displays a color code for each tag:</p>
+<ul>
+<li>
+<p><strong>Green</strong>: The tag is installed and triggered normally.</p>
+</li>
+<li>
+<p><strong>Yellow</strong>: There are warnings for the tag and there may be minor problems.</p>
+</li>
+<li>
+<p><strong>Red</strong>: The tag is not installed correctly or cannot be triggered.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Through the feedback from Tag Assistant, you can judge whether the conversion tag is working properly. If there is a problem, the plugin will also provide detailed error information and repair suggestions.</p>
+<h3 id="view-conversion-data-in-google-ads-or-google-analytics">View conversion data in Google Ads or Google Analytics</h3>
+<p>In addition to using plug-in tools such as Tag Assistant, you can also verify the effectiveness of conversion tracking through conversion data on the Google Ads and Google Analytics platforms.</p>
+<ol>
+<li>
+<p><strong>Check conversion data in Google Ads</strong></p>
+<ul>
+<li>Log in to your Google Ads account, click the tool icon, and then select &ldquo;Measure&rdquo; &gt; &ldquo;Conversions&rdquo;.</li>
+<li>On the conversion action page, you can see the status of each conversion action. If the status is &ldquo;Record conversion&rdquo;, it means that the tag has captured the conversion data normally.</li>
+<li>At the same time, you can also view the conversion data of a specific ad or campaign through the advertising report to ensure that the data matches the actual user behavior.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check goals or events in Google Analytics</strong></p>
+<ul>
+<li>Log in to your Google Analytics account and go to the &ldquo;Real-time&rdquo; &gt; &ldquo;Conversions&rdquo; report. With real-time data, you can immediately see whether the goal or event is triggered.</li>
+<li>You can also view detailed data in the &ldquo;Conversion&rdquo; report to analyze the conversion path, channel source, and conversion performance of different devices.</li>
+</ul>
+</li>
+</ol>
+<h3 id="common-conversion-tracking-errors-and-troubleshooting-methods">Common conversion tracking errors and troubleshooting methods</h3>
+<ol>
+<li>
+<p><strong>Conversions not recorded</strong>
+If you find that conversion data is not recorded normally, possible reasons include:</p>
+<ul>
+<li><strong>Conversion tags are not installed correctly</strong>: Use Tag Assistant or Google Tag Manager&rsquo;s debug mode to check whether the tag is triggered.</li>
+<li><strong>Ads do not bring enough clicks</strong>: Check the click volume of the campaign to ensure that the ad has enough exposure and clicks.</li>
+</ul>
+</li>
+<li>
+<p><strong>Inaccurate conversion value</strong>
+If you find that the conversion value does not match the actual value, it may be that the value setting in the conversion settings is incorrect. You can reconfigure the conversion action in Google Ads or Google Analytics to ensure that the conversion value meets expectations.</p>
+</li>
+<li>
+<p><strong>Inaccurate cross-device conversions</strong>
+Google Ads supports cross-device conversion tracking, but only if the user is logged in to their Google account. If the user is not logged in to a Google account on different devices, the conversion may not be tracked across devices. Check the cross-device conversion data in the ad report to ensure the accuracy of cross-device tracking.</p>
+</li>
+<li>
+<p><strong>Double counting conversions</strong>
+If the conversion is counted multiple times, you may need to check the &ldquo;Conversion Counting&rdquo; setting. Make sure it is set to &ldquo;Once per click&rdquo; instead of &ldquo;Many per click&rdquo; to avoid double counting.</p>
+</li>
+</ol>
+<h3 id="analysis-of-delays-or-missing-data-in-conversion-tracking">Analysis of delays or missing data in conversion tracking</h3>
+<p>In Google conversion tracking, there are usually some <strong>delays</strong> in data collection and reporting, which may prevent you from seeing the latest conversion data immediately. Delays are usually due to the following reasons:</p>
+<ol>
+<li>
+<p><strong>Data processing delay</strong>
+Conversion data usually takes several hours to process in Google Ads or Google Analytics. <strong>Google Ads</strong> data reporting may take 24 hours, while <strong>Google Analytics</strong> processing time may sometimes take up to 48 hours. Therefore, if you have just set up conversion tracking, please wait for a while before viewing the report.</p>
+</li>
+<li>
+<p><strong>Delays in cross-device conversions</strong>
+If users complete conversions on different devices, Google may need additional time to recognize and process these behaviors. Therefore, cross-device conversion reports may be displayed slower than single-device conversions.</p>
+</li>
+<li>
+<p><strong>Missing data</strong>
+If you have not received conversion data for a long time, possible reasons include:</p>
+<ul>
+<li><strong>Tags are not triggered correctly</strong>: Check whether the tags are triggered correctly through Tag Assistant or Google Tag Manager debug mode.</li>
+<li><strong>Users do not have cookies enabled</strong>: If users have disabled cookies, some conversions may not be tracked correctly.</li>
+<li><strong>Insufficient ad exposure</strong>: If the number of ad impressions or clicks is low, it may also result in fewer conversion data.</li>
+</ul>
+</li>
+</ol>
+<h2 id="how-to-fix-common-google-conversion-tracking-issues">How to fix common Google conversion tracking issues</h2>
+<h3 id="conversion-tag-not-firing-or-incorrectly-installed">Conversion tag not firing or incorrectly installed</h3>
+<p>Conversion tags not firing properly or incorrectly installed are common problems, usually because the code is not embedded correctly on the web page or the triggering conditions are not met.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p><strong>Check where the conversion tag is embedded</strong>: Make sure the conversion tag is embedded on the page that users will visit after completing the conversion behavior (such as the &ldquo;Thank you page&rdquo; or &ldquo;Order confirmation page&rdquo;).</p>
+</li>
+<li>
+<p><strong>Use Tag Assistant plugin</strong>: Check whether the conversion tag has been loaded and triggered correctly using the <strong>Tag Assistant</strong> browser plugin. The plugin will display the tag status and help you identify code installation errors.</p>
+</li>
+<li>
+<p><strong>Check Google Tag Manager settings</strong>: If you manage tags through Google Tag Manager (GTM), confirm that the tag&rsquo;s trigger is configured correctly. For example, if the conversion occurs after a specific page or click behavior, make sure the triggering conditions are clearly set.</p>
+</li>
+</ol>
+<h3 id="conversion-data-is-not-displayed-in-google-adsanalytics">Conversion data is not displayed in Google Ads/Analytics</h3>
+<p>Sometimes, although the conversion tag has been embedded and triggered, the data does not appear in Google Ads or Google Analytics. Possible reasons include reporting delays, tags not counting correctly, or user behavior not being recorded.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p><strong>Wait for data processing time</strong>: Conversion data in Google Ads and Google Analytics usually has a certain delay. Data processing in Google Ads may take <strong>24 hours</strong>, while Google Analytics may take <strong>24 to 48 hours</strong>.</p>
+</li>
+<li>
+<p><strong>Check the status of the conversion action</strong>: In Google Ads, go to the &ldquo;Tools&rdquo; &gt; &ldquo;Measurement&rdquo; &gt; &ldquo;Conversions&rdquo; page to check if the status of the conversion action is &ldquo;Record conversion&rdquo;. If the status shows &ldquo;Not triggered&rdquo; or &ldquo;Inactive&rdquo;, you need to check whether the tag is installed correctly.</p>
+</li>
+<li>
+<p><strong>Verify the settings of the conversion goal/event</strong>: In Google Analytics, check whether the conversion goal or event is set correctly to ensure that the goal conditions match the actual behavior of the user.</p>
+</li>
+</ol>
+<h3 id="troubleshoot-javascript-or-browser-compatibility-issues">Troubleshoot JavaScript or browser compatibility issues</h3>
+<p>Sometimes, the JavaScript code of the conversion tag may have compatibility issues, especially it cannot be loaded or triggered correctly in some browsers.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li><strong>Debug JavaScript code</strong>: Check for JavaScript errors in the developer tools, especially the code related to the conversion tag. If you find errors, you can use the code documentation provided by Google to check and fix the tag code.</li>
+<li><strong>Ensure browser compatibility</strong>: Test tags with different browsers and devices, especially considering that some browsers may disable cookies or scripts. These factors may affect the accuracy of conversion tracking.</li>
+</ol>
+<h3 id="check-tag-activation-status-using-google-tag-manager">Check tag activation status using Google Tag Manager</h3>
+<p>If you manage tags through Google Tag Manager (GTM), you may encounter problems with tags not being triggered correctly. GTM provides flexibility for tag management, but incorrect triggering conditions or unpublished changes may cause tags to become invalid.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li><strong>Use GTM&rsquo;s debug mode</strong>: Enter your GTM account and click the &ldquo;Preview&rdquo; button in the upper right corner to enter debug mode. Debug mode allows you to see in real time which tags on the page are triggered, which tags are not triggered, and the specific reasons.</li>
+<li><strong>Check trigger conditions</strong>: Confirm that the trigger settings in GTM are as expected. For example, if you want to track visits to the &ldquo;Thank You Page&rdquo;, make sure the trigger conditions match the URL of that page.</li>
+<li><strong>Publish changes</strong>: If you modify the tag settings in GTM, remember to click the &ldquo;Submit&rdquo; button to publish the changes, otherwise the new configuration will not take effect.</li>
+</ol>
+<h3 id="fix-cross-domain-tracking-issues">Fix cross-domain tracking issues</h3>
+<p>Cross-domain tracking issues may occur when users jump between multiple domains, and Google Ads or Analytics cannot correctly link user behavior, resulting in some conversions not being recorded. Cross-domain tracking is applicable to e-commerce websites or situations where you need to jump to third-party payment platforms.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p><strong>Enable cross-domain tracking</strong>: In <strong>Google Analytics</strong>, go to &ldquo;Admin&rdquo; &gt; &ldquo;Property Settings&rdquo; &gt; &ldquo;Tracking Information&rdquo; &gt; &ldquo;Data Collection&rdquo; and enable cross-domain tracking. Make sure to configure the correct list of domain names to allow cross-domain transfer of user information.</p>
+</li>
+<li>
+<p><strong>Configure cross-domain tracking for GTM</strong>: If you use Google Tag Manager for tag management, make sure the cross-domain linker is set. You can add a <strong>linker variable</strong> to the Google Analytics tag in GTM to ensure that cross-domain conversions are correctly recorded.</p>
+</li>
+</ol>
+<h3 id="verify-and-adjust-attribution-model-settings">Verify and adjust attribution model settings</h3>
+<p>The attribution model affects how the campaign evaluates the source of conversions. Choosing the wrong attribution model may result in the contribution of certain advertising activities being ignored or incorrect conversion counts.</p>
+<p><strong>Solution</strong>:</p>
+<ol>
+<li>
+<p><strong>Choose the right attribution model</strong>: In Google Ads or Google Analytics, choose an attribution model that fits your business goals. Common models include &ldquo;last click attribution&rdquo;, &ldquo;linear attribution&rdquo; and &ldquo;time decay attribution&rdquo;. Different models assign different weights based on the user&rsquo;s conversion path.</p>
+</li>
+<li>
+<p><strong>Compare attribution models through experiments</strong>: Use Google Ads' attribution reporting tool to compare conversion data under different attribution models. By analyzing the performance of different models, choose the attribution method that best fits your business logic.</p>
+</li>
+<li>
+<p><strong>Regularly adjust the model</strong>: As your campaigns change and your business develops, regularly adjusting your attribution model can help you more accurately measure the long-term effectiveness of your ads and the impact of multi-channel interactions.</p>
+</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-10-05</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://chloevolution.com/posts/google-conversion-tracking/" data-title="A Comprehensive Guide to Google Conversion Tracking" data-hashtags="SEM,SEO"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://chloevolution.com/posts/google-conversion-tracking/" data-hashtag="SEM"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://chloevolution.com/posts/google-conversion-tracking/" data-title="A Comprehensive Guide to Google Conversion Tracking"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://chloevolution.com/posts/google-conversion-tracking/" data-title="A Comprehensive Guide to Google Conversion Tracking"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://chloevolution.com/posts/google-conversion-tracking/" data-title="A Comprehensive Guide to Google Conversion Tracking"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/sem/">SEM</a>,&nbsp;<a href="/tags/seo/">SEO</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/tacit-knowledge/" class="prev" rel="prev" title="Understand Tacit Knowledge in One Article"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Understand Tacit Knowledge in One Article</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Chloe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+</div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.485ce22971162ae594e2f22468d97519fb9c08a7112e3a012e8684cfe098b474.js" integrity="sha256-SFziKXEWKuWU4vIkaNl1GfucCKcRLjoBLoaEz+CYtHQ="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script></body>
+</html>

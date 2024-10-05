@@ -2,7 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2024-10-04T09:10:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/google-conversion-tracking/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/google-conversion-tracking/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/google-conversion-tracking/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/"
+                    /></url><url>
+            <loc>https://chloevolution.com/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -11,7 +29,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-10-04T09:10:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/"
@@ -19,6 +37,51 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/sem/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/sem/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/sem/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/sem/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/sem/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/sem/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/seo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/seo/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/seo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2024-10-05T08:44:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/"
                     /></url><url>
             <loc>https://chloevolution.com/posts/tacit-knowledge/</loc><lastmod>2024-10-04T09:10:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -38,41 +101,14 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/best-adwords-reports/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2024-10-03T09:11:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/cpc-of-keywords/</loc><lastmod>2024-10-03T08:45:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/"
+                        href="https://chloevolution.com/zh-cn/posts/cpc-of-keywords/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/categories/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/sem/</loc><lastmod>2024-10-03T09:11:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/sem/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/sem/"
-                    /></url><url>
-            <loc>https://chloevolution.com/categories/sem/</loc><lastmod>2024-10-03T09:11:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/sem/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/categories/sem/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2024-10-03T09:11:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/"
+                    href="https://chloevolution.com/posts/cpc-of-keywords/"
                     /></url><url>
             <loc>https://chloevolution.com/posts/search-engine-positioning-software/</loc><lastmod>2024-10-02T09:11:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -83,25 +119,25 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/search-engine-positioning-software/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2024-10-02T09:11:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/search-engine-marketing-cost/</loc><lastmod>2024-10-02T08:44:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/seo/"
+                        href="https://chloevolution.com/zh-cn/posts/search-engine-marketing-cost/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/tags/seo/"
+                    href="https://chloevolution.com/posts/search-engine-marketing-cost/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/seo/</loc><lastmod>2024-10-02T09:11:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/keyword-research-and-targeting/</loc><lastmod>2024-10-01T08:44:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/seo/"
+                        href="https://chloevolution.com/zh-cn/posts/keyword-research-and-targeting/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/categories/seo/"
+                    href="https://chloevolution.com/posts/keyword-research-and-targeting/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/create-sem-copy/</loc><lastmod>2024-09-28T08:44:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/create-sem-copy/</loc><lastmod>2024-09-28T08:44:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/create-sem-copy/"

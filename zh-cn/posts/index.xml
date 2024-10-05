@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 04 Oct 2024 09:10:48 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 05 Oct 2024 08:44:22 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>全面解析Google转化跟踪</title>
+    <link>https://chloevolution.com/zh-cn/posts/google-conversion-tracking/</link>
+    <pubDate>Sat, 05 Oct 2024 08:44:22 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/google-conversion-tracking/</guid>
+    <description><![CDATA[谷歌转化跟踪是Google提供的一项功能，能够追踪用户在互动广告后执行的关键操作。无论是点击广告后的购买、填写表单、拨打电话，还是下载应用，]]></description>
+</item>
+<item>
     <title>一文读懂暗知识</title>
     <link>https://chloevolution.com/zh-cn/posts/tacit-knowledge/</link>
     <pubDate>Fri, 04 Oct 2024 09:10:48 &#43;0800</pubDate>
@@ -20,12 +28,36 @@
     <description><![CDATA[什么是AdWords报告？ 广告优化的核心在于数据驱动的决策，而Google AdWords（现称为Google Ads）报告正是实现这一目标的关]]></description>
 </item>
 <item>
+    <title>如何计算关键词CPC</title>
+    <link>https://chloevolution.com/zh-cn/posts/cpc-of-keywords/</link>
+    <pubDate>Thu, 03 Oct 2024 08:45:12 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/cpc-of-keywords/</guid>
+    <description><![CDATA[什么是每次点击费用（CPC） 每次点击费用（CPC）是一种在线广告计费模式，广告主根据用户点击其广告的次数支付费用。这种模式在搜索引擎广告和社]]></description>
+</item>
+<item>
     <title>搜索引擎定位软件指南</title>
     <link>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</link>
     <pubDate>Wed, 02 Oct 2024 09:11:24 &#43;0800</pubDate>
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</guid>
     <description><![CDATA[什么是搜索引擎定位软件 搜索引擎定位软件是一种帮助网站管理者、营销人员和SEO专家跟踪和优化网站在搜索引擎结果页面（SERP）上排名的工具。它]]></description>
+</item>
+<item>
+    <title>如何降低搜索引擎营销成本</title>
+    <link>https://chloevolution.com/zh-cn/posts/search-engine-marketing-cost/</link>
+    <pubDate>Wed, 02 Oct 2024 08:44:52 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/search-engine-marketing-cost/</guid>
+    <description><![CDATA[搜索引擎营销（Search Engine Marketing，简称SEM）是通过搜索引擎向潜在客户推广产品或服务的一种有效策略。其核心在于通过各种策略和工]]></description>
+</item>
+<item>
+    <title>关键词研究与定位的实用技巧</title>
+    <link>https://chloevolution.com/zh-cn/posts/keyword-research-and-targeting/</link>
+    <pubDate>Tue, 01 Oct 2024 08:44:36 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/keyword-research-and-targeting/</guid>
+    <description><![CDATA[什么是关键词研究与定位 关键词研究的含义 关键词研究是指通过系统分析和数据挖掘，找到用户在搜索引擎中使用的常见词汇或短语。这一过程帮助网站或品牌]]></description>
 </item>
 <item>
     <title>提升点击率与转化率：掌握SEM文案的必备技巧</title>
@@ -50,38 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</guid>
     <description><![CDATA[什么是工作流？ 工作流指的是一组预定义的、标准化的步骤，可以用来完成特定的任务。一个工作流中包含多个节点，每个节点完成一个固定的任务。 举个不太]]></description>
-</item>
-<item>
-    <title>如何使用Midjourney SREF控制风格一致性</title>
-    <link>https://chloevolution.com/zh-cn/posts/midjourney-sref/</link>
-    <pubDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/midjourney-sref/</guid>
-    <description><![CDATA[&mdash;sref指令全称为“风格参考”（Style References），旨在帮助用户复刻和保持图片风格的一致性。其主要作用是允许用户]]></description>
-</item>
-<item>
-    <title>【手把手教学】Coze怎么创建bot？</title>
-    <link>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</link>
-    <pubDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</guid>
-    <description><![CDATA[什么是Coze？ Coze是由字节跳动推出的AI聊天机器人和应用程序编辑开发平台。通过集成多款插件，Coze的Bot能力得到极大扩展，可适用于]]></description>
-</item>
-<item>
-    <title>时隔四个月重新更新博客</title>
-    <link>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</link>
-    <pubDate>Sun, 25 Aug 2024 14:49:00 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/re-update-the-blog-after-four-months/</guid>
-    <description><![CDATA[看了眼之前最后一篇博文的时间，距今天刚好四个月。磕磕绊绊地翻出教程新建了这个文档。 这个博客的起源 之前翻箱倒柜找出了近几年的日记，在欣赏自己过]]></description>
-</item>
-<item>
-    <title>如何通过 Python 读取 ZST 文件</title>
-    <link>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</link>
-    <pubDate>Tue, 09 Apr 2024 22:00:01 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</guid>
-    <description><![CDATA[前提条件 要运行此代码，你需要 pandas、zstandard（zstd）和 json 库。如果尚未安装，你可以使用 pip 安装 pandas 和 zstandard： 1 pip install]]></description>
 </item>
 </channel>
 </rss>
