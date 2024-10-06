@@ -3,9 +3,25 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 05 Oct 2024 08:44:22 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 06 Oct 2024 07:57:03 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>如何利用Google广告推动业务增长</title>
+    <link>https://chloevolution.com/zh-cn/posts/how-to-do-google-ads-for-business/</link>
+    <pubDate>Sun, 06 Oct 2024 07:57:03 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/how-to-do-google-ads-for-business/</guid>
+    <description><![CDATA[Google广告简介 Google广告如何运作 Google广告是一种在线广告服务，通过拍卖系统让广告主在Google搜索结果页、YouTube]]></description>
+</item>
+<item>
+    <title>PPC关键词分析指南</title>
+    <link>https://chloevolution.com/zh-cn/posts/ppc-keyword-analysis/</link>
+    <pubDate>Sun, 06 Oct 2024 07:56:50 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/ppc-keyword-analysis/</guid>
+    <description><![CDATA[付费点击（PPC）广告已经成为企业获取流量和提升转化的重要工具。PPC关键词的选择直接关系到广告的效果和投资回报率（ROI）。有效的关键词能]]></description>
+</item>
+<item>
     <title>全面解析Google转化跟踪</title>
     <link>https://chloevolution.com/zh-cn/posts/google-conversion-tracking/</link>
     <pubDate>Sat, 05 Oct 2024 08:44:22 &#43;0800</pubDate>
@@ -62,28 +78,12 @@
     <description><![CDATA[什么是关键词研究与定位 关键词研究的含义 关键词研究是指通过系统分析和数据挖掘，找到用户在搜索引擎中使用的常见词汇或短语。这一过程帮助网站或品牌]]></description>
 </item>
 <item>
-    <title>提升点击率与转化率：掌握SEM文案的必备技巧</title>
-    <link>https://chloevolution.com/zh-cn/posts/create-sem-copy/</link>
-    <pubDate>Sat, 28 Sep 2024 08:44:36 &#43;0800</pubDate>
+    <title>了解PPC广告监控</title>
+    <link>https://chloevolution.com/zh-cn/posts/ppc-ad-spy/</link>
+    <pubDate>Tue, 01 Oct 2024 07:57:31 &#43;0800</pubDate>
     <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/create-sem-copy/</guid>
-    <description><![CDATA[什么是SEM文案？ SEM（搜索引擎营销）文案是专门为在线广告创建的文本内容，旨在吸引用户点击并提升转化率。SEM文案不仅要吸引眼球，还需具备]]></description>
-</item>
-<item>
-    <title>如何使用Midjourney CREF控制角色一致性</title>
-    <link>https://chloevolution.com/zh-cn/posts/midjourney-cref/</link>
-    <pubDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/midjourney-cref/</guid>
-    <description><![CDATA[&mdash;cref指令全称为“角色参考”（Character Reference），主要用于从参考图片中抽取人物特性，并将其应用至新图像中]]></description>
-</item>
-<item>
-    <title>【手把手教学】Coze如何创建工作流</title>
-    <link>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</link>
-    <pubDate>Sat, 07 Sep 2024 09:34:36 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</guid>
-    <description><![CDATA[什么是工作流？ 工作流指的是一组预定义的、标准化的步骤，可以用来完成特定的任务。一个工作流中包含多个节点，每个节点完成一个固定的任务。 举个不太]]></description>
+    <guid>https://chloevolution.com/zh-cn/posts/ppc-ad-spy/</guid>
+    <description><![CDATA[PPC广告监控是优化广告效果和提高投资回报的关键，通过跟踪点击率和转化率，广告主能够实时调整策略。此外，分析竞争对手的活动有助于品牌在激烈的]]></description>
 </item>
 </channel>
 </rss>
