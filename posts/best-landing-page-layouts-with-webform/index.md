@@ -355,7 +355,7 @@ This template is designed to improve lead conversion rate by simplifying the for
 
 **Template download/purchase link**:
 - [Unbounce Lead Generation Form Template](https://unbounce.com/templates/lead-generation/)
-- [Instapage Lead Capture Form Template](https://www.instapage.com/templates)
+- [Instapage Lead Capture Form Template](https://instapage.com/landing-page-templates/)
 
 ### 2. Event Registration Form Template
 

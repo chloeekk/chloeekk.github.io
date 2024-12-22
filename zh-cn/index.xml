@@ -3,9 +3,17 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Dec 2024 08:34:03 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Dec 2024 09:02:30 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>用SEMRush分析我的网站</title>
+    <link>https://chloevolution.com/zh-cn/posts/seo-audit-my-site/</link>
+    <pubDate>Sun, 22 Dec 2024 09:02:30 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/seo-audit-my-site/</guid>
+    <description><![CDATA[一直苦于网站页面的收录问题，新的文章没有少发，但未收录的页面不减反增。于是专门用SEMrush对网站进行了整体分析，针对特定问题做出了一些修]]></description>
+</item>
+<item>
     <title>最佳落地页Webform设计</title>
     <link>https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/</link>
     <pubDate>Sun, 08 Dec 2024 08:34:03 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</guid>
     <description><![CDATA[什么是搜索引擎定位软件 搜索引擎定位软件是一种帮助网站管理者、营销人员和SEO专家跟踪和优化网站在搜索引擎结果页面（SERP）上排名的工具。它]]></description>
-</item>
-<item>
-    <title>如何降低搜索引擎营销成本</title>
-    <link>https://chloevolution.com/zh-cn/posts/search-engine-marketing-cost/</link>
-    <pubDate>Wed, 02 Oct 2024 08:44:52 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/search-engine-marketing-cost/</guid>
-    <description><![CDATA[搜索引擎营销（Search Engine Marketing，简称SEM）是通过搜索引擎向潜在客户推广产品或服务的一种有效策略。其核心在于通过各种策略和工]]></description>
 </item>
 </channel>
 </rss>

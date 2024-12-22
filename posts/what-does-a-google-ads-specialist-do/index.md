@@ -78,7 +78,7 @@ To become a Google Ads specialist, you can follow these steps:
 Familiarize yourself with the key concepts and terminology of Google Ads by reading Google's official documentation, taking online courses, or attending training sessions.
 
 + **Gain experience**: 
-Practice [creating and managing campaigns](https://chloevolution.com/posts/step-by-step-guide-to-create-a-google-ads-campaign/) on your own or for a business to build your skills and get hands-on experience with Google Ads. You can also look for internships or entry-level positions that involve working with digital advertising.
+Practice creating and managing campaigns on your own or for a business to build your skills and get hands-on experience with Google Ads. You can also look for internships or entry-level positions that involve working with digital advertising.
 
 + **Get certified**: 
 Google offers several certifications for Google Ads, including the Google Ads Certification and the Google Ads Display Certification. These certifications demonstrate your proficiency in using Google Ads and can help you stand out to potential employers.

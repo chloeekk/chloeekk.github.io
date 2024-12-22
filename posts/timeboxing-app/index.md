@@ -300,7 +300,7 @@ A methodical approach to addressing the day's work is provided by timeboxing, wh
 
 ![](sorted3.png)
 
-[Sorted^3](https://www.sortedapp.com/) combines tasks, calendar events, and notes in a streamlined, flexible interface, promoting a more productive and organized daily routine.
+[Sorted^3](https://apps.apple.com/us/app/sorted-calendar-notes-tasks/id1306893526) combines tasks, calendar events, and notes in a streamlined, flexible interface, promoting a more productive and organized daily routine.
 
 
 **Features:**

@@ -374,7 +374,7 @@ Typeform 是一个非常受欢迎的工具，其直观的界面和互动式表�
 
 **模板下载/购买链接**：  
 - [Unbounce Lead Generation Form Template](https://unbounce.com/templates/lead-generation/)
-- [Instapage Lead Capture Form Template](https://www.instapage.com/templates)
+- [Instapage Lead Capture Form Template](https://instapage.com/landing-page-templates/)
 
 
 
