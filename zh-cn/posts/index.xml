@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 22 Dec 2024 09:02:30 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 05 Jan 2025 17:40:42 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>2024 回顾</title>
+    <link>https://chloevolution.com/zh-cn/posts/2024-review/</link>
+    <pubDate>Sun, 05 Jan 2025 17:40:42 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/2024-review/</guid>
+    <description><![CDATA[年末各种事情掺杂，除了工作还要计划春节的旅行和订酒店订车票，2024年的回顾到今天才断断续续写完。有不少感受但都过于碎片化，希望新的一年能恢]]></description>
+</item>
+<item>
     <title>用SEMRush分析我的网站</title>
     <link>https://chloevolution.com/zh-cn/posts/seo-audit-my-site/</link>
     <pubDate>Sun, 22 Dec 2024 09:02:30 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/cpc-of-keywords/</guid>
     <description><![CDATA[什么是每次点击费用（CPC） 每次点击费用（CPC）是一种在线广告计费模式，广告主根据用户点击其广告的次数支付费用。这种模式在搜索引擎广告和社]]></description>
-</item>
-<item>
-    <title>搜索引擎定位软件指南</title>
-    <link>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</link>
-    <pubDate>Wed, 02 Oct 2024 09:11:24 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/search-engine-positioning-software/</guid>
-    <description><![CDATA[什么是搜索引擎定位软件 搜索引擎定位软件是一种帮助网站管理者、营销人员和SEO专家跟踪和优化网站在搜索引擎结果页面（SERP）上排名的工具。它]]></description>
 </item>
 </channel>
 </rss>
