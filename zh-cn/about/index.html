@@ -132,6 +132,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-03-02";
+    var value = dataMap.get(key);
+    var wordCount =  1690 ;
+    var link = "/zh-cn/posts/how-to-use-feishu-base-with-deepseek/";
+    var title = "飞书多维表格+DeepSeek=私人定制求职助手";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-01-05";
     var value = dataMap.get(key);
     var wordCount =  5325 ;
