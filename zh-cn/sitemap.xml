@@ -2,27 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2025-03-02T09:55:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/</loc><lastmod>2025-03-02T09:55:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/posts/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/</loc><lastmod>2025-03-02T09:55:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/2024-review/</loc><lastmod>2025-01-05T17:40:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/categories/"
@@ -31,6 +11,55 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/categories/"
                     /></url><url>
+            <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/tags/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/zh-cn/categories/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/</loc><lastmod>2025-03-15T08:56:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/</loc><lastmod>2025-03-02T09:55:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/2024-review/</loc><lastmod>2025-01-05T17:40:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://chloevolution.com/zh-cn/tags/seo/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -48,15 +77,6 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/categories/seo/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/tags/"
                     /></url><url>
             <loc>https://chloevolution.com/zh-cn/posts/seo-audit-my-site/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

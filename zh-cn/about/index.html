@@ -132,6 +132,30 @@
 
   var dataMap = new Map();
   
+    var key = "2025-03-16";
+    var value = dataMap.get(key);
+    var wordCount =  6850 ;
+    var link = "/zh-cn/posts/user-quality-assessment-in-digital-marketing/";
+    var title = "如何评估不同数字营销渠道的用户质量";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-03-15";
+    var value = dataMap.get(key);
+    var wordCount =  5772 ;
+    var link = "/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/";
+    var title = "一文讲明白数字营销中的Cohort和非Cohort";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-03-02";
     var value = dataMap.get(key);
     var wordCount =  1690 ;

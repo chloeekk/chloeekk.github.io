@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -11,7 +11,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -20,7 +20,18 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/categories/digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/"
@@ -28,6 +39,24 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/</loc><lastmod>2025-03-15T08:56:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/"
                     /></url><url>
             <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -55,15 +84,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/posts/seo-audit-my-site/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/"
                     /></url><url>
             <loc>https://chloevolution.com/posts/best-landing-page-layouts-with-webform/</loc><lastmod>2024-12-08T08:34:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
