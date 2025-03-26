@@ -39,7 +39,7 @@ Understanding competitors' advertising strategies is essential for optimizing yo
 
 ### 4. Optimize advertising copy and design
 
-Continuous optimization of advertising copy and design is a necessary step to improve advertising effectiveness:
+Continuous optimization of [advertising copy](https://chloevolution.com/posts/create-sem-copy/) and design is a necessary step to improve advertising effectiveness:
 
 - **A/B testing**: Compare the effects of different advertising copy and design through A/B testing to find the most attractive combination and increase click-through rate and conversion rate.
 

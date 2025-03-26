@@ -61,7 +61,7 @@
 
 
 ## 具体适用场景
-### Cohort分析——[用户质量评估](https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing) 
+### Cohort分析——[用户质量评估](https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/) 
 
 **核心价值**：识别用户群体的长期行为模式与质量差异  
 

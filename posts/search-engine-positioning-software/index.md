@@ -78,7 +78,7 @@ Common core function modules in search engine positioning software include keywo
 
 ### Keyword research tools
 
-Keyword research tools are the foundation of SEO, mainly used to help users find the most effective keywords, which can attract more relevant traffic and improve the performance of websites in search results.
+[Keyword research](https://chloevolution.com/posts/keyword-research-and-targeting/) tools are the foundation of SEO, mainly used to help users find the most effective keywords, which can attract more relevant traffic and improve the performance of websites in search results.
 
 - **Main functions**: These tools help users identify the most valuable keywords by analyzing keyword search volume, click-through rate (CTR), competition, and trends in search engines. At the same time, keyword research tools can also generate relevant long-tail keywords and provide keyword suggestions based on location, allowing users to develop precise keyword strategies.
 
@@ -90,7 +90,7 @@ Keyword research tools are the foundation of SEO, mainly used to help users find
 
 Competitor analysis tools are designed to help users understand the SEO strategies of their main competitors and reveal how they obtain traffic and rank high.
 
-- **Main functions**: Such tools can track competitors' keyword rankings, traffic sources, backlink quality and sources, content strategies, and advertising. By analyzing this data, users can identify market opportunities, develop targeted optimization strategies, and surpass competitors.
+- **Main functions**: Such tools can [track competitors' keyword rankings](https://chloevolution.com/posts/ppc-ad-spy/), traffic sources, backlink quality and sources, content strategies, and advertising. By analyzing this data, users can identify market opportunities, develop targeted optimization strategies, and surpass competitors.
 
 - **Application scenarios**: Competitor analysis is particularly suitable for companies that want to take the lead in their industry and help them take the initiative in a highly competitive market.
 

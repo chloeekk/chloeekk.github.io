@@ -88,7 +88,7 @@ Google Tag Manager 不仅简化了转化跟踪标签的管理流程，还让整�
 
 **谷歌转化跟踪**的运作大致可以分为四个关键步骤：
 1. **广告互动**：用户看到或点击了Google Ads广告。
-2. **用户行为**：用户被引导至目标网站，并完成预期的操作（如购买产品、填写表单）。
+2. **用户行为**：用户被引导至目标网站，并完成预期的操作（如购买产品、[填写表单](https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/)）。
 3. **捕捉转化行为**：预先设置的转化标签会记录这些行为，并将数据发送到Google的服务器。
 4. **数据处理与报告**：Google通过算法处理这些数据，并在Google Ads或Google Analytics等工具中生成详细的转化报告。
 

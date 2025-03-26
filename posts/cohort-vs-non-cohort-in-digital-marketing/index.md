@@ -78,7 +78,7 @@ Aggregates user behaviors within specific time windows, disregarding cohort orig
 
 ## Implementation Scenarios  
 
-### Cohort Analysis - [User Quality Assessment](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing)  
+### Cohort Analysis - [User Quality Assessment](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/)  
 **Core Value**: Identifying long-term behavioral patterns  
 
 #### Typical Scenarios  
@@ -181,7 +181,7 @@ Enables fully customized complex cohort modeling.
 
 ### Non-Cohort Analysis Tools  
 
-#### [Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/)  
+#### [Google Analytics 4 (GA4)](https://chloevolution.com/posts/complete-guide-to-dimensions-and-metrics-in-google-analytics/)  
 **Core Value**  
 Minute-level latency monitoring with global metric aggregation.  
 

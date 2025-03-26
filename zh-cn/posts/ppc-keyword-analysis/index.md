@@ -82,10 +82,10 @@ PPC关键词是广告主在使用付费点击广告时所选择的特定词汇�
 ### 3. **分析竞争对手**
 
 - **竞争对手分析**：
-  - 识别主要竞争对手：Nike、Adidas、New Balance。
+  - 识别[主要竞争对手](https://chloevolution.com/zh-cn/posts/ppc-ad-spy/)：Nike、Adidas、New Balance。
   
 - **工具使用**：
-  - 使用SpyFu查看竞争对手的关键词和广告文案。
+  - 使用SpyFu查看竞争对手的关键词和[广告文案](https://chloevolution.com/zh-cn/posts/create-sem-copy/)。
   
 - **发现关键点**：
   - 竞争对手的广告文案多强调“舒适性”和“科技材料”。

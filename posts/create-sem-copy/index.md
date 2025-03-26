@@ -46,7 +46,7 @@ USP (Unique selling proposition) refers to the unique advantages of your product
     - HubSpot Persona Generator: create detailed user portraits.
 
 #### Keyword research
-Keywords are words that users enter into search engines. Through effective keyword research, you can identify the user's search intent and needs, thereby optimizing your copy and increasing the visibility and click-through rate of your ads. 
+Keywords are words that users enter into search engines. Through [effective keyword research](https://chloevolution.com/posts/keyword-research-and-targeting/), you can identify the user's search intent and needs, thereby optimizing your copy and increasing the visibility and click-through rate of your ads. 
 
 The most important thing in this step is to determine the user's true search intent, that is, to understand the user's goal when searching, whether to obtain information, compare products or purchase directly. At the same time, you need to determine the classification of keywords, including informational keywords, transactional keywords, etc.
 
@@ -62,7 +62,7 @@ The most important thing in this step is to determine the user's true search int
     - SEMrush or Ahrefs: Analyze keyword rankings and traffic potential.
 
 #### Landing Page Consistency
-The landing page is the page that users visit after clicking on an ad. Ensuring that your ad copy is consistent with the content of the landing page to provide a consistent user experience is key to improving conversion rates. What the ad copy promises must be met on the landing page to avoid disappointment for users.
+The [landing page](https://chloevolution.com/posts/best-landing-page-layouts-with-webform/) is the page that users visit after clicking on an ad. Ensuring that your ad copy is consistent with the content of the landing page to provide a consistent user experience is key to improving conversion rates. What the ad copy promises must be met on the landing page to avoid disappointment for users.
 - **Method**:
     - Compare ad copy and landing page content to ensure that key points and value propositions are consistent.
     - Use similar titles and descriptions to enhance user trust.
@@ -71,7 +71,7 @@ The landing page is the page that users visit after clicking on an ad. Ensuring 
     - Google Optimize: Test different versions of landing pages and observe conversion effects.
 
 #### Competitive SEM Copy Analysis
-Collect and study competitors' SEM copy, analyze their successes and shortcomings, find opportunities for improvement and differentiation, and develop more effective copy strategies.
+Collect and study [competitors' SEM copy](https://chloevolution.com/posts/ppc-ad-spy/), analyze their successes and shortcomings, find opportunities for improvement and differentiation, and develop more effective copy strategies.
 - **Method**:
     - Use your keywords in the search engine and observe the ads of top-ranked competitors.
     - Save ad copy and screenshots for subsequent analysis.

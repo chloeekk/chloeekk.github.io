@@ -69,7 +69,7 @@ Metrics in Google Analytics are calculated based on the data that is collected b
 
 - Bounce rate: The percentage of sessions on your website or app where the user only viewed one page.
 
-- Conversion rate: The percentage of sessions on your website or app where the user completed a specific goal, such as making a purchase or filling out a form.
+- [Conversion rate](https://chloevolution.com/posts/google-conversion-tracking/): The percentage of sessions on your website or app where the user completed a specific goal, such as making a purchase or filling out a form.
 
 ## Difference between Dimensions and Metrics:
 

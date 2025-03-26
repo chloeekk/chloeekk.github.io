@@ -88,10 +88,10 @@ Let's say we are a sports shoe brand that is preparing to launch a new shoe desi
 ### 3. **Analyze competitors**
 
 - **Competitor analysis**:
-    - Identify major competitors: Nike, Adidas, New Balance.
+    - Identify [major competitors](https://chloevolution.com/posts/ppc-ad-spy/): Nike, Adidas, New Balance.
 
 - **Tool usage**:
-    - Use SpyFu to view competitor keywords and ad copy.
+    - Use SpyFu to view competitor keywords and [ad copy](https://chloevolution.com/posts/create-sem-copy/).
 
 - **Discover key points**:
     - Competitor ad copy emphasizes "comfort" and "technological materials".

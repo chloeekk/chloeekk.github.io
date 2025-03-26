@@ -9,7 +9,7 @@ Imagine that when you enter a keyword into a search engine, multiple ads appear 
 
 ## How CPC works
 
-The working mechanism of CPC is relatively simple: first, when advertisers set up ads on advertising platforms such as Google Ads or Facebook Ads, they specify a bid for each keyword. This is the maximum amount they are willing to pay for each click. Then, these ads are displayed through a bidding system.
+The working mechanism of CPC is relatively simple: first, when advertisers set up ads on advertising platforms such as [Google Ads](https://chloevolution.com/posts/how-to-do-google-ads-for-business/) or Facebook Ads, they specify a bid for each keyword. This is the maximum amount they are willing to pay for each click. Then, these ads are displayed through a bidding system.
 
 1. **Bidding system**: When users enter keywords into a search engine, the advertising platform decides which ads will be displayed in the search results based on the relevance of the keywords and the bids of advertisers. This process is called an "auction." For example, if two advertisers want to bid for the same keyword, the system will evaluate their bids and ad quality scores and choose the ad with the higher bid or higher quality to display.
 
@@ -89,7 +89,7 @@ This means that the advertiser pays $2.5 every time a user clicks on the ad.
 
 A variety of factors can affect CPC, and advertisers need to consider these factors when placing ads to optimize advertising results and budgets.
 
-1. **Keyword Competition**: In search advertising, the degree of competition for keywords is a key factor affecting CPC. Popular keywords usually attract more advertisers to bid, resulting in higher CPC. Some long-tail keywords or unpopular keywords have less competition and relatively lower CPC.
+1. **Keyword Competition**: In search advertising, the degree of [competition for keywords](https://chloevolution.com/posts/keyword-research-and-targeting/) is a key factor affecting CPC. Popular keywords usually attract more advertisers to bid, resulting in higher CPC. Some long-tail keywords or unpopular keywords have less competition and relatively lower CPC.
 
 2. **Ad Quality Score**: The quality score of an ad directly affects CPC. Ads with high quality scores can get lower CPCs because advertising platforms tend to show more relevant and efficient ads. Ad quality scores are affected by factors such as click-through rate, relevance of ads to keywords, and user experience of the landing page.
 
@@ -148,7 +148,7 @@ A variety of factors can affect CPC, and advertisers need to consider these fact
 
 1. **Competitive Product Analysis**:
 
-- **Method**: Get insights into CPC and market trends by studying competitors’ advertising strategies on specific keywords.
+- **Method**: Get insights into CPC and market trends by studying [competitors’ advertising strategies on specific keywords](https://chloevolution.com/posts/ppc-ad-spy/).
 
 - **Steps**:
 
@@ -196,7 +196,7 @@ The quality score of ads is one of the key factors affecting CPC. Improving the 
     - Conduct A/B testing to compare the performance of different ad copy and creative, and select the version with the best performance.
 
 2. **Increase ad relevance**:
-    - Make sure the ad copy is closely related to the target keywords to enhance the user's willingness to click.
+    - Make sure the [ad copy](https://chloevolution.com/posts/create-sem-copy/) is closely related to the target keywords to enhance the user's willingness to click.
     - Use the dynamic keyword insertion function to insert the search user's keywords directly into the ad to increase relevance.
 
 3. **Optimize the landing page experience**:
@@ -256,7 +256,7 @@ A proper bidding strategy can help advertisers keep their ads competitive while 
 ### Disadvantages
 
 1. **High Competition Cost**:
-    - In some popular industries or keyword fields, CPC may be very high, resulting in a significant increase in advertising expenditures. Advertisers need to constantly adjust bidding strategies in a highly competitive market to remain competitive.
+    - In some popular industries or keyword fields, CPC may be very high, resulting in a [significant increase in advertising expenditures](https://chloevolution.com/posts/search-engine-marketing-cost/). Advertisers need to constantly adjust bidding strategies in a highly competitive market to remain competitive.
     - In a highly competitive environment, advertisers may need to pay extra to get good placements, which may affect budget allocation.
 
 2. **Potential waste**:

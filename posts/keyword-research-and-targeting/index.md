@@ -70,7 +70,7 @@ In SEO, keyword difficulty can help you decide which keywords to attack first. F
 
 **Click-Through Rate** (CTR) indicates the proportion of ads or search results that are clicked, while **Conversion Rate** (Conversion Rate) measures how many clicks ultimately lead to the expected behavior (such as purchases, registrations, etc.). These two indicators are one of the core criteria for measuring keyword quality.
 
-In **SEO**, CTR is an important ranking factor. Search engines judge the relevance of a result to the search intent based on how often users click on a search result. Therefore, optimizing page titles and meta descriptions and increasing the click-through rate of keywords can indirectly improve search rankings. The conversion rate helps evaluate whether a keyword can bring valuable traffic - a high click-through rate but a low conversion rate may mean that the keyword attracts irrelevant traffic.
+In **SEO**, CTR is an important ranking factor. Search engines judge the relevance of a result to the search intent based on how often users click on a search result. Therefore, optimizing page titles and meta descriptions and increasing the click-through rate of keywords can indirectly improve search rankings. The [conversion rate](https://chloevolution.com/posts/google-conversion-tracking/) helps evaluate whether a keyword can bring valuable traffic - a high click-through rate but a low conversion rate may mean that the keyword attracts irrelevant traffic.
 
 In **SEM**, CTR and conversion rate are equally important. CTR affects the quality score of an ad, which in turn affects the ad placement and click cost. The conversion rate is the core of evaluating the return on investment of keywords, helping you optimize your advertising budget and invest more resources in high-conversion keywords.
 
@@ -80,7 +80,7 @@ In **SEM**, CTR and conversion rate are equally important. CTR affects the quali
 
 **Competition intensity** refers to the degree of competition for a keyword in natural search (SEO) and paid search (SEM). It measures how many websites or advertisers are competing for the same keyword.
 
-In **SEO**, organic competition measures how many websites are optimizing for a keyword. If the top-ranking websites have strong domain authority (such as big brands or industry leaders), it will be difficult for new websites or websites with lower weight to surpass these competitors in the short term. In **SEM**, paid competition means that there are more advertisers bidding for display ads. Highly competitive keywords usually lead to higher advertising costs (CPC), especially in Google Ads, where the bids for keywords with high competition intensity can be very high.
+In **SEO**, organic competition measures how many websites are optimizing for a keyword. If the top-ranking websites have strong domain authority (such as big brands or industry leaders), it will be difficult for new websites or websites with lower weight to surpass these competitors in the short term. In **SEM**, paid competition means that there are more advertisers bidding for display ads. Highly competitive keywords usually lead to higher [advertising costs (CPC)](https://chloevolution.com/posts/cpc-of-keywords/), especially in Google Ads, where the bids for keywords with high competition intensity can be very high.
 
 **Summary**: Competition intensity determines whether you can get rankings in SEO in the short term, and also affects the bidding strategy and budget allocation of SEM ads.
 

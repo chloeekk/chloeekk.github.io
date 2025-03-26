@@ -36,7 +36,7 @@ Google Ads conversion tracking is ideal for businesses that want to get accurate
 
 If Google Ads conversion tracking focuses on the direct effects of advertising, then **Google Analytics conversion tracking** provides a broader perspective. Google Analytics allows you to track not only ad conversions, but also various user behaviors across the entire website.
 
-In Google Analytics, conversion tracking is divided into two main forms:
+In [Google Analytics](https://chloevolution.com/posts/complete-guide-to-dimensions-and-metrics-in-google-analytics/), conversion tracking is divided into two main forms:
 - **Goals**: This is the basic conversion tracking function in Analytics. You can set different goals, such as "purchase completion page" or "form submission page", and when users visit these pages, Google Analytics will record a conversion.
 - **Event Tracking (Events)**: Event tracking is a more advanced feature that allows you to capture more subtle user behaviors. For example, behaviors such as clicking a button, downloading a file, or watching a video can all be defined as events and included in conversion analysis.
 
@@ -90,7 +90,7 @@ To understand how to make the most of **Google Conversion Tracking**, you first 
 
 1. **Ad interaction**: The user sees or clicks on a Google Ads ad.
 
-2. **User behavior**: The user is directed to the target website and completes the expected action (such as purchasing a product, filling out a form).
+2. **User behavior**: The user is directed to the target website and completes the expected action (such as purchasing a product, [filling out a form](https://chloevolution.com/posts/best-landing-page-layouts-with-webform/)).
 
 3. **Capture conversion behavior**: The pre-set conversion tag records these behaviors and sends the data to Google's servers.
 
