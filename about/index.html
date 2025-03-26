@@ -132,6 +132,30 @@
 
   var dataMap = new Map();
   
+    var key = "2025-03-26";
+    var value = dataMap.get(key);
+    var wordCount =  371 ;
+    var link = "/posts/midjourney-advanced-tutorial/";
+    var title = "Midjourney Advanced Tutorial";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-03-25";
+    var value = dataMap.get(key);
+    var wordCount =  572 ;
+    var link = "/posts/midjourney-tutorial-for-beginners/";
+    var title = "Midjourney Tutorial for Beginners";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-03-16";
     var value = dataMap.get(key);
     var wordCount =  2168 ;

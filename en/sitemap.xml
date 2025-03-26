@@ -2,7 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/ai/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/ai/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/ai/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/ai/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -11,7 +29,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/"
@@ -20,18 +38,25 @@
                     hreflang="en"
                     href="https://chloevolution.com/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/categories/digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/midjourney/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/"
+                        href="https://chloevolution.com/zh-cn/tags/midjourney/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/"
+                    href="https://chloevolution.com/tags/midjourney/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/midjourney-advanced-tutorial/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/midjourney-advanced-tutorial/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/"
@@ -40,7 +65,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/tags/"
@@ -49,7 +74,27 @@
                     hreflang="en"
                     href="https://chloevolution.com/tags/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/</loc><lastmod>2025-03-15T08:56:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</loc><lastmod>2025-03-25T07:54:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://chloevolution.com/categories/digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/</loc><lastmod>2025-03-16T08:56:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/</loc><lastmod>2025-03-15T08:56:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/"
@@ -231,24 +276,6 @@
                     hreflang="en"
                     href="https://chloevolution.com/about/"
                     /></url><url>
-            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2024-09-08T14:56:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/ai/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/ai/"
-                    /></url><url>
-            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2024-09-08T14:56:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/ai/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/categories/ai/"
-                    /></url><url>
             <loc>https://chloevolution.com/posts/midjourney-cref/</loc><lastmod>2024-09-08T14:56:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -257,15 +284,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/posts/midjourney-cref/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/midjourney/</loc><lastmod>2024-09-08T14:56:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/midjourney/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/midjourney/"
                     /></url><url>
             <loc>https://chloevolution.com/tags/coze/</loc><lastmod>2024-09-08T09:34:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

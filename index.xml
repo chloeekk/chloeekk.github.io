@@ -3,9 +3,29 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Mar 2025 08:56:32 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Midjourney Advanced Tutorial</title>
+    <link>https://chloevolution.com/posts/midjourney-advanced-tutorial/</link>
+    <pubDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/midjourney-advanced-tutorial/</guid>
+    <description><![CDATA[In 《Midjourney Tutorial for Beginners》, we covered Midjourney&rsquo;s basic setup, commands, parameters, and image generation methods. This article will introduce more advanced techniques to help generate images that better match your expectations.
+Advanced Prompt Parameters Quality The --quality or --q parameter enhances image details without increasing resolution:
+ Default value: 1 Acceptable values: 0.25, 0.5, 1 (Values above 1 default to 1)   Stylize Lower Stylize values produce literal interpretations, while higher values increase artistic interpretation:]]></description>
+</item>
+<item>
+    <title>Midjourney Tutorial for Beginners</title>
+    <link>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</link>
+    <pubDate>Tue, 25 Mar 2025 07:54:14 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</guid>
+    <description><![CDATA[Basic Settings Sending the /settings command to Midjourney Bot reveals configurable options:
+Model Version Control  The first dropdown menu selects Midjourney’s image generation models, which differ in artistic tendencies and parameter compatibility:
+ Midjourney Model: Native model for photorealistic and stylized images. Default version is V6.1. Niji Model: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.  Stylization Control  The second row controls artistic interpretation strength (higher values = more stylized results):]]></description>
+</item>
+<item>
     <title>How to Evaluate User Quality Across Different Digital Marketing Channels</title>
     <link>https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/</link>
     <pubDate>Sun, 16 Mar 2025 08:56:32 &#43;0800</pubDate>
@@ -71,24 +91,6 @@ Classification of PPC keywords PPC keywords are specific words or phrases select
     <author>Chloe</author>
     <guid>https://chloevolution.com/posts/google-conversion-tracking/</guid>
     <description><![CDATA[Google conversion tracking is a feature provided by Google that tracks key actions taken by users after interacting with ads. Whether it is a purchase after clicking an ad, filling out a form, making a phone call, or downloading an app, Google can capture these user behaviors and quantify them into data. This data can not only help you determine whether your ads are effective, but also clearly know which advertising campaigns are driving business growth.]]></description>
-</item>
-<item>
-    <title>Understand Tacit Knowledge in One Article</title>
-    <link>https://chloevolution.com/posts/tacit-knowledge/</link>
-    <pubDate>Fri, 04 Oct 2024 09:10:48 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/tacit-knowledge/</guid>
-    <description><![CDATA[What is Tacit Knowledge? Tacit knowledge, also known as implicit knowledge, is a type of knowledge that is difficult to formalize and personal, usually based on experience, intuition, and perception. Unlike explicit knowledge, tacit knowledge is difficult to convey through words, data, or formulas. It is often deeply embedded in an individual&rsquo;s behavior, skills, or culture, and relies on practice and personal experience to acquire.
-For example, learning to ride a bicycle is a typical example of tacit knowledge.]]></description>
-</item>
-<item>
-    <title>Best AdWords Reports: The Ultimate Guide to Boosting Your Ads Performance</title>
-    <link>https://chloevolution.com/posts/best-adwords-reports/</link>
-    <pubDate>Thu, 03 Oct 2024 09:11:07 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/best-adwords-reports/</guid>
-    <description><![CDATA[What are AdWords reports? The core of advertising optimization lies in data-driven decision-making, and Google AdWords (now known as Google Ads) reports are the key tools to achieve this goal. With AdWords reports, advertisers can gain in-depth insights into the performance of their campaigns and find areas that need to be optimized to maximize the effectiveness and return on investment (ROI) of their ads.
-AdWords reports are data reports generated by the Google Ads platform that can display various key data of the campaign in detail, including impressions, click-through rate, conversion rate, cost, etc.]]></description>
 </item>
 </channel>
 </rss>

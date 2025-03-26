@@ -132,6 +132,30 @@
 
   var dataMap = new Map();
   
+    var key = "2025-03-26";
+    var value = dataMap.get(key);
+    var wordCount =  1451 ;
+    var link = "/zh-cn/posts/midjourney-advanced-tutorial/";
+    var title = "Midjourney进阶教程";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-03-25";
+    var value = dataMap.get(key);
+    var wordCount =  2965 ;
+    var link = "/zh-cn/posts/midjourney-tutorial-for-beginners/";
+    var title = "适合新手的Midjourney教程";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-03-16";
     var value = dataMap.get(key);
     var wordCount =  6850 ;
@@ -446,9 +470,9 @@
     }
     var key = "2022-10-20";
     var value = dataMap.get(key);
-    var wordCount =  3394 ;
+    var wordCount =  3830 ;
     var link = "/zh-cn/posts/hugo-github-pages/";
-    var title = "如何使用Hugo搭建博客并部署到Github";
+    var title = "如何使用Hugo搭建博客并部署到GitHub";
     
     
     if (value == null) {

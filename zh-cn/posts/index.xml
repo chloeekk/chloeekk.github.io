@@ -3,7 +3,23 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Mar 2025 08:56:32 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Midjourney进阶教程</title>
+    <link>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</link>
+    <pubDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</guid>
+    <description><![CDATA[在《适合新手的Midjourney教程》中，我们介绍了Midjourney的基本设置、命令、参数以及图片生成的方法。本文想要介绍一些更加进阶]]></description>
+</item>
+<item>
+    <title>适合新手的Midjourney教程</title>
+    <link>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</link>
+    <pubDate>Tue, 25 Mar 2025 07:54:14 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</guid>
+    <description><![CDATA[基础设置 向Midjourney Bot发送 /settings 命令，会得到Midjourney可配置的设置： 模型版本控制 在第一行的下拉框中，可以选择Midjou]]></description>
+</item>
+<item>
     <title>如何评估不同数字营销渠道的用户质量</title>
     <link>https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/</link>
     <pubDate>Sun, 16 Mar 2025 08:56:32 &#43;0800</pubDate>
@@ -66,22 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/how-to-do-google-ads-for-business/</guid>
     <description><![CDATA[Google广告简介 Google广告如何运作 Google广告是一种在线广告服务，通过拍卖系统让广告主在Google搜索结果页、YouTube]]></description>
-</item>
-<item>
-    <title>PPC关键词分析指南</title>
-    <link>https://chloevolution.com/zh-cn/posts/ppc-keyword-analysis/</link>
-    <pubDate>Sun, 06 Oct 2024 07:56:50 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/ppc-keyword-analysis/</guid>
-    <description><![CDATA[付费点击（PPC）广告已经成为企业获取流量和提升转化的重要工具。PPC关键词的选择直接关系到广告的效果和投资回报率（ROI）。有效的关键词能]]></description>
-</item>
-<item>
-    <title>全面解析Google转化跟踪</title>
-    <link>https://chloevolution.com/zh-cn/posts/google-conversion-tracking/</link>
-    <pubDate>Sat, 05 Oct 2024 08:44:22 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/google-conversion-tracking/</guid>
-    <description><![CDATA[谷歌转化跟踪是Google提供的一项功能，能够追踪用户在互动广告后执行的关键操作。无论是点击广告后的购买、填写表单、拨打电话，还是下载应用，]]></description>
 </item>
 </channel>
 </rss>
