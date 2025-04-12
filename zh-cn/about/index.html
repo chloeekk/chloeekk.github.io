@@ -132,6 +132,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-04-12";
+    var value = dataMap.get(key);
+    var wordCount =  3522 ;
+    var link = "/zh-cn/posts/creating-location-specific-landing-pages/";
+    var title = "如何创建高效的特定地理位置落地页？";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-03-26";
     var value = dataMap.get(key);
     var wordCount =  1451 ;

@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Apr 2025 16:02:05 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>如何创建高效的特定地理位置落地页？</title>
+    <link>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</link>
+    <pubDate>Sat, 12 Apr 2025 16:02:05 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</guid>
+    <description><![CDATA[根据谷歌本身的算法机制，你在谷歌上获得的搜索结果会因为你所在的地理位置（或你的搜索词中表现出的地理偏好）而有所不同。对于拥有本地实体店或专门]]></description>
+</item>
+<item>
     <title>Midjourney进阶教程</title>
     <link>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</link>
     <pubDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/name-generator-for-landing-page-with-seo-keywords/</guid>
     <description><![CDATA[在SEO优化中，网站的可见性和点击率依赖于多个因素，而域名名称和落地页名称的优化是其中至关重要的部分。虽然这两者都是网站SEO的重要组成部分]]></description>
-</item>
-<item>
-    <title>如何利用Google广告推动业务增长</title>
-    <link>https://chloevolution.com/zh-cn/posts/how-to-do-google-ads-for-business/</link>
-    <pubDate>Sun, 06 Oct 2024 07:57:03 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/how-to-do-google-ads-for-business/</guid>
-    <description><![CDATA[Google广告简介 Google广告如何运作 Google广告是一种在线广告服务，通过拍卖系统让广告主在Google搜索结果页、YouTube]]></description>
 </item>
 </channel>
 </rss>
