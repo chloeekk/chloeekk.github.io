@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Apr 2025 16:02:05 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo &#43; GitHub Pages站点配置GA4（附截图）</title>
+    <link>https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/</link>
+    <pubDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/</guid>
+    <description><![CDATA[通过Hugo和GitHub Pages搭建自己的博客站点后，可以通过集成Google Analytics来监控网站的SEO表现和具体流量数据。 具]]></description>
+</item>
+<item>
     <title>如何创建高效的特定地理位置落地页？</title>
     <link>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</link>
     <pubDate>Sat, 12 Apr 2025 16:02:05 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/</guid>
     <description><![CDATA[落地页设计是网站优化和营销活动中不可或缺的一部分。在所有提升用户互动的元素中，Webform（网络表单）起着关键作用。无论是收集潜在客户信息]]></description>
-</item>
-<item>
-    <title>如何选择SEO友好的落地页名称生成工具</title>
-    <link>https://chloevolution.com/zh-cn/posts/name-generator-for-landing-page-with-seo-keywords/</link>
-    <pubDate>Sun, 08 Dec 2024 08:32:08 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/name-generator-for-landing-page-with-seo-keywords/</guid>
-    <description><![CDATA[在SEO优化中，网站的可见性和点击率依赖于多个因素，而域名名称和落地页名称的优化是其中至关重要的部分。虽然这两者都是网站SEO的重要组成部分]]></description>
 </item>
 </channel>
 </rss>

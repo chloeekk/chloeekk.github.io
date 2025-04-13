@@ -3,7 +3,15 @@
         <title>Hugo - Category - Chloevolution</title>
         <link>https://chloevolution.com/categories/hugo/</link>
         <description>Hugo - Category - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Integrate Google Analytics with Hugo Website</title>
+    <link>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</link>
+    <pubDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>How to use Hugo to Build a Blog and Deploy it to Github Page</title>
     <link>https://chloevolution.com/posts/hugo-github-pages/</link>
     <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
