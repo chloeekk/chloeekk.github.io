@@ -1,7 +1,7 @@
 # Hugo + GitHub Pages站点配置GA4（附截图）
 
 
-通过Hugo和GitHub Pages搭建自己的博客站点后，可以通过集成Google Analytics来监控网站的SEO表现和具体流量数据。
+通过[Hugo和GitHub Pages](https://chloevolution.com/zh-cn/posts/hugo-github-pages/)搭建自己的博客站点后，可以通过集成Google Analytics来监控网站的SEO表现和具体流量数据。
 
 ## 具体设置步骤
 ### 1. 登录Google Analytics 4，创建新账户

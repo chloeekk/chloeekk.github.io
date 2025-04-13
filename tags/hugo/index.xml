@@ -9,7 +9,9 @@
     <pubDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</pubDate>
     <author>Chloe</author>
     <guid>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[After setting up your personal blog site using Hugo and GitHub Pages, you can integrate Google Analytics to monitor SEO performance and track detailed traffic metrics.
+Configuration Steps 1. Log into Google Analytics 4 and Create a New Account Sign in with your Google account on the official website and create a new Google Analytics 4 (GA4) account.
+Note: Google has fully transitioned to GA4, and the legacy Google Universal Analytics (UA) is deprecated.]]></description>
 </item>
 <item>
     <title>How to use Hugo to Build a Blog and Deploy it to Github Page</title>
