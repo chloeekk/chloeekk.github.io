@@ -58,5 +58,5 @@ Google提供两种安装方式：
 
 ## 验证是否配置成功
 完成配置后，Google Analytics最多需要48小时才能开始处理数据。配置成功后你就可以看到网站的流量数据。
-
+![ga4-configuration-result](ga4-configuration-result.png)
 

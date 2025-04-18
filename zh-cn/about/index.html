@@ -132,6 +132,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-04-16";
+    var value = dataMap.get(key);
+    var wordCount =  4362 ;
+    var link = "/zh-cn/posts/saas-landing-page/";
+    var title = "分析SaaS落地页的核心结构";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-04-13";
     var value = dataMap.get(key);
     var wordCount =  1033 ;

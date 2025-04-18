@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 16 Apr 2025 20:57:44 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>分析SaaS落地页的核心结构</title>
+    <link>https://chloevolution.com/zh-cn/posts/saas-landing-page/</link>
+    <pubDate>Wed, 16 Apr 2025 20:57:44 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/saas-landing-page/</guid>
+    <description><![CDATA[首先需要考虑的问题：落地页在站点中的定位 考虑到不同的业务目标、营销成本和适用场景，落地页有两种存在形式，各有优劣： 专门新建的落地页 特点： 独立]]></description>
+</item>
+<item>
     <title>Hugo &#43; GitHub Pages站点配置GA4（附截图）</title>
     <link>https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/</link>
     <pubDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/seo-audit-my-site/</guid>
     <description><![CDATA[一直苦于网站页面的收录问题，新的文章没有少发，但未收录的页面不减反增。于是专门用SEMrush对网站进行了整体分析，针对特定问题做出了一些修]]></description>
-</item>
-<item>
-    <title>最佳落地页Webform设计</title>
-    <link>https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/</link>
-    <pubDate>Sun, 08 Dec 2024 08:34:03 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/</guid>
-    <description><![CDATA[落地页设计是网站优化和营销活动中不可或缺的一部分。在所有提升用户互动的元素中，Webform（网络表单）起着关键作用。无论是收集潜在客户信息]]></description>
 </item>
 </channel>
 </rss>

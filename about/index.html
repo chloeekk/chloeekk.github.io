@@ -132,6 +132,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-04-16";
+    var value = dataMap.get(key);
+    var wordCount =  2337 ;
+    var link = "/posts/saas-landing-page/";
+    var title = "Analyze Saas Landing Page's Core Structure";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-04-13";
     var value = dataMap.get(key);
     var wordCount =  0 ;
