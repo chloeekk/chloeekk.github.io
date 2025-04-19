@@ -47,7 +47,16 @@
                 "name": "Chloe"
             },"description": ""
     }
-    </script></head>
+    </script><style>
+             
+            body {
+                  -webkit-user-select: none;   
+                  -moz-user-select: none;      
+                  -ms-user-select: none;       
+                  user-select: none;
+                }
+        </style>
+    </head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -132,6 +141,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-04-19";
+    var value = dataMap.get(key);
+    var wordCount =  1392 ;
+    var link = "/zh-cn/posts/protect-hugo-website-content-from-being-copied/";
+    var title = "Protect Hugo Website Content From Being Copied";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-04-16";
     var value = dataMap.get(key);
     var wordCount =  4362 ;

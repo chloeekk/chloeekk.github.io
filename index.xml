@@ -3,24 +3,24 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 16 Apr 2025 20:57:44 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Analyze Saas Landing Page&#39;s Core Structure</title>
+    <title>Protect Hugo Website Content From Being Copied</title>
+    <link>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</link>
+    <pubDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Analyze SaaS Landing Page&#39;s Core Structure</title>
     <link>https://chloevolution.com/posts/saas-landing-page/</link>
     <pubDate>Wed, 16 Apr 2025 20:57:44 &#43;0800</pubDate>
     <author>Chloe</author>
     <guid>https://chloevolution.com/posts/saas-landing-page/</guid>
     <description><![CDATA[The first issue to consider: the positioning of the landing page in the site Considering different business goals, marketing costs and applicable scenarios, there are two forms of landing pages, each with its own advantages and disadvantages:
 Specially built landing pages  Features:  Independent design: customized for specific marketing activities (such as advertising, brand activities, promotions, etc.), consistent with the official website design style, but with more streamlined and focused content No navigation bar interference: usually choose to hide the global navigation bar at the top, only retain the brand logo and important buttons, avoid users jumping to other pages, and expect to guide users to complete the target conversion actions (such as registration, purchase, etc.]]></description>
-</item>
-<item>
-    <title>Protect Hugo Website Content From Being Copied</title>
-    <link>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</link>
-    <pubDate>Sun, 13 Apr 2025 10:11:53 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</guid>
-    <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Integrate Google Analytics with Hugo Website</title>

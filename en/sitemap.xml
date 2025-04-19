@@ -2,6 +2,33 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://chloevolution.com/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/"
+                    /></url><url>
             <loc>https://chloevolution.com/posts/saas-landing-page/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -20,28 +47,10 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/"
-                    /></url><url>
             <loc>https://chloevolution.com/tags/digital-marketing/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/categories/digital-marketing/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/tags/landing-page/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/categories/landing-page/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/posts/"
-                    /></url><url>
             <loc>https://chloevolution.com/tags/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -51,7 +60,6 @@
                     hreflang="en"
                     href="https://chloevolution.com/tags/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</loc><lastmod>2025-04-13T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/tags/hugo/</loc><lastmod>2025-04-13T10:07:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -142,7 +150,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/</loc><lastmod>2025-03-15T08:56:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/</loc><lastmod>2025-03-15T08:56:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/"
