@@ -182,8 +182,11 @@
 </ol>
 <p>MJ会将图片URL视作一个风格参考，并尝试制作类似风格的内容。</p>
 <p>本文将以<a href="https://www.midjourney.com/jobs/8e07eed2-5e4c-4cea-bbd3-fb07da784f43?index=0" target="_blank" rel="noopener noreffer ">Midjourney官网的这张图片</a>进行演示：</p>
-<p>
-<img src="cat-reference.png" alt=""  width="928" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-sref/cat-reference_hu7c86b7ac33c3e760754a1b30352ff1f8_1921195_filter_13752397661971957663.png" 
+       alt="" 
+       width="928" 
+       height="492" 
+        /></p>
 <p>先将图片上传到Midjourney中，然后输入以下prompt：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -194,16 +197,25 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>可以看到Midjourney根据我们提供的图片风格，绘制了4个戴帽子的小女孩的图片：
-
-<img src="basic-usage-example.png" alt=""  width="885" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/basic-usage-example_hu473e5e0e69d6583c0799ce3450e93200_336696_filter_596969985806363456.png" 
+       alt="" 
+       width="885" 
+       height="226" 
+        /></p>
 <h3 id="---sref-vs-style-tuner">&mdash;sref v.s style tuner</h3>
 <p>style tuner可以通过prompt生成一系列的图，然后根据你选择的内容来确定这个模型的风格和方向。可以将style tuner生成的图片作为sref参数的参考URL，下面为prompt示例：</p>
 <p>Style tuner生成的图片：
-
-<img src="style-tuner-example.png" alt=""  width="662" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/style-tuner-example_hu837db02bc394e60b0f91c4e95debcd8b_419485_filter_17641730356298724475.png" 
+       alt="" 
+       width="662" 
+       height="225" 
+        /></p>
 <p>依据style tuner的风格，利用sref参数生成的图片：
-
-<img src="sref-copy-style-tuner-example.png" alt=""  width="761" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/sref-copy-style-tuner-example_hua071913f7a81d12780522bca36954fe9_506109_filter_17585553877104017138.png" 
+       alt="" 
+       width="761" 
+       height="226" 
+        /></p>
 <h3 id="---sref-vs-垫图">&mdash;sref v.s 垫图</h3>
 <p>&ndash;sref参数和垫图的prompt格式不同：</p>
 <ul>
@@ -217,14 +229,23 @@
 </li>
 </ul>
 <p>我们用下面这张<a href="https://www.midjourney.com/jobs/a94d3836-b446-45b7-8a0c-33c41fda1869?index=0" target="_blank" rel="noopener noreffer ">参考图片</a>来看看生成图片的区别：</p>
-<p>
-<img src="illustration-reference.png" alt=""  width="912" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-sref/illustration-reference_hu3674d8a2c0299595369708312bed4256_2091964_filter_5511514008971679074.png" 
+       alt="" 
+       width="912" 
+       height="518" 
+        /></p>
 <p>使用相同的描述文本和参考图片，<strong>垫图更加关注语义内容（如人物、地点、物品等），会参考一小部分风格</strong>：
-
-<img src="image-prompt-example.png" alt=""  width="1242" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/image-prompt-example_huccb91441517568aad15983f65e15d9a7_559372_filter_3978016774608112205.png" 
+       alt="" 
+       width="1242" 
+       height="240" 
+        /></p>
 <p>而<strong>sref参数则更加关注色彩和风格</strong>：
-
-<img src="sref-example.png" alt=""  width="1263" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/sref-example_hu0885d107d9593a496ac07e50ba92b463_542797_filter_7218292036324287003.png" 
+       alt="" 
+       width="1263" 
+       height="242" 
+        /></p>
 <h2 id="进阶使用方法">进阶使用方法</h2>
 <h3 id="设置图片参考的总权重">设置图片参考的总权重</h3>
 <p>&mdash;sw（Style weight）参数可用来调节风格强度。&ndash;sw默认值为100，数值范围为0到1000。数值越高，生成的图片与参考图片的风格就越相似；数值越低，画面就越接近提示词直出的效果。经过测试，至少要15-20才能看出效果，数值在200左右效果较好，超过700画面容易出现扭曲变形。</p>
@@ -239,12 +260,18 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>例如同时参考上述两张图片的风格生成一张图片：
-
-<img src="sref-combine-two-url.png" alt=""  width="1011" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/sref-combine-two-url_hud432fa545c940000537c3777adad4c58_447256_filter_6884487292629505456.png" 
+       alt="" 
+       width="1011" 
+       height="240" 
+        /></p>
 <h3 id="设置单个参考图片的权重">设置单个参考图片的权重</h3>
 <p>使用多张参考图片时，每张图片的参考权重是相同的。可以使用::来指定单张图片的权重，权重数值区间为0到100，例如：</p>
-<p>
-<img src="set-individual-image-weight.png" alt=""  width="1037" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-sref/set-individual-image-weight_hu2163a1d49f3c9c48b2a90defa66c4f78_460545_filter_16114460461580602448.png" 
+       alt="" 
+       width="1037" 
+       height="242" 
+        /></p>
 <h3 id="结合垫图使用">结合垫图使用</h3>
 <p>通过垫图让Midjourney学习图片中的元素、构图、内容，&ndash;sref指令让Midjourney学习图片风格。注意：中间一定要加文字提示内容，否则会无法生成。
 提示词如下：</p>
@@ -257,8 +284,11 @@
 </code></pre></td></tr></table>
 </div>
 </div><p>两者同时使用则可兼顾语义内容与风格：
-
-<img src="combine-image-prompt-sref-example.png" alt=""  width="1108" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-sref/combine-image-prompt-sref-example_hucfaeb380901aff8dcfa3214b0064f50e_490779_filter_1626088764837960122.png" 
+       alt="" 
+       width="1108" 
+       height="238" 
+        /></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

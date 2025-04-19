@@ -166,8 +166,11 @@
             </div><div class="content" id="content"><h2 id="what-is-coze">What is Coze?</h2>
 <p><a href="https://www.coze.com/" target="_blank" rel="noopener noreffer ">Coze</a> is an AI chatbot and app editorial development platform launched by ByteDance. By integrating several plug-ins, Coze&rsquo;s Bot capabilities are greatly expanded and can be applied to various scenarios, such as chatbot, data analytics, and content collection.</p>
 <h2 id="coze-page-introduction">Coze page introduction</h2>
-<p>
-<img src="coze-interface.png" alt=""  width="1895" height="40%"  /></p>
+<p><img src="/posts/how-to-create-bot-on-coze/coze-interface_hu2286da62f71aea66bc16a9a3ce857b77_461219_filter_4053943693657426137.png" 
+       alt="" 
+       width="1895" 
+       height="356" 
+        /></p>
 <p>After successfully registering and entering Coze, on the homepage, you will first see an assistant bot, which will guide you step by step to understand the features and functions of Coze.</p>
 <p>The left menu bar includes the following sections:</p>
 <ul>
@@ -192,8 +195,11 @@ A &ldquo;workflow&rdquo; is an organized series of steps to accomplish a task. F
 <p>Next, let&rsquo;s see how to build a bot that supports Chinese and English translation through Coze.</p>
 <h3 id="1-create-a-bot-and-complete-the-basic-settings">1. Create a bot and complete the basic settings</h3>
 <p>Click &ldquo;Create Bot&rdquo; in the upper left corner, and then complete the following basic settings:</p>
-<p>
-<img src="coze-create-bot.png" alt=""  width="1866" height="40%"  /></p>
+<p><img src="/posts/how-to-create-bot-on-coze/coze-create-bot_hu0a10f2d3a22f55f9d2c2bdc8b397d0eb_303368_filter_9146352508603891344.png" 
+       alt="" 
+       width="1866" 
+       height="356" 
+        /></p>
 <ul>
 <li>Space (required): choose the space where the bot will be stored, either &ldquo;Personal Space&rdquo; or &ldquo;Team Space&rdquo;.</li>
 <li>Bot name (required): we set it to &ldquo;English - Chinese Translator&rdquo;.</li>
@@ -249,8 +255,11 @@ The cost varies depending on the model the Bot is using:</p>
    </tr>
 </table>
 <h3 id="2-bot-configuration">2. Bot Configuration</h3>
-<p>
-<img src="coze-create-bot-arrangement.png" alt=""  width="1895" height="40%"  /></p>
+<p><img src="/posts/how-to-create-bot-on-coze/coze-create-bot-arrangement_hu520bccd670e53409026954630843a5bf_128270_filter_4053943693657426137.png" 
+       alt="" 
+       width="1895" 
+       height="356" 
+        /></p>
 <p>The configuration interface is divided into three parts:</p>
 <ul>
 <li>Left: support input natural language, set Bot&rsquo;s role position and preset prompt</li>
@@ -258,19 +267,31 @@ The cost varies depending on the model the Bot is using:</p>
 <li>Right: Bot&rsquo;s preview effect</li>
 </ul>
 <p>First, choose the mode of Bot. Currently Coze supports single-agent mode and multi-agent mode (default is single-agent mode):</p>
-<p>
-<img src="coze-select-mode.png" alt=""  width="1896" height="40%"  /></p>
+<p><img src="/posts/how-to-create-bot-on-coze/coze-select-mode_hue3a15026db69829681d6ff189334dc31_178139_filter_9109992290630104409.png" 
+       alt="" 
+       width="1896" 
+       height="356" 
+        /></p>
 <p>Then, select the LLM model that Bot wants to apply, currently it supports: Claude, GPT, Gemini, in this article, we take GPT-3.5 Turbo as an example. The model selection here affects the cost of the consumption usage mentioned earlier:</p>
-<p>
-<img src="coze-select-model.png" alt=""  width="1896" height="40%"  /></p>
+<p><img src="/posts/how-to-create-bot-on-coze/coze-select-model_hueed920323abf4fcb0932575c9723dd44_180511_filter_9109992290630104409.png" 
+       alt="" 
+       width="1896" 
+       height="356" 
+        /></p>
 <p>Next, we start setting up the Bot&rsquo;s identity and functionality. In the command bar on the left, I tell the Bot: You are a linguist who specializes in Chinese-English translation; when the user inputs English, you will return the corresponding Chinese (with pinyin); when the user inputs Chinese, you will return the corresponding English.</p>
 <p>Then, we test it in the preview bar on the right: type &ldquo;To be or not to be, that is a question.&rdquo;, send it to Bot, and you can see that Bot returns the correct Chinese translation of the English sentence, with the corresponding pinyin:</p>
-<p>
-<img src="english-to-chinese-test-result.png" alt=""  width="1892" height="40%"  /></p>
+<p><img src="/posts/how-to-create-bot-on-coze/english-to-chinese-test-result_hud6a3c5e407a744f816fe5da4a373f3b4_190937_filter_3275694652527682719.png" 
+       alt="" 
+       width="1892" 
+       height="356" 
+        /></p>
 <p>If you are worried that your commands are not written accurately enough, or if you want to convert your natural language to a more standard prompt language, you can click the &ldquo;Optimize&rdquo; button in the upper right corner, and Coze will optimize the prompt for you.</p>
 <p>Let&rsquo;s test the Chinese to English translation again, we can see that Bot can also return the English translation correctly:
-
-<img src="chinese-to-english-test-result.png" alt=""  width="1277" height="40%"  /></p>
+<img src="/posts/how-to-create-bot-on-coze/chinese-to-english-test-result_hu4145d196b3828a59f193c6c6652c1acf_120831_filter_12594944568616174335.png" 
+       alt="" 
+       width="1277" 
+       height="356" 
+        /></p>
 <h3 id="3-publish-the-bot">3. Publish the Bot</h3>
 <p>After you have debugged the Bot and made sure it works correctly according to your requirements, you can click the &ldquo;Publish&rdquo; button on the top right corner to let more people see and use your Bot!</p>
 </div><div class="post-footer" id="post-footer">

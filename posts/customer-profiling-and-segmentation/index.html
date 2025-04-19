@@ -224,8 +224,11 @@
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="modulenotfounderror-no-module-named-yellowbrick">ModuleNotFoundError: No module named ‘yellowbrick’</h3>
-<p>
-<img src="yellowbrick-error.png" alt="yellowbrick-error"  width="1290" height="40%"  /></p>
+<p><img src="/posts/customer-profiling-and-segmentation/yellowbrick-error_hu22f78797a071d81ecdc867204e3870e8_96540_filter_17696100274709963179.png" 
+       alt="yellowbrick-error" 
+       width="1290" 
+       height="143" 
+        /></p>
 <p>The reason for this error is that the Yellowbrick library is not installed locally.</p>
 <p>Yellowbrick is a machine learning visualization library that mainly relies on the sklearn machine learning library and can provide visualization of a variety of machine learning algorithms.</p>
 <p>Yellowbrick has two main dependencies: scikit-learn and matplotlib. Yellowbrick is a Python 3 package that works with version 3.4 or higher.</p>
@@ -257,8 +260,11 @@
 <span class="n">df_dataset</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="dataset-head.png" alt="dataset-head"  width="1976" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/dataset-head_hu52627769b47bdcfd983353f2b12c6dc0_95309_filter_1639311930678658441.png" 
+       alt="dataset-head" 
+       width="1976" 
+       height="156" 
+        /></p>
 <p>Check the numerical type and null value of each column:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -270,8 +276,11 @@
 <span class="n">df_dataset</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="dataset-info.png" alt="dataset-info"  width="798" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/dataset-info_hu50985194f756648efc01278fb48b6909_222255_filter_13677562765343639561.png" 
+       alt="dataset-info" 
+       width="798" 
+       height="420" 
+        /></p>
 <h2 id="2-data-cleaning">2. Data Cleaning</h2>
 <p>It is known that the type of customer registration time (Dt_Customer) is Object. In order to facilitate subsequent splitting into year, month, and day, it needs to be converted into date and time format.</p>
 <p>At the same time, use <code>date()</code> to view the time span of the data. It can be seen that the customer registration time in the data set is 2012-2014:</p>
@@ -293,14 +302,23 @@
 <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;The newest record on customer&#39;s enrollment:&#34;</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">df_dataset</span><span class="p">[</span><span class="s1">&#39;Dt_Customer&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">date</span><span class="p">())</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="dataset-record-span.png" alt="dataset-record-span"  width="1558" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/dataset-record-span_hu95ab0014f79ca05b9ac0833de10f80f2_84207_filter_6830678161723922633.png" 
+       alt="dataset-record-span" 
+       width="1558" 
+       height="102" 
+        /></p>
 <h3 id="valueerror-time-data-doesnt-match">ValueError: time data doesn’t match</h3>
 <p>The default date parsing order of to_datetime() is month, day, and year, and the date format in the data set is day, month, and year, so the value of dayfirst needs to be specified:</p>
-<p>
-<img src="time-data-error.png" alt="time-data-error"  width="1976" height="40%"  /></p>
-<p>
-<img src="dayfirst-set-true.png" alt="dayfirst-set-true"  width="1556" height="40%"  /></p>
+<p><img src="/posts/customer-profiling-and-segmentation/time-data-error_hu5e36708d33c4031d51e4fafca378625a_79095_filter_14957610318434516880.png" 
+       alt="time-data-error" 
+       width="1976" 
+       height="78" 
+        /></p>
+<p><img src="/posts/customer-profiling-and-segmentation/dayfirst-set-true_hu951c212b7ca5eae2ef4b1a8231e84a39_62181_filter_11920978684104610194.png" 
+       alt="dayfirst-set-true" 
+       width="1556" 
+       height="63" 
+        /></p>
 <p>Optimize some attributes to facilitate subsequent analysis:</p>
 <ul>
 <li>Age: The most recent time recorded by the customer is 2014. Use this as the anchor point and subtract the customer’s date of birth.</li>
@@ -410,8 +428,11 @@
 <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Age&#39;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">80</span><span class="p">]</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="income-age-sort.png" alt="income-age-sort"  width="428" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/income-age-sort_hu78e829c275aafa7a03b28a5191282d36_41332_filter_5779881694570969471.png" 
+       alt="income-age-sort" 
+       width="428" 
+       height="169" 
+        /></p>
 <h2 id="3-data-visualization">3. Data Visualization</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -444,8 +465,11 @@
 <span class="n">plot</span><span class="o">.</span><span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Feature Relationship&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">1.05</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="feature-relationship-pairplot.png" alt="feature-relationship-pairplot"  width="1076" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/feature-relationship-pairplot_hube6ad0802a31ccb265b42443a3c4c865_535586_filter_7115335485679418465.png" 
+       alt="feature-relationship-pairplot" 
+       width="1076" 
+       height="420" 
+        /></p>
 <p>As can be seen from the chart:</p>
 <ul>
 <li>The income, consumption amount, and consumption frequency of non-parents are significantly higher than those of parents</li>
@@ -455,8 +479,11 @@
 <p>If you use Jupyter Notebook, you need to add it at the beginning of the code
 <code>%matplotlib inline</code></p>
 <p>The function is to display images in Notebook without explicitly calling plt.show(). For specific principles, please refer to [Stackoverflow](<a href="https://stackoverflow.com/questions/21176731/automatically-run-matplotlib-inline-in" target="_blank" rel="noopener noreffer ">https://stackoverflow.com/questions/21176731/automatically-run-matplotlib-inline-in</a> -ipython-notebook)</p>
-<p>
-<img src="matplotlib-inline.png" alt="matplotlib-inline"  width="768" height="40%"  /></p>
+<p><img src="/posts/customer-profiling-and-segmentation/matplotlib-inline_huaf707ad0793e12df56be6a5abe7ba45e_39279_filter_2099109503660422356.png" 
+       alt="matplotlib-inline" 
+       width="768" 
+       height="118" 
+        /></p>
 <p>Observe the time distribution of customers registering as members through a bar chart:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -498,8 +525,11 @@
 <span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Year&#39;</span><span class="p">],</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axes</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="register-time-bar-chart.png" alt="register-time-bar-chart"  width="1235" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/register-time-bar-chart_hu39f6b9c0226f7c99b5659b47a15981e2_78878_filter_1906653085412399861.png" 
+       alt="register-time-bar-chart" 
+       width="1235" 
+       height="302" 
+        /></p>
 <p>As can be seen from the chart:</p>
 <ul>
 <li>Most consumers register as members on Mondays and Wednesdays</li>
@@ -524,8 +554,11 @@
 <span class="n">group</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="age-span.png" alt="age-span"  width="360" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/age-span_hue4cdc4d8515a49e71f8c19c23e25c876_27269_filter_3929514610081812374.png" 
+       alt="age-span" 
+       width="360" 
+       height="103" 
+        /></p>
 <p>Copy a new data table and replace &ldquo;age&rdquo; with the processed interval data:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -595,8 +628,11 @@
     <span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">v</span><span class="o">-</span><span class="mi">130</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s1">&#39;$ </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="mi">2</span><span class="p">)),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">verticalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;white&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="spent-age-group.png" alt="spent-age-group"  width="1181" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/spent-age-group_hu6bdd4d5ec44948231c6319cb5ef1c775_57334_filter_1374170671409436203.png" 
+       alt="spent-age-group" 
+       width="1181" 
+       height="290" 
+        /></p>
 <p>As can be seen from the chart:</p>
 <ul>
 <li>Consumption distribution is obviously polarized. The total number of people in the age range at both ends does not exceed 20, resulting in a significant gap in total consumption amount</li>
@@ -695,8 +731,11 @@
 <span class="n">axd</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="products-spent-age-group.png" alt="products-spent-age-group"  width="1811" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/products-spent-age-group_hu33377600f7e30382fdb62449fe967f98_123810_filter_10083066529808797548.png" 
+       alt="products-spent-age-group" 
+       width="1811" 
+       height="404" 
+        /></p>
 <p>It can be seen from the chart:</p>
 <ul>
 <li>Except for fruits, candies, and gold, in other categories, people over 70 years old have the highest spending amount. Among them, their average consumption amount on alcoholic products exceeds 600 US dollars.</li>
@@ -788,8 +827,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">axd</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="purchase-methods-age-group.png" alt="purchase-methods-age-group"  width="1811" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/purchase-methods-age-group_hu0c6f3f813952f5b6beab2e6c8ab92ccf_88765_filter_8913784481315108403.png" 
+       alt="purchase-methods-age-group" 
+       width="1811" 
+       height="324" 
+        /></p>
 <p>It can be seen from the figure:</p>
 <ul>
 <li>Among the three different purchase channels, the consumption amount of people over 70 years old is the highest, although there are only 8 people in this group. Once again, it reflects that their consumption amount is significantly higher than that of other age groups.</li>
@@ -845,8 +887,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
     <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">v</span><span class="o">+</span><span class="mf">1.2</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">{:.2f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">v</span><span class="p">),</span> <span class="n">horizontalalignment</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;Black&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="customer-accepted-offer.png" alt="customer-accepted-offer"  width="742" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/customer-accepted-offer_huf3417c7b6252ac3d615956c9bb54012b_31186_filter_16554387624669131787.png" 
+       alt="customer-accepted-offer" 
+       width="742" 
+       height="149" 
+        /></p>
 <p>It can be seen from the figure:</p>
 <ul>
 <li>Only 6.42% of people were willing to accept the first campaign, and even plummeted to 1.36% for the second time.</li>
@@ -869,8 +914,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">group</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;NumDealsPurchases&#39;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">&#39;Is_Parent&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="discount-age-group.png" alt="discount-age-group"  width="766" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/discount-age-group_hu43981f64c0af425e166db315a44a09ae_27330_filter_11369531095476885412.png" 
+       alt="discount-age-group" 
+       width="766" 
+       height="166" 
+        /></p>
 <p>It can be seen from the figure:</p>
 <p>People who have become parents are significantly more likely to be attracted by discounts and then make purchases</p>
 <p>Observe the correlation between &ldquo;numeric&rdquo; type attributes through the heat map. The darker the color, the stronger the correlation:</p>
@@ -896,8 +944,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">data</span><span class="p">]</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="feature-correlation.png" alt="feature-correlation"  width="1026" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/feature-correlation_hu567c7af29747d50644d520777bc4c894_84408_filter_4980648991615184858.png" 
+       alt="feature-correlation" 
+       width="1026" 
+       height="397" 
+        /></p>
 <p>It can be seen from the figure:</p>
 <ul>
 <li>&ldquo;Monthly official website visits&rdquo;, &ldquo;Total number of children&rdquo;, &ldquo;Whether they are a parent&rdquo; have little correlation with customer consumption amount</li>
@@ -963,8 +1014,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">df_final_scaled</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="scaled-dataset.png" alt="scaled-dataset"  width="1582" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/scaled-dataset_huff7c192c4a7aadca7fbc2d6e5c344174_84767_filter_3727051784678277693.png" 
+       alt="scaled-dataset" 
+       width="1582" 
+       height="131" 
+        /></p>
 <p>After normalization, the value of a data point represents the deviation of the original value from the mean, in units of standard deviation. For example, a processed value of 2 means that the original value of the data point is two standard deviations above the mean.</p>
 <p>Use <code>LabelEncoder</code> to encode and convert non-numeric features in DataFrame (<code>df</code>) to facilitate subsequent data visualization:</p>
 <div class="highlight"><div class="chroma">
@@ -1024,8 +1078,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 </code></pre></td></tr></table>
 </div>
 </div><p>The result of the run is a graph of different k values (number of clusters) and the corresponding SSE (sum of squared errors). The purpose of the elbow plot is to help us visually see how the SSE changes as the value of k increases. Ideally, SSE decreases as the k value increases, but the rate of decrease will slow down significantly at a certain point. This point is the so-called &ldquo;elbow point&rdquo; and is considered the optimal number of clusters.</p>
-<p>
-<img src="elbow-point-result.png" alt="elbow-point-result"  width="772" height="40%"  /></p>
+<p><img src="/posts/customer-profiling-and-segmentation/elbow-point-result_hu35d02374cfad70b496e0bd1d7e09782f_64077_filter_12257093458147538395.png" 
+       alt="elbow-point-result" 
+       width="772" 
+       height="202" 
+        /></p>
 <p>As can be seen from the figure, the &ldquo;elbow point&rdquo; is k=5</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1059,8 +1116,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-distribution.png" alt="cluster-distribution"  width="700" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-distribution_hu5ead5282fb157a952f4bd8556bbffc92_13064_filter_16692716057484013828.png" 
+       alt="cluster-distribution" 
+       width="700" 
+       height="193" 
+        /></p>
 <h2 id="6-customer-profiling-and-segmentation">6. Customer Profiling and Segmentation</h2>
 <p>Analyze the relationship between income and total consumption, distinguish according to the clustering results, and draw scatter plots and violin plots:</p>
 <div class="highlight"><div class="chroma">
@@ -1083,8 +1143,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">sns</span><span class="o">.</span><span class="n">violinplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Income&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">axd</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-scatterplot-violinplot.png" alt="cluster-scatterplot-violinplot"  width="1411" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-scatterplot-violinplot_hu959db357fea153ae9b3ddbe8cddf15ce_208082_filter_16895979575139740506.png" 
+       alt="cluster-scatterplot-violinplot" 
+       width="1411" 
+       height="324" 
+        /></p>
 <p>It can be seen from the figure:</p>
 <p>Cluster 0: High Consumption &amp; High Income</p>
 <p>Cluster 1: Low Consumption &amp; Low Income</p>
@@ -1107,8 +1170,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="age-spent-kdeplot.png" alt="age-spent-kdeplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/age-spent-kdeplot_hudd29a5d2d5a91491fd23d36e46ff5e25_33359_filter_15748675974636717851.png" 
+       alt="age-spent-kdeplot" 
+       width="1484" 
+       height="113" 
+        /></p>
 <h3 id="how-to-analyze-the-kernel-density-estimation-chart">How to analyze the kernel density estimation chart</h3>
 <p>The kernel density estimation plot (KDE plot) is a graph used to display the distribution of variables. It can be regarded as a smoothed version of the histogram. Through the KDE chart, we can intuitively understand the distribution of data, including the central tendency, dispersion and skewness of the data. Here are a few key points on how to interpret kernel density estimation plots:</p>
 <ol>
@@ -1134,8 +1200,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.6</span><span class="p">,</span><span class="mi">3900</span><span class="p">,</span> <span class="s1">&#39;0: Non Parent</span><span class="se">\n</span><span class="s1">1: Parent&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="isparent-spent-kdeplot.png" alt="isparent-spent-kdeplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/isparent-spent-kdeplot_huc43034c7713d7fdd70b5d3c28af558d1_36481_filter_14736105189113898352.png" 
+       alt="isparent-spent-kdeplot" 
+       width="1484" 
+       height="138" 
+        /></p>
 <p>Plot the kernel density estimates of &ldquo;number of children&rdquo; and &ldquo;total spent&rdquo;:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1147,8 +1216,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Kidhome&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="kidhome-spent-kdeplot.png" alt="kidhome-spent-kdeplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/kidhome-spent-kdeplot_hu128686c2b081afded401e94fce147782_29008_filter_15748675974636717851.png" 
+       alt="kidhome-spent-kdeplot" 
+       width="1484" 
+       height="113" 
+        /></p>
 <p>Plot the kernel density estimates of &ldquo;number of teenagers&rdquo; and &ldquo;total spent&rdquo;:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1160,8 +1232,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Teenhome&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="teenhome-spent-kdeplot.png" alt="teenhome-spent-kdeplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/teenhome-spent-kdeplot_hu89fdb8280d6f84eb8ddeca8c837303e4_32511_filter_15748675974636717851.png" 
+       alt="teenhome-spent-kdeplot" 
+       width="1484" 
+       height="113" 
+        /></p>
 <p>Plot the kernel density estimates of &ldquo;total children&rdquo; and &ldquo;total spent&rdquo;:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1173,8 +1248,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">g</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">sns</span><span class="o">.</span><span class="n">kdeplot</span><span class="p">,</span> <span class="s1">&#39;Total_Children&#39;</span><span class="p">,</span> <span class="s1">&#39;Total_Spent&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;#95C8D8&#39;</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="totalchildren-spent-kdeplot.png" alt="totalchildren-spent-kdeplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/totalchildren-spent-kdeplot_hu278fa4a9efb01e2ddbf699a2df66ab27_32014_filter_15748675974636717851.png" 
+       alt="totalchildren-spent-kdeplot" 
+       width="1484" 
+       height="113" 
+        /></p>
 <p>Plot the kernel density estimates of &ldquo;relationship status&rdquo; and &ldquo;total spent&rdquo;:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1190,8 +1268,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.7</span><span class="p">,</span><span class="mi">3900</span><span class="p">,</span> <span class="s1">&#39;0: Alone</span><span class="se">\n</span><span class="s1">1: Partner&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="livingwith-spent-kdeplot.png" alt="livingwith-spent-kdeplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/livingwith-spent-kdeplot_hufcf360419b18c2cd2feb0617219e9e93_42500_filter_14736105189113898352.png" 
+       alt="livingwith-spent-kdeplot" 
+       width="1484" 
+       height="138" 
+        /></p>
 <p>Draw a scatter plot of &ldquo;education status&rdquo; and &ldquo;total spent&rdquo;:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1207,8 +1288,11 @@ Beginning on the third row, there is a larger subfigure labeled 6, which spans t
 <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.6</span><span class="p">,</span><span class="mi">3400</span><span class="p">,</span> <span class="s1">&#39;0: Graduate</span><span class="se">\n</span><span class="s1">1: Postgraduate</span><span class="se">\n</span><span class="s1">2: Undergraduate&#39;</span><span class="p">,</span> <span class="n">weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="education-spent-scatterplot.png" alt="education-spent-scatterplot"  width="1484" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/education-spent-scatterplot_hu62068c2d039e889c4c8e6846147390b9_47070_filter_1308762783783345275.png" 
+       alt="education-spent-scatterplot" 
+       width="1484" 
+       height="146" 
+        /></p>
 <h3 id="how-to-analyze-a-scatter-plot">How to analyze a scatter plot?</h3>
 <ol>
 <li>Correlation</li>
@@ -1245,8 +1329,11 @@ No correlation: If there is no obvious linear relationship between the two varia
 <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Recency&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-recency-barplot.png" alt="cluster-recency-barplot"  width="762" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-recency-barplot_hu4049b016b3d2f362f9862861fe8151b0_23093_filter_5664784596927939996.png" 
+       alt="cluster-recency-barplot" 
+       width="762" 
+       height="166" 
+        /></p>
 <p>Observe the average consumption of different customer groups (Cluster) in different product categories (such as wine, fruit, meat, etc.):</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1292,8 +1379,11 @@ No correlation: If there is no obvious linear relationship between the two varia
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-products-barplot.png" alt="cluster-products-barplot"  width="1584" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-products-barplot_huafcbe29c0edfdaf65445dfa9c6bbab6c_65273_filter_780446547177500181.png" 
+       alt="cluster-products-barplot" 
+       width="1584" 
+       height="314" 
+        /></p>
 <p>Observe the average number of purchases by different customer groups in different sales channels:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1333,8 +1423,11 @@ No correlation: If there is no obvious linear relationship between the two varia
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-methods-barplot.png" alt="cluster-methods-barplot"  width="1584" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-methods-barplot_hub3687cada8cadc2f04525eef9834cf8b_39228_filter_508254131636068154.png" 
+       alt="cluster-methods-barplot" 
+       width="1584" 
+       height="196" 
+        /></p>
 <p>Observe the average number of purchases by different customer groups in different marketing campaigns:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1378,8 +1471,11 @@ No correlation: If there is no obvious linear relationship between the two varia
 <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-campaigns-barplot.png" alt="cluster-campaigns-barplot"  width="1584" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-campaigns-barplot_hu0dd7eeac206b93dfc784fe9fcfe40466_73484_filter_780446547177500181.png" 
+       alt="cluster-campaigns-barplot" 
+       width="1584" 
+       height="314" 
+        /></p>
 <p>Observe how different customer groups use discounts for consumption:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1393,8 +1489,11 @@ No correlation: If there is no obvious linear relationship between the two varia
 <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">&#39;Cluster&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;NumDealsPurchases&#39;</span><span class="p">,</span> <span class="n">ci</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="s1">&#39;Blues&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="cluster-discounts-barplot.png" alt="cluster-discounts-barplot"  width="766" height="40%"  /></p>
+</div><p><img src="/posts/customer-profiling-and-segmentation/cluster-discounts-barplot_hu011ad36b34ae96a9c3839870e9f904b9_24356_filter_7366173469905758381.png" 
+       alt="cluster-discounts-barplot" 
+       width="766" 
+       height="166" 
+        /></p>
 <p>Based on the above charts, we can summarize the following five types of user portraits:</p>
 <p>Cluster 0:</p>
 <ul>

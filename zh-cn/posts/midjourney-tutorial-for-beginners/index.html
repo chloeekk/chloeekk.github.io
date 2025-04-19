@@ -188,19 +188,28 @@
 </nav></div>
             </div><div class="content" id="content"><h2 id="基础设置">基础设置</h2>
 <p>向Midjourney Bot发送 /settings 命令，会得到Midjourney可配置的设置：
-
-<img src="midjourney-settings.png" alt="midjourney-settings"  width="1325" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-settings_hu60f43b6939a37f59f66ad81432cdcf00_63403_filter_16559123393395669397.png" 
+       alt="midjourney-settings" 
+       width="1325" 
+       height="138" 
+        /></p>
 <h3 id="模型版本控制">模型版本控制</h3>
-<p>
-<img src="midjourney-model-version.png" alt="midjourney-model-version"  width="591" height="40%"  />
+<p><img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-model-version_huf4993af53951868c15260bb2de2908b0_24003_filter_15203822577513987660.png" 
+       alt="midjourney-model-version" 
+       width="591" 
+       height="148" 
+        />
 在第一行的下拉框中，可以选择Midjourney不同版本的绘图模型，在绘图倾向和参数数值方面会有差异。主要分为Midjourney Model和Niji Model两类：</p>
 <ul>
 <li>Midjourney Model：Midjourney自身的模型，风格多变、擅长绘制写实图片、风格化图片。目前已更新到V6.1，也是默认模型版本。</li>
 <li>Niji Model：Midjourney和SpellBrush的合作模型，更擅长绘制二次元动漫和插图。目前已更新到V6。</li>
 </ul>
 <h3 id="风格化控制">风格化控制</h3>
-<p>
-<img src="midjourney-style-control.png" alt="midjourney-style-control"  width="1025" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-style-control_hub2f24c5a519ee0468d0ae01cd195178c_10348_filter_2676165699316014874.png" 
+       alt="midjourney-style-control" 
+       width="1025" 
+       height="22" 
+        /></p>
 <p>第二行的五个按钮控制生成图片的风格。风格化越强，代表生成图片的艺术感和失控感越强：</p>
 <ul>
 <li>RAW Mode：原始图像模式，作用等同于参数 &ndash;style raw。风格相对简洁，减少AI自动的风格化处理。只在Midjourney Model V5.1和V5.2中支持。</li>
@@ -216,8 +225,11 @@
 <h3 id="隐私设置">隐私设置</h3>
 <p>在Public mode（公开模式）下，用户让Midjourney生成的图片都会公开在Midjourney社区中。只有Pro Plan的用户可以关闭此模式。</p>
 <h3 id="混合设置">混合设置</h3>
-<p>
-<img src="midjourney-remix-settings.png" alt="midjourney-remix-settings"  width="975" height="40%"  />
+<p><img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-remix-settings_hud176a634c6bb8faf4417fe9cfb26eb24_18552_filter_1860150296768878875.png" 
+       alt="midjourney-remix-settings" 
+       width="975" 
+       height="50" 
+        />
 混合设置包含三个按钮：</p>
 <ul>
 <li>Remix mode：混合模式。允许用户在做V操作（Upscale和Variaiton）和Reroll（重绘）时重新编辑prompt。关闭该模式则默认使用原始的prompt再生成图片。</li>
@@ -225,8 +237,11 @@
 <li>Subtle Variation Mode：低变差模式，在Remix时倾向以更小的变化完成重绘。仅在Remix mode开启时生效。</li>
 </ul>
 <h3 id="gpu生成模式">GPU生成模式</h3>
-<p>
-<img src="midjourney-mode-settings.png" alt="midjourney-mode-settings"  width="597" height="40%"  />
+<p><img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-mode-settings_hueb2b39ce396ebc10a908f664126407a1_6985_filter_15777950123390305842.png" 
+       alt="midjourney-mode-settings" 
+       width="597" 
+       height="22" 
+        />
 Midjourney可用两种GPU模式，分别对应不同的速度：</p>
 <ul>
 <li>Fast mode：快速生成模式。消耗订阅中的Fast时间，每幅图的生成时间约几秒到十几秒。</li>
@@ -281,8 +296,11 @@ Midjourney可用两种GPU模式，分别对应不同的速度：</p>
 </ul>
 <h2 id="prompt实操">Prompt实操</h2>
 <h3 id="prompt基础结构">Prompt基础结构</h3>
-<p>
-<img src="midjourney-prompt-structure.png" alt="midjourney-prompt-structure"  width="1200" height="40%"  />
+<p><img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-prompt-structure_hu58a64201f374a57a815a817f655966db_22337_filter_11271641280876378256.png" 
+       alt="midjourney-prompt-structure" 
+       width="1200" 
+       height="68" 
+        />
 Midjoureny中完整的Prompt由三部分组成：</p>
 <ul>
 <li>命令 Commands：后面可以接prompt的命令只有<code>/imagine</code></li>
@@ -299,8 +317,11 @@ Midjoureny中完整的Prompt由三部分组成：</p>
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">a cute cat; american anime style --niji 6 --ar 1:1 --s 150
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="midjourney-prompt-result.png" alt="midjourney-prompt-result"  width="1182" height="40%"  /></p>
+</div><p><img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-prompt-result_hu3a81944f9c2f70732930dcc5c5647ae6_505990_filter_9707956375444987129.png" 
+       alt="midjourney-prompt-result" 
+       width="1182" 
+       height="288" 
+        /></p>
 <h3 id="prompt参数介绍">Prompt参数介绍</h3>
 <p>参数的基本格式：在prompt后添加一个空格，然后输入<code>--参数 值</code>。参数和值之间需要添加空格。
 有些参数不需要值，只要输入参数就意味着开启该选项，如 &ndash;fast。</p>
@@ -332,8 +353,11 @@ Midjoureny中完整的Prompt由三部分组成：</p>
 </ul>
 <h3 id="upscale和variation">Upscale和Variation</h3>
 <p>Midjourney Bot返回四张图片后，下面会有两排按钮，同时按钮会带数字，数字分别对应图片四宫格中的四张图片：
-
-<img src="midjourney-image-number.png" alt="midjourney-image-number"  width="564" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-image-number_hub9e48b82700754b68e134a6eedc82f59_465219_filter_3704262807705218409.png" 
+       alt="midjourney-image-number" 
+       width="564" 
+       height="261" 
+        /></p>
 <p>按钮的作用如下：</p>
 <ul>
 <li>U：Upscale，放大。把对应数字的图片放大到更高分辨率的版本。</li>
@@ -341,8 +365,11 @@ Midjoureny中完整的Prompt由三部分组成：</p>
 <li>Reroll：用原始prompt重新生成图片</li>
 </ul>
 <p>还可以对Upscale后的图片进行进一步处理：
-
-<img src="midjourney-after-upscale.png" alt="midjourney-after-upscale"  width="1166" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-tutorial-for-beginners/midjourney-after-upscale_hu94a4aaacce8d3b1d63167afa4a3160fa_514448_filter_12457805953740951186.png" 
+       alt="midjourney-after-upscale" 
+       width="1166" 
+       height="285" 
+        /></p>
 <ul>
 <li>Upscale (Subtle,Creative)：在原图基础上继续放大。Upscale (Subtle)完全按照原图放大，细节不会有太多改变。Upscale (Creative)在放大原图的同时，构图不变，但会用AI优化细节</li>
 <li>Vary (Subtle)：类似Subtle Variation Mode，根据原图重新生成低变差的图片</li>

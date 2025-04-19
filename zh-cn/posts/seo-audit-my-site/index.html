@@ -173,8 +173,11 @@
 </nav></div>
             </div><div class="content" id="content"><p>一直苦于网站页面的收录问题，新的文章没有少发，但未收录的页面不减反增。于是专门用SEMrush对网站进行了整体分析，针对特定问题做出了一些修正，看看收录情况会不会有改善。</p>
 <p>用到的是Site audit功能，输入域名、设置爬取的页面数量后，等待约十几分钟，就可以收获一份分析报告：
-
-<img src="semrush-site-audit-report.png" alt=""  width="1555" height="40%"  /></p>
+<img src="/zh-cn/posts/seo-audit-my-site/semrush-site-audit-report_hu289eaf5b291fba6896d6e5a1c4052f0f_101002_filter_16360815426071408798.png" 
+       alt="" 
+       width="1555" 
+       height="314" 
+        /></p>
 <p>几项指标之间核心逻辑：</p>
 <ul>
 <li><strong>Crawlability 和 Internal Linking</strong>：确保网站内容被发现和抓取。</li>
@@ -188,25 +191,40 @@
 <li>内容强化：完善 Internal Linking 和 Markup。</li>
 </ul>
 <h2 id="爬取页面数">爬取页面数</h2>
-<p>
-<img src="semrush-site-audit-crawled-pages.png" alt=""  width="313" height="40%"  /></p>
+<p><img src="/zh-cn/posts/seo-audit-my-site/semrush-site-audit-crawled-pages_hu1c7977ec467d86ef1de4ddaac9109730_14879_filter_15385152173395546981.png" 
+       alt="" 
+       width="313" 
+       height="159" 
+        /></p>
 <p>共爬取到112个页面，其中绝大部分页面都显示存在问题。</p>
 <ul>
 <li>4个健康页面：3个站点地图XML文件、1个robots的TEXT文件
-
-<img src="crawled-pages-health.png" alt=""  width="1238" height="40%"  /></li>
+<img src="/zh-cn/posts/seo-audit-my-site/crawled-pages-health_hu9d5f04c7681fb1b699318fce2d82c83b_42571_filter_15633931928884223316.png" 
+       alt="" 
+       width="1238" 
+       height="124" 
+        /></li>
 <li>5个破裂页面：都是之前发布后删除的文章页面，处于404状态，不过在Google Search Console的报告中已经看不到这几个页面，故无需处理。
-
-<img src="crawled-pages-broken.png" alt=""  width="1254" height="40%"  /></li>
+<img src="/zh-cn/posts/seo-audit-my-site/crawled-pages-broken_hu2f6dc31f62ab222f2eefdfc6da12ce29_67739_filter_3971864846681649127.png" 
+       alt="" 
+       width="1254" 
+       height="176" 
+        /></li>
 <li>1个重定向页面：网站首页（<a href="https://www.chloevolution.com/" target="_blank" rel="noopener noreffer ">https://www.chloevolution.com/</a>）。为了保证用户无论是否在网址中带有www都可以访问我的网站，我声明的canonical首页是<a href="https://chloevolution.com/" target="_blank" rel="noopener noreffer ">https://chloevolution.com/</a>，当用户访问带www的网站时会自动重定向到这个页面。这部分在GSC中也符合设置，无需处理。
-
-<img src="crawled-pages-redirects.png" alt=""  width="1241" height="40%"  /></li>
+<img src="/zh-cn/posts/seo-audit-my-site/crawled-pages-redirects_hu48cf7db3b74ca9c442c8f788cb2060b6_17629_filter_12018846434366721812.png" 
+       alt="" 
+       width="1241" 
+       height="60" 
+        /></li>
 <li>102个有问题的页面：根据下面的细分评估指标逐一排查问题。</li>
 </ul>
 <h2 id="爬取与索引优化">爬取与索引优化</h2>
 <p>这部分的得分为97。</p>
-<p>
-<img src="semrush-site-audit-crawlability-1.png" alt=""  width="1514" height="40%"  /></p>
+<p><img src="/zh-cn/posts/seo-audit-my-site/semrush-site-audit-crawlability-1_hu46125198fd6c85d051fc340fdc506f5a_63237_filter_13934754268693083706.png" 
+       alt="" 
+       width="1514" 
+       height="194" 
+        /></p>
 <ul>
 <li>站点收录度：绝大部分页面都已被收录，有11个未收录页面。</li>
 <li>爬虫预算浪费：
@@ -214,13 +232,19 @@
 <li>1个永久重定向：前文提到过对网站首页的重定向处理。</li>
 <li>5个4xx错误：前文提到的已删除页面。</li>
 <li>5个canoncial指向其它页面：都是博文目录页的分页，检查了一下发现canonical标签都指向首页，但之前并未作相关的设置，需要处理。
-
-<img src="crawlability-canonical-to-other-page.png" alt=""  width="1233" height="40%"  /></li>
+<img src="/zh-cn/posts/seo-audit-my-site/crawlability-canonical-to-other-page_hu39b2cf5d672760a6aa7b068a7def396d_61380_filter_731092108595845767.png" 
+       alt="" 
+       width="1233" 
+       height="142" 
+        /></li>
 </ul>
 </li>
 </ul>
-<p>
-<img src="semrush-site-audit-crawlability-2.png" alt=""  width="1492" height="40%"  /></p>
+<p><img src="/zh-cn/posts/seo-audit-my-site/semrush-site-audit-crawlability-2_hue33ccd4b7e0a91da07a5132608076e21_56476_filter_15176335689565897916.png" 
+       alt="" 
+       width="1492" 
+       height="284" 
+        /></p>
 <ul>
 <li>页面爬取深度：基本在1到2次点击内可完成。
 <ul>
@@ -231,35 +255,56 @@
 </ul>
 <h2 id="核心网页指标优化">核心网页指标优化</h2>
 <p>这部分的得分为40。</p>
-<p>
-<img src="semrush-site-audit-core-web-vitals.png" alt=""  width="1485" height="40%"  /></p>
+<p><img src="/zh-cn/posts/seo-audit-my-site/semrush-site-audit-core-web-vitals_hud48819773538f44320f7986ab1c48094_77149_filter_8334639177172890554.png" 
+       alt="" 
+       width="1485" 
+       height="207" 
+        /></p>
 <p>主要问题出现在TBT和CLS。但技术SEO这块我不是很了解，只能延后处理。</p>
 <h2 id="内链优化">内链优化</h2>
 <p>这部分的得分为86。</p>
-<p>
-<img src="internal-link-issues-1.png" alt=""  width="928" height="40%"  />
+<p><img src="/zh-cn/posts/seo-audit-my-site/internal-link-issues-1_hucb2b857fb204a3f9c1cf7f3682af47b3_43961_filter_11057721162924616433.png" 
+       alt="" 
+       width="928" 
+       height="187" 
+        />
 主要问题还是出现在之前已经删除的页面，导致目前仍引向这些页面的链接处于破裂状态。另外在部分文章中引用的外部链接，也需要定期检查其是否仍支持访问。</p>
-<p>
-<img src="internal-link-issues-2.png" alt=""  width="929" height="40%"  />
+<p><img src="/zh-cn/posts/seo-audit-my-site/internal-link-issues-2_hu11660d62de602e336f4dc84053af7aea_65099_filter_7940855664961076914.png" 
+       alt="" 
+       width="929" 
+       height="193" 
+        />
 另外可以优化的部分包括：</p>
 <ul>
 <li>外部链接带nofollow属性：受影响链接都为<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreffer ">https://creativecommons.org/licenses/by-nc/4.0/</a>。这是一个描述 CC BY-NC 4.0 许可的页面，表明我的网站使用了 Creative Commons 许可的内容，无需处理。</li>
 <li>只有1个内链的页面：受影响的都是都是博文目录页的分页。</li>
 </ul>
 <h2 id="其它值得关注的问题">其它值得关注的问题</h2>
-<p>
-<img src="other-top-issues.png" alt=""  width="1511" height="40%"  /></p>
+<p><img src="/zh-cn/posts/seo-audit-my-site/other-top-issues_hubb538b43a35553ff81c247284c8116f0_59760_filter_16009242955745310240.png" 
+       alt="" 
+       width="1511" 
+       height="148" 
+        /></p>
 <h3 id="meta标签描述重复">Meta标签描述重复</h3>
-<p>
-<img src="duplicate-meta-descriptions.png" alt=""  width="1130" height="40%"  />
+<p><img src="/zh-cn/posts/seo-audit-my-site/duplicate-meta-descriptions_hu8fe35217177621fb97bbbb9b891986fd_99000_filter_11875106761141107053.png" 
+       alt="" 
+       width="1130" 
+       height="306" 
+        />
 基本都是分类页、标签页。看了下源代码，都是沿用的首页一样的meta描述，需要修改。</p>
 <h3 id="标题标签重复">标题标签重复</h3>
-<p>
-<img src="duplicate-title-tags.png" alt=""  width="1256" height="40%"  />
+<p><img src="/zh-cn/posts/seo-audit-my-site/duplicate-title-tags_hu8303d3861e76899d60f33aa70a55de05_27081_filter_17389182528834433456.png" 
+       alt="" 
+       width="1256" 
+       height="128" 
+        />
 中文首页和英文首页的标题标签字段相同，故提示重复。</p>
 <h3 id="内部图片链接破裂">内部图片链接破裂</h3>
-<p>
-<img src="broken-internal-images.png" alt=""  width="1150" height="40%"  />
+<p><img src="/zh-cn/posts/seo-audit-my-site/broken-internal-images_hu5ff2e1ffc4cf5029ca149e78efcd15d6_154479_filter_3717205046954386947.png" 
+       alt="" 
+       width="1150" 
+       height="318" 
+        />
 之前重建网站时丢失了部分图片，故部分文章中虽然引用了图片，实际页面中无法展示对应的图片，需要修改。</p>
 <h2 id="相关问题处理方法">相关问题处理方法</h2>
 <h3 id="博文目录页分页canonical标签指向首页">博文目录页分页canonical标签指向首页</h3>
@@ -276,10 +321,16 @@
 </div><p>原理是：在 Hugo 中，.Permalink 是每个页面的唯一永久链接。通过使用 .Permalink，可以动态生成当前页面的正确 URL，并将其设置为 canonical。</p>
 <h3 id="破裂的内链和外链">破裂的内链和外链</h3>
 <p>这部分受影响的链接只能手动找到相关博客文章中对应的锚文本和链接，然后删除或替换链接：
-
-<img src="broken-internal-links.png" alt=""  width="1168" height="40%"  /></p>
-<p>
-<img src="broken-external-links.png" alt=""  width="1172" height="40%"  /></p>
+<img src="/zh-cn/posts/seo-audit-my-site/broken-internal-links_hu8e39b5c3597de3e8ce95cf379729d318_123503_filter_7484573619185458927.png" 
+       alt="" 
+       width="1168" 
+       height="286" 
+        /></p>
+<p><img src="/zh-cn/posts/seo-audit-my-site/broken-external-links_hubb8843483ad0b46b235ec034d46b3242_71848_filter_15924723585768526286.png" 
+       alt="" 
+       width="1172" 
+       height="177" 
+        /></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

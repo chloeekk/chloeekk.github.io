@@ -185,8 +185,11 @@
 <li>该参数的默认值为1</li>
 <li>允许设置的值：0.25、0.5、1。任何高于1的值都一律视为1</li>
 </ul>
-<p>
-<img src="midjourney-quality-parameter-settings.png" alt="midjourney-quality-parameter-settings"  width="940" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-quality-parameter-settings_hubf5339c5068073444f5bbaff00fa9046_468697_filter_11700826194854338745.png" 
+       alt="midjourney-quality-parameter-settings" 
+       width="940" 
+       height="315" 
+        /></p>
 <h3 id="stylize">Stylize</h3>
 <p>低Stylize值生成的图片与用户提供的prompt非常接近，但艺术性较低；高Stylize值生成的图片艺术化程度高，但与prompt的联系较少</p>
 <ul>
@@ -200,16 +203,22 @@
 </ul>
 </li>
 </ul>
-<p>
-<img src="midjourney-stylize-parameter-settings.png" alt="midjourney-stylize-parameter-settings"  width="940" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-stylize-parameter-settings_hud9109166336a9665630544ac03d4ded3_860257_filter_11700826194854338745.png" 
+       alt="midjourney-stylize-parameter-settings" 
+       width="940" 
+       height="315" 
+        /></p>
 <h3 id="chaos">Chaos</h3>
 <p><code>--chaos</code>或<code>--c</code>参数影响初始图片网格中四张图片的变差程度。高chaos值会产生更多不同的图片结果，较低chaos值产生重复度更高的图片结果。</p>
 <ul>
 <li>chaos的默认值为为0</li>
 <li>支持0到100的值</li>
 </ul>
-<p>
-<img src="midjourney-chaos-parameter-settings.png" alt="midjourney-chaos-parameter-settings"  width="940" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-chaos-parameter-settings_hubf5339c5068073444f5bbaff00fa9046_413826_filter_11700826194854338745.png" 
+       alt="midjourney-chaos-parameter-settings" 
+       width="940" 
+       height="315" 
+        /></p>
 <h3 id="seed">Seed</h3>
 <p>Midjourney Bot会使用一个种子编号创建一个视觉噪点（类似电视无信号时的雪花噪点），作为生成初始图片网格的起点。每个图片的种子数都是随机生成的，但可以用<code>--seed</code>参数指定。如果使用相同的种子号和prompt，就会得到近似的图片。</p>
 <ul>
@@ -226,8 +235,11 @@
 <h2 id="使用多重prompt">使用多重prompt</h2>
 <p>使用<code>::</code>作为多重提示的分隔符，混合多个概念。
 在prompt中添加<code>::</code>表示Midjourney Bot应单独考虑prompt的每一部分，双冒号要加一个空格进行连接。如spaceship和space与ship：</p>
-<p>
-<img src="midjourney-spaceship-example.png" alt="midjourney-spaceship-example"  width="940" height="40%"  /></p>
+<p><img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-spaceship-example_hue11b92003e538f6eeef11af83bbd82b9_770487_filter_11700826194854338745.png" 
+       alt="midjourney-spaceship-example" 
+       width="940" 
+       height="315" 
+        /></p>
 <h3 id="prompt权重">prompt权重</h3>
 <p>在<code>::</code>后添加数字可表示左侧prompt的权重，不设置则两侧权重相等。</p>
 <ul>
@@ -235,13 +247,19 @@
 <li>V4及之后的版本可接受小数作为权重</li>
 <li>没有定义权重，则默认权重为1。如space::2 ship等于space::2 ship::1</li>
 <li>权重仅计算前后两个权重的比值，与绝对值无关
-
-<img src="midjourney-spaceship-example2.png" alt="midjourney-spaceship-example2"  width="940" height="40%"  /></li>
+<img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-spaceship-example2_huc6d883da4b86f0acc104dd96bb89259f_769677_filter_11700826194854338745.png" 
+       alt="midjourney-spaceship-example2" 
+       width="940" 
+       height="315" 
+        /></li>
 </ul>
 <h3 id="负prompt权重">负prompt权重</h3>
 <p>负权重可用于在图片中除去或减少某一prompt的内容：
-
-<img src="midjourney-minus-parameters-example.png" alt="midjourney-minus-parameters-example"  width="940" height="40%"  /></p>
+<img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-minus-parameters-example_hu3ac9b5ad7b1e2e1a5e6e7b2515f5959f_807844_filter_11700826194854338745.png" 
+       alt="midjourney-minus-parameters-example" 
+       width="940" 
+       height="315" 
+        /></p>
 <h2 id="使用blend融合图片">使用blend融合图片</h2>
 <p>使用<code>/blend</code>命令可上传2到5张图片，将它们合成为一张新图片。</p>
 <ul>
@@ -260,8 +278,11 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">/imagine a naturalist illustration of a {blueberry, rambutan} bird
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="midjourney-permutation-prompt-example.png" alt="midjourney-permutation-prompt-example"  width="940" height="40%"  /></p>
+</div><p><img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-permutation-prompt-example_hu53074766563d238cb7bc630bb08fb1f2_681868_filter_11700826194854338745.png" 
+       alt="midjourney-permutation-prompt-example" 
+       width="940" 
+       height="315" 
+        /></p>
 <h3 id="参数排列示例">参数排列示例</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -271,8 +292,11 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">/imagine a naturalist illustration of a bird --ar {2:3, 1:1}
 </code></pre></td></tr></table>
 </div>
-</div><p>
-<img src="midjourney-permutation-prompt-example2.png" alt="midjourney-permutation-prompt-example2"  width="940" height="40%"  /></p>
+</div><p><img src="/zh-cn/posts/midjourney-advanced-tutorial/midjourney-permutation-prompt-example2_hu11cc16a2e3b00830d73880e6ae21ee4d_578788_filter_11700826194854338745.png" 
+       alt="midjourney-permutation-prompt-example2" 
+       width="940" 
+       height="315" 
+        /></p>
 <h3 id="多重嵌套排列示例">多重嵌套排列示例</h3>
 <p>当prompt中存在两组平行的permutation prompt时，它们会互相交叉排列</p>
 <div class="highlight"><div class="chroma">

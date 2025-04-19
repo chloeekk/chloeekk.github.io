@@ -170,20 +170,32 @@
 <h3 id="1-登录google-analytics-4创建新账户">1. 登录Google Analytics 4，创建新账户</h3>
 <p>在<a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener noreffer ">官网</a>登录谷歌账号，创建新的Google Analytics 4账户
 目前谷歌已全面启用Google Analytics 4 (GA4)，之前的Google Universal Analytics (UA) 已经弃用。
-
-<img src="create-google-analytics-4-account.png" alt="create-google-analytics-4-account"  width="949" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/create-google-analytics-4-account_hu6b4a7a545f2977df2311f62a2cacba77_95556_filter_13092740761611164977.png" 
+       alt="create-google-analytics-4-account" 
+       width="949" 
+       height="356" 
+        /></p>
 <h3 id="2-在账户中设置新属性">2. 在账户中设置新属性</h3>
 <p>包括新属性的名称、数据收集的时区、货币种类（如果你的网站上有销售商品或服务）
-
-<img src="create-google-analytics-4-property.png" alt="create-google-analytics-4-property"  width="959" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/create-google-analytics-4-property_hu72bbb0a71e1e2ab5a407a2cd7c57c210_64557_filter_6459288033803410597.png" 
+       alt="create-google-analytics-4-property" 
+       width="959" 
+       height="356" 
+        /></p>
 <h3 id="3-提供基本的业务信息">3. 提供基本的业务信息</h3>
 <p>可以帮助Google Analytics了解更多背景信息。
-
-<img src="google-analytics-4-business-details.png" alt="google-analytics-4-business-details"  width="959" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/google-analytics-4-business-details_hu6e8d0f3d6799799b6bb1b944d86e1270_65492_filter_6459288033803410597.png" 
+       alt="google-analytics-4-business-details" 
+       width="959" 
+       height="356" 
+        /></p>
 <h3 id="4-选择流量作为业务目标">4. 选择“流量”作为业务目标</h3>
 <p>不同的业务关注不同的转化目标，你可以选择多个目标，但建议不超过两个。对于初期博客站点，更多地关注流量而不是销售。
-
-<img src="google-analytics-4-business-objective.png" alt="google-analytics-4-business-objective"  width="947" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/google-analytics-4-business-objective_hu0172c1aa014f2b5e5118ddaca7b327a4_91065_filter_9199841794035194121.png" 
+       alt="google-analytics-4-business-objective" 
+       width="947" 
+       height="356" 
+        /></p>
 <h3 id="5-输入网站的url来配置数据源">5. 输入网站的URL来配置数据源</h3>
 <p>选择你希望收集数据的来源（网页、Android APP或iOS APP），然后输入网站链接以及数据流的名称，即可完成创建。</p>
 <h3 id="6-将ga4代码安装到网站上">6. 将GA4代码安装到网站上</h3>
@@ -192,14 +204,20 @@
 <li>
 <p>通过CMS或website builder安装：
 如果你是通过主流的CMS或建站工具完成网站的搭建，如Wordpress、Shopify、Wix等，那么可以选择对应的平台直接完成代码配置
-
-<img src="install-ga4-with-cms-or-website-builder.png" alt="install-ga4-with-cms-or-website-builder"  width="1920" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/install-ga4-with-cms-or-website-builder_hu8bf3c3512473059beeae85b02ab59ac2_102368_filter_18374081688199770194.png" 
+       alt="install-ga4-with-cms-or-website-builder" 
+       width="1920" 
+       height="356" 
+        /></p>
 </li>
 <li>
 <p>手动安装
 但我的站点是通过Hugo和GitHub Pages搭建的，只能通过手动方式完成代码安装。每个站点会有一个专属的G开头的GA4 ID，需要将这部分代码复制到网站代码中。
-
-<img src="ga4-code.png" alt="ga4-code"  width="1920" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/ga4-code_hue2f1ce67e6ea36769e4c0c44f3a6c9a6_145667_filter_18374081688199770194.png" 
+       alt="ga4-code" 
+       width="1920" 
+       height="356" 
+        /></p>
 </li>
 </ul>
 <p>对于我使用的<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer ">LoveIt模板</a>，具体的操作方式如下：</p>
@@ -207,8 +225,11 @@
 <li>
 <p>修改基础配置
 在<code>your_site/config.toml</code>文件中，找到<code> [params.analytics]</code>，将enable的参数从false改为true，同时在<code>[params.analytics.google]</code>中填入自己的Google Analytics ID：
-
-<img src="hugo-ga4-params.png" alt="hugo-ga4-params"  width="431" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/hugo-ga4-params_hub10b940ba5377802ec0a7e7ed8f36e97_14006_filter_374644588234650708.png" 
+       alt="hugo-ga4-params" 
+       width="431" 
+       height="84" 
+        /></p>
 </li>
 <li>
 <p>修改模板文件
@@ -242,8 +263,11 @@
 </div><p>之后重新推送博客到线上，等待Google Analytics收集数据。</p>
 <h2 id="验证是否配置成功">验证是否配置成功</h2>
 <p>完成配置后，Google Analytics最多需要48小时才能开始处理数据。配置成功后你就可以看到网站的流量数据。
-
-<img src="ga4-configuration-result.png" alt="ga4-configuration-result"  width="1906" height="40%"  /></p>
+<img src="/zh-cn/posts/integrate-google-analytics-with-hugo-website/ga4-configuration-result_hu32863071dce8f38762be6995a0244407_56752_filter_8003217191106991730.png" 
+       alt="ga4-configuration-result" 
+       width="1906" 
+       height="156" 
+        /></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

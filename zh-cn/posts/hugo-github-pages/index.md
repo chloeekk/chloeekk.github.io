@@ -298,3 +298,4 @@ git push -u origin master
 
 - **config.toml**: 一些全局配置（如网站的语言、默认的主题、菜单等）可能会影响新文章的显示效果。
 
+网站搭建完成后，如果需要监控流量，建议[集成Google Analytics](https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/)。

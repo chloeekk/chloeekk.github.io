@@ -1,4 +1,4 @@
-# Protect Hugo Website Content From Being Copied
+# 如何防止Hugo搭建的网站内容被盗
 
 
 首先需要明确的是：没有任何技术手段能 100% 防止内容被复制（截图、手动重写、爬虫等方式均可绕过防护）。不过，可以通过以下方法显著增加复制难度，降低被批量盗取的可能性。
@@ -100,8 +100,77 @@ img {
 ```
 
 ### 网站图片自动添加水印
-可以通过Hugo 构建时自动添加水印，也可以
+#### 1. 确认目录结构和 Markdown 语法
+假设你的文章和图片结构如下：
+```
+content/
+└── posts/
+    ├── post-1/
+    │   ├── index.md      # 文章文件
+    │   └── image.png    # 图片文件
+    └── post-2/
+        ├── index.md
+        └── photo.jpg
+```
 
-#### Hugo 构建时自动添加水印（推荐）
-利用 Hugo 的 图像处理功能 + Shortcode，在生成静态网站时直接为图片嵌入水印。
+在 index.md 中引用图片的语法为：
+```
+![图片描述](image.png)
+```
 
+#### 2. 启用 Hugo 的 Page Resources 功能
+Hugo 默认将文章目录下的文件视为 Page Resources，需确保配置正确。
+确认 config.toml 中的资源挂载：
+如果未配置，添加以下内容（通常默认已启用）：
+```toml
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+```
+
+#### 3. 创建渲染钩子自动处理图片
+通过渲染钩子捕获所有 Markdown 图片，并动态添加水印。
+- 在项目根目录下创建渲染钩子文件：
+```
+layouts/
+└── _default/
+    └── _markup/
+        └── render-image.html
+```
+- 编写渲染钩子逻辑
+将以下代码写入 render-image.html：
+```html
+{{- $original := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
+{{- $watermark := resources.Get "images/watermark.png" -}}
+
+{{- if and $original $watermark -}}
+  {{- $watermarkResized := $watermark.Resize (printf "%dx" (int (mul $original.Width 0.3))) -}}
+
+  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
+
+  <img src="{{ $processed.RelPermalink | safeURL }}" 
+       alt="{{ .Text }}" 
+       width="{{ $original.Width }}" 
+       height="{{ mul $original.Height 0.4 | int }}" 
+       {{ with .Title }}style="width: 100%; max-width: {{ . }};"{{ end }} />
+
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" 
+       alt="{{ .Text }}" 
+       {{ with $original }}width="{{ .Width }}"{{ end }}
+       {{ with $original }}height="{{ mul .Height 0.4 | int }}"{{ end }}
+       {{ with .Title }}style="width: 100%; max-width: {{ . }};"{{ end }}/>
+{{- end -}}
+```
+
+- 准备水印图片
+将水印图片（如 watermark.png）存放在 assets/images/ 目录下：
+```
+assets/
+└── images/
+    └── watermark.png
+```
+
+#### 4. 验证效果
+运行<code>hugo server</code>，打开文章页面，检查图片是否自动添加水印。

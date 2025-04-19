@@ -166,8 +166,11 @@
             </div><div class="content" id="content"><h2 id="什么是coze">什么是Coze？</h2>
 <p><a href="https://www.coze.com/" target="_blank" rel="noopener noreffer ">Coze</a>是由字节跳动推出的AI聊天机器人和应用程序编辑开发平台。通过集成多款插件，Coze的Bot能力得到极大扩展，可适用于各种场景，如聊天机器人、数据分析、内容采集等。</p>
 <h2 id="coze页面简介">Coze页面简介</h2>
-<p>
-<img src="coze-interface.png" alt=""  width="1895" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-bot-on-coze/coze-interface_hu2286da62f71aea66bc16a9a3ce857b77_461219_filter_4053943693657426137.png" 
+       alt="" 
+       width="1895" 
+       height="356" 
+        /></p>
 <p>注册成功进入Coze后，在主页，你首先会看到一个助理机器人，它会引导你一步一步了解Coze的功能及作用。</p>
 <p>左侧菜单栏包括以下几个部分：</p>
 <ul>
@@ -192,8 +195,11 @@ Bot，即机器人，通常指能够执行自动化任务的软件程序。在Bo
 <p>接下来，我们看下如何通过Coze搭建一个支持中英互译的bot。</p>
 <h3 id="1-创建一个bot并完成基础设置">1. 创建一个bot并完成基础设置</h3>
 <p>点击左上角的“创建bot”，然后完成以下基础设置：</p>
-<p>
-<img src="coze-create-bot.png" alt=""  width="1866" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-bot-on-coze/coze-create-bot_hu0a10f2d3a22f55f9d2c2bdc8b397d0eb_303368_filter_9146352508603891344.png" 
+       alt="" 
+       width="1866" 
+       height="356" 
+        /></p>
 <ul>
 <li>空间（必填）：选择bot存放的空间，可选“个人空间”或“团队空间”</li>
 <li>Bot的名字（必填）：我们设置为“English - Chinese Translator”</li>
@@ -249,8 +255,11 @@ Bot，即机器人，通常指能够执行自动化任务的软件程序。在Bo
    </tr>
 </table>
 <h3 id="2-bot配置">2. Bot配置</h3>
-<p>
-<img src="coze-create-bot-arrangement.png" alt=""  width="1895" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-bot-on-coze/coze-create-bot-arrangement_hu520bccd670e53409026954630843a5bf_128270_filter_4053943693657426137.png" 
+       alt="" 
+       width="1895" 
+       height="356" 
+        /></p>
 <p>配置界面分为三部分：</p>
 <ul>
 <li>左边：支持输入自然语言，设置Bot的角色定位和预设的prompt</li>
@@ -258,18 +267,30 @@ Bot，即机器人，通常指能够执行自动化任务的软件程序。在Bo
 <li>右边：Bot的预览效果</li>
 </ul>
 <p>首先，选择Bot的模式。目前Coze支持单agent模式和多agent模式（默认为单agent模式）：</p>
-<p>
-<img src="coze-select-mode.png" alt=""  width="1896" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-bot-on-coze/coze-select-mode_hue3a15026db69829681d6ff189334dc31_178139_filter_9109992290630104409.png" 
+       alt="" 
+       width="1896" 
+       height="356" 
+        /></p>
 <p>然后，选择Bot想应用的LLM模型，目前支持：Claude、GPT、Gemini，本文以GPT-3.5 Turbo为例。这里的模型选择会影响到前面提到的消费用量的费用：</p>
-<p>
-<img src="coze-select-model.png" alt=""  width="1896" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-bot-on-coze/coze-select-model_hueed920323abf4fcb0932575c9723dd44_180511_filter_9109992290630104409.png" 
+       alt="" 
+       width="1896" 
+       height="356" 
+        /></p>
 <p>接下来，我们开始设置Bot的身份和功能。在左侧的命令栏，我告诉Bot：你是一位擅长中英互译的语言专家，当用户输入英文时，你会返回对应的中文（附带拼音）；当用户输入中文时，你会返回对应的英文。然后，我们在右侧的预览栏进行测试：输入“To be or not to be, that is a question.”，发送给Bot。可以看到Bot返回了这句英文的正确中文翻译，并附带了对应的拼音：</p>
-<p>
-<img src="english-to-chinese-test-result.png" alt=""  width="1892" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-bot-on-coze/english-to-chinese-test-result_hud6a3c5e407a744f816fe5da4a373f3b4_190937_filter_3275694652527682719.png" 
+       alt="" 
+       width="1892" 
+       height="356" 
+        /></p>
 <p>如果你担心自己的命令写得不够准确或希望将自然语言转换为更加标准的prompt语言，可以点击右上角的“优化”按钮，由Coze帮你优化prompt。</p>
 <p>我们再测试一下中译英的效果，可以看到Bot也能够正确地返回英文翻译：
-
-<img src="chinese-to-english-test-result.png" alt=""  width="1277" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-bot-on-coze/chinese-to-english-test-result_hu4145d196b3828a59f193c6c6652c1acf_120831_filter_12594944568616174335.png" 
+       alt="" 
+       width="1277" 
+       height="356" 
+        /></p>
 <h3 id="3-发布bot">3. 发布Bot</h3>
 <p>当你调试完Bot，确定其能够按照你的要求正确地运行后，可以点击右上角的“发布”按钮，让更多的人看到和使用你的Bot！</p>
 </div><div class="post-footer" id="post-footer">

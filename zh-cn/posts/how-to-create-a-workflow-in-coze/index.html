@@ -173,8 +173,11 @@
 <p>短期内，我们很难要求大语言模型在处理上下文方面获得显著的能力提升。那么另一个解决方法，就是把输入给Bot的复杂任务拆解为多个简单的子任务，从而保证Bot输出内容的质量。</p>
 <h2 id="coze工作流功能简介">Coze工作流功能简介</h2>
 <p>节点是组成工作流的基本单元，工作流由多个节点构成。Coze中的节点可以分为两类，一类是默认自动生成的固定节点，另一类是可选的基础节点：
-
-<img src="coze-workflow-node.png" alt=""  width="1901" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/coze-workflow-node_hu26af310a02202d5381974550bf19bc85_159456_filter_15653004799052653956.png" 
+       alt="" 
+       width="1901" 
+       height="356" 
+        /></p>
 <h3 id="默认自动生成的固定节点">默认自动生成的固定节点</h3>
 <ul>
 <li><strong>Start节点</strong>：工作流的起始节点，可以包含用户输入的信息</li>
@@ -251,29 +254,44 @@
 <ol>
 <li>首先，我们需要创建一个Bot（如果不太清楚如何创建，可以看<a href="https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/" target="_blank" rel="noopener noreffer ">之前的一篇文章</a>），然后点击“工作流”后面的“+”号：</li>
 </ol>
-<p>
-<img src="add-new-workflow.png" alt=""  width="1893" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/add-new-workflow_hub5ca94bbf3cf63e4b65eab6871781463_106375_filter_1555250784602649285.png" 
+       alt="" 
+       width="1893" 
+       height="308" 
+        /></p>
 <ol start="2">
 <li>
 <p>输入工作流的名称和描述，注意命名只能包括字母、数字、下划线，而且要以字母开头。然后点击“确认”：
-
-<img src="create-coze-workflow.png" alt=""  width="1920" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/create-coze-workflow_hu3067758a71238572924a16613677b0f3_140986_filter_18374081688199770194.png" 
+       alt="" 
+       width="1920" 
+       height="356" 
+        /></p>
 </li>
 <li>
 <p>之后进入工作流编辑页面，可以看到，Coze会自动生成Start节点和End节点。左侧为前面提到的可选的基础节点：
-
-<img src="coze-workflow-node.png" alt=""  width="1901" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/coze-workflow-node_hu26af310a02202d5381974550bf19bc85_159456_filter_15653004799052653956.png" 
+       alt="" 
+       width="1901" 
+       height="356" 
+        /></p>
 </li>
 <li>
 <p>首先，我们需要确定如何从Google中获得我们想要的信息。以往我们更多地直接通过写代码来访问API进而收集到所需要的信息。那么在Coze中，可以直接使用插件来完成这项任务。
 点击左侧的“Plugin”按钮，然后选择Google Web Search这款插件并添加：
-
-<img src="google-web-search-plugin.png" alt=""  width="1893" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/google-web-search-plugin_hu5a126a8e8060fb832302fd1728d49612_213932_filter_11364162813174478786.png" 
+       alt="" 
+       width="1893" 
+       height="356" 
+        /></p>
 </li>
 <li>
 <p>这个工作流的触发是用户输入的关键词，所以我们需要在Start节点配置字符串类型的参数，用于接收输入的文本，此处命名为query：
-
-<img src="start-node-settings.png" alt=""  width="1071" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/start-node-settings_hu7170d3d9de97b98aab8fa85ea34f823c_50388_filter_2258492973844652233.png" 
+       alt="" 
+       width="1071" 
+       height="175" 
+        /></p>
 </li>
 <li>
 <p>关键词信息需要流向Google Web Search插件，由其完成文本处理和检索任务，这里的操作包括：</p>
@@ -282,8 +300,11 @@
 <ul>
 <li>设置为上一步骤中的query</li>
 <li>将开始节点右侧和插件节点左侧连接起来，表示任务之间的顺序
-
-<img src="google-web-search-plugin-settings.png" alt=""  width="1430" height="40%"  /></li>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/google-web-search-plugin-settings_hua81bb330daf12fcb8ac0f5b4b58dd5bc_140914_filter_7925371366489610861.png" 
+       alt="" 
+       width="1430" 
+       height="258" 
+        /></li>
 </ul>
 <p>此外，我们还可以设置另外两个参数：</p>
 <ul>
@@ -293,34 +314,55 @@
 <ol start="7">
 <li>这时我们可以先点击右上角的“Test run”测试一下输出效果。这里我们输入“chatgpt”为例，可以看到Coze花费3秒钟成功运行了这个工作流。点击插件节点右上角的“Display result”可以查看其处理任务的具体结果：</li>
 </ol>
-<p>
-<img src="run-test-result-example.png" alt=""  width="1893" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/run-test-result-example_hu22fd4ef587a25953d09698af54d5b7fb_224803_filter_11364162813174478786.png" 
+       alt="" 
+       width="1893" 
+       height="356" 
+        /></p>
 <ol start="8">
 <li>我希望这个工作流最终输出的信息包括：每个检索结果的标题、描述，以及对应的链接。而这些信息是混杂在Google Web Search插件的输出结果中的，那么我需要一个Code节点来提取这些信息。</li>
 </ol>
 <p>将Code节点置于插件节点和End节点之间后，input参数设置为插件节点输出的结果，然后点击Edit in IDE进入比代码编辑页面：
-
-<img src="code-node-settings.png" alt=""  width="1504" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/code-node-settings_huf4c0eba24c866f5982650c322c52fe20_195175_filter_17360301189345317171.png" 
+       alt="" 
+       width="1504" 
+       height="356" 
+        /></p>
 <ol start="9">
 <li>
 <p>目前Code节点支持Python和JavaScript两种语言。如果你不会写代码，也可以通过在内置的AI中输入自然语言prompt让AI帮你写。写完之后点击“Test Code”测试代码是否可以正常运行：
-
-<img src="test-code.png" alt=""  width="1865" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/test-code_hudbce08588177170a8c10160fc0e2ac6e_257555_filter_12742600298672479434.png" 
+       alt="" 
+       width="1865" 
+       height="356" 
+        /></p>
 </li>
 <li>
 <p>确定代码运行正常后，我们可以再次测试整个工作流的运行情况。虽然此时我们已经能够从Google搜索结果中提取相应的结果标题、链接、摘要，但所有的信息都堆在一起，所以我们还需要一个LLM节点来帮助我们组织信息。为了保证输出结果的质量，prompt中要尽可能讲清楚背景信息：
-
-<img src="code-node-result.png" alt=""  width="1890" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/code-node-result_hu28a5d6c6f061c36688b7364a857f7420_254943_filter_16845442382760299619.png" 
+       alt="" 
+       width="1890" 
+       height="356" 
+        /></p>
 </li>
 </ol>
-<p>
-<img src="llm-node-settings.png" alt=""  width="1347" height="40%"  /></p>
+<p><img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/llm-node-settings_hu094100ef24150510e8d19f7525953863_122298_filter_8533017755852625275.png" 
+       alt="" 
+       width="1347" 
+       height="314" 
+        /></p>
 <h2 id="如何将工作流应用在coze-bot中">如何将工作流应用在Coze Bot中</h2>
 <p>测试工作流能够正常运行后，我们可以点击右上角的“Publish”按钮进行发布，然后在Bot中添加这个工作流（注意：工作流需要发布后才能添加到Bot中）：
-
-<img src="add-workflow.png" alt=""  width="1884" height="40%"  /></p>
-<p>
-<img src="result-after-adding-workflow.png" alt=""  width="1273" height="40%"  /></p>
+<img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/add-workflow_hu23e1ac0c538fb8a27a2442b40913ee99_123341_filter_1439458283294109490.png" 
+       alt="" 
+       width="1884" 
+       height="356" 
+        /></p>
+<p><img src="/zh-cn/posts/how-to-create-a-workflow-in-coze/result-after-adding-workflow_hu53b21542ff87b9efbf8942a523b96659_117154_filter_2858343295432685065.png" 
+       alt="" 
+       width="1273" 
+       height="314" 
+        /></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">

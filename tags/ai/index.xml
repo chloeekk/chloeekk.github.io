@@ -11,7 +11,7 @@
     <guid>https://chloevolution.com/posts/midjourney-advanced-tutorial/</guid>
     <description><![CDATA[In 《Midjourney Tutorial for Beginners》, we covered Midjourney&rsquo;s basic setup, commands, parameters, and image generation methods. This article will introduce more advanced techniques to help generate images that better match your expectations.
 Advanced Prompt Parameters Quality The --quality or --q parameter enhances image details without increasing resolution:
- Default value: 1 Acceptable values: 0.25, 0.5, 1 (Values above 1 default to 1)   Stylize Lower Stylize values produce literal interpretations, while higher values increase artistic interpretation:]]></description>
+ Default value: 1 Acceptable values: 0.25, 0.5, 1 (Values above 1 default to 1)  Stylize Lower Stylize values produce literal interpretations, while higher values increase artistic interpretation:]]></description>
 </item>
 <item>
     <title>Midjourney Tutorial for Beginners</title>
@@ -20,8 +20,8 @@ Advanced Prompt Parameters Quality The --quality or --q parameter enhances image
     <author>Chloe</author>
     <guid>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</guid>
     <description><![CDATA[Basic Settings Sending the /settings command to Midjourney Bot reveals configurable options:
-Model Version Control  The first dropdown menu selects Midjourney’s image generation models, which differ in artistic tendencies and parameter compatibility:
- Midjourney Model: Native model for photorealistic and stylized images. Default version is V6.1. Niji Model: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.  Stylization Control  The second row controls artistic interpretation strength (higher values = more stylized results):]]></description>
+Model Version Control The first dropdown menu selects Midjourney’s image generation models, which differ in artistic tendencies and parameter compatibility:
+ Midjourney Model: Native model for photorealistic and stylized images. Default version is V6.1. Niji Model: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.  Stylization Control The second row controls artistic interpretation strength (higher values = more stylized results):]]></description>
 </item>
 <item>
     <title>How to use Midjourney CREF</title>
@@ -56,7 +56,7 @@ To give an example that is not very appropriate but easy to understand, we are a
     <author>Chloe</author>
     <guid>https://chloevolution.com/posts/how-to-create-bot-on-coze/</guid>
     <description><![CDATA[What is Coze? Coze is an AI chatbot and app editorial development platform launched by ByteDance. By integrating several plug-ins, Coze&rsquo;s Bot capabilities are greatly expanded and can be applied to various scenarios, such as chatbot, data analytics, and content collection.
-Coze page introduction  After successfully registering and entering Coze, on the homepage, you will first see an assistant bot, which will guide you step by step to understand the features and functions of Coze.]]></description>
+Coze page introduction After successfully registering and entering Coze, on the homepage, you will first see an assistant bot, which will guide you step by step to understand the features and functions of Coze.]]></description>
 </item>
 <item>
     <title>Expanding Horizons: ChatGPT Mirror Sites Empowering Seamless Conversations and Accessibility</title>
