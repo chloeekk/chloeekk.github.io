@@ -3,9 +3,17 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Apr 2025 08:35:37 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>电商落地页高效转化秘诀</title>
+    <link>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</link>
+    <pubDate>Sun, 20 Apr 2025 08:35:37 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</guid>
+    <description><![CDATA[什么是电商落地页？ 定义 用户通过广告/外部链接直接访问的独立页面 直达入口：用户从广告、社交媒体链接、搜索结果页等外部渠道点击后，直接跳转至该页]]></description>
+</item>
+<item>
     <title>如何防止Hugo搭建的网站内容被盗</title>
     <link>https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/</link>
     <pubDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/</guid>
     <description><![CDATA[最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用]]></description>
-</item>
-<item>
-    <title>2024 回顾</title>
-    <link>https://chloevolution.com/zh-cn/posts/2024-review/</link>
-    <pubDate>Sun, 05 Jan 2025 17:40:42 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/2024-review/</guid>
-    <description><![CDATA[年末各种事情掺杂，除了工作还要计划春节的旅行和订酒店订车票，2024年的回顾到今天才断断续续写完。有不少感受但都过于碎片化，希望新的一年能恢]]></description>
 </item>
 </channel>
 </rss>

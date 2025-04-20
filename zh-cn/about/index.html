@@ -141,6 +141,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-04-20";
+    var value = dataMap.get(key);
+    var wordCount =  5262 ;
+    var link = "/zh-cn/posts/ecommerce-landing-page/";
+    var title = "电商落地页高效转化秘诀";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-04-19";
     var value = dataMap.get(key);
     var wordCount =  1839 ;
