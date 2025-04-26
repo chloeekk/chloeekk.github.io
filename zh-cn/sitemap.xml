@@ -2,16 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/categories/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/"
@@ -20,7 +11,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/"
@@ -28,6 +19,24 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/posts/command-for-creating-landing-page-copy/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/categories/"
                     /></url><url>
             <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -51,7 +60,7 @@
                     /></url><url>
             <loc>https://chloevolution.com/zh-cn/tags/%E8%90%BD%E5%9C%B0%E9%A1%B5/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/zh-cn/categories/%E8%90%BD%E5%9C%B0%E9%A1%B5/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/hugo/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/tags/hugo/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/tags/hugo/"
@@ -60,7 +69,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/tags/hugo/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/hugo/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/categories/hugo/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/categories/hugo/"
@@ -69,7 +78,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/categories/hugo/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/"
@@ -78,7 +87,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/saas-landing-page/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/saas-landing-page/</loc><lastmod>2025-04-16T20:57:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/saas-landing-page/"
@@ -96,7 +105,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</loc><lastmod>2025-04-12T16:02:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</loc><lastmod>2025-04-12T16:02:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/creating-location-specific-landing-pages/"
@@ -105,7 +114,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/ai/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/tags/ai/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/tags/ai/"
@@ -114,7 +123,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/tags/ai/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/ai/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/categories/ai/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/categories/ai/"
@@ -123,7 +132,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/categories/ai/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/midjourney/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/tags/midjourney/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/tags/midjourney/"
@@ -132,7 +141,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/tags/midjourney/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</loc><lastmod>2025-03-26T07:54:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/midjourney-advanced-tutorial/"
@@ -141,7 +150,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</loc><lastmod>2025-03-25T07:54:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</loc><lastmod>2025-03-25T07:54:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/"

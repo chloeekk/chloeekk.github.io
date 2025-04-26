@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 20 Apr 2025 08:35:37 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 26 Apr 2025 14:00:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>落地页文案prompt模板</title>
+    <link>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</link>
+    <pubDate>Sat, 26 Apr 2025 14:00:35 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</guid>
+    <description><![CDATA[利用prompt命令生成落地页文案的前提是对落地页的结构以及各个模块的文案特征足够了解，才能够引导AI生成合适的、能够带来转化的文案。 落地页]]></description>
+</item>
+<item>
     <title>电商落地页高效转化秘诀</title>
     <link>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</link>
     <pubDate>Sun, 20 Apr 2025 08:35:37 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/</guid>
     <description><![CDATA[为什么必须区分Cohort与非Cohort？ 如果把用户行为看作一场马拉松比赛： Cohort分析像跟踪同一批选手的全程表现（例如「3月加入的用]]></description>
-</item>
-<item>
-    <title>飞书多维表格&#43;DeepSeek=私人定制求职助手</title>
-    <link>https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/</link>
-    <pubDate>Sun, 02 Mar 2025 09:55:23 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/</guid>
-    <description><![CDATA[最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用]]></description>
 </item>
 </channel>
 </rss>
