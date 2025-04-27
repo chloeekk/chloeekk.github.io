@@ -141,6 +141,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-04-27";
+    var value = dataMap.get(key);
+    var wordCount =  1079 ;
+    var link = "/posts/minimalist-3d-illustration-style-prompt/";
+    var title = "Minimalist 3D Illustration Style Prompt (With Complete Code)";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-04-26";
     var value = dataMap.get(key);
     var wordCount =  1108 ;

@@ -2,6 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/categories/"
+                    /></url><url>
             <loc>https://chloevolution.com/zh-cn/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -20,6 +29,19 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/"
                     /></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://chloevolution.com/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://chloevolution.com/zh-cn/tags/"
+                    /></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/zh-cn/categories/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/zh-cn/tags/%E8%90%BD%E5%9C%B0%E9%A1%B5/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/zh-cn/categories/%E8%90%BD%E5%9C%B0%E9%A1%B5/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</loc><lastmod>2025-04-26T14:00:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -29,27 +51,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/categories/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://chloevolution.com/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://chloevolution.com/zh-cn/tags/"
-                    /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/ecommerce-landing-page/"
@@ -58,8 +60,6 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/tags/%E8%90%BD%E5%9C%B0%E9%A1%B5/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://chloevolution.com/zh-cn/categories/%E8%90%BD%E5%9C%B0%E9%A1%B5/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://chloevolution.com/zh-cn/tags/hugo/</loc><lastmod>2025-04-19T10:11:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -96,7 +96,7 @@
                     hreflang="zh-cn"
                     href="https://chloevolution.com/zh-cn/posts/saas-landing-page/"
                     /></url><url>
-            <loc>https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/</loc><lastmod>2025-04-13T10:07:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/</loc><lastmod>2025-04-13T10:07:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/"
