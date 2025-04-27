@@ -3,9 +3,17 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 26 Apr 2025 14:00:35 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Apr 2025 07:47:11 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>极简3D插画风格Prompt（附完整代码）</title>
+    <link>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</link>
+    <pubDate>Sun, 27 Apr 2025 07:47:11 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</guid>
+    <description><![CDATA[极简3D插画风格特点 基础几何形状 以简单几何体（球体、立方体、圆柱体）为基础，避免复杂结构，通过组合或变形形成视觉主体。 低细节处理 模型表面减少]]></description>
+</item>
+<item>
     <title>落地页文案prompt模板</title>
     <link>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</link>
     <pubDate>Sat, 26 Apr 2025 14:00:35 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/user-quality-assessment-in-digital-marketing/</guid>
     <description><![CDATA[为什么用户质量评估至关重要？ 数字营销的核心竞争已从“获取流量”转向“筛选优质用户”。随着流量成本攀升和用户行为复杂化，单纯追求用户数量会导致]]></description>
-</item>
-<item>
-    <title>一文讲明白数字营销中的Cohort和非Cohort</title>
-    <link>https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/</link>
-    <pubDate>Sat, 15 Mar 2025 08:56:04 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/</guid>
-    <description><![CDATA[为什么必须区分Cohort与非Cohort？ 如果把用户行为看作一场马拉松比赛： Cohort分析像跟踪同一批选手的全程表现（例如「3月加入的用]]></description>
 </item>
 </channel>
 </rss>

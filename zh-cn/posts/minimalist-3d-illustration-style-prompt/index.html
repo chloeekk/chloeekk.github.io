@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>极简3D插画风格Prompt（附完整代码） - Chloevolution</title>
+
+        <link rel="canonical" href="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" /><meta name="Description" content="Chloe&#39;s Blog"><meta property="og:title" content="极简3D插画风格Prompt（附完整代码）" />
+<meta property="og:description" content="极简3D插画风格特点 基础几何形状 以简单几何体（球体、立方体、圆柱体）为基础，避免复杂结构，通过组合或变形形成视觉主体。 低细节处理 模型表面减少" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" /><meta property="og:image" content="https://chloevolution.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-04-27T07:47:11+08:00" />
+<meta property="article:modified_time" content="2025-04-27T07:47:11+08:00" /><meta property="og:site_name" content="Chloevolution" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://chloevolution.com/logo.png"/>
+
+<meta name="twitter:title" content="极简3D插画风格Prompt（附完整代码）"/>
+<meta name="twitter:description" content="极简3D插画风格特点 基础几何形状 以简单几何体（球体、立方体、圆柱体）为基础，避免复杂结构，通过组合或变形形成视觉主体。 低细节处理 模型表面减少"/>
+<meta name="application-name" content="Chloevolution">
+<meta name="apple-mobile-web-app-title" content="Chloevolution"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" /><link rel="prev" href="https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "极简3D插画风格Prompt（附完整代码）",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chloevolution.com\/zh-cn\/posts\/minimalist-3d-illustration-style-prompt\/"
+        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "AI, Midjourney","wordcount":  2709 ,
+        "url": "https:\/\/chloevolution.com\/zh-cn\/posts\/minimalist-3d-illustration-style-prompt\/","datePublished": "2025-04-27T07:47:11+08:00","dateModified": "2025-04-27T07:47:11+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
+                    "width":  4032 ,
+                    "height":  3024 
+                }},"author": {
+                "@type": "Person",
+                "name": "Chloe"
+            },"description": ""
+    }
+    </script><style>
+             
+            body {
+                  -webkit-user-select: none;   
+                  -moz-user-select: none;      
+                  -ms-user-select: none;       
+                  user-select: none;
+                }
+        </style>
+    </head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 所有文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><a class="menu-item" href="/zh-cn/about/"> 关于 </a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/minimalist-3d-illustration-style-prompt/">English</option><option value="/zh-cn/posts/minimalist-3d-illustration-style-prompt/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/zh-cn/posts/" title="">所有文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a class="menu-item" href="/zh-cn/about/" title="">关于</a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/minimalist-3d-illustration-style-prompt/">English</option><option value="/zh-cn/posts/minimalist-3d-illustration-style-prompt/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">极简3D插画风格Prompt（附完整代码）</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chloe</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/ai/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>AI</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-04-27">2025-04-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2709 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 6 分钟&nbsp;<span id="/zh-cn/posts/minimalist-3d-illustration-style-prompt/" class="leancloud_visitors" data-flag-title="极简3D插画风格Prompt（附完整代码）">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;次阅读</span>
+        
+    
+</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#极简3d插画风格特点">极简3D插画风格特点</a></li>
+    <li><a href="#极简3d插画风格适用场景">极简3D插画风格适用场景</a>
+      <ul>
+        <li><a href="#数字界面设计uiux">数字界面设计（UI/UX）</a></li>
+        <li><a href="#品牌宣传与营销">品牌宣传与营销</a></li>
+        <li><a href="#教育科普内容">教育/科普内容</a></li>
+        <li><a href="#动态媒体与广告">动态媒体与广告</a></li>
+        <li><a href="#产品演示与包装">产品演示与包装</a></li>
+        <li><a href="#出版物与杂志">出版物与杂志</a></li>
+        <li><a href="#游戏与虚拟场景">游戏与虚拟场景</a></li>
+      </ul>
+    </li>
+    <li><a href="#极简3d插画风格完整prompt">极简3D插画风格完整Prompt</a></li>
+    <li><a href="#为什么使用json格式prompt">为什么使用JSON格式Prompt</a></li>
+    <li><a href="#极简3d插画风格prompt解析">极简3D插画风格Prompt解析</a>
+      <ul>
+        <li><a href="#代码结构构成">代码结构构成</a>
+          <ul>
+            <li><a href="#整体框架">整体框架</a></li>
+            <li><a href="#层级特征">层级特征</a></li>
+          </ul>
+        </li>
+        <li><a href="#关于-pre-style-的补充">关于 <code>&lt;pre style...&gt;</code> 的补充</a>
+          <ul>
+            <li><a href="#被忽略的html包装层">被忽略的HTML包装层</a></li>
+            <li><a href="#技术定位">技术定位</a></li>
+          </ul>
+        </li>
+        <li><a href="#prompt逐行解读">Prompt逐行解读</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="极简3d插画风格特点">极简3D插画风格特点</h2>
+<ul>
+<li>
+<p><strong>基础几何形状</strong><br>
+以简单几何体（球体、立方体、圆柱体）为基础，避免复杂结构，通过组合或变形形成视觉主体。</p>
+</li>
+<li>
+<p><strong>低细节处理</strong><br>
+模型表面减少纹理与装饰性细节，仅保留必要轮廓特征，强调干净利落的整体形态。</p>
+</li>
+<li>
+<p><strong>柔和平稳的配色</strong><br>
+多用低饱和度色调（如莫兰迪色系），明暗对比温和，避免高反差或荧光色带来的视觉冲击。</p>
+</li>
+<li>
+<p><strong>元素高度精简</strong><br>
+画面仅保留核心视觉信息，剔除冗余背景或装饰元素，通过留白强化主体聚焦。</p>
+</li>
+<li>
+<p><strong>抽象化表达</strong><br>
+物体形态弱化写实性，通过比例调整或符号化设计传递概念，例如用简化的云朵轮廓代替细节刻画。</p>
+</li>
+<li>
+<p><strong>轻量化质感</strong><br>
+材质表现偏向哑光或半透明效果，避免复杂光影反射，金属、玻璃等元素仅用基础高光暗示。</p>
+</li>
+<li>
+<p><strong>扁平化空间感</strong><br>
+弱化透视纵深，多采用平行视角或轻微轴测投影，减少场景层次堆砌感。</p>
+</li>
+<li>
+<p><strong>功能导向设计</strong><br>
+服务于信息传达或界面交互需求，强调视觉符号的易读性与快速识别性，避免纯装饰性设计。</p>
+</li>
+</ul>
+<h2 id="极简3d插画风格适用场景">极简3D插画风格适用场景</h2>
+<p>极简3D插画风格的核心优势在于：</p>
+<ul>
+<li><strong>高效传达</strong>：需快速传递核心信息的场景（如广告、教学）。</li>
+<li><strong>现代感需求</strong>：科技、互联网、新兴消费品牌等追求年轻化视觉的领域。</li>
+<li><strong>轻量化要求</strong>：对加载速度、多端适配有较高限制的数字媒介（如移动端、网页）。</li>
+</ul>
+<p>通过平衡美学与功能性，极简3D插画在强调清晰、高效沟通的场景中具有广泛适用性。</p>
+<p>其适用的场景主要包括以下领域：</p>
+<h3 id="数字界面设计uiux">数字界面设计（UI/UX）</h3>
+<ul>
+<li><strong>界面图标/动效</strong>：适合APP、网页的引导页、功能图标或交互动画，通过简洁的3D形态提升现代感，同时避免视觉干扰。</li>
+<li><strong>数据可视化</strong>：用几何化图表简化复杂信息，如金融、健康类应用的统计模块。</li>
+</ul>
+<h3 id="品牌宣传与营销">品牌宣传与营销</h3>
+<ul>
+<li><strong>品牌主视觉</strong>：科技、生活方式类品牌常用此风格传递年轻化、轻量化的品牌调性（如电子产品宣传、社交媒体广告）。</li>
+<li><strong>IP形象设计</strong>：通过抽象化角色降低设计复杂度，增强记忆点（如吉祥物、表情包）。</li>
+</ul>
+<h3 id="教育科普内容">教育/科普内容</h3>
+<ul>
+<li><strong>说明性插图</strong>：用于课件、科普视频或手册，简化抽象概念（如人体结构、机械原理）。</li>
+<li><strong>信息图设计</strong>：将流程、数据转化为易理解的3D图形，提升阅读效率。</li>
+</ul>
+<h3 id="动态媒体与广告">动态媒体与广告</h3>
+<ul>
+<li><strong>短视频/动效广告</strong>：轻量化渲染适合快速传播的短视频平台（如抖音、Instagram），降低加载压力。</li>
+<li><strong>动态海报</strong>：结合轻微动画增强视觉吸引力，但保持整体风格简洁。</li>
+</ul>
+<h3 id="产品演示与包装">产品演示与包装</h3>
+<ul>
+<li><strong>电商视觉</strong>：展示产品外观或使用场景时，弱化背景细节，聚焦主体（如3C产品、家居用品）。</li>
+<li><strong>包装设计</strong>：通过扁平化3D元素传递环保、极简的产品理念。</li>
+</ul>
+<h3 id="出版物与杂志">出版物与杂志</h3>
+<ul>
+<li><strong>书籍/杂志配图</strong>：配合文字内容，用简约3D图形补充视觉信息，避免干扰阅读。</li>
+<li><strong>封面设计</strong>：通过几何化构图传递主题，如科技、设计类书籍。</li>
+</ul>
+<h3 id="游戏与虚拟场景">游戏与虚拟场景</h3>
+<ul>
+<li><strong>轻度游戏设计</strong>：休闲类游戏的角色或场景设计（如解谜、模拟经营类），降低视觉疲劳。</li>
+<li><strong>虚拟空间界面</strong>：元宇宙或VR/AR场景中的导航元素，确保低延迟与易识别性。</li>
+</ul>
+<h2 id="极简3d插画风格完整prompt">极简3D插画风格完整Prompt</h2>
+<p>该Prompt适用JSON语言，适用于ChatGPT 4o等主流AI平台。把中括号内的参数替换为想要绘制的对象即可。我用这个prompt生成了一只3D小狗：
+<img src="/zh-cn/posts/minimalist-3d-illustration-style-prompt/minimalist-3d-illustration-style-prompt-example_hu15a55f8aecb18ad52eb5d2e99ca59655_1233484_filter_4685528408070473410.png" 
+       alt="minimalist-3d-illustration-style-prompt-example" 
+       width="1024" 
+       height="409" 
+        /></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-JSON" data-lang="JSON"><span class="err">Generate</span> <span class="err">a</span> <span class="p">[</span><span class="err">xx</span><span class="p">]</span> <span class="err">with</span> <span class="err">the</span> <span class="err">following</span> <span class="err">JSON</span> <span class="err">profile:</span> 
+
+<span class="err">&lt;pre</span> <span class="err">style=</span><span class="s2">&#34;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; overflow-wrap: break-word; white-space: pre-wrap;&#34;</span><span class="err">&gt;</span><span class="p">{</span>
+  <span class="nt">&#34;art_style_profile&#34;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nt">&#34;style_name&#34;</span><span class="p">:</span> <span class="s2">&#34;Minimalist 3D Illustration&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;visual_elements&#34;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&#34;shape_language&#34;</span><span class="p">:</span> <span class="s2">&#34;Rounded edges, smooth and soft forms with simplified geometry&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;colors&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;primary_palette&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Soft beige, light gray, warm orange&#34;</span><span class="p">],</span>
+        <span class="nt">&#34;accent_colors&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Warm orange for focal elements&#34;</span><span class="p">],</span>
+        <span class="nt">&#34;shading&#34;</span><span class="p">:</span> <span class="s2">&#34;Soft gradients with smooth transitions, avoiding harsh shadows or highlights&#34;</span>
+      <span class="p">},</span>
+      <span class="nt">&#34;lighting&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Soft, diffused lighting&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;source_direction&#34;</span><span class="p">:</span> <span class="s2">&#34;Above and slightly to the right&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;shadow_style&#34;</span><span class="p">:</span> <span class="s2">&#34;Subtle and diffused, no sharp or high-contrast shadows&#34;</span>
+      <span class="p">},</span>
+      <span class="nt">&#34;materials&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;surface_texture&#34;</span><span class="p">:</span> <span class="s2">&#34;Matte, smooth surfaces with subtle shading&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;reflectivity&#34;</span><span class="p">:</span> <span class="s2">&#34;Low to none, avoiding glossiness&#34;</span>
+      <span class="p">},</span>
+      <span class="nt">&#34;composition&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;object_presentation&#34;</span><span class="p">:</span> <span class="s2">&#34;Single, central object displayed in isolation with ample negative space&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;perspective&#34;</span><span class="p">:</span> <span class="s2">&#34;Slightly angled, giving a three-dimensional feel without extreme depth&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;background&#34;</span><span class="p">:</span> <span class="s2">&#34;Solid, muted color that complements the object without distraction&#34;</span>
+      <span class="p">},</span>
+      <span class="nt">&#34;typography&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;font_style&#34;</span><span class="p">:</span> <span class="s2">&#34;Minimalistic, sans-serif&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;text_placement&#34;</span><span class="p">:</span> <span class="s2">&#34;Bottom-left corner with small, subtle text&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;color&#34;</span><span class="p">:</span> <span class="s2">&#34;Gray, low-contrast against the background&#34;</span>
+      <span class="p">},</span>
+      <span class="nt">&#34;rendering_style&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;technique&#34;</span><span class="p">:</span> <span class="s2">&#34;3D render with simplified, low-poly aesthetics&#34;</span><span class="p">,</span>
+        <span class="nt">&#34;detail_level&#34;</span><span class="p">:</span> <span class="s2">&#34;Medium detail, focusing on form and color over texture or intricacy&#34;</span>
+      <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="nt">&#34;purpose&#34;</span><span class="p">:</span> <span class="s2">&#34;To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity.&#34;</span>
+  <span class="p">}</span>
+<span class="p">}</span><span class="err">&lt;/pre&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="为什么使用json格式prompt">为什么使用JSON格式Prompt</h2>
+<p><strong>本质</strong>：一种<strong>结构化指令集</strong>，将自然语言描述转化为机器可解析的<strong>参数矩阵</strong>  。
+<strong>与传统Prompt的区别</strong>： </p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>自由文本Prompt</th>
+<th>JSON Prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>结构</td>
+<td>&ldquo;画一个圆润的茶杯，用米白色&hellip;&rdquo;</td>
+<td>分层参数控制（形状/颜色/材质独立配置）</td>
+</tr>
+<tr>
+<td>精度</td>
+<td>依赖模型理解能力</td>
+<td>强制锁定关键参数</td>
+</tr>
+<tr>
+<td>适用场景</td>
+<td>创意发散</td>
+<td>工业化标准输出</td>
+</tr>
+</tbody>
+</table>
+<p><strong>典型应用场景</strong>：</p>
+<ul>
+<li>企业品牌视觉规范（确保所有生成图风格统一）</li>
+<li>跨平台内容生成（用同一套JSON适配Midjourney/DALL·E/Stable Diffusion）</li>
+</ul>
+<h2 id="极简3d插画风格prompt解析">极简3D插画风格Prompt解析</h2>
+<h3 id="代码结构构成">代码结构构成</h3>
+<h4 id="整体框架">整体框架</h4>
+<p>这是一个 <strong>标准JSON结构</strong>，采用<strong>三级嵌套层级</strong>，核心围绕艺术风格配置文件构建：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">Root
+├─ art_style_profile (风格主容器)
+   ├─ style_name (风格名称)
+   ├─ visual_elements (视觉元素容器)
+   │   ├─ 7个核心视觉模块
+   │   └─ 嵌套多层属性
+   └─ purpose (设计目标声明)
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="层级特征">层级特征</h4>
+<ul>
+<li><strong>一级结构</strong>：<code>art_style_profile</code> 作为根对象</li>
+<li><strong>二级结构</strong>：<code>style_name</code> + <code>visual_elements</code> + <code>purpose</code> 三元体系</li>
+<li><strong>三级结构</strong>：<code>visual_elements</code> 下分设：
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">shape_language
+colors
+lighting
+materials
+composition
+typography
+rendering_style
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<h3 id="关于-pre-style-的补充">关于 <code>&lt;pre style...&gt;</code> 的补充</h3>
+<h4 id="被忽略的html包装层">被忽略的HTML包装层</h4>
+<p>原代码块起始的：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">pre</span> <span class="na">style</span><span class="o">=</span><span class="s">&#34;caret-color:...; color:...; font-style:...;...&#34;</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>是 <strong>HTML展示层代码</strong>，与JSON数据本身无关。其作用为：</p>
+<ul>
+<li><strong>视觉格式化</strong>：定义代码块的显示样式</li>
+<li><strong>关键样式参数</strong>：
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">caret-color</span><span class="o">:</span> <span class="nt">rgb</span><span class="o">(</span><span class="nt">0</span><span class="o">,</span> <span class="nt">0</span><span class="o">,</span> <span class="nt">0</span><span class="o">)</span>    <span class="c">/* 输入光标颜色 */</span>
+<span class="nt">white-space</span><span class="o">:</span> <span class="nt">pre-wrap</span>        <span class="c">/* 保留换行但允许自动换行 */</span>
+<span class="nt">overflow-wrap</span><span class="o">:</span> <span class="nt">break-word</span>    <span class="c">/* 长单词强制换行 */</span>
+<span class="nt">color</span><span class="o">:</span> <span class="nt">rgb</span><span class="o">(</span><span class="nt">0</span><span class="o">,</span> <span class="nt">0</span><span class="o">,</span> <span class="nt">0</span><span class="o">)</span>          <span class="c">/* 纯黑色文字 */</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<h4 id="技术定位">技术定位</h4>
+<ul>
+<li><strong>非数据内容</strong>：此部分不属于JSON数据结构</li>
+<li><strong>展示层代码</strong>：仅用于在网页/编辑器中呈现JSON时的可视化效果</li>
+<li><strong>实际开发中</strong>：在真正的JSON配置文件中不应包含此类HTML标签</li>
+</ul>
+<h3 id="prompt逐行解读">Prompt逐行解读</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&#34;art_style_profile&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 艺术风格的整体配置容器
+</span><span class="c1"></span>    <span class="nt">&#34;style_name&#34;</span><span class="p">:</span> <span class="s2">&#34;Minimalist 3D Illustration&#34;</span><span class="p">,</span>  <span class="c1">// 风格名称标识
+</span><span class="c1"></span>    <span class="nt">&#34;visual_elements&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 视觉元素配置容器
+</span><span class="c1"></span>    
+      <span class="c1">// 形状语言配置
+</span><span class="c1"></span>      <span class="nt">&#34;shape_language&#34;</span><span class="p">:</span> <span class="s2">&#34;Rounded edges, smooth and soft forms with simplified geometry&#34;</span><span class="p">,</span>  <span class="c1">// 使用圆角+简化几何形状
+</span><span class="c1"></span>      
+      <span class="nt">&#34;colors&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 色彩配置
+</span><span class="c1"></span>        <span class="nt">&#34;primary_palette&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Soft beige, light gray, warm orange&#34;</span><span class="p">],</span>  <span class="c1">// 主色：中性柔和色系
+</span><span class="c1"></span>        <span class="nt">&#34;accent_colors&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Warm orange for focal elements&#34;</span><span class="p">],</span>  <span class="c1">// 强调色用于焦点元素
+</span><span class="c1"></span>        <span class="nt">&#34;shading&#34;</span><span class="p">:</span> <span class="s2">&#34;Soft gradients with smooth transitions&#34;</span>  <span class="c1">// 柔和的渐变过渡
+</span><span class="c1"></span>      <span class="p">},</span>
+
+      <span class="nt">&#34;lighting&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 光照配置
+</span><span class="c1"></span>        <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;Soft, diffused lighting&#34;</span><span class="p">,</span>  <span class="c1">// 漫射型柔光
+</span><span class="c1"></span>        <span class="nt">&#34;source_direction&#34;</span><span class="p">:</span> <span class="s2">&#34;Above and slightly to the right&#34;</span><span class="p">,</span>  <span class="c1">// 右上方光源
+</span><span class="c1"></span>        <span class="nt">&#34;shadow_style&#34;</span><span class="p">:</span> <span class="s2">&#34;Subtle and diffused&#34;</span>  <span class="c1">// 模糊阴影效果
+</span><span class="c1"></span>      <span class="p">},</span>
+
+      <span class="nt">&#34;materials&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 材质配置
+</span><span class="c1"></span>        <span class="nt">&#34;surface_texture&#34;</span><span class="p">:</span> <span class="s2">&#34;Matte, smooth surfaces&#34;</span><span class="p">,</span>  <span class="c1">// 哑光平滑表面
+</span><span class="c1"></span>        <span class="nt">&#34;reflectivity&#34;</span><span class="p">:</span> <span class="s2">&#34;Low to none&#34;</span>  <span class="c1">// 无反射特性
+</span><span class="c1"></span>      <span class="p">},</span>
+
+      <span class="nt">&#34;composition&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 构图配置
+</span><span class="c1"></span>        <span class="nt">&#34;object_presentation&#34;</span><span class="p">:</span> <span class="s2">&#34;Single, central object in isolation&#34;</span><span class="p">,</span>  <span class="c1">// 中心主体构图
+</span><span class="c1"></span>        <span class="nt">&#34;perspective&#34;</span><span class="p">:</span> <span class="s2">&#34;Slightly angled 3D feel&#34;</span><span class="p">,</span>  <span class="c1">// 轻微角度透视
+</span><span class="c1"></span>        <span class="nt">&#34;background&#34;</span><span class="p">:</span> <span class="s2">&#34;Solid, muted color&#34;</span>  <span class="c1">// 纯色背景
+</span><span class="c1"></span>      <span class="p">},</span>
+
+      <span class="nt">&#34;typography&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 排版配置（适用于含文字的插图）
+</span><span class="c1"></span>        <span class="nt">&#34;font_style&#34;</span><span class="p">:</span> <span class="s2">&#34;Minimalistic, sans-serif&#34;</span><span class="p">,</span>  <span class="c1">// 无衬线字体
+</span><span class="c1"></span>        <span class="nt">&#34;text_placement&#34;</span><span class="p">:</span> <span class="s2">&#34;Bottom-left corner&#34;</span><span class="p">,</span>  <span class="c1">// 左下角定位
+</span><span class="c1"></span>        <span class="nt">&#34;color&#34;</span><span class="p">:</span> <span class="s2">&#34;Gray, low-contrast&#34;</span>  <span class="c1">// 低对比度文字
+</span><span class="c1"></span>      <span class="p">},</span>
+
+      <span class="nt">&#34;rendering_style&#34;</span><span class="p">:</span> <span class="p">{</span>  <span class="c1">// 渲染技术配置
+</span><span class="c1"></span>        <span class="nt">&#34;technique&#34;</span><span class="p">:</span> <span class="s2">&#34;3D render with low-poly aesthetics&#34;</span><span class="p">,</span>  <span class="c1">// 低多边形风格
+</span><span class="c1"></span>        <span class="nt">&#34;detail_level&#34;</span><span class="p">:</span> <span class="s2">&#34;Medium detail&#34;</span>  <span class="c1">// 中等细节程度
+</span><span class="c1"></span>      <span class="p">}</span>
+    <span class="p">},</span>
+    
+    <span class="c1">// 风格的核心设计目标
+</span><span class="c1"></span>    <span class="nt">&#34;purpose&#34;</span><span class="p">:</span> <span class="s2">&#34;To create clean, modern visuals emphasizing simplicity&#34;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>核心设计特征总结</strong>：</p>
+<ol>
+<li><strong>极简主义基调</strong>：通过简化几何形状、有限色盘和负空间运用实现</li>
+<li><strong>3D柔和表现</strong>：低多边形建模配合柔光渐变，营造温暖现代感</li>
+<li><strong>视觉聚焦策略</strong>：中心构图+强调色引导，背景极简避免干扰</li>
+<li><strong>材质统一性</strong>：全场景哑光材质保持视觉一致性</li>
+<li><strong>功能导向排版</strong>：若包含文字，采用隐形设计保持画面纯净</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-04-27</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" data-title="极简3D插画风格Prompt（附完整代码）" data-hashtags="AI,Midjourney"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" data-hashtag="AI"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" data-title="极简3D插画风格Prompt（附完整代码）"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" data-title="极简3D插画风格Prompt（附完整代码）"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" data-title="极简3D插画风格Prompt（附完整代码）"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/ai/">AI</a>,&nbsp;<a href="/zh-cn/tags/midjourney/">Midjourney</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zh-cn/posts/command-for-creating-landing-page-copy/" class="prev" rel="prev" title="落地页文案prompt模板"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>落地页文案prompt模板</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">Chloe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+</div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.485ce22971162ae594e2f22468d97519fb9c08a7112e3a012e8684cfe098b474.js" integrity="sha256-SFziKXEWKuWU4vIkaNl1GfucCKcRLjoBLoaEz+CYtHQ="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-J96VH8CX0X', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body>
+</html>
