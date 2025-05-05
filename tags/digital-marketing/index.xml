@@ -3,7 +3,16 @@
         <title>Digital Marketing - Tag - Chloevolution</title>
         <link>https://chloevolution.com/tags/digital-marketing/</link>
         <description>Digital Marketing - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 26 Apr 2025 14:00:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/digital-marketing/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/digital-marketing/" rel="self" type="application/rss+xml" /><item>
+    <title>SEO Configuration for Hugo Multilingual Websites</title>
+    <link>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</link>
+    <pubDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</guid>
+    <description><![CDATA[Potential Reasons Why Hugo Multilingual Sites Are Not Properly Indexed by Search Engines I recently noticed an issue with newly published articles: Google only indexes one language version of the same article (either Chinese or English). There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues, which may include:
+Multilingual Configuration Issues  Ensure proper multilingual configuration in config.toml or config.yaml, e.]]></description>
+</item>
+<item>
     <title>Landing Page Copy Commands Templates</title>
     <link>https://chloevolution.com/posts/command-for-creating-landing-page-copy/</link>
     <pubDate>Sat, 26 Apr 2025 14:00:35 &#43;0800</pubDate>
@@ -82,15 +91,6 @@ Note: Google has fully transitioned to GA4, and the legacy Google Universal Anal
     <author>Chloe</author>
     <guid>https://chloevolution.com/posts/how-to-do-google-ads-for-business/</guid>
     <description><![CDATA[Introduction to Google Ads How Google Ads Works Google Ads is an online advertising service that allows advertisers to display ads on Google search results pages, YouTube, and other partner websites through an auction system. When users search for keywords related to ads, Google will decide which ads to display in the search results based on a series of factors such as bids, ad quality, and relevance. The core of this process is keywords, and the keywords selected by advertisers will directly affect the exposure and click-through rate of ads.]]></description>
-</item>
-<item>
-    <title>PPC Keyword Analysis Guide</title>
-    <link>https://chloevolution.com/posts/ppc-keyword-analysis/</link>
-    <pubDate>Sun, 06 Oct 2024 07:56:50 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/ppc-keyword-analysis/</guid>
-    <description><![CDATA[Pay-per-click (PPC) advertising has become an important tool for companies to gain traffic and increase conversions. The selection of PPC keywords is directly related to the effectiveness of advertising and the return on investment (ROI). Effective keywords can help ads accurately reach the target audience and ensure that the company&rsquo;s ads stand out when potential customers search for relevant information.
-Classification of PPC keywords PPC keywords are specific words or phrases selected by advertisers when using pay-per-click advertising, which directly affects the exposure and conversion rate of ads.]]></description>
 </item>
 </channel>
 </rss>

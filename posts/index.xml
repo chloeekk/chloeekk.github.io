@@ -3,7 +3,16 @@
         <title>All Posts - Chloevolution</title>
         <link>https://chloevolution.com/posts/</link>
         <description>All Posts | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Apr 2025 07:47:11 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>SEO Configuration for Hugo Multilingual Websites</title>
+    <link>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</link>
+    <pubDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</guid>
+    <description><![CDATA[Potential Reasons Why Hugo Multilingual Sites Are Not Properly Indexed by Search Engines I recently noticed an issue with newly published articles: Google only indexes one language version of the same article (either Chinese or English). There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues, which may include:
+Multilingual Configuration Issues  Ensure proper multilingual configuration in config.toml or config.yaml, e.]]></description>
+</item>
+<item>
     <title>Minimalist 3D Illustration Style Prompt (With Complete Code)</title>
     <link>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</link>
     <pubDate>Sun, 27 Apr 2025 07:47:11 &#43;0800</pubDate>
@@ -92,14 +101,6 @@ Advanced Prompt Parameters Quality The --quality or --q parameter enhances image
     <description><![CDATA[Basic Settings Sending the /settings command to Midjourney Bot reveals configurable options:
 Model Version Control The first dropdown menu selects Midjourney’s image generation models, which differ in artistic tendencies and parameter compatibility:
  Midjourney Model: Native model for photorealistic and stylized images. Default version is V6.1. Niji Model: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.  Stylization Control The second row controls artistic interpretation strength (higher values = more stylized results):]]></description>
-</item>
-<item>
-    <title>How to Evaluate User Quality Across Different Digital Marketing Channels</title>
-    <link>https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/</link>
-    <pubDate>Sun, 16 Mar 2025 08:56:32 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/</guid>
-    <description><![CDATA[Why Is User Quality Assessment Critical? The core competition in digital marketing has shifted from &ldquo;acquiring traffic&rdquo; to &ldquo;screening high-quality users.&rdquo; With rising traffic costs and increasingly complex user behavior, blindly pursuing user quantity leads to resource waste: Low-quality users may generate short-term clicks but fail to deliver long-term returns (e.g., fake clicks, coupon abuse). By evaluating user quality, businesses can precisely identify high-value segments, allocate budgets to conversion-ready users, and avoid ineffective spending.]]></description>
 </item>
 </channel>
 </rss>

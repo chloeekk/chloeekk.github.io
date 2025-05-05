@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Hugo多语言网站SEO配置 - Chloevolution</title>
+
+        <link rel="canonical" href="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" /><meta name="Description" content="Chloe&#39;s Blog"><meta property="og:title" content="Hugo多语言网站SEO配置" />
+<meta property="og:description" content="Hugo 多语言站点未被搜索引擎正确收录的可能原因 我发现近期发布的新文章有个问题：同一篇文章，谷歌只会收录其中一个语言版本（中文或者英文）。也存在两" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" /><meta property="og:image" content="https://chloevolution.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-04-29T07:16:35+08:00" />
+<meta property="article:modified_time" content="2025-04-29T07:16:35+08:00" /><meta property="og:site_name" content="Chloevolution" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://chloevolution.com/logo.png"/>
+
+<meta name="twitter:title" content="Hugo多语言网站SEO配置"/>
+<meta name="twitter:description" content="Hugo 多语言站点未被搜索引擎正确收录的可能原因 我发现近期发布的新文章有个问题：同一篇文章，谷歌只会收录其中一个语言版本（中文或者英文）。也存在两"/>
+<meta name="application-name" content="Chloevolution">
+<meta name="apple-mobile-web-app-title" content="Chloevolution"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" /><link rel="prev" href="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript>
+  
+    
+    
+    <link rel="alternate" hreflang="en" href="https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/" />
+  
+    
+    
+    <link rel="alternate" hreflang="zh-CN" href="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" />
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Hugo多语言网站SEO配置",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/chloevolution.com\/zh-cn\/posts\/seo-configuration-for-hugo-multilingual-websites\/"
+        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo, 数字营销","wordcount":  1553 ,
+        "url": "https:\/\/chloevolution.com\/zh-cn\/posts\/seo-configuration-for-hugo-multilingual-websites\/","datePublished": "2025-04-29T07:16:35+08:00","dateModified": "2025-04-29T07:16:35+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
+                    "width":  4032 ,
+                    "height":  3024 
+                }},"author": {
+                "@type": "Person",
+                "name": "Chloe"
+            },"description": ""
+    }
+    </script><style>
+             
+            body {
+                  -webkit-user-select: none;   
+                  -moz-user-select: none;      
+                  -ms-user-select: none;       
+                  user-select: none;
+                }
+        </style>
+    </head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 所有文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><a class="menu-item" href="/zh-cn/about/"> 关于 </a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/seo-configuration-for-hugo-multilingual-websites/">English</option><option value="/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/zh-cn/posts/" title="">所有文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a class="menu-item" href="/zh-cn/about/" title="">关于</a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/posts/seo-configuration-for-hugo-multilingual-websites/">English</option><option value="/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Hugo多语言网站SEO配置</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chloe</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a>&nbsp;<a href="/zh-cn/categories/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>数字营销</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-04-29">2025-04-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1553 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 4 分钟&nbsp;<span id="/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" class="leancloud_visitors" data-flag-title="Hugo多语言网站SEO配置">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;
+    
+
+    
+        
+
+        
+        
+            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
+                
+                <span id="busuanzi_value_page_pv"></span>&nbsp;次阅读</span>
+        
+    
+</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#hugo-多语言站点未被搜索引擎正确收录的可能原因">Hugo 多语言站点未被搜索引擎正确收录的可能原因</a>
+      <ul>
+        <li><a href="#多语言配置问题">多语言配置问题</a></li>
+        <li><a href="#缺失-hreflang-标签">缺失 <code>hreflang</code> 标签</a></li>
+        <li><a href="#sitemap-生成问题">Sitemap 生成问题</a></li>
+        <li><a href="#内容重复问题seo-冲突">内容重复问题（SEO 冲突）</a></li>
+        <li><a href="#爬虫抓取频率限制">爬虫抓取频率限制</a></li>
+        <li><a href="#github-pages-部署问题">GitHub Pages 部署问题</a></li>
+      </ul>
+    </li>
+    <li><a href="#排查结果">排查结果</a>
+      <ul>
+        <li><a href="#多语言配置问题-1">多语言配置问题</a></li>
+        <li><a href="#缺失-hreflang-标签-1">缺失 <code>hreflang</code> 标签</a></li>
+        <li><a href="#其它可能问题">其它可能问题</a></li>
+      </ul>
+    </li>
+    <li><a href="#hugo添加hreflang标签">Hugo添加hreflang标签</a>
+      <ul>
+        <li><a href="#hreflang是什么">hreflang是什么？</a></li>
+        <li><a href="#hugo--github-pages网站是否需要hreflang">Hugo + GitHub Pages网站是否需要hreflang？</a>
+          <ul>
+            <li><a href="#需要hreflang的情况">需要hreflang的情况</a></li>
+            <li><a href="#无需hreflang的情况">无需hreflang的情况</a></li>
+          </ul>
+        </li>
+        <li><a href="#如何在hugo中添加hreflang标签">如何在Hugo中添加hreflang标签？</a>
+          <ul>
+            <li><a href="#步骤1配置hugo多语言支持">步骤1：配置Hugo多语言支持</a></li>
+            <li><a href="#步骤2在模板中添加hreflang标签">步骤2：在模板中添加hreflang标签</a></li>
+            <li><a href="#步骤3验证实现">步骤3：验证实现</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="hugo-多语言站点未被搜索引擎正确收录的可能原因">Hugo 多语言站点未被搜索引擎正确收录的可能原因</h2>
+<p>我发现近期发布的新文章有个问题：<strong>同一篇文章，谷歌只会收录其中一个语言版本（中文或者英文）</strong>。也存在两个版本同时收录的情况，但很少。于是我开始检查网站是否存在没有正确配置的部分。排查下来存在以下几种可能性：</p>
+<h3 id="多语言配置问题">多语言配置问题</h3>
+<ul>
+<li>确保 <code>config.toml</code> 或 <code>config.yaml</code> 中已正确定义多语言配置，例如：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml">       <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">]</span>
+       <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+       <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;English&#34;</span>
+       <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/en&#34;</span>
+
+       <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh</span><span class="p">]</span>
+       <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+       <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;中文&#34;</span>
+       <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/zh&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>确认每篇文章的 <code>index.md</code> 头部包含语言标识，如 <code>language: en</code> 或 <code>language: zh</code>。</li>
+</ul>
+<h3 id="缺失-hreflang-标签">缺失 <code>hreflang</code> 标签</h3>
+<p>搜索引擎需要 <code>hreflang</code> 标签来识别不同语言版本的页面。若未正确生成，可能导致只索引一种语言。</p>
+<ul>
+<li>在浏览器中右键查看页面源码，搜索 <code>hreflang</code> 标签，确认中英文页面互相指向对方。</li>
+</ul>
+<h3 id="sitemap-生成问题">Sitemap 生成问题</h3>
+<ul>
+<li>访问 <code>yoursite.com/sitemap.xml</code>，确认其中包含中英文所有页面的 URL。</li>
+<li>确保 <code>config.toml</code> 中未通过 <code>disableKinds</code> 禁用 sitemap 生成。</li>
+</ul>
+<h3 id="内容重复问题seo-冲突">内容重复问题（SEO 冲突）</h3>
+<p>若中英文页面 URL 路径完全相同（如 <code>/posts/article1</code>），搜索引擎可能视为重复内容，仅收录其一。</p>
+<h3 id="爬虫抓取频率限制">爬虫抓取频率限制</h3>
+<p>新站点或更新频率低的站点，搜索引擎可能尚未抓取所有页面。</p>
+<h3 id="github-pages-部署问题">GitHub Pages 部署问题</h3>
+<p>我的网站是通过Hugo和GitHub Pages搭建的，所以也需要确认GitHub Pages本身的部署是否正确：</p>
+<ul>
+<li>确认 <code>public</code> 文件夹已正确生成两种语言的静态文件（如 <code>/en/</code> 和 <code>/zh/</code> 目录）。</li>
+<li>检查 GitHub Pages 的构建日志，确保无错误。</li>
+</ul>
+<h2 id="排查结果">排查结果</h2>
+<h3 id="多语言配置问题-1">多语言配置问题</h3>
+<p><code>config.toml</code>文件中已定义英文和中文的多语言配置，但是每篇文章的<code>inded.md</code>头部未包含语言标识。
+<img src="/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/toml-multilingual-settings_hu9d41b3a72fe8c9834a95565788172275_46209_filter_4937607017860944326.png" 
+       alt="toml-multilingual-settings" 
+       width="1382" 
+       height="210" 
+        /></p>
+<p>但因为我使用的是Hugo的文件名后缀多语言方案（如 <code>index.zh-cn.md</code> 和 <code>index.md</code> 作为默认语言），而Hugo默认通过文件名后缀（如 <code>.zh-cn.md</code>）自动匹配语言。例如：</p>
+<ul>
+<li><code>index.md</code> → 默认语言（如 <code>en</code>）</li>
+<li><code>index.zh-cn.md</code> → 中文（需在 <code>config.toml</code> 中定义 <code>zh-cn</code> 语言配置）
+所以无需在 Front Matter 中添加 language 字段，Hugo会通过后缀自动处理。</li>
+</ul>
+<h3 id="缺失-hreflang-标签-1">缺失 <code>hreflang</code> 标签</h3>
+<p>我的网站页面源码中确实没有<code>hreflang</code>标签，需要补充配置。</p>
+<h3 id="其它可能问题">其它可能问题</h3>
+<ul>
+<li>Sitemap 生成问题：我的sitemap分为en和zh-cn两个，包含对应的中英文所有页面的URL，也未禁用sitemap的生成</li>
+<li>中英文页面URL路径是否相同以及部署问题：我生成的<code>public/</code>目录中各语言内容路径正确（如<code>public/en/article1/</code>和<code>public/zh-cn/article1/</code>），说明Hugo已正确识别语言并生成对应页面</li>
+</ul>
+<h2 id="hugo添加hreflang标签">Hugo添加hreflang标签</h2>
+<h3 id="hreflang是什么">hreflang是什么？</h3>
+<p><code>hreflang</code> 是HTML中的属性，用于指定网页的不同语言或地区版本。它通过 <code>&lt;link&gt;</code> 标签在页面头部声明，帮助搜索引擎（如Google）识别同一内容的多语言/区域变体，从而将用户引导至最合适的版本。例如：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;alternate&#34;</span> <span class="na">hreflang</span><span class="o">=</span><span class="s">&#34;en&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://example.com/en/page/&#34;</span> <span class="p">/&gt;</span>
+<span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;alternate&#34;</span> <span class="na">hreflang</span><span class="o">=</span><span class="s">&#34;zh-CN&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://example.com/zh/page/&#34;</span> <span class="p">/&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="hugo--github-pages网站是否需要hreflang">Hugo + GitHub Pages网站是否需要hreflang？</h3>
+<h4 id="需要hreflang的情况">需要hreflang的情况</h4>
+<ol>
+<li><strong>多语言内容</strong>：网站有多个语言版本（如英文、中文）。</li>
+<li><strong>区域定向</strong>：内容针对不同地区调整（如美国英语 <code>en-US</code> 和英国英语 <code>en-GB</code>）。</li>
+<li><strong>SEO优化需求</strong>：希望避免搜索引擎将多语言页面视为重复内容，并提升目标用户的搜索排名。</li>
+</ol>
+<h4 id="无需hreflang的情况">无需hreflang的情况</h4>
+<p>网站仅使用单一语言，无多语言/区域版本。</p>
+<h3 id="如何在hugo中添加hreflang标签">如何在Hugo中添加hreflang标签？</h3>
+<h4 id="步骤1配置hugo多语言支持">步骤1：配置Hugo多语言支持</h4>
+<p>在 <code>config.toml</code> 中定义支持的语言：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">languages</span><span class="p">]</span>
+  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">]</span>
+    <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;English&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+    <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/en&#34;</span>
+  <span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">zh</span><span class="p">]</span>
+    <span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;中文&#34;</span>
+    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+    <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/zh&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h4 id="步骤2在模板中添加hreflang标签">步骤2：在模板中添加hreflang标签</h4>
+<p>在全局头部模板（如 <code>layouts/partials/head.html</code>）中插入以下代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  {{ range .Translations }}
+  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;alternate&#34;</span> <span class="na">hreflang</span><span class="o">=</span><span class="s">&#34;{{ .Language.Lang }}&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span> <span class="p">/&gt;</span>
+  {{ end }}
+  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;alternate&#34;</span> <span class="na">hreflang</span><span class="o">=</span><span class="s">&#34;{{ .Language.Lang }}&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ .Permalink }}&#34;</span> <span class="p">/&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>此代码会为当前页面的所有翻译版本生成对应的 <code>hreflang</code> 标签。</p>
+<h4 id="步骤3验证实现">步骤3：验证实现</h4>
+<ul>
+<li>使用<a href="https://search.google.com/" target="_blank" rel="noopener noreffer ">Google Search Console</a>的“国际定位”报告检查错误。</li>
+<li>通过在线工具（如<a href="https://www.screamingfrog.co.uk/" target="_blank" rel="noopener noreffer ">Screaming Frog</a>）抓取页面，确认标签存在且正确。</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2025-04-29</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" data-title="Hugo多语言网站SEO配置" data-hashtags="Hugo,数字营销"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" data-title="Hugo多语言网站SEO配置"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" data-title="Hugo多语言网站SEO配置"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/" data-title="Hugo多语言网站SEO配置"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/hugo/">Hugo</a>,&nbsp;<a href="/zh-cn/tags/%E6%95%B0%E5%AD%97%E8%90%A5%E9%94%80/">数字营销</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zh-cn/posts/minimalist-3d-illustration-style-prompt/" class="prev" rel="prev" title="极简3D插画风格Prompt（附完整代码）"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>极简3D插画风格Prompt（附完整代码）</a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">Chloe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+    
+        
+        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
+    
+
+    
+        
+            <section>
+                
+                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
+                        
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+
+                
+                    &nbsp;|&nbsp;              
+                
+
+                
+                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
+                        
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+            </section>
+        
+
+        
+        
+    
+</div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.485ce22971162ae594e2f22468d97519fb9c08a7112e3a012e8684cfe098b474.js" integrity="sha256-SFziKXEWKuWU4vIkaNl1GfucCKcRLjoBLoaEz+CYtHQ="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
+            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+            gtag('config', 'G-J96VH8CX0X', { 'anonymize_ip': true });
+        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body>
+</html>

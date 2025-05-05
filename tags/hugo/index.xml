@@ -3,7 +3,16 @@
         <title>Hugo - Tag - Chloevolution</title>
         <link>https://chloevolution.com/tags/hugo/</link>
         <description>Hugo - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>SEO Configuration for Hugo Multilingual Websites</title>
+    <link>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</link>
+    <pubDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</guid>
+    <description><![CDATA[Potential Reasons Why Hugo Multilingual Sites Are Not Properly Indexed by Search Engines I recently noticed an issue with newly published articles: Google only indexes one language version of the same article (either Chinese or English). There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues, which may include:
+Multilingual Configuration Issues  Ensure proper multilingual configuration in config.toml or config.yaml, e.]]></description>
+</item>
+<item>
     <title>Protect Hugo Website Content from Being Copied</title>
     <link>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</link>
     <pubDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</pubDate>
