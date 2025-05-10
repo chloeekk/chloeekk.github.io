@@ -150,6 +150,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-05-10";
+    var value = dataMap.get(key);
+    var wordCount =  10832 ;
+    var link = "/zh-cn/posts/types-of-digital-advertising/";
+    var title = "数字广告类型全解析";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-04-29";
     var value = dataMap.get(key);
     var wordCount =  1553 ;

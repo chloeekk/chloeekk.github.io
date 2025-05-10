@@ -3,7 +3,15 @@
         <title>所有文章 - Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/posts/</link>
         <description>所有文章 | Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 10 May 2025 07:49:06 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>数字广告类型全解析</title>
+    <link>https://chloevolution.com/zh-cn/posts/types-of-digital-advertising/</link>
+    <pubDate>Sat, 10 May 2025 07:49:06 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/types-of-digital-advertising/</guid>
+    <description><![CDATA[数字广告通过多样化形式触达目标用户。本文按定义→定位方式→形式细分→主流平台的结构介绍11类主流广告类型。 1. 搜索广告（Search Ads） 搜]]></description>
+</item>
+<item>
     <title>Hugo多语言网站SEO配置</title>
     <link>https://chloevolution.com/zh-cn/posts/seo-configuration-for-hugo-multilingual-websites/</link>
     <pubDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</pubDate>
@@ -74,14 +82,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</guid>
     <description><![CDATA[在《适合新手的Midjourney教程》中，我们介绍了Midjourney的基本设置、命令、参数以及图片生成的方法。本文想要介绍一些更加进阶]]></description>
-</item>
-<item>
-    <title>适合新手的Midjourney教程</title>
-    <link>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</link>
-    <pubDate>Tue, 25 Mar 2025 07:54:14 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</guid>
-    <description><![CDATA[基础设置 向Midjourney Bot发送 /settings 命令，会得到Midjourney可配置的设置： 模型版本控制 在第一行的下拉框中，可以选择Midjou]]></description>
 </item>
 </channel>
 </rss>
