@@ -150,9 +150,21 @@
 
   var dataMap = new Map();
   
+    var key = "2025-05-11";
+    var value = dataMap.get(key);
+    var wordCount =  626 ;
+    var link = "/posts/bing-shopping-ads/";
+    var title = "What Are the Advantages of Bing Shopping Ads?";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-05-10";
     var value = dataMap.get(key);
-    var wordCount =  2735 ;
+    var wordCount =  2739 ;
     var link = "/posts/types-of-digital-advertising/";
     var title = "Comprehensive Guide to Digital Advertising Types";
     

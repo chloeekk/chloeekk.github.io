@@ -38,7 +38,7 @@ Search ads are text or dynamic ads triggered by user search keywords on search e
 
 
 ## 2. Shopping Ads
-Shopping ads visually showcase **product images, prices, and reviews**, primarily serving e-commerce scenarios. They are **conversion-driven**, typically redirecting users to product pages or carts upon click.  
+Shopping ads visually showcase **product images, prices, and reviews**, primarily serving e-commerce scenarios. They are **conversion-driven**, typically redirecting users to product pages or carts upon click, like [Bing Shopping Ads](https://chloevolution.com/posts/bing-shopping-ads/).  
 ![amazon-sponsored-products-example](amazon-sponsored-products-example.png)
 
 ### Targeting Methods

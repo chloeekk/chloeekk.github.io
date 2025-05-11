@@ -3,9 +3,17 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 10 May 2025 07:49:06 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 May 2025 08:49:10 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Bing购物广告的优势在哪里？</title>
+    <link>https://chloevolution.com/zh-cn/posts/bing-shopping-ads/</link>
+    <pubDate>Sun, 11 May 2025 08:49:10 &#43;0800</pubDate>
+    <author>Chloe</author>
+    <guid>https://chloevolution.com/zh-cn/posts/bing-shopping-ads/</guid>
+    <description><![CDATA[Bing市场份额在持续增长 根据StatCounter（2024年数据），Bing占据全球搜索引擎市场份额约3.42%，是仅次于Google的]]></description>
+</item>
+<item>
     <title>数字广告类型全解析</title>
     <link>https://chloevolution.com/zh-cn/posts/types-of-digital-advertising/</link>
     <pubDate>Sat, 10 May 2025 07:49:06 &#43;0800</pubDate>
@@ -76,14 +84,6 @@
     <author>Chloe</author>
     <guid>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</guid>
     <description><![CDATA[根据谷歌本身的算法机制，你在谷歌上获得的搜索结果会因为你所在的地理位置（或你的搜索词中表现出的地理偏好）而有所不同。对于拥有本地实体店或专门]]></description>
-</item>
-<item>
-    <title>Midjourney进阶教程</title>
-    <link>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</link>
-    <pubDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</guid>
-    <description><![CDATA[在《适合新手的Midjourney教程》中，我们介绍了Midjourney的基本设置、命令、参数以及图片生成的方法。本文想要介绍一些更加进阶]]></description>
 </item>
 </channel>
 </rss>

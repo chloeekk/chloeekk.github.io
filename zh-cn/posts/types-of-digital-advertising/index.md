@@ -40,7 +40,7 @@
 
 
 ## 2. 购物广告（Shopping Ads）
-购物广告是通过直接展示**商品图片、价格、评价**等核心信息的视觉化广告形式，主要服务于电商场景。其特点是**强转化导向**，用户点击广告后通常直接跳转至商品详情页或购物车。
+购物广告是通过直接展示**商品图片、价格、评价**等核心信息的视觉化广告形式，主要服务于电商场景。其特点是**强转化导向**，用户点击广告后通常直接跳转至商品详情页或购物车，如[Bing购物广告](https://chloevolution.com/zh-cn/posts/bing-shopping-ads/)。
 ![amazon-sponsored-products-example](amazon-sponsored-products-example.png)
 
 ### 定位方式
