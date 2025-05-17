@@ -1,5 +1,5 @@
 ---
-title: "如何使用Hugo搭建博客并部署到Github"
+title: "如何使用Hugo搭建博客并部署到GitHub"
 date: 2022-10-20T07:57:53+08:00
 draft: false
 
@@ -10,8 +10,38 @@ tags:
 - Hugo
 ---
 
+我使用的是LoveIt模板来搭建网站。
 
-## 1. 安装Hugo
+## Hugo、GitHub Pages和LoveIt模板三者如何配合起来建站
+一句话总结：**你写文章（Markdown）→ Hugo+LoveIt 加工成网页 → GitHub Pages 把网页放到网上**
+
+### 第一步：你写内容（就像写Word文档）
+- 你在电脑上创建 `.md` 文件（Markdown格式）
+- 内容保存在 `/content` 文件夹里  
+
+### 第二步：Hugo+LoveIt加工（就像打印机+模板）
+1. **Hugo** 读取你的内容
+   - 扫描所有 `.md` 文件
+   - 查看网站配置（如菜单栏、主题颜色）
+2. **LoveIt 主题** 负责美化
+   - 把文字套上好看的网页模板
+   - 自动生成导航栏/侧边栏/页脚
+3. 生成**静态网页文件**
+   - 输出到 `/public` 文件夹
+   - 包含 `.html`、`.css`、图片等（浏览器能直接打开）
+
+### 第三步：GitHub Pages 托管（就像把文件上传网盘）
+1. 你把整个项目上传到 GitHub
+   - 包含：你的文章 + Hugo配置 + LoveIt主题
+2. 设置 GitHub Pages
+   - 告诉 GitHub：「用我仓库里的网页文件（`/public`）建站」
+3. 自动生成网站地址
+   - 默认地址：`你的用户名.github.io/仓库名`
+   - 也可绑定自己的域名（如 `www.chloevolution.com`）
+
+## 配置方法
+
+### 1. 安装Hugo
 
 - Windows:
 
@@ -45,7 +75,7 @@ SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 输入：`hugo version`，如果出现版本信息，则安装成功。
 
-## 2. Hugo 创建新站点
+### 2. Hugo 创建新站点
 
 在 Hugo 所在的文件夹中，右键点击鼠标，选择“Bash here”，输入以下命令创建新站点：
 
@@ -92,7 +122,7 @@ Hugo 使用 `config.toml`、`config.yaml` 或 `config.json` 作为默认网站�
 
 你使用的 hugo 主题。
 
-## 3. 下载主题
+### 3. 下载主题
 
 没有主题，Hugo 就无法启动。
 
@@ -118,7 +148,7 @@ $ echo theme = "PaperMod" >> config.toml
 
 或者你也可以直接将PaperMod下的config.toml文件复制到myblog文件夹下，替换原有的config.toml文件。
 
-### 解决“Error RPC failed; curl 18 transfer closed without outstanding read data remaining”
+#### 解决“Error RPC failed; curl 18 transfer closed without outstanding read data remaining”
 
 下载主题时可能会遇到此问题。主要可能有三个原因：
 
@@ -140,7 +170,7 @@ git clone -b master https://git.xxxxx --depth 1
 
 3.网络问题
 
-## 4.创建文章
+### 4.创建文章
 
 使用以下命令创建新文章：
 
@@ -162,7 +192,7 @@ draft: true
 
 draft 表示“草稿”，默认值为 true，表示编译时会忽略此内容；如果改为 false，则博客会被编译使用。
 
-## 5. 开始写博客
+### 5. 开始写博客
 
 在终端输入：`hugo server -D`，服务默认会占用 1313 端口。
 
@@ -170,7 +200,7 @@ draft 表示“草稿”，默认值为 true，表示编译时会忽略此内容
 
 然后在浏览器中打开 `http://localhost:1313` 就可以看到你的网站了。
 
-## 6. 部署到GitHub页面
+### 6. 部署到GitHub页面
 
 **[GitHub Pages](https://pages.github.com/)**是静态网页（Static Web Page）的集合，这些静态网页由**[GitHub](https://github.com/ )**托管发布，所以叫GitHub+Pages。
 
@@ -226,7 +256,7 @@ git push -u origin master
 - **layouts**: 定义页面布局和模板逻辑，控制网站的呈现方式。
 - **static**: 用于存放静态资源，如图片、CSS、JavaScript 等。这些文件会被直接复制到生成的网站中。
 - **config.toml**: 网站的配置文件，控制网站的基本设置。
-themes: 用于存放网站的主题文件。LoveIt 主题就是在这个文件夹内。
+- **themes**: 用于存放网站的主题文件。LoveIt 主题就是在这个文件夹内。
 
 此外，LoveIt主题还有一些特定的文件夹：
 - **en / zh-cn**: 用于多语言支持，分开存放不同语言的内容。
@@ -238,8 +268,7 @@ themes: 用于存放网站的主题文件。LoveIt 主题就是在这个文件�
 - **tags**: 生成特定标签页面，帮助通过标签组织内容。
 
 ### 运行Hugo后自动生成的文件夹
-这些文件夹是 Hugo 在生成静态网站时创建的，它们存储的是 Hugo 处理后的输出内容或中间文件。你不需要手动创建或修改这些文件夹。
-
+这些文件夹是 Hugo 在生成静态网站时创建的，它们存储的是 Hugo 处理后的输出内容或中间文件。你不需要手动创建或修改这些文件夹：
 - **public**: Hugo 执行 hugo 命令后生成的网站文件会被存放在此。它包含最终的 HTML、CSS、JS、图片等资源，准备部署到服务器上。
 - **resources**: 存放 Hugo Pipes 处理后的资源文件，如压缩后的 CSS、优化后的图片等。这些文件用于提升性能。
 
@@ -277,3 +306,5 @@ themes: 用于存放网站的主题文件。LoveIt 主题就是在这个文件�
 - **static**: 如果文章中引用了图片或其他静态资源，这些资源需要放在 static 文件夹中，Hugo 会将它们复制到最终生成的站点中。
 
 - **config.toml**: 一些全局配置（如网站的语言、默认的主题、菜单等）可能会影响新文章的显示效果。
+
+网站搭建完成后，如果需要监控流量，建议[集成Google Analytics](https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/)。

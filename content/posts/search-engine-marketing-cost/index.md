@@ -7,14 +7,16 @@ draft: false
 
 categories:
 - SEM
+- Digital Marketing
 
 tags:
 - SEM
+- Digital Marketing
 ---
 
 Search Engine Marketing (SEM) is an effective strategy for promoting products or services to potential customers through search engines. The core of SEM is to increase the visibility of brands in search engines through various strategies and tools, thereby attracting more traffic and potential customers. Imagine that your target audience is searching for information related to your products or services online, and your brand happens to appear at the top of the search results, which will undoubtedly greatly increase the chances of users clicking on your website.
 
-The operation of SEM mainly relies on search engine advertising platforms such as Google Ads or Bing Ads. Companies bid on specific keywords to ensure that ads are displayed in relevant searches. When users search for these keywords, they see the ads you bid for them.
+The operation of SEM mainly relies on search engine advertising platforms such as [Google Ads](https://chloevolution.com/posts/how-to-do-google-ads-for-business/) or Bing Ads. Companies bid on specific keywords to ensure that ads are displayed in relevant searches. When users search for these keywords, they see the ads you bid for them.
 
 ## SEM cost statistics
 
@@ -54,7 +56,7 @@ Pay-per-click (PPC) is a core component of SEM. It allows advertisers to obtain 
 
 1. **Bid**: The bid that advertisers set for each keyword directly affects the ranking of their ads in search results. Generally, the higher the bid, the higher the ad will be displayed. In highly competitive industries, advertisers may need to set higher bids to ensure that their ads can get the desired exposure.
 
-2. **Quality Score**: This is a metric that search engines use to evaluate the quality of ads, which affects the ranking and cost per click (CPC) of ads. Quality scores are usually based on the relevance of the ad, the expected click-through rate (CTR), and the user experience of the landing page. High quality scores can not only reduce CPC, but also improve the ranking of ads.
+2. **Quality Score**: This is a metric that search engines use to evaluate the quality of ads, which affects the ranking and [cost per click (CPC)](https://chloevolution.com/posts/cpc-of-keywords/) of ads. Quality scores are usually based on the relevance of the ad, the expected click-through rate (CTR), and the user experience of the landing page. High quality scores can not only reduce CPC, but also improve the ranking of ads.
 
 3. **Level of Competition**: Different keywords have different levels of competition. In popular industries, such as finance and travel, many advertisers are competing to bid, which may result in higher CPCs. In less popular fields, advertisers may only need to pay lower fees to get ad impressions.
 
@@ -166,7 +168,7 @@ Customer acquisition cost is the cost that a company needs to pay to acquire a n
 
 4. **Evaluate customer lifetime value (CLV)**:
 
-Customer lifetime value is the total revenue that a customer may bring during the relationship with the company. Understanding CLV can help companies determine whether it is worth paying higher advertising fees to acquire new customers.
+[Customer lifetime value](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/) is the total revenue that a customer may bring during the relationship with the company. Understanding CLV can help companies determine whether it is worth paying higher advertising fees to acquire new customers.
 
 ### Common SEM Misconceptions
 

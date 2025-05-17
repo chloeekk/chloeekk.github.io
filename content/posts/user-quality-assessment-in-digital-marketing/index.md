@@ -16,7 +16,7 @@ tags:
 ## Why Is User Quality Assessment Critical?  
 The core competition in digital marketing has shifted from "acquiring traffic" to "screening high-quality users." With rising traffic costs and increasingly complex user behavior, blindly pursuing user quantity leads to resource waste: Low-quality users may generate short-term clicks but fail to deliver long-term returns (e.g., fake clicks, coupon abuse). By evaluating user quality, businesses can precisely identify high-value segments, allocate budgets to conversion-ready users, and avoid ineffective spending.  
 
-The essence of user quality assessment lies in identifying real value through [**cohort analysis**](https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing). Traditional traffic metrics often obscure user heterogeneity - users acquired during the same period may generate vastly different value due to channel sources, motivations, and behavioral patterns.  
+The essence of user quality assessment lies in identifying real value through [**cohort analysis**](https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/). Traditional traffic metrics often obscure user heterogeneity - users acquired during the same period may generate vastly different value due to channel sources, motivations, and behavioral patterns.  
 
 
 ## Core Dimensions & Metrics for User Quality Assessment  

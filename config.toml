@@ -648,10 +648,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-J96VH8CX0X"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
@@ -973,6 +973,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 #        Phone = "555-555-555"
 #        RSS = true
 
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
 
 # 添加不蒜子计数
 [params.busuanzi]

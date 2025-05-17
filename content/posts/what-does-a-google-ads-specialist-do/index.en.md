@@ -5,10 +5,12 @@ draft: false
 
 categories:
 - SEM
+- Digital Marketing
 
 tags:
 - SEM
 - Google Ads
+- Digital Marketing
 
 ---
 

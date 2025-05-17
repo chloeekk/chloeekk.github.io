@@ -2,6 +2,13 @@
 title: "The Silent Game Changer: An In-depth Look at Offline Conversion Tracking"
 date: 2023-07-08T15:58:15+08:00
 draft: false
+
+categories:
+- Digital Marketing
+
+tags:
+- Digital Marketing
+
 ---
 ![](/assets/offline-conversion-tracking.png)
 

@@ -1,4 +1,21 @@
-{{- $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
+{{- $original := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
+{{- $watermark := resources.Get "images/watermark.png" -}}
 
-{{/* I use .Title to specify the max-width property */}}
-<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with $image }} width="{{ $image.Width }}" height="40%" {{ end }} {{ with .Title}} style="width: 100%; max-width: {{ . }};"{{ end }}/>
+{{- if and $original $watermark -}}
+  {{- $watermarkResized := $watermark.Resize (printf "%dx" (int (mul $original.Width 0.3))) -}}
+
+  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
+
+  <img src="{{ $processed.RelPermalink | safeURL }}" 
+       alt="{{ .Text }}" 
+       width="{{ $original.Width }}" 
+       height="{{ mul $original.Height 0.4 | int }}" 
+       {{ with .Title }}style="width: 100%; max-width: {{ . }};"{{ end }} />
+
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" 
+       alt="{{ .Text }}" 
+       {{ with $original }}width="{{ .Width }}"{{ end }}
+       {{ with $original }}height="{{ mul .Height 0.4 | int }}"{{ end }}
+       {{ with .Title }}style="width: 100%; max-width: {{ . }};"{{ end }}/>
+{{- end -}}

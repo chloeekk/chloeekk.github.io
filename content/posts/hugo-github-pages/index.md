@@ -276,3 +276,5 @@ Article files are usually in markdown format, containing Front Matter informatio
 - **static**: If images or other static resources are referenced in the article, these resources need to be placed in the static folder, and Hugo will copy them to the final generated site.
 
 - **config.toml**: Some global configurations (such as the website language, default theme, menu, etc.) may affect the display of new articles.
+
+After the website is built, if you need to monitor traffic, it is recommended to [integrate Google Analytics](https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/).

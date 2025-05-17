@@ -6,16 +6,19 @@ draft: true
 
 categories:
 - SEM
+- Digital Marketing
 
 tags:
 - SEM
+- Google Ads
+- Digital Marketing
 ---
 
 ## Introduction to Google Ads
 
 ### How Google Ads Works
 
-Google Ads is an online advertising service that allows advertisers to display ads on Google search results pages, YouTube, and other partner websites through an auction system. When users search for keywords related to ads, Google will decide which ads to display in the search results based on a series of factors such as bids, ad quality, and relevance. The core of this process is keywords, and the keywords selected by advertisers will directly affect the exposure and click-through rate of ads.
+[Google Ads](https://ads.google.com/home/) is an online advertising service that allows advertisers to display ads on Google search results pages, YouTube, and other partner websites through an auction system. When users search for keywords related to ads, Google will decide which ads to display in the search results based on a series of factors such as bids, ad quality, and relevance. The core of this process is keywords, and the keywords selected by advertisers will directly affect the exposure and click-through rate of ads.
 
 Google ads are mainly divided into two forms: search ads and display ads. Search ads usually appear at the top or bottom of the search results when users search for specific keywords, while display ads are displayed on various websites through images or videos. Advertisers only pay for actual clicks (i.e. cost per click, CPC) or per thousand impressions (CPM), which makes Google Ads a flexible and cost-effective marketing tool.
 
@@ -75,7 +78,7 @@ Second, it is crucial to evaluate potential profits. Calculate the revenue and e
 
 For the performance analysis of high CPC ads, the following measures can be taken:
 
-- **Competitor comparison**: Observe the performance of competitors on high CPC keywords and analyze their ad copy, bidding strategies, and target audience positioning. This can help you find the advantages and improvements of your own ads.
+- **Competitor comparison**: Observe the [performance of competitors on high CPC keywords](https://chloevolution.com/posts/ppc-ad-spy/) and analyze their ad copy, bidding strategies, and target audience positioning. This can help you find the advantages and improvements of your own ads.
 
 - **Data-driven optimization**: Use Google Ads's analytical tools to monitor ad performance in real time and identify which ads perform best and which need improvement. Through continuous A/B testing, adjust ad content, bidding strategies, and landing pages to improve overall conversion rates.
 
