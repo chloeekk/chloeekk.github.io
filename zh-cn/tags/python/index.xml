@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Chloevolution</title>
+    <link>https://chloevolution.com/zh-cn/tags/python/</link>
+    <description>Recent content in Python on Chloevolution</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 09 Apr 2024 22:00:01 +0800</lastBuildDate>
+    <atom:link href="https://chloevolution.com/zh-cn/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何通过 Python 读取 ZST 文件</title>
+      <link>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</link>
+      <pubDate>Tue, 09 Apr 2024 22:00:01 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/how-to-read-a-zst-file-python/</guid>
+      <description>&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;p&gt;要运行此代码，你需要 &lt;code&gt;pandas&lt;/code&gt;、&lt;code&gt;zstandard&lt;/code&gt;（&lt;code&gt;zstd&lt;/code&gt;）和 &lt;code&gt;json&lt;/code&gt; 库。如果尚未安装，你可以使用 pip 安装 &lt;code&gt;pandas&lt;/code&gt; 和 &lt;code&gt;zstandard&lt;/code&gt;：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;zstandard&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;&lt;code&gt;json&lt;/code&gt; 是 Python 标准库的一部分，因此无需额外安装。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用Python进行顾客用户分析和细分（含源码）</title>
+      <link>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</link>
+      <pubDate>Sun, 07 Apr 2024 11:49:14 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/customer-profiling-and-segmentation/</guid>
+      <description>&lt;p&gt;本文使用的示例数据和分析代码来自Kaggle。但因为实际的运行结果与&lt;a href=&#34;https://www.kaggle.com/code/mfaaris/customer-segmentation-insights-profiling&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;原作者&lt;/a&gt;不同，故在分析部分略有差异。&lt;/p&gt;&#xA;&lt;p&gt;具体的分析流程包括：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;数据准备&lt;/li&gt;&#xA;&lt;li&gt;数据清洗&lt;/li&gt;&#xA;&lt;li&gt;数据可视化&lt;/li&gt;&#xA;&lt;li&gt;数据加工&lt;/li&gt;&#xA;&lt;li&gt;聚类分析&lt;/li&gt;&#xA;&lt;li&gt;用户画像分析&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;1-数据准备&#34;&gt;1. 数据准备&lt;/h2&gt;&#xA;&lt;p&gt;使用KMeans聚类算法，将数据分成K个集群：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>落地页 on Chloevolution</title>
+    <link>https://chloevolution.com/zh-cn/categories/%E8%90%BD%E5%9C%B0%E9%A1%B5/</link>
+    <description>Recent content in 落地页 on Chloevolution</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 26 Apr 2025 14:00:35 +0800</lastBuildDate>
+    <atom:link href="https://chloevolution.com/zh-cn/categories/%E8%90%BD%E5%9C%B0%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>落地页文案prompt模板</title>
+      <link>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</link>
+      <pubDate>Sat, 26 Apr 2025 14:00:35 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/command-for-creating-landing-page-copy/</guid>
+      <description>&lt;p&gt;利用prompt命令生成落地页文案的前提是对落地页的结构以及各个模块的文案特征足够了解，才能够引导AI生成合适的、能够带来转化的文案。&lt;/p&gt;&#xA;&lt;h2 id=&#34;落地页各模块文案特点&#34;&gt;落地页各模块文案特点&lt;/h2&gt;&#xA;&lt;h3 id=&#34;首屏主视觉区hero-section&#34;&gt;首屏主视觉区（Hero Section）&lt;/h3&gt;&#xA;&lt;h4 id=&#34;标题&#34;&gt;标题&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;使用「动词+量化结果」结构&lt;br&gt;&#xA;&lt;em&gt;例：&lt;/em&gt; &amp;ldquo;生成 100+ 营销文案/天&amp;rdquo;（优于&amp;quot;智能文案工具&amp;quot;）&lt;/li&gt;&#xA;&lt;li&gt;移动端≤9个汉字，PC端≤15个汉字&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;副标题&#34;&gt;副标题&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;遵循「场景痛点 → 解决方案」公式&lt;br&gt;&#xA;&lt;em&gt;例：&lt;/em&gt; &amp;ldquo;人工撰写速度慢？AI 10倍提速保障日更需求&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;cta按钮&#34;&gt;CTA按钮&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;构建三重驱动力：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;时间紧迫性：&amp;ldquo;最后3个免费名额&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;低门槛承诺：&amp;ldquo;10秒立即试用&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;损失提示：&amp;ldquo;每年多浪费¥37,200？&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;产品功能模块featuresbenefits&#34;&gt;产品功能模块（Features/Benefits）&lt;/h3&gt;&#xA;&lt;h4 id=&#34;功能描述&#34;&gt;功能描述&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;技术术语转译公式：&lt;br&gt;&#xA;&amp;ldquo;[技术名称] → [用户动作] → [可验证结果]&amp;rdquo;&lt;br&gt;&#xA;&lt;em&gt;例：&lt;/em&gt; &amp;ldquo;NLP算法 → 自动匹配行业关键词 → 阅读完成率提升59%&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;利益分层&#34;&gt;利益分层&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;层级&lt;/th&gt;&#xA;          &lt;th&gt;写作重点&lt;/th&gt;&#xA;          &lt;th&gt;示例&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;基础价值&lt;/td&gt;&#xA;          &lt;td&gt;解决具体问题&lt;/td&gt;&#xA;          &lt;td&gt;1分钟生成初稿&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;进阶价值&lt;/td&gt;&#xA;          &lt;td&gt;规避潜在风险&lt;/td&gt;&#xA;          &lt;td&gt;自动排查违禁词&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;长期价值&lt;/td&gt;&#xA;          &lt;td&gt;创造衍生收益&lt;/td&gt;&#xA;          &lt;td&gt;提升品牌搜索指数&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;增信模块social-proof&#34;&gt;增信模块（Social Proof）&lt;/h3&gt;&#xA;&lt;h4 id=&#34;客户证言&#34;&gt;客户证言&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;四要素结构：&lt;br&gt;&#xA;&amp;ldquo;[身份标签]在[具体场景]遇到[量化问题]，使用后[对比结果]&amp;rdquo;&lt;br&gt;&#xA;&lt;em&gt;例：&lt;/em&gt; &amp;ldquo;母婴电商运营需每日产出50条文案，错误率达15%，使用后效率提升4倍且零失误&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;数据展示&#34;&gt;数据展示&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;普通数据：放大基数（&amp;ldquo;服务152,370+用户&amp;rdquo;）&lt;/li&gt;&#xA;&lt;li&gt;敏感数据：精确小数点（&amp;ldquo;文案过审率92.37%&amp;quot;）&lt;/li&gt;&#xA;&lt;li&gt;动态数据：制造紧迫感（&amp;ldquo;每3秒新增1位用户&amp;rdquo;）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;底部导航栏bottom-navigation&#34;&gt;底部导航栏（Bottom Navigation）&lt;/h3&gt;&#xA;&lt;h4 id=&#34;主cta强化&#34;&gt;主CTA强化&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;价值重构：&amp;ldquo;再强调：您将获得______&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;成本弱化：&amp;ldquo;仅需______（时间/金钱成本）&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;逃离出口策略exit-intent&#34;&gt;逃离出口策略（Exit Intent）&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;主动挽留：&lt;br&gt;&#xA;&amp;ldquo;离开前请确认：您已获取[免费资源名称]？&amp;rdquo;&lt;br&gt;&#xA;&lt;em&gt;例：&lt;/em&gt; &amp;ldquo;离开前请确认：您已下载《2024文案趋势白皮书》？&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;次级选项：&lt;br&gt;&#xA;&amp;ldquo;暂不需要？订阅行业案例周刊（每周三推送）&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;不建议使用的文案类型&#34;&gt;不建议使用的文案类型&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;无效形容词：优质、专业、领先&lt;/li&gt;&#xA;&lt;li&gt;模糊表述：提升效率、降低成本（需量化）&lt;/li&gt;&#xA;&lt;li&gt;被动结构：&amp;ldquo;您将获得&amp;rdquo; → 改为&amp;quot;立即领取&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ai适合用来生成落地页文案吗&#34;&gt;AI适合用来生成落地页文案吗？&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ai生成落地页文案的核心价值&#34;&gt;AI生成落地页文案的核心价值&lt;/h3&gt;&#xA;&lt;h4 id=&#34;规模化生产&#34;&gt;规模化生产&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心能力&lt;/strong&gt;：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>电商落地页高效转化秘诀</title>
+      <link>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</link>
+      <pubDate>Sun, 20 Apr 2025 08:35:37 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/</guid>
+      <description>&lt;h2 id=&#34;什么是电商落地页&#34;&gt;什么是电商落地页？&lt;/h2&gt;&#xA;&lt;h3 id=&#34;定义&#34;&gt;定义&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;用户通过广告/外部链接直接访问的独立页面&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;直达入口&lt;/strong&gt;：用户从广告、社交媒体链接、搜索结果页等外部渠道点击后，直接跳转至该页面，无需经过网站主页或其他中间页面。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;独立性&lt;/strong&gt;：页面内容完全围绕单一主题设计，与其他页面无导航关联。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;电商落地页的核心目标&#34;&gt;电商落地页的核心目标&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;针对性解决用户需求，推动特定行动&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>分析SaaS落地页的核心结构</title>
+      <link>https://chloevolution.com/zh-cn/posts/saas-landing-page/</link>
+      <pubDate>Wed, 16 Apr 2025 20:57:44 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/saas-landing-page/</guid>
+      <description>&lt;h2 id=&#34;首先需要考虑的问题落地页在站点中的定位&#34;&gt;首先需要考虑的问题：落地页在站点中的定位&lt;/h2&gt;&#xA;&lt;p&gt;考虑到不同的业务目标、营销成本和适用场景，落地页有两种存在形式，各有优劣：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;专门新建的落地页&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;特点：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;独立设计：针对特定营销活动（如广告、品牌活动、促销等）定制，与官网设计风格保持一致，但内容更精简聚焦&lt;/li&gt;&#xA;&lt;li&gt;无导航栏干扰：通常选择隐藏顶部的全局导航栏，只保留品牌logo和重要按钮，避免用户跳转到其它页面，期望集中引导用户完成目标转化动作（如注册、购买等）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;优点：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;高转化率：以较小的版面尽可能多地呈现用户需要的信息，内容精准匹配用户需求，减少干扰，有助于提高转化率&lt;/li&gt;&#xA;&lt;li&gt;支持快速迭代：因为是定制页面，所以在内容和设计的调整上灵活性较高，不会影响到其它业务&lt;/li&gt;&#xA;&lt;li&gt;易于数据分析：页面整体的CTA逻辑基本一致、用户路径数量较少，且仅有少量渠道使用该页面，便于后续分析数据效果&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;缺点：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;需要额外的设计和开发成本&lt;/li&gt;&#xA;&lt;li&gt;品牌增信较弱：用户可能会希望了解网站中更多内容，但专用落地页一般不会提供明显的去到其它页面的入口&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;官网已有页面&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;特点：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;复用现有内容：直接使用官网某个页面（如首页、产品页、文章页）作为落地页&lt;/li&gt;&#xA;&lt;li&gt;保留顶部导航栏：用户可以通过导航栏了解网站的大致结构，自由跳转到自己感兴趣的页面&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;优点：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;节约成本：不涉及额外的设计和开发&lt;/li&gt;&#xA;&lt;li&gt;强化品牌一致性：保证用户在官网的整体体验，同时有用户评论、第三方测评证明等页面作为品牌可信度的支撑&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;缺点：&#xA;&lt;ul&gt;&#xA;&lt;li&gt;转化率相对较低：官网内容更偏品牌向，且信息不够聚焦，用户容易被导航栏、内链等其它内容分散注意力&lt;/li&gt;&#xA;&lt;li&gt;难以快速迭代且数据混杂：不同渠道都会使用官网页面，内容和设计的调整需要多方同意才有可能推进下去。用户在网站中的多条行为路径也增加了数据分析的难度。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;至于哪一种形式或者说网站结构更好，还是取决于品牌方自己的侧重点和营销策略。以monday.com的落地页为例：不难发现monday.com使用官网首页（&lt;a href=&#34;https://monday.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;https://monday.com/&lt;/a&gt;）来承接搜索它的品牌词进来的用户，使用专用落地页（如&lt;a href=&#34;https://monday.com/ap/project-management&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;https://monday.com/ap/project-management&lt;/a&gt;）来满足搜索其它关键词（这里我用的是project management）进来的用户。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何创建高效的特定地理位置落地页？</title>
+      <link>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</link>
+      <pubDate>Sat, 12 Apr 2025 16:02:05 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</guid>
+      <description>&lt;p&gt;根据谷歌本身的算法机制，你在谷歌上获得的搜索结果会因为你所在的地理位置（或你的搜索词中表现出的地理偏好）而有所不同。对于拥有本地实体店或专门提供本地服务的商家，针对特定地理位置的落地页是必不可少的，一方面更有助于搜索引擎爬虫的爬取和理解，另一方面也可以帮助进入网站的顾客更快地理解在自己住所附近可以获得什么样的产品和服务。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>最佳落地页Webform设计</title>
+      <link>https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/</link>
+      <pubDate>Sun, 08 Dec 2024 08:34:03 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/best-landing-page-layouts-with-webform/</guid>
+      <description>&lt;p&gt;落地页设计是网站优化和营销活动中不可或缺的一部分。在所有提升用户互动的元素中，Webform（网络表单）起着关键作用。无论是收集潜在客户信息、获取用户反馈，还是推动销售，Webform的布局和设计直接影响转化率。本文将深入探讨如何通过优化表单设计和页面布局，打造高效的落地页。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何选择SEO友好的落地页名称生成工具</title>
+      <link>https://chloevolution.com/zh-cn/posts/name-generator-for-landing-page-with-seo-keywords/</link>
+      <pubDate>Sun, 08 Dec 2024 08:32:08 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/name-generator-for-landing-page-with-seo-keywords/</guid>
+      <description>&lt;p&gt;在SEO优化中，网站的可见性和点击率依赖于多个因素，而&lt;strong&gt;域名名称&lt;/strong&gt;和&lt;strong&gt;落地页名称&lt;/strong&gt;的优化是其中至关重要的部分。虽然这两者都是网站SEO的重要组成部分，但它们的优化侧重点却有所不同。理解这两者的差异，有助于为网站制定更加精准的SEO策略，从而提高排名和用户转化率。在此基础上，本文提供了“域名生成工具”和“页面标题优化工具”两类工具的推荐。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
