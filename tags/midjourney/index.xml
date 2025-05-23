@@ -1,57 +1,48 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Midjourney - Tag - Chloevolution</title>
-        <link>https://chloevolution.com/tags/midjourney/</link>
-        <description>Midjourney - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Apr 2025 07:47:11 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/midjourney/" rel="self" type="application/rss+xml" /><item>
-    <title>Minimalist 3D Illustration Style Prompt (With Complete Code)</title>
-    <link>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</link>
-    <pubDate>Sun, 27 Apr 2025 07:47:11 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</guid>
-    <description><![CDATA[Characteristics of Minimalist 3D Illustration Style   Basic Geometric Shapes
-Built upon simple geometric forms (spheres, cubes, cylinders), avoiding complex structures. Visual subjects are formed through combination or deformation.
-  Low Detail Processing
-Reduce textures and decorative details on model surfaces, retaining only essential contour features to emphasize clean overall forms.
-  Soft Color Schemes
-Predominantly use low-saturation tones (e.g., Morandi color palette) with gentle light-dark contrasts, avoiding high contrast or fluorescent colors.]]></description>
-</item>
-<item>
-    <title>Midjourney Advanced Tutorial</title>
-    <link>https://chloevolution.com/posts/midjourney-advanced-tutorial/</link>
-    <pubDate>Wed, 26 Mar 2025 07:54:32 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/midjourney-advanced-tutorial/</guid>
-    <description><![CDATA[In 《Midjourney Tutorial for Beginners》, we covered Midjourney&rsquo;s basic setup, commands, parameters, and image generation methods. This article will introduce more advanced techniques to help generate images that better match your expectations.
-Advanced Prompt Parameters Quality The --quality or --q parameter enhances image details without increasing resolution:
- Default value: 1 Acceptable values: 0.25, 0.5, 1 (Values above 1 default to 1)  Stylize Lower Stylize values produce literal interpretations, while higher values increase artistic interpretation:]]></description>
-</item>
-<item>
-    <title>Midjourney Tutorial for Beginners</title>
-    <link>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</link>
-    <pubDate>Tue, 25 Mar 2025 07:54:14 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</guid>
-    <description><![CDATA[Basic Settings Sending the /settings command to Midjourney Bot reveals configurable options:
-Model Version Control The first dropdown menu selects Midjourney’s image generation models, which differ in artistic tendencies and parameter compatibility:
- Midjourney Model: Native model for photorealistic and stylized images. Default version is V6.1. Niji Model: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.  Stylization Control The second row controls artistic interpretation strength (higher values = more stylized results):]]></description>
-</item>
-<item>
-    <title>How to use Midjourney CREF</title>
-    <link>https://chloevolution.com/posts/midjourney-cref/</link>
-    <pubDate>Sun, 08 Sep 2024 14:56:01 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/midjourney-cref/</guid>
-    <description><![CDATA[&mdash;cref command stands for &ldquo;Character Reference&rdquo;. It is mainly used to extract character features from reference images and apply them to new images to achieve coherence and consistency in character design. It allows users to specify one or more images as content references. Midjourney will use these reference images to help generate images with similar content. This feature is more suitable for anime or games.
-Applicable version Midjourney V6 and Niji V6]]></description>
-</item>
-<item>
-    <title>How to Use Midjourney SREF to Control Style Consistency</title>
-    <link>https://chloevolution.com/posts/midjourney-sref/</link>
-    <pubDate>Sun, 01 Sep 2024 11:02:02 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/midjourney-sref/</guid>
-    <description><![CDATA[The full name of the &mdash;sref command is &ldquo;Style References,&rdquo; which aims to help users replicate and maintain consistency in the style of images.Its main function is to allow users to upload one or more images as style references to guide Midjourney in generating images that are consistent in style with these reference images.This instruction is particularly useful when you come across an image you really like and want to try generating similar or identical styles, but you don&rsquo;t know what that style is.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Midjourney on Chloevolution</title>
+    <link>https://chloevolution.com/tags/midjourney/</link>
+    <description>Recent content in Midjourney on Chloevolution</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 27 Apr 2025 07:47:11 +0800</lastBuildDate>
+    <atom:link href="https://chloevolution.com/tags/midjourney/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimalist 3D Illustration Style Prompt (With Complete Code)</title>
+      <link>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</link>
+      <pubDate>Sun, 27 Apr 2025 07:47:11 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</guid>
+      <description>&lt;h2 id=&#34;characteristics-of-minimalist-3d-illustration-style&#34;&gt;Characteristics of Minimalist 3D Illustration Style&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Basic Geometric Shapes&lt;/strong&gt;&lt;br&gt;&#xA;Built upon simple geometric forms (spheres, cubes, cylinders), avoiding complex structures. Visual subjects are formed through combination or deformation.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Low Detail Processing&lt;/strong&gt;&lt;br&gt;&#xA;Reduce textures and decorative details on model surfaces, retaining only essential contour features to emphasize clean overall forms.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Soft Color Schemes&lt;/strong&gt;&lt;br&gt;&#xA;Predominantly use low-saturation tones (e.g., Morandi color palette) with gentle light-dark contrasts, avoiding high contrast or fluorescent colors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney Advanced Tutorial</title>
+      <link>https://chloevolution.com/posts/midjourney-advanced-tutorial/</link>
+      <pubDate>Wed, 26 Mar 2025 07:54:32 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/midjourney-advanced-tutorial/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;https://chloevolution.com/posts/midjourney-tutorial-for-beginners/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;《Midjourney Tutorial for Beginners》&lt;/a&gt;, we covered Midjourney&amp;rsquo;s basic setup, commands, parameters, and image generation methods. This article will introduce more advanced techniques to help generate images that better match your expectations.&lt;/p&gt;&#xA;&lt;h2 id=&#34;advanced-prompt-parameters&#34;&gt;Advanced Prompt Parameters&lt;/h2&gt;&#xA;&lt;h3 id=&#34;quality&#34;&gt;Quality&lt;/h3&gt;&#xA;&lt;p&gt;The &lt;code&gt;--quality&lt;/code&gt; or &lt;code&gt;--q&lt;/code&gt; parameter enhances image details without increasing resolution:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Default value: 1&lt;/li&gt;&#xA;&lt;li&gt;Acceptable values: 0.25, 0.5, 1 (Values above 1 default to 1)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://chloevolution.com/posts/midjourney-advanced-tutorial/midjourney-quality-parameter-settings_hu_868dc2b35fe9b375.png&#34; &#xA;       alt=&#34;midjourney-quality-parameter-settings&#34; &#xA;       width=&#34;940&#34; &#xA;       height=&#34;315&#34; &#xA;        /&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;stylize&#34;&gt;Stylize&lt;/h3&gt;&#xA;&lt;p&gt;Lower Stylize values produce literal interpretations, while higher values increase artistic interpretation:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Midjourney Tutorial for Beginners</title>
+      <link>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</link>
+      <pubDate>Tue, 25 Mar 2025 07:54:14 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</guid>
+      <description>&lt;h2 id=&#34;basic-settings&#34;&gt;Basic Settings&lt;/h2&gt;&#xA;&lt;p&gt;Sending the &lt;code&gt;/settings&lt;/code&gt; command to Midjourney Bot reveals configurable options:&lt;br&gt;&#xA;&lt;img src=&#34;https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-settings_hu_bcdbce0c9fd43672.png&#34; &#xA;       alt=&#34;midjourney-settings&#34; &#xA;       width=&#34;1325&#34; &#xA;       height=&#34;138&#34; &#xA;        /&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;model-version-control&#34;&gt;Model Version Control&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-model-version_hu_c9707075f1f0e993.png&#34; &#xA;       alt=&#34;midjourney-model-version&#34; &#xA;       width=&#34;591&#34; &#xA;       height=&#34;148&#34; &#xA;        /&gt;&lt;br&gt;&#xA;The first dropdown menu selects Midjourney’s image generation models, which differ in artistic tendencies and parameter compatibility:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Midjourney Model&lt;/strong&gt;: Native model for photorealistic and stylized images. Default version is V6.1.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Niji Model&lt;/strong&gt;: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;stylization-control&#34;&gt;Stylization Control&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-style-control_hu_369ac240773a318c.png&#34; &#xA;       alt=&#34;midjourney-style-control&#34; &#xA;       width=&#34;1025&#34; &#xA;       height=&#34;22&#34; &#xA;        /&gt;&lt;br&gt;&#xA;The second row controls artistic interpretation strength (higher values = more stylized results):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to use Midjourney CREF</title>
+      <link>https://chloevolution.com/posts/midjourney-cref/</link>
+      <pubDate>Sun, 08 Sep 2024 14:56:01 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/midjourney-cref/</guid>
+      <description>&lt;p&gt;&amp;mdash;cref command stands for &amp;ldquo;Character Reference&amp;rdquo;. It is mainly used to extract character features from reference images and apply them to new images to achieve coherence and consistency in character design. It allows users to specify one or more images as content references. Midjourney will use these reference images to help generate images with similar content. This feature is more suitable for anime or games.&lt;/p&gt;&#xA;&lt;h2 id=&#34;applicable-version&#34;&gt;Applicable version&lt;/h2&gt;&#xA;&lt;p&gt;Midjourney V6 and Niji V6&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Use Midjourney SREF to Control Style Consistency</title>
+      <link>https://chloevolution.com/posts/midjourney-sref/</link>
+      <pubDate>Sun, 01 Sep 2024 11:02:02 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/midjourney-sref/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;The full name of the &amp;mdash;sref command is &amp;ldquo;Style References,&amp;rdquo; which aims to help users replicate and maintain consistency in the style of images.Its main function is to allow users to upload one or more images as style references to guide Midjourney in generating images that are consistent in style with these reference images.This instruction is particularly useful when you come across an image you really like and want to try generating similar or identical styles, but you don&amp;rsquo;t know what that style is.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

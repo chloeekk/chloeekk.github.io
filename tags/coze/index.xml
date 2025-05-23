@@ -1,25 +1,27 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Coze - Tag - Chloevolution</title>
-        <link>https://chloevolution.com/tags/coze/</link>
-        <description>Coze - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Sep 2024 09:34:36 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/coze/" rel="self" type="application/rss+xml" /><item>
-    <title>How to Create a Workflow in Coze</title>
-    <link>https://chloevolution.com/posts/how-to-create-a-workflow-in-coze/</link>
-    <pubDate>Sun, 08 Sep 2024 09:34:36 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/how-to-create-a-workflow-in-coze/</guid>
-    <description><![CDATA[What is a workflow? A workflow is a set of predefined, standardized steps that can be used to complete a specific task. A workflow contains multiple nodes, each of which completes a fixed task.
-To give an example that is not very appropriate but easy to understand, we are all familiar with the brain teaser &ldquo;How many steps does it take to put an elephant in the refrigerator?&rdquo; The answer is three steps: open the refrigerator, put the elephant in, and close the refrigerator.]]></description>
-</item>
-<item>
-    <title>Step by step guide - How to Create Bot on Coze</title>
-    <link>https://chloevolution.com/posts/how-to-create-bot-on-coze/</link>
-    <pubDate>Sun, 01 Sep 2024 08:03:46 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/how-to-create-bot-on-coze/</guid>
-    <description><![CDATA[What is Coze? Coze is an AI chatbot and app editorial development platform launched by ByteDance. By integrating several plug-ins, Coze&rsquo;s Bot capabilities are greatly expanded and can be applied to various scenarios, such as chatbot, data analytics, and content collection.
-Coze page introduction After successfully registering and entering Coze, on the homepage, you will first see an assistant bot, which will guide you step by step to understand the features and functions of Coze.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coze on Chloevolution</title>
+    <link>https://chloevolution.com/tags/coze/</link>
+    <description>Recent content in Coze on Chloevolution</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 08 Sep 2024 09:34:36 +0800</lastBuildDate>
+    <atom:link href="https://chloevolution.com/tags/coze/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Create a Workflow in Coze</title>
+      <link>https://chloevolution.com/posts/how-to-create-a-workflow-in-coze/</link>
+      <pubDate>Sun, 08 Sep 2024 09:34:36 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/how-to-create-a-workflow-in-coze/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-workflow&#34;&gt;What is a workflow?&lt;/h2&gt;&#xA;&lt;p&gt;A workflow is a set of predefined, standardized steps that can be used to complete a specific task. A workflow contains multiple nodes, each of which completes a fixed task.&lt;/p&gt;&#xA;&lt;p&gt;To give an example that is not very appropriate but easy to understand, we are all familiar with the brain teaser &amp;ldquo;How many steps does it take to put an elephant in the refrigerator?&amp;rdquo; The answer is three steps: open the refrigerator, put the elephant in, and close the refrigerator. In this scenario, these three steps constitute the nodes of the workflow &amp;ldquo;Put the elephant in the refrigerator&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Step by step guide - How to Create Bot on Coze</title>
+      <link>https://chloevolution.com/posts/how-to-create-bot-on-coze/</link>
+      <pubDate>Sun, 01 Sep 2024 08:03:46 +0800</pubDate>
+      <guid>https://chloevolution.com/posts/how-to-create-bot-on-coze/</guid>
+      <description>&lt;h2 id=&#34;what-is-coze&#34;&gt;What is Coze?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.coze.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Coze&lt;/a&gt; is an AI chatbot and app editorial development platform launched by ByteDance. By integrating several plug-ins, Coze&amp;rsquo;s Bot capabilities are greatly expanded and can be applied to various scenarios, such as chatbot, data analytics, and content collection.&lt;/p&gt;&#xA;&lt;h2 id=&#34;coze-page-introduction&#34;&gt;Coze page introduction&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://chloevolution.com/posts/how-to-create-bot-on-coze/coze-interface_hu_7fed5cc2e50f7e32.png&#34; &#xA;       alt=&#34;&#34; &#xA;       width=&#34;1895&#34; &#xA;       height=&#34;356&#34; &#xA;        /&gt;&lt;/p&gt;&#xA;&lt;p&gt;After successfully registering and entering Coze, on the homepage, you will first see an assistant bot, which will guide you step by step to understand the features and functions of Coze.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
