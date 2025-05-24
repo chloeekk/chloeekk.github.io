@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 07:47:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 14:59:14 +0800</lastBuildDate>
     <atom:link href="https://chloevolution.com/zh-cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Search Ai Mode</title>
+      <link>https://chloevolution.com/zh-cn/posts/google-search-ai-mode/</link>
+      <pubDate>Sat, 24 May 2025 14:59:14 +0800</pubDate>
+      <guid>https://chloevolution.com/zh-cn/posts/google-search-ai-mode/</guid>
+      <description></description>
+    </item>
     <item>
       <title>极简3D插画风格Prompt（附完整代码）</title>
       <link>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</link>

@@ -3,9 +3,17 @@
         <title>Chloevolution</title>
         <link>https://chloevolution.com/zh-cn/</link>
         <description>Chloe&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 May 2025 08:49:10 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 24 May 2025 14:59:14 &#43;0800</lastBuildDate>
             <atom:link href="https://chloevolution.com/zh-cn/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Google Search Ai Mode</title>
+    <link>https://chloevolution.com/zh-cn/posts/google-search-ai-mode/</link>
+    <pubDate>Sat, 24 May 2025 14:59:14 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://chloevolution.com/zh-cn/posts/google-search-ai-mode/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Bing购物广告的优势在哪里？</title>
     <link>https://chloevolution.com/zh-cn/posts/bing-shopping-ads/</link>
     <pubDate>Sun, 11 May 2025 08:49:10 &#43;0800</pubDate>
@@ -242,14 +250,6 @@
     <author>作者</author>
     <guid>https://chloevolution.com/zh-cn/posts/integrate-google-analytics-with-hugo-website/</guid>
     <description><![CDATA[<p>通过<a href="https://chloevolution.com/zh-cn/posts/hugo-github-pages/" target="_blank" rel="noopener noreffer ">Hugo和GitHub Pages</a>搭建自己的博客站点后，可以通过集成Google Analytics来监控网站的SEO表现和具体流量数据。</p>]]></description>
-</item>
-<item>
-    <title>如何创建高效的特定地理位置落地页？</title>
-    <link>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</link>
-    <pubDate>Sat, 12 Apr 2025 16:02:05 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://chloevolution.com/zh-cn/posts/creating-location-specific-landing-pages/</guid>
-    <description><![CDATA[<p>根据谷歌本身的算法机制，你在谷歌上获得的搜索结果会因为你所在的地理位置（或你的搜索词中表现出的地理偏好）而有所不同。对于拥有本地实体店或专门提供本地服务的商家，针对特定地理位置的落地页是必不可少的，一方面更有助于搜索引擎爬虫的爬取和理解，另一方面也可以帮助进入网站的顾客更快地理解在自己住所附近可以获得什么样的产品和服务。</p>]]></description>
 </item>
 </channel>
 </rss>

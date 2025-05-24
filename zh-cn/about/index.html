@@ -152,6 +152,18 @@
 
   var dataMap = new Map();
   
+    var key = "2025-05-24";
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
+    var link = "/zh-cn/posts/google-search-ai-mode/";
+    var title = "Google Search Ai Mode";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-05-11";
     var value = dataMap.get(key);
     var wordCount =  1774 ;
