@@ -2,25 +2,25 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://chloevolution.com/</loc><lastmod>2025-05-20T07:13:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/"
+                        href="https://chloevolution.com/zh-cn/categories/ai/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/"
+                    href="https://chloevolution.com/categories/ai/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-05-20T07:13:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/posts/"
+                        href="https://chloevolution.com/zh-cn/tags/ai/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://chloevolution.com/posts/"
+                    href="https://chloevolution.com/tags/ai/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/</loc><lastmod>2025-05-11T08:49:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://chloevolution.com/categories/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/categories/"
@@ -29,9 +29,54 @@
                     hreflang="en"
                     href="https://chloevolution.com/categories/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/digital-marketing/</loc><lastmod>2025-05-11T08:49:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://chloevolution.com/tags/digital-marketing/</loc><lastmod>2025-05-11T08:49:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://chloevolution.com/tags/</loc><lastmod>2025-05-11T08:49:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://chloevolution.com/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/digital-marketing/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/tags/digital-marketing/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://chloevolution.com/posts/founderpal-review/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/founderpal-review/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/founderpal-review/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/"
+                    /></url><url>
+            <loc>https://chloevolution.com/categories/seo/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/categories/seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/categories/seo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/tags/seo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/tags/seo/"
+                    /></url><url>
+            <loc>https://chloevolution.com/tags/</loc><lastmod>2025-05-25T11:59:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/tags/"
@@ -40,7 +85,16 @@
                     hreflang="en"
                     href="https://chloevolution.com/tags/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/bing-shopping-ads/</loc><lastmod>2025-05-11T08:49:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/swiftbrief-review/</loc><lastmod>2025-05-20T07:13:54&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://chloevolution.com/zh-cn/posts/swiftbrief-review/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://chloevolution.com/posts/swiftbrief-review/"
+                    /></url><url>
+            <loc>https://chloevolution.com/posts/bing-shopping-ads/</loc><lastmod>2025-05-11T08:49:10&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/bing-shopping-ads/"
@@ -103,25 +157,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/"
                     /></url><url>
-            <loc>https://chloevolution.com/categories/ai/</loc><lastmod>2025-04-27T07:47:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/ai/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/categories/ai/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/ai/</loc><lastmod>2025-04-27T07:47:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/ai/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/ai/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/midjourney/</loc><lastmod>2025-04-27T07:47:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/tags/midjourney/</loc><lastmod>2025-04-27T07:47:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/tags/midjourney/"
@@ -130,7 +166,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/tags/midjourney/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</loc><lastmod>2025-04-27T07:47:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/minimalist-3d-illustration-style-prompt/</loc><lastmod>2025-04-27T07:47:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/"
@@ -150,7 +186,7 @@
                     hreflang="en"
                     href="https://chloevolution.com/posts/command-for-creating-landing-page-copy/"
                     /></url><url>
-            <loc>https://chloevolution.com/posts/ecommerce-landing-page/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://chloevolution.com/posts/ecommerce-landing-page/</loc><lastmod>2025-04-20T08:35:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/"
@@ -230,24 +266,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://chloevolution.com/posts/cohort-vs-non-cohort-in-digital-marketing/"
-                    /></url><url>
-            <loc>https://chloevolution.com/categories/seo/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/categories/seo/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/categories/seo/"
-                    /></url><url>
-            <loc>https://chloevolution.com/tags/seo/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://chloevolution.com/zh-cn/tags/seo/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://chloevolution.com/tags/seo/"
                     /></url><url>
             <loc>https://chloevolution.com/posts/seo-audit-my-site/</loc><lastmod>2024-12-22T09:02:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"

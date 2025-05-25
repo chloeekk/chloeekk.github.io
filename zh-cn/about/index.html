@@ -152,11 +152,23 @@
 
   var dataMap = new Map();
   
-    var key = "2025-05-24";
+    var key = "2025-05-25";
     var value = dataMap.get(key);
-    var wordCount =  0 ;
-    var link = "/zh-cn/posts/google-search-ai-mode/";
-    var title = "Google Search Ai Mode";
+    var wordCount =  2079 ;
+    var link = "/zh-cn/posts/founderpal-review/";
+    var title = "FounderPal评测：AI营销工具使用体验";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-05-20";
+    var value = dataMap.get(key);
+    var wordCount =  1790 ;
+    var link = "/zh-cn/posts/swiftbrief-review/";
+    var title = "Swiftbrief 上手体验：AI 帮你搞定SEO写作";
     
     
     if (value == null) {

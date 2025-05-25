@@ -152,6 +152,30 @@
 
   var dataMap = new Map();
   
+    var key = "2025-05-25";
+    var value = dataMap.get(key);
+    var wordCount =  639 ;
+    var link = "/posts/founderpal-review/";
+    var title = "FounderPal Review: AI Marketing Tool Hands-On Experience";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2025-05-20";
+    var value = dataMap.get(key);
+    var wordCount =  604 ;
+    var link = "/posts/swiftbrief-review/";
+    var title = "Hands-On with Swiftbrief: How AI Simplifies SEO Content Creation";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2025-05-11";
     var value = dataMap.get(key);
     var wordCount =  626 ;

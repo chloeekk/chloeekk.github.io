@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 11 May 2025 08:49:10 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 May 2025 11:59:03 +0800</lastBuildDate>
     <atom:link href="https://chloevolution.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://chloevolution.com/categories/ai/</link>
+      <pubDate>Sun, 25 May 2025 11:59:03 +0800</pubDate>
+      <guid>https://chloevolution.com/categories/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Digital Marketing</title>
       <link>https://chloevolution.com/categories/digital-marketing/</link>
-      <pubDate>Sun, 11 May 2025 08:49:10 +0800</pubDate>
+      <pubDate>Sun, 25 May 2025 11:59:03 +0800</pubDate>
       <guid>https://chloevolution.com/categories/digital-marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO</title>
+      <link>https://chloevolution.com/categories/seo/</link>
+      <pubDate>Sun, 25 May 2025 11:59:03 +0800</pubDate>
+      <guid>https://chloevolution.com/categories/seo/</guid>
       <description></description>
     </item>
     <item>
@@ -31,24 +45,10 @@
       <description></description>
     </item>
     <item>
-      <title>AI</title>
-      <link>https://chloevolution.com/categories/ai/</link>
-      <pubDate>Sun, 27 Apr 2025 07:47:11 +0800</pubDate>
-      <guid>https://chloevolution.com/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Landing Page</title>
       <link>https://chloevolution.com/categories/landing-page/</link>
       <pubDate>Sat, 26 Apr 2025 14:00:35 +0800</pubDate>
       <guid>https://chloevolution.com/categories/landing-page/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SEO</title>
-      <link>https://chloevolution.com/categories/seo/</link>
-      <pubDate>Sun, 22 Dec 2024 09:02:30 +0800</pubDate>
-      <guid>https://chloevolution.com/categories/seo/</guid>
       <description></description>
     </item>
     <item>
