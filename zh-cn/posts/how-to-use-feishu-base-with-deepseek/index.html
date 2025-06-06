@@ -1,387 +1,48 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        
-
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>飞书多维表格&#43;DeepSeek=私人定制求职助手 - Chloevolution</title>
-
-        <link rel="canonical" href="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" /><meta name="Description" content="Chloe&#39;s Blog"><meta property="og:url" content="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/">
-  <meta property="og:site_name" content="Chloevolution">
-  <meta property="og:title" content="飞书多维表格&#43;DeepSeek=私人定制求职助手">
-  <meta property="og:description" content="最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用来批量处理岗位职责和要求信息，大大减轻了我自己处理信息的工作量。">
-  <meta property="og:locale" content="zh_CN">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-03-02T09:55:23+08:00">
-    <meta property="article:modified_time" content="2025-03-02T09:55:23+08:00">
-    <meta property="og:image" content="https://chloevolution.com/logo.png">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://chloevolution.com/logo.png">
-  <meta name="twitter:title" content="飞书多维表格&#43;DeepSeek=私人定制求职助手">
-  <meta name="twitter:description" content="最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用来批量处理岗位职责和要求信息，大大减轻了我自己处理信息的工作量。">
-<meta name="application-name" content="Chloevolution">
-<meta name="apple-mobile-web-app-title" content="Chloevolution"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" /><link rel="prev" href="https://chloevolution.com/zh-cn/posts/2024-review/" /><link rel="next" href="https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript>
-  <link rel="alternate" hreflang="zh-cn" href="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" /><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "飞书多维表格+DeepSeek=私人定制求职助手",
-        "inLanguage": "zh-CN",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/chloevolution.com\/zh-cn\/posts\/how-to-use-feishu-base-with-deepseek\/"
-        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  1690 ,
-        "url": "https:\/\/chloevolution.com\/zh-cn\/posts\/how-to-use-feishu-base-with-deepseek\/","datePublished": "2025-03-02T09:55:23+08:00","dateModified": "2025-03-02T09:55:23+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
-            "@type": "Organization",
-            "name": "xxxx","logo": {
-                    "@type": "ImageObject",
-                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
-                    "width":  4032 ,
-                    "height":  3024 
-                }},"author": {
-                "@type": "Person",
-                "name": "作者"
-            },"description": ""
-    }
-    </script><style>
-             
-            body {
-                  -webkit-user-select: none;   
-                  -moz-user-select: none;      
-                  -ms-user-select: none;       
-                  user-select: none;
-                }
-        </style>
-    </head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 所有文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><a class="menu-item" href="/zh-cn/about/"> 关于 </a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
-                    <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" selected>简体中文</option></select>
-                </a></div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        取消
-                    </a>
-                </div><a class="menu-item" href="/zh-cn/posts/" title="">所有文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a class="menu-item" href="/zh-cn/about/" title="">关于</a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" selected>简体中文</option></select>
-                </a></div>
-    </div>
-</header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">目录</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">飞书多维表格+DeepSeek=私人定制求职助手</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>作者</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-03-02">2025-03-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1690 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 4 分钟&nbsp;<span id="/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" class="leancloud_visitors" data-flag-title="飞书多维表格&#43;DeepSeek=私人定制求职助手">
-                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
-                    </span>&nbsp;
-    
-
-    
-        
-
-        
-        
-            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
-                
-                <span id="busuanzi_value_page_pv"></span>&nbsp;次阅读</span>
-        
-    
-</div>
-        </div><div class="details toc" id="toc-static"  data-kept="">
-                <div class="details-summary toc-title">
-                    <span>目录</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
-                </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#1-新建多维表格输入岗位信息">1. 新建多维表格，输入岗位信息</a></li>
-    <li><a href="#2-新建deepseek字段设置提示词">2. 新建DeepSeek字段，设置提示词</a></li>
-    <li><a href="#3-查看输出效果">3. 查看输出效果</a>
-      <ul>
-        <li><a href="#申请岗位所需知识与技能总结">申请岗位所需知识与技能总结</a>
-          <ul>
-            <li><a href="#1-核心知识领域"><strong>1. 核心知识领域</strong></a></li>
-            <li><a href="#2-硬技能优先级"><strong>2. 硬技能优先级</strong></a></li>
-            <li><a href="#3-软技能与行业认知"><strong>3. 软技能与行业认知</strong></a></li>
-            <li><a href="#4-学习路径建议"><strong>4. 学习路径建议</strong></a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav></div>
-            </div><div class="content" id="content"><p>最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用来批量处理岗位职责和要求信息，大大减轻了我自己处理信息的工作量。</p>
-<h2 id="1-新建多维表格输入岗位信息">1. 新建多维表格，输入岗位信息</h2>
-<p>在飞书云文档空间新建一个空白的多维表格，在第一列中输入意向岗位的职责和要求（从招聘网站直接复制），然后删除第一列之外的所有列：
-<img src="add-new-feishu-base.png" 
-       alt="add-new-feishu-base" 
-       
-       
-       /></p>
-<h2 id="2-新建deepseek字段设置提示词">2. 新建DeepSeek字段，设置提示词</h2>
-<p>点击“+”号，在“探索字段捷径”中输入“deepseek”，找到“DeepSeek R1”后点击：
-<img src="create-deepseek-field.png" 
-       alt="create-deepseek-field" 
-       
-       
-       /></p>
-<p>“选择指令内容”：即选择需要DeepSeek处理的内容，我们这里选择的是第一列“文本”，即一开始输入的岗位信息。
-<img src="select-prompt-content.png" 
-       alt="select-prompt-content" 
-       
-       
-       /></p>
-<p>“自定义要求”指的是你希望DeepSeek如何处理你所选择的指令内容。此外，你还可以选择是否展示DeepSeek的处理过程：
-<img src="customized-requirement.png" 
-       alt="customized-requirement" 
-       
-       
-       /></p>
-<p>这里我们需要其把输入的岗位信息进行分类和标签化，所以提示词为：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">从输入的内容中提取信息，按以下格式输出：  
-</span></span><span class="line"><span class="cl">1. 岗位类型
-</span></span><span class="line"><span class="cl">2. 核心职责（分点列出，每条不超过10字）  
-</span></span><span class="line"><span class="cl">3. 硬技能要求（工具、技术能力）  
-</span></span><span class="line"><span class="cl">4. 软技能要求（沟通、协作等）  
-</span></span><span class="line"><span class="cl">5. 经验/学历门槛
-</span></span><span class="line"><span class="cl">6. 特殊加分项
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="3-查看输出效果">3. 查看输出效果</h2>
-<p>设置完后点击“确定”，查看输出效果：
-<img src="prompt-result.png" 
-       alt="prompt-result" 
-       
-       
-       /></p>
-<p>在此基础上，如果希望能够汇总所有意向岗位的职责和要求，可以将表格导出后上传到DeepSeek，然后输入以下指令：
-<img src="upload-table.png" 
-       alt="upload-table" 
-       
-       
-       /></p>
-<p>然后AI会帮助提炼需要的核心知识及技能，例如：</p>
-<h3 id="申请岗位所需知识与技能总结">申请岗位所需知识与技能总结</h3>
-<p>基于表格中 <strong>&ldquo;岗位职责&amp;要求.输出结果&rdquo;</strong> 的共性提炼：</p>
-<hr>
-<h4 id="1-核心知识领域"><strong>1. 核心知识领域</strong></h4>
-<ul>
-<li><strong>市场营销策略</strong>：品牌定位、整合营销、用户洞察、竞品分析、FABE法则、Message House构建。</li>
-<li><strong>产品全生命周期管理</strong>：从产品定义、上市推广到退市的全流程策略设计。</li>
-<li><strong>数字化营销与工具</strong>：电商运营、CRM系统应用、数据追踪工具（Google Analytics等）、ERP/DMS等企业管理系统。</li>
-<li><strong>行业专项知识</strong>：
-<ul>
-<li>消费电子/智能硬件行业特性与海外市场规则；</li>
-<li>汽车行业业务流程（营销/售后/供应链）；</li>
-<li>新锐品牌增长逻辑与科技趋势洞察。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h4 id="2-硬技能优先级"><strong>2. 硬技能优先级</strong></h4>
-<p><strong>Top 1 核心能力</strong></p>
-<ul>
-<li><strong>数据分析与工具</strong>：Excel/Tableau/Power BI、ROI追踪、用户画像建模。</li>
-<li><strong>英语工作能力</strong>：流利听说读写（尤其海外岗需商务谈判级）。</li>
-</ul>
-<p><strong>Top 2 专项技能</strong></p>
-<ul>
-<li><strong>营销材料制作</strong>：PPT/Keynote高阶设计、KV/TVC创意输出、官网专题页搭建。</li>
-<li><strong>项目管理工具</strong>：Jira/Trello/Asana，预算分配与进度管理。</li>
-<li><strong>系统操作</strong>：CRM/DMS/SRM（汽车岗）、电商后台（天猫/Shopify）。</li>
-</ul>
-<p><strong>Top 3 加分技能</strong></p>
-<ul>
-<li><strong>编程基础</strong>：Python/SQL（数据分析岗优先）；</li>
-<li><strong>设计软件</strong>：Photoshop/Canva（物料制作岗）。</li>
-</ul>
-<hr>
-<h4 id="3-软技能与行业认知"><strong>3. 软技能与行业认知</strong></h4>
-<ul>
-<li><strong>软技能</strong>：
-<ul>
-<li>跨部门协作能力（资源整合、推动落地）；</li>
-<li>抗压与快速学习能力（适应快节奏迭代）；</li>
-<li>逻辑思维与商业敏感度（从数据到策略的转化）。</li>
-</ul>
-</li>
-<li><strong>行业认知</strong>：
-<ul>
-<li>熟悉目标行业的核心痛点（如汽车行业“客户-车-店-厂”价值链）；</li>
-<li>关注科技趋势（如智能硬件创新、AI营销工具）；</li>
-<li>理解海外市场文化差异（本地化营销策略）。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h4 id="4-学习路径建议"><strong>4. 学习路径建议</strong></h4>
-<p><strong>Step 1：基础能力搭建</strong></p>
-<ul>
-<li>课程：Coursera《Digital Marketing》/《Data Analysis with Python》；</li>
-<li>实践：用Excel/Tableau分析公开数据集（如Kaggle），输出洞察报告。</li>
-</ul>
-<p><strong>Step 2：行业专项提升</strong></p>
-<ul>
-<li>消费电子：研究Apple/Samsung海外Campaign案例；</li>
-<li>汽车行业：学习《汽车营销与后市场管理》书籍，熟悉OEM业务流程；</li>
-<li>新锐品牌：参与众筹平台（如Kickstarter）项目，分析增长路径。</li>
-</ul>
-<p><strong>Step 3：工具与认证</strong></p>
-<ul>
-<li>考取Google Analytics证书、PMP（项目管理）；</li>
-<li>学习HubSpot Academy免费课程（CRM/内容营销）。</li>
-</ul>
-<p><strong>Step 4：实战积累</strong></p>
-<ul>
-<li>参与企业实习/兼职项目，主导小型营销Campaign；</li>
-<li>在LinkedIn/行业论坛输出分析文章（如“智能硬件出海策略”），建立个人IP。</li>
-</ul>
-<hr>
-<p><strong>总结</strong>：以“数据分析+英语能力”为底层支撑，结合目标行业知识深化，辅以项目管理与跨部门协作经验，可显著提升竞争力。</p>
-</div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>更新于 2025-03-02</span>
-            </div></div>
-        <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" data-title="飞书多维表格&#43;DeepSeek=私人定制求职助手"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" data-title="飞书多维表格&#43;DeepSeek=私人定制求职助手"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" data-title="飞书多维表格&#43;DeepSeek=私人定制求职助手"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/" data-title="飞书多维表格&#43;DeepSeek=私人定制求职助手"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
-            </div>
-        </div>
-    </div>
-
-    <div class="post-info-more">
-        <section class="post-tags"></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
-        </section>
-    </div>
-
-    <div class="post-nav"><a href="/zh-cn/posts/2024-review/" class="prev" rel="prev" title="2024 回顾"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>2024 回顾</a>
-            <a href="/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/" class="next" rel="next" title="一文讲明白数字营销中的Cohort和非Cohort">一文讲明白数字营销中的Cohort和非Cohort<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
-</div>
-<div id="comments"><div id="valine" class="comment"></div><noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
-            </noscript></div></article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
-    
-        
-        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
-    
-
-    
-        
-            <section>
-                
-                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
-                        
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-
-                
-                    &nbsp;|&nbsp;              
-                
-
-                
-                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
-                        
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-            </section>
-        
-
-        
-        
-    
-</div>
-        </div>
-    </footer></div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.d7121d72cd85153ec9d35a888cee3eb28c2700ca763f649a538f6c772d750021.js" integrity="sha256-1xIdcs2FFT7J01qIjO4+sownAMp2P2SaU49sdy11ACE="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
-            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-J96VH8CX0X', { 'anonymize_ip': true });
-        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body>
-</html>
+<!doctype html><html lang=zh-CN><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>飞书多维表格+DeepSeek=私人定制求职助手 - Chloevolution</title>
+<link rel=canonical href=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/><meta name=Description content="Chloe's Blog"><meta property="og:url" content="https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/"><meta property="og:site_name" content="Chloevolution"><meta property="og:title" content="飞书多维表格+DeepSeek=私人定制求职助手"><meta property="og:description" content="最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用来批量处理岗位职责和要求信息，大大减轻了我自己处理信息的工作量。"><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-03-02T09:55:23+08:00"><meta property="article:modified_time" content="2025-03-02T09:55:23+08:00"><meta property="og:image" content="https://chloevolution.com/logo.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://chloevolution.com/logo.png"><meta name=twitter:title content="飞书多维表格+DeepSeek=私人定制求职助手"><meta name=twitter:description content="最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用来批量处理岗位职责和要求信息，大大减轻了我自己处理信息的工作量。"><meta name=application-name content="Chloevolution"><meta name=apple-mobile-web-app-title content="Chloevolution"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/><link rel=prev href=https://chloevolution.com/zh-cn/posts/2024-review/><link rel=next href=https://chloevolution.com/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/><link rel=stylesheet href=/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><link rel=alternate hreflang=zh-cn href=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"飞书多维表格+DeepSeek=私人定制求职助手","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/chloevolution.com\/zh-cn\/posts\/how-to-use-feishu-base-with-deepseek\/"},"image":["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre":"posts","wordcount":1690,"url":"https:\/\/chloevolution.com\/zh-cn\/posts\/how-to-use-feishu-base-with-deepseek\/","datePublished":"2025-03-02T09:55:23+08:00","dateModified":"2025-03-02T09:55:23+08:00","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher":{"@type":"Organization","name":"xxxx","logo":{"@type":"ImageObject","url":"https:\/\/chloevolution.com\/images\/avatar.jpg","width":4032,"height":3024}},"author":{"@type":"Person","name":"作者"},"description":""}</script><style>body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}</style></head><body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/zh-cn/ title=Chloevolution><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>Chloevolution</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/zh-cn/posts/>所有文章 </a><a class=menu-item href=/zh-cn/tags/>标签 </a><a class=menu-item href=/zh-cn/categories/>分类 </a><a class=menu-item href=/zh-cn/about/>关于 </a><a class=menu-item href=https://github.com/chloeekk title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder=搜索文章标题或内容... id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=搜索><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=清空><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
+</span></span><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题><i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="menu-item language" title=选择语言><i class="fa fa-globe" aria-hidden=true></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ selected>简体中文</option></select></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/zh-cn/ title=Chloevolution><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>Chloevolution</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder=搜索文章标题或内容... id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=搜索><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=清空><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>取消</a></div><a class=menu-item href=/zh-cn/posts/ title>所有文章</a><a class=menu-item href=/zh-cn/tags/ title>标签</a><a class=menu-item href=/zh-cn/categories/ title>分类</a><a class=menu-item href=/zh-cn/about/ title>关于</a><a class=menu-item href=https://github.com/chloeekk title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i></a><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题>
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class=menu-item title=选择语言><i class="fa fa-globe fa-fw" aria-hidden=true></i>
+<select class=language-select onchange="location=this.value"><option value=/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ selected>简体中文</option></select></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>目录</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">飞书多维表格+DeepSeek=私人定制求职助手</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/zh-cn/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>作者</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2025-03-02>2025-03-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;约 1690 字&nbsp;
+<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;预计阅读 4 分钟&nbsp;<span id=/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ class=leancloud_visitors data-flag-title="飞书多维表格+DeepSeek=私人定制求职助手">
+<i class="far fa-eye fa-fw" aria-hidden=true></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+</span>&nbsp;
+<span id=busuanzi_container_value_page_pv><i class="far fa-eye fa-fw"></i>
+<span id=busuanzi_value_page_pv></span>&nbsp;次阅读</span></div></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>目录</span>
+<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#1-新建多维表格输入岗位信息>1. 新建多维表格，输入岗位信息</a></li><li><a href=#2-新建deepseek字段设置提示词>2. 新建DeepSeek字段，设置提示词</a></li><li><a href=#3-查看输出效果>3. 查看输出效果</a><ul><li><a href=#申请岗位所需知识与技能总结>申请岗位所需知识与技能总结</a><ul><li><a href=#1-核心知识领域><strong>1. 核心知识领域</strong></a></li><li><a href=#2-硬技能优先级><strong>2. 硬技能优先级</strong></a></li><li><a href=#3-软技能与行业认知><strong>3. 软技能与行业认知</strong></a></li><li><a href=#4-学习路径建议><strong>4. 学习路径建议</strong></a></li></ul></li></ul></li></ul></nav></div></div><div class=content id=content><p>最近开始看市场中的新机会，筛选和收藏了一大批意向岗位，打算针对自己的经历和技能进行查漏补缺。刚好碰上飞书多维表格接入DeepSeek，可以用来批量处理岗位职责和要求信息，大大减轻了我自己处理信息的工作量。</p><h2 id=1-新建多维表格输入岗位信息>1. 新建多维表格，输入岗位信息</h2><p>在飞书云文档空间新建一个空白的多维表格，在第一列中输入意向岗位的职责和要求（从招聘网站直接复制），然后删除第一列之外的所有列：
+<img src=add-new-feishu-base.png alt=add-new-feishu-base></p><h2 id=2-新建deepseek字段设置提示词>2. 新建DeepSeek字段，设置提示词</h2><p>点击“+”号，在“探索字段捷径”中输入“deepseek”，找到“DeepSeek R1”后点击：
+<img src=create-deepseek-field.png alt=create-deepseek-field></p><p>“选择指令内容”：即选择需要DeepSeek处理的内容，我们这里选择的是第一列“文本”，即一开始输入的岗位信息。
+<img src=select-prompt-content.png alt=select-prompt-content></p><p>“自定义要求”指的是你希望DeepSeek如何处理你所选择的指令内容。此外，你还可以选择是否展示DeepSeek的处理过程：
+<img src=customized-requirement.png alt=customized-requirement></p><p>这里我们需要其把输入的岗位信息进行分类和标签化，所以提示词为：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>从输入的内容中提取信息，按以下格式输出：  
+</span></span><span class=line><span class=cl>1. 岗位类型
+</span></span><span class=line><span class=cl>2. 核心职责（分点列出，每条不超过10字）  
+</span></span><span class=line><span class=cl>3. 硬技能要求（工具、技术能力）  
+</span></span><span class=line><span class=cl>4. 软技能要求（沟通、协作等）  
+</span></span><span class=line><span class=cl>5. 经验/学历门槛
+</span></span><span class=line><span class=cl>6. 特殊加分项
+</span></span></code></pre></td></tr></table></div></div><h2 id=3-查看输出效果>3. 查看输出效果</h2><p>设置完后点击“确定”，查看输出效果：
+<img src=prompt-result.png alt=prompt-result></p><p>在此基础上，如果希望能够汇总所有意向岗位的职责和要求，可以将表格导出后上传到DeepSeek，然后输入以下指令：
+<img src=upload-table.png alt=upload-table></p><p>然后AI会帮助提炼需要的核心知识及技能，例如：</p><h3 id=申请岗位所需知识与技能总结>申请岗位所需知识与技能总结</h3><p>基于表格中 <strong>&ldquo;岗位职责&要求.输出结果&rdquo;</strong> 的共性提炼：</p><hr><h4 id=1-核心知识领域><strong>1. 核心知识领域</strong></h4><ul><li><strong>市场营销策略</strong>：品牌定位、整合营销、用户洞察、竞品分析、FABE法则、Message House构建。</li><li><strong>产品全生命周期管理</strong>：从产品定义、上市推广到退市的全流程策略设计。</li><li><strong>数字化营销与工具</strong>：电商运营、CRM系统应用、数据追踪工具（Google Analytics等）、ERP/DMS等企业管理系统。</li><li><strong>行业专项知识</strong>：<ul><li>消费电子/智能硬件行业特性与海外市场规则；</li><li>汽车行业业务流程（营销/售后/供应链）；</li><li>新锐品牌增长逻辑与科技趋势洞察。</li></ul></li></ul><hr><h4 id=2-硬技能优先级><strong>2. 硬技能优先级</strong></h4><p><strong>Top 1 核心能力</strong></p><ul><li><strong>数据分析与工具</strong>：Excel/Tableau/Power BI、ROI追踪、用户画像建模。</li><li><strong>英语工作能力</strong>：流利听说读写（尤其海外岗需商务谈判级）。</li></ul><p><strong>Top 2 专项技能</strong></p><ul><li><strong>营销材料制作</strong>：PPT/Keynote高阶设计、KV/TVC创意输出、官网专题页搭建。</li><li><strong>项目管理工具</strong>：Jira/Trello/Asana，预算分配与进度管理。</li><li><strong>系统操作</strong>：CRM/DMS/SRM（汽车岗）、电商后台（天猫/Shopify）。</li></ul><p><strong>Top 3 加分技能</strong></p><ul><li><strong>编程基础</strong>：Python/SQL（数据分析岗优先）；</li><li><strong>设计软件</strong>：Photoshop/Canva（物料制作岗）。</li></ul><hr><h4 id=3-软技能与行业认知><strong>3. 软技能与行业认知</strong></h4><ul><li><strong>软技能</strong>：<ul><li>跨部门协作能力（资源整合、推动落地）；</li><li>抗压与快速学习能力（适应快节奏迭代）；</li><li>逻辑思维与商业敏感度（从数据到策略的转化）。</li></ul></li><li><strong>行业认知</strong>：<ul><li>熟悉目标行业的核心痛点（如汽车行业“客户-车-店-厂”价值链）；</li><li>关注科技趋势（如智能硬件创新、AI营销工具）；</li><li>理解海外市场文化差异（本地化营销策略）。</li></ul></li></ul><hr><h4 id=4-学习路径建议><strong>4. 学习路径建议</strong></h4><p><strong>Step 1：基础能力搭建</strong></p><ul><li>课程：Coursera《Digital Marketing》/《Data Analysis with Python》；</li><li>实践：用Excel/Tableau分析公开数据集（如Kaggle），输出洞察报告。</li></ul><p><strong>Step 2：行业专项提升</strong></p><ul><li>消费电子：研究Apple/Samsung海外Campaign案例；</li><li>汽车行业：学习《汽车营销与后市场管理》书籍，熟悉OEM业务流程；</li><li>新锐品牌：参与众筹平台（如Kickstarter）项目，分析增长路径。</li></ul><p><strong>Step 3：工具与认证</strong></p><ul><li>考取Google Analytics证书、PMP（项目管理）；</li><li>学习HubSpot Academy免费课程（CRM/内容营销）。</li></ul><p><strong>Step 4：实战积累</strong></p><ul><li>参与企业实习/兼职项目，主导小型营销Campaign；</li><li>在LinkedIn/行业论坛输出分析文章（如“智能硬件出海策略”），建立个人IP。</li></ul><hr><p><strong>总结</strong>：以“数据分析+英语能力”为底层支撑，结合目标行业知识深化，辅以项目管理与跨部门协作经验，可显著提升竞争力。</p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>更新于 2025-03-02</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 Twitter" data-sharer=twitter data-url=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ data-title="飞书多维表格+DeepSeek=私人定制求职助手"><i class="fab fa-twitter fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Facebook" data-sharer=facebook data-url=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/><i class="fab fa-facebook-square fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Hacker News" data-sharer=hackernews data-url=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ data-title="飞书多维表格+DeepSeek=私人定制求职助手"><i class="fab fa-hacker-news fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Line" data-sharer=line data-url=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ data-title="飞书多维表格+DeepSeek=私人定制求职助手"><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 微博" data-sharer=weibo data-url=https://chloevolution.com/zh-cn/posts/how-to-use-feishu-base-with-deepseek/ data-title="飞书多维表格+DeepSeek=私人定制求职助手"><i class="fab fa-weibo fa-fw" aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags></section><section><span><a href=javascript:void(0); onclick=window.history.back()>返回</a></span>&nbsp;|&nbsp;<span><a href=/zh-cn/>主页</a></span></section></div><div class=post-nav><a href=/zh-cn/posts/2024-review/ class=prev rel=prev title="2024 回顾"><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>2024 回顾</a>
+<a href=/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/ class=next rel=next title=一文讲明白数字营销中的Cohort和非Cohort>一文讲明白数字营销中的Cohort和非Cohort<i class="fas fa-angle-right fa-fw" aria-hidden=true></i></a></div></div><div id=comments><div id=valine class=comment></div><noscript>Please enable JavaScript to view the comments powered by <a href=https://valine.js.org/>Valine</a>.</noscript></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2022 - 2025</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/zh-cn/ target=_blank></a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span>
+<script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><section><span id=busuanzi_container_value_site_pv><i class="far fa-eye fa-fw"></i>
+<span id=busuanzi_value_site_pv></span>
+</span>&nbsp;|&nbsp;
+<span id=busuanzi_container_value_site_uv><i class="fa fa-user"></i>
+<span id=busuanzi_value_site_uv></span></span></section></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
+</a><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><link rel=stylesheet href=/lib/valine/valine.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"复制到剪贴板",maxShownLines:50},comment:{valine:{appId:"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI",appKey:"WBmoGyJtbqUswvfLh6L8iEBr",avatar:"mp",el:"#valine",emojiCDN:"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/",emojiMaps:{100:"1f4af.png",alien:"1f47d.png",anger:"1f4a2.png",angry:"1f620.png",anguished:"1f627.png",astonished:"1f632.png",black_heart:"1f5a4.png",blue_heart:"1f499.png",blush:"1f60a.png",bomb:"1f4a3.png",boom:"1f4a5.png",broken_heart:"1f494.png",brown_heart:"1f90e.png",clown_face:"1f921.png",cold_face:"1f976.png",cold_sweat:"1f630.png",confounded:"1f616.png",confused:"1f615.png",cry:"1f622.png",crying_cat_face:"1f63f.png",cupid:"1f498.png",dash:"1f4a8.png",disappointed:"1f61e.png",disappointed_relieved:"1f625.png",dizzy:"1f4ab.png",dizzy_face:"1f635.png",drooling_face:"1f924.png",exploding_head:"1f92f.png",expressionless:"1f611.png",face_vomiting:"1f92e.png",face_with_cowboy_hat:"1f920.png",face_with_hand_over_mouth:"1f92d.png",face_with_head_bandage:"1f915.png",face_with_monocle:"1f9d0.png",face_with_raised_eyebrow:"1f928.png",face_with_rolling_eyes:"1f644.png",face_with_symbols_on_mouth:"1f92c.png",face_with_thermometer:"1f912.png",fearful:"1f628.png",flushed:"1f633.png",frowning:"1f626.png",ghost:"1f47b.png",gift_heart:"1f49d.png",green_heart:"1f49a.png",grimacing:"1f62c.png",grin:"1f601.png",grinning:"1f600.png",hankey:"1f4a9.png",hear_no_evil:"1f649.png",heart:"2764-fe0f.png",heart_decoration:"1f49f.png",heart_eyes:"1f60d.png",heart_eyes_cat:"1f63b.png",heartbeat:"1f493.png",heartpulse:"1f497.png",heavy_heart_exclamation_mark_ornament:"2763-fe0f.png",hole:"1f573-fe0f.png",hot_face:"1f975.png",hugging_face:"1f917.png",hushed:"1f62f.png",imp:"1f47f.png",innocent:"1f607.png",japanese_goblin:"1f47a.png",japanese_ogre:"1f479.png",joy:"1f602.png",joy_cat:"1f639.png",kiss:"1f48b.png",kissing:"1f617.png",kissing_cat:"1f63d.png",kissing_closed_eyes:"1f61a.png",kissing_heart:"1f618.png",kissing_smiling_eyes:"1f619.png",laughing:"1f606.png",left_speech_bubble:"1f5e8-fe0f.png",love_letter:"1f48c.png",lying_face:"1f925.png",mask:"1f637.png",money_mouth_face:"1f911.png",nauseated_face:"1f922.png",nerd_face:"1f913.png",neutral_face:"1f610.png",no_mouth:"1f636.png",open_mouth:"1f62e.png",orange_heart:"1f9e1.png",partying_face:"1f973.png",pensive:"1f614.png",persevere:"1f623.png",pleading_face:"1f97a.png",pouting_cat:"1f63e.png",purple_heart:"1f49c.png",rage:"1f621.png",relaxed:"263a-fe0f.png",relieved:"1f60c.png",revolving_hearts:"1f49e.png",right_anger_bubble:"1f5ef-fe0f.png",robot_face:"1f916.png",rolling_on_the_floor_laughing:"1f923.png",scream:"1f631.png",scream_cat:"1f640.png",see_no_evil:"1f648.png",shushing_face:"1f92b.png",skull:"1f480.png",skull_and_crossbones:"2620-fe0f.png",sleeping:"1f634.png",sleepy:"1f62a.png",slightly_frowning_face:"1f641.png",slightly_smiling_face:"1f642.png",smile:"1f604.png",smile_cat:"1f638.png",smiley:"1f603.png",smiley_cat:"1f63a.png",smiling_face_with_3_hearts:"1f970.png",smiling_imp:"1f608.png",smirk:"1f60f.png",smirk_cat:"1f63c.png",sneezing_face:"1f927.png",sob:"1f62d.png",space_invader:"1f47e.png",sparkling_heart:"1f496.png",speak_no_evil:"1f64a.png",speech_balloon:"1f4ac.png","star-struck":"1f929.png",stuck_out_tongue:"1f61b.png",stuck_out_tongue_closed_eyes:"1f61d.png",stuck_out_tongue_winking_eye:"1f61c.png",sunglasses:"1f60e.png",sweat:"1f613.png",sweat_drops:"1f4a6.png",sweat_smile:"1f605.png",thinking_face:"1f914.png",thought_balloon:"1f4ad.png",tired_face:"1f62b.png",triumph:"1f624.png",two_hearts:"1f495.png",unamused:"1f612.png",upside_down_face:"1f643.png",weary:"1f629.png",white_frowning_face:"2639-fe0f.png",white_heart:"1f90d.png",wink:"1f609.png",woozy_face:"1f974.png",worried:"1f61f.png",yawning_face:"1f971.png",yellow_heart:"1f49b.png",yum:"1f60b.png",zany_face:"1f92a.png",zipper_mouth_face:"1f910.png",zzz:"1f4a4.png"},enableQQ:!1,highlight:!0,lang:"zh-CN",pageSize:10,placeholder:"你的评论 ...",recordIP:!0,serverURLs:"https://leancloud.hugoloveit.com",visitor:!0}},math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!0,left:"\\begin{equation}",right:"\\end{equation}"},{display:!0,left:"\\begin{equation*}",right:"\\end{equation*}"},{display:!0,left:"\\begin{align}",right:"\\end{align}"},{display:!0,left:"\\begin{align*}",right:"\\end{align*}"},{display:!0,left:"\\begin{alignat}",right:"\\end{alignat}"},{display:!0,left:"\\begin{alignat*}",right:"\\end{alignat*}"},{display:!0,left:"\\begin{gather}",right:"\\end{gather}"},{display:!0,left:"\\begin{CD}",right:"\\end{CD}"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{algoliaAppID:"PASDMWALPK",algoliaIndex:"index.zh-cn",algoliaSearchKey:"b42948e51daaa93df92381c8e2ac0f93",highlightTag:"em",maxResultLength:10,noResultsFound:"没有找到结果",snippetLength:50,type:"algolia"}}</script><script type=text/javascript src=/js/theme.min.d7121d72cd85153ec9d35a888cee3eb28c2700ca763f649a538f6c772d750021.js integrity="sha256-1xIdcs2FFT7J01qIjO4+sownAMp2P2SaU49sdy11ACE="></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js></script><script type=text/javascript src=/js/custom.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-J96VH8CX0X",{anonymize_ip:!0})</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body></html>

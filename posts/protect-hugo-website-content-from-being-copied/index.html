@@ -1,573 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        
-
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>Protect Hugo Website Content from Being Copied - Chloevolution</title>
-
-        <link rel="canonical" href="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" /><meta name="Description" content="Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility."><meta property="og:url" content="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/">
-  <meta property="og:site_name" content="Chloevolution">
-  <meta property="og:title" content="Protect Hugo Website Content from Being Copied">
-  <meta property="og:description" content="Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-04-19T10:11:53+08:00">
-    <meta property="article:modified_time" content="2025-04-19T10:11:53+08:00">
-    <meta property="article:tag" content="Hugo">
-    <meta property="og:image" content="https://chloevolution.com/logo.png">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://chloevolution.com/logo.png">
-  <meta name="twitter:title" content="Protect Hugo Website Content from Being Copied">
-  <meta name="twitter:description" content="Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility.">
-<meta name="application-name" content="Chloevolution">
-<meta name="apple-mobile-web-app-title" content="Chloevolution"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" /><link rel="prev" href="https://chloevolution.com/posts/saas-landing-page/" /><link rel="next" href="https://chloevolution.com/posts/ecommerce-landing-page/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript>
-  
-    
-    
-    <link rel="alternate" hreflang="en" href="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" />
-  
-    
-    
-    <link rel="alternate" hreflang="zh-CN" href="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" />
-  <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Protect Hugo Website Content from Being Copied",
-        "inLanguage": "en",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/chloevolution.com\/posts\/protect-hugo-website-content-from-being-copied\/"
-        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo","wordcount":  894 ,
-        "url": "https:\/\/chloevolution.com\/posts\/protect-hugo-website-content-from-being-copied\/","datePublished": "2025-04-19T10:11:53+08:00","dateModified": "2025-04-19T10:11:53+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
-            "@type": "Organization",
-            "name": "xxxx","logo": {
-                    "@type": "ImageObject",
-                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
-                    "width":  4032 ,
-                    "height":  3024 
-                }},"author": {
-                "@type": "Person",
-                "name": "Author"
-            },"description": "Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility."
-    }
-    </script><style>
-             
-            body {
-                  -webkit-user-select: none;   
-                  -moz-user-select: none;      
-                  -ms-user-select: none;       
-                  user-select: none;
-                }
-        </style>
-    </head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
-                    <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/protect-hugo-website-content-from-being-copied/" selected>English</option><option value="/zh-cn/posts/protect-hugo-website-content-from-being-copied/">简体中文</option></select>
-                </a></div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        Cancel
-                    </a>
-                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/posts/protect-hugo-website-content-from-being-copied/" selected>English</option><option value="/zh-cn/posts/protect-hugo-website-content-from-being-copied/">简体中文</option></select>
-                </a></div>
-    </div>
-</header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">Contents</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Protect Hugo Website Content from Being Copied</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-04-19">2025-04-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;894 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;<span id="/posts/protect-hugo-website-content-from-being-copied/" class="leancloud_visitors" data-flag-title="Protect Hugo Website Content from Being Copied">
-                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
-                    </span>&nbsp;
-    
-
-    
-        
-
-        
-        
-            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
-                
-                <span id="busuanzi_value_page_pv"></span>&nbsp;views</span>
-        
-    
-</div>
-        </div><div class="details toc" id="toc-static"  data-kept="">
-                <div class="details-summary toc-title">
-                    <span>Contents</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
-                </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#basic-protections-no-coding-required">Basic Protections (No Coding Required)</a>
-      <ul>
-        <li><a href="#add-copyright-notices">Add Copyright Notices</a></li>
-        <li><a href="#legal-deterrence">Legal Deterrence</a>
-          <ul>
-            <li><a href="#how-to-add-copyright-notices">How to Add Copyright Notices</a></li>
-            <li><a href="#adding-dmca-protection">Adding DMCA Protection</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#technical-protections-modify-hugo-templates">Technical Protections (Modify Hugo Templates)</a>
-      <ul>
-        <li><a href="#disable-right-click-and-text-selection">Disable Right-Click and Text Selection</a>
-          <ul>
-            <li><a href="#does-disabling-text-selection-affect-seo">Does Disabling Text Selection Affect SEO?</a></li>
-          </ul>
-        </li>
-        <li><a href="#prevent-image-dragging">Prevent Image Dragging</a></li>
-        <li><a href="#automatic-watermarking-for-images">Automatic Watermarking for Images</a>
-          <ul>
-            <li><a href="#1-verify-directory-structure-and-markdown-syntax">1. Verify Directory Structure and Markdown Syntax</a></li>
-            <li><a href="#2-enable-hugo-page-resources">2. Enable Hugo Page Resources</a></li>
-            <li><a href="#3-create-render-hook-for-automatic-watermarking">3. Create Render Hook for Automatic Watermarking</a></li>
-            <li><a href="#4-verify-implementation">4. Verify Implementation</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav></div>
-            </div><div class="content" id="content"><p>First, it must be clearly understood: There is no technical method that can 100% prevent content from being copied (methods like screenshots, manual rewriting, or crawlers can bypass protections). However, the following methods can significantly increase the difficulty of copying and reduce the risk of bulk theft.</p>
-<h2 id="basic-protections-no-coding-required">Basic Protections (No Coding Required)</h2>
-<h3 id="add-copyright-notices">Add Copyright Notices</h3>
-<p>Include clear copyright information at the beginning/end of each article, for example:</p>
-<blockquote>
-<p>This article is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreffer ">CC BY-NC-ND 4.0</a>. Unauthorized reposting, copying, or modification is prohibited.</p></blockquote>
-<ul>
-<li>
-<p>The CC BY-NC-ND 4.0 license is theoretically applicable to content in any language (including Chinese and English), but note:</p>
-<ul>
-<li><strong>International Validity</strong>: CC licenses are globally standardized agreements recognized by law in 100+ countries/regions, but enforcement depends on local laws (e.g., definitions of &ldquo;non-commercial use&rdquo; may vary).</li>
-<li><strong>Language Neutrality</strong>: The license&rsquo;s validity is independent of content language, but provide an English version of the notice if your audience includes international users.</li>
-</ul>
-</li>
-<li>
-<p>Core Restrictions:</p>
-<ul>
-<li><strong>BY (Attribution)</strong>: Others must credit the original author.</li>
-<li><strong>NC (Non-Commercial)</strong>: Prohibits commercial use (e.g., selling articles or using them for ad revenue).</li>
-<li><strong>ND (No Derivatives)</strong>: Prohibits modifications (translations or adaptations require separate authorization).</li>
-</ul>
-</li>
-</ul>
-<h3 id="legal-deterrence">Legal Deterrence</h3>
-<p>Add a copyright notice and contact information at the bottom of your website. For critical content, consider DMCA protection (requires registration).</p>
-<h4 id="how-to-add-copyright-notices">How to Add Copyright Notices</h4>
-<p>Manually add notices to the <strong>end of each article&rsquo;s Markdown file</strong> (compatible with Hugo&rsquo;s default rendering):</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: &#34;Your Article Title&#34;
-</span></span><span class="line"><span class="cl">date: 2025-04-19
-</span></span><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Here is the article content...
-</span></span><span class="line"><span class="cl"><span class="k">
-</span></span></span><span class="line"><span class="cl"><span class="k">&gt; </span><span class="ge">© 2025 Your Name. Unauthorized reproduction prohibited.
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>
-<p><strong>Advantages</strong>:</p>
-<ul>
-<li>No code/template modifications needed; suitable for non-technical users</li>
-<li>Customizable notices per article</li>
-</ul>
-</li>
-<li>
-<p><strong>Disadvantages</strong>:</p>
-<ul>
-<li>Manual addition is time-consuming</li>
-<li>No centralized management for site-wide notices</li>
-</ul>
-</li>
-</ul>
-<h4 id="adding-dmca-protection">Adding DMCA Protection</h4>
-<p>After registering at <a href="https://www.dmca.com/" target="_blank" rel="noopener noreffer ">DMCA.com</a>, obtain the <strong>image link</strong> for the &ldquo;Protection Badge&rdquo; and:</p>
-<ol>
-<li>Place the DMCA badge image (e.g., <code>dmca-badge.png</code>) in Hugo&rsquo;s <code>/static/images/</code> directory</li>
-<li>Insert the image and link in articles or pages:
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">[<span class="nt">![DMCA Protection</span>](<span class="na">images/dmca-badge.png</span>)](https://www.dmca.com/Protection/Status.aspx?ID=xxx)
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-</ol>
-<p>The badge will appear on articles or your &ldquo;About&rdquo; page, linking to DMCA&rsquo;s verification page.</p>
-<h2 id="technical-protections-modify-hugo-templates">Technical Protections (Modify Hugo Templates)</h2>
-<h3 id="disable-right-click-and-text-selection">Disable Right-Click and Text Selection</h3>
-<p>Add the following code to Hugo&rsquo;s template file (e.g., <code>layouts/_default/baseof.html</code>). Place the text selection prevention code within the <code>&lt;head&gt;</code> tag:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="c">/* Disable text selection */</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">body</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="kp">-webkit-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>  <span class="c">/* Chrome/Safari */</span>
-</span></span><span class="line"><span class="cl">        <span class="kp">-moz-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>     <span class="c">/* Firefox */</span>
-</span></span><span class="line"><span class="cl">        <span class="kp">-ms-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>      <span class="c">/* IE/Edge */</span>
-</span></span><span class="line"><span class="cl">        <span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">      <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="c1">// Disable right-click menu
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;contextmenu&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">  <span class="p">});</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="c1">// Disable Ctrl+C / Cmd+C shortcuts
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;keydown&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">((</span><span class="nx">e</span><span class="p">.</span><span class="nx">ctrlKey</span> <span class="o">||</span> <span class="nx">e</span><span class="p">.</span><span class="nx">metaKey</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nx">e</span><span class="p">.</span><span class="nx">keyCode</span> <span class="o">===</span> <span class="mi">67</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">      <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="p">});</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p><strong>Important</strong>:<br>
-Do not modify theme directory files directly (<code>themes/theme-name/layouts/</code>), as they will be overwritten during theme updates.<br>
-Hugo prioritizes templates in the root <code>layouts/</code> directory. If <code>baseof.html</code> doesn&rsquo;t exist there, copy it from the theme directory first.</p>
-<h4 id="does-disabling-text-selection-affect-seo">Does Disabling Text Selection Affect SEO?</h4>
-<p>No direct impact. Search engine crawlers (e.g., Google Bot) primarily parse HTML source code rather than being restricted by CSS styles.<br>
-The <code>user-select: none</code> property only prevents mouse-based text selection by users. Text remains visible in the HTML source, fully accessible to crawlers. Search engines ignore most CSS styles (except techniques like <code>display: none</code> or <code>visibility: hidden</code>), so <code>user-select: none</code> won’t affect crawling or indexing.</p>
-<h3 id="prevent-image-dragging">Prevent Image Dragging</h3>
-<p>Add to CSS:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">img {
-</span></span><span class="line"><span class="cl">  pointer-events: none; /* Disable dragging */
-</span></span><span class="line"><span class="cl">  -webkit-touch-callout: none; /* Disable long-press menu (mobile) */
-</span></span><span class="line"><span class="cl">}
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="automatic-watermarking-for-images">Automatic Watermarking for Images</h3>
-<h4 id="1-verify-directory-structure-and-markdown-syntax">1. Verify Directory Structure and Markdown Syntax</h4>
-<p>Assume the following structure:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">content/
-</span></span><span class="line"><span class="cl">└── posts/
-</span></span><span class="line"><span class="cl">    ├── post-1/
-</span></span><span class="line"><span class="cl">    │   ├── index.md      # Article file
-</span></span><span class="line"><span class="cl">    │   └── image.png    # Image file
-</span></span><span class="line"><span class="cl">    └── post-2/
-</span></span><span class="line"><span class="cl">        ├── index.md
-</span></span><span class="line"><span class="cl">        └── photo.jpg
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Image reference syntax in <code>index.md</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![Image description](image.png)
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="2-enable-hugo-page-resources">2. Enable Hugo Page Resources</h4>
-<p>Hugo treats files in article directories as Page Resources by default. Verify <code>config.toml</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">module</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[[</span><span class="nx">module</span><span class="p">.</span><span class="nx">mounts</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">source</span> <span class="p">=</span> <span class="s2">&#34;content&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">target</span> <span class="p">=</span> <span class="s2">&#34;content&#34;</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="3-create-render-hook-for-automatic-watermarking">3. Create Render Hook for Automatic Watermarking</h4>
-<p>Use a render hook to process all Markdown images dynamically.</p>
-<ul>
-<li>Create render hook file at:</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">layouts/
-</span></span><span class="line"><span class="cl">└── _default/
-</span></span><span class="line"><span class="cl">    └── _markup/
-</span></span><span class="line"><span class="cl">        └── render-image.html
-</span></span></code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>Add this code to <code>render-image.html</code>:</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">{{- $original := .Page.Resources.GetMatch (printf &#34;%s&#34; (.Destination | safeURL)) -}}
-</span></span><span class="line"><span class="cl">{{- $watermark := resources.Get &#34;images/watermark.png&#34; -}}
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">{{- if and $original $watermark -}}
-</span></span><span class="line"><span class="cl">  {{- $watermarkResized := $watermark.Resize (printf &#34;%dx&#34; (int (mul $original.Width 0.3))) -}}
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ $processed.RelPermalink | safeURL }}&#34;</span> 
-</span></span><span class="line"><span class="cl">       <span class="na">alt</span><span class="o">=</span><span class="s">&#34;{{ .Text }}&#34;</span> 
-</span></span><span class="line"><span class="cl">       <span class="na">width</span><span class="o">=</span><span class="s">&#34;{{ $original.Width }}&#34;</span> 
-</span></span><span class="line"><span class="cl">       <span class="na">height</span><span class="o">=</span><span class="s">&#34;{{ mul $original.Height 0.4 | int }}&#34;</span> 
-</span></span><span class="line"><span class="cl">       <span class="err">{{</span> <span class="na">with</span> <span class="err">.</span><span class="na">Title</span> <span class="err">}}</span><span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 100%; max-width: {{ . }};&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span> <span class="p">/&gt;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">{{- else -}}
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ .Destination | safeURL }}&#34;</span> 
-</span></span><span class="line"><span class="cl">       <span class="na">alt</span><span class="o">=</span><span class="s">&#34;{{ .Text }}&#34;</span> 
-</span></span><span class="line"><span class="cl">       <span class="err">{{</span> <span class="na">with</span> <span class="err">$</span><span class="na">original</span> <span class="err">}}</span><span class="na">width</span><span class="o">=</span><span class="s">&#34;{{ .Width }}&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span>
-</span></span><span class="line"><span class="cl">       <span class="err">{{</span> <span class="na">with</span> <span class="err">$</span><span class="na">original</span> <span class="err">}}</span><span class="na">height</span><span class="o">=</span><span class="s">&#34;{{ mul .Height 0.4 | int }}&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span>
-</span></span><span class="line"><span class="cl">       <span class="err">{{</span> <span class="na">with</span> <span class="err">.</span><span class="na">Title</span> <span class="err">}}</span><span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 100%; max-width: {{ . }};&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span><span class="p">/&gt;</span>
-</span></span><span class="line"><span class="cl">{{- end -}}
-</span></span></code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>Place watermark image (e.g., <code>watermark.png</code>) in:</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">assets/
-</span></span><span class="line"><span class="cl">└── images/
-</span></span><span class="line"><span class="cl">    └── watermark.png
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="4-verify-implementation">4. Verify Implementation</h4>
-<ul>
-<li>Local preview:<br>
-Run <code>hugo server</code> and check if watermarks appear on article images.</li>
-<li>Output directory:<br>
-Processed images will be generated in <code>public/</code> with paths like:<br>
-<code>public/posts/post-1/image_hu1234_watermarked.png</code></li>
-</ul>
-</div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>Updated on 2025-04-19</span>
-            </div></div>
-        <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" data-title="Protect Hugo Website Content from Being Copied" data-hashtags="Hugo"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" data-title="Protect Hugo Website Content from Being Copied"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" data-title="Protect Hugo Website Content from Being Copied"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" data-title="Protect Hugo Website Content from Being Copied"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
-            </div>
-        </div>
-    </div>
-
-    <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/hugo/">Hugo</a></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
-        </section>
-    </div>
-
-    <div class="post-nav"><a href="/posts/saas-landing-page/" class="prev" rel="prev" title="Analyze SaaS Landing Page&#39;s Core Structure"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Analyze SaaS Landing Page's Core Structure</a>
-            <a href="/posts/ecommerce-landing-page/" class="next" rel="next" title="E-commerce Landing Page Conversion Secrets: How to Drive Sales Effectively">E-commerce Landing Page Conversion Secrets: How to Drive Sales Effectively<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
-</div>
-<div id="comments"><div id="valine" class="comment"></div><noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
-            </noscript></div></article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
-    
-        
-        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
-    
-
-    
-        
-            <section>
-                
-                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
-                        
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-
-                
-                    &nbsp;|&nbsp;              
-                
-
-                
-                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
-                        
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-            </section>
-        
-
-        
-        
-    
-</div>
-        </div>
-    </footer></div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.d7121d72cd85153ec9d35a888cee3eb28c2700ca763f649a538f6c772d750021.js" integrity="sha256-1xIdcs2FFT7J01qIjO4+sownAMp2P2SaU49sdy11ACE="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
-            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-J96VH8CX0X', { 'anonymize_ip': true });
-        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body>
-</html>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>Protect Hugo Website Content from Being Copied - Chloevolution</title>
+<link rel=canonical href=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/><meta name=Description content="Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility."><meta property="og:url" content="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/"><meta property="og:site_name" content="Chloevolution"><meta property="og:title" content="Protect Hugo Website Content from Being Copied"><meta property="og:description" content="Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-04-19T10:11:53+08:00"><meta property="article:modified_time" content="2025-04-19T10:11:53+08:00"><meta property="article:tag" content="Hugo"><meta property="og:image" content="https://chloevolution.com/logo.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://chloevolution.com/logo.png"><meta name=twitter:title content="Protect Hugo Website Content from Being Copied"><meta name=twitter:description content="Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility."><meta name=application-name content="Chloevolution"><meta name=apple-mobile-web-app-title content="Chloevolution"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/><link rel=prev href=https://chloevolution.com/posts/saas-landing-page/><link rel=next href=https://chloevolution.com/posts/ecommerce-landing-page/><link rel=stylesheet href=/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><link rel=alternate hreflang=en href=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/><link rel=alternate hreflang=zh-CN href=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Protect Hugo Website Content from Being Copied","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/chloevolution.com\/posts\/protect-hugo-website-content-from-being-copied\/"},"image":["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre":"posts","keywords":"Hugo","wordcount":894,"url":"https:\/\/chloevolution.com\/posts\/protect-hugo-website-content-from-being-copied\/","datePublished":"2025-04-19T10:11:53+08:00","dateModified":"2025-04-19T10:11:53+08:00","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher":{"@type":"Organization","name":"xxxx","logo":{"@type":"ImageObject","url":"https:\/\/chloevolution.com\/images\/avatar.jpg","width":4032,"height":3024}},"author":{"@type":"Person","name":"Author"},"description":"Learn to prevent content theft with copyright notices, legal deterrence, and Hugo technical protections (disable copy/paste, auto-watermarking) while maintaining SEO compatibility."}</script><style>body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}</style></head><body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/ title=Chloevolution><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>Chloevolution</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/posts/>Posts </a><a class=menu-item href=/tags/>Tags </a><a class=menu-item href=/categories/>Categories </a><a class=menu-item href=/about/>About </a><a class=menu-item href=https://github.com/chloeekk title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
+</span></span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="menu-item language" title="Select Language"><i class="fa fa-globe" aria-hidden=true></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/posts/protect-hugo-website-content-from-being-copied/ selected>English</option><option value=/zh-cn/posts/protect-hugo-website-content-from-being-copied/>简体中文</option></select></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/ title=Chloevolution><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>Chloevolution</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancel</a></div><a class=menu-item href=/posts/ title>Posts</a><a class=menu-item href=/tags/ title>Tags</a><a class=menu-item href=/categories/ title>Categories</a><a class=menu-item href=/about/ title>About</a><a class=menu-item href=https://github.com/chloeekk title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i></a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class=menu-item title="Select Language"><i class="fa fa-globe fa-fw" aria-hidden=true></i>
+<select class=language-select onchange="location=this.value"><option value=/posts/protect-hugo-website-content-from-being-copied/ selected>English</option><option value=/zh-cn/posts/protect-hugo-website-content-from-being-copied/>简体中文</option></select></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>Contents</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Protect Hugo Website Content from Being Copied</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>Author</a></span>&nbsp;<span class=post-category>included in <a href=/categories/hugo/><i class="far fa-folder fa-fw" aria-hidden=true></i>Hugo</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2025-04-19>2025-04-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;894 words&nbsp;
+<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;5 minutes&nbsp;<span id=/posts/protect-hugo-website-content-from-being-copied/ class=leancloud_visitors data-flag-title="Protect Hugo Website Content from Being Copied">
+<i class="far fa-eye fa-fw" aria-hidden=true></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
+</span>&nbsp;
+<span id=busuanzi_container_value_page_pv><i class="far fa-eye fa-fw"></i>
+<span id=busuanzi_value_page_pv></span>&nbsp;views</span></div></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>Contents</span>
+<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#basic-protections-no-coding-required>Basic Protections (No Coding Required)</a><ul><li><a href=#add-copyright-notices>Add Copyright Notices</a></li><li><a href=#legal-deterrence>Legal Deterrence</a><ul><li><a href=#how-to-add-copyright-notices>How to Add Copyright Notices</a></li><li><a href=#adding-dmca-protection>Adding DMCA Protection</a></li></ul></li></ul></li><li><a href=#technical-protections-modify-hugo-templates>Technical Protections (Modify Hugo Templates)</a><ul><li><a href=#disable-right-click-and-text-selection>Disable Right-Click and Text Selection</a><ul><li><a href=#does-disabling-text-selection-affect-seo>Does Disabling Text Selection Affect SEO?</a></li></ul></li><li><a href=#prevent-image-dragging>Prevent Image Dragging</a></li><li><a href=#automatic-watermarking-for-images>Automatic Watermarking for Images</a><ul><li><a href=#1-verify-directory-structure-and-markdown-syntax>1. Verify Directory Structure and Markdown Syntax</a></li><li><a href=#2-enable-hugo-page-resources>2. Enable Hugo Page Resources</a></li><li><a href=#3-create-render-hook-for-automatic-watermarking>3. Create Render Hook for Automatic Watermarking</a></li><li><a href=#4-verify-implementation>4. Verify Implementation</a></li></ul></li></ul></li></ul></nav></div></div><div class=content id=content><p>First, it must be clearly understood: There is no technical method that can 100% prevent content from being copied (methods like screenshots, manual rewriting, or crawlers can bypass protections). However, the following methods can significantly increase the difficulty of copying and reduce the risk of bulk theft.</p><h2 id=basic-protections-no-coding-required>Basic Protections (No Coding Required)</h2><h3 id=add-copyright-notices>Add Copyright Notices</h3><p>Include clear copyright information at the beginning/end of each article, for example:</p><blockquote><p>This article is licensed under <a href=https://creativecommons.org/licenses/by-nc-nd/4.0/ target=_blank rel="noopener noreffer">CC BY-NC-ND 4.0</a>. Unauthorized reposting, copying, or modification is prohibited.</p></blockquote><ul><li><p>The CC BY-NC-ND 4.0 license is theoretically applicable to content in any language (including Chinese and English), but note:</p><ul><li><strong>International Validity</strong>: CC licenses are globally standardized agreements recognized by law in 100+ countries/regions, but enforcement depends on local laws (e.g., definitions of &ldquo;non-commercial use&rdquo; may vary).</li><li><strong>Language Neutrality</strong>: The license&rsquo;s validity is independent of content language, but provide an English version of the notice if your audience includes international users.</li></ul></li><li><p>Core Restrictions:</p><ul><li><strong>BY (Attribution)</strong>: Others must credit the original author.</li><li><strong>NC (Non-Commercial)</strong>: Prohibits commercial use (e.g., selling articles or using them for ad revenue).</li><li><strong>ND (No Derivatives)</strong>: Prohibits modifications (translations or adaptations require separate authorization).</li></ul></li></ul><h3 id=legal-deterrence>Legal Deterrence</h3><p>Add a copyright notice and contact information at the bottom of your website. For critical content, consider DMCA protection (requires registration).</p><h4 id=how-to-add-copyright-notices>How to Add Copyright Notices</h4><p>Manually add notices to the <strong>end of each article&rsquo;s Markdown file</strong> (compatible with Hugo&rsquo;s default rendering):</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>title: &#34;Your Article Title&#34;
+</span></span><span class=line><span class=cl>date: 2025-04-19
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>Here is the article content...
+</span></span><span class=line><span class=cl><span class=k>
+</span></span></span><span class=line><span class=cl><span class=k>&gt; </span><span class=ge>© 2025 Your Name. Unauthorized reproduction prohibited.
+</span></span></span></code></pre></td></tr></table></div></div><ul><li><p><strong>Advantages</strong>:</p><ul><li>No code/template modifications needed; suitable for non-technical users</li><li>Customizable notices per article</li></ul></li><li><p><strong>Disadvantages</strong>:</p><ul><li>Manual addition is time-consuming</li><li>No centralized management for site-wide notices</li></ul></li></ul><h4 id=adding-dmca-protection>Adding DMCA Protection</h4><p>After registering at <a href=https://www.dmca.com/ target=_blank rel="noopener noreffer">DMCA.com</a>, obtain the <strong>image link</strong> for the &ldquo;Protection Badge&rdquo; and:</p><ol><li>Place the DMCA badge image (e.g., <code>dmca-badge.png</code>) in Hugo&rsquo;s <code>/static/images/</code> directory</li><li>Insert the image and link in articles or pages:<div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>[<span class=nt>![DMCA Protection</span>](<span class=na>images/dmca-badge.png</span>)](https://www.dmca.com/Protection/Status.aspx?ID=xxx)
+</span></span></code></pre></td></tr></table></div></div></li></ol><p>The badge will appear on articles or your &ldquo;About&rdquo; page, linking to DMCA&rsquo;s verification page.</p><h2 id=technical-protections-modify-hugo-templates>Technical Protections (Modify Hugo Templates)</h2><h3 id=disable-right-click-and-text-selection>Disable Right-Click and Text Selection</h3><p>Add the following code to Hugo&rsquo;s template file (e.g., <code>layouts/_default/baseof.html</code>). Place the text selection prevention code within the <code>&lt;head></code> tag:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>style</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=c>/* Disable text selection */</span>
+</span></span><span class=line><span class=cl>  <span class=nt>body</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=kp>-webkit-</span><span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>  <span class=c>/* Chrome/Safari */</span>
+</span></span><span class=line><span class=cl>        <span class=kp>-moz-</span><span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>     <span class=c>/* Firefox */</span>
+</span></span><span class=line><span class=cl>        <span class=kp>-ms-</span><span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>      <span class=c>/* IE/Edge */</span>
+</span></span><span class=line><span class=cl>        <span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>style</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// Disable right-click menu
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=nb>document</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s1>&#39;contextmenu&#39;</span><span class=p>,</span> <span class=kd>function</span><span class=p>(</span><span class=nx>e</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>e</span><span class=p>.</span><span class=nx>preventDefault</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>  <span class=p>});</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// Disable Ctrl+C / Cmd+C shortcuts
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=nb>document</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s1>&#39;keydown&#39;</span><span class=p>,</span> <span class=kd>function</span><span class=p>(</span><span class=nx>e</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>((</span><span class=nx>e</span><span class=p>.</span><span class=nx>ctrlKey</span> <span class=o>||</span> <span class=nx>e</span><span class=p>.</span><span class=nx>metaKey</span><span class=p>)</span> <span class=o>&amp;&amp;</span> <span class=nx>e</span><span class=p>.</span><span class=nx>keyCode</span> <span class=o>===</span> <span class=mi>67</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>e</span><span class=p>.</span><span class=nx>preventDefault</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>});</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>Important</strong>:<br>Do not modify theme directory files directly (<code>themes/theme-name/layouts/</code>), as they will be overwritten during theme updates.<br>Hugo prioritizes templates in the root <code>layouts/</code> directory. If <code>baseof.html</code> doesn&rsquo;t exist there, copy it from the theme directory first.</p><h4 id=does-disabling-text-selection-affect-seo>Does Disabling Text Selection Affect SEO?</h4><p>No direct impact. Search engine crawlers (e.g., Google Bot) primarily parse HTML source code rather than being restricted by CSS styles.<br>The <code>user-select: none</code> property only prevents mouse-based text selection by users. Text remains visible in the HTML source, fully accessible to crawlers. Search engines ignore most CSS styles (except techniques like <code>display: none</code> or <code>visibility: hidden</code>), so <code>user-select: none</code> won’t affect crawling or indexing.</p><h3 id=prevent-image-dragging>Prevent Image Dragging</h3><p>Add to CSS:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>img {
+</span></span><span class=line><span class=cl>  pointer-events: none; /* Disable dragging */
+</span></span><span class=line><span class=cl>  -webkit-touch-callout: none; /* Disable long-press menu (mobile) */
+</span></span><span class=line><span class=cl>}
+</span></span></code></pre></td></tr></table></div></div><h3 id=automatic-watermarking-for-images>Automatic Watermarking for Images</h3><h4 id=1-verify-directory-structure-and-markdown-syntax>1. Verify Directory Structure and Markdown Syntax</h4><p>Assume the following structure:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>content/
+</span></span><span class=line><span class=cl>└── posts/
+</span></span><span class=line><span class=cl>    ├── post-1/
+</span></span><span class=line><span class=cl>    │   ├── index.md      # Article file
+</span></span><span class=line><span class=cl>    │   └── image.png    # Image file
+</span></span><span class=line><span class=cl>    └── post-2/
+</span></span><span class=line><span class=cl>        ├── index.md
+</span></span><span class=line><span class=cl>        └── photo.jpg
+</span></span></code></pre></td></tr></table></div></div><p>Image reference syntax in <code>index.md</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>![Image description](image.png)
+</span></span></code></pre></td></tr></table></div></div><h4 id=2-enable-hugo-page-resources>2. Enable Hugo Page Resources</h4><p>Hugo treats files in article directories as Page Resources by default. Verify <code>config.toml</code>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>module</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>  <span class=p>[[</span><span class=nx>module</span><span class=p>.</span><span class=nx>mounts</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl>    <span class=nx>source</span> <span class=p>=</span> <span class=s2>&#34;content&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=nx>target</span> <span class=p>=</span> <span class=s2>&#34;content&#34;</span>
+</span></span></code></pre></td></tr></table></div></div><h4 id=3-create-render-hook-for-automatic-watermarking>3. Create Render Hook for Automatic Watermarking</h4><p>Use a render hook to process all Markdown images dynamically.</p><ul><li>Create render hook file at:</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>layouts/
+</span></span><span class=line><span class=cl>└── _default/
+</span></span><span class=line><span class=cl>    └── _markup/
+</span></span><span class=line><span class=cl>        └── render-image.html
+</span></span></code></pre></td></tr></table></div></div><ul><li>Add this code to <code>render-image.html</code>:</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{- $original := .Page.Resources.GetMatch (printf &#34;%s&#34; (.Destination | safeURL)) -}}
+</span></span><span class=line><span class=cl>{{- $watermark := resources.Get &#34;images/watermark.png&#34; -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>{{- if and $original $watermark -}}
+</span></span><span class=line><span class=cl>  {{- $watermarkResized := $watermark.Resize (printf &#34;%dx&#34; (int (mul $original.Width 0.3))) -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;{{ $processed.RelPermalink | safeURL }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>alt</span><span class=o>=</span><span class=s>&#34;{{ .Text }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>width</span><span class=o>=</span><span class=s>&#34;{{ $original.Width }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>height</span><span class=o>=</span><span class=s>&#34;{{ mul $original.Height 0.4 | int }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>.</span><span class=na>Title</span> <span class=err>}}</span><span class=na>style</span><span class=o>=</span><span class=s>&#34;width: 100%; max-width: {{ . }};&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span> <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>{{- else -}}
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;{{ .Destination | safeURL }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>alt</span><span class=o>=</span><span class=s>&#34;{{ .Text }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>$</span><span class=na>original</span> <span class=err>}}</span><span class=na>width</span><span class=o>=</span><span class=s>&#34;{{ .Width }}&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span>
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>$</span><span class=na>original</span> <span class=err>}}</span><span class=na>height</span><span class=o>=</span><span class=s>&#34;{{ mul .Height 0.4 | int }}&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span>
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>.</span><span class=na>Title</span> <span class=err>}}</span><span class=na>style</span><span class=o>=</span><span class=s>&#34;width: 100%; max-width: {{ . }};&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span><span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>{{- end -}}
+</span></span></code></pre></td></tr></table></div></div><ul><li>Place watermark image (e.g., <code>watermark.png</code>) in:</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>assets/
+</span></span><span class=line><span class=cl>└── images/
+</span></span><span class=line><span class=cl>    └── watermark.png
+</span></span></code></pre></td></tr></table></div></div><h4 id=4-verify-implementation>4. Verify Implementation</h4><ul><li>Local preview:<br>Run <code>hugo server</code> and check if watermarks appear on article images.</li><li>Output directory:<br>Processed images will be generated in <code>public/</code> with paths like:<br><code>public/posts/post-1/image_hu1234_watermarked.png</code></li></ul></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>Updated on 2025-04-19</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/ data-title="Protect Hugo Website Content from Being Copied" data-hashtags=Hugo><i class="fab fa-twitter fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/ data-hashtag=Hugo><i class="fab fa-facebook-square fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Hacker News" data-sharer=hackernews data-url=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/ data-title="Protect Hugo Website Content from Being Copied"><i class="fab fa-hacker-news fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="Share on Line" data-sharer=line data-url=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/ data-title="Protect Hugo Website Content from Being Copied"><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg aria-hidden=true></i></a><a href=javascript:void(0); title="Share on 微博" data-sharer=weibo data-url=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/ data-title="Protect Hugo Website Content from Being Copied"><i class="fab fa-weibo fa-fw" aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/tags/hugo/>Hugo</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span></section></div><div class=post-nav><a href=/posts/saas-landing-page/ class=prev rel=prev title="Analyze SaaS Landing Page's Core Structure"><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>Analyze SaaS Landing Page's Core Structure</a>
+<a href=/posts/ecommerce-landing-page/ class=next rel=next title="E-commerce Landing Page Conversion Secrets: How to Drive Sales Effectively">E-commerce Landing Page Conversion Secrets: How to Drive Sales Effectively<i class="fas fa-angle-right fa-fw" aria-hidden=true></i></a></div></div><div id=comments><div id=valine class=comment></div><noscript>Please enable JavaScript to view the comments powered by <a href=https://valine.js.org/>Valine</a>.</noscript></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2022 - 2025</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank></a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span>
+<script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><section><span id=busuanzi_container_value_site_pv><i class="far fa-eye fa-fw"></i>
+<span id=busuanzi_value_site_pv></span>
+</span>&nbsp;|&nbsp;
+<span id=busuanzi_container_value_site_uv><i class="fa fa-user"></i>
+<span id=busuanzi_value_site_uv></span></span></section></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top"><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments"><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><link rel=stylesheet href=/lib/valine/valine.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:50},comment:{valine:{appId:"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI",appKey:"WBmoGyJtbqUswvfLh6L8iEBr",avatar:"mp",el:"#valine",emojiCDN:"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/",emojiMaps:{100:"1f4af.png",alien:"1f47d.png",anger:"1f4a2.png",angry:"1f620.png",anguished:"1f627.png",astonished:"1f632.png",black_heart:"1f5a4.png",blue_heart:"1f499.png",blush:"1f60a.png",bomb:"1f4a3.png",boom:"1f4a5.png",broken_heart:"1f494.png",brown_heart:"1f90e.png",clown_face:"1f921.png",cold_face:"1f976.png",cold_sweat:"1f630.png",confounded:"1f616.png",confused:"1f615.png",cry:"1f622.png",crying_cat_face:"1f63f.png",cupid:"1f498.png",dash:"1f4a8.png",disappointed:"1f61e.png",disappointed_relieved:"1f625.png",dizzy:"1f4ab.png",dizzy_face:"1f635.png",drooling_face:"1f924.png",exploding_head:"1f92f.png",expressionless:"1f611.png",face_vomiting:"1f92e.png",face_with_cowboy_hat:"1f920.png",face_with_hand_over_mouth:"1f92d.png",face_with_head_bandage:"1f915.png",face_with_monocle:"1f9d0.png",face_with_raised_eyebrow:"1f928.png",face_with_rolling_eyes:"1f644.png",face_with_symbols_on_mouth:"1f92c.png",face_with_thermometer:"1f912.png",fearful:"1f628.png",flushed:"1f633.png",frowning:"1f626.png",ghost:"1f47b.png",gift_heart:"1f49d.png",green_heart:"1f49a.png",grimacing:"1f62c.png",grin:"1f601.png",grinning:"1f600.png",hankey:"1f4a9.png",hear_no_evil:"1f649.png",heart:"2764-fe0f.png",heart_decoration:"1f49f.png",heart_eyes:"1f60d.png",heart_eyes_cat:"1f63b.png",heartbeat:"1f493.png",heartpulse:"1f497.png",heavy_heart_exclamation_mark_ornament:"2763-fe0f.png",hole:"1f573-fe0f.png",hot_face:"1f975.png",hugging_face:"1f917.png",hushed:"1f62f.png",imp:"1f47f.png",innocent:"1f607.png",japanese_goblin:"1f47a.png",japanese_ogre:"1f479.png",joy:"1f602.png",joy_cat:"1f639.png",kiss:"1f48b.png",kissing:"1f617.png",kissing_cat:"1f63d.png",kissing_closed_eyes:"1f61a.png",kissing_heart:"1f618.png",kissing_smiling_eyes:"1f619.png",laughing:"1f606.png",left_speech_bubble:"1f5e8-fe0f.png",love_letter:"1f48c.png",lying_face:"1f925.png",mask:"1f637.png",money_mouth_face:"1f911.png",nauseated_face:"1f922.png",nerd_face:"1f913.png",neutral_face:"1f610.png",no_mouth:"1f636.png",open_mouth:"1f62e.png",orange_heart:"1f9e1.png",partying_face:"1f973.png",pensive:"1f614.png",persevere:"1f623.png",pleading_face:"1f97a.png",pouting_cat:"1f63e.png",purple_heart:"1f49c.png",rage:"1f621.png",relaxed:"263a-fe0f.png",relieved:"1f60c.png",revolving_hearts:"1f49e.png",right_anger_bubble:"1f5ef-fe0f.png",robot_face:"1f916.png",rolling_on_the_floor_laughing:"1f923.png",scream:"1f631.png",scream_cat:"1f640.png",see_no_evil:"1f648.png",shushing_face:"1f92b.png",skull:"1f480.png",skull_and_crossbones:"2620-fe0f.png",sleeping:"1f634.png",sleepy:"1f62a.png",slightly_frowning_face:"1f641.png",slightly_smiling_face:"1f642.png",smile:"1f604.png",smile_cat:"1f638.png",smiley:"1f603.png",smiley_cat:"1f63a.png",smiling_face_with_3_hearts:"1f970.png",smiling_imp:"1f608.png",smirk:"1f60f.png",smirk_cat:"1f63c.png",sneezing_face:"1f927.png",sob:"1f62d.png",space_invader:"1f47e.png",sparkling_heart:"1f496.png",speak_no_evil:"1f64a.png",speech_balloon:"1f4ac.png","star-struck":"1f929.png",stuck_out_tongue:"1f61b.png",stuck_out_tongue_closed_eyes:"1f61d.png",stuck_out_tongue_winking_eye:"1f61c.png",sunglasses:"1f60e.png",sweat:"1f613.png",sweat_drops:"1f4a6.png",sweat_smile:"1f605.png",thinking_face:"1f914.png",thought_balloon:"1f4ad.png",tired_face:"1f62b.png",triumph:"1f624.png",two_hearts:"1f495.png",unamused:"1f612.png",upside_down_face:"1f643.png",weary:"1f629.png",white_frowning_face:"2639-fe0f.png",white_heart:"1f90d.png",wink:"1f609.png",woozy_face:"1f974.png",worried:"1f61f.png",yawning_face:"1f971.png",yellow_heart:"1f49b.png",yum:"1f60b.png",zany_face:"1f92a.png",zipper_mouth_face:"1f910.png",zzz:"1f4a4.png"},enableQQ:!1,highlight:!0,lang:"en",pageSize:10,placeholder:"Your comment ...",recordIP:!0,serverURLs:"https://leancloud.hugoloveit.com",visitor:!0}},math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!0,left:"\\begin{equation}",right:"\\end{equation}"},{display:!0,left:"\\begin{equation*}",right:"\\end{equation*}"},{display:!0,left:"\\begin{align}",right:"\\end{align}"},{display:!0,left:"\\begin{align*}",right:"\\end{align*}"},{display:!0,left:"\\begin{alignat}",right:"\\end{alignat}"},{display:!0,left:"\\begin{alignat*}",right:"\\end{alignat*}"},{display:!0,left:"\\begin{gather}",right:"\\end{gather}"},{display:!0,left:"\\begin{CD}",right:"\\end{CD}"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{algoliaAppID:"PASDMWALPK",algoliaIndex:"index.en",algoliaSearchKey:"b42948e51daaa93df92381c8e2ac0f93",highlightTag:"em",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"algolia"}}</script><script type=text/javascript src=/js/theme.min.d7121d72cd85153ec9d35a888cee3eb28c2700ca763f649a538f6c772d750021.js integrity="sha256-1xIdcs2FFT7J01qIjO4+sownAMp2P2SaU49sdy11ACE="></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js></script><script type=text/javascript src=/js/custom.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-J96VH8CX0X",{anonymize_ip:!0})</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body></html>

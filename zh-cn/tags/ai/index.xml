@@ -1,62 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI on Chloevolution</title>
-    <link>https://chloevolution.com/zh-cn/tags/ai/</link>
-    <description>Recent content in AI on Chloevolution</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 27 Apr 2025 07:47:11 +0800</lastBuildDate>
-    <atom:link href="https://chloevolution.com/zh-cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>极简3D插画风格Prompt（附完整代码）</title>
-      <link>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</link>
-      <pubDate>Sun, 27 Apr 2025 07:47:11 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</guid>
-      <description>&lt;h2 id=&#34;极简3d插画风格特点&#34;&gt;极简3D插画风格特点&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;基础几何形状&lt;/strong&gt;&lt;br&gt;&#xA;以简单几何体（球体、立方体、圆柱体）为基础，避免复杂结构，通过组合或变形形成视觉主体。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;低细节处理&lt;/strong&gt;&lt;br&gt;&#xA;模型表面减少纹理与装饰性细节，仅保留必要轮廓特征，强调干净利落的整体形态。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Midjourney进阶教程</title>
-      <link>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</link>
-      <pubDate>Wed, 26 Mar 2025 07:54:32 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</guid>
-      <description>&lt;p&gt;在&lt;a href=&#34;https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;《适合新手的Midjourney教程》&lt;/a&gt;中，我们介绍了Midjourney的基本设置、命令、参数以及图片生成的方法。本文想要介绍一些更加进阶的技巧，使得生成的图片更加符合预期。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>适合新手的Midjourney教程</title>
-      <link>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</link>
-      <pubDate>Tue, 25 Mar 2025 07:54:14 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</guid>
-      <description>&lt;h2 id=&#34;基础设置&#34;&gt;基础设置&lt;/h2&gt;&#xA;&lt;p&gt;向Midjourney Bot发送 /settings 命令，会得到Midjourney可配置的设置：&#xA;&lt;img src=&#34;https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-settings_hu_bcdbce0c9fd43672.png&#34; &#xA;       alt=&#34;midjourney-settings&#34; &#xA;       width=&#34;1325&#34; &#xA;       height=&#34;138&#34; &#xA;        /&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;模型版本控制&#34;&gt;模型版本控制&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-model-version_hu_c9707075f1f0e993.png&#34; &#xA;       alt=&#34;midjourney-model-version&#34; &#xA;       width=&#34;591&#34; &#xA;       height=&#34;148&#34; &#xA;        /&gt;&#xA;在第一行的下拉框中，可以选择Midjourney不同版本的绘图模型，在绘图倾向和参数数值方面会有差异。主要分为Midjourney Model和Niji Model两类：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何使用Midjourney CREF控制角色一致性</title>
-      <link>https://chloevolution.com/zh-cn/posts/midjourney-cref/</link>
-      <pubDate>Sun, 08 Sep 2024 14:56:01 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/midjourney-cref/</guid>
-      <description>&lt;p&gt;&amp;mdash;cref指令全称为“角色参考”（Character Reference），主要用于从参考图片中抽取人物特性，并将其应用至新图像中，以实现人物形象的连贯性和一致性设计。它允许用户指定一个或多个图像作为内容参考。Midjourney将使用这些参考图像来帮助生成具有类似内容的图像。这个功能更适合用于动漫或游戏。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【手把手教学】Coze如何创建工作流</title>
-      <link>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</link>
-      <pubDate>Sat, 07 Sep 2024 09:34:36 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</guid>
-      <description>&lt;h2 id=&#34;什么是工作流&#34;&gt;什么是工作流？&lt;/h2&gt;&#xA;&lt;p&gt;工作流指的是一组预定义的、标准化的步骤，可以用来完成特定的任务。一个工作流中包含多个节点，每个节点完成一个固定的任务。&lt;/p&gt;&#xA;&lt;p&gt;举个不太恰当但很容易理解的例子，我们都很熟悉“把大象放进冰箱需要几步？”这个脑筋急转弯，答案是三步：打开冰箱、把大象放进去、关上冰箱。在这个场景中，这三步就构成了“把大象放进冰箱”这个工作流的节点。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>如何使用Midjourney SREF控制风格一致性</title>
-      <link>https://chloevolution.com/zh-cn/posts/midjourney-sref/</link>
-      <pubDate>Sun, 01 Sep 2024 11:02:02 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/midjourney-sref/</guid>
-      <description>&lt;p&gt;&amp;mdash;sref指令全称为“风格参考”（Style References），旨在帮助用户复刻和保持图片风格的一致性。其主要作用是允许用户上传一张或多张图片作为风格参考，以指导Midjourney生成与这些参考图风格一致的图像。这个指令在你看到一个非常喜欢的图片，想尝试生成类似或相同风格的图片、而又不知道这是什么风格时特别有用。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【手把手教学】Coze怎么创建bot？</title>
-      <link>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</link>
-      <pubDate>Sun, 01 Sep 2024 08:03:46 +0800</pubDate>
-      <guid>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</guid>
-      <description>&lt;h2 id=&#34;什么是coze&#34;&gt;什么是Coze？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.coze.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Coze&lt;/a&gt;是由字节跳动推出的AI聊天机器人和应用程序编辑开发平台。通过集成多款插件，Coze的Bot能力得到极大扩展，可适用于各种场景，如聊天机器人、数据分析、内容采集等。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on Chloevolution</title><link>https://chloevolution.com/zh-cn/tags/ai/</link><description>Recent content in AI on Chloevolution</description><generator>Hugo</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 25 May 2025 11:59:03 +0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>FounderPal评测：AI营销工具使用体验</title><link>https://chloevolution.com/zh-cn/posts/founderpal-review/</link><pubDate>Sun, 25 May 2025 11:59:03 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/founderpal-review/</guid><description>&lt;p>&lt;a href="https://founderpal.ai/" target="_blank" rel="noopener noreffer ">FounderPal&lt;/a>是一个AI驱动的营销平台，和之前测评过的&lt;a href="https://chloevolution.com/zh-cn/posts/swiftbrief-review/" target="_blank" rel="noopener noreffer ">Swiftbrief&lt;/a>在某种程度上类似。核心功能包括：&lt;/p>
+&lt;ul>
+&lt;li>AI驱动的营销策略生成器：用户只需提供业务详情，AI即可在几分钟内生成策略相应的营销策略&lt;/li>
+&lt;li>用户画像生成器：通过创建详细的理想客户画像，帮助用户识别和分析目标受众&lt;/li>
+&lt;li>营销创意生成器：根据行业趋势和业务目标，协助用户集思广益，提出创新的营销理念和内容创意&lt;/li>
+&lt;/ul>
+&lt;h2 id="网站运营策略">网站运营策略&lt;/h2>
+&lt;h3 id="首页叙事">首页叙事&lt;/h3>
+&lt;p>&lt;img src="https://chloevolution.com/posts/founderpal-review/founderpal-hero-section_hu_90b6ecb0c84fb9bf.png" 
+ alt="founderpal-hero-section" 
+ width="2940" 
+ height="664" 
+ />&lt;/p></description></item><item><title>Swiftbrief 上手体验：AI 帮你搞定SEO写作</title><link>https://chloevolution.com/zh-cn/posts/swiftbrief-review/</link><pubDate>Tue, 20 May 2025 07:13:54 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/swiftbrief-review/</guid><description>&lt;p>&lt;a href="https://www.swiftbrief.com/" target="_blank" rel="noopener noreffer ">Swiftbrief&lt;/a>是一个基于AI的SEO平台，可用于简化内容创作流程。主要包括以下功能：&lt;/p>
+&lt;ol>
+&lt;li>通过分析关键词和主题数据，自动创建内容大纲&lt;/li>
+&lt;li>关键词研究和聚类&lt;/li>
+&lt;li>整合SEO数据，优化内容质量和效果&lt;/li>
+&lt;/ol>
+&lt;h2 id="测试内容">测试内容&lt;/h2>
+&lt;h3 id="注册--onboarding">注册 &amp;amp; onboarding&lt;/h3>
+&lt;p>在注册环节，有一个不太方便的点在于，要求注册者提供自己的网站地址，且是必填项：
+&lt;img src="https://chloevolution.com/posts/swiftbrief-review/swiftbrief-signup_hu_85009832f0c2a446.png" 
+ alt="swiftbrief-signup" 
+ width="2666" 
+ height="329" 
+ />&lt;/p></description></item><item><title>极简3D插画风格Prompt（附完整代码）</title><link>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</link><pubDate>Sun, 27 Apr 2025 07:47:11 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/minimalist-3d-illustration-style-prompt/</guid><description>&lt;h2 id="极简3d插画风格特点">极简3D插画风格特点&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>基础几何形状&lt;/strong>&lt;br>
+以简单几何体（球体、立方体、圆柱体）为基础，避免复杂结构，通过组合或变形形成视觉主体。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>低细节处理&lt;/strong>&lt;br>
+模型表面减少纹理与装饰性细节，仅保留必要轮廓特征，强调干净利落的整体形态。&lt;/p></description></item><item><title>Midjourney进阶教程</title><link>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</link><pubDate>Wed, 26 Mar 2025 07:54:32 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/</guid><description>&lt;p>在&lt;a href="https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/" target="_blank" rel="noopener noreffer ">《适合新手的Midjourney教程》&lt;/a>中，我们介绍了Midjourney的基本设置、命令、参数以及图片生成的方法。本文想要介绍一些更加进阶的技巧，使得生成的图片更加符合预期。&lt;/p></description></item><item><title>适合新手的Midjourney教程</title><link>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</link><pubDate>Tue, 25 Mar 2025 07:54:14 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/</guid><description>&lt;h2 id="基础设置">基础设置&lt;/h2>
+&lt;p>向Midjourney Bot发送 /settings 命令，会得到Midjourney可配置的设置：
+&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-settings_hu_bcdbce0c9fd43672.png" 
+ alt="midjourney-settings" 
+ width="1325" 
+ height="138" 
+ />&lt;/p>
+&lt;h3 id="模型版本控制">模型版本控制&lt;/h3>
+&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-model-version_hu_c9707075f1f0e993.png" 
+ alt="midjourney-model-version" 
+ width="591" 
+ height="148" 
+ />
+在第一行的下拉框中，可以选择Midjourney不同版本的绘图模型，在绘图倾向和参数数值方面会有差异。主要分为Midjourney Model和Niji Model两类：&lt;/p></description></item><item><title>如何使用Midjourney CREF控制角色一致性</title><link>https://chloevolution.com/zh-cn/posts/midjourney-cref/</link><pubDate>Sun, 08 Sep 2024 14:56:01 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/midjourney-cref/</guid><description>&lt;p>&amp;mdash;cref指令全称为“角色参考”（Character Reference），主要用于从参考图片中抽取人物特性，并将其应用至新图像中，以实现人物形象的连贯性和一致性设计。它允许用户指定一个或多个图像作为内容参考。Midjourney将使用这些参考图像来帮助生成具有类似内容的图像。这个功能更适合用于动漫或游戏。&lt;/p></description></item><item><title>【手把手教学】Coze如何创建工作流</title><link>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</link><pubDate>Sat, 07 Sep 2024 09:34:36 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/how-to-create-a-workflow-in-coze/</guid><description>&lt;h2 id="什么是工作流">什么是工作流？&lt;/h2>
+&lt;p>工作流指的是一组预定义的、标准化的步骤，可以用来完成特定的任务。一个工作流中包含多个节点，每个节点完成一个固定的任务。&lt;/p>
+&lt;p>举个不太恰当但很容易理解的例子，我们都很熟悉“把大象放进冰箱需要几步？”这个脑筋急转弯，答案是三步：打开冰箱、把大象放进去、关上冰箱。在这个场景中，这三步就构成了“把大象放进冰箱”这个工作流的节点。&lt;/p></description></item><item><title>如何使用Midjourney SREF控制风格一致性</title><link>https://chloevolution.com/zh-cn/posts/midjourney-sref/</link><pubDate>Sun, 01 Sep 2024 11:02:02 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/midjourney-sref/</guid><description>&lt;p>&amp;mdash;sref指令全称为“风格参考”（Style References），旨在帮助用户复刻和保持图片风格的一致性。其主要作用是允许用户上传一张或多张图片作为风格参考，以指导Midjourney生成与这些参考图风格一致的图像。这个指令在你看到一个非常喜欢的图片，想尝试生成类似或相同风格的图片、而又不知道这是什么风格时特别有用。&lt;/p></description></item><item><title>【手把手教学】Coze怎么创建bot？</title><link>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</link><pubDate>Sun, 01 Sep 2024 08:03:46 +0800</pubDate><guid>https://chloevolution.com/zh-cn/posts/how-to-create-bot-on-coze/</guid><description>&lt;h2 id="什么是coze">什么是Coze？&lt;/h2>
+&lt;p>&lt;a href="https://www.coze.com/" target="_blank" rel="noopener noreffer ">Coze&lt;/a>是由字节跳动推出的AI聊天机器人和应用程序编辑开发平台。通过集成多款插件，Coze的Bot能力得到极大扩展，可适用于各种场景，如聊天机器人、数据分析、内容采集等。&lt;/p></description></item></channel></rss>
