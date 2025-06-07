@@ -1,568 +1,189 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        
-
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>如何防止Hugo搭建的网站内容被盗 - Chloevolution</title>
-
-        <link rel="canonical" href="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" /><meta name="Description" content="如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"><meta property="og:title" content="如何防止Hugo搭建的网站内容被盗" />
-<meta property="og:description" content="如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" /><meta property="og:image" content="https://chloevolution.com/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2025-04-19T10:11:53+08:00" />
-<meta property="article:modified_time" content="2025-04-19T10:11:53+08:00" /><meta property="og:site_name" content="Chloevolution" />
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://chloevolution.com/logo.png"/>
-
-<meta name="twitter:title" content="如何防止Hugo搭建的网站内容被盗"/>
-<meta name="twitter:description" content="如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"/>
-<meta name="application-name" content="Chloevolution">
-<meta name="apple-mobile-web-app-title" content="Chloevolution"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" /><link rel="prev" href="https://chloevolution.com/zh-cn/posts/saas-landing-page/" /><link rel="next" href="https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/" /><link rel="stylesheet" href="/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css" integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript>
-  
-    
-    
-    <link rel="alternate" hreflang="en" href="https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/" />
-  
-    
-    
-    <link rel="alternate" hreflang="zh-CN" href="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" />
-  <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "如何防止Hugo搭建的网站内容被盗",
-        "inLanguage": "zh-CN",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/chloevolution.com\/zh-cn\/posts\/protect-hugo-website-content-from-being-copied\/"
-        },"image": ["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo","wordcount":  1839 ,
-        "url": "https:\/\/chloevolution.com\/zh-cn\/posts\/protect-hugo-website-content-from-being-copied\/","datePublished": "2025-04-19T10:11:53+08:00","dateModified": "2025-04-19T10:11:53+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
-            "@type": "Organization",
-            "name": "xxxx","logo": {
-                    "@type": "ImageObject",
-                    "url": "https:\/\/chloevolution.com\/images\/avatar.jpg",
-                    "width":  4032 ,
-                    "height":  3024 
-                }},"author": {
-                "@type": "Person",
-                "name": "Chloe"
-            },"description": "如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"
-    }
-    </script><style>
-             
-            body {
-                  -webkit-user-select: none;   
-                  -moz-user-select: none;      
-                  -ms-user-select: none;       
-                  user-select: none;
-                }
-        </style>
-    </head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/zh-cn/posts/"> 所有文章 </a><a class="menu-item" href="/zh-cn/tags/"> 标签 </a><a class="menu-item" href="/zh-cn/categories/"> 分类 </a><a class="menu-item" href="/zh-cn/about/"> 关于 </a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
-                    <i class="fa fa-globe" aria-hidden="true"></i>                      
-                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/posts/protect-hugo-website-content-from-being-copied/">English</option><option value="/zh-cn/posts/protect-hugo-website-content-from-being-copied/" selected>简体中文</option></select>
-                </a></div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/zh-cn/" title="Chloevolution"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Chloevolution</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        取消
-                    </a>
-                </div><a class="menu-item" href="/zh-cn/posts/" title="">所有文章</a><a class="menu-item" href="/zh-cn/tags/" title="">标签</a><a class="menu-item" href="/zh-cn/categories/" title="">分类</a><a class="menu-item" href="/zh-cn/about/" title="">关于</a><a class="menu-item" href="https://github.com/chloeekk" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
-                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/posts/protect-hugo-website-content-from-being-copied/">English</option><option value="/zh-cn/posts/protect-hugo-website-content-from-being-copied/" selected>简体中文</option></select>
-                </a></div>
-    </div>
-</header><div class="search-dropdown desktop">
-        <div id="search-dropdown-desktop"></div>
-    </div>
-    <div class="search-dropdown mobile">
-        <div id="search-dropdown-mobile"></div>
-    </div><main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">目录</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">如何防止Hugo搭建的网站内容被盗</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/zh-cn/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Chloe</a></span>&nbsp;<span class="post-category">收录于 <a href="/zh-cn/categories/hugo/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hugo</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-04-19">2025-04-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1839 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 4 分钟&nbsp;<span id="/zh-cn/posts/protect-hugo-website-content-from-being-copied/" class="leancloud_visitors" data-flag-title="如何防止Hugo搭建的网站内容被盗">
-                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
-                    </span>&nbsp;
-    
-
-    
-        
-
-        
-        
-            <span id="busuanzi_container_value_page_pv"><i class="far fa-eye fa-fw"></i>
-                
-                <span id="busuanzi_value_page_pv"></span>&nbsp;次阅读</span>
-        
-    
-</div>
-        </div><div class="details toc" id="toc-static"  data-kept="">
-                <div class="details-summary toc-title">
-                    <span>目录</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
-                </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#一基础防护无需代码">一、基础防护（无需代码）</a>
-      <ul>
-        <li><a href="#添加版权声明">添加版权声明</a></li>
-        <li><a href="#法律威慑">法律威慑</a>
-          <ul>
-            <li><a href="#添加版权声明的方法">添加版权声明的方法</a></li>
-            <li><a href="#添加-dmca-保护的方法">添加 DMCA 保护的方法</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li><a href="#二技术防护修改-hugo-模板">二、技术防护（修改 Hugo 模板）</a>
-      <ul>
-        <li><a href="#禁用右键菜单和文本选择">禁用右键菜单和文本选择</a>
-          <ul>
-            <li><a href="#禁用文本选择是否会影响seo效果">禁用文本选择是否会影响SEO效果？</a></li>
-          </ul>
-        </li>
-        <li><a href="#防止图片拖拽">防止图片拖拽</a></li>
-        <li><a href="#网站图片自动添加水印">网站图片自动添加水印</a>
-          <ul>
-            <li><a href="#1-确认目录结构和-markdown-语法">1. 确认目录结构和 Markdown 语法</a></li>
-            <li><a href="#2-启用-hugo-的-page-resources-功能">2. 启用 Hugo 的 Page Resources 功能</a></li>
-            <li><a href="#3-创建渲染钩子自动处理图片">3. 创建渲染钩子自动处理图片</a></li>
-            <li><a href="#4-验证效果">4. 验证效果</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav></div>
-            </div><div class="content" id="content"><p>首先需要明确的是：没有任何技术手段能 100% 防止内容被复制（截图、手动重写、爬虫等方式均可绕过防护）。不过，可以通过以下方法显著增加复制难度，降低被批量盗取的可能性。</p>
-<h2 id="一基础防护无需代码">一、基础防护（无需代码）</h2>
-<h3 id="添加版权声明">添加版权声明</h3>
-<p>在每篇文章开头/结尾明确标注版权信息，例如：</p>
-<blockquote>
-<p>本文采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreffer ">CC BY-NC-ND 4.0</a> 协议授权，禁止未经授权的转载、复制或修改。</p>
-</blockquote>
-<ul>
-<li>
-<p>CC BY-NC-ND 4.0 协议理论上适用于任何语言的内容（包括中英文），但需注意：</p>
-<ul>
-<li>国际效力：CC 协议是全球通用的标准化协议，已在 100+ 国家/地区被法律认可，但需根据当地法律具体执行（例如某些国家可能对“非商业用途”定义不同）。</li>
-<li>语言无关性：协议效力与内容语言无关，但建议在声明中同时提供英文版本，尤其是您的读者包含国际用户时。</li>
-</ul>
-</li>
-<li>
-<p>核心权利限制：</p>
-<ul>
-<li>BY（署名）：他人必须标明原作者。</li>
-<li>NC（非商业）：禁止将内容用于商业目的（例如售卖你的文章、植入广告盈利）。</li>
-<li>ND（禁止演绎）：禁止修改原内容（例如翻译、二次创作需单独授权）。</li>
-</ul>
-</li>
-</ul>
-<h3 id="法律威慑">法律威慑</h3>
-<p>在网站底部添加版权声明和联系方式。如果内容非常重要，可考虑添加 DMCA 保护（需注册服务）。</p>
-<h4 id="添加版权声明的方法">添加版权声明的方法</h4>
-<p>直接在每篇文章的 <strong>Markdown 文件末尾</strong> 手动添加版权声明（适用于 Hugo 默认内容渲染方式）：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">---
-title: &#34;你的文章标题&#34;
-date: 2025-04-19
----
-
-这里是文章正文...
-<span class="k">
-</span><span class="k">&gt; </span><span class="ge">© 2025 你的名字。未经许可禁止转载。
-</span></code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>
-<p><strong>优点</strong>：</p>
-<ul>
-<li>无需修改模板代码，适合技术小白</li>
-<li>可针对不同文章设置不同声明</li>
-</ul>
-</li>
-<li>
-<p><strong>缺点</strong>：</p>
-<ul>
-<li>需手动为每篇文章添加，效率低</li>
-<li>无法统一修改全站声明</li>
-</ul>
-</li>
-</ul>
-<h4 id="添加-dmca-保护的方法">添加 DMCA 保护的方法</h4>
-<p>注册 <a href="https://www.dmca.com/" target="_blank" rel="noopener noreffer ">DMCA.com</a> 后，获取「保护徽章」的 <strong>图片链接</strong>，然后：</p>
-<ol>
-<li>在 Hugo 的 <code>/static/images/</code> 目录下存放 DMCA 徽章图片（如 <code>dmca-badge.png</code>）</li>
-<li>在任意文章或页面中插入图片和链接：
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">![DMCA保护</span>](<span class="na">images/dmca-badge.png</span>)](https://www.dmca.com/Protection/Status.aspx?ID=xxx)
-</code></pre></td></tr></table>
-</div>
-</div></li>
-</ol>
-<p>添加成功后，在文章或「关于」页面显示徽章，点击跳转到 DMCA 验证页。</p>
-<h2 id="二技术防护修改-hugo-模板">二、技术防护（修改 Hugo 模板）</h2>
-<h3 id="禁用右键菜单和文本选择">禁用右键菜单和文本选择</h3>
-<p>在 Hugo 的模板文件（如 layouts/_default/baseof.html）中添加以下代码。其中，“禁止文本选择”的代码加在 <head> 标签内</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
-  <span class="c">/* 禁止文本选择 */</span>
-  <span class="nt">body</span> <span class="p">{</span>
-        <span class="kp">-webkit-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>  <span class="c">/* Chrome/Safari */</span>
-        <span class="kp">-moz-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>     <span class="c">/* Firefox */</span>
-        <span class="kp">-ms-</span><span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>      <span class="c">/* IE/Edge */</span>
-        <span class="k">user-select</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-      <span class="p">}</span>
-<span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
-
-<span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
-  <span class="c1">// 禁用右键菜单
-</span><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;contextmenu&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
-  <span class="p">});</span>
-
-  <span class="c1">// 禁用 Ctrl+C / Cmd+C 快捷键
-</span><span class="c1"></span>  <span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;keydown&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">if</span> <span class="p">((</span><span class="nx">e</span><span class="p">.</span><span class="nx">ctrlKey</span> <span class="o">||</span> <span class="nx">e</span><span class="p">.</span><span class="nx">metaKey</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="nx">e</span><span class="p">.</span><span class="nx">keyCode</span> <span class="o">===</span> <span class="mi">67</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
-    <span class="p">}</span>
-  <span class="p">});</span>
-<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p><strong>注意：</strong>
+<!doctype html><html lang=zh-CN><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><title>如何防止Hugo搭建的网站内容被盗 - Chloevolution</title>
+<link rel=canonical href=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/><meta name=Description content="如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"><meta property="og:url" content="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/"><meta property="og:site_name" content="Chloevolution"><meta property="og:title" content="如何防止Hugo搭建的网站内容被盗"><meta property="og:description" content="如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-04-19T10:11:53+08:00"><meta property="article:modified_time" content="2025-04-19T10:11:53+08:00"><meta property="article:tag" content="Hugo"><meta property="og:image" content="https://chloevolution.com/logo.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://chloevolution.com/logo.png"><meta name=twitter:title content="如何防止Hugo搭建的网站内容被盗"><meta name=twitter:description content="如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"><meta name=application-name content="Chloevolution"><meta name=apple-mobile-web-app-title content="Chloevolution"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/><link rel=prev href=https://chloevolution.com/zh-cn/posts/saas-landing-page/><link rel=next href=https://chloevolution.com/zh-cn/posts/ecommerce-landing-page/><link rel=stylesheet href=/css/style.min.cf6878db51c51b2d04ae155284a4403dbee8db33e16c066f954c95279c271fcd.css integrity="sha256-z2h421HFGy0ErhVShKRAPb7o2zPhbAZvlUyVJ5wnH80="><link rel=preload href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css></noscript><link rel=preload href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css></noscript><link rel=alternate hreflang=en href=https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/><link rel=alternate hreflang=zh-CN href=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"如何防止Hugo搭建的网站内容被盗","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/chloevolution.com\/zh-cn\/posts\/protect-hugo-website-content-from-being-copied\/"},"image":["https:\/\/chloevolution.com\/images\/Apple-Devices-Preview.png"],"genre":"posts","keywords":"Hugo","wordcount":1839,"url":"https:\/\/chloevolution.com\/zh-cn\/posts\/protect-hugo-website-content-from-being-copied\/","datePublished":"2025-04-19T10:11:53+08:00","dateModified":"2025-04-19T10:11:53+08:00","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher":{"@type":"Organization","name":"xxxx","logo":{"@type":"ImageObject","url":"https:\/\/chloevolution.com\/images\/avatar.jpg","width":4032,"height":3024}},"author":{"@type":"Person","name":"作者"},"description":"如何通过版权声明、法律威慑与Hugo技术防护（禁用复制/拖拽/自动水印）防止内容被恶意复制，兼顾SEO友好性与内容安全。"}</script><style>body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}</style></head><body data-header-desktop=fixed data-header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem("theme")?localStorage.getItem("theme")==="dark":"auto"==="auto"?window.matchMedia("(prefers-color-scheme: dark)").matches:"auto"==="dark")&&document.body.setAttribute("theme","dark")</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/zh-cn/ title=Chloevolution><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>Chloevolution</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/zh-cn/posts/>所有文章 </a><a class=menu-item href=/zh-cn/tags/>标签 </a><a class=menu-item href=/zh-cn/categories/>分类 </a><a class=menu-item href=/zh-cn/about/>关于 </a><a class=menu-item href=https://github.com/chloeekk title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder=搜索文章标题或内容... id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=搜索><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=清空><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i>
+</span></span><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题><i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="menu-item language" title=选择语言><i class="fa fa-globe" aria-hidden=true></i>
+<select class=language-select id=language-select-desktop onchange="location=this.value"><option value=/posts/protect-hugo-website-content-from-being-copied/>English</option><option value=/zh-cn/posts/protect-hugo-website-content-from-being-copied/ selected>简体中文</option></select></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/zh-cn/ title=Chloevolution><span class=header-title-pre><i class='far fa-kiss-wink-heart fa-fw' aria-hidden=true></i></span>Chloevolution</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder=搜索文章标题或内容... id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=搜索><i class="fas fa-search fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=清空><i class="fas fa-times-circle fa-fw" aria-hidden=true></i>
+</a><span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin" aria-hidden=true></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>取消</a></div><a class=menu-item href=/zh-cn/posts/ title>所有文章</a><a class=menu-item href=/zh-cn/tags/ title>标签</a><a class=menu-item href=/zh-cn/categories/ title>分类</a><a class=menu-item href=/zh-cn/about/ title>关于</a><a class=menu-item href=https://github.com/chloeekk title=GitHub rel="noopener noreffer" target=_blank><i class='fab fa-github fa-fw' aria-hidden=true></i></a><a href=javascript:void(0); class="menu-item theme-switch" title=切换主题>
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a><a href=javascript:void(0); class=menu-item title=选择语言><i class="fa fa-globe fa-fw" aria-hidden=true></i>
+<select class=language-select onchange="location=this.value"><option value=/posts/protect-hugo-website-content-from-being-copied/>English</option><option value=/zh-cn/posts/protect-hugo-website-content-from-being-copied/ selected>简体中文</option></select></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>目录</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">如何防止Hugo搭建的网站内容被盗</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=/zh-cn/ title=Author rel=author class=author><i class="fas fa-user-circle fa-fw" aria-hidden=true></i>作者</a></span>&nbsp;<span class=post-category>收录于 <a href=/zh-cn/categories/hugo/><i class="far fa-folder fa-fw" aria-hidden=true></i>Hugo</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw" aria-hidden=true></i>&nbsp;<time datetime=2025-04-19>2025-04-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden=true></i>&nbsp;约 1839 字&nbsp;
+<i class="far fa-clock fa-fw" aria-hidden=true></i>&nbsp;预计阅读 4 分钟&nbsp;<span id=/zh-cn/posts/protect-hugo-website-content-from-being-copied/ class=leancloud_visitors data-flag-title=如何防止Hugo搭建的网站内容被盗>
+<i class="far fa-eye fa-fw" aria-hidden=true></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+</span>&nbsp;
+<span id=busuanzi_container_value_page_pv><i class="far fa-eye fa-fw"></i>
+<span id=busuanzi_value_page_pv></span>&nbsp;次阅读</span></div></div><div class="details toc" id=toc-static data-kept><div class="details-summary toc-title"><span>目录</span>
+<span><i class="details-icon fas fa-angle-right" aria-hidden=true></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#一基础防护无需代码>一、基础防护（无需代码）</a><ul><li><a href=#添加版权声明>添加版权声明</a></li><li><a href=#法律威慑>法律威慑</a><ul><li><a href=#添加版权声明的方法>添加版权声明的方法</a></li><li><a href=#添加-dmca-保护的方法>添加 DMCA 保护的方法</a></li></ul></li></ul></li><li><a href=#二技术防护修改-hugo-模板>二、技术防护（修改 Hugo 模板）</a><ul><li><a href=#禁用右键菜单和文本选择>禁用右键菜单和文本选择</a><ul><li><a href=#禁用文本选择是否会影响seo效果>禁用文本选择是否会影响SEO效果？</a></li></ul></li><li><a href=#防止图片拖拽>防止图片拖拽</a></li><li><a href=#网站图片自动添加水印>网站图片自动添加水印</a><ul><li><a href=#1-确认目录结构和-markdown-语法>1. 确认目录结构和 Markdown 语法</a></li><li><a href=#2-启用-hugo-的-page-resources-功能>2. 启用 Hugo 的 Page Resources 功能</a></li><li><a href=#3-创建渲染钩子自动处理图片>3. 创建渲染钩子自动处理图片</a></li><li><a href=#4-验证效果>4. 验证效果</a></li></ul></li></ul></li></ul></nav></div></div><div class=content id=content><p>首先需要明确的是：没有任何技术手段能 100% 防止内容被复制（截图、手动重写、爬虫等方式均可绕过防护）。不过，可以通过以下方法显著增加复制难度，降低被批量盗取的可能性。</p><h2 id=一基础防护无需代码>一、基础防护（无需代码）</h2><h3 id=添加版权声明>添加版权声明</h3><p>在每篇文章开头/结尾明确标注版权信息，例如：</p><blockquote><p>本文采用 <a href=https://creativecommons.org/licenses/by-nc-nd/4.0/ target=_blank rel="noopener noreffer">CC BY-NC-ND 4.0</a> 协议授权，禁止未经授权的转载、复制或修改。</p></blockquote><ul><li><p>CC BY-NC-ND 4.0 协议理论上适用于任何语言的内容（包括中英文），但需注意：</p><ul><li>国际效力：CC 协议是全球通用的标准化协议，已在 100+ 国家/地区被法律认可，但需根据当地法律具体执行（例如某些国家可能对“非商业用途”定义不同）。</li><li>语言无关性：协议效力与内容语言无关，但建议在声明中同时提供英文版本，尤其是您的读者包含国际用户时。</li></ul></li><li><p>核心权利限制：</p><ul><li>BY（署名）：他人必须标明原作者。</li><li>NC（非商业）：禁止将内容用于商业目的（例如售卖你的文章、植入广告盈利）。</li><li>ND（禁止演绎）：禁止修改原内容（例如翻译、二次创作需单独授权）。</li></ul></li></ul><h3 id=法律威慑>法律威慑</h3><p>在网站底部添加版权声明和联系方式。如果内容非常重要，可考虑添加 DMCA 保护（需注册服务）。</p><h4 id=添加版权声明的方法>添加版权声明的方法</h4><p>直接在每篇文章的 <strong>Markdown 文件末尾</strong> 手动添加版权声明（适用于 Hugo 默认内容渲染方式）：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>title: &#34;你的文章标题&#34;
+</span></span><span class=line><span class=cl>date: 2025-04-19
+</span></span><span class=line><span class=cl>---
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>这里是文章正文...
+</span></span><span class=line><span class=cl><span class=k>
+</span></span></span><span class=line><span class=cl><span class=k>&gt; </span><span class=ge>© 2025 你的名字。未经许可禁止转载。
+</span></span></span></code></pre></td></tr></table></div></div><ul><li><p><strong>优点</strong>：</p><ul><li>无需修改模板代码，适合技术小白</li><li>可针对不同文章设置不同声明</li></ul></li><li><p><strong>缺点</strong>：</p><ul><li>需手动为每篇文章添加，效率低</li><li>无法统一修改全站声明</li></ul></li></ul><h4 id=添加-dmca-保护的方法>添加 DMCA 保护的方法</h4><p>注册 <a href=https://www.dmca.com/ target=_blank rel="noopener noreffer">DMCA.com</a> 后，获取「保护徽章」的 <strong>图片链接</strong>，然后：</p><ol><li>在 Hugo 的 <code>/static/images/</code> 目录下存放 DMCA 徽章图片（如 <code>dmca-badge.png</code>）</li><li>在任意文章或页面中插入图片和链接：<div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>[<span class=nt>![DMCA保护</span>](<span class=na>images/dmca-badge.png</span>)](https://www.dmca.com/Protection/Status.aspx?ID=xxx)
+</span></span></code></pre></td></tr></table></div></div></li></ol><p>添加成功后，在文章或「关于」页面显示徽章，点击跳转到 DMCA 验证页。</p><h2 id=二技术防护修改-hugo-模板>二、技术防护（修改 Hugo 模板）</h2><h3 id=禁用右键菜单和文本选择>禁用右键菜单和文本选择</h3><p>在 Hugo 的模板文件（如 layouts/_default/baseof.html）中添加以下代码。其中，“禁止文本选择”的代码加在<head>标签内</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>style</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=c>/* 禁止文本选择 */</span>
+</span></span><span class=line><span class=cl>  <span class=nt>body</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=kp>-webkit-</span><span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>  <span class=c>/* Chrome/Safari */</span>
+</span></span><span class=line><span class=cl>        <span class=kp>-moz-</span><span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>     <span class=c>/* Firefox */</span>
+</span></span><span class=line><span class=cl>        <span class=kp>-ms-</span><span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>      <span class=c>/* IE/Edge */</span>
+</span></span><span class=line><span class=cl>        <span class=k>user-select</span><span class=p>:</span> <span class=kc>none</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>      <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>style</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// 禁用右键菜单
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=nb>document</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s1>&#39;contextmenu&#39;</span><span class=p>,</span> <span class=kd>function</span><span class=p>(</span><span class=nx>e</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>e</span><span class=p>.</span><span class=nx>preventDefault</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>  <span class=p>});</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=c1>// 禁用 Ctrl+C / Cmd+C 快捷键
+</span></span></span><span class=line><span class=cl><span class=c1></span>  <span class=nb>document</span><span class=p>.</span><span class=nx>addEventListener</span><span class=p>(</span><span class=s1>&#39;keydown&#39;</span><span class=p>,</span> <span class=kd>function</span><span class=p>(</span><span class=nx>e</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=p>((</span><span class=nx>e</span><span class=p>.</span><span class=nx>ctrlKey</span> <span class=o>||</span> <span class=nx>e</span><span class=p>.</span><span class=nx>metaKey</span><span class=p>)</span> <span class=o>&amp;&amp;</span> <span class=nx>e</span><span class=p>.</span><span class=nx>keyCode</span> <span class=o>===</span> <span class=mi>67</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=nx>e</span><span class=p>.</span><span class=nx>preventDefault</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>  <span class=p>});</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>注意：</strong>
 不要直接修改主题目录，因为主题目录（themes/主题名/layouts/）下的模板文件会在主题更新时被覆盖。
-Hugo 的模板优先级规则是：项目根目录的 layouts/ 会覆盖主题的同名模板。如果根目录下没有baseof.html文件，需要先从themes文件夹下复制过来。</p>
-<h4 id="禁用文本选择是否会影响seo效果">禁用文本选择是否会影响SEO效果？</h4>
-<p>不会直接影响 SEO，因为搜索引擎爬虫（如 Google Bot）主要抓取 HTML 源码中的内容，而不是直接受 CSS 样式限制。
-<code>user-select: none</code>只是阻止用户通过鼠标选择文本，但文本仍然在 HTML 中正常渲染，对爬虫完全可见。搜索引擎爬虫会忽略大多数 CSS 样式（除非涉及隐藏内容的操作，如 <code>display: none</code> 或 <code>visibility: hidden</code>），因此 <code>user-select: none</code> 不会影响内容的抓取和索引。</p>
-<h3 id="防止图片拖拽">防止图片拖拽</h3>
-<p>在 CSS 中添加：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">img {
-  pointer-events: none; /* 禁止拖拽 */
-  -webkit-touch-callout: none; /* 禁用长按菜单（移动端） */
-}
-</code></pre></td></tr></table>
-</div>
-</div><h3 id="网站图片自动添加水印">网站图片自动添加水印</h3>
-<h4 id="1-确认目录结构和-markdown-语法">1. 确认目录结构和 Markdown 语法</h4>
-<p>假设你的文章和图片结构如下：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">content/
-└── posts/
-    ├── post-1/
-    │   ├── index.md      # 文章文件
-    │   └── image.png    # 图片文件
-    └── post-2/
-        ├── index.md
-        └── photo.jpg
-</code></pre></td></tr></table>
-</div>
-</div><p>在 index.md 中引用图片的语法为：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">![图片描述](image.png)
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="2-启用-hugo-的-page-resources-功能">2. 启用 Hugo 的 Page Resources 功能</h4>
-<p>Hugo 默认将文章目录下的文件视为 Page Resources，需确保配置正确。
+Hugo 的模板优先级规则是：项目根目录的 layouts/ 会覆盖主题的同名模板。如果根目录下没有baseof.html文件，需要先从themes文件夹下复制过来。</p><h4 id=禁用文本选择是否会影响seo效果>禁用文本选择是否会影响SEO效果？</h4><p>不会直接影响 SEO，因为搜索引擎爬虫（如 Google Bot）主要抓取 HTML 源码中的内容，而不是直接受 CSS 样式限制。
+<code>user-select: none</code>只是阻止用户通过鼠标选择文本，但文本仍然在 HTML 中正常渲染，对爬虫完全可见。搜索引擎爬虫会忽略大多数 CSS 样式（除非涉及隐藏内容的操作，如 <code>display: none</code> 或 <code>visibility: hidden</code>），因此 <code>user-select: none</code> 不会影响内容的抓取和索引。</p><h3 id=防止图片拖拽>防止图片拖拽</h3><p>在 CSS 中添加：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>img {
+</span></span><span class=line><span class=cl>  pointer-events: none; /* 禁止拖拽 */
+</span></span><span class=line><span class=cl>  -webkit-touch-callout: none; /* 禁用长按菜单（移动端） */
+</span></span><span class=line><span class=cl>}
+</span></span></code></pre></td></tr></table></div></div><h3 id=网站图片自动添加水印>网站图片自动添加水印</h3><h4 id=1-确认目录结构和-markdown-语法>1. 确认目录结构和 Markdown 语法</h4><p>假设你的文章和图片结构如下：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>content/
+</span></span><span class=line><span class=cl>└── posts/
+</span></span><span class=line><span class=cl>    ├── post-1/
+</span></span><span class=line><span class=cl>    │   ├── index.md      # 文章文件
+</span></span><span class=line><span class=cl>    │   └── image.png    # 图片文件
+</span></span><span class=line><span class=cl>    └── post-2/
+</span></span><span class=line><span class=cl>        ├── index.md
+</span></span><span class=line><span class=cl>        └── photo.jpg
+</span></span></code></pre></td></tr></table></div></div><p>在 index.md 中引用图片的语法为：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>![图片描述](image.png)
+</span></span></code></pre></td></tr></table></div></div><h4 id=2-启用-hugo-的-page-resources-功能>2. 启用 Hugo 的 Page Resources 功能</h4><p>Hugo 默认将文章目录下的文件视为 Page Resources，需确保配置正确。
 确认 config.toml 中的资源挂载：
-如果未配置，添加以下内容（通常默认已启用）：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">module</span><span class="p">]</span>
-  <span class="p">[[</span><span class="nx">module</span><span class="p">.</span><span class="nx">mounts</span><span class="p">]]</span>
-    <span class="nx">source</span> <span class="p">=</span> <span class="s2">&#34;content&#34;</span>
-    <span class="nx">target</span> <span class="p">=</span> <span class="s2">&#34;content&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="3-创建渲染钩子自动处理图片">3. 创建渲染钩子自动处理图片</h4>
-<p>通过渲染钩子捕获所有 Markdown 图片，并动态添加水印。</p>
-<ul>
-<li>在项目根目录下创建渲染钩子文件：</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">layouts/
-└── _default/
-    └── _markup/
-        └── render-image.html
-</code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>编写渲染钩子逻辑
-将以下代码写入 render-image.html：</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">{{- $original := .Page.Resources.GetMatch (printf &#34;%s&#34; (.Destination | safeURL)) -}}
-{{- $watermark := resources.Get &#34;images/watermark.png&#34; -}}
-
-{{- if and $original $watermark -}}
-  {{- $watermarkResized := $watermark.Resize (printf &#34;%dx&#34; (int (mul $original.Width 0.3))) -}}
-
-  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
-
-  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ $processed.RelPermalink | safeURL }}&#34;</span> 
-       <span class="na">alt</span><span class="o">=</span><span class="s">&#34;{{ .Text }}&#34;</span> 
-       <span class="na">width</span><span class="o">=</span><span class="s">&#34;{{ $original.Width }}&#34;</span> 
-       <span class="na">height</span><span class="o">=</span><span class="s">&#34;{{ mul $original.Height 0.4 | int }}&#34;</span> 
-       <span class="err">{{</span> <span class="na">with</span> <span class="err">.</span><span class="na">Title</span> <span class="err">}}</span><span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 100%; max-width: {{ . }};&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span> <span class="p">/&gt;</span>
-
-{{- else -}}
-  <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;{{ .Destination | safeURL }}&#34;</span> 
-       <span class="na">alt</span><span class="o">=</span><span class="s">&#34;{{ .Text }}&#34;</span> 
-       <span class="err">{{</span> <span class="na">with</span> <span class="err">$</span><span class="na">original</span> <span class="err">}}</span><span class="na">width</span><span class="o">=</span><span class="s">&#34;{{ .Width }}&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span>
-       <span class="err">{{</span> <span class="na">with</span> <span class="err">$</span><span class="na">original</span> <span class="err">}}</span><span class="na">height</span><span class="o">=</span><span class="s">&#34;{{ mul .Height 0.4 | int }}&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span>
-       <span class="err">{{</span> <span class="na">with</span> <span class="err">.</span><span class="na">Title</span> <span class="err">}}</span><span class="na">style</span><span class="o">=</span><span class="s">&#34;width: 100%; max-width: {{ . }};&#34;</span><span class="err">{{</span> <span class="na">end</span> <span class="err">}}</span><span class="p">/&gt;</span>
-{{- end -}}
-</code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>准备水印图片
-将水印图片（如 watermark.png）存放在 assets/images/ 目录下：</li>
-</ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">assets/
-└── images/
-    └── watermark.png
-</code></pre></td></tr></table>
-</div>
-</div><h4 id="4-验证效果">4. 验证效果</h4>
-<p>运行<code>hugo server</code>，打开文章页面，检查图片是否自动添加水印。</p>
-</div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>更新于 2025-04-19</span>
-            </div></div>
-        <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" data-title="如何防止Hugo搭建的网站内容被盗" data-hashtags="Hugo"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" data-title="如何防止Hugo搭建的网站内容被盗"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" data-title="如何防止Hugo搭建的网站内容被盗"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/" data-title="如何防止Hugo搭建的网站内容被盗"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
-            </div>
-        </div>
-    </div>
-
-    <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/zh-cn/tags/hugo/">Hugo</a></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/zh-cn/">主页</a></span>
-        </section>
-    </div>
-
-    <div class="post-nav"><a href="/zh-cn/posts/saas-landing-page/" class="prev" rel="prev" title="分析SaaS落地页的核心结构"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>分析SaaS落地页的核心结构</a>
-            <a href="/zh-cn/posts/ecommerce-landing-page/" class="next" rel="next" title="电商落地页高效转化秘诀">电商落地页高效转化秘诀<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
-</div>
-<div id="comments"><div id="valine" class="comment"></div><noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
-            </noscript></div></article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/zh-cn/" target="_blank">Chloe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
-    
-        
-        <script async src=" //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js "></script>
-    
-
-    
-        
-            <section>
-                
-                    <span id="busuanzi_container_value_site_pv"><i class="far fa-eye fa-fw"></i>
-                        
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-
-                
-                    &nbsp;|&nbsp;              
-                
-
-                
-                    <span id="busuanzi_container_value_site_uv"><i class="fa fa-user"></i>
-                        
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-            </section>
-        
-
-        
-        
-    
-</div>
-        </div>
-    </footer></div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.485ce22971162ae594e2f22468d97519fb9c08a7112e3a012e8684cfe098b474.js" integrity="sha256-SFziKXEWKuWU4vIkaNl1GfucCKcRLjoBLoaEz+CYtHQ="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
-            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'G-J96VH8CX0X', { 'anonymize_ip': true });
-        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body>
-</html>
+如果未配置，添加以下内容（通常默认已启用）：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=p>[</span><span class=nx>module</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>  <span class=p>[[</span><span class=nx>module</span><span class=p>.</span><span class=nx>mounts</span><span class=p>]]</span>
+</span></span><span class=line><span class=cl>    <span class=nx>source</span> <span class=p>=</span> <span class=s2>&#34;content&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=nx>target</span> <span class=p>=</span> <span class=s2>&#34;content&#34;</span>
+</span></span></code></pre></td></tr></table></div></div><h4 id=3-创建渲染钩子自动处理图片>3. 创建渲染钩子自动处理图片</h4><p>通过渲染钩子捕获所有 Markdown 图片，并动态添加水印。</p><ul><li>在项目根目录下创建渲染钩子文件：</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>layouts/
+</span></span><span class=line><span class=cl>└── _default/
+</span></span><span class=line><span class=cl>    └── _markup/
+</span></span><span class=line><span class=cl>        └── render-image.html
+</span></span></code></pre></td></tr></table></div></div><ul><li>编写渲染钩子逻辑
+将以下代码写入 render-image.html：</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{- $original := .Page.Resources.GetMatch (printf &#34;%s&#34; (.Destination | safeURL)) -}}
+</span></span><span class=line><span class=cl>{{- $watermark := resources.Get &#34;images/watermark.png&#34; -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>{{- if and $original $watermark -}}
+</span></span><span class=line><span class=cl>  {{- $watermarkResized := $watermark.Resize (printf &#34;%dx&#34; (int (mul $original.Width 0.3))) -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;{{ $processed.RelPermalink | safeURL }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>alt</span><span class=o>=</span><span class=s>&#34;{{ .Text }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>width</span><span class=o>=</span><span class=s>&#34;{{ $original.Width }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>height</span><span class=o>=</span><span class=s>&#34;{{ mul $original.Height 0.4 | int }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>.</span><span class=na>Title</span> <span class=err>}}</span><span class=na>style</span><span class=o>=</span><span class=s>&#34;width: 100%; max-width: {{ . }};&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span> <span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>{{- else -}}
+</span></span><span class=line><span class=cl>  <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;{{ .Destination | safeURL }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=na>alt</span><span class=o>=</span><span class=s>&#34;{{ .Text }}&#34;</span> 
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>$</span><span class=na>original</span> <span class=err>}}</span><span class=na>width</span><span class=o>=</span><span class=s>&#34;{{ .Width }}&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span>
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>$</span><span class=na>original</span> <span class=err>}}</span><span class=na>height</span><span class=o>=</span><span class=s>&#34;{{ mul .Height 0.4 | int }}&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span>
+</span></span><span class=line><span class=cl>       <span class=err>{{</span> <span class=na>with</span> <span class=err>.</span><span class=na>Title</span> <span class=err>}}</span><span class=na>style</span><span class=o>=</span><span class=s>&#34;width: 100%; max-width: {{ . }};&#34;</span><span class=err>{{</span> <span class=na>end</span> <span class=err>}}</span><span class=p>/&gt;</span>
+</span></span><span class=line><span class=cl>{{- end -}}
+</span></span></code></pre></td></tr></table></div></div><ul><li>准备水印图片
+将水印图片（如 watermark.png）存放在 assets/images/ 目录下：</li></ul><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>assets/
+</span></span><span class=line><span class=cl>└── images/
+</span></span><span class=line><span class=cl>    └── watermark.png
+</span></span></code></pre></td></tr></table></div></div><h4 id=4-验证效果>4. 验证效果</h4><p>运行<code>hugo server</code>，打开文章页面，检查图片是否自动添加水印。</p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>更新于 2025-04-19</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 Twitter" data-sharer=twitter data-url=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/ data-title=如何防止Hugo搭建的网站内容被盗 data-hashtags=Hugo><i class="fab fa-twitter fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Facebook" data-sharer=facebook data-url=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/ data-hashtag=Hugo><i class="fab fa-facebook-square fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Hacker News" data-sharer=hackernews data-url=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/ data-title=如何防止Hugo搭建的网站内容被盗><i class="fab fa-hacker-news fa-fw" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Line" data-sharer=line data-url=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/ data-title=如何防止Hugo搭建的网站内容被盗><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 微博" data-sharer=weibo data-url=https://chloevolution.com/zh-cn/posts/protect-hugo-website-content-from-being-copied/ data-title=如何防止Hugo搭建的网站内容被盗><i class="fab fa-weibo fa-fw" aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw" aria-hidden=true></i>&nbsp;<a href=/zh-cn/tags/hugo/>Hugo</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>返回</a></span>&nbsp;|&nbsp;<span><a href=/zh-cn/>主页</a></span></section></div><div class=post-nav><a href=/zh-cn/posts/saas-landing-page/ class=prev rel=prev title=分析SaaS落地页的核心结构><i class="fas fa-angle-left fa-fw" aria-hidden=true></i>分析SaaS落地页的核心结构</a>
+<a href=/zh-cn/posts/ecommerce-landing-page/ class=next rel=next title=电商落地页高效转化秘诀>电商落地页高效转化秘诀<i class="fas fa-angle-right fa-fw" aria-hidden=true></i></a></div></div><div id=comments><div id=valine class=comment></div><noscript>Please enable JavaScript to view the comments powered by <a href=https://valine.js.org/>Valine</a>.</noscript></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright fa-fw" aria-hidden=true></i><span itemprop=copyrightYear>2022 - 2025</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/zh-cn/ target=_blank></a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span>
+<script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><section><span id=busuanzi_container_value_site_pv><i class="far fa-eye fa-fw"></i>
+<span id=busuanzi_value_site_pv></span>
+</span>&nbsp;|&nbsp;
+<span id=busuanzi_container_value_site_uv><i class="fa fa-user"></i>
+<span id=busuanzi_value_site_uv></span></span></section></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up fa-fw" aria-hidden=true></i>
+</a><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment fa-fw" aria-hidden=true></i></a></div><link rel=stylesheet href=/lib/valine/valine.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css><script type=text/javascript src=https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"复制到剪贴板",maxShownLines:50},comment:{valine:{appId:"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI",appKey:"WBmoGyJtbqUswvfLh6L8iEBr",avatar:"mp",el:"#valine",emojiCDN:"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/",emojiMaps:{100:"1f4af.png",alien:"1f47d.png",anger:"1f4a2.png",angry:"1f620.png",anguished:"1f627.png",astonished:"1f632.png",black_heart:"1f5a4.png",blue_heart:"1f499.png",blush:"1f60a.png",bomb:"1f4a3.png",boom:"1f4a5.png",broken_heart:"1f494.png",brown_heart:"1f90e.png",clown_face:"1f921.png",cold_face:"1f976.png",cold_sweat:"1f630.png",confounded:"1f616.png",confused:"1f615.png",cry:"1f622.png",crying_cat_face:"1f63f.png",cupid:"1f498.png",dash:"1f4a8.png",disappointed:"1f61e.png",disappointed_relieved:"1f625.png",dizzy:"1f4ab.png",dizzy_face:"1f635.png",drooling_face:"1f924.png",exploding_head:"1f92f.png",expressionless:"1f611.png",face_vomiting:"1f92e.png",face_with_cowboy_hat:"1f920.png",face_with_hand_over_mouth:"1f92d.png",face_with_head_bandage:"1f915.png",face_with_monocle:"1f9d0.png",face_with_raised_eyebrow:"1f928.png",face_with_rolling_eyes:"1f644.png",face_with_symbols_on_mouth:"1f92c.png",face_with_thermometer:"1f912.png",fearful:"1f628.png",flushed:"1f633.png",frowning:"1f626.png",ghost:"1f47b.png",gift_heart:"1f49d.png",green_heart:"1f49a.png",grimacing:"1f62c.png",grin:"1f601.png",grinning:"1f600.png",hankey:"1f4a9.png",hear_no_evil:"1f649.png",heart:"2764-fe0f.png",heart_decoration:"1f49f.png",heart_eyes:"1f60d.png",heart_eyes_cat:"1f63b.png",heartbeat:"1f493.png",heartpulse:"1f497.png",heavy_heart_exclamation_mark_ornament:"2763-fe0f.png",hole:"1f573-fe0f.png",hot_face:"1f975.png",hugging_face:"1f917.png",hushed:"1f62f.png",imp:"1f47f.png",innocent:"1f607.png",japanese_goblin:"1f47a.png",japanese_ogre:"1f479.png",joy:"1f602.png",joy_cat:"1f639.png",kiss:"1f48b.png",kissing:"1f617.png",kissing_cat:"1f63d.png",kissing_closed_eyes:"1f61a.png",kissing_heart:"1f618.png",kissing_smiling_eyes:"1f619.png",laughing:"1f606.png",left_speech_bubble:"1f5e8-fe0f.png",love_letter:"1f48c.png",lying_face:"1f925.png",mask:"1f637.png",money_mouth_face:"1f911.png",nauseated_face:"1f922.png",nerd_face:"1f913.png",neutral_face:"1f610.png",no_mouth:"1f636.png",open_mouth:"1f62e.png",orange_heart:"1f9e1.png",partying_face:"1f973.png",pensive:"1f614.png",persevere:"1f623.png",pleading_face:"1f97a.png",pouting_cat:"1f63e.png",purple_heart:"1f49c.png",rage:"1f621.png",relaxed:"263a-fe0f.png",relieved:"1f60c.png",revolving_hearts:"1f49e.png",right_anger_bubble:"1f5ef-fe0f.png",robot_face:"1f916.png",rolling_on_the_floor_laughing:"1f923.png",scream:"1f631.png",scream_cat:"1f640.png",see_no_evil:"1f648.png",shushing_face:"1f92b.png",skull:"1f480.png",skull_and_crossbones:"2620-fe0f.png",sleeping:"1f634.png",sleepy:"1f62a.png",slightly_frowning_face:"1f641.png",slightly_smiling_face:"1f642.png",smile:"1f604.png",smile_cat:"1f638.png",smiley:"1f603.png",smiley_cat:"1f63a.png",smiling_face_with_3_hearts:"1f970.png",smiling_imp:"1f608.png",smirk:"1f60f.png",smirk_cat:"1f63c.png",sneezing_face:"1f927.png",sob:"1f62d.png",space_invader:"1f47e.png",sparkling_heart:"1f496.png",speak_no_evil:"1f64a.png",speech_balloon:"1f4ac.png","star-struck":"1f929.png",stuck_out_tongue:"1f61b.png",stuck_out_tongue_closed_eyes:"1f61d.png",stuck_out_tongue_winking_eye:"1f61c.png",sunglasses:"1f60e.png",sweat:"1f613.png",sweat_drops:"1f4a6.png",sweat_smile:"1f605.png",thinking_face:"1f914.png",thought_balloon:"1f4ad.png",tired_face:"1f62b.png",triumph:"1f624.png",two_hearts:"1f495.png",unamused:"1f612.png",upside_down_face:"1f643.png",weary:"1f629.png",white_frowning_face:"2639-fe0f.png",white_heart:"1f90d.png",wink:"1f609.png",woozy_face:"1f974.png",worried:"1f61f.png",yawning_face:"1f971.png",yellow_heart:"1f49b.png",yum:"1f60b.png",zany_face:"1f92a.png",zipper_mouth_face:"1f910.png",zzz:"1f4a4.png"},enableQQ:!1,highlight:!0,lang:"zh-CN",pageSize:10,placeholder:"你的评论 ...",recordIP:!0,serverURLs:"https://leancloud.hugoloveit.com",visitor:!0}},math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!0,left:"\\begin{equation}",right:"\\end{equation}"},{display:!0,left:"\\begin{equation*}",right:"\\end{equation*}"},{display:!0,left:"\\begin{align}",right:"\\end{align}"},{display:!0,left:"\\begin{align*}",right:"\\end{align*}"},{display:!0,left:"\\begin{alignat}",right:"\\end{alignat}"},{display:!0,left:"\\begin{alignat*}",right:"\\end{alignat*}"},{display:!0,left:"\\begin{gather}",right:"\\end{gather}"},{display:!0,left:"\\begin{CD}",right:"\\end{CD}"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{algoliaAppID:"PASDMWALPK",algoliaIndex:"index.zh-cn",algoliaSearchKey:"b42948e51daaa93df92381c8e2ac0f93",highlightTag:"em",maxResultLength:10,noResultsFound:"没有找到结果",snippetLength:50,type:"algolia"}}</script><script type=text/javascript src=/js/theme.min.d7121d72cd85153ec9d35a888cee3eb28c2700ca763f649a538f6c772d750021.js integrity="sha256-1xIdcs2FFT7J01qIjO4+sownAMp2P2SaU49sdy11ACE="></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js></script><script type=text/javascript src=/js/custom.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-J96VH8CX0X",{anonymize_ip:!0})</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-J96VH8CX0X" async></script></body></html>

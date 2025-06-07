@@ -1,28 +1,57 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Python - Tag - Chloevolution</title>
-        <link>https://chloevolution.com/tags/python/</link>
-        <description>Python - Tag - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 09 Apr 2024 22:00:01 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/python/" rel="self" type="application/rss+xml" /><item>
-    <title>How to Read a ZST File via Python</title>
-    <link>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</link>
-    <pubDate>Tue, 09 Apr 2024 22:00:01 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</guid>
-    <description><![CDATA[Prerequisites To run this code, you need the pandas, zstandard (zstd), and json libraries. If not already installed, you can install pandas and zstandard using pip:
-1  pip install pandas zstandard   json is part of Python&rsquo;s standard library, so no additional installation is needed for it.
-Note: The above below assumes the data inside the .zst file is the newline-delimited JSON (NDJSON) format. If your data is in another format (e.]]></description>
-</item>
-<item>
-    <title>Customer Profiling &amp; Segmentation with Python (Source code)</title>
-    <link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link>
-    <pubDate>Sun, 07 Apr 2024 11:49:14 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/customer-profiling-and-segmentation/</guid>
-    <description><![CDATA[The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from original author, there are slight differences in the analysis part.
-The specific analysis process includes:
- Data Preparation Data Cleaning Data Visualization Data Processing Cluster Analysis Customer Profiling and Segmentation  1. Data Preparation Use the KMeans clustering algorithm to divide the data into K clusters:
-1 2 3 4 5 6 7 8 9 10 11  import numpy as np import pandas as pd import seaborn as sns import matplotlib.]]></description>
-</item>
-</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Chloevolution</title><link>https://chloevolution.com/tags/python/</link><description>Recent content in Python on Chloevolution</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 09 Apr 2024 22:00:01 +0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Read a ZST File via Python</title><link>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</link><pubDate>Tue, 09 Apr 2024 22:00:01 +0800</pubDate><guid>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</guid><description>&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>To run this code, you need the &lt;code>pandas&lt;/code>, &lt;code>zstandard&lt;/code> (&lt;code>zstd&lt;/code>), and &lt;code>json&lt;/code> libraries. If not already installed, you can install &lt;code>pandas&lt;/code> and &lt;code>zstandard&lt;/code> using pip:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pip&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">pandas&lt;/span> &lt;span class="n">zstandard&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>json&lt;/code> is part of Python&amp;rsquo;s standard library, so no additional installation is needed for it.&lt;/p>
+&lt;p>&lt;strong>Note&lt;/strong>: The above below assumes the data inside the &lt;code>.zst&lt;/code> file is the &lt;strong>newline-delimited JSON (NDJSON)&lt;/strong> format. If your data is in another format (e.g., CSV, TSV), you should use the appropriate &lt;code>pandas&lt;/code> function (like &lt;code>pd.read_csv()&lt;/code>).&lt;/p></description></item><item><title>Customer Profiling &amp; Segmentation with Python (Source code)</title><link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link><pubDate>Sun, 07 Apr 2024 11:49:14 +0800</pubDate><guid>https://chloevolution.com/posts/customer-profiling-and-segmentation/</guid><description>&lt;p>The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from &lt;a href="https://www.kaggle.com/code/mfaaris/customer-segmentation-insights-profiling" target="_blank" rel="noopener noreffer ">original author&lt;/a>, there are slight differences in the analysis part.&lt;/p>
+&lt;p>The specific analysis process includes:&lt;/p>
+&lt;ol>
+&lt;li>Data Preparation&lt;/li>
+&lt;li>Data Cleaning&lt;/li>
+&lt;li>Data Visualization&lt;/li>
+&lt;li>Data Processing&lt;/li>
+&lt;li>Cluster Analysis&lt;/li>
+&lt;li>Customer Profiling and Segmentation&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-data-preparation">1. Data Preparation&lt;/h2>
+&lt;p>Use the KMeans clustering algorithm to divide the data into K clusters:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">numpy&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">np&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">seaborn&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">sns&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">matplotlib.pyplot&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">plt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">get_dummies&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.cluster&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">KMeans&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.preprocessing&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">StandardScaler&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">LabelEncoder&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">yellowbrick.cluster&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">KElbowVisualizer&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">warnings&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">warnings&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">filterwarnings&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;ignore&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="modulenotfounderror-no-module-named-yellowbrick">ModuleNotFoundError: No module named ‘yellowbrick’&lt;/h3>
+&lt;p>&lt;img src="https://chloevolution.com/posts/customer-profiling-and-segmentation/yellowbrick-error_hu_924bee1d40c93ae6.png" 
+ alt="yellowbrick-error" 
+ width="1290" 
+ height="143" 
+ />&lt;/p></description></item></channel></rss>

@@ -1,49 +1,81 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Hugo - Category - Chloevolution</title>
-        <link>https://chloevolution.com/categories/hugo/</link>
-        <description>Hugo - Category - Chloevolution</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/hugo/" rel="self" type="application/rss+xml" /><item>
-    <title>SEO Configuration for Hugo Multilingual Websites</title>
-    <link>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</link>
-    <pubDate>Tue, 29 Apr 2025 07:16:35 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</guid>
-    <description><![CDATA[Potential Reasons Why Hugo Multilingual Sites Are Not Properly Indexed by Search Engines I recently noticed an issue with newly published articles: Google only indexes one language version of the same article (either Chinese or English). There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues, which may include:
-Multilingual Configuration Issues  Ensure proper multilingual configuration in config.toml or config.yaml, e.]]></description>
-</item>
-<item>
-    <title>Protect Hugo Website Content from Being Copied</title>
-    <link>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</link>
-    <pubDate>Sat, 19 Apr 2025 10:11:53 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</guid>
-    <description><![CDATA[First, it must be clearly understood: There is no technical method that can 100% prevent content from being copied (methods like screenshots, manual rewriting, or crawlers can bypass protections). However, the following methods can significantly increase the difficulty of copying and reduce the risk of bulk theft.
-Basic Protections (No Coding Required) Add Copyright Notices Include clear copyright information at the beginning/end of each article, for example:
- This article is licensed under CC BY-NC-ND 4.]]></description>
-</item>
-<item>
-    <title>Integrate Google Analytics with Hugo Website</title>
-    <link>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</link>
-    <pubDate>Sun, 13 Apr 2025 10:07:56 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</guid>
-    <description><![CDATA[After setting up your personal blog site using Hugo and GitHub Pages, you can integrate Google Analytics to monitor SEO performance and track detailed traffic metrics.
-Configuration Steps 1. Log into Google Analytics 4 and Create a New Account Sign in with your Google account on the official website and create a new Google Analytics 4 (GA4) account.
-Note: Google has fully transitioned to GA4, and the legacy Google Universal Analytics (UA) is deprecated.]]></description>
-</item>
-<item>
-    <title>How to use Hugo to Build a Blog and Deploy it to Github Page</title>
-    <link>https://chloevolution.com/posts/hugo-github-pages/</link>
-    <pubDate>Thu, 20 Oct 2022 07:57:53 &#43;0800</pubDate>
-    <author>Chloe</author>
-    <guid>https://chloevolution.com/posts/hugo-github-pages/</guid>
-    <description><![CDATA[1. Install Hugo  Windows:  First install the choco package manager, run cmd under administrator rights, and execute the following command:
-1 2 3 4  powershell -NoProfile -ExecutionPolicy unrestricted -Command &#34;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&#34; # Set environment variables SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin   Then use choco to install hugo:
-choco install hugo -confirm
- MacOs:  Install using brew command:
-brew install hugo
- Linux:  Install using snap command:]]></description>
-</item>
-</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Chloevolution</title><link>https://chloevolution.com/categories/hugo/</link><description>Recent content in Hugo on Chloevolution</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Apr 2025 07:16:35 +0800</lastBuildDate><atom:link href="https://chloevolution.com/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>SEO Configuration for Hugo Multilingual Websites</title><link>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</link><pubDate>Tue, 29 Apr 2025 07:16:35 +0800</pubDate><guid>https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/</guid><description>&lt;h2 id="potential-reasons-why-hugo-multilingual-sites-are-not-properly-indexed-by-search-engines">Potential Reasons Why Hugo Multilingual Sites Are Not Properly Indexed by Search Engines&lt;/h2>
+&lt;p>I recently noticed an issue with newly published articles: &lt;strong>Google only indexes one language version of the same article (either Chinese or English)&lt;/strong>. There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues, which may include:&lt;/p>
+&lt;h3 id="multilingual-configuration-issues">Multilingual Configuration Issues&lt;/h3>
+&lt;ul>
+&lt;li>Ensure proper multilingual configuration in &lt;code>config.toml&lt;/code> or &lt;code>config.yaml&lt;/code>, e.g.:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="nx">languages&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">en&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">languageName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;English&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">contentDir&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;content/en&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="nx">languages&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">zh&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">languageName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;中文&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">contentDir&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;content/zh&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>Confirm each article&amp;rsquo;s &lt;code>index.md&lt;/code> front matter contains language identifiers like &lt;code>language: en&lt;/code> or &lt;code>language: zh&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="missing-hreflang-tags">Missing &lt;code>hreflang&lt;/code> Tags&lt;/h3>
+&lt;p>Search engines require &lt;code>hreflang&lt;/code> tags to recognize different language versions. Incorrect implementation may lead to single-language indexing.&lt;/p></description></item><item><title>Protect Hugo Website Content from Being Copied</title><link>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</link><pubDate>Sat, 19 Apr 2025 10:11:53 +0800</pubDate><guid>https://chloevolution.com/posts/protect-hugo-website-content-from-being-copied/</guid><description>&lt;p>First, it must be clearly understood: There is no technical method that can 100% prevent content from being copied (methods like screenshots, manual rewriting, or crawlers can bypass protections). However, the following methods can significantly increase the difficulty of copying and reduce the risk of bulk theft.&lt;/p>
+&lt;h2 id="basic-protections-no-coding-required">Basic Protections (No Coding Required)&lt;/h2>
+&lt;h3 id="add-copyright-notices">Add Copyright Notices&lt;/h3>
+&lt;p>Include clear copyright information at the beginning/end of each article, for example:&lt;/p>
+&lt;blockquote>
+&lt;p>This article is licensed under &lt;a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreffer ">CC BY-NC-ND 4.0&lt;/a>. Unauthorized reposting, copying, or modification is prohibited.&lt;/p></description></item><item><title>Integrate Google Analytics with Hugo Website</title><link>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</link><pubDate>Sun, 13 Apr 2025 10:07:56 +0800</pubDate><guid>https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/</guid><description>&lt;p>After setting up your personal blog site &lt;a href="https://chloevolution.com/posts/hugo-github-pages/" target="_blank" rel="noopener noreffer ">using Hugo and GitHub Pages&lt;/a>, you can integrate Google Analytics to monitor SEO performance and track detailed traffic metrics.&lt;/p>
+&lt;h2 id="configuration-steps">Configuration Steps&lt;/h2>
+&lt;h3 id="1-log-into-google-analytics-4-and-create-a-new-account">1. Log into Google Analytics 4 and Create a New Account&lt;/h3>
+&lt;p>Sign in with your Google account on the &lt;a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener noreffer ">official website&lt;/a> and create a new Google Analytics 4 (GA4) account.&lt;br>
+&lt;strong>Note:&lt;/strong> Google has fully transitioned to GA4, and the legacy Google Universal Analytics (UA) is deprecated.&lt;br>
+&lt;img src="https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/create-google-analytics-4-account_hu_16432d21b32fa960.png" 
+ alt="create-google-analytics-4-account" 
+ width="949" 
+ height="356" 
+ />&lt;/p></description></item><item><title>How to use Hugo to Build a Blog and Deploy it to Github Page</title><link>https://chloevolution.com/posts/hugo-github-pages/</link><pubDate>Thu, 20 Oct 2022 07:57:53 +0800</pubDate><guid>https://chloevolution.com/posts/hugo-github-pages/</guid><description>&lt;h2 id="1-install-hugo">1. Install Hugo&lt;/h2>
+&lt;ul>
+&lt;li>Windows:&lt;/li>
+&lt;/ul>
+&lt;p>First install the choco package manager, run cmd under &lt;strong>administrator rights&lt;/strong>, and execute the following command:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">powershell&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">NoProfile&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">ExecutionPolicy&lt;/span> &lt;span class="n">unrestricted&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">Command&lt;/span> &lt;span class="s2">&amp;#34;iex ((new-object net.webclient).DownloadString(&amp;#39;https://chocolatey.org/install.ps1&amp;#39;))&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Set environment variables&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">SET&lt;/span> &lt;span class="n">PATH&lt;/span>&lt;span class="o">=%&lt;/span>&lt;span class="n">PATH&lt;/span>&lt;span class="o">%&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="o">%&lt;/span>&lt;span class="n">ALLUSERSPROFILE&lt;/span>&lt;span class="o">%&lt;/span>\&lt;span class="n">chocolatey&lt;/span>\&lt;span class="n">bin&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Then use choco to install hugo:&lt;/p>
+&lt;p>&lt;code>choco install hugo -confirm&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>MacOs:&lt;/li>
+&lt;/ul>
+&lt;p>Install using brew command:&lt;/p>
+&lt;p>&lt;code>brew install hugo&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Linux:&lt;/li>
+&lt;/ul>
+&lt;p>Install using snap command:&lt;/p>
+&lt;p>&lt;code>snap install hugo&lt;/code>&lt;/p>
+&lt;p>Check whether the installation is successful:&lt;/p>
+&lt;p>Enter: &lt;code>hugo version&lt;/code>. If the version information appears, the installation is successful.&lt;/p></description></item></channel></rss>
