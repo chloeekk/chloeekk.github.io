@@ -2,7 +2,7 @@
 title: "How to Do Google Ads for Business"
 description: "Learn how to effectively use Google Ads to improve business performance, master keyword research, ad settings and monitoring tools, and drive sales growth."
 date: 2024-10-06T07:57:03+08:00
-draft: true
+draft: false
 
 categories:
 - SEM

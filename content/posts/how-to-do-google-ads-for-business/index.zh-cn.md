@@ -2,7 +2,7 @@
 title: "如何利用Google广告推动业务增长"
 description: "学习如何有效使用Google广告来提升业务表现，掌握关键字研究、广告设置和监控工具，推动销售增长。"
 date: 2024-10-06T07:57:03+08:00
-draft: true
+draft: false
 
 categories:
 - SEM
