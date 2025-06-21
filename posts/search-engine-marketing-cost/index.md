@@ -1,172 +1,209 @@
-# How to Reduce Search Engine Marketing Cost
+# SEM Advertising Costs Fully Explained: Self-Managed vs. Hiring an Agency – How to Choose?
 
 
-Search Engine Marketing (SEM) is an effective strategy for promoting products or services to potential customers through search engines. The core of SEM is to increase the visibility of brands in search engines through various strategies and tools, thereby attracting more traffic and potential customers. Imagine that your target audience is searching for information related to your products or services online, and your brand happens to appear at the top of the search results, which will undoubtedly greatly increase the chances of users clicking on your website.
+Search Engine Marketing (SEM) refers to strategies and tools that enhance a brand's visibility in search engine results, thereby attracting more traffic and potential customers. Imagine your target audience searching online for information related to your product or service, and your brand appears at the top of the search results—this significantly increases the chances of users clicking through to your website.  
 
-The operation of SEM mainly relies on search engine advertising platforms such as [Google Ads](https://chloevolution.com/posts/how-to-do-google-ads-for-business/) or Bing Ads. Companies bid on specific keywords to ensure that ads are displayed in relevant searches. When users search for these keywords, they see the ads you bid for them.
+SEM primarily relies on search engine advertising platforms like [Google Ads](https://chloevolution.com/zh-cn/posts/how-to-do-google-ads-for-business/) or Bing Ads. Businesses bid on specific keywords to ensure their ads appear in relevant searches. When users search for these keywords, they see the ads you’ve bid on.  
 
-## SEM cost statistics
+One of the most common questions businesses ask is, "How much budget do I need to prepare?" This question isn’t wrong, but it often overlooks a critical fact: **The actual investment in SEM advertising goes far beyond just 'how much to spend per month.'**  
 
-Before we get to know the cost structure of search engine marketing in depth, it is particularly important to understand the SEM cost statistics of different industries. According to statistics from some authoritative research institutions and market analysis companies, we can clearly see the advertising expenditure trends of different industries on SEM.
+## How Much Does SEM Cost?  
 
-### SEM cost statistics for different industries
+Before diving into the cost structure of SEM, let’s look at average SEM expenses based on third-party research.  
 
-1. **E-commerce industry**: According to [Statista](https://www.statista.com/), the average cost per click (CPC) for search engine marketing in the e-commerce industry is about $0.88. Due to fierce competition, many large e-commerce platforms usually invest a lot of money in search engines, and advertising expenditures account for a considerable proportion of the entire marketing budget.
+According to [WebFX](https://www.webfx.com/digital-advertising/pricing/sem-pricing/), 70% of businesses spend between **\$251 and \$10,000** per month on SEM.  
+![sem-average-cost](sem-average-cost.png)  
 
-2. **Tourism industry**: According to research by [WordStream](https://www.wordstream.com/), the average CPC in the tourism industry is as high as $1.83. Advertising costs in this industry are greatly affected by seasonality, especially before holidays, when advertising expenditures will rise significantly to attract more travelers.
+Of course, there are extremes: the lowest-spending companies allocate less than \$50 per month (likely barely running any ads), while the highest-spending companies exceed \$250,000 per month (common for large enterprises).  
 
-3. **Financial services industry**: SEM costs in the financial services industry are also not to be underestimated. According to [AdEspresso](https://adespresso.com/), the average CPC in this industry is $3.77. Due to the complexity and high value of financial services, advertisers are often willing to pay higher advertising fees for higher conversion rates.
+## Self-Managed Ads vs. Hiring an Agency  
+Before calculating SEM costs, you must first decide which approach to take: managing the ad account yourself or outsourcing it to a third-party agency.  
 
-4. **Education industry**: SEM costs in the education industry are relatively low, with an average CPC of about $2.00. Advertisers in this industry usually target potential students and value the return on investment of online advertising.
+These two models differ not only in operation but also in **cost structure**.  
 
-5. **Healthcare industry**: In the healthcare industry, SEM costs are also considerable. Data shows that the average CPC in the healthcare industry is $2.45, especially in advertisements related to specific treatments or drugs, where competition is very fierce.
+### Self-Managed Ads: Budget Spent More "Directly," but Time and Skills Are Hidden Costs  
 
-### Analysis of advertising spending trends in different industries
+* All budget goes directly to ads, **with no service fees**.  
+* However, you’ll need to handle keyword selection, bidding strategies, ad copywriting, data analysis, etc.  
+* If you use third-party tools for optimization, additional subscription costs apply.  
+* Most importantly, **you’ll need to invest significant time and effort to learn and experiment**.  
 
-With the continuous development of digital marketing, the spending trends of various industries on SEM are also changing. Here are some major trends:
+**Best for:** Small and medium-sized businesses with limited budgets, time to learn, or in-house staff familiar with advertising.  
 
-- **Continued growth**: SEM spending in almost all industries has shown a trend of continuous growth in the past few years. According to research by [eMarketer](https://www.emarketer.com/), global digital advertising spending is expected to reach more than $500 billion by 2025, of which SEM accounts for a considerable share.
+### Hiring an Agency: Pay More for Expertise, Save Effort but Face More Complex Costs  
 
-- **Technology impact**: With the advancement of technology, advertisers are increasingly inclined to use smart delivery tools and data analysis software to optimize advertising spending. These technologies help them to accurately target their target audiences, thereby increasing conversion rates.
+* In addition to ad spend, you’ll pay **service fees** (typically 10%–20% of ad spend or a fixed monthly fee).  
+* Some agencies also charge **account setup fees, copywriting/design fees, data reporting fees**, etc.  
+* The upside is access to professional support, including strategy development, data monitoring, and creative production.  
+* The downside is higher costs and greater reliance on service quality.  
 
-- **Cross-platform integration**: Many companies realize the need to integrate SEM strategies on different platforms, such as social media and search engines. This cross-platform advertising spending approach ensures that brands interact with consumers at multiple touchpoints and improves overall marketing effectiveness.
+**Best for:** Businesses lacking in-house expertise, unwilling to invest time, or with high performance expectations.  
 
-- **Budget flexibility**: Companies are increasingly focusing on flexibility when formulating SEM budgets. They will adjust budgets in real time based on market dynamics, competition, and advertising performance to ensure maximum return on investment.
+You can start by using the table below to determine which approach suits your preferences and needs:  
 
-## Cost structure of search engine marketing
+| Item       | Self-Managed Ads    | Hiring an Agency     |  
+| ---------- | ------------------- | -------------------- |  
+| Budget Control | Full control        | Fixed or percentage-based fees |  
+| Complexity    | High (hands-on)     | Low (handled by pros) |  
+| Expertise     | Depends on skill    | Professional support  |  
+| Cost Structure | Ad spend + tools/labor | Ad spend + service fees + extras |  
+| Ideal For     | SMEs with time/resources | Businesses prioritizing convenience/results |  
 
-The cost of SEM mainly comes from multiple aspects. The following will analyze in detail the cost structure of paid ranking advertising (PPC) and the difference between pay-per-click (CPC) and pay-per-impression (CPM).
+## Self-Managed Ads: Don’t Just Look at Ad Spend—Hidden Costs Add Up  
 
-#### Cost structure of paid ranking advertising (PPC)
+Managing your own SEM account offers greater control and autonomy, but it doesn’t necessarily mean lower costs. While there are no agency fees, **the learning, execution, and optimization process often comes with hidden expenses**:  
 
-Pay-per-click (PPC) is a core component of SEM. It allows advertisers to obtain ad placements by bidding in search engines. Here are a few key elements of the PPC cost structure:
+### 1. Ad Budget: The Basic Investment  
 
-1. **Bid**: The bid that advertisers set for each keyword directly affects the ranking of their ads in search results. Generally, the higher the bid, the higher the ad will be displayed. In highly competitive industries, advertisers may need to set higher bids to ensure that their ads can get the desired exposure.
+Regardless of the platform (e.g., Google Ads, Microsoft Advertising), you pay per click. SEM follows a pay-per-click (CPC) model.  
 
-2. **Quality Score**: This is a metric that search engines use to evaluate the quality of ads, which affects the ranking and [cost per click (CPC)](https://chloevolution.com/posts/cpc-of-keywords/) of ads. Quality scores are usually based on the relevance of the ad, the expected click-through rate (CTR), and the user experience of the landing page. High quality scores can not only reduce CPC, but also improve the ranking of ads.
+* Cost-per-click (CPC) depends on keyword competition, industry, geographic targeting, etc.  
+* In the U.S., average CPC ranges from **\$1–\$3**; competitive industries (e.g., law, insurance, B2B SaaS) can reach **\$10–\$50/click**.  
+* New accounts often require a testing period to stabilize costs.  
 
-3. **Level of Competition**: Different keywords have different levels of competition. In popular industries, such as finance and travel, many advertisers are competing to bid, which may result in higher CPCs. In less popular fields, advertisers may only need to pay lower fees to get ad impressions.
+Note: Ad budget ≠ conversion budget. Poor landing pages, ad creatives, or targeting can lead to clicks without conversions, wasting budget.  
 
-4. **Daily Budget**: The maximum daily expenditure set by advertisers controls the total cost of advertising. A reasonable daily budget can ensure that the ad is delivered steadily throughout the budget cycle, thereby maximizing exposure.
+### 2. Tool Costs: Expenses to Boost Efficiency and Decision-Making  
 
-#### The difference between CPC and CPM
+While ad platforms provide basic dashboards, third-party tools are often needed for deeper keyword, competitor, and user behavior analysis.  
 
-In SEM, advertisers can choose different billing models to meet different marketing goals. The two most common billing methods are CPC and CPM. The main difference between them lies in the billing method and applicable scenarios:
+Common tools include:  
 
-- **CPC**: In CPC mode, advertisers pay only when users actually click on the ad. This model is suitable for advertisers who want to get traffic and conversion directly, especially when they want to guide users to visit specific pages. The advantage of CPC is that advertisers can better control costs and ensure that each expenditure can bring actual traffic.
+* **Keyword & Competitor Research** (e.g., Ahrefs, Semrush)  
+  Provides search volume, CPC estimates, difficulty scores, etc.  
+  Cost: **\$100–\$200/month**  
 
-- **CPM**: In CPM mode, advertisers pay according to the number of times (Mille) the ad is displayed. CPM is suitable for advertisers who want to increase brand awareness and exposure, because even if there is no actual click, the display of the ad can increase the visibility of the brand. The advantage of CPM is that advertisers can achieve a wider audience coverage at a lower cost.
+* **Ad Monitoring & Automation** (e.g., Optmyzr, Adalysis)  
+  Enables bulk bid adjustments, auto-pausing underperforming ads, visual reports.  
+  Cost: **\$50–\$500/month** (varies by features/account size)  
 
-## Pricing Factors of Search Engine Marketing
+* **Landing Page/A/B Testing** (e.g., Unbounce, VWO)  
+  Optimizes conversion paths.  
+  Cost: **\$80–\$300/month**  
 
-The cost of search engine marketing is not static and is affected by many factors.
+These tools aren’t mandatory but can significantly improve efficiency in competitive industries.  
 
-### Competition of Keywords
+### 3. Labor & Execution Costs: The Most Underestimated Factor  
 
-The competition of keywords is one of the most important factors affecting the cost of SEM. In some industries, specific keywords may be very popular and competitive, resulting in a significant increase in cost per click (CPC). For example, keywords in industries such as financial services, healthcare, and law are often very competitive because advertisers in these fields are willing to pay higher fees to get the attention of potential customers. Conversely, in less competitive industries or unpopular keywords, advertisers may only need to pay lower fees to achieve ad display.
+Even with ample budget, lack of expertise or time can hinder results. Self-management requires handling:  
 
-In addition, using long-tail keywords (i.e. keywords consisting of multiple words with relatively low search volume) can usually reduce advertising costs because they are relatively less competitive and advertisers usually bid significantly lower on such keywords than on popular keywords.
+* Ad structure and logic (campaigns, ad groups, match types, etc.)  
+* Ad copy aligned with keyword intent  
+* Daily/weekly data analysis and adjustments  
+* Conversion tracking setup and testing  
+* Strategic decisions: pausing, boosting, or testing elements  
 
-### Impact of Industry and Region on Price
+Founders or marketers handling this themselves sacrifice core time; hiring staff adds training/recruitment costs. Some businesses opt for freelance consultants (hourly/project-based).  
 
-Different industries and regions can also significantly affect SEM pricing. Different industries may have very different advertising expenditures and CPC levels due to differences in market demand and competitive situation. For example, the technology and e-commerce industries usually pay higher CPCs than traditional retail industries because they rely more on online traffic.
+**In summary, self-managed SEM suits businesses seeking budget control and with execution/analytical skills. However, it requires assuming responsibility for results and investing time in learning and optimization.**  
 
-Geographical factors are also important. In some high-consumption areas (such as large cities such as New York and London), advertisers may need to pay higher fees to place ads because the competition in the area is higher and the target audience is relatively concentrated. In more remote areas, advertisers may enjoy lower CPCs because there is relatively less competition.
+## Hiring an Agency: Service Models & Pricing  
 
-## Agency charging model
+### Common Agency Pricing Models  
 
-Agencies usually adopt a variety of charging models, the following are some common ones:
+| Model Name                          | Description                          | Ideal For           | Pros/Cons               |  
+| ----------------------------------- | ------------------------------------ | ------------------- | ----------------------- |  
+| **% of Ad Spend**                   | Service fee as % of monthly ad spend (e.g., 15%) | SMEs               | Simple, but costs rise with budget |  
+| **% of Ad Revenue**                 | Fee as % of ad-driven revenue (e.g., 5% of GMV) | E-commerce         | Performance-based, but attribution is complex |  
+| **Capped % of Ad Spend**            | % fee with a cap (e.g., "15%, max \$2,000/month") | Volatile budgets    | Limits cost growth, fosters long-term collaboration |  
+| **Flat Project Rate**               | Fixed monthly fee (e.g., \$1,000), regardless of spend | Stable budgets/long-term | Easy cost management, but less incentive for performance |  
+| **Milestone-based Fee**             | Phased payments (e.g., setup/testing/optimization) | Strategic projects  | Suits one-time/highly customized needs |  
 
-1. **Fixed fee**: In this model, the company and the agency agree on a fixed monthly fee or project fee in advance, and the agency charges the same fee regardless of advertising expenditure and performance. This model is suitable for companies with stable budgets and continuous service needs, and can provide a certain degree of cost predictability.
+### Additional Potential Fees  
 
-2. **Commission**: Some agencies will charge a certain percentage of commission based on the advertiser's advertising expenditure. For example, the agency may charge a commission of 10% of advertising expenditure. The advantage of this model is that the agency's revenue is closely related to the advertiser's expenditure, and the agency is more motivated to optimize advertising performance to achieve a higher return on investment.
+Some agencies bundle services; others charge extra. Common add-ons:  
 
-3. **Performance fee**: In the performance fee model, the agency's remuneration is directly linked to the advertising effect. For example, the agency may charge fees based on the number of conversions, sales, or other key performance indicators (KPIs) achieved. This model encourages agencies to continuously improve advertising effectiveness while also ensuring that advertisers' expenditures are consistent with actual results.
+| Add-on           | Description                  | Price Range (Est.)      |  
+| ---------------- | ---------------------------- | ----------------------- |  
+| **Account Setup** | Initial structure, keywords, conversion setup | \$200 – \$1,000 (one-time) |  
+| **Creative Design** | Banners, landing pages, videos, etc. | \$300 – \$2,000+       |  
+| **Landing Page Services** | Page creation/optimization   | \$500 – \$3,000        |  
+| **Analytics/Reporting** | Regular reports, strategy reviews | Included or extra      |  
 
-## How to optimize SEM costs
+**Tip:** Clarify service scope upfront to avoid surprises.  
 
-Optimizing search engine marketing costs is a goal that every advertiser hopes to achieve. Through effective strategies, advertisers can not only reduce the cost per click, but also increase the conversion rate of ads, thereby maximizing the return on investment.
+## Hiring a Freelancer: A Flexible Middle Ground  
 
-### Improve the quality score of ads
+Beyond in-house or agency options, SMEs, startups, and personal brands increasingly turn to **freelancers** for SEM. This offers flexibility and cost control but demands careful selection for expertise and communication.  
 
-Quality score is an important indicator used by search engines to evaluate the quality of ads. Improving quality score can not only reduce advertising costs, but also improve the display position of ads. The following are several strategies to improve quality score:
+### Who Are Freelancers?  
 
-1. **Optimize ad copy**: Make sure that the ad copy is highly relevant to the target keywords and can arouse the interest of users. Use clear call to action (CTA) to encourage users to click on ads.
+Freelancers are typically independent SEM experts, such as:  
 
-2. **Improve landing page experience**: Make sure that users can smoothly access a relevant and optimized landing page after clicking on the ad. The landing page should load quickly, be easy to navigate, and be consistent with the ad content, thereby improving the user experience.
+* Former agency or in-house SEM specialists  
+* Marketing consultants or freelance ad operators  
+* Platform-based providers (e.g., Upwork, Fiverr)  
 
-3. **Enhance expected click-through rate (CTR)**: By testing different ad copy and display formats, find out the type of ad that is most likely to attract users to click. Use A/B testing methods to evaluate the performance of different versions of ads and continuously optimize to improve CTR.
+They offer project-based or hourly services, often at lower costs than agencies.  
 
-4. **Keep keywords relevant**: Select keywords that are consistent with your advertising goals, and regularly update and adjust your keyword list to ensure that it is consistent with market demand. Keywords with high relevance usually get better quality scores.
+### Common Services & Pricing  
 
-### Use negative keywords to filter invalid traffic
+| Service          | Included?   | Details                     |  
+| ---------------- | ----------- | --------------------------- |  
+| Account Setup    | Usually     | Structure, keywords, tracking, etc. |  
+| Daily Optimization | Usually     | Monitoring, bid adjustments, A/B tests |  
+| Reporting        | Sometimes   | Basic weekly/monthly reports; deep analysis may cost extra |  
+| Creative Work    | Rarely      | Some offer copywriting; visuals often client-provided |  
 
-Negative keywords are keywords that advertisers do not want their ads to be displayed. By using negative keywords effectively, advertisers can filter out invalid traffic and reduce advertising costs.
+**Pricing Models:**  
 
-1. **Identify invalid search terms**: Regularly analyze the search term report of the ad to identify keywords with low click-through rates and almost zero conversion rates. These keywords may consume advertising budgets without bringing effective traffic.
+| Model         | Description                     | Price Range      |  
+| ------------- | ------------------------------- | ---------------- |  
+| Hourly        | \$25–\$150/hour (experience-dependent) | Ad-hoc tasks      |  
+| Monthly Retainer | \$500–\$2,000/month            | Ongoing campaigns |  
+| Project-Based | One-time fees (e.g., \$800 for setup) | Short-term projects |  
 
-2. **Add negative keywords**: Once invalid keywords are identified, immediately add them as negative keywords to prevent ads from being displayed in searches with low relevance. This not only saves budget, but also improves the overall effectiveness of the ad.
+### Freelancer Pros & Risks  
 
-3. **Continuous updates**: As the market changes and business goals are adjusted, the list of negative keywords also needs to be reviewed and updated regularly to ensure the effectiveness of advertising.
+| Pros                      | Risks & Challenges          |  
+| ------------------------- | --------------------------- |  
+| Lower cost than agencies   | Quality varies widely        |  
+| Faster communication       | Limited bandwidth for large workloads |  
+| Flexible for small budgets | No team backup; dependency risk |  
+| High ROI with the right hire | Requires active management   |  
 
-### Adjust budgets and strategies through data analysis
+**Best for:**  
 
-Data analysis is a key tool for optimizing SEM costs. By regularly analyzing advertising data, advertisers can make smart budget and strategy adjustments.
+* SMEs needing expertise but unable to afford agencies  
+* Brands with basic SEM knowledge willing to collaborate  
+* Projects with clear goals/timelines  
 
-1. **Monitoring advertising performance**: Use analytical tools to regularly monitor advertising key performance indicators (KPIs), including CTR, CPC, conversion rate, and return on investment (ROI). Use data to understand which ads are performing well and which need improvement.
+## How to Choose the Right Approach?  
 
-2. **Dynamic adjustment of budget**: Flexibly adjust advertising budgets based on the performance of different keywords. For example, allocate more budget to those keywords with good performance and reduce investment in poorly performing keywords.
+SEM costs aren’t one-size-fits-all—they depend on **strategy + skills + investment**. Your spending and results hinge on your chosen approach, resources, and timeline.  
 
-3. **Evaluate bidding strategy**: Regularly evaluate the effectiveness of bidding strategies based on advertising performance and market changes. You may need to increase bids on some keywords to get more exposure, while lowering bids on other keywords to control costs.
+### Ask These 3 Questions:  
 
-4. **Testing and optimization**: Use A/B testing to continuously test different ad copy, bids, and budget allocation strategies to find the best combination. Continuous testing and optimization can help advertisers get the best return on investment in a complex market environment.
+1. **What’s your ad budget?**  
+   * <\$1,000/month: Self-manage or hire a freelancer  
+   * \$2,000–\$10,000/month: Freelancer or small agency  
+   * &gt; \$10,000/month: Established agency with full-service support.
 
-## Return on investment analysis of SEM costs
+2. **Do you have in-house resources?**  
+   * Existing expertise: Self-manage + tools  
+   * No dedicated staff: Freelancer/agency  
 
-Return on investment (ROI) is an important indicator for evaluating the effectiveness of search engine marketing. Understanding the return on investment of SEM can help advertisers better manage their budgets, optimize advertising strategies, and achieve long-term profitability. The following are key points about SEM cost-return on investment analysis.
+3. **Prioritize cost control or speed?**  
+   * Control + learning: Self-managed/freelancer  
+   * Fast results + convenience: Agency (higher cost)  
 
-### Short-term and long-term benefits of SEM
+| Dimension        | Self-Managed (In-house) | Freelancer       | Agency              |  
+| ---------------- | ---------------------- | ---------------- | ------------------- |  
+| **Business Stage**  | Startups/limited budget | Startups/growth   | Growth/scaling phase |  
+| **Budget Flexibility** | High                  | Medium-high       | Low (minimum spends) |  
+| **Internal Resources Needed** | High (skills/time) | Medium (collaboration) | Low (agency handles) |  
+| **Control Over Results** | Full control         | Medium (collaborative) | Low (agency-driven) |  
+| **Skill Level**     | Depends on learning    | Varies by freelancer | Professional/standardized |  
+| **Communication Overhead** | Lowest              | Medium             | High (meetings/reports) |  
+| **Scalability**     | Limited (by manpower)  | Limited (solo)     | High (multi-channel) |  
 
-1. **Short-term benefits**:
-- **Instant traffic**: Through paid advertising, companies can quickly obtain website traffic, especially in the early stages of advertising. After users click on the ad, they can quickly guide potential customers to the website and increase brand exposure.
-- **Quick conversion**: In the short term, SEM can help companies achieve rapid conversion, especially during specific promotions or product launches, when advertising can quickly attract target customers and drive sales growth.
+**Final Reminder:**  
 
-2. **Long-term benefits**:
-- **Brand awareness**: Through continuous SEM delivery, companies can build brand awareness in the target market and enhance customers' brand awareness. This brand exposure helps to increase customer loyalty and return rate in the long run.
-- **Accumulate data and optimize**: Long-term SEM delivery can provide companies with a large amount of data and market insights. By analyzing this data, companies can continuously optimize advertising strategies and budget allocation to improve return on investment.
+> **SEM success isn’t just about spending—it’s about spending wisely.**  
 
-### How to measure the input-output ratio of SEM
+Regardless of your choice, prepare by:  
 
-To measure the return on investment of SEM, we need to pay attention to several key indicators:
-
-1. **Calculate ROI**: ROI = (income - cost) / cost × 100%
-
-    - **income**: usually includes direct sales and profits brought by advertising.
-
-    - **cost**: includes advertising expenditures, agency fees, and related marketing expenses.
-
-2. **Track conversion rate**:
-
-Conversion rate is an important indicator to measure the effectiveness of advertising. The calculation formula is the ratio of conversions to ad clicks. By tracking conversion rate, advertisers can understand the actual effect of advertising and optimize advertising content and delivery strategies.
-
-3. **Analyze customer acquisition cost (CAC)**:
-
-Customer acquisition cost is the cost that a company needs to pay to acquire a new customer, including advertising expenditures and other marketing costs. Low CAC usually indicates a higher return on investment, otherwise it may be necessary to re-evaluate the advertising strategy.
-
-4. **Evaluate customer lifetime value (CLV)**:
-
-[Customer lifetime value](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/) is the total revenue that a customer may bring during the relationship with the company. Understanding CLV can help companies determine whether it is worth paying higher advertising fees to acquire new customers.
-
-### Common SEM Misconceptions
-
-1. **Misconception: Focusing only on click-through rate (CTR)**:
-Although CTR is an important metric, a high click-through rate does not necessarily mean a high conversion rate. Advertisers should focus on conversion rate and ultimate return on investment, not just click-through rate. Avoid over-optimizing CTR and ignoring actual sales results.
-
-2. **Misconception: Ignoring long-term strategies**:
-Some advertisers focus on quick returns in the short term and ignore the importance of long-term brand building and market positioning. It is recommended to develop a long-term SEM strategy that takes into account both short-term and long-term goals to achieve sustainable growth.
-
-3. **Misconception: Not conducting data analysis**:
-It is a common misconception not to regularly analyze data and advertising effects after advertising. It is recommended to regularly monitor and evaluate advertising performance and make adjustments based on data to maximize return on investment.
-
-4. **Misconception: Choosing a low budget means low risk**:
-Some advertisers believe that a low budget can reduce risk. In fact, too low a budget may result in insufficient exposure and effectiveness of the ad, thus affecting the overall return on investment. The budget should be allocated reasonably according to market competition and advertising goals.
+* Defining goals (awareness? leads? conversions?)  
+* Estimating budget and timeline  
+* Learning key metrics and benchmarks  
+* Vetting freelancers/agencies thoroughly; clarify service boundaries
