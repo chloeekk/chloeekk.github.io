@@ -1,5 +1,5 @@
 ---
-title: "Obsidian 安装与入门完全指南：从零开始打造你的第二大脑"
+title: "Obsidian安装与入门完全指南：从零开始打造你的第二大脑"
 description: "Obsidian 是什么？怎么安装？本教程为你详解 Obsidian 安装流程、基本界面、笔记结构与双向链接概念，适合新手快速入门使用 Obsidian。"
 date: 2025-06-29T08:13:58+08:00
 draft: false
@@ -159,10 +159,10 @@ Obsidian的所有功能在本地运行，即使完全断网也不会影响使用
 
 ![obsidian-create-new-note](obsidian-create-new-note.png)
 
-3. **输入笔记名称**
+2. **输入笔记名称**
    系统会自动填一个，比如 “Untitled”，你可以改为 `我的第一个笔记.md`，按下回车确认。
 ![my-first-note-zh-cn](my-first-note-zh-cn.png)
-4. **开始编辑**
+3. **开始编辑**
    接下来可以编辑笔记内容。可能你会发现只能编辑标题，但是不能输入正文内容。这时你需要检查下右上角是“铅笔”还是“书本”的图标，它分别代表了“阅读”和“编辑”模式。处于“阅读”模式的话，是无法编辑的，点击即可切换：
    ![reading-mode-zh-cn](reading-mode-zh-cn.png)
    
