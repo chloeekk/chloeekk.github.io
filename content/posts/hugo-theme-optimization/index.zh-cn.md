@@ -84,3 +84,4 @@ draft: true
 * `/tags/[tag-name]/index.xml` ← RSS Feed
 * `/categories/[name]/index.xml`
 
+![alt text](image.png)
