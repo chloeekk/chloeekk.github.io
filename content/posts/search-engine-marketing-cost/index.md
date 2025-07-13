@@ -20,6 +20,8 @@ SEM primarily relies on search engine advertising platforms like [Google Ads](ht
 
 One of the most common questions businesses ask is, "How much budget do I need to prepare?" This question isn’t wrong, but it often overlooks a critical fact: **The actual investment in SEM advertising goes far beyond just 'how much to spend per month.'**  
 
+{{< sem-choice lang="en" >}}
+
 ## How Much Does SEM Cost?  
 
 Before diving into the cost structure of SEM, let’s look at average SEM expenses based on third-party research.  

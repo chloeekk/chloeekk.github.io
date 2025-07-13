@@ -65,23 +65,45 @@ draft: true
 
 这个问题是：某些页面（比如 `/tags/obsidian/`）被 Google 判断为重复内容，而我却 **没有明确声明哪个是 canonical（主页面）**。
 
-看起来，这个问题的出现和我前面修改代码的操作是有联系的：
+等我实际访问这个页面时，发现更大的问题在于： 打开`/categories/xxx/` 或 `/tags/xxx/` 这种具体分类/标签子页面时，页面显示的是 XML 内容（RSS），而非正常的 HTML 页面。但`/categories/` 和 `/tags/` 这类顶级列表页面又是能正常显示的。
 
-* 我删掉了某些页面上的 `<link rel="canonical">`，导致这些页面现在没有 canonical 标签
-* Hugo 的 `taxonomy` 页面（如 `/tags/obsidian/`）默认不会自动生成 `<link rel="canonical">`，除非我手动加上
+出现这种情况的原因是：缺少 `layouts/taxonomy/term.html` 模板（或 `_default/terms.html`） 的 fallback 无法正确渲染 HTML
 
-所以导致：
+Hugo 在渲染如 `/categories/xxx/` 的子目录时：
+1. 会优先找 `layouts/taxonomy/term.html`
+2. 若没有，会 fallback 到 `layouts/_default/term.html`
+3. 若还没有，再看 `themes/loveit/layouts/taxonomy/term.html`
+4. 如果最终没有 HTML 模板，就只会生成 RSS/XML（尤其当启用了 RSS 输出）
+所以，问题就是这个模板没定义，导致只生成了 XML 输出。
 
-* 文章页没问题（主题模板控制页面生成）
-* 分类页 / 标签页 / RSS 页，没有 canonical 标签
-* Google 无法判断这些聚合页的主版本
-最终出现了 “Duplicate without user-selected canonical”
+解决方法如下：
+1. 添加 `layouts/taxonomy/term.html` 模板
+在你的 Hugo 项目目录下创建文件：`layouts/taxonomy/term.html`
+具体的代码根据你使用的Hugo模板来决定。一开始我是让ChatGPT帮我写的，但是预览的样式很奇怪。所以我又让它参考`list.html`的样式重新写了一版，非常完美。
 
-对于下面这些非文章页面，即 Hugo 默认生成的页面，**不会自动加 canonical标签**，需要我手动在模板里处理
+**term.html和terms.html有什么区别？**
+| 文件名          | 对应页面                                | 用途            | `.Data.Terms` 是否可用            |
+| ------------ | ----------------------------------- | ------------- | ----------------------------- |
+| `terms.html` | `/categories/`、`/tags/`             | 分类/标签「汇总页」    | ✅ 可用                          |
+| `term.html`  | `/categories/ai/`、`/tags/obsidian/` | 某个分类/标签的文章列表页 | ❌ 不可用，只能用 `.Pages`、`.Title` 等 |
 
-* `/tags/[tag-name]/` ← taxonomy page
-* `/categories/[category-name]/`
-* `/tags/[tag-name]/index.xml` ← RSS Feed
-* `/categories/[name]/index.xml`
 
-![alt text](image.png)
+这两个模板负责**不同层级的数据结构**，所以**不能直接复制 `terms.html` 到 `term.html`**，会导致页面渲染失败或不显示内容。
+
+
+2. 检查 `config.toml` 中的输出配置
+确认你的配置中 taxonomy 相关类型未被禁用：
+```toml
+[outputs]
+  home = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+```
+如果缺少 `HTML`，Hugo 将不会生成 HTML 页面，而只输出 XML/RSS。 
+
+然后你就可以在预览环境中检查页面是否可以正常打开。我在这个过程中碰到了一个问题：页面不再显示 XML 内容了，但是只有导航栏和底栏，其余部分是空白的。然后我检查了一下代码，发现是AI给我写的代码有一处bug：我的 `baseof.html` 没有正常渲染。
+出现这种情况的原因：`baseof.html` 用的是 `{{ block "content" . }}`，而AI写的 `term.html` 中用了 `{{ define "main" }}`。
+
+> **那么“main” 区块永远不会被渲染出来**，因为 `baseof.html` 没有调用 `main`，它只渲染了 `content`。
+
+所以需要修改 `term.html` 中的 block 名称为 `"content"`，然后预览页面就能正常显示了。

@@ -1,0 +1,34 @@
+<div class="cpc-calculator" style="max-width:400px;padding:1em;border:1px solid #ccc;border-radius:8px;">
+  <h3>CPC 计算器</h3>
+  <form id="cpcForm">
+    <label for="clicks">点击数（Clicks）:</label><br>
+    <input type="number" id="clicks" name="clicks" required style="width:100%;padding:0.5em;margin-bottom:1em;"><br>
+
+    <label for="cost">总花费（Total Cost，$）:</label><br>
+    <input type="number" id="cost" name="cost" step="0.01" required style="width:100%;padding:0.5em;margin-bottom:1em;"><br>
+
+    <button type="submit" style="padding:0.5em 1em;">计算 CPC</button>
+  </form>
+
+  <p id="cpcResult" style="margin-top:1em;font-weight:bold;"></p>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("cpcForm");
+    const result = document.getElementById("cpcResult");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const clicks = parseFloat(document.getElementById("clicks").value);
+      const cost = parseFloat(document.getElementById("cost").value);
+
+      if (clicks > 0 && cost >= 0) {
+        const cpc = cost / clicks;
+        result.textContent = `平均 CPC 为：$${cpc.toFixed(2)}`;
+      } else {
+        result.textContent = "请输入有效数字（点击数 > 0，花费 ≥ 0）";
+      }
+    });
+  });
+</script>

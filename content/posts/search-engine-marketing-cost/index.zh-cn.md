@@ -19,14 +19,17 @@ SEM的运作主要依赖于搜索引擎的广告平台，如[Google Ads](https:/
 企业最常问的一个问题往往是：“我需要准备多少预算？”这个问题本身没错，但它容易让人忽略一个关键事实：**SEM广告的实际投入，远远不止“每月投放多少钱”这么简单。**
 
 
+{{< sem-choice lang="zh" >}}
+
+
 ## SEM要花多少钱？
 
 在深入了解搜索引擎营销的成本构成之前，我们可以通过第三方的调研数据了解SEM的平均费用。
 
-根据[WebFX](https://www.webfx.com/digital-advertising/pricing/sem-pricing/)的调研，对于70%的业务来说，平均每个月需要花费<strong>$251到$10000</strong>在SEM上。
+根据[WebFX](https://www.webfx.com/digital-advertising/pricing/sem-pricing/)的调研，对于70%的业务来说，平均每个月需要花费<strong>251美金到10,000美金</strong>在SEM上。
 ![sem-average-cost](sem-average-cost.png)
 
-当然，也存在一些极端情况：花得最少的公司，每个月在SEM的支出上不到$50（估计是根本没有怎么投放广告）；花得最多的公司，每月的花费超过$250000（对于一些大型公司而言很常见）。
+当然，也存在一些极端情况：花得最少的公司，每个月在SEM的支出上不到50美金（估计是根本没有怎么投放广告）；花得最多的公司，每月的花费超过$250,000（对于一些大型公司而言很常见）。
 
 
 ## 自己投广告 vs 找Agency

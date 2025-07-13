@@ -1,0 +1,226 @@
+<style>
+  .sem-box {
+    max-width: 720px;
+    margin: 2em auto;
+    padding: 1.5em 2em;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+  .sem-box h3 {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    color: #222;
+  }
+  .sem-box p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  .sem-box ul {
+    color: #444;
+    font-size: 0.95em;
+    margin-left: 1.2em;
+    margin-bottom: 1em;
+  }
+  .sem-box ul li {
+    margin-bottom: 0.4em;
+  }
+  .sem-box button {
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 0.6em 1.4em;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #3478f6;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .sem-box button:hover {
+    background-color: #1d60d3;
+  }
+  .sem-box .result {
+    margin-top: 1.5em;
+    padding-top: 1em;
+    border-top: 1px dashed #ccc;
+    color: #333;
+  }
+</style>
+
+<div id="sem-choice-container" class="sem-box">加载中...</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.getElementById('sem-choice-container');
+  const lang = "{{ .Get "lang" | default "zh" }}".toLowerCase();
+
+  const texts = {
+    zh: {
+      step1: {
+        title: "在你开始投放 SEM 前，想先问问你：",
+        question: "你更倾向于哪种方式管理广告投放？",
+        btnSelf: "🧠 我自己操作",
+        btnAgency: "💼 找代理机构"
+      },
+      step2: {
+        self: "作为 DIY 投放者，你最关注哪一方面？",
+        agency: "委托代理时，你最关注什么？",
+        btnCost: "💰 成本效率",
+        btnTime: "⏱️ 时间精力"
+      },
+      results: {
+        self_cost: {
+          title: "✅ 精打细算型投放者",
+          bullets: [
+            "完全掌控每日预算、出价策略与关键词设置",
+            "自己设置否定关键词以避免无效点击",
+            "优化广告结构和质量得分，压低 CPC",
+            "不涉及第三方费用，更适合初期小预算测试"
+          ],
+          footer: "👉 下文将详细讲解如何拆解点击成本、提高投放性价比。"
+        },
+        self_time: {
+          title: "✅ 灵活自主但精力有限型",
+          bullets: [
+            "想自己上手，但不希望投入太多维护精力",
+            "适合使用 Google Ads 的智能出价或自动化建议",
+            "可关注质量得分等关键指标，按需优化",
+            "适合预算灵活、追求长期学习成长的广告主"
+          ],
+          footer: "👉 本文将教你识别哪些地方值得花时间优化，哪些可以交给系统自动化。"
+        },
+        agency_cost: {
+          title: "✅ 控本第一型委托者",
+          bullets: [
+            "希望借助代理经验，但对预算使用非常敏感",
+            "需关注代理的收费方式：按月？按提成？是否透明？",
+            "建议清楚了解代理费用是否包含落地页制作与数据报告",
+            "更适合明确目标、精细管理型客户"
+          ],
+          footer: "👉 文章下方列出不同类型代理服务的常见费用组成与对比。"
+        },
+        agency_time: {
+          title: "✅ 解放双手型决策者",
+          bullets: [
+            "不想参与繁琐操作，更关注投放效果是否达标",
+            "适合选择能提供完整代投 + 报告 + 咨询服务的机构",
+            "重要的是设定好 KPI 和沟通机制，避免“盲投”",
+            "适合预算充足、追求高效协作的团队型广告主"
+          ],
+          footer: "👉 本文将告诉你如何评估投放数据，判断代理是否靠谱。"
+        }
+      },
+      btnReset: "🔄 重新选择"
+    },
+    en: {
+      step1: {
+        title: "Before you start SEM, let us ask:",
+        question: "Which way do you prefer to manage your ad campaigns?",
+        btnSelf: "🧠 DIY (Do it yourself)",
+        btnAgency: "💼 Use an agency"
+      },
+      step2: {
+        self: "As a DIY advertiser, what concerns you most?",
+        agency: "When hiring an agency, what matters most to you?",
+        btnCost: "💰 Cost efficiency",
+        btnTime: "⏱️ Time & effort"
+      },
+      results: {
+        self_cost: {
+          title: "✅ Cost-conscious DIY advertiser",
+          bullets: [
+            "Full control over daily budgets, bids, and keywords",
+            "Set negative keywords yourself to avoid wasted clicks",
+            "Optimize ad structure and quality score to reduce CPC",
+            "No third-party fees involved, good for small budgets"
+          ],
+          footer: "👉 This article explains how to break down click costs and improve ROI."
+        },
+        self_time: {
+          title: "✅ Flexible DIY with limited time",
+          bullets: [
+            "Want to manage yourself but with less time for maintenance",
+            "Suitable for using Google Ads smart bidding and automation",
+            "Focus on key metrics like quality score, optimize as needed",
+            "Ideal for flexible budgets and long-term learners"
+          ],
+          footer: "👉 Learn where to focus your effort and what to automate below."
+        },
+        agency_cost: {
+          title: "✅ Budget-conscious client",
+          bullets: [
+            "Want to leverage agency experience but are budget-sensitive",
+            "Pay attention to agency fee structures: monthly, commission, transparency",
+            "Understand if fees include landing page & reporting",
+            "Better for clients with clear goals and tight management"
+          ],
+          footer: "👉 The article lists typical fees and service comparisons."
+        },
+        agency_time: {
+          title: "✅ Hands-off decision maker",
+          bullets: [
+            "Prefer to avoid day-to-day management, focus on results",
+            "Choose agencies offering full-service, reporting, and consulting",
+            "Set clear KPIs and communication to avoid blind spending",
+            "Suitable for teams with sufficient budget and need for efficiency"
+          ],
+          footer: "👉 Learn how to evaluate data and agency reliability."
+        }
+      },
+      btnReset: "🔄 Choose Again"
+    }
+  };
+
+  const state = { step: 1, type: null };
+
+  function renderStep() {
+    if (state.step === 1) {
+      const t = texts[lang].step1;
+      container.innerHTML = `
+        <h3>${t.title}</h3>
+        <p>${t.question}</p>
+        <button id="btn-self">${t.btnSelf}</button>
+        <button id="btn-agency">${t.btnAgency}</button>
+      `;
+      document.getElementById('btn-self').onclick = () => { state.type = 'self'; state.step = 2; renderStep(); };
+      document.getElementById('btn-agency').onclick = () => { state.type = 'agency'; state.step = 2; renderStep(); };
+
+    } else if (state.step === 2) {
+      const t = texts[lang].step2[state.type];
+      container.innerHTML = `
+        <h3>${t}</h3>
+        <button id="btn-cost">${texts[lang].step2.btnCost}</button>
+        <button id="btn-time">${texts[lang].step2.btnTime}</button>
+      `;
+      document.getElementById('btn-cost').onclick = () => showResult('cost');
+      document.getElementById('btn-time').onclick = () => showResult('time');
+    }
+  }
+
+  function showResult(choice2) {
+    const key = state.type + '_' + choice2;
+    const data = texts[lang].results[key];
+    let html = `
+      <div class="result">
+        <h4>${data.title}</h4>
+        <ul>
+          ${data.bullets.map(item => `<li>${item}</li>`).join('')}
+        </ul>
+        <p>${data.footer}</p>
+        <button id="btn-reset">${texts[lang].btnReset}</button>
+      </div>
+    `;
+    container.innerHTML = html;
+
+    document.getElementById('btn-reset').onclick = () => {
+      state.step = 1;
+      state.type = null;
+      renderStep();
+    };
+  }
+
+  renderStep();
+});
+</script>
