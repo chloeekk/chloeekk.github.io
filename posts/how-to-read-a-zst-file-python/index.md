@@ -1,6 +1,14 @@
 # How to Read a ZST File via Python
 
 
+## What is a ZST file?
+
+If you've ever stumbled upon a file with the `.zst` extension and wondered what kind of sorcery it is—don't worry, you're not alone.
+
+A ZST file is a compressed file format created using **Zstandard** (often shortened to **zstd**), a modern compression algorithm developed by Facebook. Think of it as the younger, faster cousin of more familiar formats like `.zip` or `.gz`. What makes `.zst` files special is their **impressive balance between speed and compression ratio**—they compress data quickly *and* decompress even faster, which is great for performance-critical applications.
+
+Zstandard is also highly tunable. You can dial up the compression level if you're chasing a smaller file size, or ease it back if speed is more important. That flexibility has made it popular in everything from system package distributions (like Arch Linux or Fedora) to game asset compression.
+
 
 ## Prerequisites
 
