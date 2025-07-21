@@ -53,9 +53,12 @@ draft: true
 ```
 那么即使主题自带 `baseof.html` 被“覆盖”了，你仍然通过 partial 引用了主题中的 `link.html`，它依然会执行，仍然会插入一条 canonical 标签。
 
-考虑到我之前已经在自己项目的模板里添加了自定义代码，所以我选择删除`layouts/_default/baseof.html`中关于`link.html`的引用代码：
+考虑到我之前已经在自己项目的模板里添加了自定义代码，所以我选择删除`themes/Lovelt/layouts/_default/baseof.html`中关于`link.html`的引用代码：
 
 ![delete-link-html](delete-link-html.png)
+
+另外，删除`link.html`中对canonical标签的引用：
+![delete-link-html-2](delete-link-html-2.png)
 
 推送代码到线上环境后，可以看到源代码里已经没有重复的 canonical 标签了：
 ![duplicate-canonical-tags-result](duplicate-canonical-tags-result.png)
