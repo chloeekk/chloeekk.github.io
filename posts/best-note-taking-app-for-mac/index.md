@@ -2,14 +2,127 @@
 
 
 
-
-
-
-
-
 Having a dependable note-taking app on hand is not just convenient, but essential in today's fast-paced environment when ideas come and go in an instant. 
 The correct note-taking app can make all the difference, whether you're a professional balancing projects and meetings, a student carefully planning their study materials, or just someone attempting to keep their everyday thoughts and duties organized. Selecting the ideal app may seem intimidating given the abundance of options available, each with distinct features and catered to different purposes. 
 This post explores the world of note-taking applications and offers suggestions for a range of usage scenarios to assist you in selecting the one that will improve your productivity in addition to helping you organize your thoughts.
+
+<div id="note-matching-widget" style="border: 1px solid #cce4f7; border-radius: 12px; padding: 20px; margin: 2rem 0; background: #f9fcff; box-shadow: 0 2px 8px rgba(0,0,0,0.03); font-family: inherit;">
+  <h3 style="color: #0066cc; font-weight: 600; font-size: 1.25rem;">🔍 Find the Best Note-Taking App for Mac</h3>
+  <div style="margin-top: 1rem;">
+    <label>1. Do you need a free trial?</label>
+    <select id="trial" style="margin-top: 4px; width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #ccc;">
+      <option value="">No preference</option>
+      <option value="forever">Forever</option>
+      <option value="7">7 days</option>
+      <option value="14">14 days</option>
+      <option value="30">30 days</option>
+    </select>
+  </div>
+  <div style="margin-top: 1rem;">
+    <label>2. Preferred pricing model?</label>
+    <select id="pricing" style="margin-top: 4px; width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #ccc;">
+      <option value="">No preference</option>
+      <option value="free">Free or included</option>
+      <option value="under10">$10/month or less</option>
+      <option value="over10">Over $10/month</option>
+    </select>
+  </div>
+  <div style="margin-top: 1rem;">
+    <label>3. Must support which platforms?</label>
+    <select id="platform" style="margin-top: 4px; width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #ccc;">
+      <option value="">No preference</option>
+      <option value="Mac">Mac only</option>
+      <option value="iOS">Mac + iOS</option>
+      <option value="All">All major platforms</option>
+    </select>
+  </div>
+  <div style="margin-top: 1rem;">
+    <label>4. Need integration with other tools?</label>
+    <select id="integration" style="margin-top: 4px; width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #ccc;">
+      <option value="">No preference</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  <div style="margin-top: 1rem;">
+    <label>5. Want AI features?</label>
+    <select id="ai" style="margin-top: 4px; width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #ccc;">
+      <option value="">No preference</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+
+  <button onclick="showNoteResults()" style="margin-top: 1.5rem; background: #0066cc; color: white; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer;">Show Recommendations</button>
+
+  <div id="note-results" style="margin-top: 1.5rem;"></div>
+</div>
+
+<script>
+  const apps = [
+    { name: "Apple Notes", anchor: "#1-apple-notes", trial: "free with Apple devices", price: "-", platform: ["Mac", "iOS"], integration: false, ai: false },
+    { name: "Microsoft OneNote", anchor: "#2-microsoft-onenote", trial: "free with a Microsoft account", price: "office 365", platform: ["Web", "Windows", "Mac", "iOS", "Android"], integration: true, ai: true },
+    { name: "Zoho Notebook", anchor: "#3-zoho-notebook", trial: "free", price: "19.9", platform: ["Windows", "Mac", "iOS", "Android"], integration: true, ai: false },
+    { name: "ClickUp", anchor: "#4-clickup", trial: "free", price: "-", platform: ["Web", "iOS", "Android"], integration: true, ai: true },
+    { name: "Evernote", anchor: "#5-evernote", trial: "forever", price: "89.99", platform: ["Windows", "Mac", "iOS", "Android"], integration: true, ai: true },
+    { name: "Slite", anchor: "#6-slite", trial: "14 days", price: "10", platform: ["Web", "Windows", "Mac"], integration: true, ai: true },
+    { name: "Notion", anchor: "#7-notion", trial: "free", price: "10", platform: ["Windows", "Mac", "iOS", "Android"], integration: true, ai: true },
+    { name: "Ulysses", anchor: "#8-ulysses", trial: "14 days", price: "5.99", platform: ["Mac", "iOS"], integration: false, ai: false },
+    { name: "Obsidian", anchor: "#9-obsidian", trial: "free", price: "50", platform: ["Windows", "Mac", "iOS", "Android"], integration: false, ai: false },
+    { name: "Logseq", anchor: "#10-logseq", trial: "free", price: "-", platform: ["Windows", "Mac", "iOS", "Android"], integration: false, ai: false },
+    { name: "Joplin", anchor: "#11-joplin", trial: "free", price: "-", platform: ["Windows", "Mac", "iOS", "Android"], integration: false, ai: false },
+    { name: "UPDF for Mac", anchor: "#12-updf-for-mac", trial: "free", price: "29.9", platform: ["Windows", "Mac", "iOS", "Android"], integration: false, ai: true },
+    { name: "Goodnotes", anchor: "#13-goodnotes", trial: "7 days", price: "9.9", platform: ["Web", "Windows", "Mac", "iOS", "Android"], integration: false, ai: true },
+    { name: "Simplenote", anchor: "#14-simplenote", trial: "free", price: "-", platform: ["Windows", "Mac", "iOS", "Android"], integration: false, ai: false },
+    { name: "Google Keep", anchor: "#15-google-keep", trial: "free", price: "-", platform: ["Web", "Windows", "Mac", "iOS", "Android"], integration: false, ai: false },
+    { name: "NotePlan", anchor: "#16-noteplan", trial: "14 days", price: "9.9", platform: ["Mac", "iOS"], integration: true, ai: true },
+    { name: "MarginNote", anchor: "#17-marginnote", trial: "14 days", price: "8.99", platform: ["Mac", "iOS"], integration: true, ai: false },
+  ];
+
+  function normalize(text) {
+    return text.toLowerCase().replace(/\s/g, "");
+  }
+
+  function showNoteResults() {
+    const trial = document.getElementById("trial").value.toLowerCase();
+    const pricing = document.getElementById("pricing").value;
+    const platform = document.getElementById("platform").value;
+    const integration = document.getElementById("integration").value;
+    const ai = document.getElementById("ai").value;
+
+    const matches = apps.filter(app => {
+      if (trial && !normalize(app.trial).includes(trial)) return false;
+
+      if (pricing) {
+        const priceVal = parseFloat(app.price) || 0;
+        if (pricing === "free" && app.price !== "-" && priceVal > 0) return false;
+        if (pricing === "under10" && priceVal > 10) return false;
+        if (pricing === "over10" && priceVal <= 10) return false;
+      }
+
+      if (platform === "Mac" && !(app.platform.includes("Mac") && app.platform.length <= 2)) return false;
+      if (platform === "iOS" && !(app.platform.includes("Mac") && app.platform.includes("iOS"))) return false;
+      if (platform === "All" && app.platform.length < 4) return false;
+
+      if (integration === "yes" && !app.integration) return false;
+      if (integration === "no" && app.integration) return false;
+
+      if (ai === "yes" && !app.ai) return false;
+      if (ai === "no" && app.ai) return false;
+
+      return true;
+    });
+
+    const resultsEl = document.getElementById("note-results");
+    if (matches.length === 0) {
+      resultsEl.innerHTML = `<p style="margin-top: 0.5rem;">😕 No matching apps found. Try adjusting your preferences.</p>`;
+    } else {
+      resultsEl.innerHTML = `<ul style="margin-top: 0.5rem; padding-left: 1.2rem;">${matches
+        .map(m => `<li><a href="${m.anchor}" style="color: #0066cc;">${m.name}</a></li>`)
+        .join("")}</ul>`;
+    }
+  }
+</script>
 
 
 ## The best Note-taking apps for Mac at a glance
@@ -159,14 +272,6 @@ This post explores the world of note-taking applications and offers suggestions 
         <td>Mac, iOS</td>
         <td>✅</td>
         <td>❌</td>
-   </tr>
-    <tr>
-        <td>UPDF for Mac</td>
-        <td>free forever</td>
-        <td>Start from $29.9/year per individual</td>
-        <td>Windows, Mac, iOS, Android</td>
-        <td>❌</td>
-        <td>✅</td>
    </tr>
 </table>
 
