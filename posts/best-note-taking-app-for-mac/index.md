@@ -1,4 +1,4 @@
-# 17 Best Note-taking App for Mac in 2024 (Features, Pros, Cons, Pricing)
+# 17 Best Note-taking App for Mac in 2025 (Features, Pros, Cons, Pricing)
 
 
 
