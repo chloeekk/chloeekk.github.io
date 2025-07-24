@@ -1,5 +1,5 @@
 ---
-title: "17 Best Note-taking App for Mac in 2024 (Features, Pros, Cons, Pricing)"
+title: "17 Best Note-taking App for Mac in 2025 (Features, Pros, Cons, Pricing)"
 description: "Use this list of the 17 best note-taking apps for Mac with their best features, pros, and cons to find the best tool for you or your team."
 date: 2024-03-26T20:00:52+08:00
 draft: false
