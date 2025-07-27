@@ -25,7 +25,8 @@ A total of 112 pages were crawled, and most of them showed problems.
 ![](crawled-pages-health.png)
 - 5 broken pages: all are article pages that were deleted after being published, and are in 404 status. However, these pages are no longer visible in the Google Search Console report, so there is no need to deal with them.
 ![](crawled-pages-broken.png)
-- 1 redirected page: the homepage of the website (https://www.chloevolution.com/). In order to ensure that users can access my website regardless of whether the URL contains www, I declare the canonical homepage to be https://chloevolution.com/. When users visit a website with www, they will automatically redirect to this page. This part also complies with the settings in GSC and does not need to be processed.
+- - 1 redirected page: the homepage of the website [https://www.chloevolution.com/](https://www.chloevolution.com/).
+ In order to ensure that users can access my website regardless of whether the URL contains www, I declare the canonical homepage to be https://chloevolution.com/. When users visit a website with www, they will automatically redirect to this page. This part also complies with the settings in GSC and does not need to be processed.
 ![](crawled-pages-redirects.png)
 - 102 problematic pages: check the problems one by one according to the subdivided evaluation indicators below.
 
