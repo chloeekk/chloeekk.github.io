@@ -60,6 +60,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [menu]
   [[menu.main]]
     weight = 1
+    identifier = "tools"
+    pre = ""
+    post = ""
+    name = "Tools"
+    url = "/tools/"
+    title = ""
+  [[menu.main]]
+    weight = 2
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -73,7 +81,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 当您将鼠标悬停在此菜单链接上时, 将显示标题
     title = ""
   [[menu.main]]
-    weight = 2
+    weight = 3
     identifier = "tags"
     pre = ""
     post = ""
@@ -81,7 +89,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 3
+    weight = 4
     identifier = "categories"
     pre = ""
     post = ""
@@ -799,6 +807,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.en.menu]
       [[languages.en.menu.main]]
         weight = 1
+        identifier = "tools"
+        pre = ""
+        post = ""
+        name = "Tools"
+        url = "/tools/"
+        title = ""
+      [[languages.en.menu.main]]
+        weight = 2
         identifier = "posts"
         pre = ""
         post = ""
@@ -806,7 +822,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/posts/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 2
+        weight = 3
         identifier = "tags"
         pre = ""
         post = ""
@@ -814,7 +830,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/tags/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 3
+        weight = 4
         identifier = "categories"
         pre = ""
         post = ""

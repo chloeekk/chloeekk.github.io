@@ -18,6 +18,9 @@
         {{- partial "head/link.html" . -}}
         {{- partial "head/seo.html" . -}}
 
+        {{ block "head" . }}{{ end }}
+
+
         <style>
             /* 禁止文本选择 */
             body {
