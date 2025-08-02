@@ -2,7 +2,7 @@
 title: "CTR Calculator & Benchmarks"
 layout: ctr
 date: 2025-08-02T15:30:12+08:00
-draft: true
+draft: false
 
 ---
 
