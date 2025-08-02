@@ -1,0 +1,164 @@
+/* Reset & basic */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Container with two panels side by side */
+.calculator-container {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* Left panel: input form */
+.calculator-left {
+  flex: 1;
+  padding: 30px;
+  border-right: 1px solid #eee;
+}
+
+/* Right panel: results */
+.calculator-right {
+  flex: 1;
+  padding: 30px;
+}
+
+/* Input groups styling */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.input-group input[type="number"],
+.input-group select {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Feedback buttons inline */
+.feedback {
+  margin-top: 30px;
+}
+
+.feedback p {
+  margin-bottom: 8px;
+}
+
+.feedback-btn {
+  margin-right: 10px;
+  background-color: #555;
+  padding: 8px 16px;
+  font-weight: normal;
+}
+
+.feedback-btn:hover {
+  background-color: #333;
+}
+
+/* Result styling */
+.result p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.suggestions ul {
+  margin: 10px 0 0 20px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 600px) {
+  .calculator-container {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 20px;
+  }
+  .calculator-left, .calculator-right {
+    border-right: none;
+    padding: 20px;
+  }
+}
+
+/* Recommended Calculator Card - Compact Style */
+#recommended-calculators {
+  margin-top: 32px;
+  padding: 16px;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+#recommended-calculators h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+#recommended-calculators .card {
+  max-width: 360px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+#recommended-calculators .card h3 {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  color: #0073e6;
+}
+
+#recommended-calculators .card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+#recommended-calculators .card a {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #0073e6;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+#recommended-calculators .card a:hover {
+  background-color: #005bb5;
+}

@@ -1,0 +1,39 @@
+{
+  "Google": {
+    "Advocacy": 4.41,
+    "Auto": 4.00,
+    "B2B": 2.41,
+    "Consumer Services": 2.41,
+    "Dating & Personals": 6.05,
+    "E-Commerce": 2.69,
+    "Education": 3.78,
+    "Employment Services": 2.42,
+    "Finance & Insurance": 2.91,
+    "Health & Medical": 3.27,
+    "Home Goods": 2.44,
+    "Industrial Services": 2.61,
+    "Legal": 2.93,
+    "Real Estate": 3.71,
+    "Technology": 2.09,
+    "Travel & Hospitality": 4.68
+  },
+  "Meta": {
+    "Apparel": 1.24,
+    "Auto": 0.80,
+    "B2B": 0.78,
+    "Beauty": 1.16,
+    "Consumer Services": 0.62,
+    "Education": 0.73,
+    "Employment & Job Training": 0.47,
+    "Finance & Insurance": 0.56,
+    "Fitness": 1.01,
+    "Home Improvement": 0.70,
+    "Healthcare": 0.83,
+    "Industrial Services": 0.71,
+    "Legal": 1.61,
+    "Real Estate": 0.99,
+    "Retail": 1.59,
+    "Technology": 1.04,
+    "Travel & Hospitality": 0.90
+  }
+}
