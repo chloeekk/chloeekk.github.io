@@ -1,0 +1,32 @@
+{{ define "head" }}
+  <link rel="stylesheet" href="/css/ctr-calculator.css" />
+{{ end }}
+
+{{ define "content" }}
+<article class="page single">
+  <h1 class="single-title">{{ .Title }}</h1>
+
+  <div class="content" id="content">
+    <div id="ctr-calculator"></div>
+    
+      <!-- Recommended Calculator Card -->
+      <div id="recommended-calculators">
+        <h2>Recommended Calculator</h2>
+        <div class="card">
+          <h3>CPC Calculator</h3>
+          <p>Calculate your cost per click to optimize ad spend.</p>
+          <a href="https://chloevolution.com/tools/cpc-calculator/" target="_blank" rel="noopener noreferrer">
+          Try CPC Calculator
+          </a>
+        </div>
+      </div>
+
+  </div>
+
+  <script type="module" src="/js/calculators/ctr-calculator.js"></script>
+
+  <div class="ctr-extra-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
