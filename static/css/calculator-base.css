@@ -3,18 +3,25 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
+  background: #fff; /* Changed from #f9f9f9 to white */
   color: #333;
 }
 
-/* Container with two panels side by side */
+/* Wrapper around calculator for consistent visual with recommended box */
+.calculator-wrapper {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 960px;
+}
+
+/* Calculator inner container with two panels side by side */
 .calculator-container {
   display: flex;
-  max-width: 900px;
-  margin: 40px auto;
   background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 6px;
   overflow: hidden;
 }
 
@@ -105,7 +112,7 @@ button:hover {
   .calculator-container {
     flex-direction: column;
     max-width: 100%;
-    margin: 20px;
+    margin: 0;
   }
   .calculator-left, .calculator-right {
     border-right: none;
@@ -115,42 +122,54 @@ button:hover {
 
 /* Recommended Calculator Card - Compact Style */
 #recommended-calculators {
-  margin-top: 32px;
-  padding: 16px;
+  margin-top: 48px;
+  padding: 16px 20px;
   background-color: #f7f7f7;
-  border-radius: 6px;
+  border-radius: 8px;
   font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+  /* Flex layout to support horizontal alignment */
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  justify-content: center; /* Center cards horizontally */
+  gap: 20px; /* Spacing between cards */
 }
 
 #recommended-calculators h2 {
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 16px;
   color: #333;
+  width: 100%; /* Ensure the heading stays full-width above the cards */
+  text-align: center;
 }
 
 #recommended-calculators .card {
-  max-width: 360px;
   background: #fff;
   padding: 16px;
   border-radius: 6px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  max-width: 360px;
+  width: 100%;
+  flex: 1 1 280px; /* Responsive width: min 280px, max 360px */
+  box-sizing: border-box;
 }
 
 #recommended-calculators .card h3 {
-  font-size: 16px;
+  font-size: 15px;
   margin: 0 0 8px 0;
   color: #0073e6;
 }
 
 #recommended-calculators .card p {
-  font-size: 14px;
+  font-size: 13px;
   color: #555;
   margin-bottom: 12px;
 }
 
 #recommended-calculators .card a {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   background-color: #0073e6;
   color: white;
   padding: 8px 12px;
@@ -161,4 +180,16 @@ button:hover {
 
 #recommended-calculators .card a:hover {
   background-color: #005bb5;
+}
+
+/* Optional: tighten layout on small devices */
+@media (max-width: 480px) {
+  #recommended-calculators {
+    padding: 12px 12px;
+    gap: 12px;
+  }
+
+  #recommended-calculators .card {
+    flex: 1 1 100%; /* Stack cards vertically on narrow screens */
+  }
 }

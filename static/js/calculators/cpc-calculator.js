@@ -1,27 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("cpc-calculator");
+// cpc-calculator.js
 
+export function initCalculator(container, data) {
   if (!container) {
     console.error("⚠️ Container for CPC calculator not found");
     return;
   }
 
-  // Load industry benchmark data JSON
-  fetch("/data/industry-cpc.json")
-    .then((res) => res.json())
-    .then((data) => {
-      // Store data globally for reset function
-      window.industryCPCData = data;
-      initCalculator(container, data);
-    })
-    .catch((err) => {
-      container.innerHTML = "<p>Error loading benchmark data.</p>";
-      console.error("Error loading data:", err);
-    });
-});
-
-// Initialize calculator UI and event listeners
-function initCalculator(container, data) {
   const platforms = Object.keys(data);
 
   // Render HTML structure inside container
@@ -85,7 +69,6 @@ function initCalculator(container, data) {
   calculateAndDisplay(data);
 }
 
-// Update industry dropdown options based on selected platform
 function updateIndustryOptions(data) {
   const platform = document.getElementById("platform-select").value;
   const industries = Object.keys(data[platform]);
@@ -94,7 +77,6 @@ function updateIndustryOptions(data) {
   industrySelect.innerHTML = industries.map(ind => `<option value="${ind}">${ind}</option>`).join('');
 }
 
-// Calculate CPC, compare with benchmark, display result and suggestions
 function calculateAndDisplay(data) {
   const platform = document.getElementById("platform-select").value;
   const industry = document.getElementById("industry-select").value;
@@ -103,7 +85,6 @@ function calculateAndDisplay(data) {
   const resultDiv = document.getElementById("result-display");
   const suggestionsDiv = document.getElementById("suggestions");
 
-  // Validate inputs
   if (!adSpend || !clicks || clicks === 0 || !industry) {
     resultDiv.innerHTML = "<p>Please fill in all fields with valid values.</p>";
     suggestionsDiv.innerHTML = "";
@@ -123,7 +104,6 @@ function calculateAndDisplay(data) {
   let statusText = "";
   let color = "";
 
-  // Set status text and color based on CPC comparison
   if (diff < 0) {
     statusText = "Below Benchmark";
     color = "green";
@@ -135,18 +115,15 @@ function calculateAndDisplay(data) {
     color = "gray";
   }
 
-  // Display results
   resultDiv.innerHTML = `
     <p><strong>Your CPC:</strong> $${userCPC}</p>
     <p><strong>Industry Benchmark (${industry}):</strong> $${benchmarkCPC.toFixed(2)}</p>
     <p style="color: ${color}; font-weight: bold;">${statusText}</p>
   `;
 
-  // Display suggestions based on difference
   suggestionsDiv.innerHTML = generateSuggestions(diff, platform, industry);
 }
 
-// Reset all inputs and results to initial state
 function resetCalculator() {
   document.getElementById("platform-select").selectedIndex = 0;
   updateIndustryOptions(window.industryCPCData);
@@ -156,7 +133,6 @@ function resetCalculator() {
   document.getElementById("suggestions").innerHTML = "";
 }
 
-// Generate optimization suggestions based on CPC difference
 function generateSuggestions(diff, platform, industry) {
   if (diff < 0) {
     return `

@@ -1,6 +1,7 @@
 ---
 title: "CTR Calculator & Benchmarks"
-layout: ctr
+layout: calculator-base
+calculator_id: ctr
 date: 2025-08-02T15:30:12+08:00
 draft: false
 
@@ -10,7 +11,7 @@ draft: false
 
 CTR stands for Click-Through Rate. Simply put, CTR is a key metric that measures how attractive your ad, link, or content is to users. It tells you how many people clicked on your ad or link after seeing it. This metric is crucial in digital marketing because it directly reflects how interested and responsive users are to your content.
 
----
+
 
 ## What is the formula for CTR?
 
@@ -20,7 +21,7 @@ CTR = (Number of Clicks / Number of Impressions) × 100%
 
 For example, if your ad is shown 1000 times and gets 50 clicks, your CTR is 5%. This means 5 out of every 100 people who saw your ad clicked on it.
 
----
+
 
 ## What's a good CTR?
 
@@ -32,7 +33,7 @@ There is no absolute standard for a “good” CTR because it depends on factors
 
 To know if your CTR is good, it’s best to compare it with industry averages or your own historical data trends.
 
----
+
 
 ## Why is my average CTR so low?
 

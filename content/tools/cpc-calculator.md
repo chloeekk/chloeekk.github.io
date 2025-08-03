@@ -1,6 +1,7 @@
 ---
 title: "CPC Calculator & Benchmarks"
-layout: cpc
+layout: calculator-base
+calculator_id: cpc
 date: 2025-07-27T09:34:58+08:00
 draft: false
 math: false
@@ -26,7 +27,7 @@ While the concept is consistent—paying for each click—the **actual CPC rates
 
 Understanding CPC helps you track spend efficiency, compare channel performance, and make smarter bidding decisions.
 
----
+
 
 ## What is the formula for average CPC?
 
@@ -42,7 +43,7 @@ For example, if you spent $200 on an ad campaign and got 500 clicks:
 
 You can use this to benchmark your performance over time or against industry standards. A lower average CPC (with quality traffic) usually means better ad efficiency.
 
----
+
 
 ## What's a good CPC rate?
 
@@ -59,7 +60,7 @@ Generally, a good CPC is one that:
 
 We recommend checking your platform’s benchmark (we provide Google and Meta benchmarks by industry) to evaluate whether your CPC is in a healthy range.
 
----
+
 
 ## How to set up CPC?
 
@@ -75,7 +76,7 @@ Setting up a CPC-based ad campaign is straightforward, especially on platforms l
 
 If you're unsure what CPC to start with, refer to your industry benchmarks or start low and optimize over time.
 
----
+
 
 ## Why is my average CPC so high?
 
@@ -92,7 +93,3 @@ If your CPC seems higher than expected, here are some common reasons:
 - Improve your ad copy, visuals, and landing pages
 - Test lower bids or switch to automated bidding
 - Compare your CPC to industry averages to see if it's really high—or just normal for your niche
-
----
-
-Need help analyzing your CPC? Try our CPC Calculator — it includes benchmarks for Google and Meta ads across industries so you can see how you stack up.
