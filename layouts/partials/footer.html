@@ -4,7 +4,8 @@
             {{- /* Custom Content */ -}}
             {{- with .Site.Params.footer.custom -}}
                 <div class="footer-line">
-                    <span id="run-time"></span>
+                    {{ . | safeHTML }}
+                    <!-- <span id="run-time"></span> --> 
                 </div>
             {{- end -}}
 
