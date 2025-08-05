@@ -1,4 +1,5 @@
 /* 站点运行时间 */
+/*
 function runtime() {
 	window.setTimeout("runtime()", 1000);
     let startTime = new Date('01/23/2022 08:00:00');
@@ -19,3 +20,5 @@ function runtime() {
         + ((seconds < 10) ? '0' : '') + seconds + ' 秒 ';
 }
 runtime();
+
+*/

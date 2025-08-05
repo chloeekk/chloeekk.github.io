@@ -847,7 +847,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 #        url = "/categories/documentation/"
 #        title = ""
       [[languages.en.menu.main]]
-        weight = 4
+        weight = 5
         identifier = "about"
         pre = ""
         post = ""
@@ -855,7 +855,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         url = "/about/"
         title = ""
       [[languages.en.menu.main]]
-        weight = 5
+        weight = 6
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
