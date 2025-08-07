@@ -374,6 +374,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Page global config
   # 文章页面全局配置
   [params.page]
+    author = "Chloe"
     # whether to hide a page from home page
     # 是否在主页隐藏一篇文章
     hiddenFromHomePage = false
