@@ -1,4 +1,66 @@
-// cpc-calculator.js
+// cpc-calculator.js — compatible with unified platform_industry_benchmark.json
+// It tolerates different raw shapes: Array, {data:[...]}, {rows:[...]}, or numeric-key objects.
+// It also supports metrics.cpc (number) and legacy average_cpc ("$3.49").
+
+// Module-level cache of normalized rows
+let ROWS = [];
+
+// Unique helper (preserve order)
+const unique = (arr) => [...new Set(arr)];
+
+// Normalize raw data to an array of row objects
+function toRows(raw) {
+  if (Array.isArray(raw)) return raw;
+  if (raw && typeof raw === "object") {
+    if (Array.isArray(raw.data)) return raw.data;
+    if (Array.isArray(raw.rows)) return raw.rows;
+    if (Array.isArray(raw.items)) return raw.items;
+    // Fallback: use object values (covers {"0":{...},"1":{...}})
+    return Object.values(raw);
+  }
+  return [];
+}
+
+// Parse currency like "$3.49" or "3.49" to number; return NaN if invalid
+function parseCurrency(val) {
+  if (typeof val === "number") return val;
+  if (typeof val === "string") {
+    const n = Number(val.replace(/[^0-9.\-]/g, ""));
+    return isNaN(n) ? NaN : n;
+  }
+  return NaN;
+}
+
+// Read CPC value from a row (prefer metrics.cpc, fallback to average_cpc)
+function readCPC(row) {
+  if (!row) return NaN;
+  const fromMetrics = row.metrics && typeof row.metrics.cpc === "number" ? row.metrics.cpc : NaN;
+  if (!isNaN(fromMetrics)) return fromMetrics;
+  return parseCurrency(row.average_cpc);
+}
+
+// Preference for objectives when multiple rows exist for the same (platform, industry)
+const OBJECTIVE_PREF = {
+  Google: ["Search"],
+  Meta: ["Traffic", "Leads"],
+  Bing: [] // no specific preference
+};
+
+// Find the best row for (platform, industry) that has a CPC metric
+function findRowForCPC(platform, industry) {
+  const candidates = ROWS.filter(
+    (r) => r && r.platform === platform && r.industry === industry && !isNaN(readCPC(r))
+  );
+  if (candidates.length === 0) return null;
+
+  const pref = OBJECTIVE_PREF[platform] || [];
+  for (const wanted of pref) {
+    const hit = candidates.find((r) => (r.campaign_objective || "").trim() === wanted);
+    if (hit) return hit;
+  }
+  // Fallback: first candidate with CPC
+  return candidates[0];
+}
 
 export function initCalculator(container, data) {
   if (!container) {
@@ -6,15 +68,28 @@ export function initCalculator(container, data) {
     return;
   }
 
-  const platforms = Object.keys(data);
+  // Normalize and cache
+  ROWS = toRows(data);
+  if (!ROWS.length) {
+    container.innerHTML = "<p>❌ No benchmark data available.</p>";
+    console.error("Benchmark dataset is empty or malformed:", data);
+    return;
+  }
 
-  // Render HTML structure inside container
+  // Derive platform list from rows (strings only)
+  const platforms = unique(
+    ROWS.map((r) => (r && typeof r.platform === "string" ? r.platform : null)).filter(Boolean)
+  );
+
+  // Render UI
   container.innerHTML = `
     <div class="calculator-panel">
 
       <div class="input-group">
         <label for="platform-select">Ad Platform:</label>
-        <select id="platform-select">${platforms.map(p => `<option value="${p}">${p}</option>`).join('')}</select>
+        <select id="platform-select">
+          ${platforms.map((p) => `<option value="${p}">${p}</option>`).join("")}
+        </select>
       </div>
 
       <div class="input-group">
@@ -35,7 +110,6 @@ export function initCalculator(container, data) {
       <button id="reload-btn" type="button">Reload Calculator</button>
 
       <div id="result-display" class="result"></div>
-
       <div id="suggestions" class="suggestions"></div>
 
       <div class="feedback">
@@ -46,38 +120,42 @@ export function initCalculator(container, data) {
     </div>
   `;
 
-  updateIndustryOptions(data);
+  // Initial industry options
+  updateIndustryOptions();
 
-  // Event listeners for inputs and buttons
+  // Events
   document.getElementById("platform-select").addEventListener("change", () => {
-    updateIndustryOptions(data);
-    calculateAndDisplay(data);
+    updateIndustryOptions();
+    calculateAndDisplay();
   });
-  document.getElementById("industry-select").addEventListener("change", () => calculateAndDisplay(data));
-  document.getElementById("ad-spend").addEventListener("input", () => calculateAndDisplay(data));
-  document.getElementById("clicks").addEventListener("input", () => calculateAndDisplay(data));
-
+  document.getElementById("industry-select").addEventListener("change", () => calculateAndDisplay());
+  document.getElementById("ad-spend").addEventListener("input", () => calculateAndDisplay());
+  document.getElementById("clicks").addEventListener("input", () => calculateAndDisplay());
   document.getElementById("reload-btn").addEventListener("click", () => {
     resetCalculator();
-    calculateAndDisplay(data);
+    calculateAndDisplay();
   });
-
   document.getElementById("feedback-yes").addEventListener("click", () => alert("Thanks for your feedback!"));
   document.getElementById("feedback-no").addEventListener("click", () => alert("Sorry to hear that. We will improve!"));
 
-  // Initial calculation on load
-  calculateAndDisplay(data);
+  // First render
+  calculateAndDisplay();
 }
 
-function updateIndustryOptions(data) {
+// Populate industries for the selected platform (only rows that have CPC)
+function updateIndustryOptions() {
   const platform = document.getElementById("platform-select").value;
-  const industries = Object.keys(data[platform]);
   const industrySelect = document.getElementById("industry-select");
 
-  industrySelect.innerHTML = industries.map(ind => `<option value="${ind}">${ind}</option>`).join('');
+  const industries = unique(
+    ROWS.filter((r) => r.platform === platform && !isNaN(readCPC(r))).map((r) => r.industry)
+  );
+
+  industrySelect.innerHTML = industries.map((ind) => `<option value="${ind}">${ind}</option>`).join("");
 }
 
-function calculateAndDisplay(data) {
+// Compute and render CPC comparison
+function calculateAndDisplay() {
   const platform = document.getElementById("platform-select").value;
   const industry = document.getElementById("industry-select").value;
   const adSpend = parseFloat(document.getElementById("ad-spend").value);
@@ -85,25 +163,36 @@ function calculateAndDisplay(data) {
   const resultDiv = document.getElementById("result-display");
   const suggestionsDiv = document.getElementById("suggestions");
 
-  if (!adSpend || !clicks || clicks === 0 || !industry) {
+  if (!platform || !industry) {
+    resultDiv.innerHTML = "<p>Please select a platform and industry.</p>";
+    suggestionsDiv.innerHTML = "";
+    return;
+  }
+  if (!(adSpend > 0) || !(clicks > 0)) {
     resultDiv.innerHTML = "<p>Please fill in all fields with valid values.</p>";
     suggestionsDiv.innerHTML = "";
     return;
   }
 
-  const userCPC = (adSpend / clicks).toFixed(2);
-  const benchmarkCPC = data[platform][industry];
-
-  if (typeof benchmarkCPC !== "number") {
-    resultDiv.innerHTML = "<p>Benchmark data unavailable for this industry.</p>";
+  const row = findRowForCPC(platform, industry);
+  if (!row) {
+    resultDiv.innerHTML = `<p>Benchmark data unavailable for "${platform}" / "${industry}".</p>`;
     suggestionsDiv.innerHTML = "";
     return;
   }
 
+  const benchmarkCPC = readCPC(row);
+  if (isNaN(benchmarkCPC)) {
+    resultDiv.innerHTML = `<p>Benchmark CPC is missing for "${platform}" / "${industry}".</p>`;
+    suggestionsDiv.innerHTML = "";
+    return;
+  }
+
+  const userCPC = adSpend / clicks;
   const diff = userCPC - benchmarkCPC;
+
   let statusText = "";
   let color = "";
-
   if (diff < 0) {
     statusText = "Below Benchmark";
     color = "green";
@@ -116,24 +205,30 @@ function calculateAndDisplay(data) {
   }
 
   resultDiv.innerHTML = `
-    <p><strong>Your CPC:</strong> $${userCPC}</p>
-    <p><strong>Industry Benchmark (${industry}):</strong> $${benchmarkCPC.toFixed(2)}</p>
+    <p><strong>Your CPC:</strong> $${userCPC.toFixed(2)}</p>
+    <p><strong>Industry Benchmark (${industry}${row.campaign_objective ? ` • ${row.campaign_objective}` : ""}):</strong> $${benchmarkCPC.toFixed(2)}</p>
     <p style="color: ${color}; font-weight: bold;">${statusText}</p>
   `;
 
-  suggestionsDiv.innerHTML = generateSuggestions(diff, platform, industry);
+  suggestionsDiv.innerHTML = generateSuggestions(diff);
 }
 
+// Reset inputs and selections
 function resetCalculator() {
-  document.getElementById("platform-select").selectedIndex = 0;
-  updateIndustryOptions(window.industryCPCData);
+  const platformSelect = document.getElementById("platform-select");
+  platformSelect.selectedIndex = 0;
+  updateIndustryOptions();
+  const industrySelect = document.getElementById("industry-select");
+  industrySelect.selectedIndex = 0;
+
   document.getElementById("ad-spend").value = "";
   document.getElementById("clicks").value = "";
   document.getElementById("result-display").innerHTML = "";
   document.getElementById("suggestions").innerHTML = "";
 }
 
-function generateSuggestions(diff, platform, industry) {
+// Simple suggestions
+function generateSuggestions(diff) {
   if (diff < 0) {
     return `
       <ul>

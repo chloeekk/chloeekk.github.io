@@ -12,26 +12,33 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+  // Dynamically import calculator module
   import(`/js/calculators/${calcId}-calculator.js`)
     .then(module => {
       console.log("Calculator module loaded:", module);
-      fetch(`/data/industry-${calcId}.json`)
+
+      // ✅ Always load the same benchmark dataset
+      fetch(`/data/platform_industry_benchmark.json`)
         .then(res => {
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           return res.json();
         })
         .then(data => {
-          console.log("Calculator data loaded:", data);
-          window.industryCPCData = data;
+          console.log("📊 Benchmark data loaded:", data);
+
+          // Attach to global scope if needed
+          window.platformIndustryBenchmark = data;
+
           if (module.initCalculator) {
             console.log("Calling initCalculator...");
+            // Pass the entire dataset into calculator
             module.initCalculator(app, data);
           } else {
             console.error("initCalculator function not found in module.");
           }
         })
         .catch(err => {
-          app.innerHTML = `<p>❌ Failed to load calculator data: ${err.message}</p>`;
+          app.innerHTML = `<p>❌ Failed to load benchmark data: ${err.message}</p>`;
           console.error("Failed to load data:", err);
         });
     })
