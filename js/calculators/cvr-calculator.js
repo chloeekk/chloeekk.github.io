@@ -1,4 +1,57 @@
-// cvr-calculator.js
+// cvr-calculator.js 
+
+let ROWS = []; // cache normalized rows
+
+const unique = (arr) => [...new Set(arr)];
+
+// Normalize raw data to rows
+function toRows(raw) {
+  if (Array.isArray(raw)) return raw;
+  if (raw && typeof raw === "object") {
+    if (Array.isArray(raw.data)) return raw.data;
+    if (Array.isArray(raw.rows)) return raw.rows;
+    if (Array.isArray(raw.items)) return raw.items;
+    return Object.values(raw); // {0:{},1:{}} fallback
+  }
+  return [];
+}
+
+// Parse % string or number to percentage value (e.g. "4.5%" → 4.5)
+function parsePercent(val) {
+  if (typeof val === "number") return val * 100; // e.g. 0.045 → 4.5%
+  if (typeof val === "string") {
+    const n = Number(val.replace(/[^0-9.\-]/g, ""));
+    return isNaN(n) ? NaN : n;
+  }
+  return NaN;
+}
+
+// Read CVR value from row
+function readCVR(row) {
+  if (!row) return NaN;
+  if (row.metrics && typeof row.metrics.cvr === "number") return row.metrics.cvr * 100;
+  return parsePercent(row.average_cvr);
+}
+
+// Objective preference per platform (optional)
+const OBJECTIVE_PREF = {
+  Google: ["Search"],
+  Meta: ["Leads", "Conversions"],
+  Bing: []
+};
+
+function findRowForCVR(platform, industry) {
+  const candidates = ROWS.filter(
+    (r) => r.platform === platform && r.industry === industry && !isNaN(readCVR(r))
+  );
+  if (!candidates.length) return null;
+  const pref = OBJECTIVE_PREF[platform] || [];
+  for (const wanted of pref) {
+    const hit = candidates.find((r) => (r.campaign_objective || "").trim() === wanted);
+    if (hit) return hit;
+  }
+  return candidates[0];
+}
 
 export function initCalculator(container, data) {
   if (!container) {
@@ -6,23 +59,32 @@ export function initCalculator(container, data) {
     return;
   }
 
-  // Store data globally for use in reset
-  window.industryCVRData = data;
+  ROWS = toRows(data);
+  if (!ROWS.length) {
+    container.innerHTML = "<p>❌ No CVR benchmark data available.</p>";
+    return;
+  }
 
-  const platforms = Object.keys(data);
+  const platforms = unique(ROWS.map((r) => r.platform).filter(Boolean));
 
-  // Render calculator HTML
   container.innerHTML = `
     <div class="calculator-panel">
 
       <div class="input-group">
         <label for="platform-select">Ad Platform:</label>
-        <select id="platform-select">${platforms.map(p => `<option value="${p}">${p}</option>`).join('')}</select>
+        <select id="platform-select">
+          ${platforms.map((p) => `<option value="${p}">${p}</option>`).join("")}
+        </select>
       </div>
 
       <div class="input-group">
         <label for="industry-select">Industry:</label>
         <select id="industry-select"></select>
+      </div>
+
+      <div class="input-group" id="objective-group" style="display:none;">
+        <label for="objective-select">Campaign Objective:</label>
+        <select id="objective-select"></select>
       </div>
 
       <div class="input-group">
@@ -42,69 +104,113 @@ export function initCalculator(container, data) {
 
       <div class="feedback">
         <p>Did we solve your problem today?</p>
-        <button id="feedback-yes" class="feedback-btn" type="button">Yes</button>
-        <button id="feedback-no" class="feedback-btn" type="button">No</button>
+        <button id="feedback-yes" type="button" class="feedback-btn">Yes</button>
+        <button id="feedback-no" type="button" class="feedback-btn">No</button>
       </div>
     </div>
   `;
 
-  updateIndustryOptions(data);
+  updateIndustryOptions();
+  updateObjectiveOptions(); // new
 
-  // Attach input event listeners
   document.getElementById("platform-select").addEventListener("change", () => {
-    updateIndustryOptions(data);
-    calculateAndDisplay(data);
+    updateIndustryOptions();
+    updateObjectiveOptions();
+    calculateAndDisplay();
   });
-  document.getElementById("industry-select").addEventListener("change", () => calculateAndDisplay(data));
-  document.getElementById("clicks").addEventListener("input", () => calculateAndDisplay(data));
-  document.getElementById("conversions").addEventListener("input", () => calculateAndDisplay(data));
-
-  // Reset button handler
+  document.getElementById("industry-select").addEventListener("change", () => {
+    updateObjectiveOptions();
+    calculateAndDisplay();
+  });
+  document.getElementById("objective-select").addEventListener("change", () => calculateAndDisplay());
+  document.getElementById("clicks").addEventListener("input", () => calculateAndDisplay());
+  document.getElementById("conversions").addEventListener("input", () => calculateAndDisplay());
   document.getElementById("reload-btn").addEventListener("click", () => {
     resetCalculator();
-    calculateAndDisplay(data);
+    calculateAndDisplay();
   });
 
-  // Feedback handlers
   document.getElementById("feedback-yes").addEventListener("click", () => alert("Thanks for your feedback!"));
   document.getElementById("feedback-no").addEventListener("click", () => alert("Sorry to hear that. We will improve!"));
 
-  // Initial render
-  calculateAndDisplay(data);
+  calculateAndDisplay();
 }
 
-// Populate industry options based on selected platform
-function updateIndustryOptions(data) {
+// Update industry options
+function updateIndustryOptions() {
   const platform = document.getElementById("platform-select").value;
-  const industries = Object.keys(data[platform]);
   const industrySelect = document.getElementById("industry-select");
-
-  industrySelect.innerHTML = industries.map(ind => `<option value="${ind}">${ind}</option>`).join('');
+  const industries = unique(
+    ROWS.filter((r) => r.platform === platform && !isNaN(readCVR(r))).map((r) => r.industry)
+  );
+  industrySelect.innerHTML = industries.map((ind) => `<option value="${ind}">${ind}</option>`).join("");
 }
 
-// Calculate and update CVR results
-function calculateAndDisplay(data) {
+// Update objective options (only show for Meta)
+function updateObjectiveOptions() {
   const platform = document.getElementById("platform-select").value;
   const industry = document.getElementById("industry-select").value;
+  const objectiveGroup = document.getElementById("objective-group");
+  const objectiveSelect = document.getElementById("objective-select");
+
+  if (platform === "Meta") {
+    const objectives = unique(
+      ROWS.filter((r) => r.platform === platform && r.industry === industry && r.campaign_objective)
+          .map((r) => r.campaign_objective)
+    );
+    if (objectives.length > 0) {
+      objectiveGroup.style.display = "block";
+      objectiveSelect.innerHTML = objectives.map((o) => `<option value="${o}">${o}</option>`).join("");
+      return;
+    }
+  }
+  objectiveGroup.style.display = "none";
+  objectiveSelect.innerHTML = "";
+}
+
+// Calculate and display CVR vs benchmark
+function calculateAndDisplay() {
+  const platform = document.getElementById("platform-select").value;
+  const industry = document.getElementById("industry-select").value;
+  const objectiveSelect = document.getElementById("objective-select");
+  const objective = objectiveSelect?.value || null;
   const clicks = parseFloat(document.getElementById("clicks").value);
   const conversions = parseFloat(document.getElementById("conversions").value);
   const resultDiv = document.getElementById("result-display");
   const suggestionsDiv = document.getElementById("suggestions");
 
-  if (!clicks || clicks <= 0 || !conversions || conversions < 0 || !industry) {
+  if (!(clicks > 0) || !(conversions >= 0) || !industry) {
     resultDiv.innerHTML = "<p>Please fill in all fields with valid values.</p>";
     suggestionsDiv.innerHTML = "";
     return;
   }
 
-  const benchmarkCVR = data[platform][industry];
-  if (typeof benchmarkCVR !== "number") {
-    resultDiv.innerHTML = `<p>Benchmark data unavailable for industry "${industry}".</p>`;
+  let row;
+  if (platform === "Meta" && objective) {
+    row = ROWS.find(
+      (r) =>
+        r.platform === platform &&
+        r.industry === industry &&
+        (r.campaign_objective || "") === objective
+    );
+  } else {
+    row = findRowForCVR(platform, industry);
+  }
+
+  if (!row) {
+    resultDiv.innerHTML = `<p>Benchmark data unavailable for "${platform}" / "${industry}"${objective ? ` / "${objective}"` : ""}.</p>`;
     suggestionsDiv.innerHTML = "";
     return;
   }
 
-  const userCVR = ((conversions / clicks) * 100).toFixed(2);
+  const benchmarkCVR = readCVR(row);
+  if (isNaN(benchmarkCVR)) {
+    resultDiv.innerHTML = `<p>CVR benchmark missing for "${platform}" / "${industry}"${objective ? ` / "${objective}"` : ""}.</p>`;
+    suggestionsDiv.innerHTML = "";
+    return;
+  }
+
+  const userCVR = (conversions / clicks) * 100;
   const diff = userCVR - benchmarkCVR;
   let statusText = "";
   let color = "";
@@ -121,25 +227,26 @@ function calculateAndDisplay(data) {
   }
 
   resultDiv.innerHTML = `
-    <p><strong>Your CVR:</strong> ${userCVR}%</p>
-    <p><strong>Industry Benchmark (${industry}):</strong> ${benchmarkCVR.toFixed(2)}%</p>
+    <p><strong>Your CVR:</strong> ${userCVR.toFixed(2)}%</p>
+    <p><strong>Industry Benchmark (${industry}${row.campaign_objective ? ` • ${row.campaign_objective}` : ""}):</strong> ${benchmarkCVR.toFixed(2)}%</p>
     <p style="color: ${color}; font-weight: bold;">${statusText}</p>
   `;
 
   suggestionsDiv.innerHTML = generateSuggestions(diff);
 }
 
-// Reset the calculator UI
 function resetCalculator() {
-  document.getElementById("platform-select").selectedIndex = 0;
-  updateIndustryOptions(window.industryCVRData);
+  const platformSelect = document.getElementById("platform-select");
+  platformSelect.selectedIndex = 0;
+  updateIndustryOptions();
+  updateObjectiveOptions();
+  document.getElementById("industry-select").selectedIndex = 0;
   document.getElementById("clicks").value = "";
   document.getElementById("conversions").value = "";
   document.getElementById("result-display").innerHTML = "";
   document.getElementById("suggestions").innerHTML = "";
 }
 
-// Suggest actions based on performance
 function generateSuggestions(diff) {
   if (diff > 0) {
     return `

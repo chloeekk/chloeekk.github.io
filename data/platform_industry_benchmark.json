@@ -1,0 +1,871 @@
+[
+  {
+    "platform": "Google",
+    "industry": "Animals & Pets",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0658,
+      "cpc": 3.97,
+      "cvr": 0.1307,
+      "cpa": 31.82
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Apparel / Fashion & Jewelry",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0677,
+      "cpc": 4.31,
+      "cvr": 0.039900000000000005,
+      "cpa": 101.49
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Arts & Entertainment",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.131,
+      "cpc": 1.6,
+      "cvr": 0.0484,
+      "cpa": 30.27
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Attorneys & Legal Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.059699999999999996,
+      "cpc": 8.58,
+      "cvr": 0.0509,
+      "cpa": 131.63
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Automotive \u2014 For Sale",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.08289999999999999,
+      "cpc": 2.41,
+      "cvr": 0.0776,
+      "cpa": 38.86
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Automotive \u2014 Repair, Service & Parts",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0556,
+      "cpc": 3.9,
+      "cvr": 0.1467,
+      "cpa": 28.5
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Beauty & Personal Care",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0571,
+      "cpc": 5.7,
+      "cvr": 0.0782,
+      "cpa": 60.34
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Business Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0565,
+      "cpc": 5.58,
+      "cvr": 0.051399999999999994,
+      "cpa": 103.54
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Career & Employment",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.06570000000000001,
+      "cpc": 5.16,
+      "cvr": 0.0433,
+      "cpa": 62.8
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Dentists & Dental Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.054400000000000004,
+      "cpc": 7.85,
+      "cvr": 0.0908,
+      "cpa": 83.93
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Education & Instruction",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0574,
+      "cpc": 6.23,
+      "cvr": 0.11380000000000001,
+      "cpa": 90.02
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Finance & Insurance",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0833,
+      "cpc": 3.46,
+      "cvr": 0.0255,
+      "cpa": 83.93
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Furniture",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0611,
+      "cpc": 3.86,
+      "cvr": 0.0273,
+      "cpa": 121.51
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Health & Fitness",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0718,
+      "cpc": 5.0,
+      "cvr": 0.068,
+      "cpa": 62.8
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Home & Home Improvement",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0637,
+      "cpc": 7.85,
+      "cvr": 0.0733,
+      "cpa": 90.92
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Industrial & Commercial",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0623,
+      "cpc": 5.7,
+      "cvr": 0.0717,
+      "cpa": 85.63
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Personal Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.07690000000000001,
+      "cpc": 5.81,
+      "cvr": 0.0974,
+      "cpa": 53.52
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Physicians & Surgeons",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0673,
+      "cpc": 5.0,
+      "cvr": 0.1162,
+      "cpa": 56.83
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Real Estate",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0843,
+      "cpc": 2.53,
+      "cvr": 0.032799999999999996,
+      "cpa": 100.48
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Restaurants & Food",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0758,
+      "cpc": 2.05,
+      "cvr": 0.0709,
+      "cpa": 30.27
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Shopping, Collectibles & Gifts",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0892,
+      "cpc": 3.49,
+      "cvr": 0.0383,
+      "cpa": 47.94
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Sports & Recreation",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0919,
+      "cpc": 2.64,
+      "cvr": 0.0762,
+      "cpa": 47.47
+    }
+  },
+  {
+    "platform": "Google",
+    "industry": "Travel",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0873,
+      "cpc": 2.12,
+      "cvr": 0.0575,
+      "cpa": 73.7
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Apparel & Accessories",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0333,
+      "cpc": 0.91,
+      "cvr": 0.0288,
+      "cpa": 25.16
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Automotive",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.023399999999999997,
+      "cpc": 2.52,
+      "cvr": 0.016200000000000003,
+      "cpa": 34.4
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "B2B Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0301,
+      "cpc": 1.16,
+      "cvr": 0.0264,
+      "cpa": 54.13
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "B2C Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0212,
+      "cpc": 1.78,
+      "cvr": 0.048,
+      "cpa": 47.18
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Careers & Employment",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0353,
+      "cpc": 0.75,
+      "cvr": 0.0681,
+      "cpa": 23.71
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Consumer Electronics",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0288,
+      "cpc": 1.22,
+      "cvr": 0.0301,
+      "cpa": 39.85
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Education",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.023700000000000002,
+      "cpc": 2.79,
+      "cvr": 0.0355,
+      "cpa": 45.9
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Finance & Insurance",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0351,
+      "cpc": 1.82,
+      "cvr": 0.0557,
+      "cpa": 37.3
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Health & Wellness",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.028999999999999998,
+      "cpc": 1.7,
+      "cvr": 0.0255,
+      "cpa": 42.47
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Home & Garden",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.027000000000000003,
+      "cpc": 1.01,
+      "cvr": 0.0254,
+      "cpa": 33.57
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Home Improvement",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0292,
+      "cpc": 2.54,
+      "cvr": 0.0278,
+      "cpa": 84.85
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Home Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.0255,
+      "cpc": 1.5,
+      "cvr": 0.0336,
+      "cpa": 21.68
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Legal Services",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.028399999999999998,
+      "cpc": 1.42,
+      "cvr": 0.0358,
+      "cpa": 56.99
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Real Estate",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.022000000000000002,
+      "cpc": 2.88,
+      "cvr": 0.0513,
+      "cpa": 29.4
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Restaurants & Food",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.026000000000000002,
+      "cpc": 1.69,
+      "cvr": 0.044199999999999996,
+      "cpa": 26.14
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Retail",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.030600000000000002,
+      "cpc": 1.24,
+      "cvr": 0.0265,
+      "cpa": 30.25
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Technology",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.024,
+      "cpc": 1.95,
+      "cvr": 0.0204,
+      "cpa": 102.94
+    }
+  },
+  {
+    "platform": "Bing",
+    "industry": "Travel & Hospitality",
+    "objective": null,
+    "metrics": {
+      "ctr": 0.028300000000000002,
+      "cpc": 1.17,
+      "cvr": 0.0158,
+      "cpa": 73.15
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Animals & Pets",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0187,
+      "cpc": 0.58,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Apparel / Fashion & Jewelry",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.011399999999999999,
+      "cpc": 1.07,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Arts & Entertainment",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0259,
+      "cpc": 0.43,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Attorneys & Legal Services",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.009899999999999999,
+      "cpc": 1.09,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Automotive \u2014 For Sale",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0102,
+      "cpc": 0.79,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Automotive \u2014 Repair, Service & Parts",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.011000000000000001,
+      "cpc": 0.96,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Beauty & Personal Care",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0151,
+      "cpc": 0.94,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Business Services",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0116,
+      "cpc": 0.84,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Career & Employment",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0141,
+      "cpc": 0.67,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Dentists & Dental Services",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0088,
+      "cpc": 1.07,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Education & Instruction",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0121,
+      "cpc": 0.77,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Finance & Insurance",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0085,
+      "cpc": 1.05,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Furniture",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0121,
+      "cpc": 1.06,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Health & Fitness",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0161,
+      "cpc": 0.81,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Home & Home Improvement",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0126,
+      "cpc": 0.88,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Industrial & Commercial",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.009899999999999999,
+      "cpc": 0.77,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Personal Services",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0137,
+      "cpc": 0.81,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Physicians & Surgeons",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.010700000000000001,
+      "cpc": 0.96,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Real Estate",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.026000000000000002,
+      "cpc": 0.65,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Restaurants & Food",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0219,
+      "cpc": 0.51,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Shopping, Collectibles & Gifts",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0167,
+      "cpc": 0.68,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Sports & Recreation",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.0127,
+      "cpc": 0.72,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Travel",
+    "objective": "Traffic",
+    "metrics": {
+      "ctr": 0.022000000000000002,
+      "cpc": 0.42,
+      "cvr": null,
+      "cpa": null
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Attorneys & Legal Services",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0161,
+      "cpc": 8.5,
+      "cvr": 0.0757,
+      "cpa": 104.58
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Automotive \u2014 Repair, Service & Parts",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0108,
+      "cpc": 3.82,
+      "cvr": 0.048600000000000004,
+      "cpa": 81.45
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Beauty & Personal Care",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0226,
+      "cpc": 2.44,
+      "cvr": 0.0593,
+      "cpa": 42.1
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Business Services",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.027000000000000003,
+      "cpc": 1.52,
+      "cvr": 0.0834,
+      "cpa": 16.95
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Dentists & Dental Services",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0154,
+      "cpc": 4.1,
+      "cvr": 0.0983,
+      "cpa": 32.46
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Education & Instruction",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0232,
+      "cpc": 2.03,
+      "cvr": 0.0849,
+      "cpa": 31.82
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Finance & Insurance",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0184,
+      "cpc": 4.57,
+      "cvr": 0.059800000000000006,
+      "cpa": 38.09
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Furniture",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0236,
+      "cpc": 2.1,
+      "cvr": 0.0611,
+      "cpa": 39.25
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Health & Fitness",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0146,
+      "cpc": 3.29,
+      "cvr": 0.057800000000000004,
+      "cpa": 57.4
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Home & Home Improvement",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0178,
+      "cpc": 2.18,
+      "cvr": 0.08869999999999999,
+      "cpa": 24.29
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Industrial & Commercial",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0148,
+      "cpc": 2.77,
+      "cvr": 0.12029999999999999,
+      "cpa": 24.53
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Personal Services",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0256,
+      "cpc": 1.93,
+      "cvr": 0.0919,
+      "cpa": 20.49
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Physicians & Surgeons",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.024300000000000002,
+      "cpc": 2.83,
+      "cvr": 0.0481,
+      "cpa": 57.97
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Real Estate",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0371,
+      "cpc": 1.36,
+      "cvr": 0.09699999999999999,
+      "cpa": 13.87
+    }
+  },
+  {
+    "platform": "Meta",
+    "industry": "Sports & Recreation",
+    "objective": "Leads",
+    "metrics": {
+      "ctr": 0.0374,
+      "cpc": 1.2,
+      "cvr": 0.08869999999999999,
+      "cpa": 14.59
+    }
+  }
+]
