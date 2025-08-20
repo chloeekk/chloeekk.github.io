@@ -144,6 +144,6 @@ Once the core dimensions are clear, the next question is: **how to measure if co
 
 The core goals can be summarized as: **reducing CAC, increasing retention, and improving monetization efficiency**. Around these goals, a proper **metrics system** becomes the key tool for managing and optimizing commercialization, enabling data-driven decisions for every investment.
 
-Understanding commercialization methods and strategies for different business models will help put theory into practice and achieve sustainable growth.
+Understanding [commercialization methods and strategies for different business models](https://chloevolution.com/posts/how-to-find-the-best-monetization-path-for-my-business/) will help put theory into practice and achieve sustainable growth.
 
 
