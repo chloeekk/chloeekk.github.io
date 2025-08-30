@@ -1,5 +1,5 @@
 ---
-title: "How to Evaluate B2b Marketing?"
+title: "How to Evaluate B2B Marketing?"
 description: "An introduction to B2B marketing effectiveness measurement methods, covering goal setting, key metrics, lead management, and data analysis tools."
 date: 2025-08-24T15:47:22+08:00
 draft: false
