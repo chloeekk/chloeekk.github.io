@@ -4,6 +4,15 @@ description: "Uncover the keyword matching mechanics of Google AI Max for Search
 date: 2025-09-08T09:42:40+08:00
 draft: false
 
+categories:
+- SEM
+- Digital Marketing
+
+tags:
+- SEM
+- Google Ads
+- Digital Marketing
+
 ---
 
 AI is becoming increasingly important in the advertising world, and **[AI Max for Search](https://blog.google/products/ads-commerce/google-ai-max-for-search-campaigns/)** from Google is a perfect example. Its core concept is simple: you provide some basic information, and the AI finds the most relevant users, automating your ad campaigns. For advertisers, this sounds very convenient.

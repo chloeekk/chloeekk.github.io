@@ -1,8 +1,8 @@
 ---
 title: "Using AI Max for Ad Copy? Beware of These 2 Key Risks"
-escription: "This article delves into the mechanics of AI Max's automatic ad creative generation, covering the frequency and sources of AI-generated copy, as well as the risks of uncontrollable content and data opacity."
+description: "This article delves into the mechanics of AI Max's automatic ad creative generation, covering the frequency and sources of AI-generated copy, as well as the risks of uncontrollable content and data opacity."
 date: 2025-09-08T09:43:41+08:00
-draft: true
+draft: false
 
 categories:
 - SEM
@@ -13,10 +13,8 @@ tags:
 - Google Ads
 - Digital Marketing
 ---
------
 
-
-In a previous article, we explored how [AI Max's keyword matching works]((https://chloevolution.com/posts/ai-max-search-keyword-insights/)) and found that it's independently opening up new traffic channels. But AI Max’s capabilities go far beyond that; it can also automatically generate ad copy and headlines.
+In a previous article, we explored how [AI Max's keyword matching works](https://chloevolution.com/posts/ai-max-search-keyword-insights/) and found that it's independently opening up new traffic channels. But AI Max’s capabilities go far beyond that; it can also automatically generate ad copy and headlines.
 
 So, the question is: Where do these automatically-generated creatives come from? And while they offer convenience, what risks are hidden within?
 
@@ -66,7 +64,7 @@ This latency can cause a mismatch between your ad and your landing page, confusi
 
 What's more, these risks add to our workload. To ensure the accuracy and consistency of our ad copy, we have to regularly check the AI-generated creatives and manually remove those that don't meet our standards. This contradicts AI Max's original purpose of reducing workload.
 
------
+
 
 The most direct value of AI Max's ad creative generation is its ability to act as an endless creative engine, continuously generating new headlines and descriptions that significantly reduce the manual work of writing ad copy. This automated content generation, based on landing page content, also gives us new creative directions.
 

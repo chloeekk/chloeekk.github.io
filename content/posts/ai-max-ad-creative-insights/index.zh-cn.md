@@ -2,7 +2,7 @@
 title: "用 AI Max 自动生成文案？警惕这两种你必须面对的风险"
 description: "本文深入探讨 AI Max 自动生成广告素材的运作机制，包括AI 文案的生成频率、内容来源，并提出文案不可控、数据不透明等使用风险。"
 date: 2025-09-08T09:43:41+08:00
-draft: true
+draft: false
 
 categories:
 - SEM

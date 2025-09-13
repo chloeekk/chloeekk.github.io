@@ -4,6 +4,15 @@ description: "揭秘 Google AI Max for Search 的关键词匹配机制。本文�
 date: 2025-09-08T09:42:40+08:00
 draft: false
 
+categories:
+- SEM
+- 数字营销
+
+tags:
+- SEM
+- 谷歌广告
+- 数字营销
+
 ---
 
 AI 在广告界的地位越来越重要，Google 推出的 **[AI Max for Search](https://blog.google/products/ads-commerce/google-ai-max-for-search-campaigns/)** 就是一个典型的例子。它的核心理念很直接：你提供一些基础信息，AI 来负责找到最相关的用户，帮你实现广告投放的自动化。对广告主来说，这听起来确实很省心。
