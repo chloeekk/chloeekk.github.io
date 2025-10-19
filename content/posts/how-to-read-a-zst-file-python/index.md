@@ -11,6 +11,9 @@ tags:
 - Python
 ---
 
+
+{{< zst_reader >}}
+
 ## What is a ZST file?
 
 If you've ever stumbled upon a file with the `.zst` extension and wondered what kind of sorcery it is—don't worry, you're not alone.

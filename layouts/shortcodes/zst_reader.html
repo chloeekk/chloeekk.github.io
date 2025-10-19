@@ -1,0 +1,282 @@
+<script>
+    // Ensure ZstdModulePromise exists to track the library's loading status
+    if (!window.ZstdModulePromise) {
+        
+        // CDN path for the fzstd library
+        const FZSTD_JS_URL = 'https://cdn.jsdelivr.net/npm/fzstd@0.1.1/umd/index.js'; 
+
+        window.ZstdModulePromise = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = FZSTD_JS_URL; 
+            
+            script.onload = () => {
+                // The fzstd library creates a global object upon loading
+                const fzstd = window.fzstd;
+                
+                if (fzstd && typeof fzstd.decompress === 'function') {
+                    console.log("[DEBUG] Pure JS fzstd loaded successfully. Ready for decompression.");
+                    // Resolve with the fzstd object, which contains the decompress method
+                    resolve(fzstd); 
+                } else {
+                     reject(new Error('Pure JS decoder loaded, but the expected global fzstd object or decompress function was not found.'));
+                }
+            };
+
+            script.onerror = () => {
+                reject(new Error('Failed to load fzstd (Pure JS decoder) from CDN. Check network connection.'));
+            };
+            document.head.appendChild(script);
+        });
+    }
+
+    // Utility function: format byte size
+    function formatBytes(bytes, decimals = 2) {
+        if (bytes === 0) return '0 Bytes';
+        const k = 1024;
+        const dm = decimals < 0 ? 0 : decimals;
+        const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    }
+</script>
+
+<div class="zst-reader-container" id="zst-tool-{{ .Ordinal }}">
+    <style>
+        /* Styles to ensure button visibility and layout structure */
+        #zst-tool-{{ .Ordinal }} .zst-buttons-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        #zst-tool-{{ .Ordinal }} .zst-btn {
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 1px solid var(--border-color);
+            background-color: var(--code-bg); 
+            color: var(--code-fg); 
+            transition: background-color 0.3s, opacity 0.3s;
+            font-size: 1em;
+            flex-grow: 1;
+            max-width: 100%;
+        }
+        @media (min-width: 768px) {
+            #zst-tool-{{ .Ordinal }} .zst-btn {
+                flex-grow: 0;
+            }
+        }
+        /* Style for the primary button */
+        #zst-tool-{{ .Ordinal }} .zst-btn.primary {
+            /* Force a visible background color (e.g., blue) */
+            background-color: #3B82F6 !important; 
+            /* Ensure text color is white */
+            color: white !important;
+            border-color: #3B82F6 !important;
+        }
+        #zst-tool-{{ .Ordinal }} .zst-btn.primary:hover {
+            opacity: 0.9;
+        }
+        #zst-tool-{{ .Ordinal }} .zst-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        #zst-tool-{{ .Ordinal }} textarea {
+            width: 100%;
+            font-family: monospace;
+            border: 1px solid var(--border-color);
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: var(--code-bg);
+            color: var(--code-fg);
+            resize: vertical;
+        }
+    </style>
+
+    <div class="alert admonition primary">
+        <p class="admonition-title">🚀 ZST File Quick Viewer</p>
+        <p>No code needed! Simply upload your ZST file to view its content instantly!</p>
+    </div>
+
+    <div class="zst-buttons-row">
+        <input type="file" id="fileInput-{{ .Ordinal }}" accept=".zst, .tzst, .tar.zst" style="display: none;">
+        
+        <button class="zst-btn" onclick="document.getElementById('fileInput-{{ .Ordinal }}').click()">
+            <i class="fas fa-file-upload"></i> Select .zst File
+        </button>
+        
+        <button class="zst-btn disabled" id="decompressBtn-{{ .Ordinal }}" disabled>
+            <i class="fas fa-play-circle"></i> Decompress & View
+        </button>
+    </div>
+    
+    <div id="statusMessage-{{ .Ordinal }}" class="alert admonition info">
+        <strong>Status:</strong> Loading Zstd decompression module (Pure JS)...
+    </div>
+
+    <div id="resultsArea-{{ .Ordinal }}" style="margin-top: 15px; display: none;">
+        <div class="admonition success">
+            <p class="admonition-title"><i class="fas fa-check-circle"></i> File Content (Decompressed Size: <span id="fileSize-{{ .Ordinal }}">0 B</span>)</p>
+            <textarea id="fileContent-{{ .Ordinal }}" rows="10" readonly></textarea>
+            
+            <button class="zst-btn primary" id="downloadBtn-{{ .Ordinal }}" style="margin-top: 10px;">
+                <i class="fas fa-download"></i> Download Decompressed File
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Execute UI logic once the Pure JS module is successfully loaded
+    window.ZstdModulePromise.then(zstdModule => {
+        const id = '{{ .Ordinal }}';
+        const fileInput = document.getElementById('fileInput-' + id);
+        const decompressBtn = document.getElementById('decompressBtn-' + id);
+        const resultsArea = document.getElementById('resultsArea-' + id);
+        const fileContent = document.getElementById('fileContent-' + id);
+        const statusMessage = document.getElementById('statusMessage-' + id);
+        const fileSizeSpan = document.getElementById('fileSize-' + id);
+        const downloadBtn = document.getElementById('downloadBtn-' + id);
+        const buttonsRow = document.querySelector(`#zst-tool-${id} .zst-buttons-row`);
+        
+        let decompressedData = null; 
+
+        // Module loaded successfully: update the initial status message
+        statusMessage.className = 'alert admonition info';
+        statusMessage.innerHTML = '<strong>Status:</strong> Zstd decompression module loaded. Please select a file.';
+
+        // --- File Selection Listener (Fixes button visibility) ---
+        fileInput.addEventListener('change', () => {
+            if (fileInput.files.length > 0) {
+                // Ensure the button container is visible (in case of theme overrides)
+                if (buttonsRow) buttonsRow.style.display = 'flex'; 
+
+                decompressBtn.disabled = false;
+                decompressBtn.classList.remove('disabled');
+                decompressBtn.classList.add('primary');
+                
+                // Hide results area
+                resultsArea.style.display = 'none';
+                
+                // Show status message
+                statusMessage.className = 'alert admonition info';
+                statusMessage.innerHTML = `<strong>Status:</strong> File <strong>${fileInput.files[0].name}</strong> selected. Click "Decompress & View".`;
+                statusMessage.style.display = 'block';
+
+            } else {
+                decompressBtn.disabled = true;
+                decompressBtn.classList.remove('primary');
+                decompressBtn.classList.add('disabled');
+                resultsArea.style.display = 'none';
+            }
+        });
+
+        // --- Core Decompression and Display Logic ---
+        decompressBtn.addEventListener('click', () => {
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            // 1. Disable button and update status
+            decompressBtn.disabled = true;
+            decompressBtn.classList.add('disabled');
+            decompressBtn.classList.remove('primary');
+            statusMessage.className = 'alert admonition info';
+            statusMessage.innerHTML = '<strong>Status:</strong> Reading and decompressing file with Pure JS... (Wait time depends on file size)';
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const compressedBuffer = new Uint8Array(e.target.result);
+                    
+                    // 2. Call the fzstd decompression core (synchronous)
+                    const decompressedBuffer = zstdModule.decompress(compressedBuffer); 
+                    
+                    // 3. Convert binary data to text
+                    const textDecoder = new TextDecoder('utf-8');
+                    decompressedData = textDecoder.decode(decompressedBuffer);
+                    
+                    // 4. Update UI
+                    const displayLimit = 50000;
+                    fileContent.value = decompressedData.substring(0, displayLimit) + 
+                                        (decompressedData.length > displayLimit ? `\n\n... [File too large, only showing the first ${formatBytes(displayLimit)} of content] ...` : '');
+                    fileSizeSpan.textContent = formatBytes(decompressedBuffer.byteLength);
+                    
+                    statusMessage.style.display = 'none';
+                    resultsArea.style.display = 'block';
+
+                } catch (error) {
+                    statusMessage.className = 'alert admonition danger';
+                    statusMessage.innerHTML = `<strong>Decompression Failed:</strong> ${error.message}. Please ensure the file is a valid Zstandard compressed file.`;
+                    resultsArea.style.display = 'none';
+                    decompressedData = null;
+                    console.error('Zstd Decompression Error:', error);
+                } finally {
+                    // 5. Re-enable the decompression button regardless of success/failure (allows user to select another file or retry)
+                    decompressBtn.disabled = false;
+                    decompressBtn.classList.remove('disabled');
+                    if (resultsArea.style.display === 'none') {
+                        // If failed, button remains non-primary color
+                        decompressBtn.classList.remove('primary');
+                    } else {
+                        // If successful, button remains primary color
+                        decompressBtn.classList.add('primary');
+                    }
+                }
+            };
+            reader.onerror = () => {
+                statusMessage.className = 'alert admonition danger';
+                statusMessage.innerHTML = '<strong>Read Error:</strong> Could not read the file.';
+                resultsArea.style.display = 'none';
+                
+                // Enable button
+                decompressBtn.disabled = false;
+                decompressBtn.classList.remove('disabled');
+                decompressBtn.classList.remove('primary');
+            };
+            reader.readAsArrayBuffer(file);
+        });
+
+        // --- Download Logic (Unchanged) ---
+        downloadBtn.addEventListener('click', () => {
+            if (!decompressedData) {
+                alert("No content to download. Please decompress a file first.");
+                return;
+            }
+            
+            const file = fileInput.files[0];
+            const originalFileName = file.name;
+            let newFileName = originalFileName.replace(/(\.tar)?\.zst$/i, '');
+            if (newFileName === originalFileName) {
+                newFileName += '.decompressed.dat'; 
+            } else if (!newFileName.endsWith('.tar') && !newFileName.endsWith('.csv') && !newFileName.endsWith('.json')) {
+                 newFileName += '.txt';
+            }
+
+            const blob = new Blob([decompressedData], {type: 'text/plain'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = newFileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+
+    }).catch(error => {
+        // Library initialization failed
+        const id = '{{ .Ordinal }}';
+        const statusMessage = document.getElementById('statusMessage-' + id);
+        const decompressBtn = document.getElementById('decompressBtn-' + id);
+        
+        statusMessage.style.display = 'block';
+        statusMessage.className = 'alert admonition danger';
+        statusMessage.innerHTML = `<strong>Fatal Error:</strong> Decompression tool failed to load (${error.message}). The pure JS library failed to load or define its global object.`;
+        if (decompressBtn) {
+            decompressBtn.disabled = true;
+            decompressBtn.classList.remove('primary');
+            decompressBtn.classList.add('disabled');
+        }
+        console.error('FZSTD Initialization Failed:', error);
+    });
+</script>
