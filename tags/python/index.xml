@@ -1,6 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Chloevolution</title><link>https://chloevolution.com/tags/python/</link><description>Recent content in Python on Chloevolution</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 09 Apr 2024 22:00:01 +0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Read a ZST File via Python</title><link>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</link><pubDate>Tue, 09 Apr 2024 22:00:01 +0800</pubDate><guid>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</guid><description>&lt;h2 id="what-is-a-zst-file">What is a ZST file?&lt;/h2>
-&lt;p>If you&amp;rsquo;ve ever stumbled upon a file with the &lt;code>.zst&lt;/code> extension and wondered what kind of sorcery it is—don&amp;rsquo;t worry, you&amp;rsquo;re not alone.&lt;/p>
-&lt;p>A ZST file is a compressed file format created using &lt;strong>Zstandard&lt;/strong> (often shortened to &lt;strong>zstd&lt;/strong>), a modern compression algorithm developed by Facebook. Think of it as the younger, faster cousin of more familiar formats like &lt;code>.zip&lt;/code> or &lt;code>.gz&lt;/code>. What makes &lt;code>.zst&lt;/code> files special is their &lt;strong>impressive balance between speed and compression ratio&lt;/strong>—they compress data quickly &lt;em>and&lt;/em> decompress even faster, which is great for performance-critical applications.&lt;/p></description></item><item><title>Customer Profiling &amp; Segmentation with Python (Source code)</title><link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link><pubDate>Sun, 07 Apr 2024 11:49:14 +0800</pubDate><guid>https://chloevolution.com/posts/customer-profiling-and-segmentation/</guid><description>&lt;p>The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from &lt;a href="https://www.kaggle.com/code/mfaaris/customer-segmentation-insights-profiling" target="_blank" rel="noopener noreffer ">original author&lt;/a>, there are slight differences in the analysis part.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Chloevolution</title><link>https://chloevolution.com/tags/python/</link><description>Recent content in Python on Chloevolution</description><generator>Hugo</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 09 Apr 2024 22:00:01 +0800</lastBuildDate><atom:link href="https://chloevolution.com/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Read a ZST File via Python</title><link>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</link><pubDate>Tue, 09 Apr 2024 22:00:01 +0800</pubDate><guid>https://chloevolution.com/posts/how-to-read-a-zst-file-python/</guid><description>&lt;script>
+ 
+ if (!window.ZstdModulePromise) {
+ 
+ 
+ const FZSTD_JS_URL = 'https://cdn.jsdelivr.net/npm/fzstd@0.1.1/umd/index.js'; 
+
+ window.ZstdModulePromise = new Promise((resolve, reject) => {
+ const script = document.createElement('script');
+ script.src = FZSTD_JS_URL; 
+ 
+ script.onload = () => {
+ 
+ const fzstd = window.fzstd;
+ 
+ if (fzstd &amp;&amp; typeof fzstd.decompress === 'function') {
+ console.log("[DEBUG] Pure JS fzstd loaded successfully. Ready for decompression.");
+ 
+ resolve(fzstd); 
+ } else {
+ reject(new Error('Pure JS decoder loaded, but the expected global fzstd object or decompress function was not found.'));
+ }
+ };
+
+ script.onerror = () => {
+ reject(new Error('Failed to load fzstd (Pure JS decoder) from CDN. Check network connection.'));
+ };
+ document.head.appendChild(script);
+ });
+ }
+
+ 
+ function formatBytes(bytes, decimals = 2) {
+ if (bytes === 0) return '0 Bytes';
+ const k = 1024;
+ const dm = decimals &lt; 0 ? 0 : decimals;
+ const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+ const i = Math.floor(Math.log(bytes) / Math.log(k));
+ return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+ }
+&lt;/script>
+
+&lt;div class="zst-reader-container" id="zst-tool-0">
+ &lt;style>
+ 
+ #zst-tool-0 .zst-buttons-row {
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ margin-bottom: 15px;
+ }
+ #zst-tool-0 .zst-btn {
+ padding: 8px 15px;
+ border-radius: 4px;
+ cursor: pointer;
+ border: 1px solid var(--border-color);
+ background-color: var(--code-bg); 
+ color: var(--code-fg); 
+ transition: background-color 0.3s, opacity 0.3s;
+ font-size: 1em;
+ flex-grow: 1;
+ max-width: 100%;
+ }
+ @media (min-width: 768px) {
+ #zst-tool-0 .zst-btn {
+ flex-grow: 0;
+ }
+ }
+ 
+ #zst-tool-0 .zst-btn.primary {
+ 
+ background-color: #3B82F6 !important; 
+ 
+ color: white !important;
+ border-color: #3B82F6 !important;
+ }
+ #zst-tool-0 .zst-btn.primary:hover {
+ opacity: 0.9;
+ }
+ #zst-tool-0 .zst-btn.disabled {
+ opacity: 0.5;
+ cursor: not-allowed;
+ }
+ #zst-tool-0 textarea {
+ width: 100%;
+ font-family: monospace;
+ border: 1px solid var(--border-color);
+ padding: 10px;
+ box-sizing: border-box;
+ background-color: var(--code-bg);
+ color: var(--code-fg);
+ resize: vertical;
+ }
+ &lt;/style>
+
+ &lt;div class="alert admonition primary">
+ &lt;p class="admonition-title">🚀 ZST File Quick Viewer&lt;/p></description></item><item><title>Customer Profiling &amp; Segmentation with Python (Source code)</title><link>https://chloevolution.com/posts/customer-profiling-and-segmentation/</link><pubDate>Sun, 07 Apr 2024 11:49:14 +0800</pubDate><guid>https://chloevolution.com/posts/customer-profiling-and-segmentation/</guid><description>&lt;p>The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from &lt;a href="https://www.kaggle.com/code/mfaaris/customer-segmentation-insights-profiling" target="_blank" rel="noopener noreffer ">original author&lt;/a>, there are slight differences in the analysis part.&lt;/p>
 &lt;p>The specific analysis process includes:&lt;/p>
 &lt;ol>
 &lt;li>Data Preparation&lt;/li>
