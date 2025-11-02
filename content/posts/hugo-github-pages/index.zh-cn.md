@@ -10,7 +10,7 @@ tags:
 - Hugo
 ---
 
-我使用的是LoveIt模板来搭建网站。
+我使用的是[LoveIt模板](https://github.com/dillonzq/LoveIt)来搭建网站。
 
 ## Hugo、GitHub Pages和LoveIt模板三者如何配合起来建站
 一句话总结：**你写文章（Markdown）→ Hugo+LoveIt 加工成网页 → GitHub Pages 把网页放到网上**
@@ -202,7 +202,7 @@ draft 表示“草稿”，默认值为 true，表示编译时会忽略此内容
 
 ### 6. 部署到GitHub页面
 
-**[GitHub Pages](https://pages.github.com/)**是静态网页（Static Web Page）的集合，这些静态网页由**[GitHub](https://github.com/ )**托管发布，所以叫GitHub+Pages。
+[GitHub Pages](https://pages.github.com/)是静态网页（Static Web Page）的集合，这些静态网页由[GitHub](https://github.com/ )托管发布，所以叫GitHub+Pages。
 
 1. 在Github中添加一个空白仓库，仓库名称为`Github用户名.github.io`，不包含任何内容，例如`readme.md`文件等。从这里获取Github中仓库的URL
 2. 在公共目录下，依次执行以下命令：
@@ -230,7 +230,7 @@ git push -u origin master
 
 如果后续博客内容有更新，需要使用`hugo`命令生成新内容，然后将新内容推送到Git仓库。
 
-###“fatal: 'origin' does not seem to be a git repository...”的解决方法
+### “fatal: 'origin' does not seem to be a git repository...”的解决方法
 
 使用Git推送代码时，出现“fatal: 'origin' does not seem to be a git repository...”的错误提示，
 
