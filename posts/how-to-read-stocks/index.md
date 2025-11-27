@@ -42,12 +42,26 @@ First, you need to look up the stock information of your target company. In the 
 
 ### Long-Term Price Range
 
+![palantir-one-year-price](palantir-one-year-price.png)
+
 | Indicator         | Palantir Example Data | Meaning                                                                                                      |
 | :---------------- | :-------------------- | :----------------------------------------------------------------------------------------------------------- |
 | **52-Week Range** | **$63.40 - $207.52**  | This is the **lowest price ($63.40)** and **highest price ($207.52)** of PLTR over the past year (52 weeks). |
 
-* **Positioning:** This helps investors place the current price ($154.85) in a historical context. It shows that the current price is neither the lowest nor close to the highest, sitting in the mid-to-high range.
+* **Positioning:** This helps investors place the current price ($154.85) in a historical context. It shows that the current price is neither the lowest nor close to the highest, sitting in the mid-to-high range. A price near the 52-week low may indicate that the stock is “on sale” or undervalued, while a price near the 52-week high may indicate that it is “expensive” or overvalued.
 * **Importance:** Investors often use this range to evaluate whether a stock is overbought or oversold.
+
+Beginner investors are advised to focus on the **1-year (1Y)** and **5-year (5Y)** charts:
+
+* **1-year chart:** Shows the stock’s performance over the past 12 months. It helps determine whether the price is generally **rising, falling, or moving sideways**, and whether there have been any **significant crashes or spikes**.
+
+* **5-year chart (key for long-term investing):**
+
+  * **Goal:** Choose companies that show a **stable long-term growth trend**.
+  * **Evaluation criteria:** Does the stock show sustained long-term growth? After experiencing major declines, is it able to **rebound quickly** (showing resilience)?
+
+For beginners, a good stock should demonstrate **continuous growth** and the ability to **recover quickly** from downturns.
+
 
 ## Market Size and Trading Liquidity (Assessing Risk)
 
