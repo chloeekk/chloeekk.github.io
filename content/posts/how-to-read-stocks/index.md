@@ -4,6 +4,12 @@ description: "How to read a stock quote? Using Palantir as an example, understan
 date: 2025-11-23T10:14:03+08:00
 draft: false
 
+categories:
+- Finance
+
+tags:
+- Finance
+
 ---
 
 

@@ -4,6 +4,11 @@ description: "Volume is a key indicator for verifying the reliability of price m
 date: 2025-11-25T07:09:55+08:00
 draft: false
 
+categories:
+- Finance
+
+tags:
+- Finance
 ---
 
 
