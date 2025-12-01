@@ -1,4 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Chloevolution</title><link>https://chloevolution.com/</link><description>Chloe's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 Nov 2025 08:01:45 +0800</lastBuildDate><atom:link href="https://chloevolution.com/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Analyze a Balance Sheet?</title><link>https://chloevolution.com/posts/how-to-analyze-a-balance-sheet/</link><pubDate>Sun, 30 Nov 2025 08:01:45 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-analyze-a-balance-sheet/</guid><description><![CDATA[<p>The balance sheet is the foundation for understanding a company’s financial health. Its structure is elegantly designed and must always remain balanced.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Chloevolution</title><link>https://chloevolution.com/</link><description>Chloe's Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 01 Dec 2025 14:17:26 +0800</lastBuildDate><atom:link href="https://chloevolution.com/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Create Infographics with AI?</title><link>https://chloevolution.com/posts/how-to-create-infographics-with-ai/</link><pubDate>Mon, 01 Dec 2025 14:17:26 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-create-infographics-with-ai/</guid><description><![CDATA[<p><strong>Infographics</strong> have become a key element for elevating content quality and increasing user engagement. Whether deepening a blog reader’s understanding or boosting the shareability of social media posts, a well-designed infographic can effectively visualize complex ideas, making them more persuasive and professional.</p>
+<h2 id="method-1-reusing-existing-infographics">Method 1: Reusing Existing Infographics</h2>
+<p>This is the fastest and most intuitive starting method, especially if you already have an idea of the design style you want, or simply want to save time on building a layout from scratch.</p>]]></description></item><item><title>How to Analyze a Cash Flow Statement?</title><link>https://chloevolution.com/posts/how-to-analyze-a-cash-flow-statement/</link><pubDate>Mon, 01 Dec 2025 10:39:32 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-analyze-a-cash-flow-statement/</guid><description><![CDATA[<p>The <strong>Cash Flow Statement (CFS)</strong> is the <strong>closest to reality</strong> among the three major financial statements. Unlike the income statement (which includes non-cash expenses) and the balance sheet (which is only a snapshot at a point in time), the CFS tracks the <strong>actual cash</strong> flowing in and out of the business over a <strong>specific period</strong>.</p>
+<p>The ultimate value of a stock depends on how much <strong>free cash flow</strong> a company can generate throughout its lifecycle. The CFS directly reveals a company’s <strong>financial health</strong>, <strong>liquidity</strong>, and <strong>ability to service its debt</strong>.</p>]]></description></item><item><title>How to Analyze an Income Statement?</title><link>https://chloevolution.com/posts/how-to-analyze-an-income-statement/</link><pubDate>Mon, 01 Dec 2025 07:18:21 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-analyze-an-income-statement/</guid><description><![CDATA[<p>The income statement (also called the Profit &amp; Loss statement or P&amp;L) is like your <strong>monthly budget report or ledger</strong> that records your <strong>entire year</strong> of income and expenses.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">Income Statement</th>
+          <th style="text-align: left">Comparison: Balance Sheet</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Time dimension</strong></td>
+          <td style="text-align: left"><strong>Over a period of time</strong> (e.g., January 1, 2024 to December 31, 2024).</td>
+          <td style="text-align: left"><strong>At a specific point in time</strong> (e.g., December 31, 2024) as a snapshot of assets.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>What it measures</strong></td>
+          <td style="text-align: left">Measures the company’s <strong>operating results</strong> over that period (did it make money or lose money?).</td>
+          <td style="text-align: left">Measures the company’s <strong>financial position</strong> at a moment (how much it owns, how much it owes).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Core question</strong></td>
+          <td style="text-align: left">“How much <strong>did we earn</strong> this quarter/year?”</td>
+          <td style="text-align: left">“How much am I <strong>worth right now</strong>?”</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="core-accounting-equation-the-essence-of-profit">Core accounting equation: the essence of profit</h2>
+<p>The income statement answers only one question: <strong>After offsetting revenues and expenses, how much is left?</strong></p>]]></description></item><item><title>How to Analyze a Balance Sheet?</title><link>https://chloevolution.com/posts/how-to-analyze-a-balance-sheet/</link><pubDate>Sun, 30 Nov 2025 08:01:45 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-analyze-a-balance-sheet/</guid><description><![CDATA[<p>The balance sheet is the foundation for understanding a company’s financial health. Its structure is elegantly designed and must always remain balanced.</p>
 <p></p>
 <h2 id="definition-and-purpose-of-the-balance-sheet">Definition and Purpose of the Balance Sheet</h2>
 <p>The Balance Sheet is one of the three primary financial statements (the other two are the Income Statement and the Cash Flow Statement).<br>
@@ -20,23 +51,4 @@ The P/E ratio reflects the market’s <strong>expectations</strong> and <strong>
 But for those who want to research individual stocks themselves, the entire process can be broken down into the following <strong>6 steps</strong>:</p>
 <p></p>
 <h2 id="step-1-screening-for-ideas">Step 1: Screening for Ideas</h2>
-<p>This is the process of narrowing the research scope so you don’t waste time on companies you’re not interested in. Use stock screeners to filter companies that meet specific criteria (such as revenue growth, profitability, debt levels, etc.).</p>]]></description></item><item><title>The Underlying Logic of Investing: How to Understand Interest Rates and Returns?</title><link>https://chloevolution.com/posts/interest-rates-and-returns/</link><pubDate>Wed, 05 Nov 2025 21:46:32 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/interest-rates-and-returns/</guid><description><![CDATA[<p>In finance and investing, <strong>interest rates (Rate)</strong> and <strong>returns (Return)</strong> are two foundational concepts. They form the basis of all asset pricing and performance measurement. Understanding their relationship and differences is the first step toward building a robust investment decision framework.</p>
-<p><strong>Essentially:</strong></p>
-<ul>
-<li><strong>Interest Rate (Rate):</strong> As the <strong>discount rate</strong>, it determines the <strong>current price of an asset</strong>. It reflects the time value of money and the compensation required for taking on risk.</li>
-<li><strong>Return (Return):</strong> As the <strong>rate of gain</strong>, it measures the <strong>actual performance</strong> of an investment. It shows how much value an asset generates over time.</li>
-</ul>
-<p>The most direct metric for evaluating returns is the <strong>Holding Period Return (HPR)</strong>—the percentage change in an investment’s value over a period. However, HPR only reflects the overall outcome.</p>]]></description></item><item><title>How to Take Physical Products Global?</title><link>https://chloevolution.com/posts/how-to-take-physical-products-global/</link><pubDate>Sun, 02 Nov 2025 09:25:20 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-take-physical-products-global/</guid><description><![CDATA[<p>Blindly pouring money into ads or simply shipping your product overseas often leads to overstock and costly trial-and-error.
-Successful global expansion starts by answering three strategic questions: <strong>Why go global? Where to go? And how to sell efficiently?</strong></p>
-<h2 id="strategic-preparation">Strategic Preparation</h2>
-<h3 id="1-define-the-goal-of-going-global">1. Define the Goal of Going Global</h3>
-<p>Going global is not a trend to follow — it’s a <strong>strategic decision</strong> based on your company’s growth stage and external pressures.
-Before taking any operational steps, companies must <strong>define and quantify</strong> their globalization objectives. These typically fall into three main categories:</p>]]></description></item><item><title>How to Allocate Online Advertising Budget</title><link>https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/</link><pubDate>Sat, 01 Nov 2025 13:50:07 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/</guid><description><![CDATA[<p>As the person in charge of online advertising for a market, facing the new quarterly KPI targets and advertising budget from your company, you need to ask yourself the following questions:</p>
-<ul>
-<li>What is the main focus of this quarter’s KPIs? Is it <strong>scaling up</strong>, <strong>improving efficiency</strong>, or <strong>increasing customer value</strong>?</li>
-<li>Compared with the previous quarter, what are the main changes in KPIs and market conditions? Which channels are facing a sharp increase in customer acquisition cost (CAC)?</li>
-<li>Do you think the KPI target is <strong>achievable with the current budget</strong>? Is the growth logic behind it reasonable?</li>
-<li>If you believe there’s a significant gap between targets and resources, how will you use <strong>historical ROI data</strong> to negotiate with leadership for more reasonable goals or resources? (Of course, in most cases, you’ll still have to get it done with limited resources 😉)</li>
-<li>Once the <strong>final KPIs</strong> are confirmed, how will you allocate this quarter’s ad budget to ensure the KPIs are met?</li>
-</ul>
-<p>This article uses “improving customer quality” as an example to share a practical framework for ad budget allocation.</p>]]></description></item></channel></rss>
+<p>This is the process of narrowing the research scope so you don’t waste time on companies you’re not interested in. Use stock screeners to filter companies that meet specific criteria (such as revenue growth, profitability, debt levels, etc.).</p>]]></description></item></channel></rss>

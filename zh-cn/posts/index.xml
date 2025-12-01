@@ -1,4 +1,32 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - Chloevolution</title><link>https://chloevolution.com/zh-cn/posts/</link><description>所有文章 | Chloevolution</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 Nov 2025 08:01:45 +0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml"/><item><title>如何分析资产负债表？</title><link>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-balance-sheet/</link><pubDate>Sun, 30 Nov 2025 08:01:45 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-balance-sheet/</guid><description><![CDATA[<p>资产负债表是理解公司财务健康状况的基石，它的结构设计非常精妙，必须永远保持平衡。</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>所有文章 - Chloevolution</title><link>https://chloevolution.com/zh-cn/posts/</link><description>所有文章 | Chloevolution</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 01 Dec 2025 14:17:26 +0800</lastBuildDate><atom:link href="https://chloevolution.com/zh-cn/posts/" rel="self" type="application/rss+xml"/><item><title>如何用AI制作infographics？</title><link>https://chloevolution.com/zh-cn/posts/how-to-create-infographics-with-ai/</link><pubDate>Mon, 01 Dec 2025 14:17:26 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-create-infographics-with-ai/</guid><description>&lt;p>&lt;strong>信息图表（Infographics）&lt;/strong> 已成为提升内容质量和用户参与度的关键要素。无论是用于深化博客文章的理解，还是优化社交媒体内容的传播效率，一张设计精良的信息图表都能有效实现复杂的概念可视化，使其更具说服力和专业性。&lt;/p></description></item><item><title>如何分析现金流量表？</title><link>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-cash-flow-statement/</link><pubDate>Mon, 01 Dec 2025 10:39:32 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-cash-flow-statement/</guid><description><![CDATA[<p><strong>现金流量表（Cash Flow Statement, CFS）<strong>是三大财务报表中</strong>最贴近真相</strong>的一份。它不同于利润表（包含非现金费用）和资产负债表（只是某一时刻的快照），CFS 专门追踪公司在<strong>特定时期内</strong>所有流入和流出的<strong>真实现金</strong>。</p>]]></description></item><item><title>如何分析利润表？</title><link>https://chloevolution.com/zh-cn/posts/how-to-analyze-an-income-statement/</link><pubDate>Mon, 01 Dec 2025 07:18:21 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-analyze-an-income-statement/</guid><description><![CDATA[<p>利润表（Income Statement，也称损益表或 P&amp;L）就像你记录自己<strong>一整年</strong>收入和支出的<strong>月度预算报告或流水账</strong>。</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">特性</th>
+          <th style="text-align: left">利润表</th>
+          <th style="text-align: left">对比：资产负债表</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>时间维度</strong></td>
+          <td style="text-align: left"><strong>一段时期内</strong>（如 2024 年 1 月 1 日至 12 月 31 日）。</td>
+          <td style="text-align: left"><strong>某一特定时点</strong>（如 2024 年 12 月 31 日）的资产快照。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>衡量内容</strong></td>
+          <td style="text-align: left">衡量公司在这一时期内的<strong>经营成果</strong>（是赚钱了，还是亏钱了）。</td>
+          <td style="text-align: left">衡量公司在某一刻的<strong>财务状况</strong>（有多少钱、欠多少债）。</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>核心问题</strong></td>
+          <td style="text-align: left">“这个季度/年度<strong>赚了多少钱</strong>？”</td>
+          <td style="text-align: left">“我现在<strong>值多少钱</strong>？”</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="核心会计等式利润的本质">核心会计等式：利润的本质</h2>
+<p>利润表回答的唯一问题就是：<strong>收入和费用相抵后，还剩下多少钱？</strong></p>]]></description></item><item><title>如何分析资产负债表？</title><link>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-balance-sheet/</link><pubDate>Sun, 30 Nov 2025 08:01:45 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-balance-sheet/</guid><description><![CDATA[<p>资产负债表是理解公司财务健康状况的基石，它的结构设计非常精妙，必须永远保持平衡。</p>
 <p></p>
 <h2 id="资产负债表的定义与目的">资产负债表的定义与目的</h2>
 <p>资产负债表 (Balance Sheet) 是公司三大主要财务报表之一（另两个是利润表和现金流量表）。它的特殊之处在于它展示的是公司在<strong>特定日期</strong>（例如：2025 年 12 月 31 日）的财务状况。</p>]]></description></item><item><title>如何理解市盈率？</title><link>https://chloevolution.com/zh-cn/posts/how-to-read-pe-ratio/</link><pubDate>Sat, 29 Nov 2025 08:51:13 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-read-pe-ratio/</guid><description><![CDATA[<p><strong>市盈率（Price-to-Earnings Ratio，简称 P/E Ratio）<strong>是衡量一只股票估值最常用的指标之一，它直接对比了股票的</strong>价格</strong>与公司的<strong>盈利能力</strong>。</p>]]></description></item><item><title>如何阅读一家公司的财报？</title><link>https://chloevolution.com/zh-cn/posts/how-to-read-financial-statements-of-a-company/</link><pubDate>Sat, 29 Nov 2025 07:54:57 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-read-financial-statements-of-a-company/</guid><description><![CDATA[<p>财务报表（Financial Statements）是企业定期（通常是按季度或按年度）编制的报告，用于<strong>总结和报告</strong>公司的经营活动和财务表现。</p>
@@ -6,12 +34,4 @@
 &lt;p>如果你的答案是“带来了短期流量，但转化率和留存率不理想”，那么你很可能将宝贵的早期资源投入到了错误的目标上。&lt;/p></description></item><item><title>如何分析一只股票？</title><link>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-stock/</link><pubDate>Sat, 22 Nov 2025 07:40:34 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-analyze-a-stock/</guid><description><![CDATA[<p>首先，选股很难跑赢大盘，普通投资者最好选择被动投资。但对于想要自己研究股票的人，整个流程可以分解为以下 <strong>6 个步骤</strong>：</p>
 <p></p>
 <h2 id="第-1-步筛选想法-screening-for-ideas">第 1 步：筛选想法 (Screening for Ideas)</h2>
-<p>这是缩小研究范围的过程，以免浪费时间在不感兴趣的公司上。利用股票筛选工具过滤出符合特定标准的公司（如营收增长、盈利能力、债务水平等）。</p>]]></description></item><item><title>投资的底层逻辑：如何理解利率与收益率？</title><link>https://chloevolution.com/zh-cn/posts/interest-rates-and-returns/</link><pubDate>Wed, 05 Nov 2025 21:46:32 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/interest-rates-and-returns/</guid><description><![CDATA[<p>在金融和投资领域，<strong>利率（Rate）</strong> 和 <strong>收益率（Return）</strong> 是两大核心概念，它们构成了所有资产定价与绩效衡量的基础。理解它们之间的关系和差异，是构建稳健投资决策体系的首要步骤。</p>]]></description></item><item><title>实体产品如何出海？</title><link>https://chloevolution.com/zh-cn/posts/how-to-take-physical-products-global/</link><pubDate>Sun, 02 Nov 2025 09:25:20 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-take-physical-products-global/</guid><description>&lt;p>盲目投入流量或简单地将产品推向海外，往往导致库存积压和高昂的试错成本。成功的出海需要首先回答三个根本性的战略问题：&lt;strong>为什么出海？去哪出海？以及如何高效地卖出去？&lt;/strong>&lt;/p></description></item><item><title>如何分配线上广告预算</title><link>https://chloevolution.com/zh-cn/posts/how-to-allocate-online-advertising-budget/</link><pubDate>Sat, 01 Nov 2025 13:50:07 +0800</pubDate><author>Chloe</author><guid>https://chloevolution.com/zh-cn/posts/how-to-allocate-online-advertising-budget/</guid><description><![CDATA[<p>作为某市场线上广告的负责人，面对公司给到的新一季度的KPI目标和广告预算，你需要思考以下问题：</p>
-<ul>
-<li>本季度的KPI重点是什么？是<strong>追求规模</strong>，还是<strong>优化效率</strong>，亦或是<strong>提升客户价值</strong>？</li>
-<li>相较于上一季度，本季度的 KPI 和市场环境的主要变化点在哪里？哪些渠道的获客成本（CAC）面临巨大的上涨压力？</li>
-<li>你觉得这个 KPI 目标在现有预算下**有可能达成吗？**目标背后的增长逻辑合理吗？</li>
-<li>如果你认为目标与资源存在显著偏差，你如何基于<strong>历史投入产出数据</strong>与领导进行有效协商谈判，争取更合理的资源或目标版本？（当然，大多数情况下，你只能在有限的资源内完成任务 😉）</li>
-<li><strong>最终版KPI确认后，你如何分配本季度的广告预算以确保达成KPI目标？</strong></li>
-</ul>
-<p>本文以“提升客户质量”作为示例，分享下广告预算分配的思考框架。</p>]]></description></item></channel></rss>
+<p>这是缩小研究范围的过程，以免浪费时间在不感兴趣的公司上。利用股票筛选工具过滤出符合特定标准的公司（如营收增长、盈利能力、债务水平等）。</p>]]></description></item></channel></rss>
