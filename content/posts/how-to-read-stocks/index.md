@@ -87,7 +87,7 @@ Market cap (market capitalization) is the most important metric for measuring a 
 * **Calculation:** Stock price × total number of outstanding shares.
 * **Understanding:** A $369B market cap shows that Palantir is a very large company. Market cap is the basis for measuring size and comparing it with other companies.
 
-### Trading Volume
+### [Trading Volume](https://chloevolution.com/posts/volume-analysis/)
 
 | Indicator       | Palantir Example Data | Meaning                                                                                  |
 | :-------------- | :-------------------- | :--------------------------------------------------------------------------------------- |
@@ -102,7 +102,7 @@ Market cap (market capitalization) is the most important metric for measuring a 
 
 | Indicator             | Palantir Example Data | Meaning                                                                                                                                                                                                                |
 | :-------------------- | :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **P/E Ratio (TTM)**   | **360.12**            | **The ratio of stock price to earnings per share.** This is a major valuation indicator. An extremely high P/E (e.g., above 300) usually means the market expects very high profit growth over the next several years. |
+| **[P/E Ratio (TTM)](https://chloevolution.com/posts/how-to-read-pe-ratio/)**   | **360.12**            | **The ratio of stock price to earnings per share.** This is a major valuation indicator. An extremely high P/E (e.g., above 300) usually means the market expects very high profit growth over the next several years. |
 | **EPS (TTM)**         | **$0.43**             | **Net profit divided by total shares.** This shows how much net profit the company earns per share.                                                                                                                    |
 | **Beta (5Y Monthly)** | **1.48**              | **Measures volatility relative to the market (e.g., S&P 500).** If Beta exceeds 1.0 (e.g., 1.48), it means the stock’s volatility is 48% higher than the market — high risk, high return.                              |
 
@@ -136,7 +136,7 @@ Once you have mastered basic data such as price, market cap, and liquidity, you 
 
 ![palantir-financials](palantir-financials.png)
 
-Financial statements are the **three pillars** of understanding a company’s health and the starting point of all fundamental analysis.
+[Financial statements](https://chloevolution.com/posts/how-to-read-financial-statements-of-a-company/) are the **three pillars** of understanding a company’s health and the starting point of all fundamental analysis.
 
 * **Understand the three statements:**
 
