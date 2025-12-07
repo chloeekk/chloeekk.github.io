@@ -24,7 +24,7 @@ The core of the analysis is answering two questions: **“Is this the best compa
 * **Purpose:** It is the "engine" of a company’s growth. Since all profits originate from sales, strong sales growth usually indicates the company is gaining market share through innovative products or strong brand power. It is the first indicator to determine whether a company has a **competitive advantage**.
 
 **How to Understand It**
-* Imagine a popularity contest. If a company’s sales growth significantly exceeds its peers (e.g., Tesla vs. Ford as mentioned in the video), it shows customers are “voting with their feet” and switching to the company’s products.
+* Imagine a popularity contest. If a company’s sales growth significantly exceeds its peers, it shows customers are “voting with their feet” and switching to the company’s products.
 * **Combine short-term and long-term:** Usually analyze both 1-year growth (recent momentum) and 3-year growth (sustained strength).  
   If 3-year growth is fast but 1-year growth suddenly slows, it may signal a potential trend reversal.
 * **Meaning of high growth:** High growth rates (e.g., >20%) often correspond to growth stocks, and the market is willing to assign higher valuations.  
@@ -34,19 +34,6 @@ The core of the analysis is answering two questions: **“Is this the best compa
   Sales\ Growth = \frac{Current\ Revenue - Previous\ Revenue}{Previous\ Revenue} \times 100\%
   $
 
-#### 2. 10-Year Revenue CAGR
-
-**Concept and Purpose**
-* **What is CAGR?** Compound Annual Growth Rate (CAGR) measures the average annual growth rate over a given period (here, 10 years).
-* **Purpose:** Revenue is the lifeline of a company. Using 10-year data helps **smooth out** short-term fluctuations or one-time events, revealing the company’s long-term and sustainable growth trends.
-
-**How to Understand It**
-* Imagine a company’s revenue rising and falling over 10 years. CAGR is like calculating the **average speed** over this 10-year journey.
-* If the CAGR is high (e.g., above 10%), it means the company has maintained strong expansion over the past decade.
-* **Formula:**  
-  $
-  CAGR = \left(\frac{Ending\ Revenue}{Beginning\ Revenue}\right)^{1/10} - 1
-  $
 
 #### 2. Operating Profit Margin
 
@@ -151,33 +138,20 @@ This step dives into **quantitative analysis**, focusing on the three financial 
 
 ### The Three Financial Statements
 
-#### 1. Income Statement
+#### 1. [Income Statement](https://chloevolution.com/posts/how-to-analyze-an-income-statement/)
 * **Purpose:** Reports financial performance over a **specific period**, showing profit or loss.
 * **Key items:** Revenue, costs, expenses, and **Net Income**.
 
-#### 2. Balance Sheet
+#### 2. [Balance Sheet](https://chloevolution.com/posts/how-to-analyze-a-balance-sheet/)
 * **Purpose:** Reports the company’s financial position at a **specific point in time**, like a snapshot.
 * **Key items:** Follows the basic equation  
   **Assets = Liabilities + Equity**,  
   showing what the company owns, owes, and the remaining value for shareholders.
 
-#### 3. Cash Flow Statement
+#### 3. [Cash Flow Statement](https://chloevolution.com/posts/how-to-analyze-a-cash-flow-statement/)
 * **Purpose:** Reports the inflow and outflow of cash over a **specific period**.  
   It verifies the company’s ability to produce real cash, since accounting profits alone can be misleading.
 
-### Three Key Components of the Cash Flow Statement
-
-#### 1. Cash Generated from Operations
-* **Definition:** Cash flow from **core business operations**, including cash received from sales and cash paid to suppliers and employees.
-* This metric is often the most important indicator of corporate health.
-
-#### 2. Cash Invested into Business
-* **Definition:** Cash used to purchase or sell long-term assets.
-* **Content:** Mainly **Capital Expenditure (CapEx)** such as buying plants or equipment — signals investment in future growth.
-
-#### 3. Cash to/from Investors & Debtors
-* **Definition:** Cash transactions between the company and its **owners (shareholders)** or **creditors (banks/bondholders)**.
-* **Content:** Includes raising new debt, repaying debt, issuing shares, share buybacks, and dividends.
 
 
 
@@ -218,7 +192,7 @@ These metrics measure how efficiently the company generates profit from its capi
 
 ## Step 5: Valuation
 This step is placed later to avoid price bias interfering with quality assessment.
-* **Relative valuation:** Check P/E, EV/EBITDA, compare with history and peers.
+* **Relative valuation:** Check [P/E](https://chloevolution.com/posts/how-to-read-pe-ratio/), EV/EBITDA, compare with history and peers.
 * **Absolute valuation:** Occasionally use DCF to forecast future cash flows and discount them to present value.
 * **Decisions:**
   * If the price is reasonable — buy.
