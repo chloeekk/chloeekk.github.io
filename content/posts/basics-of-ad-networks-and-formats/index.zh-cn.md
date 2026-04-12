@@ -5,10 +5,7 @@ date: 2025-08-20T21:31:07+08:00
 draft: false
 
 categories:
-- 数字营销
-
-tags:
-- 数字营销
+- Digital Marketing
 ---
 
 ## 广告网络是什么？

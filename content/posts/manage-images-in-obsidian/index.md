@@ -7,8 +7,7 @@ draft: false
 categories:
 - Obsidian
 
-tags:
-- Obsidian
+
 ---
 
 

@@ -7,8 +7,6 @@ draft: false
 categories:
 - Digital Marketing
 
-tags:
-- Digital Marketing
 ---
 
 In today’s digital marketing environment, growth teams face a common challenge: **the imbalance between acquisition scale and acquisition efficiency**.

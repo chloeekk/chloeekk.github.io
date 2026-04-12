@@ -5,10 +5,7 @@ date: 2025-11-23T09:12:45+08:00
 draft: false
 
 categories:
-- 数字营销
-
-tags:
-- 数字营销
+- Digital Marketing
 ---
 
 你是否邀请过 YouTube 上的博主测评你的产品？你觉得效果如何？

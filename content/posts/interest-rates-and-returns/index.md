@@ -4,6 +4,8 @@ description: "Master nominal rates, real returns, and performance evaluation in 
 date: 2025-11-05T21:46:32+08:00
 draft: false
 
+categories:
+- Finance
 ---
 
 

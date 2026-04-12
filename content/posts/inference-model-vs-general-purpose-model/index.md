@@ -7,9 +7,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
-
 ---
 
 We actually interact with AI every day.

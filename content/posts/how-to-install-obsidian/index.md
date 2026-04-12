@@ -7,8 +7,6 @@ draft: false
 categories:
 - Obsidian
 
-tags:
-- Obsidian
 ---
 
 In the era of information overload, more and more people are realizing that organizing and consolidating knowledge is more important than acquiring it. [Obsidian](https://obsidian.md/), a note-taking app focused on **local knowledge management**, has rapidly gained popularity among productivity enthusiasts and knowledge workers in recent years. It is not just another cloud-based note-taking tool but a "second brain" system that emphasizes **local storage, Markdown formatting, and linked thinking**.

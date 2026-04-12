@@ -7,9 +7,6 @@ draft: false
 categories:
 - Digital Marketing
 
-tags:
-- Digital Marketing
-
 ---
 
 Have you ever invited YouTube creators to review your product? How effective do you think it was?

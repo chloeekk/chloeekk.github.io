@@ -7,9 +7,6 @@ draft: false
 categories:
 - Digital Marketing
 
-tags:
-- Digital Marketing
-
 ---
 
 ## What Is an Ad Network?

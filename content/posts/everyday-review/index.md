@@ -8,8 +8,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
 ---
 
 **[Everyday](https://www.everyday.new/)** is a personal AI assistant designed to help users complete tasks and multi-step workflows across different applications through simple natural language commands. It aims to boost productivity and allow users to focus on what truly matters.

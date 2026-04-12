@@ -7,9 +7,6 @@ categories:
 - SEO
 - Digital Marketing
 
-tags:
-- SEO
-- Digital Marketing
 ---
 
 ![](/assets/google-analytics-4.jpg)

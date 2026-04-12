@@ -7,8 +7,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
 ---
 
 我们其实每天都在接触 AI。

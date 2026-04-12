@@ -5,10 +5,7 @@ date: 2025-11-01T13:50:07+08:00
 draft: false
 
 categories:
-- 数字营销
-
-tags:
-- 数字营销
+- Digital Marketing
 ---
 
 作为某市场线上广告的负责人，面对公司给到的新一季度的KPI目标和广告预算，你需要思考以下问题：

@@ -6,9 +6,6 @@ draft: false
 
 categories:
 - Digital Marketing
-
-tags:
-- Digital Marketing
 ---
 
 As the person in charge of online advertising for a market, facing the new quarterly KPI targets and advertising budget from your company, you need to ask yourself the following questions:

@@ -7,8 +7,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
 ---
 
 **[Profound](https://www.tryprofound.com/)** is a **GEO (Generative Engine Optimization)** tool built for **enterprise brands and marketers**, designed to help brands **monitor and optimize their visibility** within AI-driven search and chat environments such as **ChatGPT, Google AI Overviews, and Perplexity**.
