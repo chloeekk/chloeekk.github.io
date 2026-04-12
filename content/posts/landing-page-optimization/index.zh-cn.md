@@ -6,12 +6,9 @@ draft: false
 
 categories:
 - SEM
-- 数字营销
+- Digital Marketing
+- Landing Page
 
-tags:
-- SEM
-- 数字营销
-- 谷歌广告
 ---
 
 ## 什么是落地页（Landing Page）？

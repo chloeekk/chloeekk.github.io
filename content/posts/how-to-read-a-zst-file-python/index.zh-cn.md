@@ -7,8 +7,6 @@ draft: false
 categories:
 - Python
 
-tags:
-- Python
 ---
 
 {{< zst_reader_zh-cn >}}

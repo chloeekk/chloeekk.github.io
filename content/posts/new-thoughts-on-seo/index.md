@@ -8,11 +8,6 @@ categories:
 - AI
 - Digital Marketing
 
-tags:
-- SEO
-- AI
-- Digital Marketing
-
 ---
 
 ## Research Phase of Content Creation

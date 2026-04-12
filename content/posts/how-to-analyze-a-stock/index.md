@@ -8,9 +8,6 @@ math: true
 categories:
 - Finance
 
-tags:
-- Finance
-
 ---
 
 First, stock picking rarely outperforms the market; ordinary investors are better off choosing passive investing.  

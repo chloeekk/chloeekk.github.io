@@ -9,11 +9,6 @@ categories:
 - Digital Marketing
 - AI
 
-tags:
-- SEO
-- Digital Marketing
-- AI
-
 ---
 
 

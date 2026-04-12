@@ -6,9 +6,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
-- Midjourney
 ---
 
 ---cref command stands for "Character Reference". It is mainly used to extract character features from reference images and apply them to new images to achieve coherence and consistency in character design. It allows users to specify one or more images as content references. Midjourney will use these reference images to help generate images with similar content. This feature is more suitable for anime or games.

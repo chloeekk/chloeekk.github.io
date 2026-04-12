@@ -6,9 +6,6 @@ draft: false
 
 categories:
 - Finance
-
-tags:
-- Finance
 ---
 
 ## Universal Philosophy of Investing

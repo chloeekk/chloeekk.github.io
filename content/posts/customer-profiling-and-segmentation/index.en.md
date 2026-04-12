@@ -7,8 +7,6 @@ draft: false
 categories:
 - Python
 
-tags:
-- Python
 ---
 
 The sample data and analysis code used in this article are from Kaggle. However, because the actual running results are different from [original author](https://www.kaggle.com/code/mfaaris/customer-segmentation-insights-profiling), there are slight differences in the analysis part.

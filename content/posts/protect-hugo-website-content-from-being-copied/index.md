@@ -7,8 +7,6 @@ draft: false
 categories:
 - Hugo
 
-tags:
-- Hugo
 ---
 
 First, it must be clearly understood: There is no technical method that can 100% prevent content from being copied (methods like screenshots, manual rewriting, or crawlers can bypass protections). However, the following methods can significantly increase the difficulty of copying and reduce the risk of bulk theft.

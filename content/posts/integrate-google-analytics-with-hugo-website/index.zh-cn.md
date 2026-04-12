@@ -5,11 +5,9 @@ draft: false
 
 categories:
 - Hugo
-- 数字营销
+- Digital Marketing
 
-tags:
-- Hugo
-- 数字营销
+
 ---
 
 通过[Hugo和GitHub Pages](https://chloevolution.com/zh-cn/posts/hugo-github-pages/)搭建自己的博客站点后，可以通过集成Google Analytics来监控网站的SEO表现和具体流量数据。

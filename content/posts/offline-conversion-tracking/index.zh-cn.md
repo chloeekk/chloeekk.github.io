@@ -5,10 +5,8 @@ date: 2023-07-08T15:58:15+08:00
 draft: false
 
 categories:
-- 数字营销
+- Digital Marketing
 
-tags:
-- 数字营销
 
 ---
 

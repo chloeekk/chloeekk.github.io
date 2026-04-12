@@ -7,9 +7,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
-
 ---
 
 You may have experienced this: when chatting with AI, it can help you write poems, generate code, or even explain complex concepts like a teacher — its intelligence can be astonishing. But when you ask it for your company’s latest sales data, or to book a meeting room, it suddenly seems to “forget” everything and cannot respond. Why does this happen?

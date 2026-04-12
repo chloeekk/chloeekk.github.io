@@ -9,11 +9,6 @@ categories:
 - SEO
 - Digital Marketing
 
-tags:
-- SEM
-- SEO
-- Digital Marketing
-- Google Ads
 
 ---
 

@@ -6,9 +6,6 @@ draft: false
 
 categories:
 - Finance
-
-tags:
-- Finance
 ---
 
 Financial statements are reports that companies prepare periodically (usually quarterly or annually) to **summarize and report** their business activities and financial performance.

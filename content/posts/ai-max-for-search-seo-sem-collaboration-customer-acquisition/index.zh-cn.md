@@ -7,14 +7,8 @@ draft: false
 categories:
 - SEM
 - SEO
-- 数字营销
 - AI
-
-tags:
-- SEM
-- SEO
-- 数字营销
-- AI
+- Digital Marketing
 
 ---
 

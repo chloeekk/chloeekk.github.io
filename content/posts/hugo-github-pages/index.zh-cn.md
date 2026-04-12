@@ -6,8 +6,7 @@ draft: false
 categories:
 - Hugo
 
-tags:
-- Hugo
+
 ---
 
 我使用的是[LoveIt模板](https://github.com/dillonzq/LoveIt)来搭建网站。

@@ -6,12 +6,8 @@ draft: false
 
 categories:
 - SEM
-- 数字营销
+- Digital Marketing
 
-tags:
-- SEM
-- 谷歌广告
-- 数字营销
 ---
 
 ## PMax和Demand Gen广告有什么区别？

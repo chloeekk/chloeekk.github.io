@@ -11,11 +11,6 @@ categories:
 - AI
 - Digital Marketing
 
-tags:
-- SEM
-- SEO
-- AI
-- Digital Marketing
 ---
 
 

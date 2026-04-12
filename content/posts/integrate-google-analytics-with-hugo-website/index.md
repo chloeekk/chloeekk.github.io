@@ -7,9 +7,6 @@ categories:
 - Hugo
 - Digital Marketing
 
-tags:
-- Hugo
-- Digital Marketing
 ---
 
 

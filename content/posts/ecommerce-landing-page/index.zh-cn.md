@@ -5,12 +5,10 @@ date: 2025-04-20T08:35:37+08:00
 draft: false
 
 categories:
-- 落地页
-- 数字营销
+- Landing Page
+- Digital Marketing
 
-tags:
-- 落地页
-- 数字营销
+
 ---
 
 ## 什么是电商落地页？

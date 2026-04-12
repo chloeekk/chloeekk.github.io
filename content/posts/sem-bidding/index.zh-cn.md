@@ -6,12 +6,7 @@ draft: false
 
 categories:
 - SEM
-- 数字营销
-
-tags:
-- SEM
-- 数字营销
-- 谷歌广告
+- Digital Marketing
 
 ---
 

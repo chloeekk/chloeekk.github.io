@@ -8,10 +8,7 @@ categories:
 - SEM
 - Digital Marketing
 
-tags:
-- SEM
-- Google Ads
-- Digital Marketing
+
 ---
 
 ## What’s the Difference Between Performance Max and Demand Gen Campaigns?

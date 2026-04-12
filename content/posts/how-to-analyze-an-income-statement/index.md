@@ -7,9 +7,6 @@ draft: false
 categories:
 - Finance
 
-tags:
-- Finance
-
 ---
 
 The income statement (also called the Profit & Loss statement or P&L) is like your **monthly budget report or ledger** that records your **entire year** of income and expenses.

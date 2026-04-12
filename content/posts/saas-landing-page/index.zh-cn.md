@@ -5,12 +5,9 @@ date: 2025-04-16T20:57:44+08:00
 draft: false
 
 categories:
-- 落地页
-- 数字营销
+- Landing Page
+- Digital Marketing
 
-tags:
-- 落地页
-- 数字营销
 ---
 
 ## 首先需要考虑的问题：落地页在站点中的定位

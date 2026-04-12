@@ -7,9 +7,6 @@ draft: false
 categories:
 - Finance
 
-tags:
-- Finance
-
 ---
 
 You may have heard that the key to successful investing lies in “picking the right stocks” or “catching the next big trend.” In reality, however, there is a more fundamental and more powerful determinant in the financial world: **how you allocate your capital**.

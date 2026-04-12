@@ -6,9 +6,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
-- Midjourney
 ---
 
 ## 极简3D插画风格特点

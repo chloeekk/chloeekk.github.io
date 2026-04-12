@@ -6,10 +6,6 @@ draft: false
 
 categories:
 - Finance
-
-tags:
-- Finance
-
 ---
 
 

@@ -5,12 +5,9 @@ date: 2025-05-10T07:49:06+08:00
 draft: false
 
 categories:
-- Digital Marketing
 - SEM
+- Digital Marketing
 
-tags:
-- Digital Marketing
-- SEM
 ---
 
 Digital advertising reaches target audiences through diverse formats. This article introduces 11 mainstream advertising types using the **Definition→Targeting Methods→Format Breakdown→Main Platforms** structure.

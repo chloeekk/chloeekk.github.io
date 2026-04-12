@@ -8,9 +8,6 @@ categories:
 - Landing Page
 - Digital Marketing
 
-tags:
-- Landing Page
-- Digital Marketing
 ---
 
 ## What is an E-commerce Landing Page?

@@ -5,11 +5,7 @@ date: 2025-12-01T07:18:21+08:00
 draft: false
 
 categories:
-- 金融
-
-tags:
-- 金融
-
+- Finance
 ---
 
 利润表（Income Statement，也称损益表或 P&L）就像你记录自己**一整年**收入和支出的**月度预算报告或流水账**。

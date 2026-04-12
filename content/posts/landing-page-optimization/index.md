@@ -7,11 +7,7 @@ draft: false
 categories:
 - SEM
 - Digital Marketing
-
-tags:
-- SEM
-- Digital Marketing
-- Google Ads
+- Landing Page
 
 ---
 

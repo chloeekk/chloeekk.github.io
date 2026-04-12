@@ -5,12 +5,9 @@ date: 2025-05-10T07:49:06+08:00
 draft: false
 
 categories:
-- 数字营销
 - SEM
+- Digital Marketing
 
-tags:
-- 数字营销
-- SEM
 
 ---
 

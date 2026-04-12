@@ -7,11 +7,8 @@ draft: false
 categories:
 - SEM
 - Digital Marketing
+- AI
 
-tags:
-- SEM
-- Google Ads
-- Digital Marketing
 ---
 
 In a previous article, we explored how [AI Max's keyword matching works](https://chloevolution.com/posts/ai-max-search-keyword-insights/) and found that it's independently opening up new traffic channels. But AI Max’s capabilities go far beyond that; it can also automatically generate ad copy and headlines.

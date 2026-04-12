@@ -8,9 +8,6 @@ categories:
 - Landing Page
 - Digital Marketing
 
-tags:
-- Landing Page
-- Digital Marketing
 ---
 
 A thorough understanding of landing page structure and the copy characteristics of each module is essential to guide AI in producing appropriate, conversion-driven copy.

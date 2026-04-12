@@ -6,12 +6,9 @@ draft: false
 
 categories:
 - SEM
-- 数字营销
+- Digital Marketing
 
-tags:
-- SEM
-- 数字营销
-- 谷歌广告
+
 ---
 
 ## 什么是付费搜索广告 (PPC)？

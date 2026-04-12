@@ -6,12 +6,9 @@ draft: false
 
 categories:
 - SEM
+- AI
 - Digital Marketing
 
-tags:
-- SEM
-- Google Ads
-- Digital Marketing
 
 ---
 

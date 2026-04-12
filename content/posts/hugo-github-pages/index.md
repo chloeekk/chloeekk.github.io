@@ -6,8 +6,6 @@ draft: false
 categories:
 - Hugo
 
-tags:
-- Hugo
 ---
 
 

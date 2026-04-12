@@ -6,9 +6,6 @@ draft: false
 
 categories:
 - Finance
-
-tags:
-- Finance
 ---
 
 **Price-to-Earnings Ratio (P/E Ratio)** is one of the most commonly used metrics for assessing a stock’s valuation. It directly compares a stock’s **price** to the company’s **earnings power**.

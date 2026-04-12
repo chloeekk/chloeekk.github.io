@@ -5,11 +5,7 @@ date: 2025-11-29T07:54:57+08:00
 draft: false
 
 categories:
-- 金融
-
-tags:
-- 金融
-
+- Finance
 ---
 
 财务报表（Financial Statements）是企业定期（通常是按季度或按年度）编制的报告，用于**总结和报告**公司的经营活动和财务表现。

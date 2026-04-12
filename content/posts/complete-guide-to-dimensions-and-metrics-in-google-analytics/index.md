@@ -5,7 +5,6 @@ draft: false
 
 categories:
 - SEO
-- Website
 - Digital Marketing
 
 tags:

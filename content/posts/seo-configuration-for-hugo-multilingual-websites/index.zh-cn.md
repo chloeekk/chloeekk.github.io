@@ -6,11 +6,9 @@ draft: false
 
 categories:
 - Hugo
-- 数字营销
+- Digital Marketing
 
-tags:
-- Hugo
-- 数字营销
+
 ---
 
 ## Hugo 多语言站点未被搜索引擎正确收录的可能原因

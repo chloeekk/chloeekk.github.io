@@ -6,9 +6,6 @@ draft: false
 categories:
 - AI
 
-tags:
-- AI
-- Coze
 ---
 
 ## What is a workflow?

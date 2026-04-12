@@ -4,12 +4,9 @@ date: 2025-04-26T14:00:35+08:00
 draft: false
 
 categories:
-- 落地页
-- 数字营销
+- Landing Page
+- Digital Marketing
 
-tags:
-- 落地页
-- 数字营销
 
 ---
 

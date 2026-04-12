@@ -6,10 +6,6 @@ draft: false
 
 categories:
 - Finance
-
-tags:
-- Finance
-
 ---
 
 **Software Infrastructure** is the foundational backbone that powers the modern digital economy and the age of artificial intelligence. The products and services in this industry do not directly face end consumers; instead, they serve as **underlying technology platforms**, supporting everything from enterprise operations and data analytics to advanced AI model training and all digital activities in between.

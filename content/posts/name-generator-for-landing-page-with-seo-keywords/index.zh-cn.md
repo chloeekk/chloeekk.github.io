@@ -6,11 +6,7 @@ draft: false
 
 categories:
 - SEO
-- 落地页
-tags:
-- SEO
-- 落地页
-
+- Landing Page
 
 ---
 
