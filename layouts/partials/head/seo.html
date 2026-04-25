@@ -31,7 +31,7 @@
 {{- if .IsHome -}}
     <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "WebSite",
         "url": "{{ .Permalink }}",
         {{- with .Site.LanguageCode -}}
@@ -73,11 +73,30 @@
     }
     </script>
 
+    {{- /* Standalone Person Schema for Author E-E-A-T */ -}}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "{{ .Site.Params.Author.name }}",
+        "url": "{{ .Site.BaseURL }}",
+        {{- with .Site.Params.Author.email -}}
+            "email": "{{ . }}",
+        {{- end -}}
+        "image": "{{ .Site.Params.home.profile.avatarURL | absURL }}",
+        "jobTitle": "{{ .Site.Params.Author.bio }}",
+        "description": "{{ .Site.Params.description }}",
+        {{- with .Site.Params.Author.link -}}
+            "sameAs": ["{{ . }}"]
+        {{- end -}}
+    }
+    </script>
+
 {{- /* Page SEO */ -}}
 {{- else if .IsPage -}}
     <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "BlogPosting",
         "headline": {{ .Title | safeHTML }},
         "inLanguage": "{{ .Site.LanguageCode }}",

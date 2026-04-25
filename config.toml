@@ -51,9 +51,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 # 作者配置
 [author]
-  name = "Chloe"
+  name = "Chloe D"
   email = ""
-  link = ""
+  link = "https://www.linkedin.com/in/qin-deng-8b881a18a/"
+  bio = "Digital Marketing Strategist | PPC & Martech Expert"
 
 # Menu config
 # 菜单配置
@@ -80,14 +81,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # title will be shown when you hover on this menu link
     # 当您将鼠标悬停在此菜单链接上时, 将显示标题
     title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
+#  [[menu.main]]
+#    weight = 3
+#    identifier = "tags"
+#    pre = ""
+#    post = ""
+#    name = "Tags"
+#    url = "/tags/"
+#    title = ""
   [[menu.main]]
     weight = 4
     identifier = "categories"
@@ -117,7 +118,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   title = "Chloevolution"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Chloe's Blog"
+  description = "Chloe D's technical blog covering Marketing, AI, SaaS, Fintech. Sharing insights with 7 years of experience in digital marketing."
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
@@ -297,7 +298,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 主页的社交信息设置
   [params.social]
     GitHub = ""
-    Linkedin = ""
+    Linkedin = "qin-deng-8b881a18a"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -617,7 +618,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Chloevolution"
         logoUrl = "/images/avatar.jpg"
 
   # TypeIt config
@@ -825,14 +826,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "Posts"
         url = "/posts/"
         title = ""
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 3
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "Tags"
+#        url = "/tags/"
+#        title = ""
       [[languages.en.menu.main]]
         weight = 4
         identifier = "categories"
@@ -857,14 +858,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "About"
         url = "/about/"
         title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/chloeekk"
-        title = "GitHub"
+#      [[languages.en.menu.main]]
+#        weight = 6
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/chloeekk"
+#        title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
         enable = true
@@ -921,14 +922,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "所有文章"
         url = "/posts/"
         title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
+#      [[languages.zh-cn.menu.main]]
+#        weight = 2
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "标签"
+#        url = "/tags/"
+#        title = ""
       [[languages.zh-cn.menu.main]]
         weight = 3
         identifier = "categories"
@@ -952,14 +953,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "关于"
         url = "/about/"
         title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/chloeekk"
-        title = "GitHub"
+#      [[languages.zh-cn.menu.main]]
+#        weight = 5
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/chloeekk"
+#        title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = true
