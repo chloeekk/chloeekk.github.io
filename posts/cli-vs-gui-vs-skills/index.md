@@ -9,7 +9,7 @@ Over the past decades, software development has primarily focused on lowering th
 
 Efficient task execution no longer depends on a single interface, but is achieved through the decoupling of the following layers:
 
-* **Skills:** Functional modules of AI that translate natural language requests into machine-executable logical steps.
+* **Skills:** Functional modules of AI that translate natural language requests into machine-executable logical steps. These Skills are essentially packaged [agents](https://chloevolution.com/posts/agent-vs-knowledge-base/) - autonomous decision-making entities that combine reasoning capabilities with tool access.
 * **CLI (Command Line):** A high-precision execution channel responsible for handling large-scale, high-load underlying tasks in the background.
 * **GUI (Graphical Interface):** The familiar interface of icons and windows, now primarily responsible for monitoring and validation, providing visual feedback of final results.
 
@@ -86,7 +86,7 @@ The relationship between **Skills and MCP** can be understood as that between fu
 Accurately distinguishing **Skills** from related concepts is essential for evaluating technology investments:
 
 * **Skills vs Tools:** Tools typically refer to single functions (e.g., “check the weather”), whereas **Skills** are higher-level, pre-defined functional modules with greater integration. For example, an “SEO Analysis Skill” may combine multiple underlying tools, such as page crawling, keyword density analysis, and recommendation generation.
-* **Skills vs Agents:** **Agents** are decision-making entities that interpret task intent and determine execution sequences. **Skills**, on the other hand, are the specific capability packages that Agents can invoke.
+* **Skills vs Agents:** **Agents** are decision-making entities that interpret task intent and determine execution sequences. **Skills**, on the other hand, are the specific capability packages that Agents can invoke. To understand how agents work with knowledge bases to execute complex tasks, see [How Agents and Knowledge Bases Enable AI to Truly Work for You](https://chloevolution.com/posts/agent-vs-knowledge-base/).
 * **Modular distribution:** By 2026, the industry has established mature **Skills Hubs** and **Marketplaces**. Enterprises can deploy specific modules (e.g., `Web Scraping Skill` or `Data Processing Skill`) to rapidly expand AI capabilities without building from scratch.
 
 The protocol-based Skills architecture is reshaping how productivity is distributed. **An enterprise’s core assets are no longer limited to proprietary data, but also include optimized private skill libraries.**
@@ -94,6 +94,9 @@ The protocol-based Skills architecture is reshaping how productivity is distribu
 * **Significantly reduced integration costs:** Thanks to MCP standardization, companies no longer need to write custom adapters for each new tool. Marketing teams can rapidly experiment with new data analytics tools by simply mounting them as new **Skills** within existing systems.
 * **Scalable replication of expertise:** Through **Skills Marketplaces**, enterprises can access specialized capabilities developed by top SEO agencies or data science teams. This modular approach allows smaller companies to leverage advanced automation capabilities that were once exclusive to large organizations.
 * **Continuously expanding execution boundaries:** Decision-makers should recognize that AI capability is no longer constrained by training data, but by the range of **Skills** it can access. By continuously enriching the MCP-based skill ecosystem, enterprises can evolve from simple content generation to complex business process automation.
+
+The relationship between Skills and agents is symbiotic: [agents provide the decision-making intelligence](https://chloevolution.com/posts/agent-vs-knowledge-base/), while Skills provide the standardized execution protocols. Together with [knowledge bases that supply contextual information](https://chloevolution.com/posts/agent-vs-knowledge-base/), they form a complete AI automation architecture. For practical implementation guidance, see [How to Use Skills in Claude Code](https://chloevolution.com/posts/how-to-use-skills-in-claude-code/).
+
 
 ## The Trinity Workflow Collaboration Model
 
