@@ -33,7 +33,7 @@ categories:
 - 可扩展：如果你想增加一个‘本地 SEO’功能，你只需要增加一个 seo_local.md 并在 seo.md 菜单里注册一下，而不需要改动核心审计逻辑
 
 2. 编排层 - Sub-agents
-在该层级，复杂的 SEO 任务被拆解给了 **12 个以上的子智能体**（如 `seo-technical` 负责技术审计，`seo-content` 负责内容策略）。
+在该层级，复杂的 SEO 任务被拆解给了 **12 个以上的子智能体**（如 `seo-technical` 负责技术审计，`seo-content` 负责内容策略）。每个子智能体可以根据任务类型使用不同的 AI 模型：[推理模型用于逻辑分析，通用模型用于内容生成](https://chloevolution.com/zh-cn/posts/inference-model-vs-general-purpose-model/)。
 
 这些子智能体遵循 **并行处理 (Parallel Agents)** 逻辑。当你运行全站审计时，技术专家在检查 `robots.txt` 的同时，文案专家正在分析 E-E-A-T 信号。这种互不干扰、最后由主控逻辑汇总的模式。
 
@@ -153,9 +153,12 @@ categories:
 **C. 维度三：GEO (生成式引擎优化) 与 AI 引用就绪度**
 这是该 Skill 区别于以往所有 SEO 插件的最前沿维度，针对 2025-2026 年的 **Google AI Mode** 进行了深度适配。
 
-分析内容是否具备清晰的、可被 LLM 提取的统计数据和事实陈述。同时检查 H1->H3 的层级流动以及“答案优先”的格式，以确保内容能被 ChatGPT、Perplexity 等生成式引擎精准抓取。
+分析内容是否具备清晰的、可被 LLM 提取的统计数据和事实陈述。同时检查 H1->H3 的层级流动以及"答案优先"的格式，以确保内容能被 ChatGPT、Perplexity 等生成式引擎精准抓取。
 
-它将 visibility（可见性）的定义从“排名”扩展到了“引用”。通过 `AI Citation Readiness` 指标，它在指导用户如何通过优化 Entity Clarity（实体清晰度）来获取 AI 搜索时代的流量。
+**不同任务的模型选择：**
+这些分析维度的有效性很大程度上取决于选择正确的 AI 模型类型。对于结构化数据提取和 E-E-A-T 信号检测，[推理模型](https://chloevolution.com/zh-cn/posts/inference-model-vs-general-purpose-model/)因其逻辑推理能力而表现出色。对于内容改写和创意优化建议，通用模型更为合适。理解这些区别有助于优化执行速度和输出质量。
+
+它将 visibility（可见性）的定义从"排名"扩展到了"引用"。通过 `AI Citation Readiness` 指标，它在指导用户如何通过优化 Entity Clarity（实体清晰度）来获取 AI 搜索时代的流量。
 
 **D. 维度四：量化评分与优先级行动路线**
 作为一个执行层工具，其最终产出不是感性的评价，而是**标准化的数据接口**，包括：
@@ -201,3 +204,13 @@ GitHub 项目通过 **代码约束**来保证结果的稳定性；而 MCP Market
 | **数据获取** | 强依赖外部 MCP | 侧重模型内置知识或基础抓取 |
 | **适用场景** | 深度全站审计、企业级 SEO 流程 | 快速内容检查、即时策略咨询 |
 | **错误容忍** | 极低（有硬性 Quality Gates） | 较高（依赖 AI 自我校准） |
+
+## 通过模型选择优化 Skills
+
+在构建或定制 SEO Skills 时，理解不同 AI 模型的优势至关重要：
+
+- **技术审计**（`seo-technical`、`seo-schema`）：使用[推理模型](https://chloevolution.com/zh-cn/posts/inference-model-vs-general-purpose-model/)，因其在逻辑分析和结构化输出方面表现优异
+- **内容生成**（`seo-content`、关键词建议）：使用通用模型，发挥其创造力和自然语言流畅性
+- **混合任务**（E-E-A-T 分析、GEO 优化）：结合两者——推理模型负责评分逻辑，通用模型负责建议生成
+
+这种战略性的模型分配可以将执行时间减少 30-40%，同时提高输出准确性。

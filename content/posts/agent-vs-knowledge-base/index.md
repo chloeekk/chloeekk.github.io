@@ -16,7 +16,7 @@ The reason is that most AI models do not directly access your proprietary inform
 
 ## Agents: AI’s “Brain and Hands”
 
-If an AI model is a “brain” with vast knowledge, then the agent is the commander that makes this brain actually “move.” It not only understands instructions but can also break a complex task into multiple actionable steps and determine how each step should be executed.
+If an AI model is a "brain" with vast knowledge, then the agent is the commander that makes this brain actually "move." In modern AI development environments like Claude Code, agents are often implemented as [Skills](https://chloevolution.com/posts/how-to-use-skills-in-claude-code/) - standardized, reusable instruction packages that define how AI should execute specific tasks.
 
 The agent’s core ability lies in **decision-making and action**. Its capability to truly “move” comes from invoking various tools, which can be categorized as follows:
 
@@ -42,8 +42,7 @@ The agent’s core ability lies in **decision-making and action**. Its capabilit
    * **Scripts and API Calls**: Python scripts, Zapier, Make, for automating tasks and cross-platform operations.
    * **Hardware Interfaces**: smart home devices, printers, robots, enabling AI to interact with the physical world.
 
-With these capabilities, agents transform AI from a “talking robot” into an assistant that can truly interact with the external world and complete tasks. They are the key bridge for AI to move from “can chat” to “can act.”
-
+With these capabilities, agents transform AI from a "talking robot" into an assistant that can truly interact with the external world and complete tasks. To learn how to build and deploy these agent capabilities in practice, see [How to Use Skills in Claude Code](https://chloevolution.com/posts/how-to-use-skills-in-claude-code/).
 
 
 ## Knowledge Bases: AI’s “Memory and Experience”
@@ -110,4 +109,8 @@ Agents and knowledge bases are powerful on their own, but when they work togethe
 3. **Step 3: Integration and Generation (Agent)**
    After gathering the necessary information, the agent integrates and analyzes the data, organizing scattered content into a logically structured report. The final output accurately reflects company status and meets your expression requirements, achieving the goal of a “task-completing” AI.
 
-Through this collaborative mechanism, agents and knowledge bases act as a perfect combination of “brain” and “memory”: the agent makes decisions and executes tasks, while the knowledge base provides information and experience. Together, they enable AI not only to answer questions but also to proactively complete complex tasks, becoming a true intelligent assistant.
+Through this collaborative mechanism, agents and knowledge bases act as a perfect combination of “brain” and “memory”: the agent makes decisions and executes tasks, while the knowledge base provides information and experience. 
+
+## From Concept to Implementation
+
+Understanding the theoretical collaboration between agents and knowledge bases is just the beginning. In production environments, these concepts are implemented through standardized frameworks. For example, [Claude Code Skills](https://chloevolution.com/posts/claude-code-seo-skills/) demonstrate how to package agent logic into executable workflows, while [CLI-based interaction models](https://chloevolution.com/posts/cli-vs-gui-vs-skills/) show how agents efficiently execute tasks through command-line interfaces rather than traditional graphical interfaces.

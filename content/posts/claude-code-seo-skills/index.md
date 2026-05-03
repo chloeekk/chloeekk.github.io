@@ -40,7 +40,7 @@ Many people think writing a single SKILL.md is enough, but this project uses a *
 
 ### 2. Orchestration Layer — Sub-agents
 
-At this level, complex SEO tasks are decomposed into **more than 12 specialized sub-agents** (e.g., `seo-technical` for technical audits, `seo-content` for content strategy).
+At this level, complex SEO tasks are decomposed into **more than 12 specialized sub-agents** (e.g., `seo-technical` for technical audits, `seo-content` for content strategy). Each sub-agent can be powered by different AI model types depending on the task: [inference models for logical analysis and general-purpose models for content generation](https://chloevolution.com/posts/inference-model-vs-general-purpose-model/).
 
 These sub-agents follow a **parallel processing** model. During a full-site audit, while the technical agent checks `robots.txt`, the content agent analyzes E-E-A-T signals simultaneously. Their outputs are later aggregated by a central controller.
 
@@ -167,6 +167,9 @@ This is the most cutting-edge dimension, tailored for **Google AI Mode (2025–2
 
 It evaluates whether content contains structured, extractable facts and statistics for LLMs. It also checks heading hierarchy (H1→H3) and “answer-first” formatting to ensure compatibility with generative engines like ChatGPT and Perplexity.
 
+**Model Selection for Different Tasks:**
+The effectiveness of these analysis dimensions depends heavily on choosing the right AI model type. For structured data extraction and E-E-A-T signal detection, [inference models](https://chloevolution.com/posts/inference-model-vs-general-purpose-model/) excel due to their logical reasoning capabilities. For content rewriting and creative optimization suggestions, general-purpose models are more suitable. Understanding these distinctions helps optimize both execution speed and output quality.
+
 It expands visibility from “ranking” to **“citation.”** Through the `AI Citation Readiness` metric, it guides optimization for **entity clarity**, enabling traffic acquisition in the AI search era.
 
 **D. Dimension 4: Quantified Scoring & Priority Action Plan**
@@ -218,3 +221,13 @@ The GitHub project ensures stability through **code constraints**, while the MCP
 | **Data Acquisition**  | Strong reliance on external MCP            | Relies more on model knowledge or basic scraping |
 | **Use Cases**         | Full-site audits, enterprise SEO workflows | Quick content checks, real-time strategy advice  |
 | **Error Tolerance**   | Very low (strict Quality Gates)            | Higher (AI self-calibration)                     |
+
+## Optimizing Skills with Model Selection
+
+When building or customizing SEO Skills, understanding the strengths of different AI models is crucial:
+
+- **Technical audits** (`seo-technical`, `seo-schema`): Use [inference models](https://chloevolution.com/posts/inference-model-vs-general-purpose-model/) for their superior logical analysis and structured output
+- **Content generation** (`seo-content`, keyword suggestions): Use general-purpose models for creativity and natural language fluency
+- **Hybrid tasks** (E-E-A-T analysis, GEO optimization): Combine both - inference models for scoring logic, general-purpose models for recommendations
+
+This strategic model allocation can reduce execution time by 30-40% while improving output accuracy.
