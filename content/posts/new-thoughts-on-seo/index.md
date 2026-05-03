@@ -19,10 +19,12 @@ Before you begin writing, you must complete your research. This phase helps you 
 Search intent determines whether you can rank.
 
 * **Evaluate ranking potential:** Look at the SERP. If the top results are all product pages, the keyword has strong transactional intent—no matter how good your informational article is, it will struggle to rank.
-* **Identify true competitors:** Compare only with websites that share the same content purpose. If you’re writing a professional guide but the top results include short Quora answers, ignore those and analyze other high-quality guides.
-* **Build trust:** The fastest way to establish authority is to meet the user’s exact needs. Give users exactly what they came for, not what you think is good for them.
+* **Identify true competitors:** Compare only with websites that share the same content purpose. If you're writing a professional guide but the top results include short Quora answers, ignore those and analyze other high-quality guides.
+* **Build trust:** The fastest way to establish authority is to meet the user's exact needs. Give users exactly what they came for, not what you think is good for them.
 
 > e.g. Before writing, search your target keyword. If the top 10 results are all videos, consider producing a video instead of an article.
+
+For a comprehensive understanding of how to research and target keywords effectively, read **[Keyword Research and Targeting in the AI Era](https://chloevolution.com/posts/keyword-research-and-targeting/)**.
 
 ### 2. Keyword Evaluation and Research
 
@@ -86,10 +88,12 @@ Monitor your keyword positions in the SERP.
 Automatically detect technical issues affecting crawling, indexing, and user experience.
 
 * **Purpose:** Scan and identify 404 errors, duplicate content, missing Meta tags, oversized images, and Robots.txt issues.
-* **Value:** Large sites can’t manually check every technical component. Audit tools highlight issues that block search engine crawlers.
+* **Value:** Large sites can't manually check every technical component. Audit tools highlight issues that block search engine crawlers.
 * **Main tools:** Screaming Frog, Sitebulb, Ahrefs Site Audit.
 
 > Fix issues by priority: critical indexing blockers first (Errors), then UX-related warnings.
+
+For a practical example of conducting a comprehensive site audit, see **[SEO Audit My Site Using SEMrush](https://chloevolution.com/posts/seo-audit-my-site/)** where I share my complete audit process and solutions to specific technical issues.
 
 ### 4. Backlink Analysis Tools
 
@@ -168,6 +172,8 @@ Ensure search engines can access your site smoothly and discover all important p
 * **Robots.txt:** Define which directories (such as admin pages) should be blocked from crawlers.
 * **Practical tip:** Always use a plain-text editor when editing Robots.txt to avoid formatting issues that may break instructions.
 
+If you're using Hugo for your website, check out **[SEO Configuration for Hugo Multilingual Websites](https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/)** for specific implementation guidance on sitemaps, robots.txt, and multilingual SEO setup.
+
 ### 2. Site Architecture & URL Structure
 
 A solid structure helps both crawlers and users navigate your site more efficiently.
@@ -212,10 +218,12 @@ Help search engines better understand the meaning and context of your content.
 Great content balances human readability with algorithmic clarity.
 
 * **Four core keyword placements:** Include your primary keyword in the **meta title (preferably near the front), H1 tag, URL**, and **body/H2 tags** (ideal for long-tail keywords).
-* **Semantic relevance (Entities):** Naturally incorporate related concepts. For example, an article about “fitness plans” should also discuss “diet guidance” and “training frequency.”
+* **Semantic relevance (Entities):** Naturally incorporate related concepts. For example, an article about "fitness plans" should also discuss "diet guidance" and "training frequency."
 * **Clear hierarchy:** Use H2–H4 headings with predictive titles that help readers locate answers instantly.
 * **Readability optimization:** Keep paragraphs and sentences short, and prioritize mobile reading experience.
 * **Multimedia integration:** Images and videos should clarify complex concepts—not merely decorate the page.
+
+For more on creating structured, SEO-friendly content, explore **[Introduction to Content Engineering: Making Content Smarter and More Usable](https://chloevolution.com/posts/content-engineering/)** which covers systematic approaches to content creation and optimization.
 
 ### Humanizing AI-Generated Content
 
@@ -223,7 +231,9 @@ Google does not reject AI content—only unhelpful content. You must refine AI o
 
 * **Add E-E-A-T elements:** Include personal experience, unique insights, or proprietary data to elevate authority.
 * **Fact-check:** Manually verify numbers, statistics, and external links supplied by AI.
-* **Style refinement:** Remove clichés (like “in today’s digital landscape”), vary sentence rhythm, and emulate genuine human cadence.
+* **Style refinement:** Remove clichés (like "in today's digital landscape"), vary sentence rhythm, and emulate genuine human cadence.
+
+For practical applications of AI in SEO workflows, see **[From 'Chatbox' to 'Workflow': Deconstructing Claude Code SEO Skills](https://chloevolution.com/posts/claude-code-seo-skills/)** which demonstrates how AI agents can automate technical SEO tasks while maintaining quality.
 
 ### Optimizing Existing Content
 

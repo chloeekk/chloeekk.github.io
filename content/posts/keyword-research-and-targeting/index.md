@@ -15,7 +15,7 @@ categories:
 
 ## What is Keyword Research and Targeting?
 
-Through keyword research, we can understand what potential users truly care about, their preferences, and their ways of expression, thereby creating content that better aligns with their search habits. Good keyword research makes content more relevant to actual searches, increasing the chances of being recommended by search engines, and **is crucial for both improving organic rankings (SEO) and optimizing [paid advertising (SEM)](https://www.google.com/search?q=https://chloevolution.com/zh-cn/posts/sem-basics/)**.
+Through keyword research, we can understand what potential users truly care about, their preferences, and their ways of expression, thereby creating content that better aligns with their search habits. Good keyword research makes content more relevant to actual searches, increasing the chances of being recommended by search engines, and **is crucial for both improving organic rankings (SEO) and optimizing [paid advertising (SEM)](https://chloevolution.com/posts/paid-search/)**.
 
 ![keyword-research-targeting](keyword-research-targeting.png)
 
@@ -71,7 +71,7 @@ Keywords play different roles in SEO and SEM strategies. Based on their length, 
 
 | **Platform Type** | **Example Platform Names** | **Purpose of Keyword Research (Summary)** |
 | ------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **Search Engines** | Google, Bing, Baidu, 360 Search                   | - SEO optimization (organic ranking) \<br\>- Ad keyword bidding & targeting (SEM) \<br\>- Understand user search behavior and trends |
+| **Search Engines** | Google, Bing, Baidu, 360 Search                   | - SEO optimization (organic ranking) \<br\>- [Ad keyword bidding & targeting (SEM)](https://chloevolution.com/posts/sem-basics/) \<br\>- Understand user search behavior and trends |
 | **E-commerce Platforms** | Amazon, eBay, Etsy, Tmall, Taobao, JD.com         | - Optimize product titles & keywords \<br\>- Increase internal search visibility \<br\>- Identify user purchase intent & hot product categories |
 | **Video Platforms** | YouTube, Douyin (TikTok), Bilibili                | - Optimize video titles, tags, & descriptions \<br\>- Improve internal search ranking & recommendation weight \<br\>- Discover trending topics & expressions |
 | **Social Content Platforms** | Pinterest, Reddit, Quora, Twitter, Xiaohongshu, Zhihu, Weibo | - Capture authentic user language \<br\>- Discover question-based, pain-point keywords \<br\>- Identify hot topics & content creation opportunities |
@@ -148,6 +148,8 @@ Below, let's compare the key differences between traditional keyword research me
 | **Keyword Coverage Efficiency** | Long-tail keywords rely on manual supplementation or tool enumeration       | AI can **automatically generate rich semantic variations** and user language versions, improving efficiency several times over |
 | **Keyword Content Match** | Emphasizes technical parameter matching (e.g., word frequency, density)      | More emphasis on semantic fluency and user intent response, stressing **naturalness, conversationality, pragmatic consistency** |
 
+In the AI era, tools like **[Google AI Max](https://chloevolution.com/posts/ai-max-search-keyword-insights/)** can automatically understand user search intent and match relevant queries even when they don't exactly match your keyword list, significantly expanding keyword coverage efficiency.
+
 -----
 
 ## How to Target Keywords?
@@ -165,6 +167,8 @@ Finding keywords is just the first step. What truly determines content effective
 | **Targeting in Ad Campaigns** | Selected keywords + bidding, matching ad copy with landing pages           | AI can generate the most relevant keyword sets and ad copy based on ad goals and user intent (e.g., Performance Max + AI animated content) |
 | **Adapting Content Forms** | Primarily for text-based pages                                             | Adapts to **rich media, short videos, voice search, AI assistant search**, supports cross-media expression consistency |
 | **Monitoring and Optimization** | Manually observe keyword ranking changes and click data                    | AI can track keyword → content → behavior paths, automatically identify "semantic off-track points" and suggest optimization |
+
+For practical applications in SEO, check out **[New Thoughts on SEO](https://chloevolution.com/posts/new-thoughts-on-seo/)** which covers modern keyword targeting strategies including internal linking and content optimization. If you're working with paid search campaigns, learn how to **[write high-converting SEM copy](https://chloevolution.com/posts/create-sem-copy/)** that effectively incorporates your researched keywords.
 
 -----
 
