@@ -32,7 +32,18 @@ If we were to describe a general-purpose model in one word, it would be a “mul
 
 In academia, you may also hear **Foundation Model**, which emphasizes that these models serve as a foundation for building complex applications. In practice, people often equate it with **Large Language Model (LLM)** because many general-purpose models are built around large language models.
 
-### Why “General-Purpose”?
+### Why Are Foundation Models Important?
+
+The concept of **Foundation Models** was introduced by Stanford University in 2021. It refers to large-scale models trained on massive datasets that can be adapted to various downstream tasks through fine-tuning or prompt engineering. Like the foundation of a building, foundation models provide core capabilities upon which developers can build specialized applications:
+
+* **Healthcare:** fine-tuned general models become medical Q&A assistants
+* **Legal:** trained into tools for contract review and legal document generation
+* **Education:** used to develop personalized learning tutoring systems
+
+This “train once, reuse many times” characteristic greatly lowers the development barrier for AI applications.
+
+
+### Why "General-Purpose"?
 
 * They cover a wide range of capabilities, not limited to a single domain.
 * They understand natural language and handle complex context.
@@ -60,6 +71,47 @@ This shows that the value of a general-purpose model is not in “knowing a spec
 * **Needs clear instructions**: Vague prompts produce vague results; learning to “prompt effectively” is essential.
 * **Resource-dependent**: Large models may require strong hardware or cloud support.
 
+#### What is “Model Hallucination”?
+
+One of the most common issues with general-purpose models is **“hallucination”**—the model confidently generates information that sounds plausible but is actually incorrect. This is not a bug, but a byproduct of how the model works:
+
+* **Cause:** The model predicts the next token based on probability, rather than truly “understanding” facts. When training data is insufficient or a question falls outside its knowledge scope, it may “guess” the answer based on language patterns.
+* **Manifestations:** Fabricating non-existent paper citations, inventing historical events, producing incorrect mathematical calculations, or generating fake API documentation.
+* **How to reduce hallucinations:**
+
+  * Ask the model to cite sources or acknowledge uncertainty
+  * Use Retrieval-Augmented Generation (RAG), allowing the model to answer based on real documents
+  * Manually verify critical information
+  * Use specially optimized models (e.g., versions trained with RLHF)
+
+#### What is RLHF?
+
+**RLHF (Reinforcement Learning from Human Feedback)** is a key technique for training high-quality general-purpose models. In simple terms:
+
+1. **Initial training:** The model first learns language patterns from large-scale text data
+2. **Human evaluation:** Human reviewers rank multiple model responses (which is better, safer, or more helpful)
+3. **Reinforcement learning:** The model learns to generate responses that better align with human preferences
+
+RLHF makes models:
+
+* **Safer** (reducing harmful content)
+* **More useful** (better understanding user intent)
+* **More honest** (fewer hallucinations and greater willingness to admit uncertainty)
+
+Mainstream models such as ChatGPT and Claude all use RLHF.
+
+
+### Can general-purpose models perform reasoning?
+
+Yes, but with limitations. General-purpose models can handle a certain level of logical reasoning, but:
+
+* **Simple reasoning:** Everyday logic, common-sense reasoning, basic math—usually works well
+* **Complex reasoning:** Multi-step proofs, advanced mathematics, or problems requiring strict logical chains—more prone to errors or skipping steps
+* **Improvement method:** Using Chain-of-Thought prompting (explicitly asking the model to “think step by step”) can significantly improve reasoning performance
+
+This is also why specialized reasoning models exist—they are specifically optimized in architecture and training for reasoning tasks.
+
+
 ### Examples of Common General-Purpose Models
 
 * **ChatGPT (OpenAI)**: Multi-purpose for conversation, writing, summarization, and explanations.
@@ -82,6 +134,38 @@ Inference models are typically optimized for tasks that are logic-intensive or r
 * Can handle complex or multi-step tasks
 * More stable and reliable in specific domains compared to general-purpose models
 
+#### What is Chain-of-Thought (CoT)?
+
+**Chain-of-Thought (CoT)** is a core capability of reasoning models and one of the key differences between them and general-purpose models.
+
+In simple terms, CoT means getting the model to “show its thinking process”:
+
+* **Traditional approach:** directly output the answer
+
+  * Question: “25 × 17 = ?”
+  * Answer: “425”
+
+* **CoT approach:** show step-by-step reasoning
+
+  * Question: “25 × 17 = ?”
+  * Answer: “Let me calculate step by step:
+
+    1. 25 × 10 = 250
+    2. 25 × 7 = 175
+    3. 250 + 175 = 425
+       Therefore, the answer is 425”
+
+
+**Why is CoT important?**
+
+1. **Improves accuracy:** step-by-step reasoning reduces skipped steps and logical errors
+2. **Verifiability:** users can inspect each step and identify where mistakes occur
+3. **Handles complex problems:** breaks large problems into smaller steps and solves them sequentially
+4. **Reduces hallucinations:** forces the model to show reasoning instead of simply “guessing” answers
+
+Reasoning models (such as DeepSeek R1 and OpenAI o1) have CoT capability built into their training, allowing them to automatically generate reasoning steps. In contrast, general-purpose models need explicit prompting such as “think step by step” to activate similar behavior.
+
+
 Examples:
 
 * Deriving mathematical formulas or logical proofs
@@ -90,6 +174,51 @@ Examples:
 * Problem-solving in scientific research
 
 Compared to general-purpose models, inference models may not handle all task types, but within their domain, they are more accurate and efficient.
+
+#### Why Are Reasoning Models Slower but More Accurate?
+
+This is an important trade-off in reasoning models:
+
+**Why are they slower?**
+
+* **Deep reasoning:** The model must generate a full chain of reasoning instead of directly outputting an answer
+* **Multi-step verification:** Each step must be checked for logical consistency
+* **Compute-intensive:** Complex reasoning requires significantly more computational resources
+
+**Why are they more accurate?**
+
+* **Fewer skipped steps:** Step-by-step reasoning reduces logical gaps
+* **Self-correction:** Errors can be identified and corrected during the reasoning process
+* **Structured output:** A clear reasoning chain makes results more reliable
+
+**Practical impact:**
+
+* General-purpose models: may take 2–5 seconds to answer a question
+* Reasoning models: may take 10–30 seconds for the same question, but with significantly higher accuracy
+
+It is similar to the difference between “answering quickly” and “carefully checking”—reasoning models choose the latter.
+
+
+#### Why Are Reasoning Models Good at Math and Logic?
+
+Reasoning models significantly outperform general-purpose models in math and logic tasks due to several factors:
+
+1. **Training optimization:** specifically trained and reinforced for reasoning tasks
+2. **Symbolic understanding:** better at interpreting mathematical symbols, formulas, and logical relationships
+3. **Step decomposition:** automatically breaks complex problems into manageable sub-steps
+4. **Consistency checking:** built-in mechanisms to detect logical contradictions
+
+**Typical performance areas:**
+
+* **Mathematics:** algebraic derivations, calculus, geometry proofs, statistical analysis
+* **Logic:** propositional reasoning, causal analysis, decision tree construction
+* **Programming:** algorithm design, debugging, complexity analysis
+
+**Comparison example:**
+
+* General-purpose models: may make errors in simple arithmetic or skip steps in multi-step proofs
+* Reasoning models: can handle university-level math problems and produce complete, structured proofs
+
 
 ### Advantages
 
@@ -176,27 +305,81 @@ When using AI, many people wonder: Should I use a general-purpose model or an in
 * Trip planning: General-purpose model generates itinerary suggestions, inference model optimizes timing and budget
 * Coding: General-purpose model writes base code, inference model optimizes algorithms or debugs
 
-### Common Misconceptions
+## Frequently Asked Questions (FAQ)
 
-1. **Misconception 1: Inference models are all-purpose**
+### What is the difference between Large Language Models (LLMs) and reasoning models?
 
-   * Reality: Strong in logic, but not good at creative generation or diverse expression
-   * Example: An inference model generating ad copy may produce grammatically correct and logical content, but creativity may be limited
-   * Suggestion: Use general-purpose models for creative tasks; inference models for validation and logic optimization
+**LLMs (Large Language Models)** usually refer to general-purpose models such as ChatGPT and Claude, which can handle a wide range of tasks. **Reasoning models** are a specialized subset of LLMs optimized specifically for logical reasoning tasks, such as DeepSeek R1 and OpenAI o1. In simple terms: LLMs are the broad category, while reasoning models are a subcategory focused on reasoning.
 
-2. **Misconception 2: General-purpose models always give accurate answers**
+### What is a general-purpose AI model?
 
-   * Reality: Good at diverse output, but complex logic or computation may be inaccurate
-   * Example: Asking a general-purpose model to prove a formula may skip steps or miss key parts
-   * Suggestion: Use step-by-step prompts or let inference models verify results for logic-heavy tasks
+A general-purpose AI model can handle many different types of tasks: writing, translation, summarization, conversation, programming, and more. They are not designed for a single task but are instead “generalists” that adapt to various needs. ChatGPT, Claude, and Gemini all belong to this category.
 
-3. **Misconception 3: Choose models based on popularity or name**
 
-   * Reality: Similar model names may have different focuses
-   * Example: Two “GPT-4” versions may differ: one optimized for general generation, another for reasoning
-   * Suggestion: Understand the use case first, then select the model, don’t blindly follow popularity
+### What is a reasoning model?
 
-4. **Misconception 4: Longer prompts are always better**
+A reasoning model is specifically optimized for tasks such as logical reasoning, mathematical computation, and complex problem decomposition. These models have built-in Chain-of-Thought capabilities and can automatically generate step-by-step reasoning processes. They are more accurate than general-purpose models but slower and less suited for creative tasks.
 
-   * Reality: General-purpose models need structured prompts, but overly complex ones reduce efficiency; inference models prefer concise, clear instructions
-   * Suggestion: Step-by-step guidance for general-purpose models; concise, goal-focused instructions for inference models
+
+### When should you use a reasoning model vs a general-purpose model?
+
+* **Use reasoning models:** mathematical calculations, logical proofs, code debugging, complex decision analysis—tasks requiring high precision and structured reasoning
+* **Use general-purpose models:** writing, brainstorming, summarization, everyday conversation—tasks requiring creativity, flexibility, and diverse expression
+* **Hybrid approach:** use general-purpose models to generate ideas, and reasoning models to verify logic
+
+
+### Which AI model is best for programming?
+
+It depends on the task type:
+
+* **Code generation and rapid prototyping:** general-purpose models (e.g., Claude, ChatGPT) are faster and better for writing basic code
+* **Algorithm optimization and debugging:** reasoning models (e.g., DeepSeek R1, OpenAI o1) are more accurate and better at detecting logical errors
+* **Best practice:** use general-purpose models to quickly generate a code framework, and reasoning models to review and optimize complex logic
+
+### How do you choose the right AI model?
+
+A three-step approach:
+
+1. **Identify the task type:** creative tasks → general-purpose models; logic-heavy tasks → reasoning models
+2. **Evaluate priority:** speed priority → general-purpose models; accuracy priority → reasoning models
+3. **Consider cost:** reasoning models are usually slower and more expensive; for simple tasks, general-purpose models are more cost-effective
+
+
+### Are reasoning models better for SEO and content engineering?
+
+Not necessarily. It depends on the task:
+
+* **Content creation:** general-purpose models are better for generating diverse and engaging copy
+* **Keyword analysis and data-driven decisions:** reasoning models are better for handling complex data analysis and logical reasoning
+* **Technical SEO (e.g., structured data):** reasoning models are more accurate for generating compliant code
+
+
+### Can general-purpose models perform complex reasoning?
+
+Yes, but with limitations. General-purpose models can handle simple to moderately complex reasoning tasks, but they often struggle with multi-step reasoning, mathematical proofs, and strict logical chains, where they may make mistakes or skip steps. Using Chain-of-Thought prompting (“think step by step”) can improve performance, but they are still less reliable than dedicated reasoning models.
+
+
+### Can reasoning models be used for creative writing?
+
+Yes, but they are not the best choice. Reasoning models can produce grammatically correct and logically consistent text, but they are weaker in creativity, variety, and literary expression. They are better suited for:
+
+* Writing that requires strict logic (e.g., academic papers, technical documentation)
+* Structured content (e.g., reports, analytical articles)
+
+For novels, poetry, and advertising copy, general-purpose models are a better choice.
+
+
+
+### Do reasoning models require different prompting techniques?
+
+Yes, significantly:
+
+* **General-purpose models:** require detailed instructions, role prompting, example guidance, and explicit requests like “think step by step”
+* **Reasoning models:** prompts should be simple and direct, avoiding over-structuring and allowing the model to decide its own reasoning path
+
+**Reason:** reasoning models already have built-in reasoning capabilities; overly complex prompts may interfere with their internal reasoning process.
+
+
+### Is GPT a general-purpose model?
+
+Yes. The GPT (Generative Pre-trained Transformer) series, including GPT-3.5 and GPT-4, are general-purpose models. They can handle many tasks such as conversation, writing, translation, and programming. However, OpenAI has also introduced dedicated reasoning models in the o1 series, which are based on the GPT architecture but specifically trained and optimized for reasoning tasks.

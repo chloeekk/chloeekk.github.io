@@ -4,6 +4,9 @@ description: "An in-depth comparison of how Claude Code, Gemini, and ChatGPT dif
 date: 2026-05-02T11:43:57+08:00
 draft: false
 
+categories:
+- AI
+
 ---
 
 To enrich my existing AI-related articles, I wanted to supplement them with more user-interest-driven questions. So I asked Claude Code, Gemini, and ChatGPT the same question, hoping they could help identify relevant user queries.
