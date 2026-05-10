@@ -4,6 +4,9 @@ description: "An in-depth breakdown of how Canva grew organic search traffic fro
 date: 2026-05-05T14:31:22+08:00
 draft: false
 
+categories:
+- SEO
+- Digital Marketing
 ---
 
 
@@ -24,8 +27,6 @@ This reveals the core of Canva's SEO strategy: **Programmatic Content + Long-tai
 
 
 ## Canva US Market Organic Traffic Growth Curve (2012-2026)
-
-![Canva US Market Growth](growth-chart.svg)
 
 From zero in 2012 to 39.77 million monthly visits in 2026, Canva took 14 years.
 
