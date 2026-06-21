@@ -81,7 +81,7 @@ Whether using website pages or dedicated landing pages, **URL Exclusion** is cri
 If your site’s structure, intent layering, or attribution logic isn’t clear, start small with AI Max by **limiting eligible pages**, then gradually optimize and expand based on system behavior.
 
 ### Should You Abandon Dedicated Landing Pages and Use Only Website Pages?
-Many teams ponder this before adopting AI Max for Search: if the system favors clear, intent-aligned content pages, should they **ditch traditional landing pages and optimize their website for ad承接?
+Many teams ponder this before adopting AI Max for Search: if the system favors clear, intent-aligned content pages, should they **ditch traditional landing pages and optimize their website for ad**?
 
 The recommendation: **Don’t abandon landing pages, but "website-ize" them—align their structure, semantics, and behavior with your main site.**
 
