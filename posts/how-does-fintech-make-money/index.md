@@ -213,9 +213,11 @@ In the early stages of industry development, many companies relied on heavy subs
 * **Unit Economics:**
   A framework used to determine whether each transaction or customer is profitable.
 
+For insights on customer acquisition strategies, see [the relationship between customer acquisition cost and user quality](https://chloevolution.com/posts/relationship-between-customer-acquisition-cost-and-user-quality/).
+
 The formula for sustainable profitability is as follows:
 
-Only when technology continuously increases **ARPU** (Average Revenue Per User) while reducing operating costs—resulting in LTV significantly exceeding CAC—can a Fintech business model achieve true commercial sustainability.
+Only when technology continuously increases **ARPU** (Average Revenue Per User) while reducing operating costs—resulting in LTV significantly exceeding CAC—can a Fintech business model achieve true commercial sustainability. To understand how to allocate resources effectively, read about [how to allocate online advertising budget](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/).
 
 ### 2. Compliance as a Competitive Moat, Not a Cost Center
 
@@ -238,6 +240,8 @@ The ultimate form of Fintech monetization is **embedded finance**. Financial ser
 
 * **Ecosystem Synergy:**
   High-frequency data generated through payments can power low-frequency but high-margin credit and wealth management services, creating a self-reinforcing profit cycle within the ecosystem.
+
+For broader business monetization strategies, explore [how to find the best monetization path for your business](https://chloevolution.com/posts/how-to-find-the-best-monetization-path-for-my-business/).
 
 At its core, the Fintech business model is about **leveraging technological efficiency to capture financial interest spreads and commissions**. After the early-stage battle for traffic, industry winners will be those capable of continuously optimizing risk pricing, reducing marginal operating costs, and deepening user value within compliant frameworks.
 

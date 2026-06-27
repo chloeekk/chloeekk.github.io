@@ -2,9 +2,9 @@
 
 
 
-In 2021, when I took over a client’s Meta advertising account for an e-commerce business, their ROAS was only 1.8. The budget was limited, the creative team consisted of just one person, and the competitors were brands backed by tens of millions in funding.
+In 2021, when I took over a client's Meta advertising account for an e-commerce business, their ROAS was only 1.8. The budget was limited, the creative team consisted of just one person, and the competitors were brands backed by tens of millions in funding.
 
-The first thing I did was not adjust bids or audiences. Instead, I spent three full days deconstructing 847 ads from 12 competitors in the Meta Ads Library. I recorded each ad’s runtime, creative format, copy structure, and CTA strategy, and even used Python scripts to batch-download all the assets.
+The first thing I did was not adjust bids or audiences. Instead, I spent three full days deconstructing 847 ads from 12 competitors in the Meta Ads Library—applying the same [competitor analysis](https://chloevolution.com/posts/how-to-make-integrated-marketing-strategy/) principles I use for integrated campaigns. I recorded each ad’s runtime, creative format, copy structure, and CTA strategy, and even used Python scripts to batch-download all the assets.
 
 Three months later, the account’s ROAS reached 4.2, and the creative click-through rate increased by 67%. I didn’t increase the budget or expand the team—I simply learned how to “reverse-engineer” ad strategies that had already been validated by the market.
 
@@ -39,7 +39,7 @@ For example, I once analyzed a DTC skincare brand and found they had 47 ads runn
 2. **Optimization strategy**: Large-scale creative testing rather than granular audience segmentation
 3. **Team structure**: Dedicated creative team and data analysts—not a small operation
 
-From this, I concluded their strategy was **“creative-driven + Advantage+ broad targeting”**, rather than the traditional **“precise targeting + limited creatives.”**
+From this, I concluded their strategy was **"creative-driven + Advantage+ broad targeting"**, rather than the traditional **"precise targeting + limited creatives."** This shift reflects broader changes in [digital advertising](https://chloevolution.com/posts/types-of-digital-advertising/)—platforms now favor creative volume over granular audience control.
 
 
 
@@ -243,7 +243,7 @@ Based on practical experience, here are the most effective approaches:
 * Search for 3–5 competitors
 * Filter ads that have been running for more than 30 days (these are market-validated)
 * Analyze common elements: copy structure, visual style, CTA strategy
-* Extract “creative patterns” rather than copying directly
+* Extract "creative patterns" rather than copying directly—similar to how [landing page optimization](https://chloevolution.com/posts/landing-page-optimization/) focuses on structural principles over surface design
 
 **2. Discover differentiation opportunities**
 
@@ -273,7 +273,7 @@ Meta Ads Library delivers value for businesses of all sizes:
 
 * Reduce trial-and-error costs: Learn from proven creatives instead of starting from scratch
 * Fast learning: Understand industry standards and competitor strategies
-* Resource optimization: Use limited budgets to test the most promising creative directions
+* Resource optimization: Use limited budgets to test the most promising creative directions—critical when [allocating advertising budgets](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/) across channels
 
 **Mid-sized companies:**
 

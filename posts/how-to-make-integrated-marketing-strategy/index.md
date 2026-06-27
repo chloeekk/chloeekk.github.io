@@ -12,7 +12,7 @@ User insight is a deep understanding of the target users, covering their basic p
 
 User profile construction includes:
 
-* **Target segment division**: Clearly defining the characteristics of new and existing customers, differentiating the behavior habits, needs, and consumption preferences of different user groups.
+* **Target segment division**: Clearly defining the characteristics of new and existing customers, differentiating the behavior habits, needs, and consumption preferences of different user groups—[user quality assessment](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/) provides frameworks for evaluating these segments.
 * **Demographic characteristics**: Basic information such as age, gender, region, occupation.
 * **Behavioral characteristics**: Purchase frequency, channel preference, content consumption habits, brand interaction habits.
 * **Psychological characteristics**: Values, purchase motivation, pain points, and barriers.
@@ -51,8 +51,8 @@ Taking a summer promotion on an e-commerce platform as an example, aiming to acq
 
 #### Competitor Channel Layout
 
-* **Channel coverage**: Outline competitors’ main active paid and owned media channels, including social ads, search engines, programmatic ads, email marketing, and community management.
-* **Advertising strategy and content**: Analyze competitors’ focus in each channel, such as brand building, promotional campaigns, or user conversion, paying attention to ad creative style, frequency, and interaction performance.
+* **Channel coverage**: Outline competitors' main active paid and owned media channels, including social ads, search engines, programmatic ads, email marketing, and community management. For B2B contexts, review [B2B marketing evaluation frameworks](https://chloevolution.com/posts/how-to-evaluate-b2b-marketing/) to benchmark competitor performance.
+* **Advertising strategy and content**: Analyze competitors' focus in each channel, such as brand building, promotional campaigns, or user conversion, paying attention to ad creative style, frequency, and interaction performance.
 * **Investment intensity evaluation**: Using industry data and competitor performance, estimate their budget allocation and investment intensity in different channels to inform own budget planning.
 * **Multi-channel synergy paths**: Identify how competitors integrate different channels to create a complete user reach and conversion path, improving conversion rate and loyalty.
 
@@ -76,7 +76,7 @@ Taking a summer promotion on an e-commerce platform as an example, aiming to acq
 Before any marketing strategy, clarify whether the primary target audience is new or existing customers. This is crucial because different audiences have distinct needs, behaviors, and conversion paths, directly affecting goal setting, channel selection, content creation, and budget allocation.
 
 * **New Customers: Expand Market, Stimulate Interest**
-  New customers are potential users who have not been exposed to or just learned about the brand. This group needs broad exposure and effective guidance to move from “strangers” to “followers” and gradually into the purchase process. New customer marketing focuses on brand awareness building and lead acquisition.
+  New customers are potential users who have not been exposed to or just learned about the brand. This group needs broad exposure and effective guidance to move from "strangers" to "followers" and gradually into the purchase process. New customer marketing focuses on brand awareness building and lead acquisition—[cold start strategies](https://chloevolution.com/posts/cold-start-strategy-for-a-new-product/) offer proven approaches for initial market entry.
 
 * **Existing Customers: Deepen Relationships, Promote Repurchase**
   Existing customers have already purchased products or services and have some brand recognition and trust. Marketing focuses on increasing user engagement, brand loyalty, and encouraging repurchase.
@@ -153,7 +153,7 @@ When formulating integrated marketing strategies, different audiences (new vs ex
 
 ### Budget Allocation Principles
 
-* **New customer marketing**: Focus investment on paid media for exposure and precise traffic acquisition, with relatively high budgets. Owned media is mainly for lead nurturing and conversion guidance.
+* **New customer marketing**: Focus investment on paid media for exposure and precise traffic acquisition, with relatively high budgets. Owned media is mainly for lead nurturing and conversion guidance. For detailed [budget allocation strategies](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/), consider channel efficiency and KPI priorities.
 * **Existing customer marketing**: More investment in owned media to deepen customer relationships and activate repurchase; paid media budget is lower but used for precise retargeting.
 * **Marketing goal-driven**: More exposure-type ads during brand building stage; increased conversion efficiency investment and owned media operation in lead acquisition and sales conversion stages.
 

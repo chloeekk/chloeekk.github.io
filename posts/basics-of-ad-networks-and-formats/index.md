@@ -51,13 +51,13 @@ Think of an ad network as an “ad marketplace.” On one side, it aggregates ad
 * Common billing models:
 
   * **CPM**: Pay per thousand impressions.
-  * **CPC**: Pay per click.
+  * **CPC**: Pay per click, affecting [advertising budgets](https://chloevolution.com/posts/search-engine-marketing-cost/) directly.
   * **CPA**: Pay per action (e.g., download or registration).
 
 ### 4. Data Feedback & Optimization
 
 * After the campaign, the network reports metrics: impressions, clicks, conversions.
-* Advertisers adjust budgets and strategies, while the network uses algorithms to optimize ad delivery for better results.
+* Advertisers adjust budgets and strategies using [performance data](https://chloevolution.com/posts/sem-analytics/), while the network uses algorithms to optimize ad delivery for better results.
 
 **Example:**
 
@@ -71,7 +71,7 @@ Think of an ad network as an “ad marketplace.” On one side, it aggregates ad
 
 ## Ad Platform Types and Ecosystem
 
-The ad industry is like a large marketplace with different roles: some provide space, some sell or buy ad inventory, and some manage the rules. Here are common platform types:
+The ad industry is like a large marketplace with different roles: some provide space, some sell or buy ad inventory, and some manage the rules—knowledge essential for [search engine marketing](https://chloevolution.com/posts/sem-basics/). Here are common platform types:
 
 ### Publisher Platforms
 
@@ -156,7 +156,7 @@ There are various ad formats, each with unique characteristics and use cases:
 | -------------------------------- | -------------------------------------------- | ---------------------------------- | -------------------------------------------------------- |
 | **Display Ads (Banner/Display)** | Low interference, usually top/bottom of page | News websites, app pages           | Small banner or skyscraper ads on websites or apps       |
 | **Native Ads**                   | Blends with content, low disruption          | News, social media                 | In-feed ads, recommended content                         |
-| **Search Ads**                   | High-intent users, strong relevance          | Search engines, shopping platforms | Ads based on search keywords, e.g., Google Ads           |
+| **Search Ads**                   | High-intent users, strong relevance          | Search engines, shopping platforms | Keyword-based ads typical in [paid search](https://chloevolution.com/posts/paid-search/) |
 | **Feed Ads**                     | Embedded in content feed, low disruption     | Social media, news apps            | Appears in content lists, e.g., Moments or Toutiao feeds |
 | **Video Ads**                    | Highly engaging but time-consuming           | Video platforms, short video apps  | Pre-roll, mid-roll, or post-roll video ads               |
 | **Rewarded Ads**                 | User watches voluntarily for rewards         | Games, education apps              | Users earn coins, items, or course benefits              |

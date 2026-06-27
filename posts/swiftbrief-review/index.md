@@ -8,6 +8,8 @@
 2. Keyword research and clustering
 3. Integrating SEO data to improve content quality and performance
 
+This positions it within the emerging [content engineering](https://chloevolution.com/posts/content-engineering/) landscape—where AI assists structured content production at scale.
+
 
 ## Test Walkthrough
 
@@ -57,7 +59,7 @@ Each keyword is evaluated across several dimensions:
 
 Additionally, under **Target Frequency**, you can set how many times a keyword should be mentioned in the article (with system-generated suggestions and a max of 100). This helps manage keyword density.
 
-However, one odd thing I noticed: all the keywords showed a difficulty score of 0, which clearly can't be right. I double-checked some of them in SEMrush and found that Swiftbrief's reported US search volumes were significantly higher than expected:
+However, one odd thing I noticed: all the keywords showed a difficulty score of 0, which clearly can't be right. I double-checked some of them in SEMrush and found that Swiftbrief's reported US search volumes were significantly higher than expected—data discrepancies that underscore why [SEO strategy](https://chloevolution.com/posts/new-thoughts-on-seo/) requires validation across multiple sources:
 ![semrush-result-for-comparison](semrush-result-for-comparison.png)
 
 
@@ -75,7 +77,7 @@ From a structural perspective, here are some quick observations (without evaluat
 
 **Pros:**
 
-* Smart internal linking: the tool embeds links to your existing site pages where relevant
+* Smart internal linking: the tool embeds links to your existing site pages where relevant—though for strategic internal linking rather than automated suggestions, see [interactive page strategies](https://chloevolution.com/posts/interactive-page-seo-strategy/)
 * External sources are cited as well (though URLs appear as naked links; using anchor text would be better)
 * Uses tables effectively when presenting comparisons or lists
 
@@ -84,7 +86,7 @@ From a structural perspective, here are some quick observations (without evaluat
 * Images are included, but mostly irrelevant to the content
 * Paragraphs are extremely short—just 2-3 lines—making the content feel fragmented
 
-If you're not happy with the generated content, you can edit it directly in the editor or share the link for collaborative editing. Once everything looks good, you can publish the article to your site—though you'll need to integrate your CMS first:
+If you're not happy with the generated content, you can edit it directly in the editor or share the link for collaborative editing. Once everything looks good, you can publish the article to your site—though you'll need to integrate your CMS first. For comparison with similar AI-powered marketing tools, see [FounderPal review](https://chloevolution.com/posts/founderpal-review/):
 ![swiftbrief-publish-to-site](swiftbrief-publish-to-site.png)
 
 

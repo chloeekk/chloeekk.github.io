@@ -49,16 +49,16 @@ Leveraging [LinkedIn](https://about.ads.microsoft.com/en/blog/post/march-2022/re
 
 
 
-### Untapped Advertising Potential  
-With lower competition than Google, small-to-medium businesses can more easily secure top ad placements at reduced costs. [WordStream](https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost#:~:text=The%20average%20cost%20per%20click%20in%20Google%20Ads%20is%20between,$50%20or%20more%20per%20click.) data shows Bing Ads' average CPC is $1.54, compared to Google Ads' $2–$4 range.  
+### Untapped Advertising Potential
+With lower competition than Google, small-to-medium businesses can more easily secure top ad placements at reduced costs. [WordStream](https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost#:~:text=The%20average%20cost%20per%20click%20in%20Google%20Ads%20is%20between,$50%20or%20more%20per%20click.) data shows Bing Ads' average CPC is $1.54, compared to Google Ads' $2–$4 range—offering [budget-conscious advertisers](https://chloevolution.com/posts/search-engine-marketing-cost/) significant savings.  
 
 ### AI-Driven Enhancements  
 Microsoft's integration of OpenAI's ChatGPT into Bing has transformed traditional keyword searches into **conversational AI searches**, allowing users to obtain structured answers (e.g., product comparisons, shopping guides). This innovation positions Bing as an **intelligent decision-making assistant**, attracting younger users seeking efficiency and personalization.  
 
 
 
-## What Are Bing Shopping Ads?  
-Bing Shopping Ads are **product catalog-based advertisements** within Microsoft's advertising platform. They dynamically display product images, prices, and names to directly engage users with commercial intent.  
+## What Are Bing Shopping Ads?
+Bing Shopping Ads are **product catalog-based advertisements** within Microsoft's advertising platform. They dynamically display product images, prices, and names to directly engage users with commercial intent, using product data to match user search intent like other [ad formats](https://chloevolution.com/posts/basics-of-ad-networks-and-formats/).  
 
 - **Key Differences from Traditional Search Ads**:  
   - **No Keyword Bidding**: Ads are automatically matched to user search terms based on product attributes (titles, descriptions, categories).  
@@ -80,7 +80,7 @@ Bing Shopping Ads are **product catalog-based advertisements** within Microsoft'
    - **Search Term Matching**: User queries (e.g., "men's sneakers") are linked to product titles/categories.  
    - **Contextual Expansion**: Ads may appear for semantically related terms (e.g., showing sneaker ads for "gym outfit ideas").  
 
-3. **Ad Delivery & Conversion Tracking**  
-   - Users are redirected to advertiser websites upon clicking ads.  
-   - Microsoft Advertising UET tags track conversions, ROAS (return on ad spend), and other KPIs.  
+3. **Ad Delivery & Conversion Tracking**
+   - Users are redirected to advertiser websites upon clicking ads.
+   - Microsoft Advertising UET tags track conversions, ROAS, and [performance metrics](https://chloevolution.com/posts/sem-analytics/).  
 

@@ -4,7 +4,7 @@
 
 
 ## Potential Reasons Why Hugo Multilingual Sites Are Not Properly Indexed by Search Engines
-I recently noticed an issue with newly published articles: **Google only indexes one language version of the same article (either Chinese or English)**. There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues, which may include:
+I recently noticed an issue with newly published articles: **Google only indexes one language version of the same article (either Chinese or English)**. There are occasional cases where both versions get indexed, but this is rare. I began investigating potential configuration issues—problems I identified through [SEO auditing](https://chloevolution.com/posts/seo-audit-my-site/)—which may include:
 
 ### Multilingual Configuration Issues
 - Ensure proper multilingual configuration in `config.toml` or `config.yaml`, e.g.:
@@ -60,7 +60,7 @@ No `hreflang` tags exist in page source code, requiring additional configuration
 ## Adding hreflang Tags in Hugo
 
 ### What is hreflang?
-`hreflang` is an HTML attribute specifying different language/regional versions of a webpage. Declared via `<link>` tags in page headers, it helps search engines like Google identify multilingual/regional variants of content. Example:
+`hreflang` is an HTML attribute specifying different language/regional versions of a webpage. Declared via `<link>` tags in page headers, it helps search engines like Google identify multilingual/regional variants of content—particularly important for sites using [location-specific strategies](https://chloevolution.com/posts/creating-location-specific-landing-pages/). Example:
 ```html
 <link rel="alternate" hreflang="en" href="https://example.com/en/page/" />
 <link rel="alternate" hreflang="zh-CN" href="https://example.com/zh/page/" />
@@ -107,4 +107,5 @@ This generates corresponding `hreflang` tags for all translated versions.
 #### Step 3: Verify Implementation
 - Use [Google Search Console](https://search.google.com/) "International Targeting" report to check errors.
 - Validate tag presence and accuracy using tools like [Screaming Frog](https://www.screamingfrog.co.uk/).
+- For analytics tracking setup, see [Google Analytics integration](https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/).
 

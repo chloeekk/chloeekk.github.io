@@ -1,11 +1,11 @@
 # How to Track Offline Conversions?
 
 
-In many industries, advertising isn’t just about getting users to click an ad or fill out a form—it’s about getting them to **ultimately complete a truly valuable action offline**, such as making an in-store purchase, signing a contract, or buying a product.  
+In many industries, advertising isn't just about getting users to click an ad or fill out a form—it's about getting them to **ultimately complete a truly valuable action offline**, such as making an in-store purchase, signing a contract, or buying a product.
 
-The problem is, many ad systems can’t see these offline actions—meaning they can’t determine which ads actually drove results.  
+The problem is, many ad systems can't see these offline actions—meaning they can't determine which ads actually drove results.
 
-Once we can track and feed these "offline conversions" back to the ad platforms, they can use this data to **retrain models and optimize targeting**, ensuring every budget dollar is spent more intelligently.  
+Once we can track and feed these "offline conversions" back to the ad platforms, they can use this data to **retrain models and optimize targeting**, ensuring every budget dollar is spent more intelligently. This closed-loop feedback becomes critical when [allocating advertising budgets](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/) across channels—knowing true ROI rather than just click metrics.  
 
 
 ## The Basic Principles of Offline Conversion Tracking  
@@ -17,9 +17,9 @@ This way, we can truly determine whether an ad click ultimately led to a busines
 
 "Conversions" often bring to mind online actions like registrations or orders. But in many industries, the most critical conversions happen outside ad platforms, such as:  
 
-* In-store consultations, test drives, or voucher redemptions  
-* Phone sales, on-site signings  
-* Face-to-face meetings, contract signings (especially in B2B)  
+* In-store consultations, test drives, or voucher redemptions
+* Phone sales, on-site signings
+* Face-to-face meetings, contract signings (especially in [B2B marketing](https://chloevolution.com/posts/how-to-evaluate-b2b-marketing/))  
 
 Ad platforms can’t see these actions, so businesses must actively feed this data back to close the loop on ad performance.  
 
@@ -110,26 +110,26 @@ Below compares four major platforms:
 * **Auto-Attribution**: Partial (depends on third-party DMPs)  
 * **Optimization**: Limited (mainly for reporting, not model training)  
 
-| Platform       | Supports Uploads? | Primary Matching Methods               | Auto-Attribution? | Supports Optimization? | Notes               |  
-| -------------- | ----------------- | -------------------------------------- | ----------------- | ---------------------- | ------------------- |  
-| Google Ads     | Yes               | GCLID, hashed user info (phone/email)  | Yes               | Yes                    | Mature, strong optimization |  
-| Meta Ads       | Yes               | FBCID, hashed user info (phone/email)  | Yes               | Yes                    | Broad industry coverage |  
-| TikTok Ads     | Yes               | TTCLID, hashed user info (phone/email) | Yes               | Partial                | Basic, evolving fast |  
+| Platform       | Supports Uploads? | Primary Matching Methods               | Auto-Attribution? | Supports Optimization? | Notes               |
+| -------------- | ----------------- | -------------------------------------- | ----------------- | ---------------------- | ------------------- |
+| Google Ads     | Yes               | GCLID, hashed user info (phone/email)  | Yes               | Yes                    | Mature, strong optimization |
+| Meta Ads       | Yes               | FBCID, hashed user info (phone/email)  | Yes               | Yes                    | Broad industry coverage—see [Meta Ads Library](https://chloevolution.com/posts/meta-ads-library-search/) for competitive insights |
+| TikTok Ads     | Yes               | TTCLID, hashed user info (phone/email) | Yes               | Partial                | Basic, evolving fast |
 | Twitter Ads    | Limited           | User info + third-party matching       | Partial           | Partial                | Weak native support |  
 
 ## "No-Upload" Offline Measurement Solutions from Ad Platforms  
 
 Traditional offline tracking requires businesses to upload conversion data (e.g., click IDs or user info), which demands technical resources. Some platforms now offer "no-upload" solutions, using their vast user data and AI models to estimate store visits or offline conversions, simplifying measurement for advertisers.  
 
-### Google Ads: PMax for Store Visits  
+### Google Ads: PMax for Store Visits
 
-Performance Max (PMax) campaigns include "store visit conversion" measurement:  
+Performance Max (PMax) campaigns include "store visit conversion" measurement:
 
-* **How it works**: Google uses device location data and behavior patterns, combined with ad clicks, to infer store visits.  
-* **Features**:  
-  * No manual uploads—auto-modeled by the system.  
-  * Supports large retail networks.  
-  * Data feeds directly into smart bidding.  
+* **How it works**: Google uses device location data and behavior patterns, combined with ad clicks, to infer store visits.
+* **Features**:
+  * No manual uploads—auto-modeled by the system.
+  * Supports large retail networks.
+  * Data feeds directly into smart bidding—similar to how [AI Max optimizes for search](https://chloevolution.com/posts/what-is-google-ai-max/).
 * **Ideal for**: Retail, dining, auto sales, and other high-foot-traffic industries.  
 * **Limitations**:  
   * Relies on location data (privacy/coverage constraints).  

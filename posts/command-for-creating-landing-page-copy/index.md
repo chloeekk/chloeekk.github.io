@@ -1,14 +1,16 @@
 # Landing Page Copy Commands Templates
 
 
-A thorough understanding of landing page structure and the copy characteristics of each module is essential to guide AI in producing appropriate, conversion-driven copy.
+Effective [landing page structure](https://chloevolution.com/posts/landing-page-optimization/) and module-specific copy characteristics are essential to guide AI in producing appropriate, conversion-driven copy.
 
 
-## Copy Characteristics by Landing Page Module 
+## Copy Characteristics by Landing Page Module
 ### Hero Section
-#### Headline 
-   - Use "verb + quantifiable result" structure  
-     *Example:* "Generate 100+ Marketing Copies/Day" (Better than "Smart Copy Tool")  
+Hero sections require careful attention to [layout](https://chloevolution.com/posts/best-landing-page-layouts-with-webform/) and messaging balance.
+
+#### Headline
+   - Use "verb + quantifiable result" structure
+     *Example:* "Generate 100+ Marketing Copies/Day" (Better than "Smart Copy Tool")
    - Mobile: ≤9 Chinese characters, Desktop: ≤15 Chinese characters  
 
 #### Subheadline
@@ -30,11 +32,13 @@ A thorough understanding of landing page structure and the copy characteristics 
      *Example:* "NLP algorithm → Auto-match industry keywords → 59% higher read completion"  
 
 #### Benefit Tiering
-   | Tier | Focus | Example |  
-   |---|---|---|  
-   | Core Value | Solve specific problems | 1-minute draft generation |  
-   | Advanced Value | Prevent risks | Auto compliance check |  
-   | Strategic Value | Create extended benefits | Boost brand search index |  
+   | Tier | Focus | Example |
+   |---|---|---|
+   | Core Value | Solve specific problems | 1-minute draft generation |
+   | Advanced Value | Prevent risks | Auto compliance check |
+   | Strategic Value | Create extended benefits | Boost brand search index |
+
+These benefit tiers apply across industries, though [e-commerce pages](https://chloevolution.com/posts/ecommerce-landing-page/) often emphasize core value over strategic benefits.
 
 
 ### Social Proof Module  
@@ -258,16 +262,19 @@ Deliverables:
 3. Conversion triggers (Fear/Desire/Trust)  
 ```  
 
-#### Competitive Differentiation 
-```  
-Analyze [competitor1][competitor2][competitor3]:  
-1. High-frequency selling points (≥5 mentions/1k words)  
-2. Common weaknesses (user complaints)  
-3. Content density ratios (text/image/video)  
-Output:  
-- 3 advantages to emphasize  
-- 2 generic terms to avoid  
-```  
+#### Competitive Differentiation
+Differentiation analysis is particularly important for [SaaS products](https://chloevolution.com/posts/saas-landing-page/) in crowded markets.
+```
+Analyze [competitor1][competitor2][competitor3]:
+1. High-frequency selling points (≥5 mentions/1k words)
+2. Common weaknesses (user complaints)
+3. Content density ratios (text/image/video)
+Output:
+- 3 advantages to emphasize
+- 2 generic terms to avoid
+```
+
+For SaaS products, refer to [SaaS landing page structures](https://chloevolution.com/posts/saas-landing-page/).  
 
 
 ### Phase 2: Full Prompt Chain

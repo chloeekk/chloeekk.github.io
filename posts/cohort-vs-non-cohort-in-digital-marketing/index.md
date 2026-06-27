@@ -14,9 +14,9 @@ Based on daily operational reports and monthly summaries, the campaign appeared 
 | Google Ads     | 8,500             | 4.8%                        | \$49.3                    | \$18.7    |  
 | Instagram      | 4,200             | 6.0%                        | \$42.1                    | \$19.8    |  
 
-Compared to the previous quarter's averages:  
-- Average first-order conversion rate increased from **4.1% to 5.2%**  
-- CAC remained below the **annual cap (\$25)**  
+Compared to the previous quarter's averages:
+- Average first-order conversion rate increased from **4.1% to 5.2%**
+- CAC remained below the **annual cap (\$25)**, within [budget targets](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/)
 - Monthly new registrations grew by nearly **1.7x**  
 
 From conventional metrics, this campaign achieved a "high-traffic + low-cost" win-win and was preliminarily deemed a "replicable strategy."  
@@ -87,7 +87,7 @@ In contrast, Google’s cohort repurchase rates were:
 
 Google users maintained higher repurchase rates, showing stronger stickiness.  
 
-**Conclusion**: While Facebook excelled in initial conversions, its users’ long-term value lagged behind Google’s.  
+**Conclusion**: While Facebook excelled in initial conversions, its users' long-term value lagged behind Google's—reflecting typical [CAC-quality tradeoffs](https://chloevolution.com/posts/relationship-between-customer-acquisition-cost-and-user-quality/).  
 
 ## Their Relationship: Complementary, Not Mutually Exclusive  
 
@@ -154,13 +154,13 @@ High. Demands SQL, Pandas, and statistics knowledge.
 
 ### Non-Cohort Tools  
 
-#### [Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/)  
-**Value Proposition**  
-Minute-level real-time monitoring and aggregate metrics.  
+#### [Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/)
+**Value Proposition**
+Minute-level real-time monitoring and aggregate metrics via [GA4's dimensions](https://chloevolution.com/posts/complete-guide-to-dimensions-and-metrics-in-google-analytics/) for comprehensive tracking.  
 
-**Ideal For**  
-- Campaign dashboards (e.g., live GMV, conversion rates).  
-- Ad optimizations (e.g., hourly CPC/ROAS by channel).  
+**Ideal For**
+- Campaign dashboards (e.g., live GMV, conversion rates).
+- Ad optimizations via [SEM analytics](https://chloevolution.com/posts/sem-analytics/) (e.g., hourly CPC/ROAS by channel).
 - Anomaly diagnosis (e.g., pages with sudden 20% bounce rate spikes).  
 
 **Strengths**  
