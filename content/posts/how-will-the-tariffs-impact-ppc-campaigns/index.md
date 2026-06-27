@@ -13,7 +13,7 @@ categories:
 
 **The answer is definitely: Yes.**
 
-When new tariffs are imposed or existing ones are expanded, the **fundamental cost structure of goods** changes, and companies' bidding behaviors also shift:
+When new tariffs are imposed or existing ones are expanded, the **fundamental cost structure of goods** changes, and companies' bidding behaviors also shift. Understanding [PPC advertising fundamentals](https://chloevolution.com/posts/paid-search/) helps contextualize these dynamics:
 - Some companies will increase their bids to secure the best ad positions, hoping to maintain existing profits.
 - Some companies will maintain their current bid levels in the short term, but ad spend may still rise (influenced by other advertisers increasing their bids, leading to an overall industry CPC increase). In the short term, they'll choose to absorb costs to maintain market share.
 - Other companies will choose to exit this new round of competition, shifting their marketing budgets to other channels.
@@ -72,7 +72,7 @@ Compared to domestic competitors unaffected by tariffs, or competitors from low-
 
 ### Compressed Profit Margins -> Restricted Marketing Budget -> Ad Spend Adjustments
 Tariffs erode seller profits (especially if the increased costs cannot be fully passed on to consumers), potentially leading to cuts in advertising budgets.
-At the same time, maintaining original ad return on investment (ROI) targets becomes more difficult with rising costs and increased bidding pressure. This may necessitate pausing underperforming ad campaigns, more precisely targeting high-value audiences or high-profit products, which also indirectly constrains ad budgets.
+At the same time, maintaining original ad return on investment (ROI) targets becomes more difficult with rising costs and increased bidding pressure. This may necessitate pausing underperforming ad campaigns, more precisely targeting high-value audiences or high-profit products—[budget allocation strategies](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/) become critical in this context—which also indirectly constrains ad budgets.
 
 ### Supply Chain & Inventory Fluctuations -> Affected Ad Delivery Stability
 Tariff changes (especially sudden ones) can lead to supply chain disruptions, customs clearance delays, and unstable inventory (stockouts or overstock), which in turn affects advertising:
@@ -114,7 +114,7 @@ So, what can we do?
 
 3.  **Reallocate Ad Budget Based on 1 and 2**
     - Scale back inefficient markets:
-    For countries/regions with high tariff rates and significant sales declines (e.g., the US imposing a 25% tariff on specific categories), reduce the budget by 20%-50%.
+    For countries/regions with high tariff rates and significant sales declines (e.g., the US imposing a 25% tariff on specific categories), reduce the budget by 20%-50%—this requires [budget reallocation frameworks](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/) that balance efficiency across markets.
     - Explore alternative markets:
     Increase budgets in lower-tariff regions (e.g., Southeast Asia, the Middle East). Example: Shift 30% of the original US budget to Saudi Arabia or Mexico.
     - Focus on high-profit products:
@@ -129,7 +129,7 @@ So, what can we do?
 6.  **Optimize Keywords, Creatives, and Landing Page Content**
     - Further emphasize non-price value propositions: durability, warranty, local support, sustainability, eco-friendliness.
     - If product prices are increasing, ensure this change is transparent, helping customers understand why prices are rising.
-    - Further enhance credibility with customer reviews, return guarantees, shipping policies, etc.
+    - Further enhance credibility with customer reviews, return guarantees, shipping policies—applying [landing page optimization](https://chloevolution.com/posts/landing-page-optimization/) principles to maintain conversion rates despite price increases.
 
 7.  **Align with Supply Chain and Inventory Management**
     - Communicate closely with the supply chain to anticipate the impact of tariff changes on inventory.

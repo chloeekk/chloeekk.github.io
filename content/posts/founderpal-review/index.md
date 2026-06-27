@@ -14,16 +14,16 @@ categories:
 
 [FounderPal](https://founderpal.ai/) is an AI-powered marketing platform, somewhat similar to [Swiftbrief](https://chloevolution.com/posts/swiftbrief-review/), which we previously reviewed. Its core features include:
 
-- **AI Marketing Strategy Generator**: Users only need to input basic business details, and the AI will generate a comprehensive marketing strategy within minutes.  
-- **User Persona Generator**: Helps users identify and analyze target audiences by creating detailed ideal customer profiles.  
-- **Marketing Idea Generator**: Assists users in brainstorming innovative marketing concepts based on industry trends and business objectives.  
+- **AI Marketing Strategy Generator**: Users only need to input basic business details, and the AI will generate a comprehensive marketing strategy within minutes.
+- **User Persona Generator**: Helps users identify and analyze target audiences by creating detailed ideal customer profiles.
+- **Marketing Idea Generator**: Assists users in brainstorming innovative marketing concepts based on industry trends and business objectives.
 
 ## Website Strategy
 
 ### Hero Section Messaging  
 ![founderpal-hero-section](founderpal-hero-section.png)
 
-First, FounderPal positions itself clearly as an "AI Marketing Platform," with value focused on driving **business growth** through AI — covering user concerns such as **strategy**, **conversion**, and **high-quality traffic**.
+First, FounderPal positions itself clearly as an "AI Marketing Platform," with value focused on driving **business growth** through AI — covering user concerns such as **strategy**, **conversion**, and **high-quality traffic**. The approach exemplifies [content engineering](https://chloevolution.com/posts/content-engineering/): AI automating traditionally manual marketing tasks.
 
 The homepage content centers around two key aspects:
 
@@ -38,14 +38,14 @@ The homepage content centers around two key aspects:
      ![founderpal-social-proof-4](founderpal-social-proof-4.png)
 
 2. **Time-Saving (Efficiency)**
-   - Highlights how FounderPal completes processes faster than traditional methods  
+   - Highlights how FounderPal completes processes faster than traditional methods
      ![founderpal-productivity-proof-1](founderpal-productivity-proof-1.png)
-   - Each use-case card shows the estimated monthly time savings  
+   - Each use-case card shows the estimated monthly time savings
      ![founderpal-productivity-proof-2](founderpal-productivity-proof-2.png)
 
 ### Traffic Acquisition Strategy
 
-From FounderPal’s footer structure, we can infer their traffic strategy through SEO and affiliate marketing:
+From FounderPal's footer structure, we can infer their traffic strategy through SEO and affiliate marketing—mirroring [Canva's approach](https://chloevolution.com/posts/canva-seo-strategy/) of leveraging free tools for organic growth.
 
 ![founderpal-site-structure](founderpal-site-structure.png)
 
@@ -138,7 +138,7 @@ The onboarding flow consists of five steps, expected to take 5 minutes:
    Customize by complexity, cost, and time needed.  
    ![founderpal-generate-10-marketing-ideas](founderpal-generate-10-marketing-ideas.png)
 
-   The output spans landing pages, livestreams, influencer marketing, community building, and more:  
+   The output spans landing pages, livestreams, influencer marketing, community building, and more—building an [integrated marketing approach](https://chloevolution.com/posts/how-to-make-integrated-marketing-strategy/):
    ![founderpal-generate-10-marketing-ideas-2](ounderpal-generate-10-marketing-ideas-2.png)
 
 After onboarding, a pop-up lets users know they've just completed a small part of the overall product journey and encourages exploring the full dashboard:  

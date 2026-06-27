@@ -5,9 +5,9 @@ draft: false
 
 ---
 
-In the capital markets, a major IPO is not only a financial milestone for corporate fundraising, but also a high-intensity integrated marketing campaign centered on brand equity and market confidence. When a recovering macro environment meets a high-quality target with strong certainty, the ability to systematically convert “corporate value” into “subscription momentum” becomes a core indicator of marketing professionalism.
+In the capital markets, a major IPO is not only a financial milestone for corporate fundraising, but also a high-intensity integrated marketing campaign centered on brand equity and market confidence. When a recovering macro environment meets a high-quality target with strong certainty, the ability to systematically convert "corporate value" into "subscription momentum" becomes a core indicator of marketing professionalism.
 
-This article will explain what a comprehensive IPO integrated marketing plan should include.
+This article will explain what a comprehensive IPO [integrated marketing plan](https://chloevolution.com/posts/how-to-make-integrated-marketing-strategy/) should include.
 
 
 ## Evaluating the Target’s Investment Value — Why Is This IPO Worth Promoting?
@@ -104,11 +104,11 @@ Once target value assessment and information consolidation are completed, the ma
 Marketers must recognize that IPO subscription is not a “one-size-fits-all product.” Different audience groups have completely different levels of risk tolerance, capital lock-up sensitivity, and brand familiarity. Therefore, you need to break audiences into segments and design differentiated communication strategies for each.
 
 ### 1. Existing Brand Audiences: High-Net-Worth and Highly Loyal Groups
-These audiences are typically deep users of the parent company’s or group’s existing businesses—for example, frequent customers of its healthcare institutions, owners of its properties, or premium members of its malls.
+These audiences are typically deep users of the parent company's or group's existing businesses—for example, frequent customers of its healthcare institutions, owners of its properties, or premium members of its malls.
 
-* **Profile:** Upper-middle-income or affluent individuals, generally older and more mature. They have strong trust in the parent company’s brand and hold a certain amount of idle capital.
+* **Profile:** Upper-middle-income or affluent individuals, generally older and more mature. They have strong trust in the parent company's brand and hold a certain amount of idle capital.
 * **Core pain point:** Their existing asset allocation channels are relatively limited, often concentrated in fixed deposits or real estate. In the current market environment, they want exposure to market upside, but remain cautious about complex financial derivatives.
-* **Hook:** **“Certainty and an extension of brand value.”** Emphasize that this IPO is an opportunity to share in the long-term growth dividends of the group. Since they are already users of the brand, marketers should use this sense of familiarity to lower the decision-making threshold.
+* **Hook:** **"Certainty and an extension of brand value."** Emphasize that this IPO is an opportunity to share in the long-term growth dividends of the group. Since they are already users of the brand, marketers should use this sense of familiarity to lower the decision-making threshold. Understanding [user quality assessment](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/) helps identify high-value subscribers.
 
 ### 2. Digital Retail Investors: A Group Seeking Efficiency and Leverage
 These audiences are typically active users of digital brokerage platforms.
@@ -191,10 +191,10 @@ Marketers should break IPO information down according to channel characteristics
 
 | Channel Category | Core Tactics | Marketing Objectives |
 | :--- | :--- | :--- |
-| **Paid Ads** | **Meta / UAC / ACE**: Set up dedicated IPO campaign groups. Use the stock subscription page as the landing page, or embed the IPO entry point into a “Malaysia Stocks Campaign Page.” | Performance conversion: drive new account openings and fund deposits. |
-| **Search & Content (SEO / SEM)** | **SEO**: Publish relevant URLs early to compete for rankings. **SEM**: Cover IPO category keywords and stock-specific search terms. | Search interception: capture search entry points ahead of competitors. |
+| **Paid Ads** | **Meta / UAC / ACE**: Set up dedicated IPO campaign groups. Use the stock subscription page as the landing page, or embed the IPO entry point into a "Malaysia Stocks Campaign Page." Understanding [budget allocation strategies](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/) ensures optimal spend across channels. | Performance conversion: drive new account openings and fund deposits. |
+| **Search & Content (SEO / SEM)** | **SEO**: Publish relevant URLs early to compete for rankings. **SEM**: Cover IPO category keywords and stock-specific search terms. Apply [SEM copywriting techniques](https://chloevolution.com/posts/create-sem-copy/) for maximum click-through rates. | Search interception: capture search entry points ahead of competitors. |
 | **Social** | **Seeding**: Seed IPO subscription Q&A content on platforms such as Meta to shape public discussion. **KOLs**: Create customized stock analysis content and combine it with platform tools for sharing. | Brand endorsement: build third-party trust and create social buzz. |
-| **Offline / Physical Touchpoints** | **Retail stores / OOH**: Roll out offline creative materials. Use **“No interest charged if not allotted”** as the core acquisition hook. | Scenario trigger: reach high-net-worth users and specific regional audiences. |
+| **Offline / Physical Touchpoints** | **Retail stores / OOH**: Roll out offline creative materials. Use **"No interest charged if not allotted"** as the core acquisition hook. | Scenario trigger: reach high-net-worth users and specific regional audiences. |
 | **In-app** | **News / Community**: Pin stock information, executive livestreams, and guided community discussions. **Campaign page**: Add built-in sharing components to the subscription page to stimulate public-domain referrals. | Deep interaction: increase in-app activity and subscription intent. |
 
 ### 2. Promotion Timeline: From Pre-heat to Subscription

@@ -18,7 +18,7 @@ This is completely different from your usual blog reading experience. You're not
 
 When we talk about SEO, most people focus on keyword density, title tags, and backlinks. But there's a category of pages that have built competitive advantages through a completely different approach—**getting users to actively participate**.
 
-Users don't just scroll and read; they click, explore, experiment, and use. They invest time on the page, engage in multiple interactions, and even bookmark the page for repeated use. This deep engagement translates into powerful SEO signals: longer dwell time, lower bounce rate, higher repeat visit rate.
+Users don't just scroll and read; they click, explore, experiment, and use. They invest time on the page, engage in multiple interactions, and even bookmark the page for repeated use. This deep engagement translates into powerful SEO signals: longer dwell time, lower bounce rate, higher repeat visit rate—principles that align with [content engineering](https://chloevolution.com/posts/content-engineering/) frameworks.
 
 In this article, I'll introduce three real-world cases:
 
@@ -26,7 +26,7 @@ In this article, I'll introduce three real-world cases:
 - **Shopify Business Name Generator**: An input box—why do users remember this tool?
 - **NerdWallet Mortgage Calculator**: A bunch of parameters—why do users use it repeatedly?
 
-Three different interaction patterns, all backed by similar user engagement strategies.
+Three different interaction patterns, all backed by similar user engagement strategies—an approach paralleling [Canva's broader SEO strategy](https://chloevolution.com/posts/canva-seo-strategy/) of combining utility with user-generated value.
 
 
 ## Educational Interaction: Canva Color Theory Page
@@ -216,7 +216,7 @@ Shopify's traffic strategy is not a single tool, but a **multi-tool matrix + sin
 
 *Note: Traffic share is relative to total /tools/ folder traffic*
 
-1. **Horizontal Expansion**: Create multiple different types of tools (slogan-maker, logo-maker, profit-calculator), covering different needs of entrepreneurs
+1. **Horizontal Expansion**: Create multiple different types of tools (slogan-maker, logo-maker, profit-calculator), covering different needs of entrepreneurs—similar to programmatic approaches in [how fintech makes money](https://chloevolution.com/posts/how-does-fintech-make-money/) through tool diversification
 2. **Vertical Deep Dive**: Create 60+ industry segmentation pages under a single tool, precisely matching long-tail searches
 3. **Traffic Accumulation Effect**: business-name-generator main page 14.56% + all subpages cumulative ~5-6% = total ~20% traffic
 4. **Scalable Production**: Same technical architecture, generating different tools and different industry pages through URL parameters, low development cost but wide coverage
@@ -269,7 +269,7 @@ Shopify doesn't just generate names, it also provides:
 - Industry category suggestions
 - Direct entry to create a store
 
-Conversion path:
+Conversion path reflects [integrated marketing](https://chloevolution.com/posts/how-to-make-integrated-marketing-strategy/) principles:
 
 ```
 Enter keyword

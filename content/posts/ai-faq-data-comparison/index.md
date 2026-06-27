@@ -9,7 +9,7 @@ categories:
 
 ---
 
-To enrich my existing AI-related articles, I wanted to supplement them with more user-interest-driven questions. So I asked Claude Code, Gemini, and ChatGPT the same question, hoping they could help identify relevant user queries.
+To enrich my existing AI-related articles, I wanted to supplement them with more user-interest-driven questions—similar to [keyword research](https://chloevolution.com/posts/keyword-research-and-targeting/) but focused on question intent. So I asked Claude Code, Gemini, and ChatGPT the same question, hoping they could help identify relevant user queries.
 
 During this process, I noticed significant differences in how each AI approached the task and the results they ultimately delivered. This article documents those observations and reflections.
 
@@ -426,7 +426,7 @@ To assess diversity more objectively, I categorized and counted the 140 question
 
 From the data:
 
-* **Claude Code:** Highly concentrated question types. Over 80% are "What" (51.4%) and "How/How to" (30.7%), with no comparison questions (0%). This suggests a focus on depth within a single topic rather than cross-topic comparison.
+* **Claude Code:** Highly concentrated question types. Over 80% are "What" (51.4%) and "How/How to" (30.7%), with no comparison questions (0%)—reflecting patterns seen in [SEO content structures](https://chloevolution.com/posts/content-engineering/). This suggests a focus on depth within a single topic rather than cross-topic comparison.
 
 * **Gemini:** The most balanced distribution. While "How/How to" is the largest category (32.1%), other types are also well represented. Notably, it is the only AI with a significant share of comparison questions (8.6%), and 21.4% fall under "Other" (mainly declarative formats like "Best practices for..." or "Common mistakes when..."), indicating more flexible phrasing.
 

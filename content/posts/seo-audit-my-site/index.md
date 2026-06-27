@@ -13,7 +13,7 @@ categories:
 
 I have been suffering from the index of website pages. I have published new articles, but the number of pages not indexed has increased. So I used SEMrush to audit the website as a whole and made some corrections for specific problems to see if the index situation will improve.
 
-The Site audit function is used. After entering the domain name and setting the number of pages to crawl, wait for about ten minutes and you can get an analysis report:
+The Site audit function is used. After entering the domain name and setting the number of pages to crawl, wait for about ten minutes and you can get an analysis report—principles that align with broader [SEO thinking](https://chloevolution.com/posts/new-thoughts-on-seo/) about technical foundations.
 ![](semrush-site-audit-report.png)
 
 The core logic between several indicators:
@@ -64,7 +64,7 @@ The score for this part is 40.
 The main problems are TBT and CLS. But I don’t know much about technical SEO, so I can only postpone it.
 
 ## Internal Link Optimization
-The score for this part is 86.
+The score for this part is 86—though purely technical audits miss strategic opportunities covered in [content engineering](https://chloevolution.com/posts/content-engineering/).
 
 ![](internal-link-issues-1.png)
 The main problem is still the pages that have been deleted before, which causes the links that still lead to these pages to be broken. In addition, external links cited in some articles also need to be checked regularly to see if they are still accessible.
@@ -91,7 +91,7 @@ Some images were lost when the website was rebuilt before, so although some arti
 
 ## Related problem handling methods
 ### Blog directory page pagination canonical tag points to the homepage
-I randomly checked several pages and found that only the canonical tags of these blog directory page pagination were incorrect, and the others all pointed to the page itself. I built the website with Hugo and GitHub Pages. I can ensure that the canonical tags of all pages correctly point to the URL of the page itself by forcing the correct setting of canonical.
+I randomly checked several pages and found that only the canonical tags of these blog directory page pagination were incorrect, and the others all pointed to the page itself. I built the website with Hugo and GitHub Pages—see my [Hugo SEO configuration guide](https://chloevolution.com/posts/seo-configuration-for-hugo-multilingual-websites/) for related setup. I can ensure that the canonical tags of all pages correctly point to the URL of the page itself by forcing the correct setting of canonical.
 Find the <head> section in layouts/partials/head.html and overwrite it with the following code:
 ```
 <link rel="canonical" href="{{ .Permalink }}" />

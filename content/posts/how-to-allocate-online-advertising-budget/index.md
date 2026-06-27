@@ -9,13 +9,13 @@ categories:
 ---
 
 As the person in charge of online advertising for a market, facing the new quarterly KPI targets and advertising budget from your company, you need to ask yourself the following questions:
-- What is the main focus of this quarter’s KPIs? Is it **scaling up**, **improving efficiency**, or **increasing customer value**?
+- What is the main focus of this quarter's KPIs? Is it **scaling up**, **improving efficiency**, or **increasing customer value**?
 - Compared with the previous quarter, what are the main changes in KPIs and market conditions? Which channels are facing a sharp increase in customer acquisition cost (CAC)?
 - Do you think the KPI target is **achievable with the current budget**? Is the growth logic behind it reasonable?
-- If you believe there’s a significant gap between targets and resources, how will you use **historical ROI data** to negotiate with leadership for more reasonable goals or resources? (Of course, in most cases, you’ll still have to get it done with limited resources 😉)
-- Once the **final KPIs** are confirmed, how will you allocate this quarter’s ad budget to ensure the KPIs are met?
+- If you believe there's a significant gap between targets and resources, how will you use **historical ROI data** to negotiate with leadership for more reasonable goals or resources? (Of course, in most cases, you'll still have to get it done with limited resources 😉)
+- Once the **final KPIs** are confirmed, how will you allocate this quarter's ad budget to ensure the KPIs are met?
 
-This article uses “improving customer quality” as an example to share a practical framework for ad budget allocation.
+This article uses "improving customer quality" as an example to share a practical framework for ad budget allocation. Understanding [user quality assessment](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/) helps ensure you're measuring the right metrics.
 
 ## 1. Understand Your KPIs
 
@@ -82,7 +82,7 @@ Here’s an example of key Q4 data that serves as the **foundation for budget al
 | Channel | Premium % (Quality) | Gap % (Quality) | % of New Paying Users (Scale) | New User CAC (Cost) | **Initial Positioning** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Bing** | +3890% | -1161% | 0.2% | $6 | **Super high quality, but very small scale** |
-| **SEM** | +400% | -58% | 15% | $17 | **Consistently high quality, add cautiously** |
+| **SEM** | +400% | -58% | 15% | $17 | **Consistently high quality, add cautiously**. For effective SEM campaigns, review [copywriting best practices](https://chloevolution.com/posts/create-sem-copy/). |
 | **TikTok** | 0% | +68% | 22% | $8 | **Strong scale, needs quality improvement** |
 | **ASA** | -50% | +53% | 16% | $10 | **Lower quality, cost advantage** |
 | **UAC** | 0% | +68% | 31% | $14 | **Main driver for scale, needs quality lift** |
@@ -93,8 +93,8 @@ This table reveals the **core tension** in Q4 budget allocation:
 * **Quality leaders** (SEM, Bing) offer exceptional users but limited volume (15.2% combined), with SEM’s CAC relatively high.
 * **Scale leaders** (UAC, TikTok) provide volume but average customer quality (0% premium) and a 68% gap from Q4’s target.
 
-Thus, **this quarter’s budget isn’t a simple math exercise—it’s strategic balancing**:  
-Invest more in **high-quality channels** to hit “median net revenue,” but reserve enough budget for **low-cost, high-scale channels** to stabilize CAC and net new user metrics.
+Thus, **this quarter's budget isn't a simple math exercise—it's strategic balancing**:
+Invest more in **high-quality channels** to hit "median net revenue," but reserve enough budget for **low-cost, high-scale channels** to stabilize CAC and net new user metrics. Understanding [advertising costs](https://chloevolution.com/posts/search-engine-marketing-cost/) across different platforms helps inform these trade-offs.
 
 ## 4. Develop Channel Strategies
 
@@ -108,8 +108,8 @@ Before finalizing the **increase/decrease plan** for each channel, evaluate thes
 2. **Retention and remarketing potential**  
    Can existing users (registered but unpaid, or low-frequency payers) be reactivated? Remarketing often delivers **higher-quality conversions at lower cost**. Reserve part of the budget for **retargeting and reactivation**.
 
-3. **User experience and conversion funnel optimization**  
-   Ads drive traffic, but are there bottlenecks in your **site/app conversion funnel**? Collaborate with product and operations teams to **improve UX** and indirectly **enhance ad conversion efficiency**.
+3. **User experience and conversion funnel optimization**
+   Ads drive traffic, but are there bottlenecks in your **site/app conversion funnel**? Collaborate with product and operations teams to **improve UX** and indirectly **enhance ad conversion efficiency**. Strong [landing page optimization](https://chloevolution.com/posts/landing-page-optimization/) can significantly improve conversion rates without increasing ad spend.
 
 4. **Feasibility and risk assessment of growth targets**  
    For channels needing **large volume or major quality improvement** (e.g., Bing, SEM), confirm with your channel managers that the traffic, cost, and optimization goals are **realistically achievable**.

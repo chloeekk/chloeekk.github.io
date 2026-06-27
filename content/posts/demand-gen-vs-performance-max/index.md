@@ -13,7 +13,7 @@ categories:
 
 ## What’s the Difference Between Performance Max and Demand Gen Campaigns?
 
-**Performance Max (PMax)** is a fully automated campaign type by Google that allows advertisers to run a single campaign across all Google-owned channels—Search, Display, YouTube, Gmail, Discover, Maps, and more. It serves as a **complement to Search Ads**, helping advertisers reach more potential customers across multiple touchpoints.
+**Performance Max (PMax)** is a fully automated campaign type by Google that allows advertisers to run a single campaign across all Google-owned channels—Search, Display, YouTube, Gmail, Discover, Maps, and more—complementing [paid search](https://chloevolution.com/posts/paid-search/) to reach more potential customers across multiple touchpoints.
 
 **Demand Gen Campaigns**, on the other hand, are designed for visually engaging platforms like YouTube and Google Discover. They focus on **sparking interest and creating demand** through short-form videos and in-feed content—ideal for attracting new audiences to your brand or products.
 
@@ -58,7 +58,7 @@ Demand Gen = *Short Video + Social Feeds*
 
 ## How Much Audience Control Do You Have?
 
-* **PMax** is highly automated. You can provide “audience signals,” but the system ultimately decides who sees your ads.
+* **PMax** is highly automated, leveraging [AI Max capabilities](https://chloevolution.com/posts/what-is-google-ai-max/) where you can provide "audience signals," but the system ultimately decides who sees your ads.
 * **Demand Gen** gives advertisers more manual control over targeting, including interests, behaviors, custom audiences, and remarketing logic.
 
 | Targeting Option             | **Performance Max**                                                      | **Demand Gen**                                                          |
@@ -81,7 +81,7 @@ And supports custom placement selection:
 
 ## How Automated Are These Campaign Types?
 
-* **PMax** is Google’s most automated campaign type. It suits advertisers who want wide reach and trust Google’s AI to optimize.
+* **PMax** is Google's most automated campaign type. It suits advertisers who want wide reach and trust Google's AI to optimize with careful [performance evaluation](https://chloevolution.com/posts/how-to-evaluate-and-improve-ai-max-performance/).
 * **Demand Gen** retains more manual control—better for brands who want to stay in charge of creative presentation and audience precision, especially in mid-to-upper funnel stages.
 
 | Feature                      | **Performance Max**                             | **Demand Gen**                                            |
@@ -97,6 +97,8 @@ And supports custom placement selection:
 
 
 ## What Are the Creative Requirements?
+
+Both campaign types have distinct creative needs—PMax's automated assembly introduces [creative risks](https://chloevolution.com/posts/ai-max-ad-creative-insights/) worth monitoring.
 
 | Aspect                    | **Performance Max**                                                                                   | **Demand Gen**                                                                                       |
 | ------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |

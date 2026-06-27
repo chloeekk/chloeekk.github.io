@@ -46,7 +46,7 @@ A common mistake in discussions of acquisition efficiency is attempting to measu
 
 ### 1. Early Stage / Market Validation
 
-In the early stage, the primary goal is to **validate product–market fit (PMF)**. At this point, the company needs users who can validate the product’s core value.
+In the early stage, the primary goal is to **validate product–market fit (PMF)**. At this point, the company needs users who can validate the product's core value. This is where [cold start strategies](https://chloevolution.com/posts/cold-start-strategy-for-a-new-product/) become critical—balancing acquisition cost with learning velocity.
 
 * **Quality definition:** Users with high stickiness and strong engagement.
 * **Evaluation metrics:** Day-1 / Day-7 retention, core feature usage, qualitative user feedback.
@@ -54,11 +54,11 @@ In the early stage, the primary goal is to **validate product–market fit (PMF)
 
 ### 2. Growth / Scale Expansion Stage
 
-Once the business enters the expansion phase, the objective shifts to rapidly capturing market share while maintaining a healthy profitability model.
+Once the business enters the expansion phase, the objective shifts to rapidly capturing market share while maintaining a healthy profitability model. At this point, [integrated marketing strategies](https://chloevolution.com/posts/how-to-make-integrated-marketing-strategy/) become essential for coordinating acquisition across channels.
 
 * **Quality definition:** Users with high lifetime value (LTV) and short payback periods.
 * **Evaluation metrics:** Conversion rate, payback period, median values of key conversion actions (such as first deposit or initial purchase).
-* **Cost guidance:** Strict cost thresholds should be established to control the payback period. Users who cannot generate profit within the defined timeframe are considered “low quality.”
+* **Cost guidance:** Strict cost thresholds should be established to control the payback period. Users who cannot generate profit within the defined timeframe are considered "low quality."
 
 ### 3. Maturity / Efficiency Optimization Stage
 
@@ -73,14 +73,14 @@ When the business reaches maturity and market penetration approaches saturation,
 
 Once quality is clearly defined for each stage, the next step is to identify optimal operational strategies amid cost fluctuations. This can be approached from three dimensions.
 
-### 1. Channel Dimension: From “Single-Source Acquisition” to “Portfolio Allocation”
+### 1. Channel Dimension: From "Single-Source Acquisition" to "Portfolio Allocation"
 
-The first step in addressing rising costs is to reduce reliance on a single channel and establish a dynamic traffic allocation model.
+The first step in addressing rising costs is to reduce reliance on a single channel and establish a dynamic traffic allocation model. This requires systematic [budget allocation](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/) across channels based on user quality metrics, not just volume.
 
 * **Macro-level budget orchestration:**
-  Create a balanced mix of “high-quality channels” and “cost-efficient channels.” For example, search channels (SEM/ASA) typically have higher CAC but stronger intent and serve as the quality foundation, while feed-based channels (Meta/TikTok) broaden reach and help average down overall costs. Real-time budget adjustments across channels help stabilize overall ROI.
+  Create a balanced mix of "high-quality channels" and "cost-efficient channels." For example, search channels (SEM/ASA) typically have higher CAC but stronger intent and serve as the quality foundation, while feed-based channels (Meta/TikTok) broaden reach and help average down overall costs. Real-time budget adjustments across channels help stabilize overall ROI.
 * **Precision optimization within each channel:**
-  Different strategies should be applied based on channel characteristics.
+  Different strategies should be applied based on channel characteristics—a framework detailed in [user quality assessment](https://chloevolution.com/posts/user-quality-assessment-in-digital-marketing/).
 
   * **Search channels:** Focus on granular keyword bidding to maximize capture of high-intent queries.
   * **Display channels:** Leverage platform algorithms such as **Value-Based Optimization (VBO)**. By feeding back high-quality post-conversion signals (e.g., deposits or high-value purchases), the algorithm can automatically filter out low-value users and allocate budget toward high-potential audiences.

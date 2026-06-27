@@ -18,7 +18,7 @@ During the cold-start phase of a product, resources are scarce, and every decisi
 1. **Inefficient acquisition: Lack of precision**
 
    * Affiliates aim to maximize commission income, not product–user fit. They often cast a wide net, promoting the product to audiences who do not truly need it.
-   * This results in traffic coming in, but with very low willingness to pay and very low long-term retention. **Money is spent on short-lived, unstable users.**
+   * This results in traffic coming in, but with very low willingness to pay and very low long-term retention—a classic [CAC-quality mismatch](https://chloevolution.com/posts/relationship-between-customer-acquisition-cost-and-user-quality/) where money is spent on short-lived, unstable users.
 
 2. **Noise pollution: Fatal for product feedback**
 
@@ -121,12 +121,11 @@ By establishing such structured systems, you convert emotional enthusiasm into e
 
 The **ultimate value** of the Partner strategy is that it solves the two core cold-start problems: **noise traffic** and **ineffective feedback**. It integrates acquisition, product refinement, and brand building in a high-leverage way, helping the product find PMF quickly and accurately.
 
-Once cold start succeeds and the first batch of Partners help confirm PMF, the focus of growth shifts.
-The foundation of long-term company growth becomes **paid conversion** and **high retention**.
+Once cold start succeeds and the first batch of Partners help confirm PMF, the focus shifts to [monetization](https://chloevolution.com/posts/how-to-find-the-best-monetization-path-for-my-business/)—building **paid conversion** and **high retention** as the foundation of long-term growth.
 
 This requires the team to develop the following capabilities:
 
-* **Flexible pricing strategy:** Based on early user feedback, design flexible pricing models around **customization** or **high-value features** to rapidly find the best monetization path.
+* **Flexible pricing strategy:** Integrate early user feedback into your [marketing strategy](https://chloevolution.com/posts/how-to-make-integrated-marketing-strategy/), designing flexible pricing around **customization** or **high-value features**.
 * **Data-driven optimization:** Build strong **full-lifecycle A/B testing capabilities**, using data to continuously optimize the conversion funnel and retention flows.
 * **Protecting existing users:** Early and existing users determine ARR stability. Therefore, **always protect the interests of early users**, not only to retain them but also to preserve the reputation and trust created through the Partnership strategy.
 

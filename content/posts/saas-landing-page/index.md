@@ -19,7 +19,7 @@ Considering different business goals, marketing costs and applicable scenarios, 
     - Independent design: customized for specific marketing activities (such as advertising, brand activities, promotions, etc.), consistent with the official website design style, but with more streamlined and focused content
     - No navigation bar interference: usually choose to hide the global navigation bar at the top, only retain the brand logo and important buttons, avoid users jumping to other pages, and expect to guide users to complete the target conversion actions (such as registration, purchase, etc.)
 - Advantages:
-    - High conversion rate: present as much information as possible in a smaller layout, the content accurately matches user needs, reduces interference, and helps to improve conversion rate.
+    - High conversion rate: present as much information as possible in a smaller layout, the content accurately matches user needs, reduces interference, and helps to improve conversion rate. For form-based conversions, see [webform layout patterns](https://chloevolution.com/posts/best-landing-page-layouts-with-webform/).
     - Support fast iteration: because it is a customized page, it has high flexibility in adjusting content and design, and will not affect other businesses.
     - Easy data analysis: the overall CTA logic of the page is basically consistent, the number of user paths is small, and only a small number of channels use this page, which is convenient for subsequent analysis of data effects.
 - Disadvantages:
@@ -41,11 +41,11 @@ As for which form or website structure is better, it still depends on the brand'
 
 ## Basic page structure
 ### Hero Section
-The first screen is the most important content in the landing page. It is the area that users can see without scrolling. It is necessary to let users understand the theme of the page in the shortest time and prompt them to take the next step.
+The first screen is the most important content in the landing page. It is the area that users can see without scrolling. It is necessary to let users understand the theme of the page in the shortest time and prompt them to take the next step—principles detailed in [landing page optimization](https://chloevolution.com/posts/landing-page-optimization/).
 Usually includes: title (usually brand slogan or landing page theme), subtitle (optional, usually a supplement to the title), CTA button, visual elements (such as product pictures, usage scenario pictures, dynamic demonstrations, etc.).
 
 ### Product Features (Benefits)
-Used to answer the user's question "Why should I choose you" and translate the product features into actual user value.
+Used to answer the user's question "Why should I choose you" and translate the product features into actual user value. For e-commerce contexts, contrast these B2B patterns with [e-commerce conversion strategies](https://chloevolution.com/posts/ecommerce-landing-page/).
 Usually includes: functional points (clearly display the core functions of the product), user benefits (explain the benefits that product functions may bring through actual use scenarios oriented to results), visual design (assisted explanation through pictures, videos, etc.)
 
 ### Social Proof
@@ -225,7 +225,7 @@ Similar to the bottom structure logic of Monday.com, it includes other important
 It is an interactive element that guides users to perform key operations, and is commonly in the form of buttons and links.
 
 #### Core components:
-1. Copy: verb + result (such as "register now", "free download")
+1. Copy: verb + result (such as "register now", "free download")—frameworks available in [landing page copy templates](https://chloevolution.com/posts/command-for-creating-landing-page-copy/)
 2. Visual design: color, shape, size must contrast with the page (such as bright button + white/dark background)
 3. Position: frequently appear at key decision points (such as the top of the page, the end of the function description, etc.)
 

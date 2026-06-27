@@ -22,7 +22,7 @@ For B2C businesses, the key question is: **how to get individual users to pay co
 
 * **Product Sales**: The most direct model, selling goods via e-commerce platforms or offline channels.
 * **Paid Content**: Users pay for high-quality content such as knowledge, videos, or courses. This has grown rapidly in education and knowledge-based services.
-* **Advertising Monetization**: When user scale is large enough, advertising becomes a core revenue source.
+* **Advertising Monetization**: When user scale is large enough, advertising becomes a core revenue source—[digital advertising](https://chloevolution.com/posts/types-of-digital-advertising/) spans multiple formats and platforms.
 * **Membership/Subscription**: Offering long-term benefits or exclusive experiences through subscription fees.
 * **Tipping/Interactive Payments**: Users make small payments to support content creators, common in live streaming and communities.
 
@@ -33,7 +33,7 @@ In China, B2C monetization often relies on **traffic-driven models** (e.g., Taob
 B2B monetization focuses on: **helping businesses improve efficiency, reduce costs, or increase revenue**. Typical models include:
 
 * **SaaS/Software Subscription**: Enterprise tools or office software with recurring subscription fees and strong user retention.
-* **Advertising Services**: Helping businesses acquire customers through traffic and advertising solutions.
+* **Advertising Services**: Helping businesses acquire customers through traffic and [advertising solutions](https://chloevolution.com/posts/how-to-allocate-online-advertising-budget/)—budget allocation is critical for ROI.
 * **Enterprise Services**: Management consulting, training, IT outsourcing, addressing organizational efficiency challenges.
 * **Data Services**: Providing market research and analytics to support business decisions.
 * **Transaction Commissions/Matching Fees**: Earning a commission by facilitating transactions between suppliers and buyers.
@@ -130,7 +130,7 @@ Choosing the right monetization path is not “copying others.” It requires ev
 
 ### 6. Business Goals and Stage
 
-* **Startup** → prioritize cash flow, fast revenue models (ads or transaction fees).
+* **Startup** → prioritize cash flow, fast revenue models (ads or transaction fees). [Cold start strategies](https://chloevolution.com/posts/cold-start-strategy-for-a-new-product/) matter for new products.
 * **Growth** → mix ads, subscription, and value-added services.
 * **Mature** → ecosystem/platform approach, leveraging multiple products and services for long-term profitability.
 
@@ -195,7 +195,7 @@ The choice of monetization is essentially a **match between users, product, reso
 
 ---
 
-There is no “one-size-fits-all” monetization. The best model depends on **user characteristics, product type, and company resources**. Increasingly, businesses adopt **diversified hybrid models**, leveraging ads for traffic revenue while deepening value with subscriptions and premium services.
+There is no "one-size-fits-all" monetization. The best model depends on **user characteristics, product type, and company resources**. Increasingly, businesses adopt **diversified hybrid models**, leveraging ads for traffic revenue while deepening value with subscriptions and premium services—[B2B marketing evaluation](https://chloevolution.com/posts/how-to-evaluate-b2b-marketing/) requires different metrics than B2C.
 
 AI and smart recommendations will make advertising more precise, while subscription and personalized services continue to grow. Companies must flexibly adapt monetization strategies to find the **most sustainable long-term revenue path**.
 
