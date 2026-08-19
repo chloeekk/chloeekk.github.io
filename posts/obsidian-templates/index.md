@@ -1,4 +1,4 @@
-# Complete Guide to Obsidian Templates: From Basics to Advanced, with 7 Practical Templates
+# Complete Guide to Obsidian Templates: From Basics to Advanced, with 11 Practical Templates
 
 
 When taking notes in Obsidian, have you noticed yourself repeating the same tasks? Every time you create a book note, you manually enter fields like "title, author, reading date"; every time you write a Daily Note, you recreate the same heading structure; every project note requires building the "goals, tasks, progress" framework from scratch.
@@ -14,7 +14,7 @@ Obsidian's template feature can completely solve this problem. By using template
 This article will cover in detail:
 - How to set up and use Obsidian's template feature
 - The difference between the core Templates plugin and the Templater plugin
-- 7 practical templates you can use directly
+- 11 practical templates you can use directly
 - Best practices for template design
 
 
@@ -156,9 +156,9 @@ The Templates plugin provides several useful variables that can automatically fi
 For example, `{{date:YYYY-MM-DD HH:mm}}` will output `2026-05-23 14:30`
 
 
-## 7 Practical Templates You Can Use Directly
+## 11 Practical Templates You Can Use Directly
 
-Below are 7 templates that you can copy and use directly, or adjust according to your own needs.
+Below are 11 practical templates that you can copy and use directly, or adjust according to your own needs.
 
 ### 1. Meeting Notes Template
 
@@ -659,6 +659,427 @@ How to apply this knowledge in practice?
 -
 ```
 
+### 8. Bullet Journal Template
+
+Bullet Journal is a flexible note-taking method that differs from Daily Notes by emphasizing rapid logging and a symbol system. Suitable for quickly capturing ideas, tasks, and events.
+
+```markdown
+---
+date: {{date}}
+type: Bullet Journal
+tags: #bullet-journal
+---
+
+# 🎯 {{date:YYYY-MM-DD}}
+
+## 📝 Rapid Logging
+
+### Tasks
+- [ ] 
+- [ ] 
+- [ ] 
+
+### Events
+• 
+• 
+
+### Notes
+- 
+- 
+
+### Ideas
+○ 
+○ 
+
+## 🎯 Priorities
+
+**Must Do Today**:
+1. 
+2. 
+3. 
+
+**Important but Not Urgent**:
+- 
+
+## 🔄 Migration
+
+**Migrated from Yesterday**:
+- [ ] 
+
+**Migrate to Tomorrow**:
+- [ ] 
+
+## 📊 Habit Tracker
+
+| Habit | Complete |
+|------|----------|
+| Wake up early | ☐ |
+| Exercise | ☐ |
+| Reading | ☐ |
+| 8 glasses of water | ☐ |
+
+## 💭 Daily Reflection
+
+**Grateful for**:
+
+**Learned Today**:
+
+---
+
+**Symbol Key**:
+• Event  
+○ Idea/Inspiration  
+- Note  
+[ ] Task  
+[x] Complete  
+[>] Migrated  
+[<] Scheduled
+```
+
+### 9. Academic Research Template
+
+Suitable for academic research, literature review, paper reading, and other academic scenarios.
+
+```markdown
+---
+document_type: Journal Paper/Conference Paper/Book Chapter
+author:
+publication_year:
+research_field:
+reading_date: {{date}}
+tags: #research-notes #literature-review
+---
+
+# 📄 {{title}}
+
+## 📚 Basic Information
+
+**Title**:
+**Author**:
+**Publication Date**:
+**Journal/Conference**:
+**DOI**:
+**Link**:
+
+## 🎯 Research Background
+
+**Research Question**:
+
+**Research Motivation**:
+
+**Research Significance**:
+
+## 🔬 Research Methods
+
+**Method Type**: (Experimental/Theoretical/Survey/Case Study, etc.)
+
+**Research Design**:
+
+**Data Sources**:
+
+**Analysis Methods**:
+
+## 💡 Key Arguments
+
+### Main Findings
+1. 
+2. 
+3. 
+
+### Innovations
+- 
+- 
+
+### Theoretical Contributions
+- 
+
+## 📊 Research Results
+
+**Key Data**:
+
+**Result Interpretation**:
+
+## 🤔 Critical Thinking
+
+**Strengths**:
+- 
+
+**Limitations**:
+- 
+
+**Areas for Improvement**:
+- 
+
+## 🔗 Related Research
+
+**Important Cited Literature**:
+- [[]]
+- [[]]
+
+**Citation Status**:
+
+**Related Research Directions**:
+- [[]]
+
+## 💼 Practical Applications
+
+**How to Apply to My Research**:
+
+**Methods to Learn From**:
+
+**New Ideas Inspired**:
+
+## 📋 To-Do Items
+
+- [ ] Read other papers by the author
+- [ ] Find related literature
+- [ ] Organize into literature review
+
+## 📝 Citation Format
+
+**APA Format**:
+
+**BibTeX**:
+```
+
+### 10. Person Profile Template
+
+Suitable for relationship management, personal information recording, professional network building, and other scenarios.
+
+```markdown
+---
+name:
+type: Friend/Colleague/Partner/Mentor/Client
+met_date: {{date}}
+tags: #person-profile
+---
+
+# 👤 {{title}}
+
+## 📋 Basic Information
+
+**Name**:
+**Nickname/Alias**:
+**Gender**:
+**Date of Birth**:
+**Current Location**:
+**Hometown**:
+
+## 💼 Professional Information
+
+**Current Position**:
+**Company**:
+**Industry**:
+**Expertise**:
+**Professional Background**:
+
+## 📞 Contact Information
+
+**Phone**:
+**Email**:
+**WeChat/WhatsApp**:
+**LinkedIn**:
+**Other Social Media**:
+
+## 🤝 Relationship Information
+
+**Met Date**: {{date}}
+**Met Where**:
+**Relationship Type**: Friend/Colleague/Partner
+**Closeness**: ⭐⭐⭐⭐⭐
+**Mutual Friends**: [[]] [[]]
+
+## 🎯 Interests & Hobbies
+
+**Interests**:
+- 
+
+**Skills & Specialties**:
+- 
+
+**Favorite Topics**:
+- 
+
+## 💬 Interaction History
+
+### {{date:YYYY-MM-DD}} - Recent Interaction
+
+**Interaction Type**: Meeting/Call/Message
+**Main Content**:
+
+**Topics Discussed**:
+
+### Past Interactions
+- 
+
+## 🎁 Personal Preferences
+
+**Favorite Gifts**:
+
+**Dietary Preferences**:
+
+**Topics to Avoid**:
+
+**Important Dates**:
+- Birthday:
+- Anniversaries:
+
+## 📝 Notes
+
+**Personality Traits**:
+
+**Communication Style**:
+
+**How I Can Help Them**:
+
+**How They Can Help Me**:
+
+## 🔗 Related Notes
+
+**Related Projects**: [[]]
+**Shared Activities**: [[]]
+**Resources They Recommended**: [[]]
+
+## 📅 To-Do Items
+
+- [ ] Next contact time:
+- [ ] Follow-up items:
+```
+
+### 11. Lecture Notes Template
+
+Specifically designed for classroom learning, suitable for university courses, online courses, training lectures, etc.
+
+```markdown
+---
+course_name:
+course_code:
+instructor:
+class_time: {{date}}
+session: Week X Session X
+tags: #lecture-notes
+---
+
+# 📚 {{title}}
+
+**Course**:
+**Time**: {{date:YYYY-MM-DD HH:mm}}
+**Location**:
+**Instructor**:
+
+## 📋 Course Outline
+
+Today's Topic:
+
+Learning Objectives:
+1. 
+2. 
+3. 
+
+## 📖 Pre-Class Preparation
+
+**Pre-reading**:
+- [ ] Read textbook Chapter X
+- [ ] Watch preview video
+
+**Pre-reading Questions**:
+- 
+
+## 📝 Lecture Notes
+
+### Part 1:
+
+**Core Concept**:
+
+**Key Points**:
+- 
+- 
+
+**Examples**:
+
+### Part 2:
+
+**Core Concept**:
+
+**Key Points**:
+- 
+- 
+
+**Examples**:
+
+### Part 3:
+
+**Core Concept**:
+
+**Key Points**:
+- 
+- 
+
+**Examples**:
+
+## 💡 Highlights
+
+⭐ **Exam Focus**:
+
+⚠️ **Difficult Points**:
+
+💬 **Instructor Emphasized**:
+
+## ❓ Questions & Confusion
+
+1. ❓ 
+2. ❓ 
+
+**Resolution Methods**:
+- [ ] Ask instructor after class
+- [ ] Research materials
+- [ ] Discuss with classmates
+
+## 🔗 Related Resources
+
+**Slides Link**:
+
+**Reference Materials**:
+- 
+
+**Related Notes**:
+- [[Previous Lecture Notes]]
+- [[Related Topic Notes]]
+
+## 📚 Homework
+
+### Assignment 1
+- **Due Date**:
+- **Requirements**:
+- **Progress**: ☐ Not Started / ⏳ In Progress / ✅ Completed
+
+### Assignment 2
+- **Due Date**:
+- **Requirements**:
+- **Progress**: ☐ Not Started / ⏳ In Progress / ✅ Completed
+
+## 📅 Next Class Preview
+
+**Topic**:
+**Time**:
+**Preparation Needed**:
+- [ ] 
+
+## 🤔 Post-Class Reflection
+
+**What I Learned Today**:
+
+**Still Don't Understand**:
+
+**How to Apply**:
+
+## 📊 Review Plan
+
+- [ ] Within 24 hours: Review notes, organize concepts
+- [ ] Within 1 week: Complete homework, practice problems
+- [ ] Before exam: Focus on highlighted content
+```
+
 
 ## Templater Plugin: A More Powerful Template Solution
 
@@ -822,7 +1243,81 @@ Templates/
 
 ## Frequently Asked Questions
 
-### 1. What if variables aren't replaced after inserting a template?
+### 1. Unable to Insert Template: "Failed to List Templates" or Can't Find Templates?
+
+This is one of the most common issues beginners encounter. When you try to insert a template and experience any of the following:
+- Can't find any template options in the command palette
+- Error message "No templates found"
+- Error message "Failed to list templates"
+- Template list is empty
+
+**Causes and Solutions**:
+
+#### Cause 1: Template Folder Does Not Exist
+
+This is the most common reason. Obsidian does not automatically create the template folder; it only remembers the path in the configuration.
+
+**How to Check**:
+1. Open the file explorer and check if the template folder you configured exists in your vault
+2. Go to Settings → Templates → Check the path configured in "Template folder location"
+
+![obsidian-template-folder-location](obsidian-template-folder-location.png)
+
+**Solution**:
+1. Manually create the template folder in the vault root directory or specified location
+2. Ensure the folder name exactly matches the configuration in settings (case-sensitive)
+
+#### Cause 2: Incorrect Template Folder Path Configuration
+
+If the folder exists but templates still can't be found, the path configuration may be incorrect.
+
+**Common Errors**:
+- Extra spaces before or after the path: ` Templates ` should be `Templates`
+- Wrong slash type: `Templates\subfolder` should be `Templates/subfolder`
+- Path is not relative to vault root: `/Users/xxx/Templates` should be `Templates`
+
+**Solution**:
+1. Go to Settings → Templates
+2. Clear the "Template folder location" field
+3. Re-enter the correct relative path (relative to vault root directory)
+4. For example: `Templates` or `Resources/Templates`
+
+#### Cause 3: Template Folder is Empty
+
+If the folder exists but contains no markdown files, you won't find any options when trying to insert a template.
+
+**Solution**:
+1. Create at least one `.md` file in the template folder
+2. Add some content to the file (even just a few words)
+3. Try inserting the template again
+
+#### Cause 4: Templates Plugin Not Enabled
+
+If you forgot to enable the core plugin, the template functionality will be completely unavailable.
+
+**How to Check**:
+1. Go to Settings → Core plugins
+2. Check if the "Templates" plugin is enabled
+3. If it's grayed out, click the toggle to enable it
+
+![obsidian-core-plugins-templates](obsidian-core-plugins-templates.png)
+
+**Solution**:
+After enabling the Templates plugin, a "Templates" option will appear in the left settings menu, and then you can configure the folder.
+
+#### Cause 5: File Permission Issues (Less Common)
+
+In some cases (especially when using network sync or external storage), file permission issues may occur.
+
+**How to Check**:
+Try manually creating or editing files in the template folder to see if it succeeds.
+
+**Solution**:
+1. Check read/write permissions for the vault location
+2. If using iCloud, Dropbox, etc., ensure files are fully synced
+3. Try moving the template folder inside the vault (rather than using symbolic links)
+
+### 2. What if variables aren't replaced after inserting a template?
 
 **Reason**: Possibly variable syntax error, or using Templater syntax without installing the Templater plugin.
 
@@ -831,7 +1326,7 @@ Templates/
 - Templater plugin uses `<% tp.date.now() %>` syntax
 - Confirm the syntax you're using matches the installed plugin
 
-### 2. Can I use Dataview queries in templates?
+### 3. Can I use Dataview queries in templates?
 
 Yes. Add a Dataview code block in the template, it will execute normally after insertion:
 
@@ -843,7 +1338,7 @@ WHERE Status = "In Progress"
 ```
 ````
 
-### 3. How to set default templates for different folders?
+### 4. How to set default templates for different folders?
 
 Use Templater plugin's "Folder Templates" feature:
 1. Install and enable Templater
@@ -852,7 +1347,7 @@ Use Templater plugin's "Folder Templates" feature:
 
 For example: `Projects/` folder automatically uses "Project Management Template".
 
-### 4. Can templates include bidirectional links?
+### 5. Can templates include bidirectional links?
 
 Yes. Use `[[]]` syntax in templates, links will be created after insertion:
 
@@ -862,7 +1357,7 @@ Yes. Use `[[]]` syntax in templates, links will be created after insertion:
 - [[]]
 ```
 
-### 5. How to set cursor position in templates?
+### 6. How to set cursor position in templates?
 
 **Templates Plugin**: Does not support cursor positioning
 
@@ -880,20 +1375,20 @@ Yes. Use `[[]]` syntax in templates, links will be created after insertion:
 
 After inserting the template, the cursor will position at the first location, press Tab to jump to the next location.
 
-### 6. Can I use templates on mobile?
+### 7. Can I use templates on mobile?
 
 Yes. Obsidian mobile fully supports both Templates and Templater plugins. Operation method:
 1. Open command palette (click command icon in upper left)
 2. Search for "Insert template"
 3. Select template
 
-### 7. Will template files themselves be searched?
+### 8. Will template files themselves be searched?
 
 Yes. If you don't want to see template files in global search, you can:
 1. Add template folder in Settings → Files & Links → Excluded files
 2. Or add `publish: false` in the template file's YAML
 
-### 8. How to share templates with others?
+### 9. How to share templates with others?
 
 The simplest way:
 1. Copy template files to the other person's vault
@@ -904,11 +1399,62 @@ If you have multiple templates to share, you can:
 - Use Obsidian's sync feature
 
 
+## Official Resources and Further Reading
+
+If you want to learn more about Obsidian templates, here are some official documentation and useful resources:
+
+### Obsidian Official Documentation
+
+**Templates Core Plugin Official Documentation**
+- 🔗 [Obsidian Help - Templates Plugin](https://help.obsidian.md/Plugins/Templates)
+- This is the complete official documentation for the Templates plugin, including all supported variables, date format specifications, and configuration options
+
+**Obsidian Official Help Center**
+- 🔗 [Obsidian Help](https://help.obsidian.md/)
+- The official help center covers all Obsidian features; search for "templates" to find related content
+
+### Templater Plugin Resources
+
+If you're using or planning to use the more powerful Templater plugin:
+
+**Templater Official Documentation**
+- 🔗 [Templater Documentation](https://silentvoid13.github.io/Templater/)
+- Complete Templater feature documentation, including all built-in functions, user functions, system commands, and detailed explanations
+- Provides rich examples and use cases
+
+**Templater GitHub Repository**
+- 🔗 [Templater on GitHub](https://github.com/SilentVoid13/Templater)
+- Source code, issue reporting, and feature requests
+
+### Community Resources
+
+**Obsidian Official Forum**
+- 🔗 [Obsidian Forum](https://forum.obsidian.md/)
+- Find templates shared by other users, usage tips, and problem solutions
+- Search "templates" to find numerous related discussions
+
+**Obsidian Discord Community**
+- 🔗 [Obsidian Discord](https://discord.gg/obsidianmd)
+- Active real-time community where you can quickly get help and advice
+
+### Template Libraries
+
+**Community Template Sharing**
+- Many users share Obsidian template repositories on GitHub; search "obsidian templates" to find them
+- [Obsidian Hub](https://publish.obsidian.md/hub/) - Community-maintained resource center featuring templates, plugins, workflows, and more
+
+### Learning Recommendations
+
+1. **Start with official documentation**: Read the Templates core plugin official documentation first to understand basic features
+2. **Practice-oriented**: Read documentation while actually working in your vault
+3. **Refer to the community**: When encountering problems, search the official forum and Discord first; many questions already have answers
+4. **Progress gradually**: Master the core Templates plugin first, then learn Templater when needed
+
 ## Summary
 
 The template feature looks simple, but when used well, it can greatly improve note-taking efficiency.
 
-From enabling the Templates plugin, creating your first template, to using the 7 practical templates provided in this article, to understanding Templater as a more powerful option—you now have mastered the complete method of using templates in Obsidian.
+From enabling the Templates plugin, creating your first template, to using the 11 practical templates provided in this article, to understanding Templater as a more powerful option—you now have mastered the complete method of using templates in Obsidian.
 
 My suggestion is: start with a simple template, such as Daily Notes or book notes. After using it for a while, adjust fields and structure based on actual needs. Templates are not designed once and never changed, but are continuously optimized during use.
 
