@@ -125,6 +125,73 @@ After writing, close the note. Tomorrow when you open Obsidian again, click that
 
 💡 **Pro tip**: Want faster access to Daily Notes? You can set up a keyboard shortcut. Go to Settings → Hotkeys, search for `Open today's daily note`, and set it to `Ctrl/Cmd + D`. From then on, one shortcut opens today's note.
 
+### Advanced Setup: Open Daily Note on Startup
+
+If the first thing you do every day when opening Obsidian is check your Daily Note, you can set it to open automatically on startup. This eliminates the manual clicking step—open Obsidian and you can start recording right away.
+
+**Why do you need this feature?**
+
+In the morning, you open your computer, launch Obsidian, then have to click the calendar icon or press a hotkey to open today's note. Although it's just one extra step, over time, this small friction might make you less inclined to open your Daily Note.
+
+But if today's Daily Note is already there waiting for you when Obsidian starts, the barrier to recording becomes even lower.
+
+**Method 1: Use Workspace Feature (Recommended)**
+
+Obsidian's Workspace feature can save your window layout and open notes. This is the simplest method.
+
+1. First open today's Daily Note
+2. If you want to display other panels at the same time (like the Calendar plugin), open them too
+3. Press `Ctrl/Cmd + P` to open the command palette
+4. Type `Manage workspace layouts` and press Enter
+5. Click `Save current layout`
+6. Give it a name, like "Daily Note Workspace"
+7. Open the command palette again and type `Manage workspace layouts`
+8. Find the workspace you just saved in the list, click the three dots on the right
+9. Select `Load on startup`
+
+Done! Next time you open Obsidian, it will automatically load this workspace and today's Daily Note will open automatically.
+
+**Method 2: Use Commander Plugin (More Flexible)**
+
+If you want more control, you can use the Commander plugin. This plugin lets you customize commands that execute when Obsidian starts.
+
+1. Install the Commander plugin (Settings → Community plugins → Browse → Search "Commander")
+2. After enabling the plugin, go to Commander settings
+3. Find the "Startup commands" section
+4. Click "Add command"
+5. Search for and add `Open today's daily note`
+6. Save settings
+
+Now every time you start Obsidian, it will automatically execute the "open today's daily note" command.
+
+**Method 3: Combine with Templater for Smarter Startup**
+
+If you have the Templater plugin installed, you can do more advanced things. For example:
+- Not only open Daily Note on startup, but also automatically insert the template
+- Automatically open different notes based on time of day (open Daily Note in morning, review note in evening)
+
+This requires some coding knowledge. If you're familiar with Templater, you can run custom scripts on startup.
+
+**Important Considerations**
+
+1. **Don't make it too complex**: Auto-opening one note on startup is enough. If you set up too many automatic actions, Obsidian startup will slow down.
+
+2. **Consider your use case**: If you use Obsidian for more than just Daily Notes and frequently check project notes or knowledge notes, having Daily Note open every time might actually be inconvenient. This feature is best for people who use Daily Note as their "work hub."
+
+3. **Mobile differences**: Mobile Obsidian startup behavior isn't exactly the same as desktop. If you primarily use it on your phone, you may need to manually open Daily Note or use specific mobile plugins.
+
+**Alternative Solution: Use Homepage Plugin**
+
+Another approach is to install the Homepage plugin and set Daily Note as Obsidian's "home page." This way, every time you open Obsidian or click the "go to home page" button, you'll jump to today's Daily Note.
+
+The benefit of this method is more flexibility—it's not forcing Daily Note to open every startup, but giving you a quick way to return to Daily Note.
+
+**My Recommendation**
+
+When you're just starting with Daily Notes, don't rush to set up auto-startup. Use it for a while first, confirm that Daily Note really is a note you open every day, then set up this feature.
+
+For most people, **Method 1 (Workspace feature)** is the simplest and most practical. Set it once, then forget about it.
+
 
 ## Practical Workflows: Actually Using Daily Notes
 
@@ -528,6 +595,26 @@ After installation, you can set up:
 
 Then link to this week's/this month's note in your Daily Note, forming a hierarchical structure.
 
+### Natural Language Dates Plugin: Create Notes with Natural Language
+
+**Necessity: ⭐⭐⭐**
+
+This plugin lets you quickly create future or past Daily Notes using natural language.
+
+**Why do you need it?**
+- Want to write tomorrow's to-do list in advance
+- Need to plan arrangements for a specific day next week
+- Want to review what happened on a certain day last week
+
+After installation, you can input natural language like "tomorrow," "next Monday," or "3 days from now," and the plugin will automatically convert it to the corresponding date.
+
+**How to use?**
+1. Install the Natural Language Dates plugin
+2. Press `Ctrl/Cmd + P` to open the command palette
+3. Type `Natural Language Dates: Date`
+4. Enter "tomorrow" or "next Monday"
+5. The plugin will automatically create the Daily Note for that date
+
 ### Optional Plugins: Advanced User Choices
 
 If you're already proficient with Daily Notes, consider these advanced plugins:
@@ -561,7 +648,146 @@ Remember: Tools are meant to make life simpler, not more complex.
 
 If you're already proficient with Daily Notes, here are some advanced tips to make your note system more powerful.
 
-### Tip 1: Use Tags to Categorize Content
+### Tip 1: Create Daily Notes for Future Dates
+
+Sometimes you need to plan ahead—like tomorrow's to-do list or meeting prep for next Monday. But Daily Notes by default only creates "today's" note, so what do you do?
+
+**Method 1: Use Calendar Plugin (Easiest)**
+
+If you've already installed the Calendar plugin, this is super simple.
+
+1. Look at the calendar in the right sidebar
+2. Click on the date you want to create a note for (like tomorrow, next Wednesday)
+3. Obsidian will automatically create the Daily Note for that day
+4. Start writing content
+
+This is the most intuitive method. Want to create a note for a specific day? Just click that date on the calendar.
+
+**Method 2: Use Command Palette**
+
+Don't want to install plugins? You can use the command palette.
+
+1. Press `Ctrl/Cmd + P` to open the command palette
+2. Type `Open daily note`, and you'll see a command called `Daily notes: Open daily note`
+3. Select it, then a date picker will appear
+4. Enter the date you want, like `2026-08-25`
+5. Press Enter, and the Daily Note for that date is created
+
+**Method 3: Use Natural Language Dates Plugin**
+
+Want a more natural way? Try the Natural Language Dates plugin.
+
+After installing this plugin, you can:
+1. Press `Ctrl/Cmd + P` to open the command palette
+2. Type `NLD: Date` (Natural Language Dates abbreviation)
+3. In the input box that appears, enter natural language:
+   - "tomorrow" → Creates tomorrow's note
+   - "next Monday" → Creates next Monday's note
+   - "in 3 days" → Creates note for 3 days from now
+   - "next Friday" → Creates next Friday's note
+
+The plugin will automatically recognize the date and create the corresponding Daily Note.
+
+**Method 4: Manual Creation (Not Recommended but Works)**
+
+If you don't want to install any plugins, you can create manually:
+
+1. In your Daily Notes folder, create a new note
+2. Name the file according to your date format, like `2026-08-25.md`
+3. If you have a template, manually insert the template content
+
+This method is clunky, but doesn't require any plugins.
+
+**Real-World Use Cases**
+
+When do you need to create future Daily Notes?
+
+**Scenario 1: Weekend Planning for Next Week**
+On Sunday evening, I create Daily Notes for Monday through Friday of next week and write key tasks for each day. This way when Monday morning arrives, I know exactly what to do.
+
+```markdown
+# 2026-08-25 (Monday)
+
+## Today's Priorities
+- [ ] Complete first draft of project proposal
+- [ ] Phone call with client about requirements
+- [ ] Prepare materials for team meeting
+
+## Schedule
+- 10:00 Team weekly meeting
+- 14:00 Client phone call
+```
+
+**Scenario 2: Preparing for Important Meetings**
+I have an important presentation in three days, so I create that day's Daily Note in advance and list out preparation items:
+
+```markdown
+# 2026-08-28 (Thursday)
+
+## Presentation Prep
+- [ ] Review PPT one last time
+- [ ] Practice complete flow once
+- [ ] Prepare backup examples
+
+## Reminders
+- Arrive 30 minutes early
+- Bring USB backup
+- Fully charge laptop
+```
+
+**Scenario 3: Recording Future Appointments**
+A friend scheduled to meet next Saturday, so I note it in that day's Daily Note:
+
+```markdown
+# 2026-08-30 (Saturday)
+
+## Appointments
+- 15:00 Meet Li Si at coffee shop
+- Discuss collaboration project
+- Remember to bring that document
+```
+
+**Important Considerations**
+
+1. **Don't create too many in advance**
+   
+   I've seen people create a whole month of Daily Notes at once. That's unnecessary. Usually creating 1 week ahead is enough—things too far out will likely change.
+
+2. **Notes created in advance might stay empty**
+   
+   Sometimes plans don't keep up with changes, and the Daily Note you created in advance might not get used when that day comes. That's fine—empty is empty, it doesn't affect anything.
+
+3. **Distinguish clearly from today's Daily Note**
+   
+   Creating in advance is for "planning," while today's Daily Note is for "execution." Don't stuff all ideas into future notes—things happening today should be recorded today.
+
+**Combining with Templater: Automated Creation**
+
+If you use the Templater plugin, you can set up a custom command to create Daily Notes for the remaining days of the week with one click:
+
+```javascript
+<%*
+const today = tp.date.now("YYYY-MM-DD");
+const daysToCreate = 7; // Create notes for next 7 days
+
+for (let i = 1; i <= daysToCreate; i++) {
+    const futureDate = tp.date.now("YYYY-MM-DD", i);
+    // Note creation logic
+}
+%>
+```
+
+This is more advanced—if you're familiar with Templater, you can explore this.
+
+**My Recommendation**
+
+If you only occasionally need to create notes for tomorrow or the day after, the **Calendar plugin** is completely sufficient—just click the calendar.
+
+If you frequently need to plan a week's content in advance, try the **Natural Language Dates plugin**—typing "next Monday" is even faster than clicking the calendar.
+
+Don't learn complex tools specifically for the "create future notes" feature. Keep it simple, use what works.
+
+### Tip 2: Use Tags to Categorize Content
 
 In Daily Notes, use tags to mark different types of content.
 
@@ -574,7 +800,7 @@ In Daily Notes, use tags to mark different types of content.
 
 The benefit of doing this is that later you can search for `#idea` to find all content marked as "idea," no matter which day's Daily Note they're scattered across.
 
-### Tip 2: Build an MOC (Map of Content)
+### Tip 3: Build an MOC (Map of Content)
 
 If your Daily Notes have accumulated for several months, there will be a lot of content. At this point you can create a "Daily Notes Index" note, linking important Daily Notes together.
 
@@ -683,7 +909,142 @@ Diaries focus on:
 
 Of course, you can also combine the two. In Daily Notes, record both work and life and emotions. There are no fixed rules—whatever works for you is best.
 
-### Q4: How much content should I write in Daily Notes?
+### Q4: I want one long file for all my days instead of one file per day—is that possible?
+
+Yes! While Obsidian's Daily Notes is designed for "one file per day," some people prefer the traditional journal feel—all content in one long file, writing down by date.
+
+Both approaches have pros and cons. Let me break it down.
+
+**Why do some people want a single long file?**
+
+This need is quite common, especially for:
+
+1. **Used to traditional journals**: Paper journals are flipped and written down page by page; one file feels more intuitive
+2. **Don't like too many files**: Seeing hundreds of Daily Notes files in a folder feels messy
+3. **Want to quickly browse all records**: One file lets you scroll through everything without clicking around
+4. **Easier to export and share**: One Markdown file is a complete journal, simpler to export
+
+**Single Long File vs Multiple Daily Notes: Comparison**
+
+| Feature | Single Long File | Multiple Daily Notes (Default) |
+|---------|------------------|-------------------------------|
+| **File Management** | Simple, only one file | Needs folder organization |
+| **Find Specific Date** | Need to scroll or search | Directly open corresponding file |
+| **Loading Speed** | Slows down when file gets large | Each file is small, loads fast |
+| **Backup & Sync** | One big file, higher conflict risk | Multiple small files, fewer conflicts |
+| **Link to Other Notes** | Can only link to file, not specific day | Can precisely link to a specific day |
+| **Review Experience** | Good continuous reading experience | Need to switch between files |
+| **Plugin Compatibility** | Calendar and other plugins don't support | Fully compatible |
+
+**How to Implement "Single Long File" Journal?**
+
+Obsidian's Daily Notes plugin doesn't support this mode, but you can achieve it other ways.
+
+**Method 1: Manually Manage One Journal File**
+
+The simplest method is to not use the Daily Notes plugin and maintain your own journal file.
+
+1. Create a note, like `My Journal.md` or `2026 Journal.md`
+2. Manually add new date headers each day
+3. Write your day's content under the header
+
+```markdown
+# My Journal
+
+## 2026-08-20 Wednesday
+
+Completed first draft of project proposal today. Meeting with client this afternoon—they're very satisfied with the new features.
+Remember to reply to Zhang San's email tomorrow.
+
+---
+
+## 2026-08-21 Thursday
+
+Revised a few details in the proposal this morning. Finally fixed that login bug—turned out to be a configuration issue.
+
+---
+
+## 2026-08-22 Friday
+
+Weekly summary: Completed 3 priorities, overall progress is good. Planning to go hiking this weekend to relax.
+```
+
+**Pros**:
+- Super simple, no plugins needed
+- Complete control over format
+- One file contains everything
+
+**Cons**:
+- Need to manually input dates
+- File will grow increasingly large
+- Can't use Calendar plugin and other tools
+
+**Method 2: Use Templater to Auto-Append Content**
+
+If you have the Templater plugin installed, you can set up a hotkey to automatically append today's date at the end of the file.
+
+1. Create a Templater template file, like `Templates/Append Daily.md`:
+
+```markdown
+---
+
+## <% tp.date.now("YYYY-MM-DD dddd") %>
+
+<% tp.file.cursor() %>
+```
+
+2. In Templater settings, set this template as an "append template"
+3. Set a hotkey for the "append to current file" command, like `Ctrl/Cmd + Shift + D`
+4. Each day, press the hotkey to automatically add today's date header at the end of the file
+
+**Pros**:
+- Auto-inserts date, saves manual typing
+- Maintains single-file simplicity
+- Can customize template format
+
+**Cons**:
+- Need to learn Templater
+- Still need to manually trigger
+- Large files load slowly
+
+**Method 3: Create Long Files by Year**
+
+Compromise: Not "all days in one file," but "one file per year."
+
+```
+Journal/
+  2025 Journal.md
+  2026 Journal.md
+  2027 Journal.md
+```
+
+Create a new file each year and write down by date inside it. This maintains the continuous feel of a long file without the file becoming too large.
+
+**Method 4: Use Periodic Notes Plugin for Monthly Notes**
+
+Further compromise: one file per month.
+
+After installing the Periodic Notes plugin, set up monthly note templates. Each month's records go in one file. Not too large, but maintains some continuity.
+
+**My Recommendation**
+
+Honestly, I once tried the "single long file" mode but eventually returned to "one file per day."
+
+**Why?**
+
+1. **Obsidian's strength is linking**: When you link a specific day's note to a project note, a link like `[[2026-08-20]]` is very clear. With a long file, you can only link to the entire file, losing precision.
+
+2. **Large files really do lag**: I've seen people's journal files exceed 1MB, taking several seconds to open—terrible experience.
+
+3. **Calendar plugin is too useful**: Clicking the calendar to jump to that day's note is an experience long files can't replace.
+
+4. **Backup and sync are safer**: Multiple small files spread the risk—you won't lose all records if one file gets corrupted.
+
+**If you really want the long file feel**, I recommend the **create by year** approach. One file per year has continuity without being too large.
+
+But if you're just starting with Obsidian, I suggest trying the default "one file per day" mode first. Use it for a month, see if you really can't get used to it, then consider switching to a long file. You might find the multi-file mode actually works quite well.
+
+### Q5: How much content should I write in Daily Notes?
 
 There's no standard answer.
 
@@ -693,7 +1054,7 @@ My suggestion is: Don't pressure yourself. The purpose of Daily Notes is to make
 
 If there's really nothing to write on a certain day, then don't write. Or just write "nothing special today." That's also a form of recording.
 
-### Q5: Does content in Daily Notes need to be organized?
+### Q6: Does content in Daily Notes need to be organized?
 
 Depends.
 
@@ -706,7 +1067,7 @@ But if some content is important and worth preserving long-term, then extract it
 
 My habit is to do one extraction during weekly review. Otherwise, let Daily Notes grow freely.
 
-### Q6: Can I put images in Daily Notes?
+### Q7: Can I put images in Daily Notes?
 
 Of course.
 
@@ -719,7 +1080,7 @@ Some people record in Daily Notes:
 
 Images are also part of recording.
 
-### Q7: How do I use Daily Notes on mobile?
+### Q8: How do I use Daily Notes on mobile?
 
 Obsidian has mobile apps (both iOS and Android).
 
@@ -732,7 +1093,7 @@ Mobile use cases:
 
 Although typing on mobile isn't as fast as on computer, recording is better than not recording.
 
-### Q8: Will Daily Notes get mixed up with other notes?
+### Q9: Will Daily Notes get mixed up with other notes?
 
 No, as long as you put Daily Notes in a dedicated folder.
 
