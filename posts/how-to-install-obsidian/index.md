@@ -27,9 +27,11 @@ In your notes, you can quickly reference other notes using `[[Note Title]]`. Obs
 
 The Graph View visually displays the connections between all your notes. This view isn't just aesthetically pleasing—it helps you identify missing knowledge nodes and potential connections.
 
+![obsidian-graph-view](obsidian-graph-view.png)
+
 ### 4. Plugin Ecosystem
 
-Obsidian offers a rich plugin interface, with both official and community-contributed plugins. Whether you need task management, calendars, Kanban boards, full-text search, highlighting, or writing aids, you'll find a plugin to suit your needs.
+Obsidian offers a rich plugin interface, with both official and community-contributed plugins. Whether you need task management, calendars, Kanban boards, full-text search, highlighting, or writing aids, you'll find a plugin to suit your needs. Once Obsidian is installed, use the [guide to installing, managing, and choosing Obsidian plugins](https://chloevolution.com/posts/obsidian-plugins/) to add only the extensions your workflow needs.
 
 ### 5. Offline-First, Privacy-Focused
 
@@ -674,8 +676,8 @@ Go to **Settings → Core plugins** and ensure the following plugins are enabled
 | **Outgoing links** | Display current note's outgoing links | ✅ Recommended |
 | **Tag pane** | Tag panel | ✅ Recommended |
 | **Page preview** | Hover to preview note content | ✅ Recommended |
-| **Templates** | Note template functionality | ✅ Recommended (advanced use) |
-| **Daily notes** | Daily notes functionality | ✅ Recommended (detailed intro later) |
+| **[Templates](https://chloevolution.com/posts/obsidian-templates/)** | Note template functionality | ✅ Recommended (advanced use) |
+| **[Daily notes](https://chloevolution.com/posts/obsidian-daily-notes/)** | Daily notes functionality | ✅ Recommended (detailed intro later) |
 | **Slash commands** | Slash command quick input | ⭐ Optional |
 | **Command palette** | Command palette (shortcut `Ctrl/Cmd+P`) | ✅ Highly recommended |
 
@@ -729,6 +731,10 @@ Go to **Settings → Files & Links**:
 - **Use [[Wikilinks]]**:
   - Recommend enabling—this is Obsidian's core linking method
   - If you need compatibility with standard Markdown, you can disable this and use `[text](link)` format instead
+
+- **Default location for new attachments**:
+  - Choose a dedicated attachment folder before you begin pasting images, so files do not accumulate in the vault root
+  - See the [Obsidian image and attachment management guide](https://chloevolution.com/posts/manage-images-in-obsidian/) for the available folder strategies
 
 #### (3) Folder Structure Suggestions
 
@@ -909,3 +915,4 @@ In the link view, you can also see "Study Plan" linking to "My First Note":
 Now you’ve built a bidirectional link structure, where notes can jump between each other like web pages and automatically track references.
 
 The first time you open Obsidian, it might feel empty, but once you get used to linking notes, it becomes increasingly engaging. Next, I’ll cover more practical uses, like plugin recommendations, search tips, and daily writing organization. If you’re also using Obsidian, let’s explore it together.
+

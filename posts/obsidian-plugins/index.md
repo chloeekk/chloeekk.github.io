@@ -1,4 +1,4 @@
-# The Complete Guide to Obsidian Plugins
+# The Complete Guide to Obsidian Plugins: Installation, Management, and Essential Picks for 2026
 
 
 
@@ -20,9 +20,27 @@ In this guide, I'll share:
 - How to discover, evaluate, and choose plugins that suit you
 - Essential plugins recommended by category
 - Best practices for plugin management
-- Answers to the 10 most common questions
+- Answers to common plugin questions
 
 Whether you're a newcomer who just [installed Obsidian](https://chloevolution.com/posts/how-to-install-obsidian/) or an experienced user looking to optimize your plugin configuration, this article can help you.
+
+
+## Quick Answer: Which Obsidian Plugins Should Beginners Install?
+
+If you only want a practical Obsidian plugin shortlist, choose from these options based on what you actually need:
+
+| Need | Recommended plugin | What it does |
+|---|---|---|
+| Daily notes and calendar navigation | Calendar | Opens and visualizes Daily Notes from a calendar |
+| Smart templates | Templater | Adds dynamic dates, filenames, and template logic |
+| Markdown tables | Advanced Tables | Makes tables easier to navigate, align, and edit |
+| Kanban and project management | Kanban | Manages task status with draggable boards |
+| Tasks across multiple notes | Tasks | Queries deadlines, priorities, and incomplete tasks |
+| Drawing and visualization | Excalidraw | Creates diagrams, flowcharts, and sketches inside Obsidian |
+| Vault-wide search | Omnisearch | Improves search across notes and attachments |
+| Markdown cleanup | Linter | Automatically standardizes note formatting |
+
+Beginners do not need to install all of them. Start with roughly three plugins that solve real problems, use them for a week or two, and add more only when a specific need appears. The sections below explain additional plugins and their best use cases.
 
 
 ## What Are Obsidian Plugins?
@@ -128,7 +146,7 @@ You'll see all available community plugins, and you can:
 - Search by name
 - Sort by downloads
 - Sort by recent updates
-- View plugin descriptions and ratings
+- View plugin descriptions, authors, and download counts
 
 **Pros**:
 - Convenient and quick, no need to leave Obsidian
@@ -158,8 +176,6 @@ It offers:
 - Check ratings, reviews, and download counts
 - After deciding to install, return to Obsidian to install
 
-![Obsidian Stats website showing plugin rankings, ratings, and trending plugins with detailed statistics](obsidian-stats-interface.png)
-
 #### 3. Community Recommendations
 
 Obsidian has a very active community where you can find plugin recommendations:
@@ -177,6 +193,36 @@ Obsidian has a very active community where you can find plugin recommendations:
 **Cons**:
 - Information is scattered, requires time to search
 - May have subjective bias
+
+
+## How to Install and Manage Obsidian Plugins
+
+### Install a Community Plugin
+
+Community plugins are installed separately for each vault. Follow these steps:
+
+1. Open Obsidian **Settings**.
+2. Go to **Community plugins**.
+3. Follow the prompt to turn on community plugins and acknowledge the security notice.
+4. Select **Browse**, then search for the plugin by name.
+5. Open the plugin details and select **Install**.
+6. When installation finishes, select **Enable**.
+
+If an installed plugin appears to do nothing, first confirm that it is enabled. Then check whether it requires a folder path, hotkey, or another initial setting before it can work.
+
+### Where Are Obsidian Plugins Installed?
+
+Community plugins are normally stored in the current vault's `.obsidian/plugins/` directory, with a separate subdirectory for each plugin. Because `.obsidian` is a hidden directory, it may not appear in your file manager by default.
+
+Plugins and their settings generally belong to the current vault rather than to Obsidian globally. Opening or creating another vault therefore does not guarantee that it will have the same plugins. Avoid copying plugin files from untrusted sources; install through Obsidian's built-in community plugin browser whenever possible.
+
+### Update, Disable, or Uninstall a Plugin
+
+- **Update:** Open **Settings → Community plugins**, check for updates, and review the release notes.
+- **Disable temporarily:** Turn off the switch beside the plugin. Its files and settings remain available.
+- **Uninstall completely:** Disable the plugin first, then use its uninstall or delete button.
+
+You do not have to update a plugin that supports an important workflow the moment a new release appears. Back up your vault and confirm compatibility first. If Obsidian becomes slow or unstable, begin by disabling the plugins you most recently installed or updated, then test them one at a time.
 
 ### Plugin Security and Safety Considerations
 
@@ -361,7 +407,7 @@ Daily Notes is the core workflow for many Obsidian users. It lowers the barrier 
 **How to enable**:
 Settings → Core plugins → Enable Daily notes
 
-**Detailed tutorial**: If you want to learn more about using Daily Notes, check out our [complete guide](https://chloevolution.com/posts/obsidian-daily-notes/).
+**Detailed tutorial**: If you want to learn more about using Daily Notes, see the [complete Obsidian Daily Notes guide](https://chloevolution.com/posts/obsidian-daily-notes/).
 
 ### Templates
 
@@ -600,6 +646,8 @@ These plugins improve the editing experience.
 **Why recommended**: IDE-like auto-completion, completes note names and tags, improves typing speed.
 
 **Use cases**: Fast input, reduce spelling errors, improve efficiency.
+
+If your main problem is disorganized pasted images, inconsistent attachment names, or a growing collection of orphaned files, continue with the [Obsidian image and attachment management guide](https://chloevolution.com/posts/manage-images-in-obsidian/). It also covers community plugins designed for attachment cleanup.
 
 ## Frequently Asked Questions
 

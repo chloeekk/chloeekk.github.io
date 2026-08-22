@@ -4,6 +4,8 @@
 
 When taking notes in Obsidian, using images is almost inevitable. Copying and pasting images directly is indeed convenient, but over time you'll find that the images are chaotically placed, resizing them is troublesome, and centering an image is even more difficult. Another pitfall is that when you delete an image from a note, the file doesn’t actually disappear but remains hidden in the root directory.
 
+If you have not created a vault or configured the **Files & Links** options yet, complete the [Obsidian installation and basic setup guide](https://chloevolution.com/posts/how-to-install-obsidian/) before planning your attachment folders.
+
 ## What Exactly Are Images in Obsidian?
 
 When it comes to images, many people’s first thought is that "inserting an image means adding an image directly." However, in Obsidian, images are more like references to "external files." In other words, the images aren’t directly embedded in the note content but are stored in folders on your computer and then displayed in the notes through links or references.
@@ -17,6 +19,8 @@ Inserting images in Obsidian isn’t complicated. Below are several common metho
 ### 1. Copying and Pasting Images
 
 This is the quickest and easiest method. You can copy an image directly from your computer (such as a screenshot or an image from a webpage) and paste it into Obsidian’s editor. Obsidian will automatically save the image to the default attachments folder (usually `.obsidian/assets` or another folder you’ve specified) and generate a reference code for the image in the note.
+
+If you regularly add screenshots, meeting photos, or daily records to a journal, combine these attachment settings with an [Obsidian Daily Notes workflow](https://chloevolution.com/posts/obsidian-daily-notes/) so each day's images do not accumulate in the vault root.
 
 **Pasted Image Naming Rules**:
 
@@ -661,7 +665,7 @@ Common causes:
 
 ### Method 1: Use Community Plugins for Automatic Detection and Cleanup
 
-The most recommended method is to use dedicated plugins for attachment management:
+The most convenient method is to use dedicated plugins for attachment management. If you have not enabled third-party extensions yet, first review the [Obsidian community plugin installation and safety guide](https://chloevolution.com/posts/obsidian-plugins/) for installation locations, updates, and risk evaluation.
 
 #### Plugin Recommendation 1: Consistent attachments and links
 
@@ -765,6 +769,5 @@ This script will list all images that can't be found referenced in Markdown file
 
 
 **My Recommendation**: If your vault has many orphaned images, using the "Consistent attachments and links" plugin for one-click cleanup is the easiest. If you only occasionally clean a few images, using global search for manual confirmation is sufficient. Either way, always backup before cleaning!
-
 
 

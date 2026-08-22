@@ -27,9 +27,11 @@ Markdown是一种轻量级标记语言，它的设计初衷是：让人类更容
 
 图谱视图可以直观展示你所有笔记之间的连接关系。这种视图不仅好看，更重要的是可以帮助你发现遗漏的知识节点和潜在的连接。
 
+![obsidian-graph-view](obsidian-graph-view.png)
+
 ### 4. 插件生态
 
-Obsidian 提供了丰富的插件接口，官方和社区都贡献了大量高质量的插件。无论是任务管理、日历、看板，还是全文搜索、高亮阅读、写作辅助，你都能找到对应的扩展工具。
+Obsidian 提供了丰富的插件接口，官方和社区都贡献了大量高质量的插件。无论是任务管理、日历、看板，还是全文搜索、高亮阅读、写作辅助，你都能找到对应的扩展工具。你可以在安装完成后阅读[Obsidian插件安装、管理与推荐指南](https://chloevolution.com/zh-cn/posts/obsidian-plugins/)，再根据实际需求选择扩展。
 
 ### 5. 离线优先，隐私至上
 
@@ -277,7 +279,7 @@ Windows 版本的 Obsidian 提供两种安装类型，它们的主要区别如�
 **症状**：
 - 双击安装程序后没有反应
 - 安装程序闪退或报错
-- 提示"无法运行此应用"或"此应用无法在你的电脑上运行"
+- 提示“无法运行此应用"或"此应用无法在你的电脑上运行”
 
 **可能的原因及解决方案**：
 
@@ -370,8 +372,8 @@ choco install obsidian
 **完整卸载步骤（Windows）**：
 
 1. **卸载应用程序**：
-   - 打开"设置" → "应用" → "应用和功能"
-   - 找到 "Obsidian"
+   - 打开“设置” → “应用” → “应用和功能”
+   - 找到 “Obsidian”
    - 点击"卸载"
 
 2. **删除残留文件**（可选，彻底清理）：
@@ -561,18 +563,18 @@ rm -rf ~/.config/obsidian
 
 这是Obsidian在第一次启动时提示你“如何开始使用”。简单来说，**Vault 就是你的笔记库**，它对应一个本地文件夹，里面保存的都是 Markdown（.md）文件：
 
-### 1. Create new vault（创建新的笔记库）
+### 1. 创建新的笔记库
 
-**含义**：你要从零开始，创建一个新的笔记文件夹，Obsidian 会在那个文件夹里帮你管理所有笔记。
+你要从零开始，创建一个新的笔记文件夹，Obsidian 会在那个文件夹里帮你管理所有笔记。
 
 **适合谁**：
 
 * 第一次使用 Obsidian 的新用户
 * 想创建一个干净的、独立的笔记空间（比如“工作笔记”或“学习笔记”）
 
-### 2. Open folder as vault（用已有文件夹作为笔记库）
+### 2. 用已有文件夹作为笔记库
 
-**含义**：你已经有一个存放了 Markdown 文件的文件夹，想直接用它作为 Obsidian 的笔记库。
+你已经有一个存放了 Markdown 文件的文件夹，想直接用它作为 Obsidian 的笔记库。
 
 **适合谁**：
 
@@ -580,9 +582,9 @@ rm -rf ~/.config/obsidian
 * 不想移动或复制已有内容，只想“原地管理”
 
 
-### 3. Open vault from Obsidian Sync（从 Obsidian Sync 同步笔记库）
+### 3. 从 Obsidian Sync 同步笔记库
 
-**含义**：你在其他设备上用了 Obsidian Sync（Obsidian 的付费同步功能），现在想把那个同步笔记库拉下来到本机。
+你在其他设备上用了 Obsidian Sync（Obsidian 的付费同步功能），现在想把那个同步笔记库拉下来到本机。
 
 **适合谁**：
 
@@ -604,8 +606,8 @@ Obsidian 默认会根据你的系统语言自动选择界面语言，但你也�
 
 **设置步骤**：
 1. 点击左下角的 **设置图标**（齿轮图标）
-2. 在左侧菜单中找到 **"General"（通用）**
-3. 在 **"Language"（语言）** 下拉菜单中选择 **“简体中文”** 或其他你偏好的语言
+2. 在左侧菜单中找到 **“General”（通用）**
+3. 在 **“Language”（语言）** 下拉菜单中选择 **“简体中文”** 或其他你偏好的语言
 4. 重启 Obsidian 使设置生效
 
 ![language-setting](language-setting.png)
@@ -679,8 +681,8 @@ Obsidian 的插件分为两类：
 | **Outgoing links** | 显示当前笔记的正向链接 | ✅ 推荐 |
 | **Tag pane** | 标签面板 | ✅ 推荐 |
 | **Page preview** | 悬停预览笔记内容 | ✅ 推荐 |
-| **Templates** | 笔记模板功能 | ✅ 推荐（进阶使用） |
-| **Daily notes** | 每日笔记功能 | ✅ 推荐（后面会详细介绍） |
+| **[Templates](https://chloevolution.com/zh-cn/posts/obsidian-templates/)** | 笔记模板功能 | ✅ 推荐（进阶使用） |
+| **[Daily notes](https://chloevolution.com/zh-cn/posts/obsidian-daily-notes/)** | 每日笔记功能 | ✅ 推荐（后面会详细介绍） |
 | **Slash commands** | 斜杠命令快捷输入 | ⭐ 可选 |
 | **Command palette** | 命令面板（快捷键 `Ctrl/Cmd+P`） | ✅ 强烈推荐 |
 
@@ -734,6 +736,10 @@ Obsidian 的插件分为两类：
 - **Use [[Wikilinks]]（使用 Wiki 链接）**：
   - 推荐开启，这是 Obsidian 的核心链接方式
   - 如果你需要兼容标准 Markdown，可以关闭改用 `[text](link)` 格式
+
+- **Default location for new attachments（新附件的默认位置）**：
+  - 建议提前指定统一的附件文件夹，避免粘贴的图片散落在 Vault 根目录
+  - 具体设置方式可以参考[Obsidian图片与附件管理指南](https://chloevolution.com/zh-cn/posts/manage-images-in-obsidian/)
 
 #### （3）文件夹结构建议
 
@@ -940,3 +946,4 @@ Obsidian 支持 [[什么是Markdown]] 格式。
 
 
 第一次打开 Obsidian 也许会觉得有点空，但一旦习惯链接笔记的方式，它会变得越来越有意思。接下来我会写一些更实用的用法，比如插件推荐、搜索技巧、日常写作的整理方式等等。如果你也在用 Obsidian，不妨一起探索下去。
+

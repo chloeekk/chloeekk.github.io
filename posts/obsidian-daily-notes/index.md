@@ -98,8 +98,6 @@ After configuring, click anywhere outside the settings page—settings will auto
 
 ### Step 3: Create Your First Daily Note
 
-Now for the exciting moment—creating your first Daily Note!
-
 There are two methods:
 
 **Method 1: Click the button**
@@ -520,6 +518,8 @@ This template is quite detailed, suitable for people who want to comprehensively
 
 In the "Quick Start" section earlier, we mentioned template file settings. Now you can:
 
+If you have not configured a template folder yet, or want to compare the core Templates plugin with Templater, start with the [Obsidian template setup and practical examples guide](https://chloevolution.com/posts/obsidian-templates/).
+
 1. Choose any template above (or mix elements from several templates)
 2. Create a template file in your vault, like `Templates/Daily Note Template.md`
 3. Copy the template content into it
@@ -534,6 +534,8 @@ Remember, templates aren't set in stone. After using one for a while, you'll dis
 ## Essential Plugin Recommendations: Make Daily Notes More Powerful
 
 Obsidian's Daily Notes feature is already quite useful, but if you want more powerful functionality, try these plugins.
+
+The recommendations below focus specifically on daily-note workflows. For task management, drawing, search, tables, and other categories, see the [complete Obsidian plugin recommendation and management guide](https://chloevolution.com/posts/obsidian-plugins/).
 
 ### Calendar Plugin: Visualize Your Daily Notes
 
@@ -1071,7 +1073,7 @@ My habit is to do one extraction during weekly review. Otherwise, let Daily Note
 
 Of course.
 
-Drag images directly into the Daily Note, or insert with `![[image-name.png]]`. To learn more about managing images in Obsidian, check out the [complete image management guide](https://chloevolution.com/posts/managing-images-in-obsidian/).
+Drag images directly into the Daily Note, or insert them with `![[image-name.png]]`. For attachment folders, image sizing, and orphaned-file cleanup, see the [complete Obsidian image management guide](https://chloevolution.com/posts/manage-images-in-obsidian/).
 
 Some people record in Daily Notes:
 - Today's work screenshots

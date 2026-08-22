@@ -1,4 +1,4 @@
-# Obsidian插件完全指南
+# Obsidian插件完全指南：安装、管理与必备插件推荐（2026）
 
 
 第一次用Obsidian的时候，我觉得"还行吧，就是个笔记软件"。
@@ -19,9 +19,27 @@
 - 如何发现、评估和选择适合你的插件
 - 按类别推荐的必备插件
 - 插件管理的最佳实践
-- 10个最常见问题的解答
+- 常见问题的解答
 
 无论你是刚[安装好Obsidian](https://chloevolution.com/zh-cn/posts/how-to-install-obsidian/)的新手，还是想要优化插件配置的老用户，这篇文章都能帮到你。
+
+
+## 先看结论：新手应该安装哪些Obsidian插件？
+
+如果你只想快速得到一份Obsidian插件推荐清单，可以从下面这些插件中按需选择：
+
+| 使用需求 | 推荐插件 | 主要作用 |
+|---|---|---|
+| 每日笔记与日历 | Calendar | 用日历查看和打开Daily Notes |
+| 智能模板 | Templater | 插入动态日期、文件名和模板逻辑 |
+| Markdown表格 | Advanced Tables | 快速导航、对齐和编辑表格 |
+| 看板与项目管理 | Kanban | 用拖拽看板管理任务状态 |
+| 跨笔记任务汇总 | Tasks | 查询截止日期、优先级和未完成任务 |
+| 绘图与可视化 | Excalidraw | 在Obsidian中制作流程图和草图 |
+| 全库搜索 | Omnisearch | 增强笔记与附件搜索 |
+| 格式整理 | Linter | 自动统一Markdown格式 |
+
+新手不需要一次全部安装。建议先根据真实需求选择3个左右，用一两周后再决定是否增加。本文后半部分会按类别介绍更多插件及适用场景。
 
 
 ## 什么是Obsidian插件？
@@ -127,7 +145,7 @@ Obsidian的插件生态有多大？
 - 按名称搜索
 - 按下载量排序
 - 按最近更新排序
-- 查看插件描述和评分
+- 查看插件说明、作者和下载量
 
 **优点**：
 - 方便快捷，不用离开Obsidian
@@ -157,8 +175,6 @@ Obsidian的插件生态有多大？
 - 看评分、评论和下载量
 - 确定要装后，回到Obsidian内安装
 
-![Obsidian Stats website showing plugin rankings, ratings, and trending plugins with detailed statistics](obsidian-stats-interface.png)
-
 #### 3. 社区推荐
 
 Obsidian有非常活跃的社区，你可以在这些地方找到插件推荐：
@@ -176,6 +192,36 @@ Obsidian有非常活跃的社区，你可以在这些地方找到插件推荐：
 **缺点**：
 - 信息分散，需要花时间搜索
 - 可能有主观偏见
+
+
+## Obsidian插件怎么安装与管理？
+
+### 安装社区插件
+
+社区插件需要按笔记库（Vault）单独安装。操作步骤如下：
+
+1. 打开Obsidian的“设置”（Settings）。
+2. 进入“第三方插件”或“Community plugins”。
+3. 按界面提示启用社区插件功能，并确认安全提醒。
+4. 点击“浏览”（Browse），搜索插件名称。
+5. 打开插件详情页，点击“安装”（Install）。
+6. 安装完成后点击“启用”（Enable）。
+
+如果安装后没有效果，先确认插件已经启用，再查看它是否需要指定文件夹、设置快捷键或完成其他初始化配置。
+
+### 插件安装在哪里？
+
+社区插件通常保存在当前笔记库的 `.obsidian/plugins/` 目录中，每个插件有自己的子目录。`.obsidian` 默认是隐藏目录，因此在文件管理器中可能不会直接显示。
+
+插件和设置通常属于当前笔记库，而不是Obsidian全局配置。因此，新建或打开另一个笔记库时，不一定会自动拥有相同的插件。不要随意从不可信来源复制插件文件；优先通过Obsidian内置社区插件市场安装。
+
+### 更新、禁用与卸载插件
+
+- **更新**：进入“设置 → Community plugins”，检查插件更新并阅读更新说明。
+- **暂时停用**：关闭插件旁边的开关。配置和插件文件会保留。
+- **彻底卸载**：先停用插件，再点击卸载或删除按钮。
+
+重要工作流中的插件不必在新版本发布后立刻更新。可以先备份笔记库，确认兼容性后再升级。如果Obsidian突然变慢或出现异常，优先停用最近安装或更新的插件，再逐个排查。
 
 ### 插件安全性和安全考虑
 
@@ -360,7 +406,7 @@ Daily Notes是很多人使用Obsidian的核心工作流。它降低了记录的�
 **如何启用**：
 Settings → Core plugins → 启用 Daily notes
 
-**详细教程**：如果你想深入了解Daily Notes的使用方法，可以查看我们的[完整指南](https://chloevolution.com/zh-cn/posts/obsidian-daily-notes/)。
+**详细教程**：如果你想深入了解Daily Notes的使用方法，可以查看[Obsidian Daily Notes完整指南](https://chloevolution.com/zh-cn/posts/obsidian-daily-notes/)。
 
 ### Templates（模板）
 
@@ -379,7 +425,7 @@ Settings → Core plugins → 启用 Templates
 
 **提示**：Templates是基础模板功能。如果你需要更高级的功能（比如动态内容、JavaScript支持），可以考虑社区插件Templater。
 
-**详细教程**：查看我们的[Obsidian模板完整指南](https://chloevolution.com/zh-cn/posts/creating-and-using-templates-in-obsidian/)。
+**详细教程**：查看我们的[Obsidian模板完整指南](https://chloevolution.com/zh-cn/posts/obsidian-templates/)。
 
 ### Graph View（知识图谱）
 
@@ -600,6 +646,8 @@ Settings → Core plugins → 启用 Quick switcher（通常默认启用）
 
 **使用场景**：快速输入、减少拼写错误、提高效率。
 
+如果你的主要问题是粘贴图片后附件散乱、文件名难以维护或孤立图片越来越多，可以进一步查看[Obsidian图片与附件管理方法](https://chloevolution.com/zh-cn/posts/manage-images-in-obsidian/)。该指南也介绍了适合清理附件的社区插件。
+
 ## 常见问题解答
 
 ### Q1: Obsidian插件是免费的吗？
@@ -657,5 +705,4 @@ Obsidian会自动检查更新。进入Settings → Community plugins → 点击"
 现在，打开Obsidian，进入插件市场，开始你的探索之旅吧。
 
 从一个插件开始，慢慢构建属于你自己的Obsidian。
-
 

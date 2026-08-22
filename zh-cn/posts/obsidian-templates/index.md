@@ -1,7 +1,7 @@
 # Obsidian模板指南：从入门到精通，附11个实用模板
 
 
-在使用Obsidian记笔记时，你是否发现自己在重复做同样的事情？每次创建读书笔记都要手动输入"书名、作者、阅读日期"这些字段；每次写Daily Note都要重新设置相同的标题结构；每个项目笔记都需要从头开始搭建"目标、任务、进度"的框架。
+在使用Obsidian记笔记时，你是否发现自己在重复做同样的事情？每次创建读书笔记都要手动输入“书名、作者、阅读日期”这些字段；每次写Daily Note都要重新设置相同的标题结构；每个项目笔记都需要从头开始搭建“目标、任务、进度”的框架。
 
 这些重复工作不仅浪费时间，还容易导致笔记格式不统一。当你的vault里有几百条笔记时，格式混乱会让信息检索变得困难。
 
@@ -16,6 +16,8 @@ Obsidian的模板功能可以彻底解决这个问题。通过使用模板，你
 - 核心Templates插件与Templater插件的区别
 - 11个可以直接使用的实用模板
 - 模板设计的最佳实践
+
+如果你还没有安装软件或创建Vault，请先完成[Obsidian安装与首次设置](https://chloevolution.com/zh-cn/posts/how-to-install-obsidian/)，再回来配置模板文件夹。
 
 
 ## 什么是Obsidian模板？
@@ -288,7 +290,7 @@ Templates插件提供了几个实用的变量，可以在模板中自动填充�
 
 ### 3. Daily Notes模板
 
-适用于每日记录、日程规划、反思总结。
+适用于每日记录、日程规划、反思总结。如果你还需要设置文件名格式、存放目录和启动行为，可以结合[Obsidian Daily Notes完整教程](https://chloevolution.com/zh-cn/posts/obsidian-daily-notes/)使用这个模板。
 
 ```markdown
 ---
@@ -1083,7 +1085,7 @@ Bullet Journal（子弹笔记）是一种灵活的笔记方法，与Daily Notes�
 
 ## Templater插件：更强大的模板解决方案
 
-如果你觉得核心Templates插件的功能不够用，可以尝试社区插件Templater。它提供了更强大的功能，包括JavaScript脚本、用户自定义函数、动态内容生成等。
+如果你觉得核心Templates插件的功能不够用，可以尝试社区插件Templater。它提供了更强大的功能，包括JavaScript脚本、用户自定义函数、动态内容生成等。第一次安装第三方扩展时，建议先了解[Obsidian社区插件的安装、安全与管理方法](https://chloevolution.com/zh-cn/posts/obsidian-plugins/)。
 
 ### Templater vs Templates：该选哪个？
 
