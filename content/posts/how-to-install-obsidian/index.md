@@ -686,6 +686,7 @@ Go to **Settings → Core plugins** and ensure the following plugins are enabled
 | **Page preview** | Hover to preview note content | ✅ Recommended |
 | **[Templates](https://chloevolution.com/posts/obsidian-templates/)** | Note template functionality | ✅ Recommended (advanced use) |
 | **[Daily notes](https://chloevolution.com/posts/obsidian-daily-notes/)** | Daily notes functionality | ✅ Recommended (detailed intro later) |
+| **[Bases](https://chloevolution.com/posts/obsidian-bases/)** | Manage note Properties with tables, cards, and lists | ⭐ Enable as needed |
 | **Slash commands** | Slash command quick input | ⭐ Optional |
 | **Command palette** | Command palette (shortcut `Ctrl/Cmd+P`) | ✅ Highly recommended |
 

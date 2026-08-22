@@ -46,6 +46,8 @@ The advantages of using templates are:
 2. **Maintain Consistency**: All notes of the same type use a unified format, facilitating subsequent retrieval and organization
 3. **Improve Efficiency**: With plugins like Dataview, unified format makes data querying and summarization simple
 
+Consistent Properties can also be used directly in Bases. To organize reading notes, project notes, and similar content into filterable, editable tables or cards, see the [complete guide to Obsidian Bases](https://chloevolution.com/posts/obsidian-bases/).
+
 
 ## How to Use Obsidian's Core Templates Plugin
 

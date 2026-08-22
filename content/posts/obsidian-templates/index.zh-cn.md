@@ -46,6 +46,8 @@ Obsidian的模板功能可以彻底解决这个问题。通过使用模板，你
 2. **保持一致性**：所有同类型的笔记都使用统一的格式，便于后续检索和整理
 3. **提高效率**：配合Dataview等插件，统一的格式让数据查询和汇总变得简单
 
+统一的Properties也可以直接用于Bases。如果你希望把读书笔记、项目笔记等内容整理成可筛选和编辑的表格或卡片，可以参考[Obsidian Bases完整教程](https://chloevolution.com/zh-cn/posts/obsidian-bases/)。
+
 
 ## 如何使用Obsidian核心Templates插件
 

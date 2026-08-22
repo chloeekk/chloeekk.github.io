@@ -638,6 +638,8 @@ If you're already proficient with Daily Notes, consider these advanced plugins:
 - Suitable for: People who want statistical analysis (like "how many tasks completed this month")
 - Difficulty: ⭐⭐⭐⭐
 
+If every Daily Note uses consistent Properties such as date, mood, energy, or exercise, you can also use [Obsidian Bases](https://chloevolution.com/posts/obsidian-bases/) to create an index and summary views without writing queries.
+
 **Day Planner Plugin**
 - Function: Time block planning, turn Daily Note into a schedule
 - Suitable for: People who need precise time management

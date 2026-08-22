@@ -692,6 +692,7 @@ Obsidian 的插件分为两类：
 | **Page preview** | 悬停预览笔记内容 | ✅ 推荐 |
 | **[Templates](https://chloevolution.com/zh-cn/posts/obsidian-templates/)** | 笔记模板功能 | ✅ 推荐（进阶使用） |
 | **[Daily notes](https://chloevolution.com/zh-cn/posts/obsidian-daily-notes/)** | 每日笔记功能 | ✅ 推荐（后面会详细介绍） |
+| **[Bases](https://chloevolution.com/zh-cn/posts/obsidian-bases/)** | 用表格、卡片和列表管理笔记Properties | ⭐ 按需启用 |
 | **Slash commands** | 斜杠命令快捷输入 | ⭐ 可选 |
 | **Command palette** | 命令面板（快捷键 `Ctrl/Cmd+P`） | ✅ 强烈推荐 |
 

@@ -583,6 +583,8 @@ Settings → Core plugins → 启用 Quick switcher（通常默认启用）
 
 **使用场景**：创建动态索引、汇总特定标签的笔记、生成阅读清单、项目仪表板。
 
+如果你的需求主要是通过图形界面筛选、排序和直接编辑笔记Properties，可以先尝试官方核心插件Bases；需要复杂查询、任务汇总或DataviewJS时，再使用Dataview。两者的详细区别可以参考[Obsidian Bases完整教程中的对比](https://chloevolution.com/zh-cn/posts/obsidian-bases/#obsidian-bases与dataview有什么区别)。
+
 ### 搜索和导航类
 
 这类插件让你更快地找到和访问笔记。

@@ -2,20 +2,28 @@
 {{- $watermark := resources.Get "images/watermark.png" -}}
 
 {{- if and $original $watermark -}}
-  {{- $watermarkResized := $watermark.Resize (printf "%dx" (int (mul $original.Width 0.3))) -}}
+  {{- $watermarkResized := $watermark.Resize (printf "%dx" (int (mul $original.Width 0.15))) -}}
 
-  {{- $processed := $original.Filter (images.Overlay $watermarkResized (sub $original.Width $watermarkResized.Width) (sub $original.Height $watermarkResized.Height)) -}}
+  {{- /* 计算居中位置 */ -}}
+  {{- $xPos := div (sub $original.Width $watermarkResized.Width) 2 -}}
+  {{- $yPos := div (sub $original.Height $watermarkResized.Height) 2 -}}
 
-  <img src="{{ $processed.RelPermalink | safeURL }}" 
-       alt="{{ .Text }}" 
-       width="{{ $original.Width }}" 
-       height="{{ mul $original.Height 0.4 | int }}" 
-       {{ with .Title }}style="width: 100%; max-width: {{ . }};"{{ end }} />
+  {{- /* 应用半透明效果（40%不透明度）和居中叠加 */ -}}
+  {{- $watermarkTransparent := $watermarkResized.Filter (images.Opacity 0.4) -}}
+  {{- $processed := $original.Filter (images.Overlay $watermarkTransparent $xPos $yPos) -}}
+
+  <img src="{{ $processed.RelPermalink | safeURL }}"
+       alt="{{ .Text }}"
+       width="{{ $original.Width }}"
+       height="{{ $original.Height }}"
+       style="max-width: 100%; height: auto;{{ with .Title }} max-width: {{ . }};{{ end }}"
+       loading="lazy" />
 
 {{- else -}}
-  <img src="{{ .Destination | safeURL }}" 
-       alt="{{ .Text }}" 
+  <img src="{{ .Destination | safeURL }}"
+       alt="{{ .Text }}"
        {{ with $original }}width="{{ .Width }}"{{ end }}
-       {{ with $original }}height="{{ mul .Height 0.4 | int }}"{{ end }}
-       {{ with .Title }}style="width: 100%; max-width: {{ . }};"{{ end }}/>
+       {{ with $original }}height="{{ .Height }}"{{ end }}
+       style="max-width: 100%; height: auto;"
+       loading="lazy" />
 {{- end -}}

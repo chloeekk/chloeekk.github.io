@@ -584,6 +584,8 @@ These plugins let you express ideas graphically.
 
 **Use cases**: Create dynamic indexes, aggregate notes with specific tags, generate reading lists, project dashboards.
 
+If you mainly need to filter, sort, and edit note Properties through a graphical interface, try the official Bases core plugin first. Dataview remains useful for complex queries, task aggregation, and DataviewJS. See the [detailed Bases and Dataview comparison](https://chloevolution.com/posts/obsidian-bases/#what-is-the-difference-between-obsidian-bases-and-dataview).
+
 ### Search and Navigation
 
 These plugins help you find and access notes faster.
