@@ -631,6 +631,8 @@ Obsidian自带的模板功能比较基础，只能插入固定的文本。而Tem
 - 适合：想要统计分析的人（比如"这个月完成了多少任务"）
 - 难度：⭐⭐⭐⭐
 
+如果每篇Daily Note都包含日期、心情、精力或运动等统一Properties，也可以使用[Obsidian Bases](https://chloevolution.com/zh-cn/posts/obsidian-bases/)创建无需编写查询代码的每日笔记索引和统计视图。
+
 **Day Planner插件**
 - 功能：时间块规划，把Daily Note变成日程表
 - 适合：需要精确时间管理的人

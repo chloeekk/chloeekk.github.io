@@ -42,11 +42,12 @@
 &lt;h3 id="1-log-into-google-analytics-4-and-create-a-new-account">1. Log into Google Analytics 4 and Create a New Account&lt;/h3>
 &lt;p>Sign in with your Google account on the &lt;a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener noreffer ">official website&lt;/a> and create a new Google Analytics 4 (GA4) account.&lt;br>
 &lt;strong>Note:&lt;/strong> Google has fully transitioned to GA4, and the legacy Google Universal Analytics (UA) is deprecated.&lt;br>
-&lt;img src="https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/create-google-analytics-4-account_hu_16432d21b32fa960.png" 
- alt="create-google-analytics-4-account" 
- width="949" 
- height="356" 
- />&lt;/p></description></item><item><title>How to use Hugo to Build a Blog and Deploy it to Github Page</title><link>https://chloevolution.com/posts/hugo-github-pages/</link><pubDate>Thu, 20 Oct 2022 07:57:53 +0800</pubDate><guid>https://chloevolution.com/posts/hugo-github-pages/</guid><description>&lt;h2 id="1-install-hugo">1. Install Hugo&lt;/h2>
+&lt;img src="https://chloevolution.com/posts/integrate-google-analytics-with-hugo-website/create-google-analytics-4-account_hu_35ad26853eedf283.png"
+ alt="create-google-analytics-4-account"
+ width="949"
+ height="890"
+ style="max-width: 100%; height: auto;"
+ loading="lazy" />&lt;/p></description></item><item><title>How to use Hugo to Build a Blog and Deploy it to Github Page</title><link>https://chloevolution.com/posts/hugo-github-pages/</link><pubDate>Thu, 20 Oct 2022 07:57:53 +0800</pubDate><guid>https://chloevolution.com/posts/hugo-github-pages/</guid><description>&lt;h2 id="1-install-hugo">1. Install Hugo&lt;/h2>
 &lt;ul>
 &lt;li>Windows:&lt;/li>
 &lt;/ul>
