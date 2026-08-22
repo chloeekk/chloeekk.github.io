@@ -25,6 +25,8 @@ This article will cover in detail:
 - 11 practical templates you can use directly
 - Best practices for template design
 
+If you have not installed the app or created a vault yet, complete the [Obsidian installation and initial setup guide](https://chloevolution.com/posts/how-to-install-obsidian/) before configuring your template folder.
+
 
 ## What are Obsidian Templates?
 
@@ -296,7 +298,7 @@ tags: #project-management
 
 ### 3. Daily Notes Template
 
-Suitable for daily recording, schedule planning, reflection and summary.
+Suitable for daily recording, schedule planning, reflection, and summaries. To configure filenames, folders, startup behavior, and the rest of the workflow, use this template with the [complete Obsidian Daily Notes guide](https://chloevolution.com/posts/obsidian-daily-notes/).
 
 ```markdown
 ---
@@ -1091,7 +1093,7 @@ Learning Objectives:
 
 ## Templater Plugin: A More Powerful Template Solution
 
-If you feel the core Templates plugin's features are insufficient, you can try the community plugin Templater. It provides more powerful features, including JavaScript scripts, user-defined functions, dynamic content generation, etc.
+If you feel the core Templates plugin's features are insufficient, you can try the community plugin Templater. It provides more powerful features, including JavaScript scripts, user-defined functions, and dynamic content generation. Before installing third-party extensions for the first time, review how to [install, evaluate, and manage Obsidian community plugins](https://chloevolution.com/posts/obsidian-plugins/).
 
 ### Templater vs Templates: Which to Choose?
 

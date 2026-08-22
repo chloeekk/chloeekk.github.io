@@ -6,7 +6,7 @@ draft: false
 
 categories:
 - SEO
-- 数字营销
+- Digital Marketing
 - AI
 
 
