@@ -106,6 +106,40 @@ As shown below, I right-clicked on a webpage to copy the image link and then use
 Since this method doesn’t involve local image storage, no corresponding image appears in the directory panel on the left:
 ![insert-web-image-obsidian](insert-web-image-obsidian.png)
 
+### 5. Download Web Images as Local Attachments
+
+Web images do not take up space in your vault, but they always depend on the original website. If you go offline, the source image is deleted, or the website changes its URL, the image in your note may stop displaying.
+
+This is especially common when using [Obsidian Web Clipper](https://chloevolution.com/posts/obsidian-web-clipper/). By default, Web Clipper does not download images from a page. It keeps their original URLs in the Markdown note. Everything may look normal immediately after clipping, but the images are not actually stored in your vault and may disappear when you open the note offline.
+
+To preserve them, use Obsidian’s built-in `Download attachments for current file` command. It downloads web images referenced by the current note and replaces the external URLs with links to local attachments in your vault.
+
+To run the command:
+
+1. Open the note containing web images.
+2. Press `Ctrl/Cmd + P` to open the Command palette.
+3. Search for `Download attachments for current file`.
+4. Run the command and confirm the images to download when prompted.
+5. Wait for the downloads to finish, then check that the images still display in the note.
+
+Downloaded images are saved to the default attachment location configured in Obsidian. If you have not set an attachment folder yet, read the next section first and choose a dedicated folder such as `assets` so that the files do not accumulate in the vault root.
+
+Afterward, switch to Source mode to inspect the image reference. An external URL such as:
+
+```markdown
+![](https://example.com/image.jpg)
+```
+
+is normally replaced with an internal attachment link such as:
+
+```markdown
+![[image.jpg]]
+```
+
+The command only processes the currently open note; it does not download web images from an entire folder at once. If you have many older notes to process, start with one test note, confirm that the attachment location and links are correct, and then run it on the remaining notes one by one.
+
+Some websites use temporary URLs, authentication, or hotlink protection, so individual downloads may still fail. After running the command, do not only check whether files appeared in the attachment folder. Open the note and make sure none of the images has become a broken internal link.
+
 
 ## How to Specify a Folder for Image Storage?
 
@@ -778,4 +812,3 @@ This script will list all images that can't be found referenced in Markdown file
 
 
 **My Recommendation**: If your vault has many orphaned images, using the "Consistent attachments and links" plugin for one-click cleanup is the easiest. If you only occasionally clean a few images, using global search for manual confirmation is sufficient. Either way, always backup before cleaning!
-

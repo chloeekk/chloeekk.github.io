@@ -2,7 +2,7 @@
 title: "Obsidian Bases完整教程：用属性、筛选和公式管理笔记"
 description: "Obsidian Bases怎么用？本文从Properties讲起，介绍Bases的工作原理、适用场景和属性设置方法，帮助你用数据库式视图管理本地Markdown笔记。"
 date: 2026-08-22T10:18:09+08:00
-draft: true
+draft: false
 
 categories:
 - Obsidian

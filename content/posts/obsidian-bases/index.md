@@ -2,7 +2,7 @@
 title: "Complete Guide to Obsidian Bases: Manage Notes with Properties, Filters, and Formulas"
 description: "How do you use Obsidian Bases? This guide explains how Bases works, when to use it, and how to structure Properties so you can manage local Markdown notes with database-like views."
 date: 2026-08-22T10:18:09+08:00
-draft: true
+draft: false
 
 categories:
 - Obsidian
