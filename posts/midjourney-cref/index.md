@@ -3,6 +3,8 @@
 
 ---cref command stands for "Character Reference". It is mainly used to extract character features from reference images and apply them to new images to achieve coherence and consistency in character design. It allows users to specify one or more images as content references. Midjourney will use these reference images to help generate images with similar content. This feature is more suitable for anime or games.
 
+If you are new to prompts and parameters, start with the [Midjourney tutorial for beginners](https://chloevolution.com/posts/midjourney-tutorial-for-beginners/). CREF is designed for character consistency; to preserve an image's visual style instead, use [Midjourney SREF](https://chloevolution.com/posts/midjourney-sref/).
+
 ## Applicable version
 Midjourney V6 and Niji V6
 
@@ -39,3 +41,4 @@ The following are reference effects of different parameter values:
 
 ### cw=100
 ![](cw-100-example.png)
+

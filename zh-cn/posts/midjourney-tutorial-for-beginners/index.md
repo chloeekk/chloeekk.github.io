@@ -148,4 +148,5 @@ Midjourney Bot返回四张图片后，下面会有两排按钮，同时按钮会
 - 上下左右箭头：上下左右移动镜头
 
 
-更多进阶使用方法可以查看[《Midjourney进阶教程》](https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/)
+更多进阶使用方法可以查看[《Midjourney进阶教程》](https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/)。如果需要在系列图片中保持一致性，可以使用 [CREF 固定角色特征](https://chloevolution.com/zh-cn/posts/midjourney-cref/)，或使用 [SREF 统一画面风格](https://chloevolution.com/zh-cn/posts/midjourney-sref/)。
+

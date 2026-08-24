@@ -23,6 +23,8 @@ In other words, the higher your website traffic, the more ad impressions and cli
 
 ### Key Metrics: CTR and RPM
 
+When comparing placements, calculate click-through rate consistently rather than judging performance by clicks alone. The [CTR calculator and benchmarks](https://chloevolution.com/tools/ctr-calculator/) can help with this comparison.
+
 * **CTR (Click-Through Rate)**: Clicks ÷ Ad Impressions
 
   * A higher CTR means the ad is more engaging, increasing CPC revenue potential.

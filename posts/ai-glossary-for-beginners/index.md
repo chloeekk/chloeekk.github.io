@@ -51,6 +51,9 @@ An Agent’s autonomy relies on three key components:
 * **Digital Enterprise Agents:** Automating HR, finance, and customer service workflows.
 * **Personal Automation Agents:** Managing calendars, emails, and tasks across multiple apps.
 * **General Agent Platforms:** Frameworks for developers to build customized agents for specific tasks.
+* **AI App Builders:** Products such as [Dreamflow](https://chloevolution.com/posts/dreamflow-review/) combine agent-driven generation with visual editing and direct access to code.
+
+For a deeper look at how agents retrieve reliable information while executing tasks, read [How Agents and Knowledge Bases Work Together](https://chloevolution.com/posts/agent-vs-knowledge-base/).
 
 
 

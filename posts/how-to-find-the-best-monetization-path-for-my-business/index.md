@@ -17,7 +17,7 @@ For B2C businesses, the key question is: **how to get individual users to pay co
 
 * **Product Sales**: The most direct model, selling goods via e-commerce platforms or offline channels.
 * **Paid Content**: Users pay for high-quality content such as knowledge, videos, or courses. This has grown rapidly in education and knowledge-based services.
-* **Advertising Monetization**: When user scale is large enough, advertising becomes a core revenue source—[digital advertising](https://chloevolution.com/posts/types-of-digital-advertising/) spans multiple formats and platforms.
+* **Advertising Monetization**: When user scale is large enough, advertising becomes a core revenue source—[digital advertising](https://chloevolution.com/posts/types-of-digital-advertising/) spans multiple formats and platforms. For content websites using display ads, the [AdSense revenue optimization guide](https://chloevolution.com/posts/how-to-improve-adsense-revenue/) covers the operating metrics and placement trade-offs.
 * **Membership/Subscription**: Offering long-term benefits or exclusive experiences through subscription fees.
 * **Tipping/Interactive Payments**: Users make small payments to support content creators, common in live streaming and communities.
 
@@ -193,5 +193,4 @@ The choice of monetization is essentially a **match between users, product, reso
 There is no "one-size-fits-all" monetization. The best model depends on **user characteristics, product type, and company resources**. Increasingly, businesses adopt **diversified hybrid models**, leveraging ads for traffic revenue while deepening value with subscriptions and premium services—[B2B marketing evaluation](https://chloevolution.com/posts/how-to-evaluate-b2b-marketing/) requires different metrics than B2C.
 
 AI and smart recommendations will make advertising more precise, while subscription and personalized services continue to grow. Companies must flexibly adapt monetization strategies to find the **most sustainable long-term revenue path**.
-
 
