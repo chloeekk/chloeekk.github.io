@@ -5,6 +5,8 @@
 
 巴菲特曾将财报比作 **“商业的语言”**，对于投资者、管理者和债权人来说，它是了解公司财务健康状况、盈利能力和偿债能力的关键工具。
 
+掌握下面的三张报表结构后，可以继续通过[如何阅读英伟达的财报](https://chloevolution.com/zh-cn/posts/how-to-read-nvidia-financial-statements/)查看这套方法在真实 10-Q 报告中的应用。
+
 最核心的财务报表共有三张，它们从不同的角度提供了公司的完整视图：
 
 1.  **资产负债表 (Balance Sheet, B/S)：** 回答“**公司拥有什么和欠别人什么？**”它是一个**时点快照**，展示特定日期的净资产状况。
@@ -154,3 +156,4 @@
 source：
 
 [How To Read Financial Statements In 9 Minutes](https://www.youtube.com/watch?v=fb7YCVR5fIU)
+

@@ -162,7 +162,7 @@ The AI-driven command line of 2026 is fundamentally different from the DOS comma
 * Low-level system architecture knowledge
 * Manually writing script code
 
-The key shift is from “manually operating software” to “defining task logic.” AI translates your logic into precise command-line instructions. For a detailed beginner’s guide, refer to [How to Use Claude Code Skills](https://chloevolution.com/posts/how-to-use-skills-in-claude-code/).
+The key shift is from “manually operating software” to “defining task logic.” AI translates your logic into precise command-line instructions. For a detailed beginner’s guide, refer to [How to Use Claude Code Skills](https://chloevolution.com/posts/how-to-use-skills-in-claude-code/). When you are ready to work with Plan mode, subagents, worktrees, context management, and extensions, continue with the [Advanced Claude Code Guide](https://chloevolution.com/posts/advanced-claude-code-guide/).
 
 
 ### 3. Is CLI really faster than GUI?

@@ -8,6 +8,8 @@ In the world of digital marketing, if you want to quickly gain search engine att
 
 Simply put, paid search advertising is a way to attract website traffic and potential customers by **purchasing ad placements on search engine results pages (SERPs)**. These ads appear in prominent positions in user search results, in the form of text, shopping listings, or videos, usually with a clear "Ad" or "Sponsored" label.
 
+If you are also evaluating this field as a career, [What Does a Google Ads Specialist Do?](https://chloevolution.com/posts/what-does-a-google-ads-specialist-do/) describes the role from first-hand work experience.
+
 ### How PPC Works: A Microsecond "Auction"
 
 The operation of paid search advertising can be summarized as an efficient, real-time "auction" process that occurs every time a user searches:
@@ -380,3 +382,4 @@ Through the continuous optimization and management strategies mentioned above, y
   * **Overly complex conversion path**: Long forms, cumbersome purchase processes, etc.
 
 Solving this problem requires you to **focus on optimizing your [landing page](https://chloevolution.com/zh-cn/posts/landing-page-optimization/)**, ensuring it is highly relevant to the ad content and provides a smooth user experience and a clear conversion path.
+

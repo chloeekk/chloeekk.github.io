@@ -172,4 +172,5 @@ When formulating integrated marketing strategies, different audiences (new vs ex
 | Existing Customer | Lead Acquisition | Owned media priority (60%), some paid media assistance                   | Retargeting ad conversion rate                   | Repurchase lead count, coupon redemption rate                 |
 | Existing Customer | Sales Conversion | Owned media dominant (70%), rapid repurchase stimulation                 | Precise retargeting ad ROAS                      | Repurchase rate, customer lifetime value (CLV)                |
 
+The same framework can be adapted to high-stakes, time-limited campaigns. The [IPO integrated marketing strategy](https://chloevolution.com/posts/build-an-ipo-integrated-marketing-strategy/) shows how it applies when brand confidence and investor subscription momentum must be built together.
 

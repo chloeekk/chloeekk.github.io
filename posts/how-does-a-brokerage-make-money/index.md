@@ -586,6 +586,8 @@ Core business of traditional large brokerages, but internet brokerages have limi
 - Charge subscription fees: 0.5% - 1%
 - When Hong Kong IPO market is active, this revenue is considerable
 
+From the issuer and campaign side, [an IPO integrated marketing strategy](https://chloevolution.com/posts/build-an-ipo-integrated-marketing-strategy/) explains how corporate value, investor narratives, channels, and subscription momentum fit together.
+
 **ESOP (Employee Stock Ownership Plan) Management**
 
 Provide equity incentive management services for startups:
@@ -598,6 +600,8 @@ Provide equity incentive management services for startups:
 
 - Provide asset allocation advice for high-net-worth clients
 - Charge consulting fees or asset management fees
+
+The commercial challenge is not only serving existing wealthy clients, but also identifying suitable retail users and moving them into higher-value service tiers. See the [retail-to-private-wealth conversion framework](https://chloevolution.com/posts/how-to-systematically-upgrade-retail-investors-into-private-equity/) for that customer-growth perspective.
 - Typical rate: 1-2% AUM (charge by asset scale)
 
 #### Data and Technology Services
