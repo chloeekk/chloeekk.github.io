@@ -16,6 +16,8 @@ categories:
 
 如果你也在用 Claude Code，但感觉还没完全发挥出它的潜力，希望这些笔记能给你一些启发。
 
+如果想先理解 AI 编码工具为什么偏向命令行工作流，可以阅读[从 GUI 到 Skills：为什么 2026 年都在重回命令行？](https://chloevolution.com/zh-cn/posts/cli-vs-gui-vs-skills/)。本文将在这个基础上继续介绍 Claude Code 的进阶执行与扩展能力。
+
 ---
 
 ## 复杂任务的正确打开方式
@@ -737,4 +739,3 @@ Plugins 是扩展 Claude Code 核心功能的模块。与 Skills 不同，Plugin
 这些技巧不是一次性用完的，而是随着使用深入逐步掌握的。我的建议是：先把 Plan 模式和 CLAUDE.md 用起来（这两个收益最大），然后根据实际需求逐步探索其他功能。
 
 希望这些笔记对你有帮助。如果你也在用 Claude Code，欢迎分享你的使用心得。
-

@@ -15,6 +15,8 @@ This article isn't a complete tutorial, but more like my personal learning notes
 
 If you're also using Claude Code but feel you haven't fully tapped into its potential, I hope these notes will give you some insights.
 
+For the broader reason AI coding tools favor command-line workflows, first see [CLI vs GUI vs Skills](https://chloevolution.com/posts/cli-vs-gui-vs-skills/). This guide continues from that foundation into Claude Code's advanced execution and extension features.
+
 ---
 
 ## The Right Approach to Complex Tasks

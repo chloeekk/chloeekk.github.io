@@ -33,7 +33,7 @@ This is the most common motivation for going global. A successful global goal mu
 
 Spreading business across multiple regions enhances resilience, mitigates risk, and optimizes structure.
 
-* **Trade risk mitigation:** Diversify sales and supply chains to reduce dependency on a single market and hedge against tariffs, trade policies, or geopolitical risks.
+* **Trade risk mitigation:** Diversify sales and supply chains to reduce dependency on a single market and hedge against tariffs, trade policies, or geopolitical risks. Tariffs can also change advertising bids and acquisition economics; see [How Tariffs Affect PPC Campaigns](https://chloevolution.com/posts/how-will-the-tariffs-impact-ppc-campaigns/) for the marketing-side impact.
 * **Cost structure optimization:** Establish manufacturing bases or service centers in countries with **lower labor, land, energy, or material costs** to enhance global competitiveness.
 * **Currency hedging:** Expanding overseas revenue creates multi-currency income streams, buffering profit volatility caused by exchange rate fluctuations.
 

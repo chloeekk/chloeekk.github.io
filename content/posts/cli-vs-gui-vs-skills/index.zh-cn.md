@@ -172,7 +172,7 @@ Skills 的价值不在于替代 CLI，而在于**降低 CLI 的使用门槛并�
 - 底层系统架构知识
 - 手动编写脚本代码
 
-关键在于从"手动操作软件"转向"定义任务逻辑"。AI 负责将你的逻辑转化为精确的命令行指令。详细的入门指南可参考[如何使用 Claude Code Skills](https://chloevolution.com/zh-cn/posts/how-to-use-skills-in-claude-code/)。
+关键在于从"手动操作软件"转向"定义任务逻辑"。AI 负责将你的逻辑转化为精确的命令行指令。详细的入门指南可参考[如何使用 Claude Code Skills](https://chloevolution.com/zh-cn/posts/how-to-use-skills-in-claude-code/)；如果准备进一步使用 Plan 模式、Subagents、Worktrees、上下文管理和扩展生态，可以继续阅读 [Claude Code 进阶指南](https://chloevolution.com/zh-cn/posts/advanced-claude-code-guide/)。
 
 
 ### 3. CLI真的比GUI快吗？

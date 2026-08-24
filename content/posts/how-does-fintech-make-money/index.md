@@ -129,7 +129,7 @@ The core revenue formula can be expressed as:
 
 * **Margin Interest:**
   Platforms lend funds or securities to users engaging in leveraged trading and earn interest income.
-  **Representative case: Futu.** During periods of high market activity, interest spreads from margin financing often become a core profit driver for such brokerage platforms.
+  **Representative case: Futu.** During periods of high market activity, interest spreads from margin financing often become a core profit driver for such brokerage platforms. For the full revenue structure—including commissions, idle cash, currency exchange, securities lending, and PFOF—see [How Brokerages Make Money](https://chloevolution.com/posts/how-does-a-brokerage-make-money/).
 
 ### Profit Optimization Enabled by Technology
 

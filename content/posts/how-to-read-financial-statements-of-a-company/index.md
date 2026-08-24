@@ -12,6 +12,8 @@ Financial statements are reports that companies prepare periodically (usually qu
 
 Warren Buffett has referred to financial statements as the **“language of business.”** For investors, managers, and creditors, they are essential tools for understanding a company’s financial health, profitability, and ability to meet its obligations.
 
+After learning the three-statement structure below, you can see the same method applied to a real Form 10-Q in [How to Read NVIDIA's Financial Statements](https://chloevolution.com/posts/how-to-read-nvidia-financial-statements/).
+
 There are three core financial statements, and together they provide a complete view of a company from different perspectives:
 
 1. **Balance Sheet (B/S):** Answers the question, “**What does the company own and what does it owe?**” It is a **snapshot at a specific point in time**, showing the company’s net worth on a given date.
