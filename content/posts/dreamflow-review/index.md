@@ -9,6 +9,8 @@ draft: false
 
 [DreamFlow](https://dreamflow.app/) is an **AI mobile app builder** designed to make the app development process **automated**, **visual**, and **code-based**. Its goal is to let users create **production-ready applications** faster than ever — combining the **speed of AI** for rapid prototyping and iteration with **full control over the underlying code**, ensuring that the final output is high-quality, scalable, and commercially viable.
 
+Dreamflow describes part of this workflow as “agentic.” If that term is unfamiliar, the [beginner's AI glossary](https://chloevolution.com/posts/ai-glossary-for-beginners/) explains how agents plan, use tools, and execute multi-step tasks.
+
 How users build with Dreamflow:
 
 1. **Describe your app**

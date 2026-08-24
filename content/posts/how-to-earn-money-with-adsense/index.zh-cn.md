@@ -204,3 +204,4 @@ Google 从广告主那里收取费用后，会按照一定比例分成给发布�
 
   * 达到最低支付门槛（通常为 **100 美元**）后，Google 会通过银行转账或支票付款。
 
+广告开始产生展示后，可以继续阅读[如何最大化 AdSense 收入](https://chloevolution.com/zh-cn/posts/how-to-improve-adsense-revenue/)，进一步了解 CTR、RPM、广告形式、位置测试和常见政策风险。

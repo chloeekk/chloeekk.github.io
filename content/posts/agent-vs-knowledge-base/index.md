@@ -13,6 +13,8 @@ You may have experienced this: when chatting with AI, it can help you write poem
 
 The reason is that most AI models do not directly access your proprietary information; they mostly rely on general knowledge learned from training data. To enable AI to truly “get things done,” it requires two key components: **Agents** and **Knowledge Bases**. The agent serves as AI’s “action brain,” capable of understanding instructions, invoking tools, and executing tasks; the knowledge base acts as AI’s “memory repository,” storing enterprise data, documents, and rules so the AI can access and utilize up-to-date information.
 
+If you first need a concise definition of Agent, knowledge base, RAG, and MCP, start with the [AI glossary for beginners](https://chloevolution.com/posts/ai-glossary-for-beginners/), then return here for the complete workflow.
+
 
 However, before diving deeper, we need to distinguish several easily confused concepts:
 

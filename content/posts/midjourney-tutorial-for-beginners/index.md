@@ -150,5 +150,4 @@ After generating four initial images:
 - **Zoom Out**: Expand canvas (2x, 1.5x, or custom)  
 - **Pan Controls**: Adjust composition with arrow keys  
 
-For advanced techniques, see:  [《Midjourney Advanced Guide》](https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/)  
-
+For advanced techniques, see the [Midjourney Advanced Guide](https://chloevolution.com/posts/midjourney-advanced-tutorial/). If you need consistency across a series of images, use [CREF for recurring characters](https://chloevolution.com/posts/midjourney-cref/) or [SREF for a consistent visual style](https://chloevolution.com/posts/midjourney-sref/).

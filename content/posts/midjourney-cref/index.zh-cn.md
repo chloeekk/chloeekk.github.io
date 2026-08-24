@@ -11,6 +11,8 @@ categories:
 
 ---cref指令全称为“角色参考”（Character Reference），主要用于从参考图片中抽取人物特性，并将其应用至新图像中，以实现人物形象的连贯性和一致性设计。它允许用户指定一个或多个图像作为内容参考。Midjourney将使用这些参考图像来帮助生成具有类似内容的图像。这个功能更适合用于动漫或游戏。
 
+如果你还不熟悉提示词和参数，可以先阅读[适合新手的 Midjourney 教程](https://chloevolution.com/zh-cn/posts/midjourney-tutorial-for-beginners/)。CREF 主要解决角色一致性；如果要保持画面风格一致，可以使用 [Midjourney SREF](https://chloevolution.com/zh-cn/posts/midjourney-sref/)。
+
 ## 适用版本
 Midjourney V6 和 Niji V6
 

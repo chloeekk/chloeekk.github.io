@@ -13,6 +13,8 @@ categories:
 
 The full name of the ---sref command is "Style References," which aims to help users replicate and maintain consistency in the style of images.Its main function is to allow users to upload one or more images as style references to guide Midjourney in generating images that are consistent in style with these reference images.This instruction is particularly useful when you come across an image you really like and want to try generating similar or identical styles, but you don't know what that style is.
 
+SREF controls visual style rather than the identity of a subject. For recurring characters, see the [Midjourney CREF guide](https://chloevolution.com/posts/midjourney-cref/); for the broader prompt workflow and other image-reference techniques, see the [Midjourney advanced tutorial](https://chloevolution.com/posts/midjourney-advanced-tutorial/).
+
 
 ## Applicable Versions  
 Midjourney V6 and Niji V6

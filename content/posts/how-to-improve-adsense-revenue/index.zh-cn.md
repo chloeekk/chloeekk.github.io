@@ -28,6 +28,8 @@ draft: false
 
 ### 关键指标：CTR 和 RPM
 
+比较不同广告位置时，不要只看点击量，还要使用统一口径计算点击率。你可以使用站内的 [CTR 计算器与行业基准](https://chloevolution.com/tools/ctr-calculator/)完成对比。
+
 * **CTR（点击率）**：点击次数 ÷ 广告展示次数
 
   * CTR 越高，意味着广告更吸引访客，CPC 收入潜力更大。
@@ -161,5 +163,4 @@ Google官方也提供了[收入计算器](https://adsense.google.com/intl/en_us/
 * 定期审查网站内容，确保没有涉及成人、赌博、非法下载等违规主题。
 * 检查广告显示情况，确认广告代码未被篡改或失效。
 * 留意 AdSense 后台的 Policy Center 提示，及时处理潜在违规问题，避免收入受影响。
-
 

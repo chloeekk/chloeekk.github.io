@@ -11,6 +11,8 @@ categories:
 
 [DreamFlow](https://dreamflow.app/) 是一个 **AI** 移动应用构建器，它旨在将应用程序的开发过程实现**自动化**、**可视化**和**代码化**。其目标是让用户能够以前所未有的速度创建出**真正的、可投入生产环境**的应用程序：利用 **AI** 的速度快速起步和迭代，同时保持对底层代码的完全控制，确保最终产物是高质量、可扩展的商业级应用。
 
+Dreamflow 将其中一部分工作方式称为“Agentic”。如果你不熟悉这个概念，可以先阅读 [AI 初学者核心词汇表](https://chloevolution.com/zh-cn/posts/ai-glossary-for-beginners/)，了解智能体如何规划、调用工具并执行多步骤任务。
+
 用户使用方法：
 
 1.  **描述你的应用 (Describe your app)**：

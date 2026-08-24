@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /images/
+
 User-agent: MJ12bot
 Disallow: /
 
@@ -74,4 +76,4 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-Sitemap: https://chloevolution.com/sitemap.xml
+Sitemap: {{ "/sitemap.xml" | absURL }}

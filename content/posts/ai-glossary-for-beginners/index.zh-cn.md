@@ -58,6 +58,9 @@ Agent 之所以能实现“自主思考”和“完成任务”，主要依赖�
 * **企业数字员工：** 各种云服务商和企业服务公司推出的**行业 Agent**，被嵌入企业的财务、人事、客服系统中，自动执行复杂的业务流程。
 * **个人自动化助手：** 旨在帮助个人用户跨多个应用（如邮件、日历、待办事项）自主管理和协调工作任务。
 * **通用 Agent 平台：** 一些平台提供构建框架和工具，让开发者可以基于其构建各种自定义任务的 Agent。
+* **AI 应用构建器：** [Dreamflow](https://chloevolution.com/zh-cn/posts/dreamflow-review/) 等产品将 Agent 驱动的生成方式与可视化编辑、代码控制结合起来。
+
+如果想进一步了解智能体在执行任务时如何调用知识库，可以阅读[智能体与知识库如何协同工作](https://chloevolution.com/zh-cn/posts/agent-vs-knowledge-base/)。
 
 
 ## 知识库 (Knowledge Base)

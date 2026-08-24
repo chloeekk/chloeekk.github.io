@@ -199,3 +199,4 @@ Check ads via:
 
   * After reaching the minimum payout threshold (usually **\$100**), Google pays via bank transfer or check.
 
+Once ads are running and generating impressions, continue with [How to Maximize AdSense Revenue](https://chloevolution.com/posts/how-to-improve-adsense-revenue/) to understand CTR, RPM, ad formats, placement testing, and common policy risks.

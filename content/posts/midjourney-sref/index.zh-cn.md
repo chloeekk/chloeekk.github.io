@@ -11,6 +11,8 @@ categories:
 
 ---sref指令全称为“风格参考”（Style References），旨在帮助用户复刻和保持图片风格的一致性。其主要作用是允许用户上传一张或多张图片作为风格参考，以指导Midjourney生成与这些参考图风格一致的图像。这个指令在你看到一个非常喜欢的图片，想尝试生成类似或相同风格的图片、而又不知道这是什么风格时特别有用。
 
+SREF 控制的是画面风格，而不是主体身份。如果需要让同一角色在不同图片中保持一致，可以阅读 [Midjourney CREF 教程](https://chloevolution.com/zh-cn/posts/midjourney-cref/)；如果想系统了解图片提示词和其他进阶方法，可以继续阅读 [Midjourney 进阶教程](https://chloevolution.com/zh-cn/posts/midjourney-advanced-tutorial/)。
+
 ## 适用版本
 Midjourney V6 和 Niji V6
 
@@ -98,4 +100,3 @@ prompt提示词 --sref 图片一URL 图片二URL 图片三URL ...
 
 两者同时使用则可兼顾语义内容与风格：
 ![](combine-image-prompt-sref-example.png)
-
