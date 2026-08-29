@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "chloevolution-10000-hour-tracker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-29",
+  "vars": {
+    "ALLOWED_ORIGIN": "http://localhost:1313"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "tracker-db",
+      "database_id": "replace-after-creating-d1-database",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

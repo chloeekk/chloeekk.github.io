@@ -1,0 +1,2 @@
+OWNER_ACTIVATION_KEY=replace-with-a-long-local-test-key
+INTEREST_HASH_PEPPER=replace-with-a-different-long-local-secret

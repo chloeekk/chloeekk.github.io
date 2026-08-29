@@ -1,0 +1,266 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "head" -}}
+  <link rel="stylesheet" href="/css/tracker.css">
+  <script defer src="/js/tracker.js"></script>
+{{- end -}}
+
+{{- define "content" -}}
+{{- $en := eq .Language.Lang "en" -}}
+<article class="tracker" data-tracker-root data-lang="{{ .Language.Lang }}" data-api-base="{{ if hugo.IsServer }}http://localhost:8787/v1{{ else }}https://tracker-api.chloevolution.com/v1{{ end }}">
+  <section class="owner-activation" data-owner-activation hidden>
+    <form data-activation-form>
+      <p class="tracker-section__eyebrow">{{ if $en }}OWNER ACTIVATION{{ else }}OWNER 设备激活{{ end }}</p>
+      <h2>{{ if $en }}Activate this device{{ else }}激活这台设备{{ end }}</h2>
+      <p>{{ if $en }}Enter the Owner Key to give this device revocable access. The key is never stored in the browser or public data.{{ else }}输入 Owner Key 后，这台设备会获得可撤销的访问权限。密钥不会保存到浏览器或公开数据中。{{ end }}</p>
+      <label>Owner Key<input type="password" name="owner_key" autocomplete="current-password" required></label>
+      <button class="tracker-primary-button" type="submit">{{ if $en }}Activate this device{{ else }}激活这台设备{{ end }}</button>
+      <span class="owner-form-message" data-activation-message role="status"></span>
+    </form>
+  </section>
+
+  <section class="owner-toolbar" data-owner-toolbar hidden aria-label="{{ if $en }}Owner toolbar{{ else }}Owner 工具栏{{ end }}">
+    <span><i></i>{{ if $en }}Owner mode{{ else }}Owner 模式{{ end }}</span>
+    <div>
+      <button type="button" data-view-visitor>{{ if $en }}Visitor view{{ else }}访客视图{{ end }}</button>
+      <button type="button" data-open-start>{{ if $en }}Start{{ else }}开始计时{{ end }}</button>
+      <button type="button" data-open-manual>{{ if $en }}Manual entry{{ else }}补录时间{{ end }}</button>
+      <button type="button" data-open-manage>{{ if $en }}Manage{{ else }}管理{{ end }}</button>
+    </div>
+  </section>
+
+  <section class="owner-preview-toolbar" data-owner-preview-toolbar hidden aria-label="{{ if $en }}Visitor preview toolbar{{ else }}访客预览工具栏{{ end }}">
+    <span>{{ if $en }}Currently viewing as a visitor{{ else }}当前是访客视图{{ end }}</span>
+    <button type="button" data-enter-owner>{{ if $en }}Enter Owner mode{{ else }}进入 Owner 模式{{ end }}</button>
+  </section>
+
+  <section class="active-timer" data-active-timer hidden aria-live="polite">
+    <div class="active-timer__identity">
+      <span data-timer-status>{{ if $en }}Running{{ else }}正在计时{{ end }}</span>
+      <strong data-timer-topic>{{ if $en }}Product building{{ else }}产品构建{{ end }}</strong>
+    </div>
+    <div class="active-timer__tasks">
+      <label>{{ if $en }}Task in Chinese{{ else }}中文任务{{ end }}<input type="text" maxlength="300" placeholder="{{ if $en }}Optional while timing{{ else }}计时中可选填{{ end }}" data-timer-task-zh></label>
+      <label>{{ if $en }}Task in English{{ else }}英文任务{{ end }}<input type="text" maxlength="300" placeholder="{{ if $en }}Optional while timing{{ else }}计时中可选填{{ end }}" data-timer-task-en></label>
+    </div>
+    <time data-timer-elapsed>00:00:00</time>
+    <div class="active-timer__actions">
+      <button type="button" data-timer-toggle>{{ if $en }}Pause{{ else }}暂停{{ end }}</button>
+      <button type="button" class="is-primary" data-timer-finish>{{ if $en }}Finish{{ else }}完成{{ end }}</button>
+      <button type="button" class="is-quiet" data-timer-cancel>{{ if $en }}Cancel{{ else }}取消{{ end }}</button>
+    </div>
+  </section>
+  <header class="tracker-hero">
+    <div class="tracker-intro">
+      <p class="tracker-kicker">10,000 HOUR TRACKER</p>
+      <h1>{{ if $en }}Keep the hours.<br>See what they become.{{ else }}把时间留下来，<br>看看它会长成什么。{{ end }}</h1>
+      <p class="tracker-lede">{{ if $en }}Tracking how time spent gradually becomes ideas, work, and new directions.{{ else }}这是我的长期投入记录。它记录时间花在了什么地方，以及这些投入如何逐渐形成思考、代码、文章和新的方向。{{ end }}</p>
+    </div>
+    <div class="tracker-total" aria-label="{{ if $en }}Total time{{ else }}累计时间{{ end }}">
+      <span class="tracker-total__label">{{ if $en }}Total time{{ else }}累计时间{{ end }}</span>
+      <strong class="tracker-total__duration">
+        <span><b data-total-hours>142</b><small>{{ if $en }}hours{{ else }}小时{{ end }}</small></span>
+        <span><b data-total-minutes>0</b><small>{{ if $en }}min{{ else }}分{{ end }}</small></span>
+        <span><b data-total-seconds>0</b><small>{{ if $en }}sec{{ else }}秒{{ end }}</small></span>
+      </strong>
+      <span class="tracker-total__meta"><span data-record-count>24</span> <span data-entry-count-label>{{ if $en }}entries{{ else }}条记录{{ end }}</span> · <span data-start-date>{{ if $en }}Since March 2026{{ else }}从 2026 年 3 月开始{{ end }}</span></span>
+    </div>
+  </header>
+
+  <section class="tracker-section tracker-directions" aria-labelledby="directions-title">
+    <div class="tracker-section__heading">
+      <div>
+        <p class="tracker-section__eyebrow">{{ if $en }}DIRECTIONS{{ else }}投入方向{{ end }}</p>
+        <h2 id="directions-title">{{ if $en }}Where has the time gone?{{ else }}时间都花在了什么地方？{{ end }}</h2>
+      </div>
+      <button class="tracker-filter is-active" type="button" aria-pressed="true" data-overview-filter>{{ if $en }}Overview{{ else }}总览{{ end }}</button>
+    </div>
+
+    <div class="direction-grid" data-topic-grid>
+      <button class="direction-card" type="button" data-topic="ai-and-agents">
+        <span class="direction-card__dot direction-card__dot--violet"></span>
+        <span class="direction-card__name">{{ if $en }}AI and agents{{ else }}AI 与智能体{{ end }}</span>
+        <strong>{{ if $en }}48.5 hours{{ else }}48.5 小时{{ end }}</strong>
+        <span class="direction-card__meta">{{ if $en }}8 entries{{ else }}8 条记录{{ end }}</span>
+      </button>
+      <button class="direction-card" type="button" data-topic="product-building">
+        <span class="direction-card__dot direction-card__dot--blue"></span>
+        <span class="direction-card__name">{{ if $en }}Product building{{ else }}产品构建{{ end }}</span>
+        <strong>{{ if $en }}41.2 hours{{ else }}41.2 小时{{ end }}</strong>
+        <span class="direction-card__meta">{{ if $en }}7 entries{{ else }}7 条记录{{ end }}</span>
+      </button>
+      <button class="direction-card" type="button" data-topic="marketing">
+        <span class="direction-card__dot direction-card__dot--coral"></span>
+        <span class="direction-card__name">{{ if $en }}Marketing research{{ else }}营销研究{{ end }}</span>
+        <strong>{{ if $en }}32.8 hours{{ else }}32.8 小时{{ end }}</strong>
+        <span class="direction-card__meta">{{ if $en }}5 entries{{ else }}5 条记录{{ end }}</span>
+      </button>
+      <button class="direction-card" type="button" data-topic="writing">
+        <span class="direction-card__dot direction-card__dot--green"></span>
+        <span class="direction-card__name">{{ if $en }}Writing{{ else }}写作{{ end }}</span>
+        <strong>{{ if $en }}19.5 hours{{ else }}19.5 小时{{ end }}</strong>
+        <span class="direction-card__meta">{{ if $en }}4 entries{{ else }}4 条记录{{ end }}</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="tracker-dashboard-grid">
+    <section class="tracker-panel tracker-trend" aria-labelledby="trend-title">
+      <div class="tracker-panel__heading">
+        <div>
+          <p class="tracker-section__eyebrow">{{ if $en }}LAST 12 MONTHS{{ else }}最近 12 个月{{ end }}</p>
+          <h2 id="trend-title">{{ if $en }}Monthly time{{ else }}月度趋势{{ end }}</h2>
+        </div>
+      </div>
+      <div class="trend-chart" aria-label="{{ if $en }}Monthly time bar chart{{ else }}月度累计时间柱状图{{ end }}" data-trend-chart>
+        <span style="--bar:22%"></span><span style="--bar:34%"></span><span style="--bar:28%"></span>
+        <span style="--bar:49%"></span><span style="--bar:43%"></span><span style="--bar:58%"></span>
+        <span style="--bar:62%"></span><span style="--bar:55%"></span><span style="--bar:76%"></span>
+        <span style="--bar:69%"></span><span style="--bar:84%"></span><span style="--bar:96%"></span>
+      </div>
+      <div class="trend-axis" data-trend-axis>{{ if $en }}<span>Sep</span><span>Dec</span><span>Mar</span><span>Jun</span><span>Aug</span>{{ else }}<span>9 月</span><span>12 月</span><span>3 月</span><span>6 月</span><span>8 月</span>{{ end }}</div>
+    </section>
+
+    <section class="tracker-panel tracker-records" aria-labelledby="records-title">
+      <div class="tracker-panel__heading">
+        <div>
+          <p class="tracker-section__eyebrow">{{ if $en }}LATEST{{ else }}最近发生{{ end }}</p>
+          <h2 id="records-title">{{ if $en }}Recent entries{{ else }}近期记录{{ end }}</h2>
+        </div>
+      </div>
+      <ol class="record-list" data-record-list>
+        <li>
+          <span class="record-list__date">{{ if $en }}Aug 29{{ else }}8 月 29 日{{ end }}</span>
+          <div><strong>{{ if $en }}10,000 Hour Tracker technical validation{{ else }}10000 Hour Tracker 技术验证{{ end }}</strong><span>{{ if $en }}Product building{{ else }}产品构建{{ end }}</span></div>
+          <time>{{ if $en }}2 hr 12 min{{ else }}2 小时 12 分{{ end }}</time>
+        </li>
+        <li>
+          <span class="record-list__date">{{ if $en }}Aug 27{{ else }}8 月 27 日{{ end }}</span>
+          <div><strong>{{ if $en }}Research agent workflows{{ else }}研究 Agent 工作流{{ end }}</strong><span>{{ if $en }}AI and agents{{ else }}AI 与智能体{{ end }}</span></div>
+          <time>{{ if $en }}1 hr 45 min{{ else }}1 小时 45 分{{ end }}</time>
+        </li>
+        <li>
+          <span class="record-list__date">{{ if $en }}Aug 24{{ else }}8 月 24 日{{ end }}</span>
+          <div><strong>{{ if $en }}Organize the keyword research framework{{ else }}整理关键词研究框架{{ end }}</strong><span>{{ if $en }}Marketing research{{ else }}营销研究{{ end }}</span></div>
+          <time>{{ if $en }}1 hr 20 min{{ else }}1 小时 20 分{{ end }}</time>
+        </li>
+      </ol>
+      <button class="tracker-text-button" type="button" data-load-more hidden>{{ if $en }}Load more{{ else }}加载更多{{ end }}</button>
+    </section>
+  </div>
+
+  <div class="tracker-bottom-grid">
+    <section class="tracker-panel related-posts" aria-labelledby="related-title">
+      <p class="tracker-section__eyebrow">{{ if $en }}FROM TIME TO WORK{{ else }}从投入到作品{{ end }}</p>
+      <h2 id="related-title">{{ if $en }}Related posts{{ else }}相关文章{{ end }}</h2>
+      <div class="related-post-list" data-related-posts>
+        <p class="tracker-empty">{{ if $en }}No related posts yet{{ else }}还没有关联文章{{ end }}</p>
+      </div>
+    </section>
+
+    <section class="tracker-cta" aria-labelledby="cta-title">
+      <p class="tracker-section__eyebrow">{{ if $en }}A TOOL IN PROGRESS{{ else }}一个正在生长的工具{{ end }}</p>
+      <h2 id="cta-title">{{ if $en }}Would you track your long-term effort too?{{ else }}你也想记录自己的长期投入吗？{{ end }}</h2>
+      <p>{{ if $en }}For now, I use this only to track my own time. If you would like to try it too, let me know.{{ else }}目前只是用来记录我个人的时间，如果你也想试试，可以告诉我～{{ end }}</p>
+      <button type="button" class="tracker-primary-button" data-interest-button>{{ if $en }}I’d like to try it!{{ else }}我也想试试！{{ end }}</button>
+      <small>{{ if $en }}<span data-interest-count>18</span> people want to try it{{ else }}目前已有 <span data-interest-count>18</span> 人想试试{{ end }}</small>
+    </section>
+  </div>
+
+  <dialog class="tracker-dialog finish-dialog" data-finish-dialog>
+    <form method="dialog" data-finish-form>
+      <div class="tracker-dialog__heading">
+        <div><p class="tracker-section__eyebrow">{{ if $en }}FINISH ENTRY{{ else }}完成计时{{ end }}</p><h2>{{ if $en }}Review this time{{ else }}确认这次投入{{ end }}</h2></div>
+        <button type="button" class="dialog-close" data-close-dialog aria-label="{{ if $en }}Back{{ else }}返回{{ end }}">×</button>
+      </div>
+      <label>{{ if $en }}Where did the time go?{{ else }}时间花在了哪里？{{ end }}<select name="topic_id" data-finish-topic disabled></select></label>
+      <label>{{ if $en }}Task in Chinese{{ else }}中文任务{{ end }}<input name="task_zh" maxlength="300"></label>
+      <label>{{ if $en }}Task in English{{ else }}英文任务{{ end }}<input name="task_en" maxlength="300"></label>
+      <p class="start-dialog__hint">{{ if $en }}For a public entry, complete both task fields or leave both empty.{{ else }}公开记录请同时填写中英文任务，或两项都留空。{{ end }}</p>
+      <label>{{ if $en }}Note (optional){{ else }}笔记，可选{{ end }}<textarea name="note" rows="3" maxlength="5000"></textarea></label>
+      <fieldset><legend>{{ if $en }}Who can see this entry?{{ else }}谁可以看到这条记录？{{ end }}</legend>
+        <label><input type="radio" name="visibility" value="public" checked> {{ if $en }}Public{{ else }}所有人{{ end }}</label>
+        <label><input type="radio" name="visibility" value="private"> {{ if $en }}Private{{ else }}仅自己{{ end }}</label>
+      </fieldset>
+      <button class="tracker-primary-button" type="submit">{{ if $en }}Save entry{{ else }}保存记录{{ end }}</button>
+      <span class="owner-form-message" data-finish-message role="status"></span>
+    </form>
+  </dialog>
+
+  <dialog class="tracker-dialog start-dialog" data-start-dialog>
+    <form data-start-form>
+      <div class="tracker-dialog__heading">
+        <div><p class="tracker-section__eyebrow">{{ if $en }}START TIMER{{ else }}开始计时{{ end }}</p><h2>{{ if $en }}Choose a direction{{ else }}选择投入方向{{ end }}</h2></div>
+        <button type="button" class="dialog-close" data-close-start aria-label="{{ if $en }}Close{{ else }}关闭{{ end }}">×</button>
+      </div>
+      <label>{{ if $en }}Where will this time go?{{ else }}这次时间花在哪里？{{ end }}<select name="topic_id" required data-start-topic></select></label>
+      <p class="start-dialog__hint">{{ if $en }}You can add the task in the timer bar after starting.{{ else }}开始后可以在顶部计时条中补充任务名称。{{ end }}</p>
+      <button class="tracker-primary-button" type="submit" data-start-submit>{{ if $en }}Start{{ else }}开始计时{{ end }}</button>
+      <span class="owner-form-message" data-start-message role="status"></span>
+    </form>
+  </dialog>
+
+  <dialog class="tracker-dialog entry-dialog" data-entry-dialog>
+    <form data-entry-form>
+      <div class="tracker-dialog__heading">
+        <div><p class="tracker-section__eyebrow" data-entry-eyebrow>{{ if $en }}MANUAL ENTRY{{ else }}补录时间{{ end }}</p><h2 data-entry-title>{{ if $en }}Add an entry{{ else }}新增一条记录{{ end }}</h2></div>
+        <button type="button" class="dialog-close" data-close-entry aria-label="{{ if $en }}Close{{ else }}关闭{{ end }}">×</button>
+      </div>
+      <label>{{ if $en }}Where did the time go?{{ else }}时间花在了哪里？{{ end }}<select name="topic_id" required data-entry-topic></select></label>
+      <label>{{ if $en }}Date{{ else }}日期{{ end }}<input type="date" name="entry_date" required></label>
+      <fieldset class="duration-fields"><legend>{{ if $en }}Duration{{ else }}时长{{ end }}</legend>
+        <label>{{ if $en }}Hours{{ else }}小时{{ end }}<input type="number" name="hours" min="0" max="9999" step="1" value="0" inputmode="numeric"></label>
+        <label>{{ if $en }}Minutes{{ else }}分钟{{ end }}<input type="number" name="minutes" min="0" max="59" step="1" value="30" inputmode="numeric"></label>
+        <label>{{ if $en }}Seconds{{ else }}秒{{ end }}<input type="number" name="seconds" min="0" max="59" step="1" value="0" inputmode="numeric"></label>
+      </fieldset>
+      <label>{{ if $en }}Task in Chinese{{ else }}中文任务{{ end }}<input name="task_zh" maxlength="300" placeholder="例如：整理产品需求"></label>
+      <label>{{ if $en }}Task in English{{ else }}英文任务{{ end }}<input name="task_en" maxlength="300" placeholder="For example: Organize product requirements"></label>
+      <p class="start-dialog__hint">{{ if $en }}For a public entry, complete both task fields or leave both empty. Private entries may use either one.{{ else }}公开记录请同时填写中英文任务，或两项都留空；私密记录可以只填写其中一项。{{ end }}</p>
+      <label>{{ if $en }}Note (optional){{ else }}笔记，可选{{ end }}<textarea name="note" rows="3" maxlength="5000"></textarea></label>
+      <fieldset><legend>{{ if $en }}Who can see this entry?{{ else }}谁可以看到这条记录？{{ end }}</legend>
+        <label><input type="radio" name="visibility" value="public" checked> {{ if $en }}Public{{ else }}所有人{{ end }}</label>
+        <label><input type="radio" name="visibility" value="private"> {{ if $en }}Private{{ else }}仅自己{{ end }}</label>
+      </fieldset>
+      <label>{{ if $en }}Related post (optional, chloevolution.com only){{ else }}相关文章，可选（仅支持 chloevolution.com）{{ end }}<input type="url" name="related_post_url" placeholder="https://chloevolution.com/…"></label>
+      <button class="tracker-primary-button" type="submit" data-entry-submit>{{ if $en }}Save entry{{ else }}保存记录{{ end }}</button>
+      <button class="entry-delete" type="button" data-entry-delete hidden>{{ if $en }}Delete this entry permanently{{ else }}永久删除这条记录{{ end }}</button>
+      <span class="owner-form-message" data-entry-message role="status"></span>
+    </form>
+  </dialog>
+
+  <dialog class="tracker-dialog manage-dialog" data-manage-dialog>
+    <div class="manage-dialog__body">
+      <div class="tracker-dialog__heading">
+        <div><p class="tracker-section__eyebrow">{{ if $en }}OWNER MANAGEMENT{{ else }}OWNER 管理{{ end }}</p><h2>{{ if $en }}Manage entries and directions{{ else }}管理记录与方向{{ end }}</h2></div>
+        <button type="button" class="dialog-close" data-close-manage aria-label="{{ if $en }}Close{{ else }}关闭{{ end }}">×</button>
+      </div>
+      <div class="manage-tabs" role="tablist" aria-label="{{ if $en }}Manage content{{ else }}管理内容{{ end }}">
+        <button type="button" class="is-active" role="tab" aria-selected="true" data-manage-tab="entries">{{ if $en }}Time entries{{ else }}时间记录{{ end }}</button>
+        <button type="button" role="tab" aria-selected="false" data-manage-tab="topics">{{ if $en }}Directions{{ else }}投入方向{{ end }}</button>
+      </div>
+
+      <section class="manage-view" data-manage-view="entries">
+        <div class="manage-view__tools">
+          <label>{{ if $en }}View{{ else }}查看{{ end }}<select data-entry-status><option value="completed">{{ if $en }}Completed{{ else }}已完成{{ end }}</option><option value="cancelled">{{ if $en }}Cancelled{{ else }}已取消{{ end }}</option></select></label>
+          <button type="button" data-manage-manual>{{ if $en }}Manual entry{{ else }}补录时间{{ end }}</button>
+        </div>
+        <div class="manage-list" data-manage-entry-list></div>
+        <p class="owner-form-message" data-manage-entry-message role="status"></p>
+      </section>
+
+      <section class="manage-view" data-manage-view="topics" hidden>
+        <form class="topic-form" data-topic-form>
+          <div class="manage-view__heading"><h3 data-topic-form-title>{{ if $en }}New direction{{ else }}新建投入方向{{ end }}</h3><button type="button" data-cancel-topic-edit hidden>{{ if $en }}Cancel editing{{ else }}取消编辑{{ end }}</button></div>
+          <input type="hidden" name="topic_id">
+          <label>{{ if $en }}Chinese name{{ else }}中文名称{{ end }}<input name="name_zh" maxlength="80" required placeholder="{{ if $en }}Enter the Chinese label{{ else }}例如：产品构建{{ end }}"></label>
+          <label>{{ if $en }}English name{{ else }}英文名称{{ end }}<input name="name_en" maxlength="80" required placeholder="For example: Product building"></label>
+          <label>{{ if $en }}Color{{ else }}颜色{{ end }}<input type="color" name="color" value="#6657d9"></label>
+          <button class="tracker-primary-button" type="submit" data-topic-submit>{{ if $en }}New direction{{ else }}新建方向{{ end }}</button>
+          <span class="owner-form-message" data-topic-message role="status"></span>
+        </form>
+        <div class="manage-list topic-manage-list" data-manage-topic-list></div>
+      </section>
+    </div>
+  </dialog>
+</article>
+{{- end -}}

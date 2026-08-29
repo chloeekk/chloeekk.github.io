@@ -3,3 +3,6 @@ public/
 .claude/
 .codex/
 AGENTS.md
+tracker-worker/node_modules/
+tracker-worker/.dev.vars
+tracker-worker/.wrangler/

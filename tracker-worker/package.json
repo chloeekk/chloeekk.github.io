@@ -1,0 +1,23 @@
+{
+  "name": "chloevolution-10000-hour-tracker-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "db:migrate:local": "wrangler d1 migrations apply tracker-db --local",
+    "db:seed:local": "wrangler d1 execute tracker-db --local --file=seed.sql"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260829.1",
+    "@cloudflare/vitest-plugin": "^1.1.2",
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.31.0"
+  }
+}
