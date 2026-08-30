@@ -1,8 +1,10 @@
 {{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
 
 {{- define "head" -}}
-  <link rel="stylesheet" href="/css/tracker.css">
-  <script defer src="/js/tracker.js"></script>
+  {{- $trackerCSSVersion := os.ReadFile "static/css/tracker.css" | crypto.MD5 -}}
+  {{- $trackerJSVersion := os.ReadFile "static/js/tracker.js" | crypto.MD5 -}}
+  <link rel="stylesheet" href="/css/tracker.css?v={{ $trackerCSSVersion }}">
+  <script defer src="/js/tracker.js?v={{ $trackerJSVersion }}"></script>
 {{- end -}}
 
 {{- define "content" -}}
