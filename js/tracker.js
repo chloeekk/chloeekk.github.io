@@ -507,10 +507,23 @@
     if (!activeTimer || timerToggleButton.disabled) return;
     const timerId = activeTimer.id;
     const action = activeTimer.status === "paused" ? "resume" : "pause";
+    const transitionStartedAt = Date.now();
+    const previousTimer = { ...activeTimer };
+
+    if (action === "pause") {
+      activeTimer = { ...activeTimer, status: "paused", updated_at_ms: transitionStartedAt };
+    } else {
+      activeTimer = {
+        ...activeTimer,
+        status: "running",
+        paused_ms: Number(activeTimer.paused_ms || 0)
+          + Math.max(0, transitionStartedAt - Number(activeTimer.updated_at_ms)),
+        updated_at_ms: transitionStartedAt,
+      };
+    }
+    renderActiveTimer();
     timerToggleButton.disabled = true;
-    timerToggleButton.textContent = action === "resume"
-      ? tx("正在继续…", "Resuming…")
-      : tx("正在暂停…", "Pausing…");
+    timerToggleButton.textContent = tx("正在确认…", "Confirming…");
     try {
       await persistActiveTask();
       if (!activeTimer || activeTimer.id !== timerId) return;
@@ -521,7 +534,11 @@
       if (activeTimer?.id === timerId) {
         activeTimer = { ...activeTimer, ...updated };
       }
-    } catch (_) { alert(tx("计时状态已经变化，页面将重新同步。", "The timer changed elsewhere. This page will resync.")); await loadOwnerState(); }
+    } catch (_) {
+      activeTimer = previousTimer;
+      await loadOwnerState();
+      alert(tx("计时状态没有保存成功，已恢复为服务器中的状态。", "The timer change was not saved. The server state has been restored."));
+    }
     finally {
       timerToggleButton.disabled = false;
       if (activeTimer) renderActiveTimer();
