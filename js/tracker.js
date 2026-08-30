@@ -31,6 +31,7 @@
   const ownerToolbar = root.querySelector("[data-owner-toolbar]");
   const ownerPreviewToolbar = root.querySelector("[data-owner-preview-toolbar]");
   const activeTimerElement = root.querySelector("[data-active-timer]");
+  const timerToggleButton = root.querySelector("[data-timer-toggle]");
   const timerTaskZhInput = root.querySelector("[data-timer-task-zh]");
   const timerTaskEnInput = root.querySelector("[data-timer-task-en]");
   const finishDialog = root.querySelector("[data-finish-dialog]");
@@ -327,7 +328,8 @@
     root.querySelector("[data-timer-topic]").textContent = topicName(topic) || tx("当前方向", "Current direction");
     timerTaskZhInput.value = activeTimer.task_zh || activeTimer.task || "";
     timerTaskEnInput.value = activeTimer.task_en || "";
-    root.querySelector("[data-timer-toggle]").textContent = activeTimer.status === "paused" ? tx("继续", "Resume") : tx("暂停", "Pause");
+    timerToggleButton.disabled = false;
+    timerToggleButton.textContent = activeTimer.status === "paused" ? tx("继续", "Resume") : tx("暂停", "Pause");
     const updateClock = () => { root.querySelector("[data-timer-elapsed]").textContent = clock(effectiveSeconds()); };
     updateClock();
     if (activeTimer.status === "running") timerInterval = setInterval(updateClock, 1000);
@@ -501,17 +503,29 @@
     }
   });
 
-  root.querySelector("[data-timer-toggle]").addEventListener("click", async () => {
-    if (!activeTimer) return;
+  timerToggleButton.addEventListener("click", async () => {
+    if (!activeTimer || timerToggleButton.disabled) return;
+    const timerId = activeTimer.id;
+    const action = activeTimer.status === "paused" ? "resume" : "pause";
+    timerToggleButton.disabled = true;
+    timerToggleButton.textContent = action === "resume"
+      ? tx("正在继续…", "Resuming…")
+      : tx("正在暂停…", "Pausing…");
     try {
       await persistActiveTask();
-      const action = activeTimer.status === "paused" ? "resume" : "pause";
-      await ownerRequest(`/owner/timer/${activeTimer.id}/${action}`, {
+      if (!activeTimer || activeTimer.id !== timerId) return;
+      const updated = await ownerRequest(`/owner/timer/${timerId}/${action}`, {
         method: "POST",
         body: JSON.stringify({ expected_version: activeTimer.version }),
       });
-      enableOwner(await ownerRequest("/owner/state"));
+      if (activeTimer?.id === timerId) {
+        activeTimer = { ...activeTimer, ...updated };
+      }
     } catch (_) { alert(tx("计时状态已经变化，页面将重新同步。", "The timer changed elsewhere. This page will resync.")); await loadOwnerState(); }
+    finally {
+      timerToggleButton.disabled = false;
+      if (activeTimer) renderActiveTimer();
+    }
   });
 
   root.querySelector("[data-timer-cancel]").addEventListener("click", async () => {
