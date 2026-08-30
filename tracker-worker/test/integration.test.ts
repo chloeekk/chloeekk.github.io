@@ -288,7 +288,7 @@ describe.sequential("10,000 Hour Tracker core flow", () => {
 
   it("orders recent records by date and then completion time", async () => {
     await env.DB.prepare(
-      `UPDATE time_entries SET completed_at_ms = CASE id
+      `UPDATE time_entries SET entry_date = '2026-08-29', completed_at_ms = CASE id
         WHEN '10000000-0000-4000-8000-000000000001' THEN 1000
         WHEN '10000000-0000-4000-8000-000000000006' THEN 2000
         ELSE completed_at_ms END
