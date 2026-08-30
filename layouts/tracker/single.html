@@ -59,11 +59,11 @@
     <div class="tracker-total" aria-label="{{ if $en }}Total time{{ else }}累计时间{{ end }}">
       <span class="tracker-total__label">{{ if $en }}Total time{{ else }}累计时间{{ end }}</span>
       <strong class="tracker-total__duration">
-        <span><b data-total-hours>142</b><small>{{ if $en }}hours{{ else }}小时{{ end }}</small></span>
-        <span><b data-total-minutes>0</b><small>{{ if $en }}min{{ else }}分{{ end }}</small></span>
-        <span><b data-total-seconds>0</b><small>{{ if $en }}sec{{ else }}秒{{ end }}</small></span>
+        <span><b data-total-hours>—</b><small>{{ if $en }}hours{{ else }}小时{{ end }}</small></span>
+        <span><b data-total-minutes>—</b><small>{{ if $en }}min{{ else }}分{{ end }}</small></span>
+        <span><b data-total-seconds>—</b><small>{{ if $en }}sec{{ else }}秒{{ end }}</small></span>
       </strong>
-      <span class="tracker-total__meta"><span data-record-count>24</span> <span data-entry-count-label>{{ if $en }}entries{{ else }}条记录{{ end }}</span> · <span data-start-date>{{ if $en }}Since March 2026{{ else }}从 2026 年 3 月开始{{ end }}</span></span>
+      <span class="tracker-total__meta"><span data-record-count>—</span> <span data-entry-count-label>{{ if $en }}entries{{ else }}条记录{{ end }}</span> · <span data-start-date>{{ if $en }}Loading…{{ else }}正在加载…{{ end }}</span></span>
     </div>
   </header>
 
@@ -77,30 +77,7 @@
     </div>
 
     <div class="direction-grid" data-topic-grid>
-      <button class="direction-card" type="button" data-topic="ai-and-agents">
-        <span class="direction-card__dot direction-card__dot--violet"></span>
-        <span class="direction-card__name">{{ if $en }}AI and agents{{ else }}AI 与智能体{{ end }}</span>
-        <strong>{{ if $en }}48.5 hours{{ else }}48.5 小时{{ end }}</strong>
-        <span class="direction-card__meta">{{ if $en }}8 entries{{ else }}8 条记录{{ end }}</span>
-      </button>
-      <button class="direction-card" type="button" data-topic="product-building">
-        <span class="direction-card__dot direction-card__dot--blue"></span>
-        <span class="direction-card__name">{{ if $en }}Product building{{ else }}产品构建{{ end }}</span>
-        <strong>{{ if $en }}41.2 hours{{ else }}41.2 小时{{ end }}</strong>
-        <span class="direction-card__meta">{{ if $en }}7 entries{{ else }}7 条记录{{ end }}</span>
-      </button>
-      <button class="direction-card" type="button" data-topic="marketing">
-        <span class="direction-card__dot direction-card__dot--coral"></span>
-        <span class="direction-card__name">{{ if $en }}Marketing research{{ else }}营销研究{{ end }}</span>
-        <strong>{{ if $en }}32.8 hours{{ else }}32.8 小时{{ end }}</strong>
-        <span class="direction-card__meta">{{ if $en }}5 entries{{ else }}5 条记录{{ end }}</span>
-      </button>
-      <button class="direction-card" type="button" data-topic="writing">
-        <span class="direction-card__dot direction-card__dot--green"></span>
-        <span class="direction-card__name">{{ if $en }}Writing{{ else }}写作{{ end }}</span>
-        <strong>{{ if $en }}19.5 hours{{ else }}19.5 小时{{ end }}</strong>
-        <span class="direction-card__meta">{{ if $en }}4 entries{{ else }}4 条记录{{ end }}</span>
-      </button>
+      <p class="tracker-empty">{{ if $en }}Loading…{{ else }}正在加载…{{ end }}</p>
     </div>
   </section>
 
@@ -113,12 +90,9 @@
         </div>
       </div>
       <div class="trend-chart" aria-label="{{ if $en }}Monthly time bar chart{{ else }}月度累计时间柱状图{{ end }}" data-trend-chart>
-        <span style="--bar:22%"></span><span style="--bar:34%"></span><span style="--bar:28%"></span>
-        <span style="--bar:49%"></span><span style="--bar:43%"></span><span style="--bar:58%"></span>
-        <span style="--bar:62%"></span><span style="--bar:55%"></span><span style="--bar:76%"></span>
-        <span style="--bar:69%"></span><span style="--bar:84%"></span><span style="--bar:96%"></span>
+        <p class="tracker-empty">{{ if $en }}Loading…{{ else }}正在加载…{{ end }}</p>
       </div>
-      <div class="trend-axis" data-trend-axis>{{ if $en }}<span>Sep</span><span>Dec</span><span>Mar</span><span>Jun</span><span>Aug</span>{{ else }}<span>9 月</span><span>12 月</span><span>3 月</span><span>6 月</span><span>8 月</span>{{ end }}</div>
+      <div class="trend-axis" data-trend-axis></div>
     </section>
 
     <section class="tracker-panel tracker-records" aria-labelledby="records-title">
@@ -129,21 +103,7 @@
         </div>
       </div>
       <ol class="record-list" data-record-list>
-        <li>
-          <span class="record-list__date">{{ if $en }}Aug 29{{ else }}8 月 29 日{{ end }}</span>
-          <div><strong>{{ if $en }}10,000 Hour Tracker technical validation{{ else }}10000 Hour Tracker 技术验证{{ end }}</strong><span>{{ if $en }}Product building{{ else }}产品构建{{ end }}</span></div>
-          <time>{{ if $en }}2 hr 12 min{{ else }}2 小时 12 分{{ end }}</time>
-        </li>
-        <li>
-          <span class="record-list__date">{{ if $en }}Aug 27{{ else }}8 月 27 日{{ end }}</span>
-          <div><strong>{{ if $en }}Research agent workflows{{ else }}研究 Agent 工作流{{ end }}</strong><span>{{ if $en }}AI and agents{{ else }}AI 与智能体{{ end }}</span></div>
-          <time>{{ if $en }}1 hr 45 min{{ else }}1 小时 45 分{{ end }}</time>
-        </li>
-        <li>
-          <span class="record-list__date">{{ if $en }}Aug 24{{ else }}8 月 24 日{{ end }}</span>
-          <div><strong>{{ if $en }}Organize the keyword research framework{{ else }}整理关键词研究框架{{ end }}</strong><span>{{ if $en }}Marketing research{{ else }}营销研究{{ end }}</span></div>
-          <time>{{ if $en }}1 hr 20 min{{ else }}1 小时 20 分{{ end }}</time>
-        </li>
+        <li class="tracker-empty">{{ if $en }}Loading…{{ else }}正在加载…{{ end }}</li>
       </ol>
       <button class="tracker-text-button" type="button" data-load-more hidden>{{ if $en }}Load more{{ else }}加载更多{{ end }}</button>
     </section>
@@ -154,7 +114,7 @@
       <p class="tracker-section__eyebrow">{{ if $en }}FROM TIME TO WORK{{ else }}从投入到作品{{ end }}</p>
       <h2 id="related-title">{{ if $en }}Related posts{{ else }}相关文章{{ end }}</h2>
       <div class="related-post-list" data-related-posts>
-        <p class="tracker-empty">{{ if $en }}No related posts yet{{ else }}还没有关联文章{{ end }}</p>
+        <p class="tracker-empty">{{ if $en }}Loading…{{ else }}正在加载…{{ end }}</p>
       </div>
     </section>
 
@@ -163,7 +123,7 @@
       <h2 id="cta-title">{{ if $en }}Would you track your long-term effort too?{{ else }}你也想记录自己的长期投入吗？{{ end }}</h2>
       <p>{{ if $en }}For now, I use this only to track my own time. If you would like to try it too, let me know.{{ else }}目前只是用来记录我个人的时间，如果你也想试试，可以告诉我～{{ end }}</p>
       <button type="button" class="tracker-primary-button" data-interest-button>{{ if $en }}I’d like to try it!{{ else }}我也想试试！{{ end }}</button>
-      <small>{{ if $en }}<span data-interest-count>18</span> people want to try it{{ else }}目前已有 <span data-interest-count>18</span> 人想试试{{ end }}</small>
+      <small>{{ if $en }}<span data-interest-count>—</span> people want to try it{{ else }}目前已有 <span data-interest-count>—</span> 人想试试{{ end }}</small>
     </section>
   </div>
 
