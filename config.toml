@@ -842,6 +842,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "Categories"
         url = "/categories/"
         title = ""
+      [[languages.en.menu.main]]
+        weight = 5
+        identifier = "tracker"
+        pre = ""
+        post = ""
+        name = "Tracker"
+        url = "/10000-hour-tracker/"
+        title = ""
 #      [[languages.en.menu.main]]
 #        weight = 4
 #        identifier = "documentation"
@@ -851,7 +859,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 #        url = "/categories/documentation/"
 #        title = ""
       [[languages.en.menu.main]]
-        weight = 5
+        weight = 6
         identifier = "about"
         pre = ""
         post = ""
@@ -938,6 +946,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "分类"
         url = "/categories/"
         title = ""
+      [[languages.zh-cn.menu.main]]
+        weight = 4
+        identifier = "tracker"
+        pre = ""
+        post = ""
+        name = "时间追踪"
+        url = "/10000-hour-tracker/"
+        title = ""
 #      [[languages.zh-cn.menu.main]]
 #        weight = 4
 #        identifier = "documentation"
@@ -946,7 +962,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 #        url = "/categories/documentation/"
 #        title = ""
       [[languages.zh-cn.menu.main]]
-        weight = 4
+        weight = 5
         identifier = "about"
         pre = ""
         post = ""
