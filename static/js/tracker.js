@@ -878,6 +878,36 @@
     return tx("记录没有删除成功，请重试。", "The entry was not deleted. Please try again.");
   };
 
+  const inlineEntryDeleteButton = (entry) => {
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "is-danger";
+    remove.textContent = tx("永久删除", "Delete permanently");
+    remove.addEventListener("click", async () => {
+      const prompt = entry.status === "cancelled"
+        ? tx("永久删除这条已取消记录？删除后无法恢复。", "Delete this cancelled entry permanently? This cannot be undone.")
+        : tx("永久删除这条记录？删除后无法恢复。", "Delete this entry permanently? This cannot be undone.");
+      if (!confirm(prompt)) return;
+      const message = root.querySelector("[data-manage-entry-message]");
+      remove.disabled = true;
+      remove.textContent = tx("正在删除…", "Deleting…");
+      try {
+        const result = await deleteEntryRecord(entry.id);
+        const refreshed = await refreshAfterEntryDelete();
+        if (result === "already_deleted") {
+          message.textContent = tx("这条记录此前已删除，列表已刷新。", "This entry had already been deleted. The list is refreshed.");
+        } else if (!refreshed) {
+          message.textContent = tx("记录已删除，但部分页面数据刷新失败；重新打开页面即可同步。", "The entry was deleted, but part of the page did not refresh. Reopen the page to sync it.");
+        }
+      } catch (error) {
+        message.textContent = deleteErrorMessage(error);
+        remove.disabled = false;
+        remove.textContent = tx("永久删除", "Delete permanently");
+      }
+    });
+    return remove;
+  };
+
   root.querySelector("[data-entry-delete]").addEventListener("click", async () => {
     if (!editingEntry || !confirm(tx("永久删除这条记录？删除后无法恢复。", "Delete this entry permanently? This cannot be undone."))) return;
     const remove = root.querySelector("[data-entry-delete]");
@@ -927,36 +957,13 @@
       restore.type = "button";
       restore.textContent = tx("恢复", "Restore");
       restore.addEventListener("click", () => openEntryDialog("restore", entry));
-      const remove = document.createElement("button");
-      remove.type = "button";
-      remove.className = "is-danger";
-      remove.textContent = tx("永久删除", "Delete permanently");
-      remove.addEventListener("click", async () => {
-        if (!confirm(tx("永久删除这条已取消记录？删除后无法恢复。", "Delete this cancelled entry permanently? This cannot be undone."))) return;
-        const message = root.querySelector("[data-manage-entry-message]");
-        remove.disabled = true;
-        remove.textContent = tx("正在删除…", "Deleting…");
-        try {
-          const result = await deleteEntryRecord(entry.id);
-          const refreshed = await refreshAfterEntryDelete();
-          if (result === "already_deleted") {
-            message.textContent = tx("这条记录此前已删除，列表已刷新。", "This entry had already been deleted. The list is refreshed.");
-          } else if (!refreshed) {
-            message.textContent = tx("记录已删除，但部分页面数据刷新失败；重新打开页面即可同步。", "The entry was deleted, but part of the page did not refresh. Reopen the page to sync it.");
-          }
-        } catch (error) {
-          message.textContent = deleteErrorMessage(error);
-          remove.disabled = false;
-          remove.textContent = tx("永久删除", "Delete permanently");
-        }
-      });
-      actions.append(restore, remove);
+      actions.append(restore, inlineEntryDeleteButton(entry));
     } else {
       const edit = document.createElement("button");
       edit.type = "button";
       edit.textContent = tx("编辑", "Edit");
       edit.addEventListener("click", () => openEntryDialog("edit", entry));
-      actions.append(edit);
+      actions.append(edit, inlineEntryDeleteButton(entry));
     }
     row.append(detail, amount, actions);
     return row;
