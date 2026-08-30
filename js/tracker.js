@@ -496,8 +496,23 @@
       });
       message.textContent = tx("激活成功", "Activated");
       await loadOwnerState();
-    } catch (_) {
-      message.textContent = tx("Owner Key 不正确，请重新输入。", "The Owner Key is incorrect. Please try again.");
+    } catch (error) {
+      if (error.code === "owner_auth_required" || error.status === 401) {
+        message.textContent = tx(
+          "Owner Key 与当前环境不匹配。请确认使用的是生产 Owner Key，而不是本地测试 Key。",
+          "The Owner Key does not match this environment. Make sure you are using the production Owner Key, not the local test key.",
+        );
+      } else if (error.code === "invalid_origin" || error.status === 403) {
+        message.textContent = tx(
+          "当前页面地址不能激活 Owner。请从正式 Tracker 地址重新进入。",
+          "Owner activation is not allowed from this page address. Reopen the production Tracker URL.",
+        );
+      } else {
+        message.textContent = tx(
+          "暂时无法连接 Tracker 服务，请检查网络后重试。",
+          "Could not reach the Tracker service. Check your connection and try again.",
+        );
+      }
     } finally {
       submit.disabled = false;
     }
