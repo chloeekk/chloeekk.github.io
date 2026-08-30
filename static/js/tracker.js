@@ -816,13 +816,53 @@
     } finally { save.disabled = false; }
   });
 
+  const deleteEntryRecord = async (entryId) => {
+    try {
+      await ownerRequest(`/owner/entries/${entryId}`, { method: "DELETE" });
+      return "deleted";
+    } catch (error) {
+      if (error.code === "not_found") return "already_deleted";
+      throw error;
+    }
+  };
+
+  const refreshAfterEntryDelete = async () => {
+    const results = await Promise.allSettled([
+      loadDashboard(activeTopic),
+      loadManageEntries(),
+    ]);
+    return results.every((result) => result.status === "fulfilled");
+  };
+
+  const deleteErrorMessage = (error) => {
+    if (error.code === "owner_auth_required" || error.status === 401 || error.status === 403) {
+      return tx("Owner 授权已失效，请刷新页面后重新进入 Owner 模式。", "Owner access expired. Refresh the page and enter Owner mode again.");
+    }
+    return tx("记录没有删除成功，请重试。", "The entry was not deleted. Please try again.");
+  };
+
   root.querySelector("[data-entry-delete]").addEventListener("click", async () => {
     if (!editingEntry || !confirm(tx("永久删除这条记录？删除后无法恢复。", "Delete this entry permanently? This cannot be undone."))) return;
+    const remove = root.querySelector("[data-entry-delete]");
+    const message = root.querySelector("[data-entry-message]");
+    const entryId = editingEntry.id;
+    remove.disabled = true;
+    message.textContent = tx("正在删除…", "Deleting…");
     try {
-      await ownerRequest(`/owner/entries/${editingEntry.id}`, { method: "DELETE" });
+      const result = await deleteEntryRecord(entryId);
+      editingEntry = null;
       entryDialog.close();
-      await refreshOwnerViews();
-    } catch (_) { root.querySelector("[data-entry-message]").textContent = tx("删除失败，请重试。", "Could not delete. Please try again."); }
+      const refreshed = await refreshAfterEntryDelete();
+      const manageMessage = root.querySelector("[data-manage-entry-message]");
+      if (result === "already_deleted") {
+        manageMessage.textContent = tx("这条记录此前已删除，列表已刷新。", "This entry had already been deleted. The list is refreshed.");
+      } else if (!refreshed) {
+        manageMessage.textContent = tx("记录已删除，但部分页面数据刷新失败；重新打开页面即可同步。", "The entry was deleted, but part of the page did not refresh. Reopen the page to sync it.");
+      }
+    } catch (error) {
+      message.textContent = deleteErrorMessage(error);
+      remove.disabled = false;
+    }
   });
 
   const manageEntryRow = (entry) => {
@@ -856,8 +896,22 @@
       remove.textContent = tx("永久删除", "Delete permanently");
       remove.addEventListener("click", async () => {
         if (!confirm(tx("永久删除这条已取消记录？删除后无法恢复。", "Delete this cancelled entry permanently? This cannot be undone."))) return;
-        await ownerRequest(`/owner/entries/${entry.id}`, { method: "DELETE" });
-        await loadManageEntries();
+        const message = root.querySelector("[data-manage-entry-message]");
+        remove.disabled = true;
+        remove.textContent = tx("正在删除…", "Deleting…");
+        try {
+          const result = await deleteEntryRecord(entry.id);
+          const refreshed = await refreshAfterEntryDelete();
+          if (result === "already_deleted") {
+            message.textContent = tx("这条记录此前已删除，列表已刷新。", "This entry had already been deleted. The list is refreshed.");
+          } else if (!refreshed) {
+            message.textContent = tx("记录已删除，但部分页面数据刷新失败；重新打开页面即可同步。", "The entry was deleted, but part of the page did not refresh. Reopen the page to sync it.");
+          }
+        } catch (error) {
+          message.textContent = deleteErrorMessage(error);
+          remove.disabled = false;
+          remove.textContent = tx("永久删除", "Delete permanently");
+        }
       });
       actions.append(restore, remove);
     } else {
