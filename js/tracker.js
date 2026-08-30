@@ -395,6 +395,18 @@
   };
   timerTaskZhInput.addEventListener("input", queueActiveTaskSave);
   timerTaskEnInput.addEventListener("input", queueActiveTaskSave);
+  timerTaskZhInput.addEventListener("input", () => {
+    if (!finishDialog.open) return;
+    finishForm.elements.task_zh.value = timerTaskZhInput.value;
+    finishForm.elements.task_zh.setCustomValidity("");
+    root.querySelector("[data-finish-message]").textContent = "";
+  });
+  timerTaskEnInput.addEventListener("input", () => {
+    if (!finishDialog.open) return;
+    finishForm.elements.task_en.value = timerTaskEnInput.value;
+    finishForm.elements.task_en.setCustomValidity("");
+    root.querySelector("[data-finish-message]").textContent = "";
+  });
 
   const loadOwnerState = async () => {
     const ownerRequested = new URLSearchParams(location.search).get("owner") === "1";
@@ -669,7 +681,10 @@
 
   [finishForm, entryForm].forEach((form) => {
     [form.elements.task_zh, form.elements.task_en].forEach((input) => {
-      input.addEventListener("input", () => input.setCustomValidity(""));
+      input.addEventListener("input", () => {
+        input.setCustomValidity("");
+        if (form === finishForm) root.querySelector("[data-finish-message]").textContent = "";
+      });
     });
     form.querySelectorAll('input[name="visibility"]').forEach((input) => {
       input.addEventListener("change", () => {
@@ -677,6 +692,13 @@
         form.elements.task_en.setCustomValidity("");
       });
     });
+  });
+
+  finishForm.elements.task_zh.addEventListener("input", () => {
+    timerTaskZhInput.value = finishForm.elements.task_zh.value;
+  });
+  finishForm.elements.task_en.addEventListener("input", () => {
+    timerTaskEnInput.value = finishForm.elements.task_en.value;
   });
 
   const fillEntryTopics = (selectedId = null, includeArchived = false) => {
