@@ -21,7 +21,7 @@
 &lt;p>This is the fastest and most intuitive starting method, especially if you already have an idea of the design style you want, or simply want to save time on building a layout from scratch.&lt;/p></description></item><item><title>Everyday Review: Natural Language-Driven Cross-App Automation</title><link>https://chloevolution.com/posts/everyday-review/</link><pubDate>Mon, 27 Oct 2025 07:42:18 +0800</pubDate><guid>https://chloevolution.com/posts/everyday-review/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.everyday.new/" target="_blank" rel="noopener noreffer ">Everyday&lt;/a>&lt;/strong> is a personal AI assistant designed to help users complete tasks and multi-step workflows across different applications through simple natural language commands. It aims to boost productivity and allow users to focus on what truly matters.&lt;/p>
 &lt;p>In short, Everyday is an “all-in-one AI” that turns user intentions into real outcomes—helping you clean up your inbox, organize daily work, and drive progress, so you can focus on higher-value tasks.&lt;/p></description></item><item><title>Profound Review: The Enterprise-Grade Generative Engine Optimization (GEO) Platform in the AI Era</title><link>https://chloevolution.com/posts/profound-review/</link><pubDate>Wed, 08 Oct 2025 14:24:13 +0800</pubDate><guid>https://chloevolution.com/posts/profound-review/</guid><description>&lt;p>&lt;strong>&lt;a href="https://www.tryprofound.com/" target="_blank" rel="noopener noreffer ">Profound&lt;/a>&lt;/strong> is a &lt;strong>GEO (Generative Engine Optimization)&lt;/strong> tool built for &lt;strong>enterprise brands and marketers&lt;/strong>, designed to help brands &lt;strong>monitor and optimize their visibility&lt;/strong> within AI-driven search and chat environments such as &lt;strong>ChatGPT, Google AI Overviews, and Perplexity&lt;/strong>.&lt;/p>
 &lt;h2 id="product-slogan">Product Slogan&lt;/h2>
-&lt;p>&lt;img src="https://chloevolution.com/posts/profound-review/profound-slogan_hu_cf92945a08ddfc42.png"
+&lt;p>&lt;img src="https://chloevolution.com/posts/profound-review/profound-slogan_hu_80f7783417eb4c0.png"
  alt="profound-slogan"
  width="1518"
  height="506"
@@ -61,7 +61,7 @@ Translation apps, speech-to-text, automatic recognition in your photo library—
 &lt;/ul>
 &lt;h2 id="website-strategy">Website Strategy&lt;/h2>
 &lt;h3 id="hero-section-messaging">Hero Section Messaging&lt;/h3>
-&lt;p>&lt;img src="https://chloevolution.com/posts/founderpal-review/founderpal-hero-section_hu_3a93c7107a4e1b88.png"
+&lt;p>&lt;img src="https://chloevolution.com/posts/founderpal-review/founderpal-hero-section_hu_18eb1b6127cbfed5.png"
  alt="founderpal-hero-section"
  width="2940"
  height="1662"
@@ -76,7 +76,7 @@ Translation apps, speech-to-text, automatic recognition in your photo library—
 &lt;h2 id="test-walkthrough">Test Walkthrough&lt;/h2>
 &lt;h3 id="sign-up--onboarding">Sign-Up &amp;amp; Onboarding&lt;/h3>
 &lt;p>During registration, one minor inconvenience is the requirement to enter your website URL—it&amp;rsquo;s a mandatory field:
-&lt;img src="https://chloevolution.com/posts/swiftbrief-review/swiftbrief-signup_hu_9f0ba7992dd74934.png"
+&lt;img src="https://chloevolution.com/posts/swiftbrief-review/swiftbrief-signup_hu_32e084ac5fc289c2.png"
  alt="swiftbrief-signup"
  width="2666"
  height="824"
@@ -101,7 +101,7 @@ Predominantly use low-saturation tones (e.g., Morandi color palette) with gentle
 &lt;li>Default value: 1&lt;/li>
 &lt;li>Acceptable values: 0.25, 0.5, 1 (Values above 1 default to 1)&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-advanced-tutorial/midjourney-quality-parameter-settings_hu_425583f06f87fe86.png"
+&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-advanced-tutorial/midjourney-quality-parameter-settings_hu_a64ada61b0256024.png"
  alt="midjourney-quality-parameter-settings"
  width="940"
  height="788"
@@ -110,14 +110,14 @@ Predominantly use low-saturation tones (e.g., Morandi color palette) with gentle
 &lt;h3 id="stylize">Stylize&lt;/h3>
 &lt;p>Lower Stylize values produce literal interpretations, while higher values increase artistic interpretation:&lt;/p></description></item><item><title>Midjourney Tutorial for Beginners</title><link>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</link><pubDate>Tue, 25 Mar 2025 07:54:14 +0800</pubDate><guid>https://chloevolution.com/posts/midjourney-tutorial-for-beginners/</guid><description>&lt;h2 id="basic-settings">Basic Settings&lt;/h2>
 &lt;p>Sending the &lt;code>/settings&lt;/code> command to Midjourney Bot reveals configurable options:&lt;br>
-&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-settings_hu_1622782cb95cbc3f.png"
+&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-settings_hu_24a6090a5f0dc873.png"
  alt="midjourney-settings"
  width="1325"
  height="345"
  style="max-width: 100%; height: auto;"
  loading="lazy" />&lt;/p>
 &lt;h3 id="model-version-control">Model Version Control&lt;/h3>
-&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-model-version_hu_a587cdf926a73da8.png"
+&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-model-version_hu_1074510365841d4b.png"
  alt="midjourney-model-version"
  width="591"
  height="371"
@@ -129,7 +129,7 @@ The first dropdown menu selects Midjourney’s image generation models, which di
 &lt;li>&lt;strong>Niji Model&lt;/strong>: Collaborative model with SpellBrush, optimized for anime/illustration styles. Current version: V6.&lt;/li>
 &lt;/ul>
 &lt;h3 id="stylization-control">Stylization Control&lt;/h3>
-&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-style-control_hu_a2aa49dd61ba5f6.png"
+&lt;p>&lt;img src="https://chloevolution.com/posts/midjourney-tutorial-for-beginners/midjourney-style-control_hu_c7264d042956d7b7.png"
  alt="midjourney-style-control"
  width="1025"
  height="56"
@@ -141,7 +141,7 @@ The second row controls artistic interpretation strength (higher values = more s
 &lt;p>To give an example that is not very appropriate but easy to understand, we are all familiar with the brain teaser &amp;ldquo;How many steps does it take to put an elephant in the refrigerator?&amp;rdquo; The answer is three steps: open the refrigerator, put the elephant in, and close the refrigerator. In this scenario, these three steps constitute the nodes of the workflow &amp;ldquo;Put the elephant in the refrigerator&amp;rdquo;.&lt;/p></description></item><item><title>How to Use Midjourney SREF to Control Style Consistency</title><link>https://chloevolution.com/posts/midjourney-sref/</link><pubDate>Sun, 01 Sep 2024 11:02:02 +0800</pubDate><guid>https://chloevolution.com/posts/midjourney-sref/</guid><description>&lt;p>The full name of the &amp;mdash;sref command is &amp;ldquo;Style References,&amp;rdquo; which aims to help users replicate and maintain consistency in the style of images.Its main function is to allow users to upload one or more images as style references to guide Midjourney in generating images that are consistent in style with these reference images.This instruction is particularly useful when you come across an image you really like and want to try generating similar or identical styles, but you don&amp;rsquo;t know what that style is.&lt;/p></description></item><item><title>Step by step guide - How to Create Bot on Coze</title><link>https://chloevolution.com/posts/how-to-create-bot-on-coze/</link><pubDate>Sun, 01 Sep 2024 08:03:46 +0800</pubDate><guid>https://chloevolution.com/posts/how-to-create-bot-on-coze/</guid><description>&lt;h2 id="what-is-coze">What is Coze?&lt;/h2>
 &lt;p>&lt;a href="https://www.coze.com/" target="_blank" rel="noopener noreffer ">Coze&lt;/a> is an AI chatbot and app editorial development platform launched by ByteDance. By integrating several plug-ins, Coze&amp;rsquo;s Bot capabilities are greatly expanded and can be applied to various scenarios, such as chatbot, data analytics, and content collection.&lt;/p>
 &lt;h2 id="coze-page-introduction">Coze page introduction&lt;/h2>
-&lt;p>&lt;img src="https://chloevolution.com/posts/how-to-create-bot-on-coze/coze-interface_hu_1af4d5b7e214bc7c.png"
+&lt;p>&lt;img src="https://chloevolution.com/posts/how-to-create-bot-on-coze/coze-interface_hu_3492f7dc1b4e87e5.png"
  alt=""
  width="1895"
  height="890"
