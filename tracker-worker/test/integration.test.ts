@@ -182,10 +182,23 @@ describe.sequential("10,000 Hour Tracker core flow", () => {
       cookie,
       body: { id: cancelledId, topic_id: TOPIC_ID, timezone: "Asia/Shanghai" },
     });
-    const cancelled = await api(`/v1/owner/timer/${cancelledId}/cancel`, {
+    await env.DB.prepare("UPDATE time_entries SET started_at_ms = ? WHERE id = ?")
+      .bind(Date.now() - 60_000, cancelledId)
+      .run();
+    const cancelledPause = await api(`/v1/owner/timer/${cancelledId}/pause`, {
       method: "POST", cookie, body: { expected_version: 1 },
     });
-    expect(cancelled.json.data?.status).toBe("cancelled");
+    expect(cancelledPause.json.data).toMatchObject({ status: "paused", version: 2 });
+    const cancelled = await api(`/v1/owner/timer/${cancelledId}/cancel`, {
+      method: "POST", cookie, body: { expected_version: 2 },
+    });
+    expect(cancelled.json.data).toMatchObject({
+      status: "cancelled",
+      version: 3,
+      ended_at_ms: expect.any(Number),
+      calculated_duration_seconds: expect.any(Number),
+    });
+    expect(cancelled.json.data?.calculated_duration_seconds).toBeGreaterThan(0);
 
     const dashboard = await api("/v1/public/dashboard");
     expect(dashboard.json.data?.totals).toMatchObject({ record_count: 1 });
@@ -393,18 +406,19 @@ describe.sequential("10,000 Hour Tracker core flow", () => {
       method: "POST",
       cookie,
       body: {
-        expected_version: 2,
+        expected_version: 3,
         duration_seconds: 60,
         visibility: "private",
         task: "Restored entry",
       },
     });
-    expect(restored.json.data).toMatchObject({ status: "completed", version: 3 });
+    expect(restored.json.data).toMatchObject({ status: "completed", version: 4 });
 
     const deleted = await api(`/v1/owner/entries/${cancelledId}`, {
       method: "DELETE",
       cookie,
     });
+    expect(deleted.response.status).toBe(200);
     expect(deleted.json.data).toMatchObject({ deleted: true, id: cancelledId });
 
     const missing = await api(`/v1/owner/entries/${cancelledId}`, {

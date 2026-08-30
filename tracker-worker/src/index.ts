@@ -531,7 +531,7 @@ async function editEntry(request: Request, db: D1Database, id: string) {
 async function deleteEntry(db: D1Database, id: string) {
   requiredUuid(id, "id");
   const result = await db.prepare("DELETE FROM time_entries WHERE id = ?").bind(id).run();
-  if (result.meta.changes !== 1) throw new ApiError(404, "not_found", "Entry not found.");
+  if (result.meta.changes < 1) throw new ApiError(404, "not_found", "Entry not found.");
   return { deleted: true, id };
 }
 
@@ -824,13 +824,22 @@ async function cancelTimer(db: D1Database, entry: TimeEntry, expectedVersion: nu
   assertVersion(entry, expectedVersion);
   const now = Date.now();
   const nextVersion = expectedVersion + 1;
+  const paused = await db.prepare(
+    `SELECT COALESCE(SUM(COALESCE(resumed_at_ms, ?) - paused_at_ms), 0) AS paused_ms
+       FROM time_entry_pauses WHERE time_entry_id = ?`,
+  ).bind(now, entry.id).first<{ paused_ms: number }>();
+  const calculated = Math.max(
+    0,
+    Math.floor((now - (entry.started_at_ms ?? now) - (paused?.paused_ms ?? 0)) / 1000),
+  );
 
   const statements: D1PreparedStatement[] = [
     db.prepare(
       `UPDATE time_entries
-          SET status = 'cancelled', cancelled_at_ms = ?, version = version + 1, updated_at_ms = ?
+          SET status = 'cancelled', ended_at_ms = ?, calculated_duration_seconds = ?,
+              cancelled_at_ms = ?, version = version + 1, updated_at_ms = ?
         WHERE id = ? AND status IN ('running', 'paused') AND version = ?`,
-    ).bind(now, now, entry.id, expectedVersion),
+    ).bind(now, calculated, now, now, entry.id, expectedVersion),
   ];
   if (entry.status === "paused") {
     statements.push(db.prepare(
