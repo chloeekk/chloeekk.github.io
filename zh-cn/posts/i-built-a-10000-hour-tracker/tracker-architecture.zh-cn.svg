@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="820" viewBox="0 0 360 820" role="img" aria-labelledby="title desc">
+  <title id="title">Tracker 的静态内容发布流与动态计时数据流</title>
+  <desc id="desc">Markdown 和 Hugo 经 GitHub 构建并由 GitHub Pages 提供 Tracker 页面。访客和 Owner 访问这个页面，页面通过 Cloudflare Worker 读取 D1 的公开数据，Owner 还可以写入计时操作。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#8b8796"/></marker>
+    <marker id="purple-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#6657d9"/></marker>
+    <style>
+      .heading{font:700 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6657d9;letter-spacing:.06em}.label{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#202126}.small{font:500 11.5px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6f7179}.route{font:700 10.5px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6657d9}.line{fill:none;stroke:#8b8796;stroke-width:2;marker-end:url(#arrow)}.accent-line{fill:none;stroke:#6657d9;stroke-width:2.2;marker-end:url(#purple-arrow)}.card{fill:#fff;stroke:#e8e6e1;stroke-width:1.5}.accent{fill:#eeebff;stroke:#6657d9;stroke-width:1.7}.data{fill:#edf8f2;stroke:#4da87b;stroke-width:1.7}
+    </style>
+  </defs>
+  <rect width="360" height="820" rx="20" fill="#faf9f6"/>
+  <text x="22" y="34" class="heading">内容发布 · 只在网站更新时发生</text>
+
+  <rect x="56" y="54" width="248" height="58" rx="13" class="card"/>
+  <text x="180" y="78" text-anchor="middle" class="label">Markdown + Hugo</text>
+  <text x="180" y="99" text-anchor="middle" class="small">生成静态页面</text>
+  <path d="M180 112v24" class="line"/>
+  <rect x="56" y="138" width="248" height="58" rx="13" class="card"/>
+  <text x="180" y="162" text-anchor="middle" class="label">GitHub</text>
+  <text x="180" y="183" text-anchor="middle" class="small">保存与构建</text>
+  <path d="M180 196v24" class="line"/>
+  <rect x="56" y="222" width="248" height="58" rx="13" class="card"/>
+  <text x="180" y="246" text-anchor="middle" class="label">GitHub Pages</text>
+  <text x="180" y="267" text-anchor="middle" class="small">提供公开网页</text>
+  <path d="M180 280v32" class="line"/>
+
+  <rect x="22" y="326" width="96" height="52" rx="12" class="card"/>
+  <text x="70" y="348" text-anchor="middle" class="label">访客</text>
+  <text x="70" y="367" text-anchor="middle" class="small">查看数据</text>
+  <rect x="242" y="326" width="96" height="52" rx="12" class="card"/>
+  <text x="290" y="348" text-anchor="middle" class="label">Owner</text>
+  <text x="290" y="367" text-anchor="middle" class="small">计时与管理</text>
+  <path d="M70 378v28h66" class="line"/>
+  <path d="M290 378v28h-66" class="line"/>
+  <rect x="56" y="408" width="248" height="66" rx="14" class="accent"/>
+  <text x="180" y="435" text-anchor="middle" class="label" style="font-size:17px">Tracker 页面</text>
+  <text x="180" y="458" text-anchor="middle" class="small">静态界面 + 浏览器端脚本</text>
+
+  <line x1="22" y1="510" x2="338" y2="510" stroke="#e8e6e1" stroke-width="1.5"/>
+  <text x="22" y="540" class="heading">计时数据 · 每次操作直接更新</text>
+  <path d="M152 474v124" class="accent-line"/>
+  <text x="160" y="578" class="route">读取公开数据</text>
+  <path d="M338 352h8v220H224v26" class="accent-line"/>
+  <text x="270" y="562" class="route">计时操作</text>
+
+  <rect x="56" y="600" width="248" height="70" rx="14" class="accent"/>
+  <text x="180" y="628" text-anchor="middle" class="label">Cloudflare Worker</text>
+  <text x="180" y="651" text-anchor="middle" class="small">处理请求、权限与计时规则</text>
+  <path d="M166 670v50" class="accent-line"/>
+  <path d="M194 720v-48" class="accent-line"/>
+  <text x="205" y="700" class="route">读写</text>
+  <rect x="56" y="722" width="248" height="70" rx="14" class="data"/>
+  <text x="180" y="750" text-anchor="middle" class="label">Cloudflare D1</text>
+  <text x="180" y="773" text-anchor="middle" class="small">方向、记录、暂停区间与设备授权</text>
+</svg>

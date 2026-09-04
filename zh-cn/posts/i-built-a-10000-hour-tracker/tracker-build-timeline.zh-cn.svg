@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="900" viewBox="0 0 360 900" role="img" aria-labelledby="title desc">
+  <title id="title">10,000 Hour Tracker 从验证到上线后的构建时间线</title>
+  <desc id="desc">时间线分为五个阶段：验证计时规则、搭建中文版、扩展双语与 Owner 权限、部署正式环境、根据真实网络继续调整。</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6657d9;letter-spacing:.07em}
+      .title{font:700 20px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#202126}
+      .step{font:700 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6657d9;letter-spacing:.04em}
+      .label{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#202126}
+      .small{font:500 11.5px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6f7179}
+      .card{fill:#fff;stroke:#e8e6e1;stroke-width:1.5}
+      .accent{fill:#eeebff;stroke:#6657d9;stroke-width:1.7}
+      .done{fill:#edf8f2;stroke:#4da87b;stroke-width:1.7}
+      .spine{stroke:#d8d5ce;stroke-width:2;fill:none}
+      .dot{fill:#faf9f6;stroke:#6657d9;stroke-width:3}
+      .dot-done{fill:#4da87b;stroke:#edf8f2;stroke-width:4}
+    </style>
+  </defs>
+
+  <rect width="360" height="900" rx="20" fill="#faf9f6"/>
+  <text x="22" y="34" class="eyebrow">产品实现时间线</text>
+  <text x="22" y="62" class="title">从核心流程到真实使用</text>
+
+  <path d="M38 104V822" class="spine"/>
+
+  <circle cx="38" cy="125" r="8" class="dot"/>
+  <rect x="62" y="88" width="276" height="112" rx="14" class="card"/>
+  <text x="80" y="113" class="step">01 · 验证规则</text>
+  <text x="80" y="140" class="label">先让计时逻辑成立</text>
+  <text x="80" y="164" class="small">在独立 Worker 项目和本地 D1 中验证</text>
+  <text x="80" y="183" class="small">状态流转、单一活动计时与公开过滤。</text>
+
+  <circle cx="38" cy="270" r="8" class="dot"/>
+  <rect x="62" y="218" width="276" height="112" rx="14" class="card"/>
+  <text x="80" y="243" class="step">02 · 搭建界面</text>
+  <text x="80" y="270" class="label">从中文版确定使用方式</text>
+  <text x="80" y="294" class="small">把核心流程接入 Hugo，确认信息层级、</text>
+  <text x="80" y="313" class="small">移动端操作和完整的 Owner 工具。</text>
+
+  <circle cx="38" cy="415" r="8" class="dot"/>
+  <rect x="62" y="348" width="276" height="132" rx="14" class="accent"/>
+  <text x="80" y="373" class="step">03 · 扩展产品结构</text>
+  <text x="80" y="400" class="label">共用数据，区分语言与权限</text>
+  <text x="80" y="424" class="small">中英文页面复用模板、脚本、Worker 和</text>
+  <text x="80" y="443" class="small">D1；访客只读公开数据，授权设备可以</text>
+  <text x="80" y="462" class="small">计时、补录和管理记录。</text>
+
+  <circle cx="38" cy="572" r="8" class="dot"/>
+  <rect x="62" y="498" width="276" height="144" rx="14" class="card"/>
+  <text x="80" y="523" class="step">04 · 部署正式环境</text>
+  <text x="80" y="550" class="label">先发布数据服务，再发布页面</text>
+  <text x="80" y="574" class="small">从空 D1 开始，部署 Worker 并检查 API、</text>
+  <text x="80" y="593" class="small">权限与公开边界，确认可用后再通过</text>
+  <text x="80" y="612" class="small">GitHub Pages 发布 Tracker。</text>
+
+  <circle cx="38" cy="750" r="8" class="dot-done"/>
+  <rect x="62" y="660" width="276" height="180" rx="14" class="done"/>
+  <text x="80" y="685" class="step" style="fill:#317a59">05 · 真实使用修正</text>
+  <text x="80" y="712" class="label">让页面适应真实网络</text>
+  <text x="80" y="736" class="small">移除示例数据，真实结果返回前显示加载</text>
+  <text x="80" y="755" class="small">状态；Pause 和 Resume 点击后立即反馈，</text>
+  <text x="80" y="774" class="small">成功时直接使用接口结果更新计时器，</text>
+  <text x="80" y="793" class="small">失败时再重新同步 D1 状态。</text>
+
+  <text x="38" y="868" class="small" style="font-weight:650;fill:#4d4f56">产品完成上线，真实使用继续参与设计</text>
+</svg>

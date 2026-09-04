@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="690" viewBox="0 0 360 690" role="img" aria-labelledby="title desc">
+  <title id="title">一次实时计时的状态流转</title>
+  <desc id="desc">选择投入方向并开始计时后，记录进入计时中状态。计时中可以暂停和继续。完成的记录经确认后进入累计数据；取消的记录不进入累计。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#8b8796"/>
+    </marker>
+    <style>
+      .label{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#202126}.small{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6f7179}.action{font:700 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6657d9;letter-spacing:.02em}.line{fill:none;stroke:#8b8796;stroke-width:2;marker-end:url(#arrow)}.card{fill:#fff;stroke:#e8e6e1;stroke-width:1.5}.active{fill:#eeebff;stroke:#6657d9;stroke-width:1.7}.done{fill:#edf8f2;stroke:#4da87b;stroke-width:1.7}.quiet{fill:#faf9f6;stroke:#d8d5ce;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="360" height="690" rx="20" fill="#faf9f6"/>
+  <text x="22" y="34" class="small" style="font-weight:700;letter-spacing:.08em;fill:#6657d9">一次实时计时</text>
+  <text x="22" y="61" class="label" style="font-size:20px">从开始到成为一条完成记录</text>
+
+  <rect x="38" y="88" width="284" height="62" rx="13" class="card"/>
+  <text x="180" y="114" text-anchor="middle" class="label">选择投入方向</text>
+  <text x="180" y="136" text-anchor="middle" class="small">点击 Start 创建记录</text>
+  <path d="M180 150v26" class="line"/>
+
+  <rect x="38" y="178" width="284" height="68" rx="13" class="active"/>
+  <text x="180" y="206" text-anchor="middle" class="label">计时中 · Running</text>
+  <text x="180" y="228" text-anchor="middle" class="small">持续计算有效时长</text>
+
+  <path d="M164 246v37" class="line"/>
+  <path d="M196 284v-36" class="line"/>
+  <text x="207" y="270" class="action">PAUSE / RESUME</text>
+  <rect x="38" y="286" width="284" height="62" rx="13" class="quiet"/>
+  <text x="180" y="312" text-anchor="middle" class="label">已暂停 · Paused</text>
+  <text x="180" y="334" text-anchor="middle" class="small">保存暂停区间，不累计这段时间</text>
+
+  <text x="180" y="382" text-anchor="middle" class="small">计时中和暂停时都可以结束这次记录</text>
+  <path d="M180 348v20" class="line"/>
+
+  <rect x="38" y="402" width="284" height="100" rx="13" class="done"/>
+  <text x="180" y="429" text-anchor="middle" class="action">FINISH</text>
+  <text x="180" y="454" text-anchor="middle" class="label">确认任务与时长</text>
+  <text x="180" y="477" text-anchor="middle" class="small">保存为 Completed，进入累计与趋势</text>
+
+  <text x="180" y="530" text-anchor="middle" class="small">或者</text>
+  <rect x="38" y="550" width="284" height="78" rx="13" class="quiet"/>
+  <text x="180" y="577" text-anchor="middle" class="action">CANCEL</text>
+  <text x="180" y="602" text-anchor="middle" class="label">保存为 Cancelled，不进入累计</text>
+
+  <circle cx="24" cy="659" r="4" fill="#4da87b"/>
+  <text x="36" y="664" class="small">只有 Completed 记录进入统计</text>
+</svg>
