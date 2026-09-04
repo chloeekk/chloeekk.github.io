@@ -1,7 +1,15 @@
 {{- $original := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
 {{- $watermark := resources.Get "images/watermark.png" -}}
+{{- $isSVG := and $original (eq $original.MediaType.SubType "svg") -}}
 
-{{- if and $original $watermark -}}
+{{- if $isSVG -}}
+  <img src="{{ $original.RelPermalink | safeURL }}"
+       alt="{{ .Text }}"
+       style="max-width: 100%; height: auto;{{ with .Title }} max-width: {{ . }};{{ end }}"
+       loading="lazy"
+       decoding="async" />
+
+{{- else if and $original $watermark -}}
   {{- $watermarkResized := $watermark.Resize (printf "%dx" (int (mul $original.Width 0.15))) -}}
 
   {{- /* 计算居中位置 */ -}}
