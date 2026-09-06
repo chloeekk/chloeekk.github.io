@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>本地音频转文字｜技术验证</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <p class="eyebrow">Chloevolution · 技术验证</p>
+      <h1>音频转文字</h1>
+      <p class="subtitle">在浏览器中将 MP3 或 WAV 转换为文字。音频不会离开你的设备。</p>
+
+      <div class="tool-card">
+        <label class="drop-zone" for="audio-file">
+          <span class="drop-icon" aria-hidden="true">↑</span>
+          <strong>选择一段音频</strong>
+          <span>当前验证支持 MP3、WAV</span>
+          <span>最长 10 分钟 · 最大 200 MB</span>
+        </label>
+        <input id="audio-file" type="file" accept="audio/mpeg,audio/wav,.mp3,.wav">
+
+        <div id="file-summary" class="file-summary" hidden></div>
+
+        <label class="model-control">
+          技术验证模型
+          <select id="model-select">
+            <option value="tiny-q5_1">Tiny 多语言量化版（约 31 MB）</option>
+            <option value="base-q5_1">Base 多语言量化版（约 57 MB）</option>
+          </select>
+        </label>
+
+        <div class="action-row">
+          <button id="start-button" type="button" disabled>开始本地转写</button>
+          <button id="cancel-button" class="secondary-button" type="button" hidden>取消</button>
+        </div>
+
+        <div class="progress" aria-live="polite">
+          <div class="progress-track"><span id="progress-bar"></span></div>
+          <p id="status">正在准备浏览器转写程序……</p>
+        </div>
+      </div>
+
+      <ul class="trust-list" aria-label="隐私特点">
+        <li>浏览器本地运行</li>
+        <li>无需注册</li>
+        <li>音频不上传</li>
+      </ul>
+    </section>
+
+    <section id="result-panel" class="result-panel" hidden>
+      <h2>转写结果</h2>
+      <div id="result"></div>
+    </section>
+
+    <details class="debug-panel">
+      <summary>技术日志</summary>
+      <pre id="debug-log"></pre>
+    </details>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
