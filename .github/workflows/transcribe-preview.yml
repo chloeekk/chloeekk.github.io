@@ -74,7 +74,7 @@ jobs:
         working-directory: published
         run: |
           set -euo pipefail
-          unexpected="$(git status --short | awk '{print $2}' | grep -Ev '^(zh-cn/tools/transcribe-to-text/|css/transcribe-to-text|js/transcribe-|tools/transcribe-to-text/)' || true)"
+          unexpected="$(git status --short --untracked-files=all | awk '{print $2}' | grep -Ev '^(zh-cn/tools/transcribe-to-text/|css/transcribe-to-text|js/transcribe-|tools/transcribe-to-text/)' || true)"
           if [[ -n "$unexpected" ]]; then
             echo "Unexpected published paths:"
             echo "$unexpected"
