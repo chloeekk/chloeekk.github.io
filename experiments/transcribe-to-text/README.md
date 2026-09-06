@@ -16,7 +16,7 @@
 
 对比候选还包括 `ggml-base-q5_1.bin`（约 57 MiB，SHA-256 `422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898`）。首轮相同合成样本中，Base 没有表现出足以抵消体积和速度成本的稳定优势，因此后续稳定性测试暂用 Tiny；这不是最终模型决定。
 
-模型和生成的浏览器 runtime 暂不提交 Git。运行前把它们放在：
+实验目录自己的模型和生成 runtime 不提交 Git。单独运行实验页前把它们放在：
 
 ```text
 vendor/main.js
@@ -66,7 +66,7 @@ node server.mjs <site-root> --headers=page-worker --runtime=fail
 - 595.44 秒音频切成 44 段，纯推理约 340.5 秒，整条流程约 350.7 秒；
 - 三个稳定性样本均完整完成，未出现 Worker 崩溃或页面退出。
 
-音频、模型和测试 transcript 都不应提交到公开仓库。
+合成音频、Base 对比模型和测试 transcript 都不应提交到公开仓库。正式候选使用的固定 Tiny 模型另见下文。
 
 ## 2026-09-06 第三轮结果
 
@@ -92,13 +92,13 @@ assets/js/transcribe-worker.js
 assets/js/transcribe-export.js
 ```
 
-正式草稿使用独立模板，不加载博客主题、广告或分析脚本。专用 CSS/JS 使用 Hugo Pipes 按需生成，因此普通生产构建不会输出草稿页面或这些草稿资源。页面当前保持 `draft: true`，因为 runtime 与模型尚未放入发布候选、Cloudflare COOP/COEP 规则尚未实际配置，实体 Chrome/Edge 测试也尚未完成。
+正式草稿使用独立模板，不加载博客主题、广告或分析脚本。专用 CSS/JS 使用 Hugo Pipes 按需生成，因此普通生产构建不会输出草稿页面或这些草稿资源。固定 runtime 与 Tiny 模型已经进入 `dev` 发布候选；页面仍保持 `draft: true`，直到 Cloudflare COOP/COEP 规则和实体 Chrome/Edge 测试完成。
 
-发布候选已固定以下两个文件；不要在缺少它们或哈希不符时取消 draft：
+发布候选已固定 runtime 和模型内容；不要在缺少它们或哈希不符时取消 draft：
 
 ```text
 static/tools/transcribe-to-text/vendor/main.js
-static/tools/transcribe-to-text/models/ggml-tiny-q5_1.bin
+static/tools/transcribe-to-text/models/ggml-tiny-q5_1.bin.part-00 ... part-29
 ```
 
-这两个文件已在进入发布候选时解除忽略，并以经过哈希校验的固定版本加入 `dev`。它们会与页面同源由 GitHub Pages 分发；这样最简单可靠，也不需要迁移到 Cloudflare Pages。后续替换模型必须同时更新页面中的精确字节数、SHA-256 和本说明。
+模型在源码分支中拆成 30 个传输分片，只为适应开发网络上传；隐藏预览工作流会按文件名顺序重新合并为 `ggml-tiny-q5_1.bin`，校验 SHA-256 后删除构建目录中的分片。浏览器仍从 GitHub Pages 同源下载一个约 30.7 MiB 文件，不知道源码分片的存在。这不需要迁移到 Cloudflare Pages。后续替换模型必须同时更新页面中的精确字节数、SHA-256、工作流校验值和本说明。

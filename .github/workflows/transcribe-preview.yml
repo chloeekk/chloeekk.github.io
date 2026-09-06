@@ -1,0 +1,97 @@
+name: Deploy transcribe preview
+
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - .github/workflows/transcribe-preview.yml
+      - assets/css/transcribe-to-text.css
+      - assets/js/transcribe-*.js
+      - content/tools/transcribe-to-text/**
+      - layouts/transcribe/**
+      - static/tools/transcribe-to-text/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transcribe-preview
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout dev source
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          submodules: true
+          path: source
+
+      - name: Checkout published site
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: published
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.3'
+          extended: true
+
+      - name: Build draft preview
+        run: hugo --minify --buildDrafts --source source --destination "${{ github.workspace }}/draft-public"
+
+      - name: Reassemble and verify browser model
+        shell: bash
+        run: |
+          set -euo pipefail
+          model_dir="draft-public/tools/transcribe-to-text/models"
+          cat "$model_dir"/ggml-tiny-q5_1.bin.part-* > "$model_dir/ggml-tiny-q5_1.bin"
+          echo "818710568da3ca15689e31a743197b520007872ff9576237bda97bd1b469c3d7  $model_dir/ggml-tiny-q5_1.bin" | sha256sum --check
+          rm "$model_dir"/ggml-tiny-q5_1.bin.part-*
+
+      - name: Replace preview files only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p published/zh-cn/tools/transcribe-to-text published/css published/js published/tools/transcribe-to-text
+          rsync -a --delete draft-public/zh-cn/tools/transcribe-to-text/ published/zh-cn/tools/transcribe-to-text/
+          find published/css -maxdepth 1 -type f -name 'transcribe-to-text*.css' -delete
+          find published/js -maxdepth 1 -type f -name 'transcribe-*.js' -delete
+          cp draft-public/css/transcribe-to-text*.css published/css/
+          cp draft-public/js/transcribe-to-text*.js published/js/
+          cp draft-public/js/transcribe-worker*.js published/js/
+          cp draft-public/js/transcribe-export*.js published/js/
+          rsync -a --delete draft-public/tools/transcribe-to-text/ published/tools/transcribe-to-text/
+
+      - name: Verify change scope
+        shell: bash
+        working-directory: published
+        run: |
+          set -euo pipefail
+          unexpected="$(git status --short | awk '{print $2}' | grep -Ev '^(zh-cn/tools/transcribe-to-text/|css/transcribe-to-text|js/transcribe-|tools/transcribe-to-text/)' || true)"
+          if [[ -n "$unexpected" ]]; then
+            echo "Unexpected published paths:"
+            echo "$unexpected"
+            exit 1
+          fi
+
+      - name: Publish hidden preview
+        shell: bash
+        working-directory: published
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add zh-cn/tools/transcribe-to-text css js tools/transcribe-to-text
+          if git diff --cached --quiet; then
+            echo "Preview is already current."
+            exit 0
+          fi
+          git commit -m "preview: update transcribe-to-text"
+          git push origin HEAD:gh-pages
