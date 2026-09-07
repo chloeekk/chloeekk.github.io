@@ -1,0 +1,4 @@
+(function(e){"use strict";function t(e,t="."){const n=Math.max(0,Math.round(e*1e3)),s=Math.floor(n/36e5),o=Math.floor(n%36e5/6e4),i=Math.floor(n%6e4/1e3),a=n%1e3;return`${String(s).padStart(2,"0")}:${String(o).padStart(2,"0")}:${String(i).padStart(2,"0")}${t}${String(a).padStart(3,"0")}`}function s(e){return e.map(e=>e.text).join(`
+`)}function o(e){return e.map((e,n)=>[n+1,`${t(e.start,",")} --> ${t(e.end,",")}`,e.text,""].join(`
+`)).join(`
+`)}function i(e="transcript"){return e.replace(/\.[^.]+$/,"").replace(/[\\/:*?"<>|]+/g,"-")||"transcript"}const n={formatTimestamp:t,plainText:s,srtText:o,outputBaseName:i};typeof module!="undefined"&&module.exports?module.exports=n:e.TranscribeExport=Object.freeze(n)})(typeof window!="undefined"?window:globalThis)
