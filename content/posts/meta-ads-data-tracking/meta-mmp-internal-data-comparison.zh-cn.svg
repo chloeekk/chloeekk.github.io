@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+  <title id="title">Meta、MMP 与内部业务系统的事件数据对照</title>
+  <desc id="desc">同一批 Fintech App Campaign 在三个系统中的模拟事件数据。Meta 记录 Install 10240、Registration 6180、KYC Complete 2440、First Transaction 1080；MMP 分别记录 9860、5930、2320、1010；内部业务系统未记录 Install，Registration 6050、KYC Complete 2390、First Transaction 1045。三个系统的绝对数字不同，但漏斗变化方向接近，并分别用于广告归因与优化、跨渠道移动归因和业务事实验证。</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 34px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#202126}
+      .subtitle{font:500 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#686b73}
+      .event{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#484a51}
+      .event-note{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#7a7d85}
+      .system{font:750 21px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#282a2f}
+      .system-note{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#6f727a}
+      .value{font:750 22px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#2e3035}
+      .role-label{font:700 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.06em;fill:#777a82}
+      .role{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#41434a}
+      .foot{font:650 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#494b52}
+      .connector{fill:none;stroke-width:3;stroke-linecap:round}
+    </style>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="11" flood-color="#302d4f" flood-opacity=".09"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="900" rx="28" fill="#faf9f6"/>
+  <text x="72" y="70" class="eyebrow">ONE CAMPAIGN COHORT · THREE DATA VIEWS</text>
+  <text x="72" y="117" class="title">同一批 Campaign，三套数据回答三个问题</text>
+  <text x="72" y="151" class="subtitle">绝对数字允许存在差异，事件定义、变化方向和差异幅度需要能够解释</text>
+
+  <!-- Event headers -->
+  <text x="346" y="210" text-anchor="middle" class="event">Install</text>
+  <text x="346" y="232" text-anchor="middle" class="event-note">安装</text>
+  <text x="554" y="210" text-anchor="middle" class="event">Registration</text>
+  <text x="554" y="232" text-anchor="middle" class="event-note">注册</text>
+  <text x="762" y="210" text-anchor="middle" class="event">KYC Complete</text>
+  <text x="762" y="232" text-anchor="middle" class="event-note">完成身份验证</text>
+  <text x="970" y="210" text-anchor="middle" class="event">First Transaction</text>
+  <text x="970" y="232" text-anchor="middle" class="event-note">首次交易</text>
+  <text x="1141" y="210" text-anchor="middle" class="role-label">主要回答</text>
+
+  <!-- Meta row -->
+  <g filter="url(#shadow)">
+    <rect x="72" y="258" width="1136" height="154" rx="18" fill="#eeeaff" stroke="#d8d1fb" stroke-width="1.5"/>
+  </g>
+  <circle cx="112" cy="303" r="18" fill="#6657d9"/>
+  <text x="142" y="299" class="system">Meta</text>
+  <text x="142" y="323" class="system-note">Ads Manager</text>
+  <path d="M346 335H970" class="connector" stroke="#8d82e4"/>
+  <circle cx="346" cy="335" r="43" fill="#fff" stroke="#887ce2" stroke-width="3"/>
+  <circle cx="554" cy="335" r="35" fill="#fff" stroke="#887ce2" stroke-width="3"/>
+  <circle cx="762" cy="335" r="27" fill="#fff" stroke="#887ce2" stroke-width="3"/>
+  <circle cx="970" cy="335" r="21" fill="#fff" stroke="#887ce2" stroke-width="3"/>
+  <text x="346" y="342" text-anchor="middle" class="value">10,240</text>
+  <text x="554" y="342" text-anchor="middle" class="value">6,180</text>
+  <text x="762" y="342" text-anchor="middle" class="value">2,440</text>
+  <text x="970" y="342" text-anchor="middle" class="value">1,080</text>
+  <rect x="1035" y="286" width="145" height="96" rx="13" fill="#fff" fill-opacity=".76"/>
+  <text x="1054" y="316" class="role-label">平台视角</text>
+  <text x="1054" y="344" class="role">广告归因</text>
+  <text x="1054" y="368" class="role">与投放优化</text>
+
+  <!-- MMP row -->
+  <g filter="url(#shadow)">
+    <rect x="72" y="430" width="1136" height="154" rx="18" fill="#e5f1f8" stroke="#c8dfec" stroke-width="1.5"/>
+  </g>
+  <circle cx="112" cy="475" r="18" fill="#3b84aa"/>
+  <text x="142" y="471" class="system">MMP</text>
+  <text x="142" y="495" class="system-note">Mobile attribution</text>
+  <path d="M346 507H970" class="connector" stroke="#6ba4c1"/>
+  <circle cx="346" cy="507" r="42" fill="#fff" stroke="#5f9dbc" stroke-width="3"/>
+  <circle cx="554" cy="507" r="34" fill="#fff" stroke="#5f9dbc" stroke-width="3"/>
+  <circle cx="762" cy="507" r="26" fill="#fff" stroke="#5f9dbc" stroke-width="3"/>
+  <circle cx="970" cy="507" r="20" fill="#fff" stroke="#5f9dbc" stroke-width="3"/>
+  <text x="346" y="514" text-anchor="middle" class="value">9,860</text>
+  <text x="554" y="514" text-anchor="middle" class="value">5,930</text>
+  <text x="762" y="514" text-anchor="middle" class="value">2,320</text>
+  <text x="970" y="514" text-anchor="middle" class="value">1,010</text>
+  <rect x="1035" y="458" width="145" height="96" rx="13" fill="#fff" fill-opacity=".76"/>
+  <text x="1054" y="488" class="role-label">渠道视角</text>
+  <text x="1054" y="516" class="role">跨渠道移动</text>
+  <text x="1054" y="540" class="role">归因与分析</text>
+
+  <!-- Internal row -->
+  <g filter="url(#shadow)">
+    <rect x="72" y="602" width="1136" height="154" rx="18" fill="#e7f5ed" stroke="#c9e4d5" stroke-width="1.5"/>
+  </g>
+  <circle cx="112" cy="647" r="18" fill="#3d9469"/>
+  <text x="142" y="643" class="system">内部系统</text>
+  <text x="142" y="667" class="system-note">Business data</text>
+  <path d="M554 679H970" class="connector" stroke="#6eb18d"/>
+  <circle cx="346" cy="679" r="30" fill="#f8fcfa" stroke="#91bca5" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="554" cy="679" r="35" fill="#fff" stroke="#5ba67e" stroke-width="3"/>
+  <circle cx="762" cy="679" r="27" fill="#fff" stroke="#5ba67e" stroke-width="3"/>
+  <circle cx="970" cy="679" r="21" fill="#fff" stroke="#5ba67e" stroke-width="3"/>
+  <text x="346" y="686" text-anchor="middle" class="value" fill="#7a7d85">—</text>
+  <text x="554" y="686" text-anchor="middle" class="value">6,050</text>
+  <text x="762" y="686" text-anchor="middle" class="value">2,390</text>
+  <text x="970" y="686" text-anchor="middle" class="value">1,045</text>
+  <rect x="1035" y="630" width="145" height="96" rx="13" fill="#fff" fill-opacity=".76"/>
+  <text x="1054" y="660" class="role-label">业务视角</text>
+  <text x="1054" y="688" class="role">实际状态</text>
+  <text x="1054" y="712" class="role">与客户价值</text>
+
+  <!-- Footer -->
+  <rect x="72" y="798" width="1136" height="62" rx="14" fill="#f0efe9"/>
+  <text x="640" y="835" text-anchor="middle" class="foot">关注趋势是否一致、差异能否解释，以及差异比例是否突然变化。</text>
+</svg>

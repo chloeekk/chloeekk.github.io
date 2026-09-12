@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fintech App 从广告触达到长期业务价值的概念漏斗</title>
+  <desc id="desc">漏斗分为 Acquisition、Activation、Monetization 和 Retention 四个阶段。事件从广告展示、点击、商店访问、安装和首次打开，逐步进入注册、开始 KYC、通过 KYC、首次入金、首次交易以及持续活跃和交易。越接近漏斗底部，事件数量通常越少，回传越慢，但越接近长期业务价值。图中不包含真实账户数据。</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 34px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#202126}
+      .subtitle{font:500 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#686b73}
+      .phase{font:750 22px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#202126}
+      .phase-cn{font:500 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#555962}
+      .event{font:650 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#2a2c31}
+      .event-en{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#696c75}
+      .source-label{font:700 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.06em;fill:#777a82}
+      .source{font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#42444b}
+      .note{font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#4f525a}
+      .foot{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#777a82}
+      .pill{fill:#fff;fill-opacity:.86;stroke:#fff;stroke-opacity:.92;stroke-width:1}
+      .divider{stroke:#fff;stroke-opacity:.72;stroke-width:2}
+    </style>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#312d53" flood-opacity=".10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#888b93"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="900" rx="28" fill="#faf9f6"/>
+
+  <text x="72" y="72" class="eyebrow">CONCEPTUAL FUNNEL · FINTECH APP</text>
+  <text x="72" y="119" class="title">从广告触达到长期业务价值</text>
+  <text x="72" y="153" class="subtitle">沿着完整用户链路识别事件深度、数据来源与可用优化信号</text>
+
+  <!-- Acquisition -->
+  <g filter="url(#shadow)">
+    <path d="M72 198 H1208 L1144 340 H136 Z" fill="#e8e4ff" stroke="#d3ccfa" stroke-width="1.5"/>
+  </g>
+  <text x="112" y="239" class="phase">Acquisition</text>
+  <text x="112" y="264" class="phase-cn">获取用户</text>
+  <line x1="286" y1="220" x2="286" y2="316" class="divider"/>
+  <g>
+    <rect x="316" y="228" width="144" height="76" rx="13" class="pill"/>
+    <text x="388" y="259" text-anchor="middle" class="event">广告展示</text>
+    <text x="388" y="282" text-anchor="middle" class="event-en">Ad Impression</text>
+    <rect x="476" y="228" width="132" height="76" rx="13" class="pill"/>
+    <text x="542" y="259" text-anchor="middle" class="event">广告点击</text>
+    <text x="542" y="282" text-anchor="middle" class="event-en">Ad Click</text>
+    <rect x="624" y="228" width="144" height="76" rx="13" class="pill"/>
+    <text x="696" y="259" text-anchor="middle" class="event">商店访问</text>
+    <text x="696" y="282" text-anchor="middle" class="event-en">Store Visit</text>
+    <rect x="784" y="228" width="124" height="76" rx="13" class="pill"/>
+    <text x="846" y="259" text-anchor="middle" class="event">安装</text>
+    <text x="846" y="282" text-anchor="middle" class="event-en">Install</text>
+    <rect x="924" y="228" width="150" height="76" rx="13" class="pill"/>
+    <text x="999" y="259" text-anchor="middle" class="event">首次打开</text>
+    <text x="999" y="282" text-anchor="middle" class="event-en">First Open</text>
+  </g>
+  <text x="1093" y="249" class="source-label">常见数据来源</text>
+  <text x="1093" y="276" class="source">Meta Ads</text>
+  <text x="1093" y="299" class="source">MMP / App</text>
+
+  <!-- Activation -->
+  <g filter="url(#shadow)">
+    <path d="M136 354 H1144 L1084 496 H196 Z" fill="#dcecf8" stroke="#c3ddeb" stroke-width="1.5"/>
+  </g>
+  <text x="206" y="395" class="phase">Activation</text>
+  <text x="206" y="420" class="phase-cn">体验核心价值</text>
+  <line x1="382" y1="376" x2="382" y2="472" class="divider"/>
+  <g>
+    <rect x="414" y="384" width="158" height="76" rx="13" class="pill"/>
+    <text x="493" y="415" text-anchor="middle" class="event">注册</text>
+    <text x="493" y="438" text-anchor="middle" class="event-en">Registration</text>
+    <rect x="590" y="384" width="166" height="76" rx="13" class="pill"/>
+    <text x="673" y="415" text-anchor="middle" class="event">开始 KYC</text>
+    <text x="673" y="438" text-anchor="middle" class="event-en">KYC Started</text>
+    <rect x="774" y="384" width="176" height="76" rx="13" class="pill"/>
+    <text x="862" y="415" text-anchor="middle" class="event">通过 KYC</text>
+    <text x="862" y="438" text-anchor="middle" class="event-en">KYC Complete</text>
+  </g>
+  <text x="976" y="405" class="source-label">常见数据来源</text>
+  <text x="976" y="432" class="source">MMP / App</text>
+  <text x="976" y="455" class="source">内部 KYC 系统</text>
+
+  <!-- Monetization -->
+  <g filter="url(#shadow)">
+    <path d="M196 510 H1084 L1021 652 H259 Z" fill="#dff2e8" stroke="#c7e5d5" stroke-width="1.5"/>
+  </g>
+  <text x="282" y="551" class="phase">Monetization</text>
+  <text x="282" y="576" class="phase-cn">产生商业价值</text>
+  <line x1="482" y1="532" x2="482" y2="628" class="divider"/>
+  <g>
+    <rect x="522" y="540" width="180" height="76" rx="13" class="pill"/>
+    <text x="612" y="571" text-anchor="middle" class="event">首次入金</text>
+    <text x="612" y="594" text-anchor="middle" class="event-en">First Deposit</text>
+    <rect x="722" y="540" width="184" height="76" rx="13" class="pill"/>
+    <text x="814" y="571" text-anchor="middle" class="event">首次交易</text>
+    <text x="814" y="594" text-anchor="middle" class="event-en">First Transaction</text>
+  </g>
+  <text x="928" y="561" class="source-label">常见数据来源</text>
+  <text x="928" y="588" class="source">支付 / 交易系统</text>
+  <text x="928" y="611" class="source">内部数据平台</text>
+
+  <!-- Retention -->
+  <g filter="url(#shadow)">
+    <path d="M259 666 H1021 L950 808 H330 Z" fill="#f8ead9" stroke="#edd5b8" stroke-width="1.5"/>
+  </g>
+  <text x="352" y="707" class="phase">Retention</text>
+  <text x="352" y="732" class="phase-cn">验证长期价值</text>
+  <line x1="526" y1="688" x2="526" y2="784" class="divider"/>
+  <g>
+    <rect x="562" y="696" width="180" height="76" rx="13" class="pill"/>
+    <text x="652" y="727" text-anchor="middle" class="event">持续活跃 / 交易</text>
+    <text x="652" y="750" text-anchor="middle" class="event-en">Active / Repeat Trading</text>
+    <rect x="760" y="696" width="120" height="76" rx="13" class="pill"/>
+    <text x="820" y="727" text-anchor="middle" class="event">长期价值</text>
+    <text x="820" y="750" text-anchor="middle" class="event-en">LTV</text>
+  </g>
+  <text x="895" y="717" class="source-label">常见数据来源</text>
+  <text x="895" y="744" class="source">内部数据平台</text>
+  <text x="895" y="767" class="source">BI / CRM</text>
+
+  <path d="M110 332 C82 430 82 582 110 682" fill="none" stroke="#888b93" stroke-width="2" stroke-dasharray="6 7" marker-end="url(#arrow)"/>
+  <text x="56" y="420" text-anchor="middle" class="foot" transform="rotate(-90 56 420)">事件数量通常减少 · 回传时间通常变长</text>
+
+  <rect x="72" y="836" width="1136" height="42" rx="12" fill="#f0efe9"/>
+  <text x="640" y="862" text-anchor="middle" class="note">越接近漏斗底部，事件通常越能代表业务价值；优化时仍需同时考虑事件量、回传速度与数据质量。</text>
+</svg>

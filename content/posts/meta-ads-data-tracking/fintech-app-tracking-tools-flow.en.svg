@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1120" viewBox="0 0 1440 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Data flow across Pixel, App SDK, MMP, and CAPI in a fintech app</title>
+  <desc id="desc">Meta Ads sends users to a landing page or app store. Google Tag Manager routes website events to Meta Pixel and Google Analytics. App events can reach Meta through Meta App Events SDK, AppsFlyer through AppsFlyer SDK, or Google Analytics through Firebase SDK. The business backend confirms KYC, deposit, and transaction events, then sends them to Meta through CAPI, AppsFlyer through Server-to-Server, and the internal data platform.</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 34px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#202126}
+      .subtitle{font:500 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#686b73}
+      .column{font:750 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.08em;fill:#6d7078}
+      .lane{font:750 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.06em;fill:#6d7078}
+      .node{font:750 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#292b30}
+      .node-small{font:650 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#676a72}
+      .platform{font:750 21px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#27292e}
+      .platform-sub{font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#5f626a}
+      .label{font:650 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#696c74}
+      .legend{font:600 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#686b73}
+      .flow{fill:none;stroke:#8a8d95;stroke-width:2.4;marker-end:url(#arrow)}
+      .meta-flow{fill:none;stroke:#6c5fd7;stroke-width:2.6;marker-end:url(#arrow-meta)}
+      .google-flow{fill:none;stroke:#3f86a5;stroke-width:2.6;marker-end:url(#arrow-google)}
+      .mmp-flow{fill:none;stroke:#3b9671;stroke-width:2.6;marker-end:url(#arrow-mmp)}
+      .internal-flow{fill:none;stroke:#c37b3e;stroke-width:2.6;marker-end:url(#arrow-internal)}
+      .integration{fill:none;stroke:#8f839e;stroke-width:2;stroke-dasharray:7 7;marker-start:url(#arrow-integration-start);marker-end:url(#arrow-integration)}
+    </style>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#302d4f" flood-opacity=".08"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#8a8d95"/></marker>
+    <marker id="arrow-meta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#6c5fd7"/></marker>
+    <marker id="arrow-google" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#3f86a5"/></marker>
+    <marker id="arrow-mmp" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#3b9671"/></marker>
+    <marker id="arrow-internal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#c37b3e"/></marker>
+    <marker id="arrow-integration" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#8f839e"/></marker>
+    <marker id="arrow-integration-start" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 0 0 5 10 10z" fill="#8f839e"/></marker>
+  </defs>
+
+  <rect width="1440" height="1120" rx="28" fill="#faf9f6"/>
+  <text x="64" y="65" class="eyebrow">FINTECH APP · TRACKING STACK</text>
+  <text x="64" y="112" class="title">How four tools connect user behavior to ad systems</text>
+  <text x="64" y="146" class="subtitle">One user journey follows different data paths based on environment and Source of Truth</text>
+
+  <g transform="translate(835 137)">
+    <path d="M0 0H42" class="meta-flow"/><text x="53" y="5" class="legend">Sent to Meta</text>
+    <path d="M160 0H202" class="mmp-flow"/><text x="213" y="5" class="legend">Sent to MMP</text>
+    <path d="M320 0H362" class="google-flow"/><text x="373" y="5" class="legend">Sent to GA4</text>
+    <path d="M0 34H42" class="integration"/><text x="53" y="39" class="legend">Platform integration</text>
+  </g>
+
+  <text x="204" y="205" text-anchor="middle" class="column">TOUCHPOINTS &amp; DATA SOURCES</text>
+  <text x="705" y="205" text-anchor="middle" class="column">COLLECTION &amp; TRANSMISSION</text>
+  <text x="1220" y="205" text-anchor="middle" class="column">PLATFORMS &amp; DATA USE</text>
+  <line x1="402" y1="188" x2="402" y2="1042" stroke="#e0ddd6" stroke-width="1.5"/><line x1="1010" y1="188" x2="1010" y2="1042" stroke="#e0ddd6" stroke-width="1.5"/>
+
+  <g filter="url(#shadow)">
+    <rect x="74" y="240" width="270" height="78" rx="17" fill="#eeeaff" stroke="#d7d0fa"/>
+    <rect x="74" y="362" width="270" height="78" rx="17" fill="#f3f1ec" stroke="#dfdcd4"/>
+    <rect x="74" y="484" width="270" height="78" rx="17" fill="#f3f1ec" stroke="#dfdcd4"/>
+    <rect x="74" y="606" width="270" height="90" rx="17" fill="#e5f1f8" stroke="#c8dfec"/>
+    <rect x="74" y="805" width="270" height="122" rx="17" fill="#f8ead9" stroke="#edd5b8"/>
+  </g>
+  <text x="104" y="274" class="node">Meta Ads</text><text x="104" y="297" class="node-small">Impression / Click</text>
+  <text x="104" y="396" class="node">Website landing page</text><text x="104" y="419" class="node-small">PageView · CTA Click</text>
+  <text x="104" y="518" class="node">App Store / Google Play</text><text x="104" y="541" class="node-small">Store Visit</text>
+  <text x="104" y="642" class="node">Fintech app</text><text x="104" y="665" class="node-small">Install · Registration · App Behavior</text>
+  <text x="104" y="840" class="node">Business backend</text><text x="104" y="865" class="node-small">KYC · Payments / Funds · Trades</text><text x="104" y="889" class="node-small">Confirms status, value, and revenue</text>
+
+  <path d="M209 318V350" class="flow"/><path d="M344 279C378 279 378 523 344 523" class="flow"/><path d="M209 562V594" class="flow"/><path d="M209 696V793" class="flow"/>
+  <text x="228" y="345" class="label">Web path</text><text x="357" y="472" class="label">App path</text><text x="228" y="752" class="label">Deep business outcomes</text>
+
+  <text x="438" y="262" class="lane">WEB EVENT</text>
+  <rect x="448" y="285" width="238" height="72" rx="15" fill="#eaf2f7" stroke="#cbdde8"/><text x="472" y="315" class="node">Google Tag Manager</text><text x="472" y="338" class="node-small">Tag · Trigger · Data Layer</text>
+  <rect x="758" y="285" width="206" height="72" rx="15" fill="#eeeaff" stroke="#d7d0fa"/><text x="782" y="315" class="node">Meta Pixel</text><text x="782" y="338" class="node-small">Browser event</text>
+  <path d="M344 401C390 401 390 321 448 321" class="flow"/><path d="M686 321H746" class="meta-flow"/>
+
+  <text x="438" y="424" class="lane">APP EVENT</text>
+  <rect x="448" y="447" width="238" height="68" rx="15" fill="#eeeaff" stroke="#d7d0fa"/><text x="472" y="475" class="node">Meta App Events SDK</text><text x="472" y="497" class="node-small">Optional direct path to Meta</text>
+  <rect x="448" y="535" width="238" height="68" rx="15" fill="#e8f5ee" stroke="#c9e4d5"/><text x="472" y="563" class="node">AppsFlyer SDK</text><text x="472" y="585" class="node-small">Install · Post-install Event</text>
+  <rect x="448" y="623" width="238" height="68" rx="15" fill="#e5f1f8" stroke="#c8dfec"/><text x="472" y="651" class="node">Firebase SDK</text><text x="472" y="673" class="node-small">In-app behavior analytics</text>
+  <path d="M344 651C394 651 394 481 448 481" class="meta-flow"/><path d="M344 651H436" class="mmp-flow"/><path d="M344 651C394 651 394 657 448 657" class="google-flow"/>
+
+  <text x="438" y="763" class="lane">SERVER EVENT</text>
+  <rect x="448" y="786" width="238" height="68" rx="15" fill="#f8ead9" stroke="#edd5b8"/><text x="472" y="814" class="node">Event Source</text><text x="472" y="836" class="node-small">Backend confirms the event</text>
+  <rect x="758" y="754" width="206" height="68" rx="15" fill="#eeeaff" stroke="#d7d0fa"/><text x="782" y="782" class="node">CAPI</text><text x="782" y="804" class="node-small">Server → Meta</text>
+  <rect x="758" y="852" width="206" height="68" rx="15" fill="#e8f5ee" stroke="#c9e4d5"/><text x="782" y="880" class="node">AppsFlyer S2S</text><text x="782" y="902" class="node-small">Server → MMP</text>
+  <path d="M344 866H436" class="internal-flow"/><path d="M686 820C720 820 720 788 758 788" class="meta-flow"/><path d="M686 820C720 820 720 886 758 886" class="mmp-flow"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1060" y="244" width="306" height="232" rx="20" fill="#eeeaff" stroke="#d7d0fa" stroke-width="1.5"/>
+    <rect x="1060" y="530" width="306" height="144" rx="20" fill="#e8f5ee" stroke="#c9e4d5" stroke-width="1.5"/>
+    <rect x="1060" y="724" width="306" height="128" rx="20" fill="#e5f1f8" stroke="#c8dfec" stroke-width="1.5"/>
+    <rect x="1060" y="902" width="306" height="128" rx="20" fill="#f8ead9" stroke="#edd5b8" stroke-width="1.5"/>
+  </g>
+  <text x="1090" y="282" class="platform">Meta</text><text x="1090" y="311" class="platform-sub">Events Manager · Ads Manager</text>
+  <rect x="1090" y="337" width="246" height="48" rx="12" fill="#fff" fill-opacity=".82"/><text x="1110" y="367" class="node-small">Ad optimization &amp; attribution</text>
+  <rect x="1090" y="397" width="246" height="48" rx="12" fill="#fff" fill-opacity=".82"/><text x="1110" y="427" class="node-small">Receives selected Optimization Signals</text>
+  <text x="1090" y="568" class="platform">AppsFlyer · MMP</text><text x="1090" y="597" class="platform-sub">Cross-channel mobile attribution</text><text x="1090" y="628" class="node-small">Install · Post-install Event · Postback</text>
+  <text x="1090" y="762" class="platform">Google Analytics 4</text><text x="1090" y="791" class="platform-sub">Web and app behavior analytics</text><text x="1090" y="822" class="node-small">An independent user-behavior view</text>
+  <text x="1090" y="940" class="platform">Internal data platform</text><text x="1090" y="969" class="platform-sub">Business validation &amp; Source of Truth</text><text x="1090" y="1000" class="node-small">CAC · Retention · Contribution LTV</text>
+
+  <path d="M964 321H1048" class="meta-flow"/><path d="M686 481C905 481 940 400 1048 400" class="meta-flow"/><path d="M964 788C1014 788 1014 432 1048 432" class="meta-flow"/>
+  <path d="M686 569C850 569 918 602 1048 602" class="mmp-flow"/><path d="M964 886C1015 886 1015 640 1048 640" class="mmp-flow"/>
+  <path d="M686 657C864 657 928 788 1048 788" class="google-flow"/><path d="M686 820C900 820 930 966 1048 966" class="internal-flow"/>
+  <path d="M1212 488V518" class="integration"/><text x="1228" y="510" class="label">Partner Integration</text>
+
+  <rect x="74" y="1060" width="1292" height="1" fill="#dedbd4"/>
+  <text x="74" y="1092" class="node-small">Design principle: give each event one Source of Truth, transmission path, and validation report; dashed lines show the Meta–MMP platform integration.</text>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Fintech app data flow from user behavior to ad optimization and business validation</title>
+  <desc id="desc">The left side shows ad impressions or clicks, app store visits, installs and first opens, registrations, KYC completions, first deposits, and first transactions. The middle shows data sources and collection or transmission methods. Events branch to Meta for optimization and attribution and to the internal data platform for CAC, retention, and Contribution LTV analysis.</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 34px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#202126}
+      .subtitle{font:500 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#686b73}
+      .column{font:750 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.07em;fill:#6d7078}
+      .step{font:750 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#2c2e33}
+      .step-en{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#747780}
+      .source{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#31343a}
+      .method{font:650 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#5e6169}
+      .bus-title{font:750 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#4f525a}
+      .bus-note{font:500 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#777a82}
+      .dest-title{font:750 22px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#27292e}
+      .dest-sub{font:700 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.05em}
+      .dest-text{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#44474e}
+      .loop-title{font:750 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#33363c}
+      .loop-note{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#6f727a}
+      .line{fill:none;stroke:#999ba2;stroke-width:2;marker-end:url(#arrow)}
+      .flow{fill:none;stroke:#777a82;stroke-width:2.5;marker-end:url(#arrow)}
+    </style>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#302d4f" flood-opacity=".08"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#888b93"/></marker>
+  </defs>
+
+  <rect width="1280" height="1000" rx="28" fill="#faf9f6"/>
+  <text x="64" y="66" class="eyebrow">FINTECH APP · EVENT DATA FLOW</text>
+  <text x="64" y="113" class="title">One user journey, two data feedback loops</text>
+  <text x="64" y="147" class="subtitle">See where events originate, how they travel, and who ultimately uses them</text>
+
+  <text x="184" y="202" text-anchor="middle" class="column">USER ACTION</text>
+  <text x="566" y="202" text-anchor="middle" class="column">SOURCE &amp; COLLECTION / TRANSMISSION</text>
+  <text x="1048" y="202" text-anchor="middle" class="column">DATA USE</text>
+  <line x1="184" y1="250" x2="184" y2="760" stroke="#d9d6cf" stroke-width="4" stroke-linecap="round"/>
+
+  <g>
+    <circle cx="184" cy="258" r="27" fill="#eeeaff" stroke="#887ce2" stroke-width="2"/><text x="184" y="264" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#6558d6">01</text>
+    <text x="226" y="253" class="step">Ad impression / click</text><text x="226" y="274" class="step-en">Meta Ads touchpoint</text>
+    <path d="M348 258H407" class="line"/><rect x="420" y="226" width="310" height="64" rx="14" fill="#eeeaff" stroke="#d6d0fa"/>
+    <text x="442" y="252" class="source">Meta Ads</text><rect x="604" y="240" width="104" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="656" y="259" text-anchor="middle" class="method">Platform log</text>
+  </g>
+  <g>
+    <circle cx="184" cy="342" r="27" fill="#f3f1ec" stroke="#aaa69d" stroke-width="2"/><text x="184" y="348" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#66635c">02</text>
+    <text x="226" y="337" class="step">App store visit</text><text x="226" y="358" class="step-en">Store Visit</text>
+    <path d="M348 342H407" class="line"/><rect x="420" y="310" width="310" height="64" rx="14" fill="#f3f1ec" stroke="#dfdcd4"/>
+    <text x="442" y="336" class="source">Store platform</text><rect x="604" y="324" width="104" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="656" y="343" text-anchor="middle" class="method">MMP link</text>
+  </g>
+  <g>
+    <circle cx="184" cy="426" r="27" fill="#e5f1f8" stroke="#5f9dbc" stroke-width="2"/><text x="184" y="432" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#397fa5">03</text>
+    <text x="226" y="421" class="step">Install / first open</text><text x="226" y="442" class="step-en">Install / First Open</text>
+    <path d="M348 426H407" class="line"/><rect x="420" y="394" width="310" height="64" rx="14" fill="#e5f1f8" stroke="#c8dfec"/>
+    <text x="442" y="420" class="source">Device / app</text><rect x="574" y="408" width="134" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="641" y="427" text-anchor="middle" class="method">App SDK · MMP</text>
+  </g>
+  <g>
+    <circle cx="184" cy="510" r="27" fill="#e8f5ee" stroke="#5ba67e" stroke-width="2"/><text x="184" y="516" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#3d9469">04</text>
+    <text x="226" y="505" class="step">Registration</text><text x="226" y="526" class="step-en">Account created</text>
+    <path d="M348 510H407" class="line"/><rect x="420" y="478" width="310" height="64" rx="14" fill="#e8f5ee" stroke="#c9e4d5"/>
+    <text x="442" y="504" class="source">Account system</text><rect x="574" y="492" width="134" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="641" y="511" text-anchor="middle" class="method">App SDK · MMP</text>
+  </g>
+  <g>
+    <circle cx="184" cy="594" r="27" fill="#e8f5ee" stroke="#5ba67e" stroke-width="2"/><text x="184" y="600" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#3d9469">05</text>
+    <text x="226" y="589" class="step">KYC completed</text><text x="226" y="610" class="step-en">KYC Complete</text>
+    <path d="M348 594H407" class="line"/><rect x="420" y="562" width="310" height="64" rx="14" fill="#e8f5ee" stroke="#c9e4d5"/>
+    <text x="442" y="588" class="source">KYC system</text><rect x="564" y="576" width="144" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="636" y="595" text-anchor="middle" class="method">Backend · MMP</text>
+  </g>
+  <g>
+    <circle cx="184" cy="678" r="27" fill="#f8ead9" stroke="#d39a63" stroke-width="2"/><text x="184" y="684" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#b47236">06</text>
+    <text x="226" y="673" class="step">First deposit</text><text x="226" y="694" class="step-en">Funds settled</text>
+    <path d="M348 678H407" class="line"/><rect x="420" y="646" width="310" height="64" rx="14" fill="#f8ead9" stroke="#edd5b8"/>
+    <text x="442" y="672" class="source">Payment system</text><rect x="602" y="660" width="106" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="655" y="679" text-anchor="middle" class="method">Backend</text>
+  </g>
+  <g>
+    <circle cx="184" cy="762" r="27" fill="#f8ead9" stroke="#d39a63" stroke-width="2"/><text x="184" y="768" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="750" fill="#b47236">07</text>
+    <text x="226" y="757" class="step">First transaction</text><text x="226" y="778" class="step-en">Trade completed</text>
+    <path d="M348 762H407" class="line"/><rect x="420" y="730" width="310" height="64" rx="14" fill="#f8ead9" stroke="#edd5b8"/>
+    <text x="442" y="756" class="source">Transaction system</text><rect x="602" y="744" width="106" height="28" rx="14" fill="#fff" fill-opacity=".86"/><text x="655" y="763" text-anchor="middle" class="method">Backend</text>
+  </g>
+
+  <rect x="770" y="226" width="90" height="568" rx="18" fill="#f0efe9" stroke="#dcd9d1"/>
+  <text x="815" y="480" text-anchor="middle" class="bus-title" transform="rotate(-90 815 480)">EVENT STREAM</text>
+  <text x="838" y="520" text-anchor="middle" class="bus-note" transform="rotate(-90 838 520)">Name · Time · Identity · Campaign data</text>
+  <path d="M730 258H765" class="line"/><path d="M730 342H765" class="line"/><path d="M730 426H765" class="line"/><path d="M730 510H765" class="line"/><path d="M730 594H765" class="line"/><path d="M730 678H765" class="line"/><path d="M730 762H765" class="line"/>
+
+  <path d="M860 406H900" class="flow"/>
+  <g filter="url(#shadow)"><rect x="914" y="252" width="294" height="292" rx="20" fill="#eeeaff" stroke="#d7d0fa" stroke-width="1.5"/></g>
+  <circle cx="958" cy="298" r="21" fill="#6657d9"/><text x="992" y="305" class="dest-title">Meta</text>
+  <text x="950" y="349" class="dest-sub" fill="#6558d6">RECEIVES SELECTED EVENTS</text>
+  <rect x="950" y="372" width="222" height="58" rx="13" fill="#fff" fill-opacity=".82"/><text x="970" y="397" class="dest-text">Optimization Signal</text><text x="970" y="418" class="step-en">Adjust future ad delivery</text>
+  <rect x="950" y="444" width="222" height="58" rx="13" fill="#fff" fill-opacity=".82"/><text x="970" y="469" class="dest-text">Attribution &amp; Reporting</text><text x="970" y="490" class="step-en">Events Manager · Ads Manager</text>
+  <text x="950" y="524" class="method">Delivery feedback · Faster</text>
+
+  <path d="M860 616H900" class="flow"/>
+  <g filter="url(#shadow)"><rect x="914" y="570" width="294" height="224" rx="20" fill="#e7f5ed" stroke="#c8e3d4" stroke-width="1.5"/></g>
+  <circle cx="958" cy="616" r="21" fill="#3d9469"/><text x="992" y="623" class="dest-title">Internal data platform</text>
+  <text x="950" y="667" class="dest-sub" fill="#3d9469">CONSOLIDATES BUSINESS FACTS</text>
+  <rect x="950" y="690" width="222" height="58" rx="13" fill="#fff" fill-opacity=".82"/><text x="970" y="715" class="dest-text">CAC · Retention · LTV</text><text x="970" y="736" class="step-en">Validate quality and payback</text>
+  <text x="950" y="774" class="method">Business feedback · Slower</text>
+
+  <rect x="72" y="846" width="1136" height="104" rx="17" fill="#fff" stroke="#e2dfd8"/>
+  <path d="M1138 878H723" class="flow"/><text x="92" y="877" class="loop-title">Delivery feedback loop</text><text x="260" y="877" class="loop-note">Event → Meta → Future delivery and daily optimization</text>
+  <path d="M1138 920H723" class="flow"/><text x="92" y="919" class="loop-title">Business feedback loop</text><text x="260" y="919" class="loop-note">Business result → Target CAC / Optimization Event / Budget</text>
+</svg>
