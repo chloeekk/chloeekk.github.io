@@ -54,10 +54,14 @@ Think of an ad network as an “ad marketplace.” On one side, it aggregates ad
   * **CPC**: Pay per click, affecting [advertising budgets](https://chloevolution.com/posts/search-engine-marketing-cost/) directly.
   * **CPA**: Pay per action (e.g., download or registration).
 
+Each platform adds its own prediction and ranking logic to this basic mechanism. For example, [Meta considers Advertiser Bid, Estimated Action Rate, and Ad Quality together](/posts/how-meta-ads-work/), so the highest bid does not necessarily win the impression.
+
 ### 4. Data Feedback & Optimization
 
 * After the campaign, the network reports metrics: impressions, clicks, conversions.
 * Advertisers adjust budgets and strategies using [performance data](https://chloevolution.com/posts/sem-analytics/), while the network uses algorithms to optimize ad delivery for better results.
+
+For a practical example of how a platform receives website, app, and server events, see the [Meta Ads Data Tracking Guide](/posts/meta-ads-data-tracking/).
 
 **Example:**
 

@@ -137,6 +137,8 @@
      - 自定义受众：基于网站访客、APP用户或CRM数据。  
    - **独特功能**：动态广告（自动匹配用户浏览过的商品）、AR试妆广告。  
 
+准备进一步学习 Meta 投放时，可以先了解[Meta 广告系统的竞价与交付机制](/zh-cn/posts/how-meta-ads-work/)，再根据[业务模式制定广告目标和衡量标准](/zh-cn/posts/meta-ads-business-strategy/)。
+
 2. **[TikTok Ads](https://ads.tiktok.com/i18n/home)**  
    - **支持形式**：信息流视频广告、品牌挑战赛（Hashtag Challenge）、购物标签广告。  
    - **定位方式**：  

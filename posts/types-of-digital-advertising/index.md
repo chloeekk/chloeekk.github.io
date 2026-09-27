@@ -131,6 +131,8 @@ Social media ads appear in feeds, stories, or interactive modules on platforms l
      - Custom audiences (website/CRM data).  
    - **Unique**: Dynamic ads (auto-show browsed items), AR try-on ads.  
 
+To go deeper, first learn [how Meta's auction and delivery system works](/posts/how-meta-ads-work/), then connect campaign goals and measurement to the [underlying business model](/posts/meta-ads-business-strategy/).
+
 2. **[TikTok Ads](https://ads.tiktok.com/i18n/home)**  
    - **Formats**: In-feed videos, hashtag challenges, livestream shopping.  
    - **Targeting**:  
@@ -523,3 +525,4 @@ Influencer ads leverage **KOLs/content creators** on social platforms (Instagram
    - **Unique**:  
      - Pinterest TV shoppable livestreams.  
      - Shop the Look direct purchases.  
+

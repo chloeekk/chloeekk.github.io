@@ -19,13 +19,13 @@ Meta 能直接观察到的是广告展示、点击，以及广告主通过网站
 
 ### 为系统提供 Optimization Signal
 
-创建 Campaign 时，广告主会通过 Campaign Objective、Conversion Location、Performance Goal 和 Optimization Event 等设置告诉 Meta 希望获得什么结果。系统随后根据能够观察到的行为寻找更可能完成该结果的用户。
+创建 Campaign 时，广告主会通过 Campaign Objective、Conversion Location、Performance Goal 和 Optimization Event 等设置告诉 Meta 希望获得什么结果。系统随后根据能够观察到的行为寻找更可能完成该结果的用户。[《Meta 广告系统如何运作》](/zh-cn/posts/how-meta-ads-work/)进一步解释了这些信号如何进入 Prediction、Auction 与 Learning Phase。
 
 如果一个 Fintech App 围绕 Install 优化，系统会优先寻找更可能安装 App 的用户。这些用户是否愿意完成 KYC、入金和交易，需要通过后续数据验证。如果 KYC Complete 或 First Transaction 能够稳定回传，并且拥有足够事件量，它们可以向 Meta 提供更接近业务价值的信号。
 
 深层事件也有其局限性：事件数量过少、回传延迟很长、定义频繁变化或数据大量缺失时，深层事件很难形成稳定信号。投手选择 Optimization Event 时，需要同时考虑业务相关性、事件量、回传速度和数据质量。
 
-这里有一个容易忽略的区别：Optimization Event 是系统寻找用户时使用的信号，最终业务事件是团队判断客户价值时采用的标准。两者可以相同，也可以处于转化链路的不同位置。例如，Campaign 暂时围绕 KYC Complete 优化，业务仍然可以使用 Cost per First Transaction 和 D90 Contribution LTV 验收结果。
+这里有一个容易忽略的区别：Optimization Event 是系统寻找用户时使用的信号，最终业务事件是团队判断客户价值时采用的标准。两者可以相同，也可以处于转化链路的不同位置。例如，Campaign 暂时围绕 KYC Complete 优化，业务仍然可以使用 Cost per First Transaction 和 D90 Contribution LTV 验收结果。两者应当如何从业务模式和转化链路中确定，可以参考[《如何根据业务模式制定 Meta 广告策略》](/zh-cn/posts/meta-ads-business-strategy/)。
 
 ### 为投手提供过程反馈
 
@@ -210,7 +210,7 @@ MMP 也不能代替内部业务系统。它可以收到 KYC Complete 或 First T
 
 ### CAPI：从服务器发送业务确认后的 Event
 
-[Conversions API（CAPI）](https://developers.facebook.com/docs/marketing-api/conversions-api/) 允许企业从服务器、CRM 或其他数据源向 Meta 发送 Event。网站 Purchase、Lead 后续状态或线下成交等结果由后端确认时，CAPI 可以提供一条不完全依赖浏览器的传输路径。
+[Conversions API（CAPI）](https://developers.facebook.com/docs/marketing-api/conversions-api/) 允许企业从服务器、CRM 或其他数据源向 Meta 发送 Event。网站 Purchase、Lead 后续状态或[线下成交结果](/zh-cn/posts/offline-conversion-tracking/)由后端确认时，CAPI 可以提供一条不完全依赖浏览器的传输路径。
 
 CAPI 改善的是数据传输能力，不会自动修正业务定义。如果 CRM 把尚未审核的线索标记为 Qualified Lead，或者后端把入金申请当成 First Deposit，错误定义同样会稳定地传给 Meta。因此，接入前应先确认 Event 的完成条件、来源系统和允许用于广告优化的数据范围。
 
@@ -270,7 +270,7 @@ CAPI 改善的是数据传输能力，不会自动修正业务定义。如果 CR
 
 #### 1. 与业务价值存在明确关系
 
-Event 越能预测后续收入、留存或合格客户，业务相关性越高。判断这种关系需要查看真实 Cohort：完成 Registration 的用户中有多少通过 KYC，完成 KYC 的用户中有多少入金和交易，以及不同 Event Cohort 的留存和 Contribution LTV 是否存在稳定差异。
+Event 越能预测后续收入、留存或合格客户，业务相关性越高。判断这种关系需要查看[真实 Cohort](/zh-cn/posts/cohort-vs-non-cohort-in-digital-marketing/)：完成 Registration 的用户中有多少通过 KYC，完成 KYC 的用户中有多少入金和交易，以及不同 Event Cohort 的留存和 Contribution LTV 是否存在稳定差异。
 
 “发生在漏斗更深处”不能自动证明 Event 更有价值。例如，某些 First Deposit 可能来自短期奖励活动，后续没有交易；某些通过 KYC 的用户则可能具有更高的长期活跃概率。最终仍要由业务数据验证。
 
@@ -393,5 +393,4 @@ Meta 还可以识别发生在不同设备上的部分广告接触与转化，MMP
 Meta 广告的数据追踪体系由多个环节共同组成：业务系统确认用户行为，Pixel、App SDK、MMP 和 CAPI 负责采集或传输数据，Meta 使用其中一部分 Event 进行优化和 Attribution，内部数据平台继续验证客户质量与商业价值。任何一个工具都只能覆盖这条链路的一部分。
 
 对投手来说，最重要的能力是把业务目标转换成清晰的 Event，理解 Event 从哪里产生、通过什么路径进入 Meta，以及每套报表能够支持什么判断。
-
 
