@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title desc">
+  <title id="title">Meta Ad Delivery Decision Chain</title>
+  <desc id="desc">After an ad opportunity appears, Meta checks eligibility, retrieves candidates, predicts action probabilities, runs the auction and ranking process, controls pacing, and delivers the ad. Subsequent user behavior becomes feedback for future predictions and delivery.</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 36px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#202126}
+      .subtitle{font:500 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#686b73}
+      .request{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#4f525a}
+      .number{font:750 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .stage-en{font:750 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.055em}
+      .stage-title{font:750 20px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#282a30}
+      .stage-text{font:550 14px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#565961}
+      .formula{font:700 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#5549b5}
+      .result{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#34363c}
+      .loop-title{font:750 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#397f63}
+      .loop-text{font:550 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#62666c}
+      .arrow{fill:none;stroke:#8c8e96;stroke-width:2.3;marker-end:url(#arrowhead)}
+      .loop{fill:none;stroke:#55a27c;stroke-width:2.5;stroke-dasharray:7 6;marker-end:url(#arrowgreen)}
+    </style>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#302d4f" flood-opacity=".09"/>
+    </filter>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#8c8e96"/>
+    </marker>
+    <marker id="arrowgreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#55a27c"/>
+    </marker>
+  </defs>
+
+  <rect width="1500" height="820" rx="28" fill="#faf9f6"/>
+  <text x="64" y="66" class="eyebrow">META ADS · DELIVERY SYSTEM</text>
+  <text x="64" y="115" class="title">How a Meta Ad Is Delivered</text>
+  <text x="64" y="150" class="subtitle">A simplified model for media buyers: from an ad opportunity to feedback for the next decision</text>
+
+  <rect x="64" y="188" width="250" height="48" rx="24" fill="#f0eee8" stroke="#ddd9d0"/>
+  <circle cx="91" cy="212" r="10" fill="#8f8b82"/>
+  <circle cx="91" cy="212" r="4" fill="#faf9f6"/>
+  <text x="112" y="218" class="request">AN AD OPPORTUNITY APPEARS</text>
+  <path d="M314 212H344V329H363" class="arrow"/>
+
+  <!-- connectors -->
+  <path d="M537 329H561" class="arrow"/>
+  <path d="M735 329H759" class="arrow"/>
+  <path d="M933 329H957" class="arrow"/>
+  <path d="M1131 329H1155" class="arrow"/>
+  <path d="M1329 329H1353" class="arrow"/>
+
+  <!-- 01 Eligibility -->
+  <g filter="url(#shadow)">
+    <rect x="363" y="250" width="174" height="276" rx="19" fill="#eeeaff" stroke="#d7d0fa" stroke-width="1.5"/>
+  </g>
+  <circle cx="393" cy="283" r="18" fill="#6657d9"/>
+  <text x="393" y="288" text-anchor="middle" class="number">01</text>
+  <text x="420" y="287" class="stage-en" fill="#6558d6">ELIGIBILITY</text>
+  <text x="387" y="336" class="stage-title">Eligibility</text>
+  <line x1="387" y1="357" x2="513" y2="357" stroke="#d1caf6"/>
+  <text x="387" y="390" class="stage-text">Location and age</text>
+  <text x="387" y="420" class="stage-text">Placement and format</text>
+  <text x="387" y="450" class="stage-text">Review and compliance</text>
+  <text x="387" y="480" class="stage-text">Status and schedule</text>
+
+  <!-- 02 Retrieval -->
+  <g filter="url(#shadow)">
+    <rect x="561" y="250" width="174" height="276" rx="19" fill="#e8f2f8" stroke="#c9deeb" stroke-width="1.5"/>
+  </g>
+  <circle cx="591" cy="283" r="18" fill="#397fa5"/>
+  <text x="591" y="288" text-anchor="middle" class="number">02</text>
+  <text x="618" y="287" class="stage-en" fill="#397fa5">RETRIEVAL</text>
+  <text x="585" y="336" class="stage-title">Retrieval</text>
+  <line x1="585" y1="357" x2="711" y2="357" stroke="#c5dce9"/>
+  <text x="585" y="390" class="stage-text">From a large pool</text>
+  <text x="585" y="420" class="stage-text">retrieve a more relevant</text>
+  <text x="585" y="450" class="stage-text">set of candidate ads</text>
+  <rect x="585" y="474" width="126" height="28" rx="14" fill="#fff" fill-opacity=".78"/>
+  <text x="648" y="493" text-anchor="middle" class="stage-text">Narrow search space</text>
+
+  <!-- 03 Prediction -->
+  <g filter="url(#shadow)">
+    <rect x="759" y="250" width="174" height="276" rx="19" fill="#e8f5ee" stroke="#c9e4d5" stroke-width="1.5"/>
+  </g>
+  <circle cx="789" cy="283" r="18" fill="#3d9469"/>
+  <text x="789" y="288" text-anchor="middle" class="number">03</text>
+  <text x="816" y="287" class="stage-en" fill="#3d9469">PREDICTION</text>
+  <text x="783" y="336" class="stage-title">Prediction</text>
+  <line x1="783" y1="357" x2="909" y2="357" stroke="#c8e3d4"/>
+  <text x="783" y="390" class="stage-text">User and ad signals</text>
+  <text x="783" y="420" class="stage-text">Current delivery context</text>
+  <text x="783" y="450" class="stage-text">Optimization Event</text>
+  <rect x="783" y="474" width="126" height="28" rx="14" fill="#fff" fill-opacity=".8"/>
+  <text x="846" y="493" text-anchor="middle" class="stage-text">Estimated Action</text>
+
+  <!-- 04 Auction -->
+  <g filter="url(#shadow)">
+    <rect x="957" y="250" width="174" height="276" rx="19" fill="#f1edff" stroke="#d7d0fa" stroke-width="1.5"/>
+  </g>
+  <circle cx="987" cy="283" r="18" fill="#6657d9"/>
+  <text x="987" y="288" text-anchor="middle" class="number">04</text>
+  <text x="1014" y="280" class="stage-en" fill="#6558d6">AUCTION</text>
+  <text x="1014" y="296" class="stage-en" fill="#6558d6">&amp; RANKING</text>
+  <text x="981" y="336" class="stage-title">Auction</text>
+  <line x1="981" y1="357" x2="1107" y2="357" stroke="#d1caf6"/>
+  <text x="981" y="390" class="stage-text">Advertiser Bid</text>
+  <text x="981" y="420" class="stage-text">Estimated Action Rate</text>
+  <text x="981" y="450" class="stage-text">Ad Quality</text>
+  <rect x="981" y="474" width="126" height="28" rx="14" fill="#fff" fill-opacity=".82"/>
+  <text x="1044" y="493" text-anchor="middle" class="formula">Compare Total Value</text>
+
+  <!-- 05 Pacing -->
+  <g filter="url(#shadow)">
+    <rect x="1155" y="250" width="174" height="276" rx="19" fill="#f8ead9" stroke="#edd5b8" stroke-width="1.5"/>
+  </g>
+  <circle cx="1185" cy="283" r="18" fill="#b9783c"/>
+  <text x="1185" y="288" text-anchor="middle" class="number">05</text>
+  <text x="1212" y="287" class="stage-en" fill="#ad6e35">PACING</text>
+  <text x="1179" y="336" class="stage-title">Pacing</text>
+  <line x1="1179" y1="357" x2="1305" y2="357" stroke="#ead1b1"/>
+  <text x="1179" y="390" class="stage-text">Budget and time left</text>
+  <text x="1179" y="420" class="stage-text">Bid Strategy</text>
+  <text x="1179" y="450" class="stage-text">Opportunity timing</text>
+  <rect x="1179" y="474" width="126" height="28" rx="14" fill="#fff" fill-opacity=".8"/>
+  <text x="1242" y="493" text-anchor="middle" class="stage-text">Pace participation</text>
+
+  <!-- 06 Delivery -->
+  <g filter="url(#shadow)">
+    <rect x="1353" y="250" width="115" height="276" rx="19" fill="#f2f0eb" stroke="#ddd9d0" stroke-width="1.5"/>
+  </g>
+  <circle cx="1383" cy="283" r="18" fill="#77736b"/>
+  <text x="1383" y="288" text-anchor="middle" class="number">06</text>
+  <text x="1377" y="330" class="stage-en" fill="#6e6a63">DELIVERY</text>
+  <text x="1377" y="372" class="stage-title">Ad</text>
+  <text x="1377" y="398" class="stage-title">is</text>
+  <line x1="1377" y1="419" x2="1444" y2="419" stroke="#d9d5cc"/>
+  <text x="1377" y="452" class="stage-text">shown</text>
+  <text x="1377" y="476" class="stage-text">to the</text>
+  <text x="1377" y="500" class="stage-text">user</text>
+
+  <!-- Feedback -->
+  <path d="M1410 526V605H1340" class="arrow"/>
+  <g filter="url(#shadow)">
+    <rect x="920" y="574" width="420" height="136" rx="19" fill="#e8f5ee" stroke="#c8e3d4" stroke-width="1.5"/>
+  </g>
+  <circle cx="958" cy="610" r="18" fill="#3d9469"/>
+  <text x="958" y="615" text-anchor="middle" class="number">07</text>
+  <text x="988" y="614" class="stage-en" fill="#3d9469">FEEDBACK LOOP</text>
+  <text x="950" y="654" class="stage-title">User behavior creates feedback</text>
+  <text x="950" y="682" class="stage-text">Impressions, clicks, and returned events become optimization data</text>
+
+  <path d="M920 642H846V548" class="loop"/>
+  <rect x="505" y="612" width="316" height="60" rx="15" fill="#f1f7f3" stroke="#c9e4d5"/>
+  <text x="663" y="636" text-anchor="middle" class="loop-title">FEEDBACK ENTERS THE NEXT DECISION</text>
+  <text x="663" y="658" text-anchor="middle" class="loop-text">Updates predictions and changes future delivery</text>
+  <path d="M505 642H450V548" class="loop"/>
+
+  <rect x="64" y="748" width="1404" height="38" rx="12" fill="#f1efe9"/>
+  <text x="766" y="773" text-anchor="middle" class="result">Inputs media buyers can influence: Audience &amp; Placement · Creative · Optimization Event · Data Feedback · Budget &amp; Bid Strategy</text>
+</svg>

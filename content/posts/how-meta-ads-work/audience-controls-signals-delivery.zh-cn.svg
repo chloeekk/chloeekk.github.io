@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+  <title id="title">Meta 受众约束、受众信号与算法交付关系图</title>
+  <desc id="desc">Audience Controls 通过地区、最低年龄、排除人群和合规条件划定 Audience Size。Custom Audience、Lookalike、Interest、Creative 和 Optimization Event 作为信号进入 Meta Delivery Engine。系统结合 Estimated Action Rate、Total Value、预算、竞价和时间，从可触达空间中动态形成实际 Delivered Audience。</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 34px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#202126}
+      .subtitle{font:500 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#686b73}
+      .boundary-title{font:750 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#5549b5}
+      .boundary-sub{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#73767e}
+      .pill{font:700 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#4b4e55}
+      .label{font:750 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.06em;fill:#757880}
+      .signal{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#34363c}
+      .signal-sub{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#73767e}
+      .engine-title{font:750 22px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+      .engine-sub{font:600 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#e9e6ff}
+      .engine-box{font:700 14px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#5549b5}
+      .delivered-title{font:750 19px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#286f50}
+      .delivered-sub{font:550 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#667069}
+      .footer-title{font:750 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#33363c}
+      .footer-text{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#6b6e75}
+      .signal-line{fill:none;stroke:#719db5;stroke-width:2;stroke-dasharray:5 5;marker-end:url(#arrowblue)}
+      .output-line{fill:none;stroke:#53a17b;stroke-width:3;marker-end:url(#arrowgreen)}
+    </style>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="145%">
+      <feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#302d4f" flood-opacity=".09"/>
+    </filter>
+    <marker id="arrowblue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#719db5"/>
+    </marker>
+    <marker id="arrowgreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#53a17b"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="900" rx="28" fill="#faf9f6"/>
+  <text x="64" y="62" class="eyebrow">META ADS · AUDIENCE DELIVERY</text>
+  <text x="64" y="108" class="title">受众设置如何影响实际广告交付</text>
+  <text x="64" y="141" class="subtitle">Controls 划定可触达边界，Signals 提供寻找方向，算法在每次 Auction 中形成实际触达人群</text>
+
+  <!-- Audience-size boundary -->
+  <rect x="64" y="180" width="1152" height="610" rx="25" fill="#f7f5ff" stroke="#8d81e5" stroke-width="2.5" stroke-dasharray="9 7"/>
+  <rect x="88" y="162" width="290" height="50" rx="17" fill="#eeeaff" stroke="#d7d0fa"/>
+  <text x="108" y="184" class="boundary-title">Audience Size · 可触达空间</text>
+  <text x="108" y="201" class="boundary-sub">满足约束后可能参与交付的用户范围</text>
+
+  <!-- Controls -->
+  <text x="96" y="253" class="label">AUDIENCE CONTROLS · 必须遵守的边界</text>
+  <g filter="url(#shadow)">
+    <rect x="96" y="272" width="244" height="60" rx="15" fill="#fff" stroke="#d8d2f4"/>
+    <rect x="361" y="272" width="244" height="60" rx="15" fill="#fff" stroke="#d8d2f4"/>
+    <rect x="626" y="272" width="244" height="60" rx="15" fill="#fff" stroke="#d8d2f4"/>
+    <rect x="891" y="272" width="293" height="60" rx="15" fill="#fff" stroke="#d8d2f4"/>
+  </g>
+  <circle cx="123" cy="302" r="10" fill="#6657d9"/>
+  <text x="145" y="307" class="pill">Location · 服务地区</text>
+  <circle cx="388" cy="302" r="10" fill="#6657d9"/>
+  <text x="410" y="307" class="pill">Minimum Age · 最低年龄</text>
+  <circle cx="653" cy="302" r="10" fill="#6657d9"/>
+  <text x="675" y="307" class="pill">Exclusions · 排除人群</text>
+  <circle cx="918" cy="302" r="10" fill="#6657d9"/>
+  <text x="940" y="307" class="pill">Policy &amp; Eligibility · 合规与资格</text>
+
+  <!-- Candidate dots in reachable space -->
+  <g fill="#dedbe9">
+    <circle cx="103" cy="379" r="6"/><circle cx="151" cy="361" r="6"/><circle cx="202" cy="391" r="6"/>
+    <circle cx="261" cy="365" r="6"/><circle cx="318" cy="389" r="6"/><circle cx="377" cy="365" r="6"/>
+    <circle cx="438" cy="390" r="6"/><circle cx="502" cy="369" r="6"/><circle cx="564" cy="390" r="6"/>
+    <circle cx="628" cy="365" r="6"/><circle cx="693" cy="389" r="6"/><circle cx="754" cy="365" r="6"/>
+    <circle cx="819" cy="389" r="6"/><circle cx="884" cy="365" r="6"/><circle cx="947" cy="389" r="6"/>
+    <circle cx="1012" cy="365" r="6"/><circle cx="1077" cy="389" r="6"/><circle cx="1147" cy="365" r="6"/>
+    <circle cx="111" cy="735" r="6"/><circle cx="176" cy="760" r="6"/><circle cx="242" cy="734" r="6"/>
+    <circle cx="307" cy="760" r="6"/><circle cx="372" cy="736" r="6"/><circle cx="438" cy="760" r="6"/>
+    <circle cx="501" cy="735" r="6"/><circle cx="566" cy="760" r="6"/><circle cx="632" cy="735" r="6"/>
+    <circle cx="699" cy="760" r="6"/><circle cx="766" cy="736" r="6"/><circle cx="831" cy="760" r="6"/>
+    <circle cx="896" cy="736" r="6"/><circle cx="962" cy="760" r="6"/><circle cx="1028" cy="735" r="6"/>
+    <circle cx="1093" cy="760" r="6"/><circle cx="1160" cy="735" r="6"/>
+  </g>
+
+  <!-- Signal arrows sit behind the cards -->
+  <path d="M341 485C465 485 485 500 635 520" class="signal-line"/>
+  <path d="M341 569C470 569 502 556 635 544" class="signal-line"/>
+  <path d="M341 653C480 653 525 603 635 566" class="signal-line"/>
+  <path d="M581 513H635" class="signal-line"/>
+  <path d="M581 625C610 625 617 597 645 578" class="signal-line"/>
+
+  <!-- Signals -->
+  <text x="96" y="430" class="label">AUDIENCE &amp; DELIVERY SIGNALS · 寻找方向</text>
+  <g filter="url(#shadow)">
+    <rect x="96" y="451" width="245" height="68" rx="16" fill="#e8f2f8" stroke="#c5dce9"/>
+    <rect x="96" y="535" width="245" height="68" rx="16" fill="#e8f2f8" stroke="#c5dce9"/>
+    <rect x="96" y="619" width="245" height="68" rx="16" fill="#e8f2f8" stroke="#c5dce9"/>
+    <rect x="366" y="472" width="215" height="82" rx="16" fill="#f8ead9" stroke="#ead1b1"/>
+    <rect x="366" y="584" width="215" height="82" rx="16" fill="#e8f5ee" stroke="#c8e3d4"/>
+  </g>
+  <text x="120" y="480" class="signal">Custom Audience</text>
+  <text x="120" y="501" class="signal-sub">已有客户与互动数据</text>
+  <text x="120" y="564" class="signal">Lookalike Audience</text>
+  <text x="120" y="585" class="signal-sub">基于 Source 的相似性信号</text>
+  <text x="120" y="648" class="signal">Interest</text>
+  <text x="120" y="669" class="signal-sub">可能相关的兴趣方向</text>
+  <text x="390" y="505" class="signal">Creative</text>
+  <text x="390" y="526" class="signal-sub">表达吸引并筛选响应者</text>
+  <text x="390" y="617" class="signal">Optimization Event</text>
+  <text x="390" y="638" class="signal-sub">定义系统寻找的成功结果</text>
+
+  <!-- Engine -->
+  <g filter="url(#shadow)">
+    <rect x="650" y="441" width="274" height="236" rx="24" fill="#6558d6"/>
+  </g>
+  <circle cx="787" cy="484" r="20" fill="#7f73e4" stroke="#a9a0f0"/>
+  <path d="M777 484h20M787 474v20" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="787" y="529" text-anchor="middle" class="engine-title">Meta Delivery Engine</text>
+  <text x="787" y="552" text-anchor="middle" class="engine-sub">对每次用户 × 广告 × 情境组合进行预测</text>
+  <rect x="680" y="574" width="214" height="36" rx="12" fill="#fff" fill-opacity=".93"/>
+  <text x="787" y="597" text-anchor="middle" class="engine-box">Estimated Action Rate</text>
+  <rect x="680" y="620" width="214" height="36" rx="12" fill="#fff" fill-opacity=".93"/>
+  <text x="787" y="643" text-anchor="middle" class="engine-box">Auction · Total Value</text>
+
+  <!-- Output -->
+  <path d="M924 559H966" class="output-line"/>
+  <g filter="url(#shadow)">
+    <rect x="981" y="428" width="203" height="262" rx="24" fill="#e7f5ed" stroke="#9bcfb3" stroke-width="1.7"/>
+  </g>
+  <text x="1082" y="468" text-anchor="middle" class="delivered-title">Delivered Audience</text>
+  <text x="1082" y="490" text-anchor="middle" class="delivered-sub">实际触达人群</text>
+  <text x="1082" y="514" text-anchor="middle" class="delivered-sub">Audience Size 的动态子集</text>
+  <!-- selected people -->
+  <g>
+    <circle cx="1030" cy="562" r="18" fill="#55a27c"/><circle cx="1082" cy="548" r="18" fill="#3d9469"/><circle cx="1134" cy="562" r="18" fill="#70b792"/>
+    <circle cx="1055" cy="612" r="18" fill="#70b792"/><circle cx="1109" cy="612" r="18" fill="#55a27c"/>
+    <circle cx="1030" cy="557" r="5" fill="#fff"/><path d="M1020 574q10-10 20 0" fill="#fff"/>
+    <circle cx="1082" cy="543" r="5" fill="#fff"/><path d="M1072 560q10-10 20 0" fill="#fff"/>
+    <circle cx="1134" cy="557" r="5" fill="#fff"/><path d="M1124 574q10-10 20 0" fill="#fff"/>
+    <circle cx="1055" cy="607" r="5" fill="#fff"/><path d="M1045 624q10-10 20 0" fill="#fff"/>
+    <circle cx="1109" cy="607" r="5" fill="#fff"/><path d="M1099 624q10-10 20 0" fill="#fff"/>
+  </g>
+  <rect x="1007" y="649" width="151" height="26" rx="13" fill="#fff" fill-opacity=".78"/>
+  <text x="1082" y="667" text-anchor="middle" class="signal-sub">持续随交付结果变化</text>
+
+  <!-- Context/footer -->
+  <rect x="64" y="815" width="1152" height="55" rx="15" fill="#f0eee8" stroke="#dfdcd4"/>
+  <text x="88" y="839" class="footer-title">决定最终触达范围的其他条件</text>
+  <text x="88" y="859" class="footer-text">Budget · Bid Strategy · Placement · 市场竞争 · 投放时间 · 用户反馈与 Event 回传</text>
+  <text x="1185" y="847" text-anchor="end" class="footer-title">Audience Size → 潜在范围</text>
+  <text x="1185" y="865" text-anchor="end" class="footer-title" fill="#337e59">Delivered Audience → 实际结果</text>
+</svg>

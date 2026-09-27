@@ -94,7 +94,7 @@ Describing the business model turns the vague statement “We have an app” int
 | Decision cycle | How long until user value is confirmed? | Determines the observation window and depth of the optimization event |
 | Constraints | Which markets, users, or claims are restricted? | Determines delivery boundaries and available strategies |
 
-This step affects every later campaign setting. Two advertisers can select the same Campaign Objective but use entirely different events, audience signals, creative messages, and measurement standards because their business contexts differ. Ads Manager supplies the tools; business context determines how to use them.
+This step affects every later campaign setting. Two advertisers can select the same Campaign Objective but use entirely different events, audience signals, creative messages, and measurement standards because their business contexts differ. Ads Manager supplies the tools; business context determines how to use them. To see how these inputs affect auctions, machine learning, and actual delivery, read [How the Meta Ads System Works](/posts/how-meta-ads-work/).
 
 ## Map the complete journey from ad touchpoint to business value
 
@@ -102,7 +102,7 @@ After defining the business context, map the user's progression from seeing an a
 
 Ads Manager shows behaviors that the platform can identify, such as impressions, clicks, installs, registrations, or purchases. Internally, the business may have additional stages that determine user value: completing onboarding, passing KYC, making a first deposit, placing a first transaction, renewing, and remaining active over time. These actions happen in different systems and at different times. Observing only one segment can lead to the wrong conclusion about advertising performance.
 
-For example, a fintech ad may generate many installs and registrations, while a large share of those users drop out at KYC or first deposit. CPI and Cost per Registration can both look strong while the more important Cost per Funded User rises. The ad platform will not perform this business-level assessment automatically; the media buyer has to connect advertising data with downstream user behavior.
+For example, a fintech ad may generate many installs and registrations, while a large share of those users drop out at KYC or first deposit. CPI and Cost per Registration can both look strong while the more important Cost per Funded User rises. The ad platform will not perform this business-level assessment automatically; the media buyer has to connect advertising data with downstream user behavior. The [Meta Ads Data Tracking Guide](/posts/meta-ads-data-tracking/) explains how Pixel, App SDK, MMP, CAPI, and internal systems contribute to that connection.
 
 ### Extend platform-visible behavior into the full business journey
 
@@ -403,7 +403,7 @@ Before creating a campaign, I use the following checklist to confirm that the st
 | Unit economics | What are Target CAC, Contribution LTV, and Payback Period? | CPA hits target while total acquisition still loses money or consumes too much cash |
 | Advertising task | Which users should Meta Ads influence to complete which behavior? | One campaign carries several goals that cannot share a measurement standard |
 | Optimization event | Which event balances business value, volume, transmission speed, and data quality? | The system acquires cheap, low-value outcomes or cannot deliver consistently because signals are too sparse |
-| Measurement plan | Which process metrics are reviewed daily, and when is each business outcome used for validation? | Decisions use an immature cohort or rely only on platform attribution |
+| Measurement plan | Which process metrics are reviewed daily, and when is each business outcome used for validation? | Decisions use an immature [cohort](/posts/cohort-vs-non-cohort-in-digital-marketing/) or rely only on platform attribution |
 | Constraints and ownership | What are the market, compliance, budget, and risk boundaries, and who handles anomalies? | Advertising, product, review, and data problems are passed between teams |
 
 This checklist does not require every input to be highly certain from the beginning. A new product may lack complete LTV data, and a new conversion event may not have stable historical rates. In that case, explicitly label uncertain inputs as assumptions: use D30 Contribution LTV as a proxy for full LTV, control testing with a Target CAC range, or first accumulate data around a shallower event.

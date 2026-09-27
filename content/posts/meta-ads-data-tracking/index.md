@@ -24,13 +24,13 @@ For a media buyer, business data serves at least three purposes: it provides Met
 
 ### Providing optimization signals to the system
 
-When creating a campaign, an advertiser uses settings such as Campaign Objective, Conversion Location, Performance Goal, and Optimization Event to tell Meta which result they want. The system then uses the behaviors it can observe to find people who are more likely to complete that result.
+When creating a campaign, an advertiser uses settings such as Campaign Objective, Conversion Location, Performance Goal, and Optimization Event to tell Meta which result they want. The system then uses the behaviors it can observe to find people who are more likely to complete that result. [How the Meta Ads System Works](/posts/how-meta-ads-work/) explains how these signals enter prediction, auctions, and Learning Phase.
 
 If a fintech app optimizes for Install, the system will prioritize people who are more likely to install the app. Whether those users will complete KYC, make a deposit, and place a transaction must be validated with downstream data. If KYC Complete or First Transaction can be sent back consistently and occurs at sufficient volume, these events can give Meta signals that are closer to business value.
 
 Deeper events also have limitations. When event volume is too low, transmission is substantially delayed, definitions change frequently, or large amounts of data are missing, a deep event is unlikely to provide a stable signal. When selecting an Optimization Event, a media buyer needs to consider its relevance to the business, event volume, transmission speed, and data quality together.
 
-There is an important distinction here that is easy to overlook. An Optimization Event is the signal the system uses to find users; the final business event is the standard the team uses to assess customer value. They may be the same event or sit at different points in the conversion journey. For example, a campaign may temporarily optimize for KYC Complete while the business still uses Cost per First Transaction and D90 Contribution LTV to evaluate the result.
+There is an important distinction here that is easy to overlook. An Optimization Event is the signal the system uses to find users; the final business event is the standard the team uses to assess customer value. They may be the same event or sit at different points in the conversion journey. For example, a campaign may temporarily optimize for KYC Complete while the business still uses Cost per First Transaction and D90 Contribution LTV to evaluate the result. [How to Build a Meta Ads Strategy Around Your Business Model](/posts/meta-ads-business-strategy/) explains how to derive both events from the business model and conversion journey.
 
 ### Giving media buyers feedback during delivery
 
@@ -215,7 +215,7 @@ An MMP also cannot replace internal business systems. It may receive KYC Complet
 
 ### CAPI: sending server-confirmed events
 
-[Conversions API (CAPI)](https://developers.facebook.com/docs/marketing-api/conversions-api/) allows a company to send events to Meta from a server, CRM, or another data source. When a website purchase, downstream lead status, or offline sale is confirmed by a backend system, CAPI provides a transmission path that does not rely entirely on the browser.
+[Conversions API (CAPI)](https://developers.facebook.com/docs/marketing-api/conversions-api/) allows a company to send events to Meta from a server, CRM, or another data source. When a website purchase, downstream lead status, or [offline sale](/posts/offline-conversion-tracking/) is confirmed by a backend system, CAPI provides a transmission path that does not rely entirely on the browser.
 
 CAPI improves data transmission; it does not automatically correct business definitions. If a CRM labels an unreviewed lead as Qualified Lead, or a backend treats a deposit request as First Deposit, the incorrect definition will still be sent to Meta consistently. Before integration, the team should confirm the event's completion criteria, source system, and whether the data is permitted to be used for ad optimization.
 
@@ -275,7 +275,7 @@ The role of the same event can also change with the stage of the business. First
 
 #### 1. A clear relationship with business value
 
-The better an event predicts downstream revenue, retention, or qualified customers, the more relevant it is to the business. Assessing that relationship requires actual cohort data: how many registered users pass KYC, how many KYC-complete users deposit and transact, and whether cohorts defined by different events show consistent differences in retention and Contribution LTV.
+The better an event predicts downstream revenue, retention, or qualified customers, the more relevant it is to the business. Assessing that relationship requires [actual cohort data](/posts/cohort-vs-non-cohort-in-digital-marketing/): how many registered users pass KYC, how many KYC-complete users deposit and transact, and whether cohorts defined by different events show consistent differences in retention and Contribution LTV.
 
 An event's deeper position in the funnel does not automatically make it more valuable. Some First Deposits may be driven by a short-term incentive and lead to no subsequent transaction, while some users who pass KYC may have a higher probability of remaining active. Business data still needs to validate the relationship.
 

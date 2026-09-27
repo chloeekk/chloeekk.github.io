@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="980" viewBox="0 0 1280 980" role="img" aria-labelledby="title desc">
+  <title id="title">Meta Learning Status vs. Fintech Business Outcomes</title>
+  <desc id="desc">Three simulated ad sets optimize for KYC Complete. Ad Set B is Learning Limited but has the best Cost per First Transaction and D90 Contribution LTV. Ad Set C is Active and has the lowest KYC cost, but weaker transaction rate and business value.</desc>
+  <defs>
+    <style>
+      .eyebrow{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.12em;fill:#6558d6}
+      .title{font:750 34px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#202126}
+      .subtitle{font:500 16px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#686b73}
+      .section{font:750 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#2c2e33}
+      .section-note{font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#747780}
+      .head{font:700 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.04em;fill:#777a82}
+      .name{font:700 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#303238}
+      .value{font:650 15px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#3f4249}
+      .small{font:500 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#70737b}
+      .status{font:750 12px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+      .bridge{font:700 14px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#5a5d64}
+      .insight-title{font:750 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#292b30}
+      .insight-text{font:550 14px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#555860}
+      .conclusion{font:750 17px -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;fill:#fff}
+    </style>
+    <filter id="shadow" x="-8%" y="-12%" width="116%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#302d4f" flood-opacity=".08"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#8f9299"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="980" rx="28" fill="#faf9f6"/>
+  <text x="64" y="62" class="eyebrow">FINTECH APP · LEARNING STATUS</text>
+  <text x="64" y="108" class="title">Learning Status and Business Results Can Disagree</text>
+  <text x="64" y="141" class="subtitle">Compare Meta delivery status with internal customer value over the same period</text>
+
+  <rect x="64" y="169" width="1152" height="42" rx="13" fill="#f0eee8" stroke="#dfdcd4"/>
+  <rect x="82" y="179" width="102" height="22" rx="11" fill="#6558d6"/>
+  <text x="133" y="194" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="11" font-weight="750" fill="#fff">SIMULATED DATA</text>
+  <text x="204" y="196" class="small">Window: Last 7 days</text>
+  <circle cx="365" cy="190" r="3" fill="#99958d"/>
+  <text x="380" y="196" class="small">Optimization Event: KYC Complete</text>
+  <circle cx="664" cy="190" r="3" fill="#99958d"/>
+  <text x="679" y="196" class="small">Business thresholds: Cost / First Transaction ≤ $150 · D90 Contribution LTV ≥ $200</text>
+
+  <!-- Meta view -->
+  <text x="64" y="255" class="section">01 · ADS MANAGER DELIVERY VIEW</text>
+  <text x="430" y="255" class="section-note">Question: Does the system have enough optimization events to stabilize?</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="276" width="1152" height="252" rx="18" fill="#fff" stroke="#dfdcd5"/>
+  </g>
+  <rect x="64" y="276" width="1152" height="50" rx="18" fill="#f3f1ec"/>
+  <rect x="64" y="308" width="1152" height="18" fill="#f3f1ec"/>
+  <text x="92" y="307" class="head">AD SET</text>
+  <text x="360" y="307" class="head">DELIVERY</text>
+  <text x="546" y="307" class="head">RESULTS</text>
+  <text x="676" y="301" class="head">COST PER RESULT</text>
+  <text x="676" y="316" class="small">KYC Complete</text>
+  <text x="873" y="307" class="head">LAST SIGNIFICANT EDIT</text>
+  <line x1="64" y1="326" x2="1216" y2="326" stroke="#e3e0d9"/>
+  <line x1="64" y1="393" x2="1216" y2="393" stroke="#ece9e3"/>
+  <line x1="64" y1="460" x2="1216" y2="460" stroke="#ece9e3"/>
+
+  <!-- row A -->
+  <circle cx="91" cy="359" r="7" fill="#7467d9"/>
+  <text x="111" y="355" class="name">Ad Set A · New Users</text>
+  <text x="111" y="375" class="small">Broad · Mobile App</text>
+  <rect x="346" y="344" width="92" height="29" rx="14.5" fill="#eeeaff"/>
+  <circle cx="364" cy="358.5" r="4" fill="#6558d6"/>
+  <text x="376" y="363" class="status" fill="#594cc3">Learning</text>
+  <text x="566" y="364" class="value">31</text>
+  <text x="708" y="364" class="value">$36</text>
+  <text x="873" y="355" class="value">2 days ago</text>
+  <text x="873" y="375" class="small">New creative</text>
+
+  <!-- row B -->
+  <circle cx="91" cy="426" r="7" fill="#c88240"/>
+  <text x="111" y="422" class="name">Ad Set B · High Intent</text>
+  <text x="111" y="442" class="small">Custom Signal · Mobile App</text>
+  <rect x="346" y="411" width="130" height="29" rx="14.5" fill="#f8ead9"/>
+  <circle cx="364" cy="425.5" r="4" fill="#be7737"/>
+  <text x="376" y="430" class="status" fill="#a9652d">Learning Limited</text>
+  <text x="566" y="431" class="value">16</text>
+  <text x="708" y="431" class="value">$49</text>
+  <text x="873" y="422" class="value">12 days ago</text>
+  <text x="873" y="442" class="small">Audience edit</text>
+
+  <!-- row C -->
+  <circle cx="91" cy="493" r="7" fill="#44976e"/>
+  <text x="111" y="489" class="name">Ad Set C · App Scale</text>
+  <text x="111" y="509" class="small">Broad · Advantage+ Placements</text>
+  <rect x="346" y="478" width="78" height="29" rx="14.5" fill="#e7f5ed"/>
+  <circle cx="364" cy="492.5" r="4" fill="#3d9469"/>
+  <text x="376" y="497" class="status" fill="#337e59">Active</text>
+  <text x="566" y="498" class="value">58</text>
+  <text x="708" y="498" class="value">$28</text>
+  <text x="873" y="489" class="value">18 days ago</text>
+  <text x="873" y="509" class="small">Bid strategy edit</text>
+
+  <!-- bridge -->
+  <path d="M640 528V566" fill="none" stroke="#8f9299" stroke-width="2.2" marker-end="url(#arrow)"/>
+  <rect x="394" y="542" width="492" height="47" rx="23.5" fill="#f0eee8" stroke="#dedbd3"/>
+  <text x="640" y="571" text-anchor="middle" class="bridge">CONNECT AD USERS TO INTERNAL KYC, TRANSACTION, AND VALUE DATA</text>
+
+  <!-- Business view -->
+  <text x="64" y="630" class="section">02 · INTERNAL BUSINESS VALIDATION</text>
+  <text x="430" y="630" class="section-note">Question: Do these users complete core actions and create enough value?</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="651" width="1152" height="252" rx="18" fill="#fff" stroke="#dfdcd5"/>
+  </g>
+  <rect x="64" y="651" width="1152" height="50" rx="18" fill="#edf5f1"/>
+  <rect x="64" y="683" width="1152" height="18" fill="#edf5f1"/>
+  <text x="92" y="682" class="head">AD SET</text>
+  <text x="337" y="676" class="head">FIRST</text>
+  <text x="337" y="691" class="head">TRANSACTIONS</text>
+  <text x="473" y="676" class="head">FIRST TRANSACTION</text>
+  <text x="473" y="691" class="head">RATE</text>
+  <text x="652" y="676" class="head">COST PER FIRST</text>
+  <text x="652" y="691" class="head">TRANSACTION</text>
+  <text x="842" y="676" class="head">D90 CONTRIBUTION</text>
+  <text x="842" y="691" class="head">LTV</text>
+  <text x="1040" y="682" class="head">BUSINESS VERDICT</text>
+  <line x1="64" y1="701" x2="1216" y2="701" stroke="#dfe9e4"/>
+  <line x1="64" y1="768" x2="1216" y2="768" stroke="#ece9e3"/>
+  <line x1="64" y1="835" x2="1216" y2="835" stroke="#ece9e3"/>
+
+  <circle cx="91" cy="734" r="7" fill="#7467d9"/>
+  <text x="111" y="739" class="name">Ad Set A · New Users</text>
+  <text x="367" y="739" class="value">8</text>
+  <text x="520" y="739" class="value">25.8%</text>
+  <text x="700" y="739" class="value">$139.50</text>
+  <text x="869" y="739" class="value">$205</text>
+  <rect x="1024" y="719" width="110" height="30" rx="15" fill="#eeeaff"/>
+  <text x="1079" y="739" text-anchor="middle" class="status" fill="#594cc3">Monitor</text>
+
+  <rect x="64" y="768" width="1152" height="67" fill="#f0f8f4"/>
+  <circle cx="91" cy="801" r="7" fill="#c88240"/>
+  <text x="111" y="806" class="name">Ad Set B · High Intent</text>
+  <text x="367" y="806" class="value">7</text>
+  <text x="520" y="806" class="value">43.8%</text>
+  <text x="700" y="806" class="value">$112.00</text>
+  <text x="869" y="806" class="value">$228</text>
+  <rect x="1024" y="786" width="126" height="30" rx="15" fill="#dff2e7"/>
+  <text x="1087" y="806" text-anchor="middle" class="status" fill="#337e59">Best outcome</text>
+
+  <circle cx="91" cy="868" r="7" fill="#44976e"/>
+  <text x="111" y="873" class="name">Ad Set C · App Scale</text>
+  <text x="367" y="873" class="value">7</text>
+  <text x="520" y="873" class="value">12.1%</text>
+  <text x="700" y="873" class="value">$232.00</text>
+  <text x="869" y="873" class="value">$160</text>
+  <rect x="1024" y="853" width="110" height="30" rx="15" fill="#f8e5e3"/>
+  <text x="1079" y="873" text-anchor="middle" class="status" fill="#a9564d">Below target</text>
+
+  <!-- Conclusion -->
+  <rect x="64" y="925" width="1152" height="38" rx="12" fill="#34373d"/>
+  <text x="640" y="950" text-anchor="middle" class="conclusion">Learning Limited can produce the best business outcome; Active describes delivery, not customer quality</text>
+</svg>
